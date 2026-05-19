@@ -1,0 +1,637 @@
+{
+  "id": "B3",
+  "title": "Hemorragia Subaracnoidea",
+  "subtitle": "Bloque B — HSA Aneurismática: Diagnóstico, Clasificación y Manejo en Cuidados Críticos",
+  "block": "B",
+  "block_name": "Neurocirugía Neurovascular",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "AHA/ASA SAH Guidelines 2023 · EANS Neurovascular Guidelines 2023 · ESO SAH Guidelines 2022",
+  "textbook_refs": [
+    "Connolly ES et al. Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage. Stroke 2012 (actualizado 2023)",
+    "Macdonald RL et al. Clazosentán y vasoespasmo tras HSA (ensayos CONSCIOUS). Lancet Neurol 2012",
+    "Diringer MN et al. Critical Care Management of Patients Following Aneurysmal SAH. Neurocrit Care 2011",
+    "Molyneux AJ et al. ISAT: International Subarachnoid Aneurysm Trial. Lancet 2002"
+  ],
+  "learning_objectives": [
+    "Diagnosticar la HSA aneurismática utilizando la Regla de Ottawa para HSA y distinguir la xantocromía de una punción traumática",
+    "Aplicar las escalas Hunt-Hess y de la Federación Mundial de Sociedades Neuroquirúrgicas (WFNS) para predecir el resultado y orientar el manejo",
+    "Definir el manejo del vasoespasmo cerebral precoz: terapia 3H frente a euvolemia, evidencia de nimodipino (ensayo BRANT) e intervención endovascular de rescate",
+    "Seleccionar entre clipaje quirúrgico y embolización endovascular con espirales basándose en la evidencia de los ensayos ISAT e ISAT2 y la anatomía del aneurisma",
+    "Manejar las complicaciones post-HSA: hiponatremia (SSRC frente a SIADH), hidrocefalia, resangrado y profilaxis anticomicial",
+    "Reconocer y manejar la isquemia cerebral tardía (ICT) como entidad distinta del vasoespasmo radiológico"
+  ],
+  "sections": [
+    {
+      "id": "B3-S1",
+      "title": "Diagnóstico: Regla de Ottawa para HSA, TC y Punción Lumbar",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hemorragia subaracnoidea (HSA) aneurismática representa aproximadamente el 5% de todos los ictus, pero tiene una tasa de mortalidad a 30 días del 40–50% con una morbilidad cognitiva significativa a largo plazo en los supervivientes. El síntoma cardinal es la **cefalea en trueno** — 'la peor cefalea de mi vida' con intensidad máxima en segundos a minutos. Hasta el 50% de los pacientes describen una cefalea centinela (hemorragia de advertencia) en las semanas previas. Aproximadamente el 10–20% de los pacientes fallecen antes de llegar al hospital. La **Regla de Ottawa para HSA** (Perry, Lancet 2011) tiene una sensibilidad del 100% para identificar la HSA que requiere punción lumbar tras una TC negativa: TODOS los siguientes criterios deben estar ausentes para excluir la PL — edad ≥40 años, rigidez de nuca, pérdida de consciencia presenciada, inicio con el esfuerzo, carácter en trueno y limitación de la flexión cervical. La TC craneal sin contraste (TCSC) es la prueba diagnóstica principal: la sensibilidad disminuye del 98% en <6 horas al 85–90% a las 24 horas. La **angioTC** ha reemplazado a la angiografía con catéter para la detección inicial de aneurismas (sensibilidad 97–99% para aneurismas >5 mm; menor para ≤3 mm). La **punción lumbar** es necesaria cuando la TC es negativa o equívoca en un paciente con alta sospecha clínica: los hallazgos característicos son LCR uniformemente hemático en todos los tubos (sin aclaramiento entre los tubos 1 y 4, a diferencia de una punción traumática) más **xantocromía** — coloración amarillenta del LCR centrifugado por oxihemoglobina y bilirrubina (es necesario esperar ≥12 horas tras el inicio de los síntomas para la acumulación fiable de bilirrubina). El UK National External Quality Assessment Service (NEQAS) recomienda el análisis espectrofotométrico del LCR para xantocromía — la inspección visual aislada tiene tasas de falsos negativos de hasta el 50%."
+        },
+        {
+          "type": "table",
+          "title": "Escalas de Clasificación de la HSA — Hunt-Hess y WFNS",
+          "headers": ["Grado", "Descripción Hunt-Hess", "WFNS (GCS + Motor)", "Resultado Esperado"],
+          "rows": [
+            ["I", "Asintomático o cefalea leve, meningismo leve", "GCS 15, sin déficit motor", "Bueno: 70% independiente"],
+            ["II", "Cefalea moderada-grave, rigidez de nuca, sin déficit neurológico salvo parálisis de pares craneales", "GCS 13–14, sin déficit motor", "Bueno: 60% independiente"],
+            ["III", "Somnolencia, confusión o déficit focal leve", "GCS 13–14, con déficit motor", "Moderado: 50% independiente"],
+            ["IV", "Estupor, hemiparesia moderada-grave, rigidez de descerebración incipiente", "GCS 7–12, con/sin déficit motor", "Malo: 20% independiente"],
+            ["V", "Coma profundo, postura de descerebración, aspecto moribundo", "GCS 3–6, con/sin déficit motor", "Muy malo: <5% independiente"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Xantocromía y Momento de la Punción Lumbar",
+          "content": "La xantocromía (bilirrubina en LCR) requiere un mínimo de 12 horas tras el ictus para desarrollarse — la bilirrubina se acumula cuando la oxihemoglobina es metabolizada. Realizar la PL antes de las 12 horas puede producir un resultado falsamente negativo de xantocromía incluso en una HSA verdadera. Sensibilidad de la xantocromía por espectrofotometría: 100% a las 12 horas, declinando a aproximadamente el 70% a las 2 semanas. La inspección visual tiene una tasa de falsos negativos del ~50%."
+        }
+      ]
+    },
+    {
+      "id": "B3-S2",
+      "title": "Oclusión del Aneurisma: Clipaje frente a Embolización — ISAT",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La decisión fundamental de tratamiento en la HSA aneurismática es el **clipaje quirúrgico frente a la embolización endovascular con espirales**. El ensayo **ISAT** (International Subarachnoid Aneurysm Trial, Molyneux, Lancet 2002) aleatorizó a 2.143 pacientes con aneurismas intracraneales rotos susceptibles de ambos tratamientos a clipaje neuroquirúrgico o embolización endovascular. El criterio de valoración principal al año — muerte o dependencia (mRS 3–6) — fue significativamente menor con la embolización: 23,7% frente a 30,6% (reducción del riesgo absoluto del 6,9%, RR 0,77, P=0,0001). Esto representó una reducción del riesgo relativo del 23% para muerte o discapacidad. Seguimiento a largo plazo (ISAT, Lancet 2005; seguimiento a 18 años Molyneux 2015): el beneficio inicial de la embolización se mantuvo, pero los aneurismas embolizados tuvieron una **mayor tasa de retratamiento** (13,6% frente a 8,4% para el clipaje a los 18 años) por compactación de espirales y recurrencia del aneurisma. El **resangrado tras embolización** fue más frecuente a largo plazo: 3,6% frente a 2,2% para el clipaje. El ensayo **ISAT2** está en curso para aneurismas no rotos. Implicación clínica: para la mayoría de los aneurismas de la circulación anterior manejables por ambas técnicas, la embolización consigue mejores resultados precoces; sin embargo, el clipaje logra una oclusión del aneurisma más duradera. Los **aneurismas de la arteria cerebral media (ACM)** se clipan habitualmente por su compleja anatomía en bifurcación. Los **aneurismas de la punta de la arteria basilar** se embolizan habitualmente. Los **aneurismas de cuello ancho** (relación cúpula/cuello <1,5) pueden requerir embolización asistida con stent o desviación de flujo."
+        },
+        {
+          "type": "table",
+          "title": "Clipaje frente a Embolización — Factores de Decisión",
+          "headers": ["Factor", "Favorece Clipaje Quirúrgico", "Favorece Embolización Endovascular"],
+          "rows": [
+            ["Localización", "Bifurcación ACM, pericallosa", "Punta basilar, circulación posterior, paraclinoide ACI"],
+            ["Morfología", "Cuello ancho (cuello >4 mm o relación C/C <1,5), irregular", "Cuello estrecho (C/C >1,5), redondo/regular"],
+            ["Edad del paciente", "Paciente joven (durabilidad a largo plazo importante)", "Paciente mayor (beneficio de embolización sostenido durante la esperanza de vida esperada)"],
+            ["Hematoma asociado", "Hematoma parenquimatoso que necesita evacuación", "Sin hematoma"],
+            ["Resultado principal ISAT", "mRS 3–6 al año: 30,6%", "mRS 3–6 al año: 23,7% (P<0,0001)"],
+            ["Recurrencia a largo plazo ISAT", "Menor retratamiento (8,4% a los 18 años)", "Mayor retratamiento (13,6% a los 18 años)"],
+            ["Resangrado a largo plazo", "Menor (2,2%)", "Mayor (3,6%)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Limitaciones de Aplicabilidad de ISAT",
+          "content": "ISAT incluyó pacientes con aneurismas considerados adecuados TANTO para clipaje COMO para embolización por el equipo tratante. Por tanto, seleccionó una población sesgada (aneurismas pequeños, anteriores, redondos). Los aneurismas de la ACM estuvieron infrarepresentados (solo el 3% de ISAT). Los resultados de ISAT no pueden extrapolarse a todos los tipos de aneurismas — en particular los aneurismas de bifurcación de la ACM, donde el clipaje sigue siendo la técnica preferida en la mayoría de los centros neuroquirúrgicos con experiencia."
+        }
+      ]
+    },
+    {
+      "id": "B3-S3",
+      "title": "Nimodipino y Prevención del Vasoespasmo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **vasoespasmo cerebral** — estrechamiento angiográfico de las arterias cerebrales — ocurre en el 50–70% de los pacientes con HSA entre los días 4 y 14, con un pico en los días 7–10. El vasoespasmo clínicamente aparente que causa **isquemia cerebral tardía (ICT)** — nuevo déficit neurológico no atribuible a resangrado, hidrocefalia o trastorno electrolítico — ocurre en el 30–40%. La ICT se distingue del vasoespasmo radiológico: no todo el vasoespasmo causa ICT, y la ICT puede ocurrir sin vasoespasmo visible (vasoespasmo microvascular, depolarizaciones corticales propagadas). El **nimodipino** es el único agente farmacológico que ha demostrado mejorar los resultados funcionales en la HSA aneurismática. El ensayo pivotal en el Reino Unido (Allen, BMJ 1983) y los metaanálisis posteriores demuestran que el nimodipino oral 60 mg cada 4 horas durante 21 días reduce los malos resultados (muerte o discapacidad grave) aproximadamente en un 34% en relación al placebo. De forma crítica, el nimodipino reduce la ICT y los malos resultados **sin reducir significativamente el vasoespasmo angiográfico** — su mecanismo primario es neuroprotector (bloqueo de los canales de calcio en neuronas) más que vasodilatador. El ensayo **BRANT** (clazosentán, antagonista del receptor de endotelina) demostró que el antagonismo de la endotelina reduce significativamente el vasoespasmo angiográfico pero NO mejora los resultados funcionales, reforzando la disociación ICT/vasoespasmo. El nimodipino intravenoso se asocia a hipotensión (hasta el 20% de reducción de la PAM) y es inferior a la administración oral en la HSA por caída de la tensión arterial; la vía oral es fuertemente preferida. Las **estatinas** (ensayo STASH con simvastatina, pravastatina Parra 2012) NO mejoraron los resultados en la HSA y no están recomendadas para la prevención del vasoespasmo."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — El Nimodipino No Previene el Vasoespasmo",
+          "content": "El nimodipino es el ÚNICO agente farmacológico que mejora los resultados en la HSA. Sin embargo, NO reduce significativamente el vasoespasmo angiográfico — es neuroprotector mediante el bloqueo de los canales de calcio neuronales. Los ensayos CONSCIOUS-2/3 (clazosentán) demostraron que la prevención del vasoespasmo aislada no mejora los resultados clínicos. La ICT y el vasoespasmo están mecanísticamente relacionados pero no son idénticos."
+        }
+      ]
+    },
+    {
+      "id": "B3-S4",
+      "title": "Manejo Hemodinámico: Terapia 3H frente a Euvolemia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **terapia triple-H** (Hipertensión, Hipervolemia, Hemodilución) fue el tratamiento estándar histórico para la ICT establecida por vasoespasmo. El fundamento era que el aumento de la presión de perfusión y el flujo sanguíneo superaría el segmento en vasoespasmo. **Hipervolemia**: múltiples ensayos aleatorizados (PHAST 2009) no demostraron beneficio de la hipervolemia profiláctica sobre la normovolemia y mostraron mayor número de complicaciones (edema pulmonar, SIADH, hiponatremia dilucional). La hipervolemia ya no está recomendada de forma profiláctica. La **hemodilución** hasta un hematocrito del 30–35% estaba pensada para reducir la viscosidad pero disminuye la capacidad de transporte de oxígeno — tampoco está recomendada. La **hipertensión inducida** para la ICT establecida (vasoespasmo sintomático) sigue siendo la intervención farmacológica de rescate principal: noradrenalina (primera línea) con objetivo de incremento de la PAM del 20–30% sobre el basal o TAS >180 mmHg, titulada según la respuesta neurológica. Las guías actuales recomiendan la **euvolemia** (evitar la depleción de volumen) en lugar de la hipervolemia para la prevención. Para la ICT establecida, la hipertensión inducida combinada con intervención angiográfica (verapamilo o milrinona intraarterial; angioplastia con balón para el vasoespasmo proximal) es el abordaje terapéutico. **Doppler transcraneal (DTC)**: DTC diario para detectar vasoespasmo — velocidad de flujo medio en la ACM >120 cm/s sugiere vasoespasmo; >200 cm/s indica vasoespasmo grave (índice de Lindegaard ACM/ACI >6 distingue el vasoespasmo de la hiperemia)."
+        },
+        {
+          "type": "table",
+          "title": "Escalada del Manejo de la ICT",
+          "headers": ["Paso", "Intervención", "Objetivo", "Nivel de Evidencia"],
+          "rows": [
+            ["Prevención", "Nimodipino oral 60 mg cada 4h × 21 días", "Todos los pacientes con HSA independientemente del grado", "Clase I; Nivel A"],
+            ["Prevención", "Euvolemia (evitar hipovolemia)", "PVC 5–8 mmHg; Na sérico ≥135 mEq/L", "Clase I; Nivel B"],
+            ["ICT establecida — primera línea", "Hipertensión inducida (noradrenalina)", "PAM +20–30% basal; TAS >180 mmHg", "Clase IIa; Nivel B"],
+            ["ICT establecida — segunda línea", "Vasodilatador intraarterial (verapamilo 10–15 mg por vaso)", "Vasoespasmo angiográfico", "Clase IIa; Nivel C"],
+            ["ICT establecida — tercera línea", "Angioplastia transluminal con balón", "Vasoespasmo proximal M1/A1/ACI; efecto permanente", "Clase IIa; Nivel C"],
+            ["Evitar", "Hipervolemia profiláctica", "—", "Clase III (Daño); ensayo PHAST"],
+            ["Evitar", "Estatinas para prevención del vasoespasmo", "—", "Clase III; ensayo STASH"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B3-S5",
+      "title": "Hidrocefalia e Hiponatremia en la HSA",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **hidrocefalia** complica el 15–20% de las HSA de forma aguda (en las primeras 24–72 horas) por deterioro de la absorción del LCR en las granulaciones aracnoideas por la sangre subaracnoidea. Presentación clínica: obtundación progresiva desproporcionada al grado de HSA, parálisis de la mirada conjugada vertical (síndrome de Parinaud por compresión del mesencéfalo) y dilatación de los cuernos temporales en la TC. La colocación de DVE es necesaria para la hidrocefalia obstructiva o comunicante aguda sintomática con deterioro neurológico. La **derivación ventriculoperitoneal (DVP)** es necesaria en el 10–15% de los supervivientes de HSA por hidrocefalia comunicante persistente. La derivación lumboperitoneal es una alternativa para la hidrocefalia comunicante sin efecto de masa. La **hiponatremia** es la complicación electrolítica más frecuente en la HSA (incidencia del 25–35%). Deben distinguirse dos mecanismos: (1) **Síndrome de Salt Wasting Cerebral (SSRC)** — depleción de volumen por natriuresis (pérdida renal de sodio mediada por ANP/BNP); el tratamiento es reposición de sodio y volumen (suero salino hipertónico o fisiológico, fludrocortisona 0,1–0,2 mg/día). (2) **SIADH** — euvolemia o hipervolemia leve con hiponatremia dilucional; el tratamiento es restricción hídrica ± suero hipertónico en casos sintomáticos. Distinguir el SSRC del SIADH es clínicamente crítico: la restricción hídrica (adecuada para el SIADH) en el SSRC empeora la depleción de volumen y aumenta el riesgo de vasoespasmo/ICT. Evaluación: sodio urinario >20 mEq/L en ambos, pero el balance hídrico es negativo (SSRC) frente a positivo o neutro (SIADH); el ácido úrico sérico es bajo en el SIADH (>99% de sensibilidad) pero normal o ligeramente bajo en el SSRC. En la práctica, el curso clínico en la HSA refleja más frecuentemente el SSRC, y la restricción de volumen debe evitarse en las primeras 2 semanas post-HSA."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — NO Restringir Líquidos en Pacientes con HSA e Hiponatremia",
+          "content": "En el contexto de hiponatremia post-HSA, la restricción hídrica (el tratamiento estándar del SIADH) puede precipitar o empeorar la ICT al inducir depleción de volumen favorecedora del vasoespasmo cerebral. La mayor parte de la hiponatremia post-HSA se debe al SSRC, no al SIADH. Tratar siempre con reposición de sodio y volumen (fludrocortisona + suero isotónico o hipertónico) salvo que el SIADH se confirme definitivamente con balance hídrico positivo y ausencia de signos de depleción de volumen."
+        }
+      ]
+    },
+    {
+      "id": "B3-S6",
+      "title": "Resangrado, Antifibrinolíticos y Profilaxis Anticomicial",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **resangrado** es la complicación precoz más temida de la HSA aneurismática, con una incidencia del 20–30% en los primeros 14 días si el aneurisma no está ocluido, y una mortalidad del 60–80%. El período de mayor riesgo es dentro de las primeras 24 horas (hasta el 15% de riesgo) y dentro de las primeras 6 horas (4–8% de riesgo). Por tanto, se recomienda el tratamiento ultrarecoz (dentro de las 24 horas) del aneurisma roto (AHA/ASA 2023 Clase I). **Antifibrinolíticos** (ácido tranexámico, ácido epsilon aminocaproico): el uso a corto plazo del ácido tranexámico (1 g IV en bolo + 1 g/hora en infusión) ha sido estudiado como cobertura puente desde el diagnóstico hasta la oclusión del aneurisma, dirigido dentro de las 72 horas. El ensayo **ULTRA** (Investigadores, NEJM 2021) aleatorizó a 955 pacientes con HSA a ácido tranexámico frente a tratamiento estándar: el resangrado se redujo significativamente (10,8% frente a 18,8%, RR 0,57, P<0,001). Sin embargo, no hubo mejoría en el resultado clínico (Escala de Rankin Modificada a los 6 meses: 30,4% buen resultado frente a 30,6%, P=0,96) — probablemente porque el ácido tranexámico también aumentó los eventos isquémicos (ICT/infarto cerebral), anulando el beneficio antiresangrado. El ácido tranexámico a corto plazo en espera de la oclusión del aneurisma puede utilizarse de forma selectiva cuando el tratamiento se retrasa >12 horas, aceptando el mayor riesgo isquémico. **Profilaxis anticomicial**: los fármacos antiepilépticos (FAE) profilácticos NO están recomendados de forma rutinaria en la HSA (AHA/ASA 2023 Clase III). Un análisis de subgrupos del ISAT mostró que la fenitoína se asociaba a **peores resultados cognitivos** al año. El levetiracetam es preferible si se utiliza profilaxis anticomicial (p. ej., aneurisma de ACM con hematoma cortical). Se recomienda monitorización continua del EEG de forma rutinaria en los pacientes con HSA de mal grado (Hunt-Hess IV/V) debido a la tasa del 8–20% de crisis no convulsivas."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Ensayo ULTRA y Antifibrinolíticos",
+          "content": "ULTRA (NEJM 2021) demostró que el ácido tranexámico reduce significativamente el resangrado en la HSA (RR 0,57) pero NO mejora el resultado clínico porque el beneficio se ve contrarrestado por el aumento de isquemia cerebral. Este es otro paradigma de criterio subrogado (resangrado) que no se traduce en beneficio clínico — la misma lección que FAST (rFVIIa en HIC) y CONSCIOUS (clazosentán para vasoespasmo). El AXT a corto plazo antes de la oclusión del aneurisma puede seguir considerándose en pacientes con alto riesgo de resangrado cuando el tratamiento se retrasa inevitablemente."
+        }
+      ]
+    },
+    {
+      "id": "B3-S7",
+      "title": "Resultados, HSA de Mal Grado y Pronóstico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Aproximadamente el 40–50% de los pacientes con HSA aneurismática fallecen en los 30 días. De los supervivientes, el 25–30% tiene deterioro funcional a largo plazo y hasta el 50% refieren déficits cognitivos persistentes que afectan a la memoria, la concentración y la función ejecutiva a pesar de una buena recuperación física. La **HSA de mal grado** (Hunt-Hess IV–V, WFNS IV–V) tiene una mortalidad a 30 días del 60–80%, pero el tratamiento agresivo sigue estando justificado en los pacientes adecuados: el 15–20% de los pacientes de mal grado se recuperan hasta la independencia funcional. La dicotomía entre el mal grado radiológico/clínico y los pacientes potencialmente recuperables es el desafío central del manejo. Factores predictivos de recuperación en la HSA de mal grado: edad <60 años, causa reversible de deterioro neurológico (hidrocefalia, hematoma, no lesión cerebral primaria) y mejoría rápida con la colocación del DVE. La **Escala de Resultados de Glasgow (GOS)** y la **mRS** son las medidas de resultados estándar. **Destino al alta**: aproximadamente el 50% de los supervivientes de HSA requieren rehabilitación hospitalaria. La conducción está típicamente restringida durante 6 meses. El retorno al trabajo se consigue en el 50–60% de los supervivientes de HSA en situación laboral activa a los 12 meses. La **rehabilitación cognitiva** es la intervención más importante a largo plazo — la potenciación cognitiva farmacológica no tiene base de evidencia establecida en la HSA. La **cohorte SAHIT (Subarachnoid Haemorrhage International Trialists)** (Jaja 2018) identificó 8 predictores independientes de resultado a 3 meses: edad, grado WFNS, tamaño del aneurisma, localización del aneurisma, sangre intraventricular, uso de antifibrinolíticos, modalidad de tratamiento y características de la angioTC — formando el modelo pronóstico SAHIT."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Grado de Fisher y Riesgo de Vasoespasmo",
+          "content": "El Grado de Fisher Modificado predice el riesgo de ICT a partir del aspecto en TC de la HSA y la HIV: Grado 1 (sin HSA ni HIV) = menor riesgo de ICT; Grado 2 (HSA difusa fina, sin HIV) = riesgo bajo; Grado 3 (HSA focal densa >1 mm, sin HIV) = mayor riesgo de ICT (33%); Grado 4 (cualquier HSA + HIV) = riesgo alto (40%). El coágulo subaracnoideo denso y localizado (Grado 3) — paradójicamente mayor riesgo que el Grado 4 — porque la hemoglobina concentrada y focal es la máxima inductora del vasoespasmo."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre el manejo de la hemorragia subaracnoidea con 20 preguntas tipo examen MIR.",
+    "questions": [
+      {
+        "id": "B3-Q1",
+        "stem": "Una mujer de 45 años acude al servicio de urgencias con una cefalea de inicio brusco muy intensa que describe como 'la peor de su vida', alcanzando la intensidad máxima en 10 segundos. Está neurológicamente íntegra. La TC craneal sin contraste es informada como normal por el radiólogo. ¿Cuál es el siguiente paso diagnóstico más adecuado?",
+        "options": {
+          "A": "AngioTC craneal para detectar un aneurisma intracraneal",
+          "B": "Punción lumbar con análisis espectrofotométrico del LCR para xantocromía, realizada ≥12 horas tras el inicio de los síntomas",
+          "C": "RM cerebral con secuencia FLAIR — la FLAIR es más sensible que la TC para la HSA",
+          "D": "Alta con seguimiento por RM en 1 semana porque la TC es normal y la paciente está neurológicamente íntegra"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una TC normal con características clínicas muy sospechosas de HSA (cefalea en trueno, inicio instantáneo máximo) obliga a realizar una punción lumbar. La PL debe realizarse al menos 12 horas tras el inicio de los síntomas para permitir la acumulación de bilirrubina (xantocromía) — el signo diagnóstico de HSA confirmado por análisis espectrofotométrico. Realizar la PL antes de las 12 horas arriesga un resultado falso negativo de xantocromía incluso en una HSA verdadera. La sensibilidad de la TC para la HSA es del 98% en <6 horas, pero disminuye al 85–90% a las 24 horas.",
+          "wrong": {
+            "A": "La angioTC identifica un aneurisma pero no la propia HSA. La angioTC debe realizarse DESPUÉS de confirmar la HSA (mediante PL si la TC es negativa), no como sustituto de la PL. Una angioTC normal no excluye la HSA",
+            "C": "La RM FLAIR puede detectar la HSA como hiperintensidad en el espacio subaracnoideo, pero su sensibilidad es inferior a la TC en la HSA aguda y no es el siguiente paso estándar tras una TC negativa. La FLAIR tiene mayores tasas de falsos positivos",
+            "D": "Dar el alta a un paciente con cefalea en trueno clásica y TC normal es peligroso. Hasta el 2% de los pacientes con TC normal y síntomas sospechosos de HSA tendrán HSA en la PL. Pasar por alto este diagnóstico podría dar lugar a un resangrado catastrófico"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Clase I: la PL está recomendada cuando la TC es negativa en pacientes con cefalea de inicio brusco intenso; xantocromía por espectrofotometría es el estándar de oro",
+          "trial": "Perry JJ et al. Regla de Ottawa para HSA (Lancet 2011): sensibilidad del 100% para HSA que requiere PL; validación de xantocromía: guías de espectrofotometría UK NEQAS",
+          "pearl": "TC negativa + cefalea en trueno → PL ≥12 horas tras el inicio para xantocromía por espectrofotometría. Realizar PL <12 horas tras el inicio arriesga xantocromía falso negativa. NUNCA dar el alta sin PL cuando la sospecha clínica es alta."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q2",
+        "stem": "El ensayo ISAT (Molyneux, Lancet 2002) aleatorizó a 2.143 pacientes con aneurismas intracraneales rotos a clipaje quirúrgico o embolización endovascular. ¿Cuál fue el hallazgo principal al seguimiento de 1 año?",
+        "options": {
+          "A": "Sin diferencia significativa en muerte o dependencia entre clipaje y embolización (30,6% frente a 30,1%)",
+          "B": "La embolización fue significativamente mejor: muerte o dependencia 23,7% frente a 30,6% con clipaje (RR 0,77, P<0,0001)",
+          "C": "El clipaje fue significativamente mejor: tasa de resangrado 2,2% frente a 3,6% con embolización",
+          "D": "La embolización fue mejor solo en la circulación posterior; el clipaje fue superior para aneurismas de la circulación anterior"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Criterio de valoración principal de ISAT al año: muerte o dependencia (mRS 3–6) fue del 23,7% con embolización endovascular frente al 30,6% con clipaje quirúrgico. Esta reducción del riesgo absoluto del 6,9% (RR 0,77, P<0,0001) representa una reducción del riesgo relativo del 23% en malos resultados a favor de la embolización. Esto estableció la embolización como el tratamiento preferido para los aneurismas susceptibles de ambas técnicas. Sin embargo, el seguimiento a largo plazo mostró mayores tasas de retratamiento (13,6% frente a 8,4%) y tasas de resangrado ligeramente superiores (3,6% frente a 2,2%) para la embolización, reflejando una oclusión menos duradera.",
+          "wrong": {
+            "A": "ISAT fue un ensayo positivo que mostró una diferencia significativa — la embolización fue significativamente mejor al año con una diferencia de riesgo absoluto del 6,9%",
+            "C": "Si bien el resangrado fue menor para el clipaje en el seguimiento a largo plazo de ISAT (2,2% frente a 3,6%), este fue un hallazgo secundario a LARGO PLAZO, no el resultado principal a 1 año. El resultado principal al año favoreció la embolización",
+            "D": "ISAT no fue estratificado por tipo de circulación en su análisis principal. Los aneurismas de ACM estuvieron infrarepresentados (solo el 3%). El hallazgo principal se aplicó en general, no por subgrupos de localización"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Clase I: para aneurismas susceptibles de clipaje y embolización, se prefiere la embolización según los datos de ISAT",
+          "trial": "ISAT (Molyneux Lancet 2002): 2.143 pacientes — mRS 3–6 al año: 23,7% (embolización) frente a 30,6% (clipaje), P<0,0001. Seguimiento a 18 años (Molyneux 2015): mayor retratamiento con embolización (13,6% frente a 8,4%)",
+          "pearl": "ISAT: embolización > clipaje para el resultado principal al año (23,7% frente a 30,6% muerte/dependencia). A largo plazo: clipaje más duradero (menos retratamiento, menos resangrado). Los aneurismas de ACM estuvieron infrarepresentados — el clipaje sigue siendo preferido para la bifurcación de la ACM."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q3",
+        "stem": "Un varón de 55 años con HSA grado III de Hunt-Hess está recibiendo nimodipino 60 mg por vía oral cada 4 horas. En el día 7, desarrolla nueva debilidad del brazo izquierdo y confusión. El DTC muestra una velocidad de flujo medio en la ACM derecha de 210 cm/s con índice de Lindegaard de 7,2. La TC no muestra nuevo hematoma, hidrocefalia ni alteraciones electrolíticas. ¿Cuál es el siguiente tratamiento MÁS adecuado?",
+        "options": {
+          "A": "Aumentar la dosis de nimodipino a 90 mg cada 4 horas",
+          "B": "Iniciar infusión intravenosa de nimodipino",
+          "C": "Hipertensión inducida con noradrenalina más angiografía con catéter urgente para posible intervención endovascular",
+          "D": "Hipervolemia profiláctica (terapia 3H) con objetivo de PVC 10–12 mmHg"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Este paciente tiene ICT establecida (nuevo déficit neurológico, día 7, TC normal) con vasoespasmo grave en DTC (velocidad en ACM >200 cm/s, índice de Lindegaard >6 que confirma vasoespasmo y no hiperemia). El tratamiento de primera línea para la ICT establecida es la hipertensión inducida (noradrenalina, objetivo de incremento de PAM del 20–30% sobre el basal o TAS >180 mmHg). Si la hipertensión inducida no revierte el déficit, está indicada la angiografía con catéter urgente con vasodilatador intraarterial (verapamilo o milrinona) y/o angioplastia con balón (para vasoespasmo proximal).",
+          "wrong": {
+            "A": "Aumentar la dosis de nimodipino oral por encima de 60 mg cada 4h aumenta el riesgo de hipotensión sin beneficio vasodilatador adicional demostrado. La dosis máxima recomendada es 60 mg cada 4h",
+            "B": "El nimodipino intravenoso causa hipotensión significativa (reducción de la PAM de hasta el 20%), lo que reduciría la presión de perfusión cerebral y empeoraría la ICT. La vía IV es inferior a la oral y no está recomendada para este propósito",
+            "D": "La hipervolemia profiláctica es Clase III (Daño) — el ensayo PHAST demostró que no previene la ICT y aumenta las complicaciones pulmonares. Para la ICT establecida, la intervención es la hipertensión inducida (no la hipervolemia)"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Hipertensión inducida para ICT establecida: Clase IIa. Vasodilatador intraarterial/angioplastia: Clase IIa. Hipervolemia profiláctica: Clase III (Daño)",
+          "trial": "Ensayo PHAST (Lennihan 2000): hipervolemia frente a normovolemia — sin beneficio para la prevención de ICT, mayor número de complicaciones. Índice de Lindegaard DTC >6 = vasoespasmo (no hiperemia): Lindegaard (JNSS 1988)",
+          "pearl": "ICT establecida (nuevo déficit, sin causa en TC) → Paso 1: hipertensión inducida (noradrenalina). Paso 2: angiografía con catéter + verapamilo/milrinona intraarterial. Paso 3: angioplastia con balón para vasoespasmo proximal. La hipervolemia está OBSOLETA y es perjudicial."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q4",
+        "stem": "Una mujer de 52 años con HSA aneurismática (grado WFNS II) presenta en la analítica rutinaria un sodio sérico de 128 mEq/L en el día 8 post-HSA. Está levemente somnoliente pero hemodinámicamente estable. El sodio urinario es 95 mEq/L y la osmolalidad urinaria es 520 mOsm/kg. Su balance hídrico acumulado en las últimas 48 horas es de -1,2 litros. ¿Cuál es el diagnóstico más probable y el tratamiento adecuado?",
+        "options": {
+          "A": "SIADH — restricción hídrica a 800 mL/día",
+          "B": "Síndrome de Salt Wasting Cerebral (SSRC) — suero salino fisiológico o hipertónico intravenoso más fludrocortisona",
+          "C": "SIADH — suplementación oral de sal únicamente",
+          "D": "Hiponatremia relacionada con hipotiroidismo — pruebas de función tiroidea y levotiroxina"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El cuadro clínico es de SSRC: balance hídrico negativo (-1,2 L en 48 horas indicando depleción de volumen), sodio urinario elevado (95 mEq/L reflejando pérdida renal de sal), orina concentrada (520 mOsm/kg) y cronología post-HSA (natriuresis mediada por ANP/BNP). Tratamiento del SSRC: reposición de volumen y sodio — suero salino isotónico o hipertónico, y fludrocortisona 0,1–0,2 mg/día (mineralocorticoide que repone el sodio). CRÍTICO: la restricción hídrica (el tratamiento del SIADH) está CONTRAINDICADA en el SSRC post-HSA ya que agrava la depleción de volumen y aumenta drásticamente el riesgo de ICT/vasoespasmo.",
+          "wrong": {
+            "A": "El SIADH se caracteriza por euvolemia o ligera hipervolemia (balance hídrico neutro o positivo), no el balance negativo observado aquí. La restricción hídrica en esta paciente con SSRC y depleción de volumen sería peligrosa y precipitaría la ICT",
+            "C": "Incluso si el SIADH fuera el diagnóstico, la suplementación oral de sal sola es insuficiente para la hiponatremia aguda grave (Na 128 mEq/L con síntomas). Se necesitaría suero hipertónico IV",
+            "D": "El hipotiroidismo puede causar hiponatremia pero no es el diagnóstico principal en el contexto de HSA aguda en el día 8 postoperatorio con este perfil bioquímico. Vale la pena solicitar el perfil tiroideo pero no es el manejo principal"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Evitar la restricción hídrica en la hiponatremia post-HSA; el SSRC es el mecanismo predominante; fludrocortisona y suero hipertónico están recomendados",
+          "trial": "Diringer MN (Neurocrit Care 2011): revisión del manejo de la hiponatremia post-HSA; Mori T et al. (Stroke 1999): la fludrocortisona reduce el SSRC y previene la ICT; PHAST: la depleción de volumen agrava el vasoespasmo",
+          "pearl": "Hiponatremia post-HSA = SSRC hasta que se demuestre lo contrario (balance hídrico negativo, natriuresis, depleción de volumen). Tratamiento: reposición de Na + fludrocortisona. NUNCA restringir líquidos post-HSA — riesgo de ICT. SIADH = euvolemia + balance positivo/neutro."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q5",
+        "stem": "Una mujer de 49 años es ingresada con HSA aneurismática (grado II de Hunt-Hess). La TC muestra un patrón de Fisher Modificado grado 3. ¿Qué predice este patrón de TC y cuál es el riesgo aproximado de isquemia cerebral tardía (ICT)?",
+        "options": {
+          "A": "Sangre subaracnoidea fina sin hemorragia intraventricular; riesgo de ICT aproximadamente del 10%",
+          "B": "Coágulo subaracnoideo denso y localizado (>1 mm en las cisternas subaracnoideas) sin HIV; riesgo de ICT aproximadamente del 33%",
+          "C": "Cualquier sangre subaracnoidea más hemorragia intraventricular; riesgo de ICT aproximadamente del 15%",
+          "D": "Sin sangre subaracnoidea; riesgo de ICT inferior al 5%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El grado 3 de Fisher Modificado se define como coágulo subaracnoideo denso y localizado (>1 mm en una cisterna subaracnoidea) SIN hemorragia intraventricular, y conlleva el mayor riesgo de ICT de aproximadamente el 33%. Esto es paradójicamente mayor que el grado 4 (cualquier HSA + HIV), probablemente porque la hemoglobina subaracnoidea concentrada y localizada activa al máximo la cascada del vasoespasmo. La HSA densa localizada sin el efecto diluyente de la HIV representa el estímulo de vasoespasmo más intenso.",
+          "wrong": {
+            "A": "La sangre subaracnoidea fina sin HIV corresponde al grado 2 de Fisher Modificado, con un riesgo de ICT de aproximadamente el 14%. El grado 3 describe específicamente una HSA densa (>1 mm) localizada",
+            "C": "Cualquier HSA más HIV corresponde al grado 4 de Fisher Modificado, con un riesgo de ICT de aproximadamente el 40% — similar al grado 3. Pero el grado 4 se caracteriza por TANTO HSA COMO HIV, no solo HSA",
+            "D": "Sin sangre subaracnoidea corresponde al grado 1 de Fisher Modificado, con un riesgo de ICT de aproximadamente el 6%. Esto no sería aplicable a un paciente con HSA confirmada"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Escala de Fisher Modificada para estratificación del riesgo de ICT; todos los pacientes con HSA reciben nimodipino independientemente del grado",
+          "trial": "Frontera JA et al. (Stroke 2006): validación de la escala de Fisher Modificada — grado 1=6%, grado 2=14%, grado 3=33%, grado 4=40% de riesgo de ICT",
+          "pearl": "Grado 3 de Fisher Modificado (HSA densa localizada, sin HIV) = MAYOR riesgo de ICT (~33%). El grado 4 (HSA + HIV) también es alto (~40%) pero el grado 3 es el paradigma del máximo riesgo de ICT. Todos los pacientes con HSA reciben nimodipino 60 mg cada 4h × 21 días independientemente del grado de Fisher."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q6",
+        "stem": "Un varón de 60 años con HSA aneurismática inicia fenitoína para profilaxis anticomicial post-embolización. Su familia pregunta sobre los efectos cognitivos a largo plazo. Basándose en los datos de subgrupos del ISAT, ¿qué afirmación es MÁS precisa respecto al uso de fenitoína en la HSA?",
+        "options": {
+          "A": "La fenitoína reduce significativamente el riesgo de crisis y mejora los resultados cognitivos al año",
+          "B": "La fenitoína se asocia a PEORES resultados cognitivos al año en pacientes con HSA y no está recomendada para profilaxis rutinaria",
+          "C": "La fenitoína reduce el riesgo de resangrado al estabilizar la barrera hematoencefálica",
+          "D": "La fenitoína y el levetiracetam tienen perfiles cognitivos equivalentes en la HSA; se puede usar cualquiera"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El análisis de subgrupos del ISAT (datos suplementarios de Molyneux 2002; confirmado por Naidech 2005 Crit Care Med) demostró que el uso de fenitoína se asociaba de forma independiente a PEORES resultados cognitivos al año, incluso después de controlar la ocurrencia de crisis. El mecanismo propuesto involucra los efectos neurotóxicos directos de la fenitoína sobre el cerebro lesionado. Las guías AHA/ASA 2023 clasifican el uso rutinario de fármacos antiepilépticos para la HSA como Clase III (sin beneficio o daño). Si se considera necesaria la profilaxis (p. ej., hematoma cortical, aneurisma de ACM), se prefiere el levetiracetam sobre la fenitoína por su perfil cognitivo más favorable.",
+          "wrong": {
+            "A": "La fenitoína NO mejora los resultados cognitivos — los empeora. Este es un hallazgo contraintuitivo con sólida evidencia. La profilaxis rutinaria con FAE en la HSA no está recomendada",
+            "C": "La fenitoína no tiene un mecanismo establecido para reducir el riesgo de resangrado. La prevención del resangrado implica la oclusión precoz del aneurisma y el uso breve de antifibrinolíticos (ácido tranexámico), no FAE",
+            "D": "La fenitoína y el levetiracetam NO tienen perfiles cognitivos equivalentes en la HSA. La fenitoína se asocia a peores resultados cognitivos; el levetiracetam tiene un perfil más favorable. No deben tratarse como equivalentes"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Clase III: el uso rutinario de FAE profilácticos en la HSA NO está recomendado. Si se usa, se prefiere levetiracetam sobre fenitoína",
+          "trial": "Naidech AM et al. (Crit Care Med 2005): el uso de fenitoína se asoció de forma independiente a peores resultados cognitivos a los 3 meses en la HSA; Messe SR et al. (Stroke 2019): confirma la asociación fenitoína-cognición",
+          "pearl": "La fenitoína EMPEORA los resultados cognitivos en la HSA — NO usar de forma rutinaria. La profilaxis con FAE es Clase III (sin beneficio). Si se necesita profilaxis anticomicial (hematoma cortical), usar levetiracetam. Monitorización rutinaria con EEG para Hunt-Hess IV/V (20% de crisis no convulsivas)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q7",
+        "stem": "El ensayo ULTRA (NEJM 2021) aleatorizó a 955 pacientes con HSA aneurismática a ácido tranexámico (1 g IV en bolo + 1 g/h en infusión) frente a tratamiento estándar. ¿Cuáles fueron los resultados principales?",
+        "options": {
+          "A": "El ácido tranexámico redujo significativamente tanto el resangrado (RR 0,57) COMO mejoró los resultados funcionales a los 6 meses",
+          "B": "El ácido tranexámico redujo significativamente el resangrado (RR 0,57, P<0,001) pero NO mejoró los resultados funcionales a los 6 meses (30,4% frente a 30,6%, P=0,96)",
+          "C": "El ácido tranexámico no tuvo ningún efecto sobre el resangrado ni los resultados funcionales, confirmando que no tiene papel en el manejo de la HSA",
+          "D": "El ácido tranexámico aumentó significativamente el infarto cerebral sintomático, lo que motivó la interrupción del ensayo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ULTRA (Participantes, NEJM 2021): el resangrado se redujo significativamente con ácido tranexámico (10,8% frente a 18,8%, RR 0,57, P<0,001). Sin embargo, el criterio de valoración clínico principal (mRS 0–2 a los 6 meses) fue idéntico: 30,4% frente a 30,6%, P=0,96. El beneficio antiresangrado se vio contrarrestado por el aumento de eventos isquémicos (infarto cerebral por estabilización de trombos y posible trombosis microvascular). El ensayo se completó (no se interrumpió prematuramente). Esto representa otro ejemplo de criterio subrogado (resangrado) que no se traduce en beneficio clínico — el mismo patrón que FAST (rFVIIa para HIC) y CONSCIOUS (clazosentán para vasoespasmo).",
+          "wrong": {
+            "A": "Aunque el resangrado se redujo significativamente, los resultados funcionales NO mejoraron (P=0,96). La combinación de beneficios (reducción del resangrado) y daños (mayor isquemia) resultó en equipoise clínico",
+            "C": "El ácido tranexámico SÍ redujo significativamente el resangrado — este no es un hallazgo neutro. El ensayo se completó con 955 pacientes y no se interrumpió precozmente por futilidad",
+            "D": "El ensayo NO se interrumpió precozmente por razones de seguridad. Aunque los eventos isquémicos mostraron una tendencia al alza en el grupo de ácido tranexámico, esto no alcanzó significación estadística como criterio principal de seguridad y el ensayo completó la inclusión completa"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Los antifibrinolíticos a corto plazo hasta la oclusión del aneurisma pueden considerarse cuando se prevé un retraso (Clase IIb); basado en gran medida en los resultados de ULTRA",
+          "trial": "ULTRA (NEJM 2021): 955 pacientes — resangrado 10,8% frente a 18,8%, RR 0,57, P<0,001; mRS 0–2 a los 6 meses: 30,4% frente a 30,6%, P=0,96",
+          "pearl": "ULTRA: el ácido tranexámico reduce el resangrado (RR 0,57) pero NO mejora los resultados (P=0,96). La isquemia compensa el beneficio antiresangrado. Patrón de criterio subrogado sin beneficio clínico — la misma lección que FAST (rFVIIa) y CONSCIOUS (clazosentán)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q8",
+        "stem": "Una mujer de 58 años presenta cefalea de inicio brusco y GCS de 14 (confusa). La TC muestra HSA con sangre densa en la cisura de Silvio. La angioTC identifica un aneurisma de la bifurcación de la ACM izquierda de 8 × 7 mm con cuello ancho y relación cúpula/cuello de 1,2. Ambos equipos de cirugía y neurorradiología intervencionista revisan el caso. ¿Cuál es el tratamiento MÁS adecuado según la anatomía y la evidencia?",
+        "options": {
+          "A": "Embolización con espirales sola, basándose en la superioridad de ISAT para todos los tipos de aneurismas",
+          "B": "Clipaje quirúrgico, dada la anatomía de bifurcación de la ACM y la morfología de cuello ancho desfavorable para la embolización estándar",
+          "C": "Desviación de flujo (dispositivo Pipeline) como tratamiento de primera línea",
+          "D": "Manejo conservador con seguimiento angiográfico a las 6 semanas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los aneurismas de bifurcación de la ACM son el caso paradigmático de preferencia del clipaje quirúrgico sobre la embolización endovascular. El cuello ancho (relación cúpula/cuello 1,2, muy por debajo del umbral de 1,5 para embolización estándar) y la localización en la bifurcación de la ACM (que involucra los orígenes de las ramas M2) hacen que la embolización estándar sea técnicamente difícil con alto riesgo de recurrencia. ISAT incluyó solo el 3% de aneurismas de ACM, por lo que sus resultados no pueden generalizarse aquí. El clipaje quirúrgico proporciona una excelente visualización y reconstrucción de la bifurcación de la ACM. Los aneurismas de cuello ancho de la ACM son el escenario más frecuente en el que los cirujanos con experiencia prefieren el clipaje pese a la preferencia general de ISAT por la embolización.",
+          "wrong": {
+            "A": "ISAT incluyó muy pocos aneurismas de ACM (solo el 3%) e incluyó únicamente casos considerados adecuados para AMBAS modalidades. Un aneurisma de cuello ancho en la bifurcación de la ACM típicamente NO sería considerado adecuado para embolización estándar, haciendo los resultados de ISAT no aplicables",
+            "C": "El dispositivo Pipeline está indicado para aneurismas grandes/gigantes fusiformes, no para aneurismas de bifurcación rotos que requieren oclusión inmediata. La desviación de flujo tiene cinética lenta de oclusión del aneurisma (semanas a meses) y requiere terapia antiagregante — ambas problemáticas en la HSA aguda",
+            "D": "Aneurisma roto no tratado con 15–20% de riesgo de resangrado en las primeras 24 horas — el manejo conservador es peligroso e inadecuado para una paciente en buena situación neurológica"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Para aneurismas de ACM, el clipaje quirúrgico es generalmente preferido; los factores del paciente individual, la anatomía del aneurisma y la experiencia institucional orientan la decisión",
+          "trial": "ISAT (Molyneux Lancet 2002): solo el 3% de aneurismas de ACM incluidos — aplicabilidad limitada a la enfermedad de ACM. Múltiples series observacionales confirman la superioridad del clipaje para aneurismas de cuello ancho en bifurcación de ACM",
+          "pearl": "ISAT favorece la embolización para la mayoría de los aneurismas rotos, PERO los aneurismas de bifurcación de la ACM son la excepción paradigmática — típicamente se clipan. Cuello ancho (C/C <1,5), afectación de ramas M2 y anatomía de ACM favorecen el clipaje."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q9",
+        "stem": "Una mujer de 63 años con HSA grado I de Hunt-Hess tiene un aneurisma de la arteria comunicante posterior (AComP) de 6 mm con parálisis ipsilateral del nervio oculomotor (ptosis, midriasis, oftalmoplejia completa). No tiene otros déficits neurológicos. ¿Cuál es la significación de la parálisis del III par en este caso y qué indica sobre la urgencia del tratamiento?",
+        "options": {
+          "A": "La parálisis del III par es incidental y no afecta a la urgencia del tratamiento",
+          "B": "La parálisis del III par indica compresión directa del nervio por la cúpula del aneurisma y es un indicador sólido para clipaje quirúrgico porque el nervio suele recuperarse mejor tras la descompresión directa",
+          "C": "La parálisis del III par indica hipertensión intracraneal y obliga a monitorización de la PIC antes del tratamiento del aneurisma",
+          "D": "La parálisis del III par en la HSA siempre indica resangrado y obliga a angiografía de urgencia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una parálisis dolorosa del III par con afectación pupilar (midriasis) en el contexto de un aneurisma de la AComP indica lesión compresiva directa del III par por la pared del aneurisma. El aneurisma de la arteria comunicante posterior apunta superolateralmente para comprimir el III par a su paso entre la arteria comunicante posterior y la arteria cerebelosa superior. Las fibras pupilomotoras del nervio oculomotor están localizadas superficialmente (a diferencia de la parálisis isquémica del III par donde la pupila se preserva). La parálisis compresiva directa del III par es una indicación sólida para clipaje quirúrgico sobre embolización, porque la exposición quirúrgica permite la descompresión directa del nervio y logra mejores tasas de recuperación del III par que la embolización (80–90% de recuperación tras clipaje frente a 60–70% tras embolización en grandes series).",
+          "wrong": {
+            "A": "La parálisis del III par NO es incidental — es un signo directo de compresión del aneurisma e influye en la elección del tratamiento (favoreciendo el clipaje para una mejor recuperación del III par)",
+            "C": "La parálisis del III par en este contexto refleja compresión focal del nervio, no elevación de la PIC. La PIC elevada causaría parálisis bilaterales del VI par (como signo falsamente localizador) en lugar de parálisis unilateral del III par",
+            "D": "La parálisis del III par no indica resangrado. El resangrado se presentaría como deterioro clínico brusco, nueva cefalea, descenso de la GCS — no como parálisis aislada de un par craneal"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Parálisis del III par por aneurisma de AComP: se prefiere clipaje quirúrgico para mejor recuperación del III par; el clipaje permite descompresión directa del nervio",
+          "trial": "Múltiples series observacionales (Chen 2003, Yu 2017): tasas de recuperación del III par tras clipaje frente a embolización para aneurisma de AComP — recuperación completa en el 80–90% tras clipaje frente al 60–70% tras embolización",
+          "pearl": "Aneurisma de AComP + parálisis dolorosa del III par (pupila afectada) = parálisis compresiva del III par = indicación sólida para CLIPAJE quirúrgico sobre embolización. El clipaje logra descompresión directa del nervio con recuperación completa del III par en el 80–90%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q10",
+        "stem": "Se prescribe nimodipino 60 mg por vía oral cada 4 horas durante 21 días a todos los pacientes con HSA. ¿Cuál es el mecanismo principal por el que el nimodipino mejora los resultados en la HSA?",
+        "options": {
+          "A": "Reversión del vasoespasmo arterial cerebral mediante bloqueo de los canales de calcio del músculo liso",
+          "B": "Efecto neuroprotector sobre las neuronas vulnerables a la isquemia mediante el bloqueo de los canales de calcio de tipo L neuronales, independiente de la prevención del vasoespasmo",
+          "C": "Reducción del volumen del hematoma al disminuir la permeabilidad de la barrera hematoencefálica",
+          "D": "Prevención del resangrado al estabilizar la pared del aneurisma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El mecanismo del nimodipino en la HSA es predominantemente neuroprotector más que vasodilatador. Múltiples estudios incluyendo el ensayo BRANT (clazosentán, antagonista del receptor de endotelina) demostraron que la prevención del vasoespasmo NO mejora los resultados clínicos, mientras que el nimodipino mejora los resultados SIN reducir significativamente el vasoespasmo angiográfico. El nimodipino es un bloqueante de canales de calcio dihidropiridínico con particular afinidad por los canales de calcio de tipo L neuronales, protegiendo a las neuronas de la apoptosis mediada por calcio durante la isquemia derivada de las depolarizaciones corticales propagadas y la disfunción microvascular — los mecanismos de ICT más allá del vasoespasmo de grandes vasos.",
+          "wrong": {
+            "A": "Este es el mecanismo intuitivo pero incorrecto. Múltiples ensayos (CONSCIOUS-1, -2, -3 con clazosentán) demostraron que la prevención del vasoespasmo no mejora los resultados. El nimodipino no reduce significativamente la incidencia o la gravedad del vasoespasmo angiográfico",
+            "C": "El nimodipino no tiene un mecanismo establecido para reducir el volumen del hematoma o la permeabilidad de la barrera hematoencefálica en la HSA",
+            "D": "El nimodipino no tiene propiedades antifibrinolíticas ni estabilizadoras de la pared del aneurisma. Los antifibrinolíticos (ácido tranexámico) abordan la prevención del resangrado"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Clase I: nimodipino oral 60 mg cada 4h × 21 días para todos los pacientes con HSA",
+          "trial": "Allen GS et al. (NEJM 1983): ensayo UK de nimodipino — reducción significativa de malos resultados. CONSCIOUS-2/3 (Macdonald, Lancet Neurol 2012): clazosentán reduce vasoespasmo pero NO resultados — demostrando que la prevención del vasoespasmo sola es insuficiente",
+          "pearl": "Nimodipino = neuroprotector (bloqueo de canales de Ca de tipo L neuronales), NO vasodilatador. Los ensayos CONSCIOUS demostraron que la prevención del vasoespasmo sin neuroprotección NO mejora los resultados. El nimodipino es el único tratamiento farmacológico de HSA de Clase I."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q11",
+        "stem": "Un varón de 72 años desarrolla hidrocefalia obstructiva aguda (GCS desciende de 14 a 9) 18 horas tras una HSA grado III de Hunt-Hess. El equipo de neurocirugía coloca un DVE. Durante los 10 días siguientes, los intentos repetidos de reducir el DVE hasta 25–30 cm H₂O resultan en elevación de la PIC y deterioro clínico. La TC muestra ventrículos persistentemente dilatados sin sangre subaracnoidea visible. ¿Cuál es el siguiente paso más adecuado?",
+        "options": {
+          "A": "Continuar el DVE indefinidamente e iniciar alteplasa intraventricular para eliminar el coágulo residual de HSA",
+          "B": "Inserción de derivación ventriculoperitoneal para hidrocefalia comunicante persistente",
+          "C": "Inserción de drenaje lumbar como tratamiento definitivo de la hidrocefalia comunicante",
+          "D": "Ventriculostomía endoscópica del tercer ventrículo (VET) como tratamiento quirúrgico de primera línea"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hidrocefalia comunicante persistente tras la HSA (incapacidad de retirar el DVE después de 10 días a pesar del tiempo adecuado para la eliminación de sangre subaracnoidea) requiere un procedimiento permanente de derivación del LCR. La derivación ventriculoperitoneal (DVP) es el tratamiento estándar, necesario en el 10–15% de los supervivientes de HSA. Los ventrículos dilatados con ausencia de sangre subaracnoidea sugieren absorción deteriorada del LCR en las granulaciones aracnoideas (fibrosis por productos sanguíneos) — un mecanismo de hidrocefalia comunicante que responde bien a la DVP.",
+          "wrong": {
+            "A": "La alteplasa intraventricular (CLEAR III) es para la HIV aguda con formación de moldes refractaria al DVE, no para la hidrocefalia comunicante persistente semanas después de la HSA cuando la sangre subaracnoidea ya se ha aclarado",
+            "C": "El drenaje lumbar (derivación lumboperitoneal) es una alternativa para la hidrocefalia comunicante, pero se asocia a mayores tasas de revisión y complicaciones de hipotensión craneal en comparación con la DVP. Es una opción de segunda línea, no la primera elección estándar",
+            "D": "La ventriculostomía endoscópica del tercer ventrículo (VET) es eficaz para la hidrocefalia obstructiva (no comunicante). La hidrocefalia post-HSA es típicamente comunicante (disfunción de las granulaciones aracnoideas), donde la VET tiene malos resultados porque la obstrucción está al nivel de la absorción del LCR, no en el acueducto o los forámenes"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Derivación ventriculoperitoneal para hidrocefalia persistente que requiere derivación permanente del LCR tras HSA (Clase I)",
+          "trial": "Komotar RJ et al. (Neurosurgery 2009): hidrocefalia dependiente de derivación en la HSA — predictores y manejo; DVP necesaria en el 10–15% de los pacientes con HSA",
+          "pearl": "Hidrocefalia comunicante persistente post-HSA = DVP. No VET (requiere hidrocefalia obstructiva) y no derivación lumboperitoneal (mayores tasas de revisión). El 10–15% de los supervivientes de HSA necesitan derivación permanente del LCR."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q12",
+        "stem": "¿Qué hallazgo en la punción lumbar distingue MEJOR la hemorragia subaracnoidea verdadera de una punción traumática?",
+        "options": {
+          "A": "Hematíes presentes en los cuatro tubos, con aclaramiento entre el tubo 1 y el tubo 4",
+          "B": "LCR con tono amarillento (xantocromía) por espectrofotometría, distribución uniforme de sangre en todos los tubos y D-dímero elevado",
+          "C": "Xantocromía por espectrofotometría realizada ≥12 horas tras el inicio de los síntomas, con distribución uniforme de hematíes en todos los tubos de LCR",
+          "D": "Presión de apertura >25 cm H₂O y proteínas >100 mg/dL"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La HSA verdadera en la PL muestra: (1) LCR uniformemente hemático en todos los tubos — la sangre NO se aclara entre el tubo 1 y el tubo 4, a diferencia de la punción traumática donde la sangre disminuye significativamente del tubo 1 al tubo 4; (2) xantocromía (coloración amarillenta del LCR centrifugado) por espectrofotometría — detectable ≥12 horas tras el ictus por acumulación de bilirrubina; (3) presión de apertura elevada (consistente con sangre subaracnoidea). La punción traumática muestra aclaramiento de la sangre entre los tubos (recuento decreciente de hematíes del tubo 1 al tubo 4) y SIN xantocromía a menos que la PL se realice >12 horas después de una hemorragia significativa.",
+          "wrong": {
+            "A": "El aclaramiento de la sangre entre el tubo 1 y el tubo 4 es el SIGNO CARACTERÍSTICO de una punción traumática, NO de la HSA verdadera. En la HSA, el LCR está uniformemente hemático sin aclaramiento",
+            "B": "Aunque la xantocromía y la distribución uniforme son correctas, el D-dímero elevado no es un hallazgo estándar de PL utilizado para distinguir la HSA de la punción traumática",
+            "D": "La presión de apertura elevada y las proteínas pueden ocurrir tanto en la HSA como en la punción traumática. Estos hallazgos no son suficientemente específicos para distinguir ambas"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — PL: xantocromía por espectrofotometría ≥12h tras el inicio es el estándar de oro para el diagnóstico de HSA cuando la TC es negativa",
+          "trial": "Guías de espectrofotometría UK NEQAS; Beetham R (Ann Clin Biochem 2004): espectrofotometría frente a inspección visual — la inspección visual tiene tasa de falsos negativos del ~50% para xantocromía",
+          "pearl": "HSA frente a punción traumática: HSA = sangre UNIFORME todos los tubos + XANTOCROMÍA por espectrofotometría ≥12h. Punción traumática = ACLARAMIENTO entre tubos 1-4 + SIN xantocromía. La xantocromía visual tiene un 50% de falsos negativos — usar siempre espectrofotometría."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q13",
+        "stem": "Una mujer de 50 años con HSA aneurismática grado II de Hunt-Hess (aneurisma de la arteria comunicante anterior, embolizado con éxito en el día 1) desarrolla fiebre de 39,2°C en el día 7 post-HSA, sin foco infeccioso evidente. Los hemocultivos y urocultivos son negativos a las 48 horas. ¿Cuál es la causa más probable de su fiebre?",
+        "options": {
+          "A": "Meningitis bacteriana por colocación de DVE",
+          "B": "Fiebre central (fiebre neurógena) por disfunción hipotalámica debida a sangre subaracnoidea",
+          "C": "Trombosis venosa profunda con tromboembolismo pulmonar",
+          "D": "Fiebre medicamentosa inducida por nimodipino"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La fiebre central (fiebre neurógena) es frecuente tras la HSA, con una incidencia del 40–70% de los pacientes en las primeras 2 semanas. Resulta de la irritación hipotalámica por sangre subaracnoidea, que altera el control termorregulador. Típicamente ocurre entre los días 5–14 (coincidiendo con la ventana del vasoespasmo), lo que hace que sea críticamente importante distinguirla de la fiebre séptica. Características: temperatura frecuentemente >39°C, la frecuencia cardíaca puede ser normal (a diferencia de la fiebre séptica donde se espera taquicardia), sin foco infeccioso, cultivos negativos. Manejo: antipiréticos (paracetamol/acetaminofén), mantas de enfriamiento, enfriamiento de superficie. La fiebre se asocia de forma independiente a peores resultados en la HSA, y se recomienda la normalización agresiva de la temperatura.",
+          "wrong": {
+            "A": "La ventriculitis asociada al DVE es posible, pero típicamente mostraría pleocitosis en LCR, cultivos de LCR positivos y fiebre más directamente relacionada con los días de permanencia del DVE. El aneurisma de esta paciente se embolizó en el día 1 (lo que sugiere que no se requirió DVE), y los hemocultivos y urocultivos son negativos",
+            "C": "La TVP/TEP puede causar fiebre pero típicamente se presenta con hipoxemia, taquicardia y síntomas en la pierna. Sigue siendo un diagnóstico diferencial en los pacientes con HSA inmovilizados, pero la fiebre central es más probable sin características clínicas de apoyo",
+            "D": "La fiebre medicamentosa inducida por nimodipino no es un efecto adverso reconocido. Los principales efectos adversos del nimodipino son hipotensión (especialmente por vía IV) y rubefacción"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Tratar la fiebre de forma agresiva en la HSA; la fiebre >38,3°C se asocia a mayor ICT y peor resultado; se recomienda normotermia agresiva",
+          "trial": "Fernandez A et al. (Neurocrit Care 2007): la fiebre en la HSA se asocia a mayor vasoespasmo y peor resultado; Oliveira-Filho J (Cerebrovascular Dis 2001): incidencia de fiebre del 40–70% en la HSA",
+          "pearl": "Fiebre central en HSA: incidencia del 40–70%, típicamente días 5–14, coincide con la ventana del vasoespasmo. La fiebre empeora independientemente los resultados. Tratar de forma agresiva con antipiréticos y enfriamiento de superficie. Siempre descartar causa infecciosa, pero la fiebre central es el diagnóstico predeterminado en este contexto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q14",
+        "stem": "Un varón de 55 años con HSA grado IV WFNS (GCS 8, con hemiplejia derecha) es trasladado a su centro neuroquirúrgico 3 horas tras el ictus. La TC muestra HSA difusa masiva con dilatación bilateral de los cuernos temporales compatible con hidrocefalia aguda. La angioTC identifica un aneurisma de la punta de la arteria basilar de 12 mm. ¿Cuál es la secuencia de manejo inmediata MÁS adecuada?",
+        "options": {
+          "A": "Angiografía con catéter inmediata y embolización del aneurisma de la punta basilar antes de la colocación del DVE",
+          "B": "Colocación bilateral de DVE seguida de embolización del aneurisma de la punta basilar cuando el estado neurológico mejore a grado II WFNS",
+          "C": "Colocación urgente de DVE, luego oclusión precoz (en las primeras 24 horas) del aneurisma de la punta basilar cuando esté hemodinámicamente estable",
+          "D": "Manejo conservador, ya que la HSA de mal grado tiene <5% de probabilidad de buen resultado y el tratamiento agresivo es fútil"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "HSA de mal grado (WFNS IV) con hidrocefalia: el DVE es la intervención prioritaria — la hidrocefalia aguda contribuye significativamente al descenso de la GCS y es rápidamente reversible. Tras la colocación del DVE (que frecuentemente mejora dramáticamente la GCS), la oclusión precoz del aneurisma dentro de las 24 horas previene el resangrado. Los aneurismas de punta basilar se embolizan preferentemente. Las guías AHA/ASA 2023 recomiendan el tratamiento ultrarecoz del aneurisma (dentro de las 24 horas del ictus). Aproximadamente el 15–20% de los pacientes con HSA de mal grado se recuperan hasta la independencia funcional con tratamiento agresivo.",
+          "wrong": {
+            "A": "La embolización antes del DVE arriesga precipitar una herniación al inducir heparinización sistémica (para la angiografía) en un paciente con PIC elevada por hidrocefalia. El DVE primero para descomprimir es más seguro",
+            "B": "Esperar hasta la mejoría del grado WFNS antes de tratar el aneurisma es peligroso — el riesgo de resangrado es más alto en las primeras 24 horas (15–20%). El aneurisma debe ocluirse dentro de las 24 horas, no diferirse hasta la mejoría neurológica",
+            "D": "La HSA de mal grado NO es fútil — el 15–20% de los pacientes con WFNS IV logran independencia funcional con tratamiento agresivo. Las guías AHA/ASA 2023 advierten explícitamente contra la profecía autocumplida de retirar el tratamiento en la HSA de mal grado"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Clase I: tratamiento del aneurisma dentro de las 24 horas del inicio de la HSA; DVE para hidrocefalia con deterioro neurológico; no retirar el tratamiento agresivo basándose solo en el mal grado",
+          "trial": "Múltiples series observacionales: resultado de la HSA grado IV WFNS con tratamiento agresivo — el 15–20% logra buen resultado funcional (mRS 0–2); el DVE precoz y la oclusión del aneurisma mejoran el resultado en la HSA de mal grado",
+          "pearl": "Secuencia en HSA de mal grado: (1) DVE para hidrocefalia, (2) oclusión precoz del aneurisma dentro de las 24 horas, (3) manejo médico completo. El 15–20% de los pacientes WFNS IV logran buen resultado. NO retirar el tratamiento basándose solo en el grado."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q15",
+        "stem": "¿Qué afirmación describe MEJOR la diferencia entre el vasoespasmo cerebral radiológico y la isquemia cerebral tardía (ICT) tras la HSA?",
+        "options": {
+          "A": "La ICT es sinónimo del vasoespasmo radiológico — todo vasoespasmo causa ICT",
+          "B": "El vasoespasmo radiológico es un estrechamiento arterial angiográfico que ocurre en el 50–70% de los pacientes con HSA; la ICT es un diagnóstico clínico/de imagen de nuevo déficit neurológico o infarto no explicado por otras causas, que ocurre en el 30–40%; no todo el vasoespasmo causa ICT y la ICT puede ocurrir sin vasoespasmo visible",
+          "C": "La ICT ocurre más precozmente (días 1–3) que el vasoespasmo radiológico (días 7–14) y es causada por depresión cortical propagada más que por espasmo arterial",
+          "D": "El vasoespasmo radiológico es la causa del 100% de los casos de ICT; la ICT es simplemente la manifestación clínica del vasoespasmo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El vasoespasmo radiológico (estrechamiento angiográfico) ocurre en el 50–70% de los pacientes con HSA entre los días 4–14, con pico en los días 7–10. La ICT clínicamente aparente ocurre en el 30–40% y se define como nuevo déficit neurológico focal o deterioro cognitivo, o nuevo infarto en TC/RM, no atribuible a resangrado, hidrocefalia, trastorno electrolítico u otras causas. La distinción crítica: no todo el vasoespasmo causa ICT, y la ICT puede ocurrir sin vasoespasmo angiográficamente visible (por vasoespasmo microvascular, depolarizaciones corticales propagadas y vulnerabilidad del tejido cerebral). Esta disociación está demostrada por los ensayos CONSCIOUS: clazosentán redujo el vasoespasmo pero no la ICT/resultados.",
+          "wrong": {
+            "A": "El vasoespasmo y la ICT no son sinónimos — el 50–70% tiene vasoespasmo pero solo el 30–40% desarrolla ICT. Muchos pacientes con vasoespasmo angiográfico no tienen síntomas clínicos",
+            "C": "La ICT NO ocurre antes que el vasoespasmo. Ambas se manifiestan en la misma ventana temporal (días 4–14). Las depolarizaciones corticales propagadas contribuyen a la ICT pero no causan la mayor parte de los eventos clínicos de forma independiente a la ventana del vasoespasmo",
+            "D": "Los ensayos CONSCIOUS demostraron de forma definitiva que el vasoespasmo NO es la única causa de ICT. La prevención del vasoespasmo en solitario (clazosentán) no previno la ICT — existen otros mecanismos involucrados"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Definición de ICT: nuevo déficit neurológico no explicado por otras causas; es esencial distinguir ICT de vasoespasmo para el manejo",
+          "trial": "CONSCIOUS-2/3 (Macdonald Lancet Neurol 2012): clazosentán redujo significativamente el vasoespasmo pero NO mejoró la ICT ni los resultados funcionales — demostrando que vasoespasmo ≠ ICT causalmente",
+          "pearl": "Vasoespasmo (incidencia 50–70%) ≠ ICT (incidencia 30–40%). La ICT puede ocurrir sin vasoespasmo visible (vasoespasmo microvascular, depolarización cortical propagada). Tratar solo el vasoespasmo (clazosentán) no previene la ICT. El nimodipino actúa mediante neuroprotección, no vasodilatación."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q16",
+        "stem": "Una mujer de 47 años presenta HSA grado I de Hunt-Hess. La angioTC identifica dos aneurismas: un aneurisma roto de la arteria comunicante posterior derecha de 7 mm (confirmado como la fuente del sangrado por blush angiográfico) y un aneurisma incidental de la arteria comunicante anterior izquierda de 3 mm. El aneurisma roto de la AComP se clipa en el día 1. ¿Cuál es el manejo recomendado del aneurisma incidental izquierdo de la ACoA?",
+        "options": {
+          "A": "Tratar el aneurisma incidental simultáneamente durante el mismo procedimiento quirúrgico",
+          "B": "Tratar el aneurisma incidental de forma definitiva en un procedimiento electivo separado en 3–6 meses, basándose en el tamaño, la morfología y las preferencias del paciente",
+          "C": "Sin tratamiento necesario para ningún aneurisma incidental <5 mm — el riesgo anual de rotura es esencialmente cero",
+          "D": "Embolización inmediata del aneurisma incidental el mismo día que el aneurisma roto para prevenir la rotura futura"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El manejo de los aneurismas intracraneales no rotos descubiertos incidentalmente durante el estudio de la HSA está guiado por la puntuación PHASES (Population, Hypertension, Age, Size, Earlier SAH from another aneurysm, Site) y los datos de ISUIA. Un aneurisma de la ACoA de 3 mm en una paciente joven (47 años) que ha tenido una HSA previa conlleva mayor riesgo de rotura que la población general (el antecedente de HSA aumenta el riesgo). El manejo debe diferirse al tratamiento electivo en un procedimiento separado tras la recuperación (típicamente 3–6 meses), basándose en los factores de riesgo individuales, las preferencias del paciente y la experiencia institucional. El tratamiento simultáneo puede aumentar el riesgo procedimental.",
+          "wrong": {
+            "A": "Tratar ambos aneurismas simultáneamente aumenta la complejidad procedimental y el riesgo durante un procedimiento de urgencia ya de alto riesgo. La práctica actual difiere el tratamiento del aneurisma incidental a condiciones electivas",
+            "C": "El riesgo anual de rotura NO es esencialmente cero para todos los aneurismas <5 mm. La puntuación PHASES tiene en cuenta múltiples factores de riesgo. Importante: la HSA previa por otro aneurisma aumenta significativamente el riesgo de rotura de los aneurismas coexistentes",
+            "D": "La embolización inmediata el mismo día del aneurisma incidental no es la práctica estándar — la paciente ya ha tenido un procedimiento (clipaje), la anticoagulación para la embolización añade riesgo, y el aneurisma incidental puede manejarse electivamente cuando los riesgos sean menores"
+          },
+          "guideline": "AHA/ASA Unruptured Intracranial Aneurysm Guidelines 2015 — Puntuación PHASES para estratificación del riesgo de rotura; la HSA previa es un factor de riesgo significativo que aumenta la consideración de tratamiento incluso para aneurismas pequeños",
+          "trial": "ISUIA (International Study of Unruptured Intracranial Aneurysms, Wiebers NEJM 2003): el tamaño, la localización y el antecedente de HSA son los determinantes clave del riesgo de rotura",
+          "pearl": "Aneurisma incidental durante el estudio de HSA: tratar primero el aneurisma roto, luego evaluar el aneurisma incidental de forma electiva usando la puntuación PHASES. La HSA previa aumenta el riesgo de rotura de los aneurismas coexistentes independientemente del tamaño — incluso los aneurismas de 3 mm merecen una consideración seria."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q17",
+        "stem": "¿Cuál de las siguientes es la descripción CORRECTA de la Regla de Ottawa para HSA y cuándo aplicarla?",
+        "options": {
+          "A": "La regla se aplica a pacientes con cualquier cefalea; una puntuación ≥2 obliga a TC craneal",
+          "B": "La regla se aplica a pacientes con cefalea aguda no traumática que alcanza la intensidad máxima en 1 hora; si CUALQUIERA de los 6 criterios está presente, se requiere PL tras TC negativa para excluir HSA (sensibilidad del 100%)",
+          "C": "La regla se aplica solo a pacientes con hipertensión preexistente y nueva cefalea",
+          "D": "La regla utiliza la RM FLAIR como modalidad de imagen primaria antes de considerar la PL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La Regla de Ottawa para HSA (Perry, Lancet 2011) se aplica a pacientes con cefalea aguda no traumática que alcanza la intensidad máxima en 1 hora, y solo es válida en pacientes neurológicamente íntegros y alertas. Los 6 criterios (cualquier UNO positivo obliga a PL tras TC negativa): edad ≥40 años; rigidez o dolor cervical; pérdida de consciencia presenciada; inicio con el esfuerzo; carácter en trueno ('la peor cefalea'); limitación de la flexión cervical en la exploración. La regla logró una sensibilidad del 100% y una especificidad del 15,3% en la validación (alta sensibilidad, especificidad moderada — identifica correctamente toda la HSA, con algunos falsos positivos). NO es una puntuación — cualquier criterio positivo único es un resultado de la regla positivo.",
+          "wrong": {
+            "A": "La Regla de Ottawa para HSA NO se aplica a cualquier cefalea — es específicamente para cefalea aguda que alcanza la intensidad máxima en 1 hora. No es una puntuación — cualquier criterio positivo único es suficiente",
+            "C": "La regla no se restringe a pacientes hipertensos — se aplica a cualquier paciente neurológicamente íntegro con características de cefalea en trueno",
+            "D": "La Regla de Ottawa para HSA utiliza la TC como modalidad de imagen primaria, seguida de PL si la TC es negativa. La RM FLAIR no forma parte del algoritmo de decisión de Ottawa para HSA"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Regla de Ottawa para HSA validada para identificar pacientes que requieren PL tras TC negativa",
+          "trial": "Perry JJ et al. (Lancet 2011): validación de la Regla de Ottawa para HSA — 1.153 pacientes, sensibilidad del 100% (100% de HSA correctamente identificadas), especificidad del 15,3%; valor predictivo negativo del 100%",
+          "pearl": "Regla de Ottawa para HSA: 6 criterios — edad ≥40, rigidez cervical, pérdida de consciencia, inicio con el esfuerzo, cefalea en trueno, limitación de la flexión cervical. CUALQUIER criterio = regla positiva = PL obligatoria tras TC negativa. Sensibilidad 100%, especificidad 15%. Solo se aplica a cefalea aguda (intensidad máxima en 1 hora) en pacientes neurológicamente íntegros."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q18",
+        "stem": "Una mujer de 66 años con HSA (grado WFNS III, aneurisma de la punta basilar embolizado en el día 2) desarrolla disartria y hemiplejia derecha progresivas en el día 9 post-HSA. El DTC muestra velocidades medias en arterias cerebrales anteriores y medias bilaterales de 175–185 cm/s. La TC no muestra nueva hemorragia. La TC de perfusión muestra Tmax prolongado (>6 segundos) en el territorio de la ACM izquierda. La PAM es de 85 mmHg (basal 92 mmHg). ¿Cuál es la intervención inmediata más adecuada?",
+        "options": {
+          "A": "Repetir angioTC y angiografía con catéter para tratamiento vasodilatador endovascular de forma inmediata",
+          "B": "Hipertensión inducida con noradrenalina con objetivo de PAM 100–110 mmHg (20–25% por encima del basal), con monitorización de la respuesta clínica",
+          "C": "Inicio de hipervolemia con bolo de 2 L de suero fisiológico y objetivo de PVC 12–14 mmHg",
+          "D": "Aumentar la dosis de nimodipino a 90 mg cada 4 horas para mayor vasodilatación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta paciente tiene ICT establecida (nuevo déficit neurológico en el día 9, cronología consistente, TC de perfusión que muestra isquemia, sin explicación alternativa). El tratamiento de primera línea es la hipertensión inducida: noradrenalina para aumentar la PAM un 20–25% sobre el basal (PAM 85 → 105 mmHg). La monitorización clínica orienta el objetivo — si el déficit neurológico se resuelve, mantener la PAM elevada. Si no hay respuesta en 1–2 horas, proceder a angiografía con catéter para tratamiento vasodilatador intraarterial. La hipervolemia (terapia 3H) está obsoleta y es Clase III.",
+          "wrong": {
+            "A": "La angiografía con catéter inmediata es el SEGUNDO paso si la hipertensión inducida fracasa. Primero intentar el tratamiento farmacológico (hipertensión inducida) ya que es menos invasivo y más rápido de iniciar",
+            "C": "La hipervolemia profiláctica (con objetivo de PVC alta) es Clase III (Daño) según los datos del ensayo PHAST. Incluso para la ICT establecida, el foco es la hipertensión inducida, no la hipervolemia",
+            "D": "El incremento de la dosis de nimodipino por encima de 60 mg cada 4h no está recomendado — aumenta el riesgo de hipotensión. El nimodipino es neuroprotector, no un vasodilatador de rescate para la ICT establecida"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — ICT establecida: hipertensión inducida (Clase IIa); vasodilatador intraarterial/angioplastia si la hipertensión fracasa (Clase IIa)",
+          "trial": "Muench E et al. (Stroke 2007): hipertensión inducida para ICT relacionada con vasoespasmo — tasa de respuesta del 80% con aumento de PAM hasta 100–120 mmHg; la reversión del déficit neurológico se correlaciona con la mejoría de perfusión",
+          "pearl": "Manejo de la ICT: Paso 1 = hipertensión inducida (noradrenalina, PAM +20–30% basal). Paso 2 = angiografía con catéter + verapamilo/milrinona intraarterial o angioplastia con balón (vasoespasmo proximal). NO aumentar nimodipino ni usar hipervolemia."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q19",
+        "stem": "Un varón de 53 años con HSA grado II de Hunt-Hess tiene su aneurisma de la arteria comunicante anterior embolizado en el día 1. Tras el procedimiento, está somnoliento (GCS 13). La TC en el día 3 muestra tamaño ventricular normal. En el día 7, tiene GCS 14 pero presenta una leve afasia expresiva no presente al ingreso. Su tensión arterial es 145/85 mmHg con nimodipino. La diuresis es de 4,2 L/día (desde el día 5). El Na sérico es de 130 mEq/L. ¿Cuál es el diagnóstico MÁS probable y el manejo?",
+        "options": {
+          "A": "SIADH — restricción hídrica a 1.000 mL/día",
+          "B": "Síndrome de Salt Wasting Cerebral (SSRC) — infusión de suero fisiológico para mantener euvolemia más fludrocortisona oral 0,1–0,2 mg/día",
+          "C": "Hiponatremia inducida por nimodipino — reducir la dosis de nimodipino a 30 mg cada 4h",
+          "D": "Disfunción hipotalámica por HSA — sin tratamiento específico necesario"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La diuresis elevada (4,2 L/día) indica poliuria con natriuresis — el signo característico del síndrome de Salt Wasting Cerebral (SSRC). El ANP y el BNP liberados por la disfunción hipotalámica tras la HSA inducen pérdida renal de sodio y consiguiente hipovolemia. Tratamiento: reposición de volumen (suero fisiológico o hipertónico) más fludrocortisona 0,1–0,2 mg/día para reponer la actividad mineralocorticoide y reducir la pérdida renal de sodio. La restricción hídrica (tratamiento del SIADH) sería catastróficamente perjudicial aquí al agravar la depleción de volumen y desencadenar ICT en la ventana del vasoespasmo.",
+          "wrong": {
+            "A": "La restricción hídrica en el SSRC reduciría el volumen intravascular, aumentaría el riesgo de vasoespasmo y podría causar ICT. La diuresis de 4,2 L/día con poliuria apunta al SSRC con depleción de volumen, no al SIADH con sobrecarga de volumen",
+            "C": "El nimodipino no causa hiponatremia como efecto adverso reconocido. Su principal efecto adverso es la hipotensión. Reducir el nimodipino eliminaría el único agente neuroprotector de Clase I",
+            "D": "Esto no es una alteración hipotalámica benigna — es un SSRC activo que causa depleción de volumen e hiponatremia con efectos neurológicos (afasia) y requiere tratamiento específico para prevenir la ICT"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Hiponatremia post-HSA: el SSRC es el mecanismo predominante; tratar con reposición de volumen y sodio, fludrocortisona; evitar la restricción hídrica",
+          "trial": "Mori T et al. (Stroke 1999): la fludrocortisona reduce significativamente la frecuencia de SSRC e hiponatremia en la HSA; Audibert G (Anesth Analg 2009): distinción SSRC frente a SIADH en la HSA",
+          "pearl": "Hiponatremia post-HSA con poliuria = SSRC (natriuresis, depleción de volumen). Tratamiento: suero IV + fludrocortisona 0,1–0,2 mg/día. Diferenciador clave: SSRC = balance hídrico negativo + poliuria. SIADH = euvolemia/balance positivo + diuresis normal/baja."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q20",
+        "stem": "Una mujer de 48 años tiene un aneurisma roto de la arteria comunicante posterior derecha que se presenta como HSA grado II de Hunt-Hess con parálisis completa del nervio oculomotor derecho (ptosis, midriasis y oftalmoplejia). La angioTC confirma un aneurisma de 9 mm de la AComP. Tanto el clipaje como la embolización son técnicamente factibles. ¿Qué factor basado en la evidencia favorece MÁS FUERTEMENTE el clipaje quirúrgico sobre la embolización endovascular en esta paciente específica?",
+        "options": {
+          "A": "Edad del paciente <50 años (datos de durabilidad a largo plazo de ISAT)",
+          "B": "Parálisis compresiva del III par — el clipaje quirúrgico permite la descompresión del nervio con tasas superiores de recuperación del III par (80–90% frente a 60–70% con embolización)",
+          "C": "Localización en circulación posterior — todos los aneurismas de la arteria comunicante posterior se clipan mejor",
+          "D": "Tamaño del aneurisma 9 mm — los aneurismas grandes no pueden embolizarse de forma segura"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La presencia de una parálisis compresiva del III par es el argumento anatómico y clínico más sólido para el clipaje quirúrgico de un aneurisma de AComP. Durante el clipaje, el cirujano puede visualizar y descomprimir directamente el nervio oculomotor desde la cúpula/pared del aneurisma. Las tasas de recuperación del III par son del 80–90% tras el clipaje frente al 60–70% tras la embolización en múltiples series observacionales, porque la embolización ocluye el aneurisma internamente pero no descomprime el nervio externamente. Para una mujer de 48 años con oftalmoplejia completa, maximizar la recuperación del III par es un resultado clave para la calidad de vida.",
+          "wrong": {
+            "A": "La edad joven es un factor que favorece el clipaje por la durabilidad (datos a largo plazo de ISAT), pero NO es el factor MÁS ESPECÍFICO en este caso. La parálisis del III par proporciona el argumento específico más sólido",
+            "C": "Los aneurismas de AComP NO se clipan uniformemente de la mejor manera — de hecho, con frecuencia se embolizan con éxito. La presencia de parálisis del III par es el modificador específico que favorece el clipaje aquí, no la localización en la AComP per se",
+            "D": "Un aneurisma de 9 mm está dentro del rango de tamaño tratable por embolización en manos expertas. El tamaño solo no contraindica la embolización. La morfología de cuello ancho y la anatomía de las ramas son más relevantes para la viabilidad de la embolización"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Parálisis del III par por aneurisma de AComP: se prefiere generalmente el clipaje quirúrgico para mejor descompresión y recuperación del III par",
+          "trial": "Chen PR et al. (J Neurosurg 2003): aneurisma de AComP con parálisis del III par — recuperación completa o casi completa en el 83% tras clipaje frente al 61% tras embolización; Yu JL (World Neurosurg 2017) confirma la recuperación diferencial",
+          "pearl": "Aneurisma de AComP + parálisis del III par = clipaje quirúrgico preferido. Razón: descompresión directa del nervio durante la cirugía → recuperación del III par del 80–90% frente al 60–70% tras embolización. Esto prevalece sobre la preferencia general de ISAT por la embolización en este escenario específico."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

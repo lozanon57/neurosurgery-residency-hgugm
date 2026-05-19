@@ -1,0 +1,652 @@
+{
+  "id": "A4",
+  "title": "Metástasis Cerebrales",
+  "subtitle": "Bloque A — Neuro-Oncología: Resección Quirúrgica, Radiocirugía y Manejo Multimodal",
+  "block": "A",
+  "block_name": "Neuro-Oncología",
+  "level": "R1-3",
+  "reading_time_min": 40,
+  "guidelines_version": "AANS/CNS Guidelines for Brain Metastases 2022 · ASTRO Brain Metastases Guidelines 2022 · NCCN CNS Tumors v1.2024",
+  "textbook_refs": [
+    "Soffietti R et al. Diagnosis and treatment of brain metastases from solid tumours: guidelines from the European Association of Neuro-Oncology (EANO). Eur J Cancer 2017;75:105-115",
+    "Vogelbaum MA et al. Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline. J Clin Oncol 2022;40:492-516",
+    "Patchell RA et al. A randomized trial of surgery in the treatment of single metastases to the brain. N Engl J Med 1990;322:494-500",
+    "Kocher M et al. Adjuvant whole-brain radiotherapy versus observation after radiosurgery or surgical resection of 1-3 brain metastases. J Clin Oncol 2011;29:134-141"
+  ],
+  "learning_objectives": [
+    "Aplicar los sistemas de clasificación RPA (Análisis de Partición Recursiva) y GPA (Evaluación Pronóstica Graduada) para estimar el pronóstico y orientar la selección del tratamiento",
+    "Definir las indicaciones de resección quirúrgica frente a radiocirugía estereotáctica (SRS) para metástasis cerebrales según tamaño, número, localización y estado de la enfermedad sistémica",
+    "Comprender el papel de la radioterapia cerebral total (RCT) adyuvante y cuándo puede omitirse de forma segura en favor de la vigilancia activa tras el tratamiento local",
+    "Describir la evidencia científica para la SRS de la cavidad de resección tras la extirpación quirúrgica de metástasis cerebrales",
+    "Seleccionar el tratamiento sistémico adecuado para las metástasis cerebrales según la histología del tumor primario y el perfil molecular (HER2, EGFR, ALK, BRAF, PIK3CA)",
+    "Identificar las características clínicas y radiológicas que distinguen las metástasis cerebrales de los tumores cerebrales primarios"
+  ],
+  "sections": [
+    {
+      "id": "A4-S1",
+      "title": "Epidemiología, Fisiopatología y Diagnóstico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las metástasis cerebrales son la neoplasia intracraneal maligna más frecuente en adultos, afectando al 10-30% de los pacientes oncológicos y superando en número a los tumores cerebrales primarios en una proporción aproximada de 10:1. Su incidencia ha ido en aumento debido a la mejora en la supervivencia de los pacientes con cáncer sistémico y al mayor uso de la vigilancia mediante RM. Los tumores primarios más frecuentes que originan metástasis cerebrales son el cáncer de pulmón (40-50%), el cáncer de mama (15-25%), el melanoma (5-20%), el carcinoma de células renales (5-10%) y el carcinoma colorrectal (3-5%). Las metástasis de pulmón y melanoma tienden a ser múltiples; las de células renales, colorrectal y mama tienden a producir menos lesiones. El **melanoma** presenta la mayor tendencia a la hemorragia intratumoral debido a su alta vascularización; otras metástasis hemorrágicas incluyen el carcinoma de células renales, el coriocarcinoma y el carcinoma de tiroides.\n\nLa barrera hematoencefálica (BHE) limita la penetración de muchos agentes quimioterápicos, especialmente los de molécula grande, en las metástasis cerebrales. Sin embargo, las lesiones metastásicas alteran la BHE (como evidencia el realce con gadolinio en RM), y los agentes dirigidos de molécula pequeña con lipofilicidad y bajo peso molecular pueden alcanzar concentraciones terapéuticas en el SNC. Las metástasis cerebrales se localizan típicamente en la unión córtico-subcortical (donde el árbol arterial se estrecha y actúa como trampa microembólica), especialmente en la zona frontera del territorio de la ACM. El cerebelo y el tronco del encéfalo reciben el 15-20% de las lesiones, proporcional a su flujo sanguíneo.\n\nEl diagnóstico se basa principalmente en la **RM cerebral con contraste** (gadolinio, 1,5 o 3T), siendo el protocolo estándar T1 pre y post-contraste, T2/FLAIR, DWI y secuencias GRE/SWI. La T1 post-contraste de cortes finos (1 mm isotrópico) mejora la sensibilidad para detectar metástasis pequeñas en comparación con los cortes estándar de 5 mm. La RM es superior a la TC para detectar lesiones en la fosa posterior y para identificar lesiones pequeñas (<1 cm). Cuando la RM es equívoca, la espectroscopia de RM, el estudio de perfusión o la PET pueden ayudar a diferenciar las metástasis de un glioma de alto grado u otras lesiones."
+        },
+        {
+          "type": "table",
+          "title": "Tumores Primarios más Frecuentes Causantes de Metástasis Cerebrales",
+          "headers": ["Tumor primario", "Frecuencia", "Número típico", "Riesgo hemorrágico", "Dianas moleculares clave"],
+          "rows": [
+            ["Carcinoma de pulmón no microcítico (CPNM)", "40-50%", "Múltiple", "Bajo-moderado", "EGFR, ALK, ROS1, KRAS"],
+            ["Cáncer de mama", "15-25%", "Único-múltiple", "Bajo", "HER2, HR, BRCA1/2"],
+            ["Melanoma", "5-20%", "Múltiple", "ALTO", "BRAF V600E, NRAS, PD-L1"],
+            ["Carcinoma de células renales", "5-10%", "Único-escaso", "ALTO", "VEGFR, mTOR"],
+            ["Carcinoma colorrectal", "3-5%", "Único-escaso", "Bajo", "KRAS, BRAF, MSI"],
+            ["Carcinoma de pulmón microcítico (CPM)", "10-15% al diagnóstico", "Múltiple", "Bajo-moderado", "PD-L1, DLL3"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Metástasis Cerebrales Hemorrágicas: Los Cuatro Clásicos",
+          "content": "Los cuatro tumores primarios que con mayor frecuencia producen metástasis cerebrales hemorrágicas son: melanoma, carcinoma de células renales, coriocarcinoma y carcinoma de tiroides. Las metástasis de pulmón y mama también pueden sangrar pero de forma menos característica. En TC/RM, una masa hemorrágica en la unión córtico-subcortical en un paciente con neoplasia sistémica conocida debe orientar hacia estos tumores primarios."
+        }
+      ]
+    },
+    {
+      "id": "A4-S2",
+      "title": "Sistemas Pronósticos: Clasificación RPA y GPA",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los sistemas de clasificación pronóstica son esenciales para orientar a los pacientes y seleccionar la intensidad del tratamiento adecuada, equilibrando el beneficio en supervivencia con la calidad de vida y la carga terapéutica. La clasificación **RPA (Análisis de Partición Recursiva)** (Gaspar et al. IJROBP 1997) se derivó de los ensayos de RCT del RTOG y define tres clases según el KPS, el control del tumor primario y las metástasis extracraneales: Clase I (KPS ≥70, edad <65 años, primario controlado, sin MCE) — SG mediana 7,1 meses; Clase II (todos los demás no incluidos en I o III) — SG mediana 4,2 meses; Clase III (KPS <70) — SG mediana 2,3 meses.\n\nLa puntuación **GPA (Evaluación Pronóstica Graduada)** (Sperduto et al. JCO 2010, actualizada en 2012 con la GPA Diagnóstico-Específica, DS-GPA) mejoró la RPA incorporando factores clínicos y moleculares específicos del tumor. La GPA asigna 0-1 puntos cada uno por: edad (0 pts si >60 años, 0,5 pts si 50-59 años, 1 pt si <50 años), KPS (0 pts si <70, 0,5 pts si 70-80, 1 pt si 90-100), número de metástasis cerebrales (0 pts si >3, 0,5 pts si 2-3, 1 pt si 1) y metástasis extracraneales (0 pts si presentes, 1 pt si ausentes). Puntuación total 0-4; puntuación más alta = mejor pronóstico.\n\nCríticamente, la **DS-GPA** incorpora factores específicos del tumor con predictores sustancialmente diferentes según la histología. Para el **CPNM**, se incluye el estado de EGFR y ALK: el CPNM EGFR-mutado con GPA 3,5-4,0 tiene una SG mediana de 46,8 meses (frente a 6,9 meses para GPA 0-1). Para el **cáncer de mama**, el subtipo molecular (HR+/HER2−, HER2+, triple negativo) es el factor pronóstico dominante: HER2+ con GPA 3,5-4 alcanza una SG mediana de 25,3 meses. Para el **melanoma**, se incorpora el estado de BRAF V600E: el melanoma BRAF-mutado con GPA 3,5-4 alcanza una SG mediana de 13,2 meses. Estos sistemas pronósticos específicos de tumor informan la intensidad del tratamiento local (cirugía vs SRS vs RCT) y orientan la integración del tratamiento sistémico dirigido."
+        },
+        {
+          "type": "table",
+          "title": "Componentes de la Puntuación GPA (Evaluación Pronóstica Graduada)",
+          "headers": ["Factor", "0 puntos", "0,5 puntos", "1,0 puntos"],
+          "rows": [
+            ["Edad", ">60 años", "50-59 años", "<50 años"],
+            ["KPS", "<70", "70-80", "90-100"],
+            ["Número de metástasis cerebrales", ">3", "2-3", "1"],
+            ["Metástasis extracraneales", "Presentes", "—", "Ausentes"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — La DS-GPA Cambia el Pronóstico de Forma Dramática",
+          "content": "La DS-GPA (GPA Diagnóstico-Específica) muestra que la SG mediana varía hasta 10 veces según la histología y el subtipo molecular, incluso con la misma puntuación GPA. CPNM EGFR-mutado con GPA 3,5-4: SG mediana 46,8 meses. Frente a CPNM KRAS-mutado GPA 0-1: SG mediana 3,4 meses. El cáncer de mama HER2+ es el segundo subtipo con mejor pronóstico. Por ello, la caracterización molecular del tumor primario es obligatoria antes de decidir un tratamiento local agresivo para las metástasis cerebrales."
+        }
+      ]
+    },
+    {
+      "id": "A4-S3",
+      "title": "Resección Quirúrgica: Indicaciones y Evidencia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El ensayo clínico aleatorizado de referencia **Patchell et al. (NEJM 1990)** estableció el beneficio de la resección quirúrgica para una metástasis cerebral única. Este ensayo aleatorizó a 48 pacientes con una metástasis cerebral única accesible a cirugía + RCT frente a biopsia con aguja + RCT. El grupo de cirugía tuvo una SG mediana significativamente mayor (40 vs 15 semanas), menos muertes por causas neurológicas (14% vs 44%), mayor tiempo de independencia funcional (38 vs 8 semanas) y menor tasa de recidiva local (20% vs 52%). Un segundo ECA de referencia de **Vecht et al. (Ann Neurol 1993)** confirmó estos hallazgos: cirugía + RCT vs RCT sola en metástasis cerebral única con enfermedad sistémica — grupo cirugía: SG mediana 10 meses vs 6 meses (p=0,04). Significativamente, el beneficio se restringió a los pacientes con enfermedad sistémica estable o ausente (SG 12 vs 7 meses), mientras que los pacientes con enfermedad sistémica activa no mostraron beneficio (SG 5 meses en ambos grupos), estableciendo que el control de la enfermedad sistémica es crítico para el beneficio quirúrgico.\n\n**Indicaciones actuales de resección quirúrgica de metástasis cerebrales:**\n- Metástasis única o dominante sintomática (>3 cm, efecto de masa significativo o compromiso neurológico)\n- Lesión en localización accesible y paciente con buen estado funcional (KPS ≥70) y enfermedad sistémica controlada o controlable\n- Diagnóstico histológico necesario (primario desconocido o características atípicas en RM)\n- Tumores radiorresistentes (CCR, melanoma) donde la SRS en monoterapia puede ser insuficiente para lesiones grandes\n- Metástasis en fosa posterior con hidrocefalia obstructiva que requiere descompresión urgente\n- RCT previa que impide la SRS por dosis acumulada\n\n**Técnica quirúrgica**: el objetivo es la resección total macroscópica segura mediante una craneotomía adaptada. La craneotomía en paciente despierto con cartografía cortical se utiliza para lesiones en corteza elocuente o adyacentes a ella. La resección **en bloque** (preferida frente a la resección fragmentada) reduce el riesgo de diseminación leptomeníngea; el ensayo **Patchell 1998** sobre RCT adyuvante de la cavidad de resección frente a observación demostró una mayor recidiva local con la observación (46% vs 10%), estableciendo que el tratamiento adyuvante local siempre es necesario tras la resección."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — El Beneficio del Ensayo Patchell 1990 se Limita a la Enfermedad Sistémica Estable",
+          "content": "El beneficio quirúrgico del ensayo Patchell 1990 (SG 40 vs 15 semanas) fue específicamente en pacientes con buen KPS y enfermedad sistémica limitada. El ensayo Vecht 1993 confirmó: cirugía + RCT beneficia a pacientes con enfermedad sistémica controlada (SG 12 vs 7 meses) pero NO a pacientes con enfermedad sistémica activa (SG 5 meses en ambos grupos). No recomendar craneotomía agresiva para un paciente con enfermedad metastásica sistémica rápidamente progresiva y mal estado funcional: el objetivo en ese contexto es la paliación."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Decisión Cirugía vs SRS",
+          "content": "Mujer de 58 años, KPS 90, cáncer de mama conocido (HER2+), con una metástasis cerebral única de 3,8 cm en la región frontoparietal derecha que causa leve hemiparesia izquierda. Enfermedad sistémica controlada con pertuzumab/trastuzumab. Puntuación GPA 3,0 (DS-GPA para mama HER2+): se prefiere la cirugía frente a la SRS sola para este tamaño de lesión con efecto de masa y síntomas neurológicos, proporcionando descompresión inmediata y tejido para análisis molecular. La SRS sobre la cavidad de resección postoperatoria (en lugar de RCT) preserva la función cognitiva."
+        }
+      ]
+    },
+    {
+      "id": "A4-S4",
+      "title": "Radiocirugía Estereotáctica: Indicaciones, Dosis y Evidencia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La radiocirugía estereotáctica (SRS) se ha convertido en la modalidad de tratamiento local dominante para las metástasis cerebrales en las últimas dos décadas, sustituyendo en gran medida a la radioterapia cerebral total (RCT) como tratamiento de primera línea para pacientes con un número limitado de metástasis. La SRS administra una dosis de radiación alta y precisamente dirigida en una a cinco fracciones, alcanzando tasas de control local del 80-92% a los 12 meses para lesiones ≤3 cm.\n\n**Selección de dosis**: las dosis de SRS en fracción única para metástasis cerebrales se determinan según el volumen de la lesión, tal como se define en el estudio de escalada de dosis RTOG 90-05: lesiones ≤20 mm de diámetro → 24 Gy; 21-30 mm → 18 Gy; 31-40 mm → 15 Gy. Las lesiones >40 mm generalmente no se tratan con SRS en fracción única por el inaceptable riesgo de radionecrosis. La SRS fraccionada (SRSF, 3-5 fracciones de 7-9 Gy por fracción) es preferible para lesiones >2 cm, las adyacentes a estructuras elocuentes o las previamente irradiadas. La dosis biológicamente efectiva (DBE) de la SRS fraccionada es equivalente o superior a la de fracción única para el control local, con menor riesgo de radionecrosis.\n\n**SRS vs RCT: la evidencia definitiva.** El ensayo **EORTC 22952-26001** (Kocher et al. JCO 2011) aleatorizó a 359 pacientes con 1-3 metástasis cerebrales sometidos a cirugía o SRS a RCT frente a observación. La RCT redujo la recidiva intracraneal a 2 años (48% vs 78% sin RCT) pero NO mejoró la supervivencia global (10,7 meses RCT vs 10,9 meses sin RCT). La RCT deterioró significativamente la función neurocognitiva a los 4 meses (Test de Aprendizaje Verbal de Hopkins: 52% de deterioro con RCT vs 24% con observación). Este ensayo de referencia estableció que omitir la RCT tras el tratamiento local no perjudica la supervivencia y preserva la neurocognición.\n\nEl ensayo **NCCTG N0574** (Brown et al. JAMA 2016) confirmó aún más: SRS sola vs SRS + RCT en 1-3 metástasis cerebrales — sin diferencia en SG; el grupo de RCT tuvo un deterioro cognitivo significativamente mayor a los 3 meses (92% de deterioro vs 64%). Los datos del **MD Anderson SRS sola vs RCT** (Chang et al. Lancet Oncol 2009) demostraron lo mismo: la RCT causa un deterioro mnésico clínicamente significativo medido por el HVLT-R.\n\n**SRS para ≥4 metástasis**: múltiples estudios prospectivos y metaanálisis demuestran que la SRS para 4-10 (o más) metástasis alcanza una SG y un control local equivalentes a la RCT, siempre que el volumen intracraneal total sea ≤10 cm³. El **ensayo de fase III japonés** (Aoyama et al. JAMA 2006) con SRS ± RCT en 1-4 metástasis no mostró diferencias en SG. La práctica contemporánea en la mayoría de los centros de referencia ofrece SRS a pacientes con hasta 10-15 metástasis cuando el volumen total es manejable."
+        },
+        {
+          "type": "table",
+          "title": "Recomendaciones de Dosis de Radiocirugía RTOG 90-05 según el Tamaño de la Lesión",
+          "headers": ["Diámetro máximo del tumor", "Dosis SRS fracción única", "Control local a 1 año", "Riesgo de radionecrosis"],
+          "rows": [
+            ["≤20 mm", "24 Gy", "88-93%", "2-5%"],
+            ["21-30 mm", "18 Gy", "82-88%", "6-9%"],
+            ["31-40 mm", "15 Gy", "72-80%", "8-12%"],
+            [">40 mm", "No recomendado SRS en fracción única; considerar fraccionado o cirugía", "—", "Alto (>15%)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A4-S5",
+      "title": "Radioterapia Cerebral Total: Papel y Consideraciones Cognitivas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La radioterapia cerebral total (RCT) fue el tratamiento estándar histórico para las metástasis cerebrales y sigue siendo importante en escenarios clínicos específicos. La RCT administra 30 Gy en 10 fracciones (3 Gy/fracción) o 20 Gy en 5 fracciones (paliativo) al parénquima cerebral completo, tratando tanto las metástasis visibles como la enfermedad microscópica presunta. Aunque reduce la recidiva intracraneal (tanto local como a distancia), múltiples ensayos con evidencia de nivel I (EORTC 22952, NCCTG N0574, MD Anderson) han demostrado que añadir RCT a la SRS para pacientes con 1-3 metástasis NO mejora la supervivencia global.\n\n**Indicaciones actuales de RCT** (donde sigue siendo la opción adecuada):\n- Carcinomatosis leptomeníngea (en combinación con terapia intratecal o como paliación)\n- Metástasis cerebrales extensas (>15 lesiones o volumen total >15 cm³) no susceptibles de SRS\n- Carcinoma de pulmón microcítico (irradiación craneal profiláctica, ICP, y RCT terapéutica)\n- Paciente con mal estado funcional (KPS <70) donde la RCT proporciona una paliación sencilla y eficiente\n- Fracaso de múltiples ciclos de SRS con progresión intracraneal difusa\n- Histologías radiosensibles (CPM, linfoma, células germinales) donde la RCT es muy eficaz\n\nLa **RCT con preservación hipocampal (RCT-PH)** con memantina fue evaluada en el ensayo **RTOG 0933** (Gondi et al. JCO 2014, fase II) y en el ensayo aleatorizado **NRG CC001** (Brown et al. JCO 2020). El ensayo NRG CC001 demostró que la RCT-PH + memantina frente a la RCT estándar + memantina redujo significativamente el fracaso cognitivo a los 6 meses (cociente de riesgo de fracaso cognitivo 0,74, p=0,02), manteniendo un control intracraneal equivalente. La RCT-PH debe ser la práctica estándar cuando se administra RCT, preservando el hipocampo a ≤9 Gy (restricción V100%).\n\nLa **memantina** (antagonista del receptor NMDA, 5-20 mg/día, titulada en 3 semanas) se coadministra con la RCT basándose en la evidencia de fase III del ensayo **RTOG 0614** (Brown et al. Neuro Oncol 2013), que demostró un retraso en el deterioro cognitivo con memantina frente a placebo, especialmente en la función mnésica a las 24 semanas."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — La RCT No Mejora la SG en 1-3 Metástasis Cerebrales",
+          "content": "Mensaje clave de EORTC 22952-26001 (Kocher JCO 2011) y NCCTG N0574 (Brown JAMA 2016): añadir RCT a la SRS o cirugía para 1-3 metástasis cerebrales NO mejora la supervivencia global (aproximadamente 10-11 meses en ambos brazos). La RCT SÍ reduce la recidiva intracraneal (48% vs 78% a 2 años) pero a costa de un deterioro neurocognitivo significativo (52% de deterioro en HVLT-R vs 24%). Por tanto, omitir la RCT tras el tratamiento local en pacientes con 1-3 (o más) metástasis; ofrecer en cambio vigilancia estrecha con RM."
+        }
+      ]
+    },
+    {
+      "id": "A4-S6",
+      "title": "SRS sobre Cavidad de Resección y Diseminación Leptomeníngea",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tras la resección quirúrgica de una metástasis cerebral, la cavidad de resección requiere tratamiento adyuvante local para prevenir la recidiva local. La elección entre RCT y SRS sobre la cavidad de resección (también denominada «SRS de cavidad quirúrgica» o «SRS postoperatoria») ha sido abordada de forma definitiva por el ensayo **Alliance A071801** (Brown et al. JAMA Oncol 2022) y el **NCCTG N107C/CEC3** (Brown et al. Lancet Oncol 2017). El ensayo NCCTG N107C aleatorizó a 194 pacientes tras la resección de una metástasis cerebral única a SRS de la cavidad de resección vs RCT. Resultados: sin diferencia significativa en SG (12,2 meses SRS vs 11,6 meses RCT) ni en control de las crisis epilépticas, pero la SRS preservó significativamente mejor la cognición a los 6 meses (fracaso cognitivo: 52,4% SRS vs 85,4% RCT, p=0,00031) con tasas equivalentes de fracaso local a 12 meses (21,1% SRS vs 19,3% RCT).\n\n**Consideraciones técnicas de la SRS sobre la cavidad de resección**: el momento de la SRS tras la cirugía es crítico. La SRS temprana (≤4 semanas postoperatorias) se asocia a mayores tasas de radionecrosis por la inflamación quirúrgica. El tiempo recomendado es de 4-6 semanas tras la operación. El volumen diana incluye la cavidad de resección con un margen de 1-2 mm, evitando la inclusión excesiva de cerebro sano. Dosis típicas: 15-20 Gy en fracción única para cavidades ≤3 cm, 21-24 Gy para cavidades más pequeñas; SRS fraccionada (25-27 Gy en 3 fracciones o 30 Gy en 5 fracciones) preferida para cavidades mayores (>3 cm) para reducir la radionecrosis.\n\nLa **diseminación leptomeníngea (DLM)** tras la resección de metástasis cerebrales es una complicación temida, que ocurre en aproximadamente el 10-14% de los pacientes tras la resección fragmentada frente al 5-6% tras la resección en bloque. El riesgo de **siembra tumoral** es especialmente relevante para las metástasis de la fosa posterior (cerebelosas), donde la extirpación fragmentada aumenta el riesgo de DLM por la proximidad a las vías del LCR. La técnica de resección en bloque, la evitación de la entrada en el tumor durante la disección y la irrigación copiosa son las estrategias quirúrgicas para minimizar la DLM. La RM con contraste postoperatoria en las 48 horas siguientes documenta el estado basal de la resección y sirve como plantilla para la planificación de la SRS sobre la cavidad."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — La Resección Fragmentada Aumenta la Diseminación Leptomeníngea",
+          "content": "La resección fragmentada (vaciamiento interno antes de la disección de la cápsula) de las metástasis cerebelosas se asocia a carcinomatosis leptomeníngea en hasta el 14% de los casos. La resección en bloque con la cápsula tumoral intacta reduce drásticamente este riesgo. Para las metástasis cerebelosas y de la fosa posterior, mantener el plano aracnoideo y evitar entrar en el tumor hasta que la cápsula esté completamente disecada. Esto es especialmente crítico en metástasis de melanoma y adenocarcinoma de pulmón, que tienen alta propensión a la DLM."
+        }
+      ]
+    },
+    {
+      "id": "A4-S7",
+      "title": "Tratamiento Sistémico con Penetración en el SNC y Dianas Moleculares",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los avances en el tratamiento dirigido a nivel molecular han transformado el manejo de las metástasis cerebrales, con varios agentes que demuestran actividad intracraneal significativa gracias a sus propiedades de penetración en el SNC. El concepto de «tasa de respuesta intracraneal» (TRiC) es ahora un criterio de valoración estándar en los ensayos de agentes para la enfermedad en el SNC.\n\n**CPNM con mutaciones de EGFR**: el ITK de EGFR de tercera generación **osimertinib** (AZD9291) alcanza tasas de respuesta intracraneal del 70-91% en metástasis cerebrales de CPNM EGFR-mutado. El ensayo **FLAURA** (Soria et al. NEJM 2018) demostró la superioridad de osimertinib frente a los ITK de primera generación en CPNM EGFR-mutado; el subgrupo del SNC (91 pacientes con metástasis cerebrales) mostró SLP del SNC con HR 0,48 y TRiC 66% vs 43%. La propiedad de penetración cerebral de osimertinib (cociente SNC:plasma ~40%) es una ventaja clave para el manejo de la enfermedad en el SNC. Muchos centros difieren la SRS para metástasis cerebrales pequeñas y asintomáticas de CPNM EGFR-mutado en favor de osimertinib solo con vigilancia estrecha.\n\n**CPNM con reordenamientos de ALK**: **alectinib** y **lorlatinib** (inhibidor de ALK de 3.ª generación) alcanzan un alto control intracraneal. Los ensayos **J-ALEX** (Hida et al. Lancet 2017) y **ALEX** (Peters et al. NEJM 2017) mostraron la superior actividad intracraneal de alectinib frente a crizotinib. Lorlatinib ha demostrado actividad en la enfermedad con progresión en el SNC tras inhibidores de ALK previos.\n\n**Melanoma con mutación BRAF V600E**: **dabrafenib + trametinib** (inhibición BRAF/MEK) alcanza una respuesta intracraneal del 50-58% en metástasis cerebrales de melanoma BRAF V600E-mutado (ensayo COMBI-MB, Davies et al. Lancet Oncol 2017). La inmunoterapia con **ipilimumab + nivolumab** (CheckMate 204, ensayo ABC) alcanza respuestas intracraneales del 57-82% en metástasis cerebrales de melanoma según el uso de corticosteroides.\n\n**Cáncer de mama HER2+**: **tucatinib + trastuzumab + capecitabina** (ensayo HER2CLIMB, Murthy et al. NEJM 2020) demostró una mejoría significativa de la SLP en cáncer de mama HER2+ con metástasis cerebrales (HR 0,48, SLP mediana 7,6 vs 5,4 meses) y redujo la tasa de progresión en el SNC. **T-DXd** (trastuzumab deruxtecán, DESTINY-Breast06) también muestra actividad intracraneal.\n\nLos **corticosteroides** (dexametasona, habitualmente 4-8 mg dos veces al día) reducen el edema peritumoral y se usan para el alivio agudo de síntomas en pacientes con metástasis cerebrales sintomáticas. Sin embargo, la dexametasona deteriora la función inmunitaria y reduce la eficacia de los inhibidores de puntos de control: los corticoides deben reducirse a la dosis efectiva mínima o suspenderse antes de iniciar inmunoterapia cuando sea oncológicamente apropiado."
+        },
+        {
+          "type": "table",
+          "title": "Agentes Dirigidos con Actividad en el SNC por Histología del Tumor Primario",
+          "headers": ["Histología", "Diana molecular", "Agente", "TRiC intracraneal", "Ensayo clave"],
+          "rows": [
+            ["CPNM", "EGFR exón 19del/L858R", "Osimertinib", "66-91%", "FLAURA (NEJM 2018)"],
+            ["CPNM", "Reordenamiento ALK", "Alectinib/lorlatinib", "72-81%", "ALEX (NEJM 2017)"],
+            ["Melanoma", "BRAF V600E", "Dabrafenib+trametinib", "50-58%", "COMBI-MB (Lancet Oncol 2017)"],
+            ["Melanoma", "PD-L1/CTLA-4", "Nivolumab+ipilimumab", "57-82%", "CheckMate 204; ensayo ABC"],
+            ["Mama (HER2+)", "HER2", "Tucatinib+T+Capecitabina", "47%", "HER2CLIMB (NEJM 2020)"],
+            ["Mama (HER2+)", "ADC HER2", "T-DXd", "46-74%", "DESTINY-Breast06"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Diferir la SRS en Metástasis Cerebrales de CPNM EGFR-Mutado",
+          "content": "Un hombre no fumador de 55 años con CPNM con deleción en el exón 19 de EGFR presenta 3 metástasis cerebrales asintomáticas ≤1,5 cm cada una y sin progresión extracraneal con osimertinib. La enfermedad intracraneal puede manejarse con la continuación de osimertinib y vigilancia estrecha con RM (cada 3 meses) antes de comprometerse con la SRS. Cuando finalmente sea necesaria la SRS, osimertinib debe suspenderse al menos 2 días antes y después de la SRS para reducir el riesgo de radiosensibilización. Este enfoque —diferir el tratamiento local en pacientes EGFR-mutados en osimertinib— está respaldado por datos retrospectivos pero sigue siendo un área de investigación clínica en curso."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúa tus conocimientos sobre el manejo de las metástasis cerebrales con 20 preguntas tipo examen de residencia.",
+    "questions": [
+      {
+        "id": "A4-Q1",
+        "stem": "¿Qué tumor primario tiene la MAYOR propensión a la hemorragia dentro de las metástasis cerebrales?",
+        "options": {
+          "A": "Carcinoma de pulmón no microcítico",
+          "B": "Melanoma",
+          "C": "Carcinoma colorrectal",
+          "D": "Carcinoma de próstata"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El melanoma tiene la mayor propensión a la hemorragia intratumoral entre las metástasis cerebrales debido a su naturaleza altamente vascular, su tendencia a formar vasos tumorales anómalos y el contenido intrínseco de melanina que predispone al sangrado. Hasta el 40-50% de las metástasis cerebrales de melanoma muestran hemorragia en RM (secuencias GRE/SWI). Otros tumores primarios con alto riesgo hemorrágico incluyen el carcinoma de células renales, el coriocarcinoma y el carcinoma de tiroides. El CPNM es la causa más frecuente de metástasis cerebrales en general, pero tiene una tasa de hemorragia relativamente baja en comparación con el melanoma.",
+          "wrong": {
+            "A": "El CPNM es el tumor primario más frecuente que causa metástasis cerebrales, pero tiene una tendencia hemorrágica relativamente baja en comparación con el melanoma, el CCR y el coriocarcinoma.",
+            "C": "Las metástasis cerebrales de carcinoma colorrectal son poco frecuentes y tienen un bajo riesgo de hemorragia. Tienden a ser solitarias y en algunos estudios se localizan en la fosa posterior.",
+            "D": "El carcinoma de próstata rara vez metastatiza en el parénquima cerebral (preferentemente afecta hueso y leptomeninges/duramadre). Las metástasis parenquimatosas cerebrales del cáncer de próstata son infrecuentes y no especialmente hemorrágicas."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Sección de diagnóstico; NCCN CNS Tumors v1.2024",
+          "trial": "Nussbaum ES et al. J Neurosurg 1996: Serie de metástasis cerebrales hemorrágicas — tasa de hemorragia en melanoma 39,9% vs 5,4% en CPNM",
+          "pearl": "Metástasis cerebrales hemorrágicas: Melanoma > Células renales > Coriocarcinoma > Tiroides. El melanoma es la respuesta clásica. En SWI/GRE, múltiples lesiones hemorrágicas en un paciente oncológico = pensar primero en melanoma o CCR."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q2",
+        "stem": "El ensayo Patchell 1990 estableció el beneficio de la resección quirúrgica para metástasis cerebrales únicas. ¿En qué subgrupo de pacientes demostró de forma más clara el ensayo Vecht 1993 el beneficio en supervivencia de la cirugía?",
+        "options": {
+          "A": "Pacientes con enfermedad metastásica sistémica activamente progresiva",
+          "B": "Pacientes con KPS <70 independientemente del estado de la enfermedad sistémica",
+          "C": "Pacientes con enfermedad extracraneal estable o ausente",
+          "D": "Pacientes con metástasis en la fosa posterior"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo Vecht et al. (Ann Neurol 1993) examinó específicamente cirugía + RCT vs RCT sola estratificado por la actividad de la enfermedad sistémica. En los pacientes con enfermedad extracraneal estable o ausente, la cirugía mejoró significativamente la SG (12 vs 7 meses, p=0,04). Crucialmente, en los pacientes con enfermedad sistémica activa, NO hubo beneficio en supervivencia con la cirugía (SG 5 meses en ambos brazos). Este hallazgo estableció que el control de la enfermedad sistémica es un requisito previo para obtener un beneficio significativo en supervivencia con la resección quirúrgica de metástasis cerebrales.",
+          "wrong": {
+            "A": "Los pacientes con enfermedad sistémica activamente progresiva NO se beneficiaron de la cirugía en el ensayo Vecht 1993: la SG fue idéntica (5 meses) en ambos brazos. La cirugía no debe recomendarse para pacientes con enfermedad sistémica no controlada.",
+            "B": "Un KPS <70 es un factor pronóstico negativo (clase RPA III, SG mediana 2,3 meses) y la cirugía en este grupo generalmente no es beneficiosa. El beneficio quirúrgico se observó en pacientes con KPS ≥70.",
+            "D": "La localización en fosa posterior no fue identificada específicamente como el subgrupo con mayor beneficio quirúrgico en los ensayos Patchell ni Vecht. Las metástasis en fosa posterior pueden requerir cirugía por hidrocefalia obstructiva independientemente del estado sistémico."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Sección de cirugía: recomendación de grado A para cirugía en metástasis cerebral única con enfermedad sistémica controlada y buen KPS",
+          "trial": "Vecht CJ et al. Ann Neurol 1993: 63 pacientes, metástasis cerebral única — cirugía + RCT vs RCT sola; beneficio en enfermedad extracraneal estable (SG 12 vs 7 meses) pero NO en enfermedad sistémica activa (SG 5 vs 5 meses)",
+          "pearl": "Vecht 1993: la cirugía para metástasis cerebral única solo beneficia a pacientes con enfermedad sistémica CONTROLADA. La progresión sistémica activa = sin beneficio en supervivencia con la cirugía. Este es el análisis de subgrupos clave que define la indicación quirúrgica."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q3",
+        "stem": "Un paciente tiene 2 metástasis cerebrales (1,2 cm y 0,8 cm), KPS 80, edad 55 años, sin metástasis extracraneales, procedentes de CPNM. ¿Cuál es su puntuación GPA?",
+        "options": {
+          "A": "1,5",
+          "B": "2,5",
+          "C": "3,0",
+          "D": "3,5"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Puntuación GPA: Edad 55 años (50-59) = 0,5 pts; KPS 80 = 0,5 pts; Número de metástasis cerebrales = 2 (2-3) = 0,5 pts; Metástasis extracraneales = ausentes = 1,0 pt. Total = 0,5 + 0,5 + 0,5 + 1,0 = 2,5 pts. Para la DS-GPA de CPNM, el estado molecular (EGFR, ALK) modificaría esta puntuación. El cálculo directo de la GPA da 2,5.",
+          "wrong": {
+            "A": "1,5 requeriría una combinación de puntuaciones más bajas, como edad >60 (0 pts) + KPS <70 (0 pts) + 2-3 mets (0,5) + sin MCE (1,0) = 1,5. Esta puntuación subestima la GPA de este paciente.",
+            "C": "3,0 representaría un error de cálculo. La suma correcta para este paciente es 0,5 (edad) + 0,5 (KPS) + 0,5 (n.º mets) + 1,0 (sin MCE) = 2,5.",
+            "D": "3,5 requeriría puntuaciones casi máximas en todas las categorías (por ejemplo, edad <50 = 1,0; KPS 90-100 = 1,0; 1 metástasis = 1,0; sin MCE = 1,0 = 4,0, o 3 factores máximos + 1 intermedio = 3,5). Este paciente puntúa 2,5."
+          },
+          "guideline": "Sperduto PW et al. JCO 2010: Evaluación Pronóstica Graduada (GPA) para metástasis cerebrales — sistema de puntuación y SG mediana por rango de puntuación",
+          "trial": "Sperduto PW et al. J Clin Oncol 2012: DS-GPA (GPA Diagnóstico-Específica) — GPA específica para CPNM incorporando el estado de EGFR/ALK; GPA 2,5-3,0 asociada a SG mediana 11-15 meses para CPNM",
+          "pearl": "GPA = suma de 4 componentes (edad, KPS, número de mets, mets extracraneales), cada uno 0-1,0 pts; total 0-4,0. Puntuación más alta = mejor pronóstico. Para CPNM, la DS-GPA añade el estado de EGFR y ALK: EGFR+ GPA 3,5-4 alcanza SG mediana 46,8 meses."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q4",
+        "stem": "El ensayo NCCTG N107C (Brown et al. Lancet Oncol 2017) comparó la SRS sobre la cavidad de resección frente a la RCT tras la resección quirúrgica de una metástasis cerebral única. ¿Cuál fue el hallazgo principal respecto a la cognición?",
+        "options": {
+          "A": "La RCT preservó la cognición significativamente mejor que la SRS a los 6 meses",
+          "B": "No se observaron diferencias en la función cognitiva entre los dos brazos",
+          "C": "La SRS preservó significativamente la función cognitiva frente a la RCT (fracaso cognitivo 52% SRS vs 85% RCT a los 6 meses)",
+          "D": "La SRS provocó mayores tasas de radionecrosis que compensaron el beneficio cognitivo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo NCCTG N107C/CEC3 (Brown et al. Lancet Oncol 2017) aleatorizó a 194 pacientes tras la resección de una metástasis cerebral única a SRS postoperatoria sobre la cavidad vs RCT. El hallazgo principal fue que la SRS preservó significativamente la función cognitiva: el deterioro cognitivo a los 6 meses ocurrió en el 52,4% de los pacientes con SRS vs el 85,4% con RCT (p=0,00031). No hubo diferencias significativas en la supervivencia global (12,2 vs 11,6 meses) ni en las tasas de control intracraneal a 12 meses (21,1% SRS vs 19,3% RCT). Este ensayo estableció la SRS sobre la cavidad de resección como la estrategia adyuvante preferida tras la resección de metástasis cerebrales, sustituyendo a la RCT en los pacientes elegibles.",
+          "wrong": {
+            "A": "Se encontró lo contrario: la RCT causó significativamente más deterioro cognitivo que la SRS. El fracaso cognitivo con RCT fue del 85,4% vs 52,4% con SRS a los 6 meses.",
+            "B": "Se demostró una diferencia muy significativa en la función cognitiva: el valor p de 0,00031 indica una diferencia abrumadora, no equivalencia.",
+            "D": "Aunque las tasas de radionecrosis pueden ser ligeramente superiores con SRS frente a RCT, esto no compensó el beneficio cognitivo sustancial. El ensayo N107C no mostró un aumento clínicamente significativo de la radionecrosis que afectara al beneficio global de la SRS frente a la RCT."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Adyuvancia postquirúrgica: SRS sobre cavidad preferida frente a RCT basándose en el ensayo N107C; ASTRO Brain Metastases Guidelines 2022",
+          "trial": "Brown PD et al. Lancet Oncol 2017 (NCCTG N107C/CEC3): 194 pacientes tras resección de metástasis cerebral única — SRS cavidad vs RCT; fracaso cognitivo a 6 meses 52,4% SRS vs 85,4% RCT (p=0,00031); SG 12,2 vs 11,6 meses (NS)",
+          "pearl": "N107C/CEC3: SRS sobre cavidad vs RCT tras resección de metástasis cerebral única — SG y control local equivalentes, pero preservación cognitiva dramáticamente mejor con SRS (52% vs 85% fracaso cognitivo). La SRS sobre cavidad es ahora el estándar, no la RCT, tras la resección de metástasis cerebrales."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q5",
+        "stem": "Según el ensayo de escalada de dosis RTOG 90-05, ¿cuál es la dosis de SRS en fracción única recomendada para una metástasis cerebral de 25 mm de diámetro máximo?",
+        "options": {
+          "A": "24 Gy",
+          "B": "18 Gy",
+          "C": "15 Gy",
+          "D": "12 Gy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El RTOG 90-05 estableció datos de respuesta a la dosis y tolerancia para la SRS en fracción única en tumores cerebrales recurrentes. Las dosis recomendadas según el tamaño son: ≤20 mm → 24 Gy; 21-30 mm → 18 Gy; 31-40 mm → 15 Gy. Una lesión de 25 mm se encuentra en el rango de 21-30 mm, correspondiendo a 18 Gy. Estas dosis se seleccionaron para equilibrar el control local con el riesgo de radionecrosis, con dosis más altas para lesiones más pequeñas aprovechando la pronunciada relación dosis-respuesta y la relación cúbica entre el volumen y la exposición del cerebro sano.",
+          "wrong": {
+            "A": "24 Gy es la dosis recomendada para lesiones de diámetro máximo ≤20 mm, no para 25 mm. Aplicar 24 Gy a una lesión de 25 mm conlleva mayor riesgo de radionecrosis sin demostrar un beneficio adicional en el control.",
+            "C": "15 Gy es la dosis recomendada para lesiones de 31-40 mm. La lesión de 25 mm está en el rango de tamaño intermedio (21-30 mm), donde corresponde 18 Gy.",
+            "D": "12 Gy se usa para indicaciones específicas (por ejemplo, vaina del nervio óptico, reirradiación, meningiomas del seno cavernoso) pero no es la dosis recomendada por el RTOG 90-05 para una metástasis cerebral de 25 mm. Esta dosis sería subterapéutica para una metástasis."
+          },
+          "guideline": "RTOG 90-05 (Shaw E et al. IJROBP 2000): Ensayo de escalada de dosis fase I/II de SRS que establece las recomendaciones actuales de dosis por tamaño; ASTRO Brain Metastases Guidelines 2022 — dosificación de SRS",
+          "trial": "Shaw E et al. Int J Radiat Oncol Biol Phys 2000 (RTOG 90-05): 156 pacientes, tumores cerebrales ≤40 mm, escalada de dosis — dosis recomendadas: ≤20 mm = 24 Gy; 21-30 mm = 18 Gy; 31-40 mm = 15 Gy; estas dosis siguen siendo el estándar 25 años después",
+          "pearl": "Dosis SRS RTOG 90-05 por tamaño: ≤20 mm = 24 Gy; 21-30 mm = 18 Gy; 31-40 mm = 15 Gy. Memorizar estos tres umbrales: aparecen frecuentemente en preguntas de examen sobre radiocirugía para metástasis cerebrales."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q6",
+        "stem": "Una mujer de 62 años con cáncer de mama HER2 amplificado desarrolla 2 nuevas metástasis cerebrales (ambas de 1,2 cm) mientras recibe pertuzumab + trastuzumab. La enfermedad sistémica está controlada. ¿Cuál es el cambio de tratamiento sistémico más apropiado para el componente en el SNC?",
+        "options": {
+          "A": "Iniciar bevacizumab 10 mg/kg IV cada 2 semanas para la enfermedad en el SNC",
+          "B": "Cambiar a tucatinib + trastuzumab + capecitabina (régimen HER2CLIMB)",
+          "C": "Iniciar temozolomida 150-200 mg/m² días 1-5 cada 28 días",
+          "D": "Continuar el régimen actual: pertuzumab/trastuzumab es suficiente para la enfermedad en el SNC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo HER2CLIMB (Murthy et al. NEJM 2020) demostró que tucatinib + trastuzumab + capecitabina mejoró significativamente los resultados específicamente en pacientes con metástasis cerebrales de cáncer de mama HER2+. En el subgrupo de metástasis cerebrales: SLP en SNC con HR 0,48 (p<0,001), SLP en SNC a 1 año 40% vs 0% con el brazo de placebo, TRiC 47,3% vs 20%. Tucatinib ha demostrado penetración en el SNC. Para el cáncer de mama HER2+ que progresa en el SNC con pertuzumab/trastuzumab, el régimen HER2CLIMB es el cambio de tratamiento sistémico basado en la evidencia. También debe considerarse el tratamiento local (SRS) para las dos lesiones de 1,2 cm.",
+          "wrong": {
+            "A": "Bevacizumab reduce el edema peritumoral (mediante mecanismo anti-VEGF) y tiene cierta actividad frente a la radionecrosis por metástasis cerebrales, pero no es un tratamiento sistémico estándar con actividad en el SNC para metástasis cerebrales de mama HER2+. No tiene la actividad dirigida anti-HER2 necesaria.",
+            "C": "La temozolomida no tiene actividad establecida en las metástasis cerebrales de cáncer de mama. Se utiliza para el GBM y algunos otros tumores cerebrales primarios, pero no para el cáncer de mama metastásico.",
+            "D": "Continuar pertuzumab + trastuzumab solo es insuficiente: este régimen no proporciona una penetración adecuada en el SNC y la paciente ha demostrado progresión en el SNC con este tratamiento. Está indicado un cambio a un régimen con actividad en el SNC."
+          },
+          "guideline": "ASCO-SNO-ASTRO Brain Metastases Guideline 2022 — Metástasis en el SNC de mama HER2+: régimen basado en tucatinib preferido para progresión en el SNC; NCCN Breast Cancer v2024",
+          "trial": "Murthy RK et al. N Engl J Med 2020 (HER2CLIMB): 612 pacientes con cáncer de mama HER2+ (con o sin metástasis cerebrales) — tucatinib+T+Cape vs placebo+T+Cape; subgrupo con metástasis cerebrales: SLP en SNC HR 0,48, p<0,001; SLP en SNC a 1 año 40% vs 0%",
+          "pearl": "Metástasis cerebrales de mama HER2+ que progresan con pertuzumab/trastuzumab: cambiar al régimen HER2CLIMB (tucatinib + trastuzumab + capecitabina). El ensayo HER2CLIMB mostró SLP en SNC con HR 0,48: este es el régimen definitivo con actividad en el SNC para mama HER2+ con afectación cerebral."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q7",
+        "stem": "El ensayo EORTC 22952-26001 (Kocher et al. JCO 2011) aleatorizó pacientes con 1-3 metástasis cerebrales tras cirugía o SRS a RCT vs observación. ¿Cuál fue el hallazgo principal respecto a la supervivencia global?",
+        "options": {
+          "A": "La RCT mejoró significativamente la supervivencia global (10,9 vs 10,7 meses, p=0,89)",
+          "B": "La observación mejoró significativamente la supervivencia global al evitar la toxicidad de la RCT",
+          "C": "La RCT mejoró significativamente la supervivencia global solo en pacientes con 2-3 metástasis",
+          "D": "La RCT no mejoró la supervivencia global pero redujo la recidiva intracraneal a costa de deterioro neurocognitivo"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "EORTC 22952-26001 (Kocher et al. JCO 2011) es el ECA de referencia (n=359) que comparó RCT adyuvante vs observación tras SRS o cirugía para 1-3 metástasis cerebrales. La RCT redujo la recidiva intracraneal a 2 años en los sitios de tratamiento inicial (19% vs 31%) y en nuevos sitios cerebrales (29% vs 47%), pero NO hubo diferencias en la supervivencia global (10,7 meses RCT vs 10,9 meses observación, HR 0,98, p=0,89). La RCT se asoció a un estado funcional significativamente peor a las 8 semanas y a un deterioro neurocognitivo mensurable. Este ensayo estableció que omitir la RCT tras el tratamiento local es seguro respecto a la supervivencia.",
+          "wrong": {
+            "A": "Las cifras de supervivencia son correctas (10,7 vs 10,9 meses, p=0,89), pero esta respuesta afirma que la RCT «mejoró significativamente» la supervivencia cuando en realidad NO hubo diferencia significativa: el resultado muestra que la RCT no mejoró la supervivencia.",
+            "B": "La observación no «mejoró» la SG: ambos brazos tuvieron una SG equivalente. La ventaja de la observación fue evitar la toxicidad neurocognitiva asociada a la RCT, no un beneficio en SG.",
+            "C": "El análisis de subgrupos de 2-3 metástasis en el EORTC 22952 no mostró beneficio en supervivencia de la RCT en este subgrupo específico. Todos los subgrupos mostraron SG equivalente con RCT y observación."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Omisión de RCT: recomendación de grado A para omitir RCT tras tratamiento local para 1-3 metástasis basándose en EORTC 22952 y NCCTG N0574",
+          "trial": "Kocher M et al. J Clin Oncol 2011 (EORTC 22952-26001): 359 pacientes, 1-3 metástasis cerebrales tras SRS o cirugía — RCT vs observación; SG 10,7 vs 10,9 meses (HR 0,98, p=0,89); recidiva intracraneal a 2 años 48% RCT vs 78% obs (p<0,001); RCT empeoró el estado funcional",
+          "pearl": "EORTC 22952: la RCT tras tratamiento local para 1-3 metástasis cerebrales reduce la recidiva intracraneal pero NO mejora la SG. La RCT causa daño neurocognitivo. Estándar: omitir RCT, realizar SRS/cirugía + vigilancia estrecha con RM (cada 3 meses). La SRS de rescate para nuevas lesiones es equivalente en SG."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q8",
+        "stem": "Un hombre de 50 años con CPNM (deleción en exón 19 de EGFR, en tratamiento con osimertinib durante 18 meses) desarrolla 4 nuevas metástasis cerebrales (todas <1,5 cm) sin progresión extracraneal. Es asintomático. ¿Cuál es el manejo más apropiado de la enfermedad en el SNC?",
+        "options": {
+          "A": "RCT urgente 30 Gy en 10 fracciones",
+          "B": "Cambiar el ITK de EGFR a gefitinib ya que osimertinib ha fallado",
+          "C": "SRS a las 4 metástasis cerebrales; continuar osimertinib",
+          "D": "Biopsia cerebral de una lesión antes de cualquier tratamiento para confirmar histología metastásica"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "En el CPNM EGFR-mutado en tratamiento con osimertinib con progresión aislada en el SNC (sin progresión extracraneal), el tratamiento local en el SNC con SRS a todas las metástasis visibles combinado con la continuación de osimertinib es el enfoque estándar. La progresión exclusivamente en el SNC con osimertinib puede representar un efecto santuario farmacocinético más que una resistencia verdadera. La SRS alcanza un alto control intracraneal, y continuar osimertinib controla la enfermedad extracraneal. La RCT no está indicada para 4 metástasis pequeñas asintomáticas en un paciente EGFR-mutado que recibe un agente sistémico activo con excelente penetración en el SNC.",
+          "wrong": {
+            "A": "La RCT no es de primera línea para 4 metástasis cerebrales pequeñas y asintomáticas en un paciente por lo demás en buen estado con un ITK activo con penetración en el SNC. La RCT causa deterioro cognitivo sin beneficio en SG frente a SRS y debe diferirse.",
+            "B": "Cambiar a gefitinib sería un retroceso: gefitinib es un ITK de EGFR de primera generación con penetración y actividad en el SNC inferiores a las de osimertinib. Osimertinib sigue siendo el ITK estándar para el CPNM EGFR-mutado, incluso en caso de progresión en el SNC.",
+            "D": "La biopsia cerebral no está indicada cuando las metástasis en el SNC son radiológicamente clásicas (unión córtico-subcortical, redondeadas, realce con contraste, primario conocido), múltiples y se producen en el contexto de un CPNM conocido y activo con mutación EGFR establecida. El riesgo de la biopsia no justifica la confirmación histológica en este contexto clínico."
+          },
+          "guideline": "ASCO-SNO-ASTRO Brain Metastases Guideline 2022 — CPNM EGFR-mutado con progresión aislada en SNC con osimertinib: tratamiento local en SNC + continuar osimertinib; NCCN NSCLC v2024",
+          "trial": "Wu YL et al. Lancet Oncol 2018 (subgrupo SNC de AURA3): Osimertinib superior a quimioterapia con platino para TRiC (70% vs 31%) en CPNM EGFR-mutado T790M tras primer ITK; subgrupo SNC de FLAURA: SLP en SNC con osimertinib HR 0,48",
+          "pearl": "CPNM EGFR-mutado, progresión aislada en SNC con osimertinib: SRS a las metástasis visibles + continuar osimertinib. Progresión exclusiva en SNC ≠ fallo sistémico. Cociente SNC:plasma de osimertinib ~40% lo convierte en el ITK de EGFR con mayor penetración en SNC. Cambiar de ITK es incorrecto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q9",
+        "stem": "Según el ensayo Patchell 1998, ¿cuál fue el efecto de la RCT postoperatoria sobre la recidiva local en el lugar de resección tras la extirpación quirúrgica de una metástasis cerebral única?",
+        "options": {
+          "A": "La RCT redujo la recidiva local del 46% al 10%",
+          "B": "La RCT no tuvo un efecto significativo sobre la recidiva local",
+          "C": "La RCT aumentó la recidiva local debido a que la radionecrosis enmascaró la recidiva verdadera",
+          "D": "La RCT redujo la recidiva cerebral a distancia pero no tuvo efecto sobre el lugar de resección"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Patchell et al. (JAMA 1998) aleatorizó a 95 pacientes tras la resección completa de una metástasis cerebral única a RCT vs observación. La RCT redujo drásticamente la recidiva local en el lugar de resección (10% vs 46%, p<0,001) y la recidiva cerebral a distancia (14% vs 37%, p=0,01). A pesar de estas grandes diferencias en el control intracraneal, NO hubo diferencias en la supervivencia global ni en la duración de la independencia funcional. Esto estableció la paradoja de que la RCT controla la enfermedad intracraneal pero no mejora la SG, resuelta más tarde por el N107C al demostrar que la SRS sobre la cavidad puede alcanzar un control local equivalente al de la RCT sin el daño cognitivo.",
+          "wrong": {
+            "A": "Esta es la respuesta correcta que describe exactamente el hallazgo de Patchell 1998.",
+            "B": "La RCT tuvo un efecto altamente significativo sobre la recidiva local, reduciéndola del 46% al 10%. La ausencia de beneficio en SG a pesar de la mejoría del control local fue lo que hizo el resultado sorprendente e impactante.",
+            "C": "La RCT redujo (no aumentó) la recidiva local. La radionecrosis puede simular una recidiva en RM, pero es una complicación del tratamiento, no una causa de mayor recidiva verdadera.",
+            "D": "La RCT redujo TANTO la recidiva local en el lugar de resección (10% vs 46%) COMO la recidiva cerebral a distancia (14% vs 37%). No se limitó al control cerebral a distancia."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Papel histórico de la RCT postresección superado por la SRS sobre cavidad (ensayo N107C)",
+          "trial": "Patchell RA et al. JAMA 1998: 95 pacientes tras resección de metástasis cerebral única — RCT vs observación; recidiva local 10% RCT vs 46% obs (p<0,001); recidiva a distancia 14% vs 37% (p=0,01); SG: sin diferencias (11,1 vs 7,5 meses, p=0,39)",
+          "pearl": "Patchell 1998: la RCT tras la resección reduce la recidiva local (10% vs 46%) y a distancia (14% vs 37%) pero NO mejora la SG. Este ensayo estableció la necesidad de tratamiento local tras la resección; el N107C demostró más tarde que la SRS sobre la cavidad logra un control equivalente con menor toxicidad cognitiva."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q10",
+        "stem": "Un hombre de 64 años acude al servicio de urgencias con hemiplegia izquierda de inicio agudo y cefalea. Sin antecedentes de neoplasia conocida. La TC craneal muestra una masa de 3,5 cm frontoparietal derecha con realce heterogéneo, edema perilesional y hemorragia, en la unión córtico-subcortical. Sin otras lesiones. ¿Cuál es la consideración diagnóstica inmediata más importante?",
+        "options": {
+          "A": "Ictus: iniciar trombólisis urgente",
+          "B": "Absceso cerebral: iniciar antibioterapia empírica",
+          "C": "Lesión metastásica vs glioma de alto grado: RM cerebral urgente + estadificación sistémica",
+          "D": "Meningioma: planificar extirpación quirúrgica programada"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Una masa de 3,5 cm en la unión córtico-subcortical con realce heterogéneo, edema perilesional y hemorragia en un paciente sin antecedentes neurológicos previos es con mayor probabilidad una metástasis cerebral (primario desconocido) o un glioma de alto grado. La localización en la unión córtico-subcortical favorece fuertemente la metástasis (lugar de reducción del calibre arterial que atrapa microémbolos). Manejo inmediato: RM cerebral con contraste urgente para mejor caracterización, dexametasona 10 mg de dosis de carga y luego 4 mg cada 6 horas para el edema, y estadificación sistémica (TC tórax/abdomen/pelvis, PET-TC) para identificar el tumor primario antes de la intervención neuroquirúrgica. La identificación del tumor primario cambia el manejo (biopsia suficiente vs RTM, selección del tratamiento sistémico).",
+          "wrong": {
+            "A": "La trombólisis está absolutamente contraindicada cuando existe hemorragia dentro de la masa. Además, la presentación (masa con realce y edema) no es característica del ictus isquémico agudo. La trombólisis en este escenario sería catastrófica.",
+            "B": "El absceso cerebral puede simular una metástasis, pero típicamente muestra restricción de la difusión de forma central en DWI y un patrón de realce en anillo sin el componente sólido heterogéneo descrito. Más importante aún, los antibióticos empíricos sin diagnóstico histológico no abordan la masa primaria.",
+            "D": "Los meningiomas tienen base dural, no se localizan en la unión córtico-subcortical y generalmente no son hemorrágicos. Un meningioma no se ajusta a los hallazgos de imagen descritos. Más importante aún, se trata de una urgencia que requiere estudio urgente, no planificación quirúrgica programada."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Enfoque diagnóstico: RM con contraste + estadificación sistémica obligatoria antes de la cirugía; NCCN CNS Tumors v1.2024",
+          "trial": "Barnholtz-Sloan JS et al. J Clin Oncol 2004: Estudio de incidencia de metástasis cerebrales basado en población — el 10-30% de los pacientes oncológicos desarrollan metástasis cerebrales; la localización en la unión córtico-subcortical es una característica patognomónica de la metástasis embólica",
+          "pearl": "Nueva masa cerebral en la unión córtico-subcortical: metástasis cerebral hasta que se demuestre lo contrario. Pasos diagnósticos: (1) RM cerebral con contraste, (2) TC tórax/abdomen/pelvis para origen primario, (3) dexametasona para el edema. Unión córtico-subcortical + realce en anillo + lesiones múltiples = metástasis. La lesión única puede requerir cirugía para diagnóstico si el primario es desconocido."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q11",
+        "stem": "Según el ensayo NRG CC001 (Brown et al. JCO 2020), la RCT con preservación hipocampal (RCT-PH) con memantina comparada con RCT estándar con memantina redujo significativamente ¿qué resultado?",
+        "options": {
+          "A": "Recidiva tumoral intracraneal al año",
+          "B": "Tiempo hasta la muerte neurológica",
+          "C": "Fracaso cognitivo a los 6 meses (HR 0,74, p=0,02)",
+          "D": "Toxicidad por radiación de grado 3-5"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo NRG CC001 (Brown et al. JCO 2020) fue un ECA de fase III que comparó RCT-PH + memantina vs RCT estándar + memantina en pacientes con metástasis cerebrales. El criterio de valoración principal fue el tiempo hasta el fracaso cognitivo. La RCT-PH redujo significativamente el fracaso cognitivo (HR 0,74, p=0,02), específicamente el recuerdo diferido de la memoria (HVLT-R recuerdo diferido a los 6 meses: deterioro del 11,5% RCT-PH vs 24,7% RCT estándar). No hubo diferencias en el control intracraneal ni en la supervivencia global. Este ensayo estableció la RCT-PH como la técnica estándar cuando está indicada la RCT, siempre que no haya tumores a menos de 5 mm del hipocampo.",
+          "wrong": {
+            "A": "La recidiva tumoral intracraneal al año fue equivalente entre RCT-PH y RCT estándar, confirmando que la preservación hipocampal no compromete el control tumoral (ya que las metástasis raramente se localizan en el propio hipocampo).",
+            "B": "La muerte neurológica y la supervivencia global fueron equivalentes entre los dos brazos. El beneficio fue específicamente en la preservación de la función cognitiva.",
+            "D": "La toxicidad por radiación de grado 3-5 fue similar entre los dos brazos. El beneficio de la RCT-PH es específicamente la preservación neurocognitiva, no la reducción de la toxicidad aguda por radiación."
+          },
+          "guideline": "ASTRO Brain Metastases Guidelines 2022 — Recomienda RCT-PH con memantina cuando está indicada la RCT y no hay metástasis a menos de 5 mm del hipocampo; NRG CC001 es la base de evidencia",
+          "trial": "Brown PD et al. J Clin Oncol 2020 (NRG CC001): 518 pacientes, RCT + memantina vs RCT-PH + memantina; fracaso cognitivo HR 0,74, p=0,02; HVLT-R recuerdo diferido 11,5% vs 24,7% de deterioro; SG equivalente",
+          "pearl": "NRG CC001: RCT-PH + memantina vs RCT estándar + memantina — la RCT-PH reduce el fracaso cognitivo (HR 0,74). Restricción de RCT-PH: hipocampo V100% ≤9 Gy. Si hay metástasis a menos de 5 mm del hipocampo, la técnica de preservación no puede aplicarse de forma segura."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q12",
+        "stem": "Una mujer de 47 años con melanoma BRAF V600E-mutado tiene 3 metástasis cerebrales (0,8 cm, 1,2 cm, 1,5 cm). Tiene enfermedad extracraneal extensa. ECOG PS 1. ¿Qué tratamiento sistémico alcanza la mayor tasa de respuesta objetiva intracraneal específicamente en metástasis cerebrales de melanoma BRAF V600E-mutado?",
+        "options": {
+          "A": "Ipilimumab 3 mg/kg cada 3 semanas en monoterapia",
+          "B": "Pembrolizumab 200 mg cada 3 semanas en monoterapia",
+          "C": "Dabrafenib + trametinib (inhibición BRAF + MEK)",
+          "D": "Temozolomida 200 mg/m² días 1-5 cada 28 días"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo COMBI-MB (Davies et al. Lancet Oncol 2017) evaluó dabrafenib + trametinib en 4 cohortes de metástasis cerebrales de melanoma estratificadas por el estado de BRAF V600E/V600K y tratamiento local cerebral previo. En la cohorte más numerosa (V600E, sin tratamiento local cerebral previo, ECOG 0-1): TRiC intracraneal 58%, respuesta completa intracraneal 22%, SLP intracraneal mediana 5,6 meses. Esta TRiC intracraneal (58%) supera a la de ipilimumab + nivolumab en algunas comparaciones, aunque el ensayo ABC y el CheckMate 204 muestran TRiC comparable (57-82%) para la inmunoterapia combinada en pacientes asintomáticos. Para el melanoma BRAF V600E-mutado, la combinación BRAF/MEK alcanza las respuestas intracraneales más altas y rápidas.",
+          "wrong": {
+            "A": "La monoterapia con ipilimumab alcanza tasas de respuesta intracraneal modestas en metástasis cerebrales de melanoma (~12-18% de TRiC en series históricas). La combinación ipilimumab + nivolumab es muy superior a ipilimumab solo.",
+            "B": "La monoterapia con pembrolizumab alcanza una TRiC del 26-33% en metástasis cerebrales de melanoma (subconjunto KEYNOTE-001). Es inferior a la combinación BRAF/MEK para la enfermedad V600E-mutada, aunque la inmunoterapia tiene una respuesta más duradera cuando se produce.",
+            "D": "La temozolomida tiene actividad marginal en melanoma (<10% de TRO) y no se utiliza como tratamiento sistémico para las metástasis cerebrales de melanoma. La dacarbazina (compuesto precursor) se usaba anteriormente, pero ha sido reemplazada por el tratamiento dirigido y la inmunoterapia."
+          },
+          "guideline": "NCCN Melanoma CNS Metastases Guidelines 2024 — Melanoma BRAF V600E-mutado: inhibición BRAF/MEK en primera línea para metástasis cerebrales de rápida progresión/sintomáticas; inmunoterapia para enfermedad asintomática estable",
+          "trial": "Davies MA et al. Lancet Oncol 2017 (COMBI-MB): 125 pacientes con metástasis cerebrales de melanoma BRAF V600E-mutado — dabrafenib+trametinib; Cohorte A (V600E, naive): TRiC intracraneal 58%, SLP intracraneal mediana 5,6 meses",
+          "pearl": "Metástasis cerebrales de melanoma BRAF V600E: dabrafenib+trametinib alcanza TRiC intracraneal del 58% (COMBI-MB). Ipilimumab+nivolumab alcanza TRiC del 57-82% (CheckMate 204; ensayo ABC). Para enfermedad de rápida progresión/sintomática, BRAF/MEK proporciona una respuesta más rápida. Las respuestas duraderas son más frecuentes con inmunoterapia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q13",
+        "stem": "Una mujer de 55 años con carcinoma de pulmón microcítico (CPM) en estadio extenso alcanza respuesta completa a la quimioterapia con platino-etopósido. KPS 90. ¿Cuál es la recomendación estándar para la irradiación craneal profiláctica (ICP)?",
+        "options": {
+          "A": "La ICP no está recomendada en el CPM en estadio extenso",
+          "B": "La ICP 25 Gy en 10 fracciones está recomendada para prevenir la recidiva en el SNC",
+          "C": "La vigilancia con RM cerebral trimestral está recomendada en lugar de la ICP, basándose en el ensayo Takahashi 2017",
+          "D": "La RCT 30 Gy en 10 fracciones es el régimen estándar de ICP"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo japonés Takahashi et al. (Lancet Oncol 2017) de fase III aleatorizó a 224 pacientes con CPM extenso en remisión a ICP vs vigilancia con RM (cada 3 meses). La SG no fue significativamente diferente (10,1 meses ICP vs 11,6 meses vigilancia con RM, NS). La ICP deterioró significativamente la función neurocognitiva (MMSE: 10% de deterioro con ICP vs 0% con RM), mientras que el brazo de vigilancia con RM recibió tratamiento precoz en la recidiva en el SNC. Este ensayo cuestionó el ensayo previo de Slotman 2007 que apoyaba la ICP para el CPM extenso. La práctica actual ha evolucionado: muchas guías europeas recomiendan vigilancia con RM en lugar de ICP, especialmente en pacientes que pueden someterse a vigilancia estrecha. Sin embargo, la práctica varía internacionalmente.",
+          "wrong": {
+            "A": "La ICP estaba históricamente recomendada para el CPM extenso en remisión basándose en el ensayo EORTC PCI 2007 (Slotman) (redujo metástasis cerebrales a 1 año 14,6% vs 40,4%, mejoró SG a 1 año 27,1% vs 13,3%). Sin embargo, el ensayo Takahashi 2017 que demuestra equivalencia con vigilancia con RM ha cambiado sustancialmente la práctica.",
+            "B": "25 Gy en 10 fracciones es la dosis estándar de ICP para CPM cuando se administra (basándose en el ensayo de fraccionamiento de ICP del EORTC). Sin embargo, dada la evidencia del ensayo Takahashi, la vigilancia con RM es la alternativa preferida a la ICP para el CPM extenso en la era actual.",
+            "D": "30 Gy en 10 fracciones es la dosis de RCT terapéutica para metástasis cerebrales, no la dosis de ICP. La dosis de ICP es menor (25 Gy/10 fr o 20 Gy/5 fr) para minimizar la toxicidad cognitiva en pacientes tratados de forma profiláctica."
+          },
+          "guideline": "ESMO SCLC Guidelines 2021 — CPM extenso en remisión: vigilancia con RM preferida frente a ICP basándose en Takahashi 2017; ASTRO Brain Metastases 2022 reconoce ambas opciones",
+          "trial": "Takahashi T et al. Lancet Oncol 2017: 224 pacientes con CPM extenso en remisión — ICP vs vigilancia con RM; SG 10,1 vs 11,6 meses (NS); brazo de RM: menor deterioro neurocognitivo; SG similar con tratamiento de rescate precoz en la recidiva en el SNC",
+          "pearl": "CPM extenso en remisión: Takahashi 2017 (Lancet Oncol) — vigilancia con RM cada 3 meses = ICP para SG, con superior preservación neurocognitiva. La ICP sigue siendo una opción (especialmente en CPM en estadio limitado y donde la vigilancia con RM no es factible), pero la vigilancia con RM es preferida en la enfermedad en estadio extenso."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q14",
+        "stem": "Un hombre de 60 años con CCR conocido (células claras) es sometido a resección de una metástasis cerebral parietal izquierda solitaria de 3,2 cm. La anatomía patológica confirma metástasis de carcinoma de células renales. En el postoperatorio, la estadificación sistémica muestra 2 pequeños nódulos pulmonares. ¿Cuál es la estrategia adyuvante más apropiada para el lecho quirúrgico?",
+        "options": {
+          "A": "Observación sola: el CCR es radiorresistente, por lo que la RT postoperatoria es ineficaz",
+          "B": "SRS sobre la cavidad de resección (15-18 Gy), ya que las metástasis cerebrales de CCR se controlan con radioterapia local de alta dosis",
+          "C": "Radioterapia cerebral total 30 Gy en 10 fracciones",
+          "D": "Recraneotomía inmediata para ampliar los márgenes si no se consiguió un margen de 1 cm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La SRS sobre la cavidad de resección es la estrategia adyuvante correcta tras la resección de una metástasis cerebral única de CCR. Aunque el CCR se considera relativamente radiorresistente a la radioterapia convencional fraccionada (2 Gy/fracción), responde a las altas dosis biológicamente efectivas administradas por la SRS. Múltiples series demuestran tasas de control local del 80-90% a los 12 meses para metástasis cerebrales de CCR tratadas con SRS. La SRS sobre la cavidad es preferida frente a la RCT basándose en la evidencia del ensayo N107C (mejor preservación cognitiva, control local equivalente). Las metástasis cerebrales de CCR se benefician especialmente de la SRS dada la radiorresistencia intrínseca a la RCT fraccionada.",
+          "wrong": {
+            "A": "La radiorresistencia del CCR se aplica a la radioterapia convencional fraccionada (dosis baja por fracción, por ejemplo 2 Gy), no a la SRS de alta dosis por fracción. Las metástasis de CCR responden bien a la SRS, con tasas de control local del 80-92%. La observación sola daría lugar a una recidiva local del 46% (Patchell 1998) sin tratamiento adyuvante.",
+            "C": "La RCT tiene menor eficacia para las metástasis de CCR debido a la histología radiorresistente a fraccionamiento convencional. Dado que los resultados son equivalentes o superiores con la SRS sobre la cavidad y la preservación cognitiva es mejor, la RCT no es preferida para metástasis cerebrales de CCR.",
+            "D": "La cirugía de tumores cerebrales tiene como objetivo la resección total macroscópica dentro de los márgenes seguros; la recraneotomía para ampliar márgenes no es una práctica en neurocirugía, ya que causaría morbilidad neurológica significativa sin beneficio establecido. El manejo de las metástasis cerebrales se basa en el tratamiento local (SRS), no en la ampliación de márgenes."
+          },
+          "guideline": "AANS/CNS Brain Metastases Guidelines 2022 — Adyuvancia postquirúrgica: SRS sobre cavidad preferida; NCCN Kidney Cancer v2024 — sección de metástasis en el SNC",
+          "trial": "Mahadevan A et al. Int J Radiat Oncol Biol Phys 2014: SRS para metástasis cerebrales de CCR — control local 90,7% a 12 meses; el CCR responde a SRS a pesar de la radiorresistencia a la RT convencional; N107C (Brown Lancet Oncol 2017) establece SRS sobre cavidad frente a RCT",
+          "pearl": "Radiorresistencia del CCR = resistencia a la RT convencional FRACCIONADA (2 Gy/fracción), NO a la SRS. La SRS alcanza >90% de control local para metástasis cerebrales de CCR. Tras la resección, la SRS sobre cavidad es el estándar (no la RCT). El mismo principio se aplica al melanoma: la SRS es eficaz a pesar de la resistencia a la RT convencional."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q15",
+        "stem": "Un hombre de 68 años con KPS 50, más de 10 metástasis cerebrales, carcinomatosis leptomeníngea y CPNM sistémico progresivo refractario a 3 líneas de tratamiento previas acude para el manejo paliativo de los síntomas neurológicos. ¿Cuál es el enfoque terapéutico más apropiado?",
+        "options": {
+          "A": "SRS a las 10+ metástasis cerebrales",
+          "B": "Radioterapia cerebral total paliativa 20 Gy en 5 fracciones",
+          "C": "Resección quirúrgica agresiva de la metástasis más grande",
+          "D": "Quimioterapia de máxima intensidad incluyendo temozolomida y bevacizumab"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un paciente con KPS 50, metástasis cerebrales extensas (>10), enfermedad leptomeníngea y cáncer sistémico refractario representa la clase RPA III (SG mediana 2,3 meses). El enfoque apropiado es la RCT paliativa de curso corto (20 Gy en 5 fracciones), que proporciona un alivio rápido de los síntomas y control de la enfermedad intracraneal con un régimen que completa el tratamiento en 1 semana, minimizando la carga para el paciente y la familia. Se coadministra dexametasona para el control de los síntomas. Los objetivos del tratamiento deben discutirse explícitamente: la atención centrada en el confort puede ser apropiada si el paciente prioriza la calidad frente a la cantidad de vida. La RCT en este contexto es exclusivamente paliativa.",
+          "wrong": {
+            "A": "La SRS para >10 metástasis con carcinomatosis leptomeníngea y KPS 50 es técnicamente impracticable (la planificación y el tratamiento de SRS para >10 lesiones es apropiado para pacientes con buen estado funcional y sin DLM) y no se alinea con la intención paliativa del tratamiento.",
+            "C": "La resección quirúrgica no es apropiada para un paciente con KPS 50, múltiples metástasis cerebrales y enfermedad leptomeníngea. La cirugía conlleva un riesgo perioperatorio significativo y no abordaría la enfermedad generalizada en el SNC.",
+            "D": "La combinación de temozolomida y bevacizumab tiene una actividad modesta en las metástasis cerebrales de CPNM, pero no es un régimen estándar y es inapropiada para un paciente con KPS 50 que es refractario a 3 líneas de terapia previas."
+          },
+          "guideline": "AANS/CNS Guidelines for Brain Metastases 2022 — Manejo de la clase RPA III: RCT paliativa o cuidados de soporte óptimos; ESMO Brain Metastases Guidelines 2021",
+          "trial": "Gaspar LE et al. Int J Radiat Oncol Biol Phys 1997 (clasificación RPA): Clase III (KPS<70) — SG mediana 2,3 meses con RCT; RCT paliativa 20 Gy/5 fr equivalente a 30 Gy/10 fr en pacientes con mal estado funcional (Borgelt 1980)",
+          "pearl": "Clase RPA III (KPS <70): SG mediana 2,3 meses. La RCT paliativa 20 Gy/5 fr proporciona control rápido de los síntomas en 1 semana: apropiada para pacientes con mal estado funcional. El tratamiento local o sistémico agresivo no es apropiado. La discusión sobre los objetivos del tratamiento es esencial."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q16",
+        "stem": "Una mujer de 44 años con cáncer de mama triple negativo (CMTN) desarrolla una metástasis cerebral frontal derecha única de 2,8 cm. No tiene otra enfermedad metastásica conocida. Excelente estado funcional (KPS 90). ¿Cuál es la consideración correcta en la toma de decisiones quirúrgicas respecto a la extensión de la resección?",
+        "options": {
+          "A": "La resección en bloque (con cápsula intacta) es preferida frente a la resección fragmentada para reducir el riesgo de diseminación leptomeníngea",
+          "B": "La resección parcial es apropiada para este tamaño de lesión ya que será seguida de SRS",
+          "C": "Las metástasis cerebrales de CMTN siempre requieren descompresión interna fragmentada antes de la disección de la cápsula",
+          "D": "La cirugía está contraindicada para las metástasis cerebrales de CMTN: la SRS sola es obligatoria"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La resección en bloque (con la cápsula intacta) es fuertemente preferida frente al vaciamiento interno fragmentado para las metástasis cerebrales de cualquier histología, pero especialmente para aquellas con alta propensión a la diseminación leptomeníngea. La resección en bloque mantiene la cápsula tumoral intacta, evitando la siembra de células tumorales viables en el espacio del LCR. La resección fragmentada de metástasis cerebrales se asocia a un riesgo de carcinomatosis leptomeníngea del 10-14% frente al 5-6% con técnica en bloque. Para las metástasis de CMTN, la alta agresividad tumoral y la propensión leptomeníngea hacen especialmente importante la técnica en bloque.",
+          "wrong": {
+            "B": "La resección parcial no es apropiada para una lesión de 2,8 cm resecable en un paciente con excelente estado funcional. La RTM seguida de SRS sobre la cavidad logra un control local superior en comparación con la resección parcial + SRS. La resección parcial igualmente requeriría tratamiento adyuvante pero con un control tumoral inferior.",
+            "C": "La descompresión interna fragmentada NO es la técnica preferida para la cirugía de metástasis cerebrales. La resección en bloque con la cápsula intacta es el estándar para reducir el riesgo de DLM. No existe indicación especial para la resección fragmentada en el CMTN.",
+            "D": "La cirugía no está contraindicada para las metástasis cerebrales de CMTN. Las indicaciones de cirugía (buen estado funcional, lesión única accesible, sintomática, enfermedad sistémica controlada) se aplican igualmente al CMTN. De hecho, la resección quirúrgica de una metástasis cerebral única en un paciente con características favorables y posible enfermedad oligometastásica está fuertemente indicada."
+          },
+          "guideline": "AANS/CNS Brain Metastases Guidelines 2022 — Técnica quirúrgica: resección en bloque recomendada para minimizar la DLM; EANO Brain Metastases Guidelines 2017",
+          "trial": "Suki D et al. J Neurosurg 2016: Resección en bloque vs fragmentada de metástasis cerebrales — tasa de DLM 5,8% en bloque vs 14,2% fragmentada (p<0,01); la DLM empeora dramáticamente la SG (SG mediana 4,1 meses tras el diagnóstico de DLM)",
+          "pearl": "Resección en bloque (cápsula intacta) > resección fragmentada para metástasis cerebrales: tasa de DLM 5,8% vs 14,2%. La DLM tras resección de metástasis cerebral = catastrófica (SG mediana 4 meses). La técnica en bloque es especialmente importante para metástasis cerebelosas e histologías propensas a DLM (melanoma, mama, adenocarcinoma de pulmón)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q17",
+        "stem": "En el sistema de puntuación GPA (Evaluación Pronóstica Graduada) para metástasis cerebrales, el estado de mutación de EGFR y ALK se incorpora como componente de puntuación específicamente para ¿qué histología de tumor primario?",
+        "options": {
+          "A": "Cáncer de mama",
+          "B": "Melanoma",
+          "C": "Carcinoma de pulmón no microcítico (CPNM)",
+          "D": "Carcinoma de células renales"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La DS-GPA (GPA Diagnóstico-Específica) para CPNM fue específicamente modificada por Sperduto et al. (JCO 2012, actualizada en 2020) para incluir el estado de mutación de EGFR y ALK como componentes de puntuación, dado que estas alteraciones moleculares mejoran dramáticamente el pronóstico. El CPNM EGFR-mutado con GPA 3,5-4,0 alcanza una SG mediana de 46,8 meses, transformando por completo el pronóstico en comparación con el CPNM EGFR/ALK de tipo silvestre. Esta inclusión molecular en la GPA estuvo impulsada por la disponibilidad de ITK muy eficaces con penetración en el SNC (osimertinib, alectinib).",
+          "wrong": {
+            "A": "La DS-GPA de mama (Breast-GPA) incorpora el subtipo molecular (HR+/HER2-, HER2+, CMTN) y el KPS, pero NO EGFR/ALK (que son dianas específicas del CPNM). El estado HER2+ es el factor pronóstico dominante en las metástasis cerebrales de cáncer de mama.",
+            "B": "La DS-GPA de melanoma incorpora el estado de BRAF V600E y el KPS, pero no EGFR/ALK (que no son relevantes para el perfil molecular del melanoma). El estado de BRAF modifica dramáticamente el pronóstico del melanoma.",
+            "D": "La DS-GPA de CCR no incorpora EGFR ni ALK. Utiliza KPS, metástasis extracraneales y número de metástasis cerebrales. Los marcadores moleculares en CCR relevantes para el pronóstico (por ejemplo, factores de riesgo IMDC) no están incorporados en la GPA actual de CCR."
+          },
+          "guideline": "Sperduto PW et al. J Clin Oncol 2012: DS-GPA diagnóstico-específica para CPNM incluye el estado de EGFR/ALK; actualizada en 2020 para incluir mutaciones específicas del exón de EGFR",
+          "trial": "Sperduto PW et al. J Clin Oncol 2020 (DS-GPA actualizada): Análisis de subtipo molecular de CPNM — EGFR-mutado GPA 3,5-4: SG mediana 46,8 meses; EGFR/ALK-negativo GPA 0-1: SG mediana 3,4 meses (diferencia de SG 13 veces según el estado molecular + GPA)",
+          "pearl": "DS-GPA para CPNM incluye el estado de mutación EGFR y ALK. EGFR+ GPA 3,5-4 = SG mediana 46,8 meses. La DS-GPA de melanoma incluye el estado de BRAF. La DS-GPA de mama incluye el subtipo molecular (HER2+/HR+/CMTN). Cada histología tiene sus propias variables pronósticas optimizadas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q18",
+        "stem": "Un hombre de 52 años con CPNM (KRAS G12C mutado, PD-L1 50%, sin EGFR/ALK) presenta una metástasis cerebral frontal derecha de 4,5 cm con efecto de masa y 2 metástasis más pequeñas asintomáticas (0,9 cm cada una). La enfermedad sistémica está controlada con atezolizumab + bevacizumab + quimioterapia. ¿Cuál es la estrategia de tratamiento local combinado MÁS apropiada?",
+        "options": {
+          "A": "Cirugía para la lesión de 4,5 cm + SRS para ambas lesiones más pequeñas; diferir la RCT",
+          "B": "SRS a las 3 lesiones simultáneamente; evitar la cirugía",
+          "C": "RCT sola para todas las lesiones",
+          "D": "Solo cirugía para la lesión de 4,5 cm; observar las lesiones más pequeñas"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El enfoque correcto para este paciente combina cirugía y SRS, evitando la RCT. La lesión de 4,5 cm con efecto de masa requiere cirugía: es demasiado grande para una SRS segura en fracción única (>40 mm supera el rango de dosificación RTOG 90-05) y está causando síntomas neurológicos por efecto de masa. La resección quirúrgica proporciona descompresión inmediata, confirmación histológica y reducción de la carga tumoral. Las dos lesiones más pequeñas (0,9 cm cada una) son dianas ideales para SRS (≤20 mm, 24 Gy). La RCT se omite porque no proporciona beneficio en SG mientras causa daño neurocognitivo. Postoperatoriamente, atezolizumab puede reiniciarse tras el período perioperatorio (una vez completada la reducción de esteroides).",
+          "wrong": {
+            "B": "La SRS sola para una lesión de 4,5 cm con efecto de masa es inapropiada. La SRS en fracción única de este tamaño conlleva un alto riesgo de radionecrosis y no aborda el efecto de masa agudo. Podría considerarse la SRS fraccionada (5 fracciones) en teoría, pero la cirugía es preferida para este tamaño con efecto de masa.",
+            "C": "La RCT sola no es el tratamiento correcto para un paciente con buen estado funcional, enfermedad sistémica controlada y una lesión sintomática grande que requiere descompresión. La RCT no logra un alivio rápido de los síntomas y no proporciona beneficio en SG en este contexto.",
+            "D": "Observar las lesiones más pequeñas tras la cirugía sola dejaría 2 metástasis conocidas sin tratar, con riesgo de crecimiento y eventual desarrollo de síntomas. La SRS a ambas lesiones pequeñas en el momento de la planificación de la resección es el enfoque completo y correcto."
+          },
+          "guideline": "AANS/CNS Brain Metastases Guidelines 2022 — Enfoque combinado cirugía + SRS para pacientes con metástasis de tamaño mixto grande/pequeño; ASTRO 2022 Brain Metastases Guidelines",
+          "trial": "Patchell RA et al. NEJM 1990 estableció la cirugía para metástasis únicas grandes; SRS sola: límites RTOG 90-05 para el tamaño de la lesión (>40 mm no apto para SRS). Enfoques combinados evaluados en series retrospectivas (Flannery TJ et al. Int J Radiat Oncol 2008)",
+          "pearl": "Metástasis cerebrales >40 mm = no aptas para SRS en fracción única (RTOG 90-05). Las metástasis sintomáticas grandes con efecto de masa requieren cirugía. SRS sobre la cavidad postquirúrgica + SRS para las metástasis pequeñas restantes evita la RCT (sin beneficio en SG) logrando un control intracraneal integral."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q19",
+        "stem": "Los criterios de la Clase I del RPA (Análisis de Partición Recursiva) del RTOG para pacientes con metástasis cerebrales incluyen ¿cuál de los siguientes?",
+        "options": {
+          "A": "KPS ≥70, edad <65 años, tumor primario controlado, sin metástasis extracraneales",
+          "B": "KPS ≥70, edad <65 años, tumor primario activo y >3 metástasis cerebrales",
+          "C": "KPS <70, cualquier edad, tumor primario controlado",
+          "D": "KPS ≥70, edad >70 años, sin metástasis extracraneales"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La Clase I del RPA del RTOG requiere que se cumplan los CUATRO criterios: KPS ≥70, edad <65 años, tumor primario controlado y ausencia de metástasis extracraneales. Estos pacientes tienen el mejor pronóstico (SG mediana 7,1 meses con RCT en el análisis original de Gaspar 1997). La Clase III se define por un KPS <70 (sea cual sea el resto de características). La Clase II incluye a todos los pacientes no incluidos en la Clase I ni en la III. El RPA se derivó de tres ensayos de RCT del RTOG (7361, 7906, 8528) que incluyeron a 1.200 pacientes.",
+          "wrong": {
+            "B": "El tumor primario activo descalifica de la Clase I (la Clase I requiere tumor primario controlado). Además, >3 metástasis cerebrales reduciría la puntuación GPA, pero la Clase I del RPA requiere específicamente ausencia de metástasis extracraneales y tumor primario controlado.",
+            "C": "Un KPS <70 define automáticamente la Clase III independientemente de los demás factores. Esta respuesta describe los criterios de la Clase III, no de la Clase I.",
+            "D": "Una edad >70 años descalifica de la Clase I (la Clase I requiere edad <65 años). Un paciente de 70 años con características por lo demás favorables (primario controlado, sin MCE, KPS ≥70) sería Clase II."
+          },
+          "guideline": "Clasificación RPA del RTOG (Gaspar et al. IJROBP 1997): Clase I = KPS ≥70 + edad <65 años + primario controlado + sin MCE; Clase II = todos los demás; Clase III = KPS <70",
+          "trial": "Gaspar LE et al. Int J Radiat Oncol Biol Phys 1997: 1.200 pacientes con metástasis cerebrales, 3 ensayos RTOG — clasificación RPA: Clase I SG mediana 7,1 meses; Clase II 4,2 meses; Clase III 2,3 meses. Primer sistema pronóstico validado en metástasis cerebrales.",
+          "pearl": "Clase RPA I = KPS ≥70 + edad <65 años + primario controlado + sin MCE → SG mediana 7,1 meses. Deben cumplirse los 4 criterios. Clase RPA III = KPS <70 → SG mediana 2,3 meses (criterio único). Clase II = todos los demás → 4,2 meses."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q20",
+        "stem": "Una mujer de 56 años con cáncer de mama HER2 positivo es sometida a resección quirúrgica de una metástasis cerebral cerebelosa izquierda de 3,5 cm. La anatomía patológica confirma metástasis de cáncer de mama HER2+. La RM postoperatoria muestra resección completa. 6 semanas después de la operación, desarrolla náuseas y ataxia; la RM muestra una lesión con realce de 4 cm en la cavidad de resección. ¿Cuál es la consideración diagnóstica más importante para diferenciar los efectos de la radiación de una recidiva local verdadera?",
+        "options": {
+          "A": "La espectroscopia de RM con un cociente colina:NAA >2,0 sugiere recidiva frente a radionecrosis",
+          "B": "La TC es suficiente para diferenciar la recidiva de la radionecrosis",
+          "C": "El tiempo transcurrido de 6 semanas es demasiado corto para la radionecrosis: debe ser una recidiva verdadera",
+          "D": "La lesión con realce de 4 cm representa siempre una recidiva tras la cirugía"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Diferenciar la recidiva local de los cambios relacionados con la radiación (seudoprogresión, radionecrosis) tras la SRS sobre la cavidad de resección o la RCT es un gran reto clínico. La espectroscopia de RM es un complemento útil: el tumor recurrente muestra colina elevada (marcador de proliferación celular) y NAA reducida (marcador de integridad neuronal), con un cociente colina:NAA >2,0 sugestivo de recidiva. La radionecrosis muestra colina y NAA reducidas (necrosis tisular sin proliferación activa). Otras técnicas de RM avanzada incluyen estudios de perfusión (rCBV alto sugiere recidiva; bajo sugiere radionecrosis) y PET con 18F-FET o 18F-FDOPA (captación alta sugiere recidiva). El tiempo transcurrido de 6 semanas es inusual para la radionecrosis tras SRS (habitualmente 6-18 meses), pero la seudoprogresión puede ocurrir antes y los efectos del tratamiento en el lugar quirúrgico pueden verse de forma precoz.",
+          "wrong": {
+            "B": "La TC no puede diferenciar de forma fiable la recidiva tumoral de la radionecrosis: ambas aparecen como lesiones con realce en TC. Se requieren técnicas de RM avanzadas (espectroscopia, perfusión, susceptibilidad magnética) o imagen metabólica (PET).",
+            "C": "Aunque 6 semanas es un tiempo precoz para la radionecrosis clásica tras SRS (que habitualmente ocurre 6-18 meses después del tratamiento), los cambios postoperatorios y los efectos precoces del tratamiento pueden producir realce en las semanas siguientes. El tiempo transcurrido no establece de forma definitiva la recidiva frente al efecto del tratamiento.",
+            "D": "Una lesión con realce de 4 cm tras cirugía y radioterapia NO representa siempre una recidiva. Los cambios postoperatorios, la seudoprogresión (efecto precoz del tratamiento) y la radionecrosis producen todos lesiones con realce en RM. Se requiere imagen avanzada antes de concluir que se trata de una recidiva."
+          },
+          "guideline": "Criterios RANO (Evaluación de Respuesta en Neuro-Oncología) para metástasis cerebrales; EANO Brain Metastases Guidelines 2017 — Distinción recidiva vs efecto del tratamiento: espectroscopia de RM, RM de perfusión y FET-PET recomendados",
+          "trial": "Huang J et al. Clin Neurol Neurosurg 2011: Espectroscopia de RM en metástasis cerebrales tras SRS — Cho:NAA >2,0 tiene 85% de sensibilidad y 75% de especificidad para recidiva vs radionecrosis; perfusión por contraste de susceptibilidad dinámica: rCBV >2,0 sugiere recidiva",
+          "pearl": "Recidiva vs radionecrosis tras tratamiento de metástasis cerebrales: espectroscopia de RM (Cho:NAA >2,0 = recidiva), RM de perfusión (rCBV alto = recidiva), PET con 18F-FET/FDOPA (captación alta = recidiva). La TC sola es insuficiente. Tiempo: la radionecrosis típicamente 6-18 meses tras SRS; la seudoprogresión puede ser anterior (semanas)."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

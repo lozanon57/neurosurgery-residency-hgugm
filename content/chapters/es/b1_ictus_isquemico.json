@@ -1,0 +1,627 @@
+{
+  "id": "B1",
+  "title": "Ictus Isquémico y Neurocirugía de Emergencia",
+  "subtitle": "Bloque B — Cerebrovascular: Craniectomía Descompresiva, Terapia Endovascular y Complicaciones Quirúrgicas",
+  "block": "B",
+  "block_name": "Cerebrovascular",
+  "level": "R2-4",
+  "reading_time_min": 40,
+  "guidelines_version": "ESO Stroke Guidelines 2021 · AHA/ASA Stroke Guidelines 2019 · EANS Cerebrovascular Guidelines 2021",
+  "textbook_refs": [
+    "Vahedi K et al. Early decompressive surgery in malignant infarction of the middle cerebral artery: a pooled analysis. Lancet Neurol 2007;6:215-222",
+    "Hofmeijer J et al. Surgical decompression for space-occupying cerebral infarction. Stroke 2009;40:2518-2523",
+    "Jüttler E et al. Hemicraniectomy in older patients with extensive middle-cerebral-artery stroke (DESTINY II). NEJM 2014;370:1091-1100",
+    "Albers GW et al. Thrombectomy for stroke at 6 to 16 hours with selection by perfusion imaging. NEJM 2018;378:708-718"
+  ],
+  "learning_objectives": [
+    "Definir el infarto maligno de la arteria cerebral media (ACM) y su historia natural, y aplicar los criterios de craniectomía descompresiva a partir de la evidencia del metaanálisis",
+    "Describir la técnica quirúrgica de la hemicraniectomía descompresiva, incluyendo el tamaño óptimo del colgajo, la inserción del músculo temporal y la duraplastia",
+    "Aplicar los hallazgos del ensayo DESTINY II sobre la craniectomía descompresiva en pacientes ancianos a la toma de decisiones clínicas y al asesoramiento del paciente",
+    "Enumerar las complicaciones neuroquirúrgicas del ictus isquémico, incluyendo la transformación hemorrágica, el edema maligno y la hidrocefalia",
+    "Identificar las ventanas temporales y los criterios para la trombectomía mecánica endovascular (TME) y el papel del neurocirujano en el manejo del ictus agudo",
+    "Describir el manejo de las complicaciones de la endarterectomía carotídea y el síndrome de hiperperfusión postendarterectomía"
+  ],
+  "sections": [
+    {
+      "id": "B1-S1",
+      "title": "Infarto Maligno de la ACM: Historia Natural e Indicaciones",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El infarto maligno de la arteria cerebral media (ACM) —definido como infarto ≥50% del territorio de la ACM, frecuentemente con afectación de otros territorios— ocurre en aproximadamente el 10-15% de los ictus isquémicos supratentoriales. Su historia natural es devastadora: el edema cerebral progresivo alcanza su máximo entre las 48-96 horas post-infarto, causando herniación transtentorial y muerte en el 70-80% de los pacientes tratados médicamente, con una supervivencia mediana de 3-5 días. El edema resulta de la combinación de edema citotóxico (muerte celular → hinchazón celular) con edema vasogénico secundario, causando un desplazamiento de la línea media medio de 10-15 mm en el pico.\n\n**Predictores de curso maligno**: Un volumen de infarto >145 cm³ en DWI en las primeras 14 horas predice el edema maligno con una sensibilidad del 100% y especificidad del 94% (Oppenheim et al., Neurology 2000). Otros predictores: NIHSS >15-20, hipodensidad precoz en TC >50% del territorio de la ACM, náuseas/vómitos (reflejo de hipertensión intracraneal) y edad <60 años (paradójicamente, los pacientes más jóvenes tienen menor atrofia cerebral y, por tanto, menor capacidad de amortiguación para el edema).\n\n**Fisiopatología de la herniación**: El cráneo rígido con distensibilidad limitada hace que el tejido cerebral edematoso se desplace a través de la tienda del cerebelo (herniación transtentorial) o a través de la línea media (herniación subfalcial). Signos clínicos de herniación: (1) tríada de Cushing (hipertensión + bradicardia + respiración irregular), (2) empeoramiento progresivo de la hemiplegia contralateral, (3) midriasis ipsilateral (compresión del III par craneal), (4) disminución del nivel de consciencia progresando hasta el coma. La ventana crítica para la intervención es antes de la midriasis: una vez establecida la herniación transtentorial con una pupila midriática arreactiva, los resultados empeoran drásticamente."
+        },
+        {
+          "type": "table",
+          "title": "Predictores de Infarto Maligno de la ACM",
+          "headers": ["Predictor", "Umbral", "Sensibilidad", "Especificidad", "Momento"],
+          "rows": [
+            ["Volumen de infarto en DWI", ">145 cm³", "100%", "94%", "<14 horas"],
+            ["NIHSS", ">20 (hemisferio dominante) / >15 (no dominante)", "Alta", "Moderada", "Ingreso"],
+            ["Signos isquémicos precoces en TC", ">50% del territorio de la ACM con hipodensidad", "Moderada", "Alta", "6-12 horas"],
+            ["Náuseas/vómitos", "Cualquier vómito precoz", "Moderada", "Moderada", "Primeras 24 horas"],
+            ["Edad", "<60 años (menor atrofia)", "— (factor de riesgo)", "—", "Clínico"],
+            ["Carótida contralateral", "Oclusión de ACI + oclusión de ACM", "Alta", "Moderada", "Primeras horas"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — DWI >145 cm³ en las Primeras 14 Horas = Infarto Maligno",
+          "content": "El predictor más sensible y específico de infarto maligno de la ACM es un volumen en DWI >145 cm³ en las primeras 14 horas (Oppenheim 2000: 100% de sensibilidad, 94% de especificidad). En la práctica clínica, este criterio orienta la discusión temprana sobre la craniectomía descompresiva con el paciente y la familia antes de que se desarrolle la herniación. El momento es crítico: la discusión debe realizarse el día 1, no cuando el paciente está herniando."
+        }
+      ]
+    },
+    {
+      "id": "B1-S2",
+      "title": "Hemicraniectomía Descompresiva: Evidencia y Técnica Quirúrgica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hemicraniectomía descompresiva (HCD) es el tratamiento quirúrgico del infarto maligno de la ACM con evidencia de nivel I procedente de múltiples ensayos controlados aleatorizados. El **metaanálisis** de referencia de Vahedi et al. (Lancet Neurol 2007) combinó datos de tres ECA europeos: DESTINY (Alemania), HAMLET (Países Bajos) y DECIMAL (Francia). Metaanálisis (n=93, todos ≤55 años): la HCD dentro de las 48 horas redujo la mortalidad absoluta en un 50% (22% HCD vs 71% médico, p<0,0001) y mejoró significativamente el resultado funcional a los 12 meses (mRS ≤3: 43% HCD vs 21% médico, p=0,014). **Número necesario a tratar = 2** para prevenir una muerte; número necesario a tratar = 4 para conseguir un paciente adicional con mRS ≤3.\n\nCriterios de elegibilidad clave de los ensayos (todos ≤55 años): edad ≤55 años, NIHSS ≥15 (dominante) o ≥10 (hemisferio no dominante), infarto ≥50% del territorio de la ACM en TC/RM, tiempo de inicio a cirugía ≤48 horas (el beneficio es mayor ≤48 horas; más tarde es controvertido). La HCD salva vidas de forma notable pero a un coste: entre los supervivientes se incluyen pacientes con discapacidad grave (mRS 4-5). La tensión ética entre supervivencia con discapacidad frente a la muerte es central en el asesoramiento sobre HCD. Son importantes los instrumentos de ayuda a la decisión estructurados y las directivas anticipadas.\n\n**Ensayo DESTINY II** (Jüttler et al. NEJM 2014): Amplió la HCD a pacientes de 61-80 años. HCD vs médico: mortalidad 33% vs 70% (p<0,001). Sin embargo, ningún paciente del grupo quirúrgico alcanzó mRS ≤2 (independencia funcional); la mayoría de los supervivientes tuvieron mRS 4 (discapacidad moderada-grave). El hallazgo clave: la cirugía salva vidas en pacientes ancianos pero con altas tasas de discapacidad grave. Esto requiere un asesoramiento muy explícito sobre la calidad esperada de los resultados con pacientes y familiares.\n\n**Técnica quirúrgica**: Gran colgajo óseo libre, centrado sobre el infarto, de al menos 12 × 15 cm (diámetro mínimo 12 cm): cuanto mayor, mejor para el alivio de la presión. El límite anterior es el lóbulo frontal, el hueso temporal se rebaja hasta el suelo de la fosa media, incluyendo el pterion. La duramadre se abre ampliamente y se realiza una duraplastia de ampliación (usando pericráneo, fascia del temporal o duramadre artificial) que expande el compartimento dural. El músculo temporal y su fascia se reinsertan cuidadosamente para prevenir la deformidad estética. La craneoplastia se realiza 6-12 semanas después con el colgajo óseo autólogo (almacenado congelado) o un implante a medida."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Tamaño Insuficiente de la Craniectomía",
+          "content": "Una craniectomía <12 cm de diámetro es insuficiente para la hemicraniectomía descompresiva en el infarto maligno de la ACM. Una craniectomía pequeña provoca «herniación del encéfalo» en los bordes con congestión venosa focal y hemorragia, empeorando paradójicamente el resultado. El colgajo óseo mínimo para la HCD debe ser de 12 × 15 cm. Múltiples series confirman que el tamaño de la craniectomía es un predictor independiente de mortalidad tras la HCD: colgajo mayor = mejor descompresión = mejor resultado."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Decisión de HCD en una Paciente de 58 Años",
+          "content": "Una mujer diestra de 58 años presenta un infarto agudo del territorio de la ACM izquierda (NIHSS 22, plejia de brazo/pierna/cara derecha, afasia). RM DWI a las 12 horas muestra un volumen de 180 cm³. TC a las 18 horas muestra hipodensidad completa del territorio de la ACM izquierda con desplazamiento de la línea media de 8 mm. Está estuporosa. Familia: previamente declaró que «nunca querría quedarse como un vegetal». Esta situación requiere una reunión familiar urgente con neurocirugía, neurología y cuidados paliativos. La HCD probablemente salvará su vida pero con un mRS esperado de 3-4 (dependiente para algunas/todas las actividades diarias). Los deseos y valores expresados previamente deben guiar la decisión. Es apropiada la discusión preventiva sobre limitación del esfuerzo terapéutico si la familia decide no optar por la HCD."
+        }
+      ]
+    },
+    {
+      "id": "B1-S3",
+      "title": "Infarto Cerebeloso y Descompresión de la Fosa Posterior",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El infarto cerebeloso puede causar complicaciones potencialmente mortales a través de dos mecanismos: (1) inflamación cerebelosa directa que causa **compresión del tronco del encéfalo** (la fosa posterior tiene incluso menor distensibilidad que el compartimento supratentorial) y (2) obstrucción del cuarto ventrículo que causa **hidrocefalia obstructiva**. Los infartos cerebelosos grandes (particularmente los que afectan al territorio de la arteria cerebelosa posteroinferior, ACPI) o los infartos de múltiples territorios tienen el mayor riesgo.\n\nEl deterioro clínico por inflamación cerebelosa es característicamente **retardado (24-96 horas)** y puede ocurrir de forma precipitada. Signos de alarma: disminución de la consciencia, empeoramiento de náuseas/vómitos, parálisis del VI par craneal y nueva irregularidad respiratoria. La vigilancia con TC cada 6-12 horas es obligatoria para los infartos cerebelosos grandes durante las primeras 72 horas.\n\n**Opciones de tratamiento**: (1) **Drenaje ventricular externo (DVE)**: trata la hidrocefalia obstructiva pero NO aborda la compresión primaria del tronco del encéfalo por la inflamación cerebelosa, y puede paradójicamente empeorar la herniación transtentorial ascendente al eliminar la presión del compartimento infratentorial. El DVE solo es insuficiente si la compresión del tronco del encéfalo por el tejido cerebeloso es el mecanismo primario. (2) **Craniectomía suboccipital con duraplastia**: descomprime directamente la fosa posterior, extirpa el tejido cerebeloso infartado edematoso (lobulectomía parcial) y alivia la compresión del tronco del encéfalo. Este es el procedimiento definitivo cuando existe compresión. La craniectomía suboccipital reduce significativamente la mortalidad en el infarto cerebeloso grande con herniación de aproximadamente el 80% al 20-30% en las series contemporáneas. Momento: cuanto antes mejor, antes de que se produzca daño fijo en el tronco del encéfalo.\n\n**Un enfoque combinado** (DVE + craniectomía suboccipital) se utiliza cuando coexisten hidrocefalia y compresión del tronco del encéfalo. El principio crítico: **no colocar un DVE solo** en la herniación cerebelosa: realizar primero o simultáneamente la craniectomía suboccipital."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — DVE Solo en la Herniación Cerebelosa",
+          "content": "Colocar un DVE solo para un infarto cerebeloso con compresión del tronco del encéfalo (no solo hidrocefalia) es peligroso. El drenaje rápido de LCR supratentorial puede empeorar la herniación transtentorial ascendente (el cerebelo infartado es arrastrado hacia arriba). En pacientes con inflamación cerebelosa Y compresión del tronco del encéfalo, la craniectomía suboccipital es la intervención primaria. El DVE puede añadirse para el componente de hidrocefalia, pero nunca como sustituto de la descompresión."
+        }
+      ]
+    },
+    {
+      "id": "B1-S4",
+      "title": "Transformación Hemorrágica y Complicaciones Neuroquirúrgicas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La transformación hemorrágica (TH) del ictus isquémico ocurre en hasta el 40% de los casos, con una gravedad que varía desde petequial (HI1 e HI2, infarto hemorrágico) hasta parenquimatosa (PH1 y PH2, hematoma parenquimatoso). La **clasificación ECASS** gradúa la TH por su aspecto radiológico: HI1 (pequeñas petequias), HI2 (petequias confluentes), PH1 (≤30% del infarto, efecto de masa leve), PH2 (>30% del infarto o fuera del infarto, efecto de masa significativo). La PH2 es la forma más significativa clínicamente y se asocia a deterioro neurológico y mal resultado.\n\nLa **hemorragia intracraneal sintomática (HICs)** tras tPA IV o trombectomía endovascular se define como cualquier TH asociada a empeoramiento del NIHSS ≥4 puntos. Incidencia tras tPA IV: aproximadamente el 6% (registro SITS-MOST); tras TME: 5-7%. Factores de riesgo: gran volumen de infarto, hiperglucemia, circulación colateral deficiente y tiempo desde el inicio hasta el tratamiento.\n\n**Manejo neuroquirúrgico de la hemorragia postrombolítica**: La hemorragia tras tPA IV requiere: (1) detención inmediata de la infusión de tPA, (2) reversión de la anticoagulación si procede, (3) **crioprecipitado** (10 unidades IV) para reponer el fibrinógeno (objetivo ≥150 mg/dL), (4) **ácido tranexámico** 1 g IV y (5) considerar transfusión de plaquetas si <100.000/µL. La consulta neuroquirúrgica para evacuación del hematoma está indicada si: volumen del hematoma >30 mL, efecto de masa significativo con deterioro neurológico, hematoma en fosa posterior. El retraso en la reversión de la coagulopatía tras una HICs por tPA se asocia a expansión del hematoma.\n\n**Complicaciones postendarterectomía carotídea** relevantes para la neurocirugía: (1) Síndrome de hiperperfusión cerebral (SHC): cefalea ipsilateral súbita, crisis epilépticas y déficits neurológicos focales que se producen 2-7 días después de una EAC exitosa, causados por la pérdida de la autorregulación cerebral en un territorio previamente hipoperfundido. La TC/RM puede mostrar edema o hemorragia. Tratamiento: control estricto de la TA (objetivo <140/90), anticonvulsivos si se producen crisis. Prevención: EAC en etapas, derivación gradual, monitorización postoperatoria de la TA. (2) Hematoma cervical: reexploración inmediata si comprime la vía aérea."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación ECASS de la Transformación Hemorrágica",
+          "headers": ["Tipo", "Aspecto radiológico", "Impacto clínico", "Acción neuroquirúrgica"],
+          "rows": [
+            ["HI1", "Pequeñas petequias en el margen del infarto", "Ninguno (asintomático)", "Sin acción quirúrgica"],
+            ["HI2", "Petequias confluentes a lo largo del infarto, sin efecto de masa", "Mínimo", "Sin acción quirúrgica"],
+            ["PH1", "Hematoma ≤30% del infarto, efecto de masa leve", "Variable (puede ser sintomático)", "Monitorizar; considerar si deterioro"],
+            ["PH2", "Hematoma >30% del infarto o fuera del infarto, efecto de masa significativo", "Deterioro neurológico (HICs)", "Evaluación quirúrgica si >30 mL y deterioro"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1-S5",
+      "title": "Trombectomía Endovascular y Papel del Neurocirujano",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La trombectomía mecánica endovascular (TME) ha transformado el manejo del ictus isquémico agudo, con evidencia de nivel I procedente de siete ECA positivos (MR CLEAN, ESCAPE, EXTEND-IA, SWIFT PRIME, REVASCAT, DAWN, DEFUSE-3). La TME alcanza la independencia funcional (mRS 0-2) a los 90 días en aproximadamente el 46% de los pacientes frente al 26-28% con el tratamiento médico (número necesario a tratar ~5).\n\nEl ensayo **DAWN** (Nogueira et al. NEJM 2018) y el ensayo **DEFUSE-3** (Albers et al. NEJM 2018) ampliaron la ventana de trombectomía a 6-24 horas y 6-16 horas, respectivamente, utilizando una selección basada en imagen (pequeño núcleo de infarto + gran zona de penumbra). DAWN utilizó la discordancia clínico-imagen (infarto pequeño en relación con déficit NIHSS grave); DEFUSE-3 utilizó la discordancia de perfusión por TC o RM.\n\n**Papel del neurocirujano en el ictus agudo**: Las responsabilidades principales del neurocirujano en el protocolo de ictus agudo son: (1) decisión sobre la craniectomía descompresiva para el infarto maligno (como se indicó anteriormente), (2) manejo de las complicaciones de la transformación hemorrágica, (3) colocación de DVE para la hidrocefalia obstructiva (infarto cerebeloso con compresión del cuarto ventrículo, hemorragia intraventricular grande), (4) manejo de las complicaciones mecánicas de la TME (perforación vascular, disección arterial que causa hemorragia subaracnoidea, fístula del seno cavernoso por lesión de la guía). El neurocirujano es un miembro esencial del equipo de ictus agudo, pero habitualmente no es el intervencionista para la TME (realizada por neurorradiología/neurología intervencionista).\n\n**Localizaciones de oclusión y dianas para trombectomía**: La oclusión de vaso grande (OVG) se refiere a: ACI, ACM M1, ACM M2, BA (arteria basilar), arteria vertebral V4. La **oclusión de la arteria basilar** (OAB) es especialmente relevante desde el punto de vista neuroquirúrgico: mortalidad sin recanalización del 80-90%, con recanalización exitosa del 30-40%. El ensayo **BASICS** (Langezaal et al. NEJM 2021) comparó tPA IV solo frente a tPA + TME en la OAB y no mostró un beneficio significativo para la terapia combinada (mRS 0-2 a los 90 días: 44,2% TME vs 37,7% tPA solo; p=0,10), aunque los pacientes con déficit grave (NIHSS ≥10) mostraron una tendencia hacia el beneficio."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — DAWN y DEFUSE-3: Ventana de Trombectomía Extendida hasta 24 Horas",
+          "content": "Ensayo DAWN (NEJM 2018): trombectomía 6-24 horas tras el inicio con discordancia clínico-imagen (pequeño núcleo DWI, gran déficit NIHSS) — mRS 0-2: 49% TME vs 13% médico (OR 0,42, p<0,001). DEFUSE-3 (NEJM 2018): 6-16 horas con discordancia de perfusión — mRS 0-2: 45% vs 17% (p<0,001). Ambos ensayos establecieron la selección de pacientes basada en imagen (no solo en el tiempo) como paradigma para la TME en ventana extendida."
+        }
+      ]
+    },
+    {
+      "id": "B1-S6",
+      "title": "Manejo de la PIC en el Infarto Hemisférico Grande",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El manejo médico de la PIC elevada en el infarto maligno de la ACM se utiliza como puente a la cirugía o como manejo definitivo cuando se rechaza la cirugía. El **protocolo ICP de Berlín** y los protocolos DESTINY/DECIMAL utilizaron medidas médicas estándar incluyendo: elevación de la cabeza a 30 grados, sedación y analgesia (propofol, opioides), manitol 0,25-0,5 g/kg IV en 20 minutos (reduce la PIC por efecto osmótico, efecto máximo a los 20-30 minutos, dura 4-6 horas) y suero salino hipertónico (NaCl al 3% o al 23,4%, objetivo de Na sérico 145-155 mmol/L para efecto osmótico sostenido).\n\n**Manitol vs suero salino hipertónico**: Ambos reducen la PIC de forma eficaz. El suero salino hipertónico tiene ventajas en pacientes con hipovolemia preexistente (el manitol causa diuresis hiperosmótica inicial). La reducción sostenida de la PIC a largo plazo favorece el suero salino hipertónico. El suero salino hipertónico (al 7,5% o al 20%) puede utilizarse en infusión continua para mantener la osmolalidad sérica 310-320 mOsm/kg. La elección entre agentes depende del protocolo institucional y de la hemodinámica del paciente.\n\n**Corticosteroides**: La dexametasona NO está indicada para el edema cerebral citotóxico del ictus isquémico. Múltiples ensayos han demostrado que no aporta beneficio e incluso puede causar daño (aumento de las complicaciones infecciosas, hiperglucemia que empeora la isquemia). Los corticoides son eficaces solo para el edema vasogénico (tumores cerebrales, abscesos), NO para el edema del ictus isquémico. Esta es una distinción crítica frente al manejo tumoral.\n\n**Intubación e hiperventilación**: La reducción de la PaCO₂ mediante hiperventilación (objetivo PaCO₂ 35-40 mmHg) provoca vasoconstricción cerebral y reduce temporalmente la PIC en minutos. Sin embargo, esta es solo una medida puente (el efecto se desvanece a las 4-6 horas debido al tamponamiento del pH del LCR) y la hiperventilación prolongada causa isquemia. Puede añadirse bloqueo neuromuscular para la elevación de PIC resistente en pacientes intubados. Objetivo de PPC ≥60-70 mmHg."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Dexametasona para el Edema del Ictus Isquémico",
+          "content": "La dexametasona está CONTRAINDICADA para el edema cerebral del ictus isquémico. Solo es eficaz para el edema vasogénico (tumores, abscesos). El ictus isquémico causa edema citotóxico (células muertas que se hinchan) que los corticoides no tratan. Múltiples ECA confirman que la dexametasona no aporta beneficio en el ictus isquémico y aumenta las complicaciones. Nunca prescribir corticoides para el edema del infarto maligno de la ACM: este es un error clásico en los exámenes y un problema de seguridad del paciente."
+        }
+      ]
+    },
+    {
+      "id": "B1-S7",
+      "title": "Craneoplastia tras Craniectomía Descompresiva",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La craneoplastia (sustitución del colgajo óseo) tras la HCD se realiza 6-12 semanas después de la cirugía descompresiva inicial. La craneoplastia temprana (<6 semanas) se asocia a mayores tasas de complicaciones (cicatrización de la herida, infección del sitio quirúrgico) porque el cuero cabelludo y el cerebro siguen en estado inflamatorio postlesional/postisquémico. La craneoplastia tardía (>12 semanas) conlleva el riesgo del síndrome paradójico del trepanado (síndrome del colgajo hundido), en el que la corteza expuesta sin cobertura ósea causa síntomas de isquemia cerebral por los cambios de presión atmosférica, particularmente con el calor y el frío.\n\n**Materiales para craneoplastia**: El colgajo óseo autólogo (criopreservado a -80°C) es el estándar de oro, con la menor tasa de infección y el mejor resultado cosmético. Sin embargo, el hueso autólogo puede reabsorberse con el tiempo (tasa de reabsorción del 5-10%, especialmente en pacientes jóvenes y colgajos grandes). **Alternativas sintéticas**: (1) Malla de titanio/implante de titanio personalizado: resistente, duradero, compatible con RM; (2) Poliétereterketona (PEEK): ligera, radiotransparente (no produce artefactos en TC/RM), excelentes propiedades biomecánicas; (3) Cemento de hidroxiapatita: utilizado para defectos pequeños. Los implantes personalizados impresos en 3D (titanio o PEEK) se utilizan cada vez más para defectos complejos.\n\n**Complicaciones de la craneoplastia**: (1) **Infección del sitio quirúrgico (ISQ)**: la complicación grave más frecuente, ocurriendo en el 2-10%, con tasas más altas con RT previa, diabetes e inmunocompromiso. La ISQ requiere la retirada del implante y el manejo agresivo de la herida; (2) **Hematoma epidural/subdural**: colección postoperatoria aguda que requiere evacuación; (3) **Crisis epilépticas**: el riesgo aumenta tras la craneoplastia, siendo frecuente la práctica de anticonvulsivos profilácticos durante 3 meses; (4) **Inflamación/herniación cerebral**: rara pero catastrófica si la craneoplastia se realiza demasiado pronto sobre un cerebro muy edematoso; (5) **Reabsorción del colgajo óseo**: frecuente en pacientes pediátricos y colgajos grandes; imagen de seguimiento a los 12 meses."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Momento de la Craneoplastia",
+          "content": "Un hombre de 45 años fue sometido a HCD izquierda de urgencia hace 8 semanas por infarto maligno de la ACM. Actualmente está en rehabilitación, NIHSS mejorado a 12, camina con asistencia. Refiere cefaleas con el frío y mareos al cambiar de postura: características típicas del síndrome paradójico del trepanado. La RM muestra desplazamiento hacia adentro de la corteza a través del defecto craneal. La craneoplastia está ahora indicada. Evaluación preoperatoria: descartar infección del cuero cabelludo, colgajo óseo en buen estado (TC), aptitud sistémica para la anestesia. Plan: sustitución del colgajo óseo autólogo o implante de PEEK personalizado si la calidad del hueso es deficiente."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúa tus conocimientos sobre el manejo neuroquirúrgico del ictus isquémico con 20 preguntas tipo examen de residencia.",
+    "questions": [
+      {
+        "id": "B1-Q1",
+        "stem": "Según el metaanálisis de los ensayos DESTINY, HAMLET y DECIMAL (Vahedi et al. Lancet Neurol 2007), ¿cuál fue el número necesario a tratar con hemicraniectomía descompresiva para prevenir una muerte en pacientes con infarto maligno de la ACM ≤55 años?",
+        "options": {
+          "A": "10",
+          "B": "5",
+          "C": "2",
+          "D": "1"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El metaanálisis (Vahedi et al. Lancet Neurol 2007, n=93) demostró que la HCD redujo la mortalidad del 71% (médico) al 22% (quirúrgico): una reducción absoluta del riesgo del 49%. Número necesario a tratar = 1/RAR = 1/0,49 ≈ 2. Este notable NNT de 2 convierte a la HCD en una de las intervenciones quirúrgicas más eficaces de la neurocirugía. Sin embargo, el beneficio en términos de independencia funcional (mRS ≤2) fue menos espectacular: NNT ≈4-7 para mRS ≤3.",
+          "wrong": {
+            "A": "Un NNT de 10 implicaría solo una reducción absoluta del riesgo del 10%. La RAR real es de aproximadamente el 49%, dando un NNT ≈2.",
+            "B": "Un NNT de 5 implicaría una reducción absoluta del riesgo del 20%. El metaanálisis mostró una RAR de ~50% para la mortalidad.",
+            "D": "Un NNT de 1 significaría una reducción absoluta del riesgo del 100%: todos los pacientes tratados quirúrgicamente viven y todos los pacientes médicos mueren. Aunque el beneficio es grande, no llega a ser tan extremo."
+          },
+          "guideline": "EANS Cerebrovascular Guidelines 2021 — HCD para infarto maligno de la ACM: evidencia de nivel I; NNT=2 para mortalidad en el metaanálisis; ESO Stroke 2021",
+          "trial": "Vahedi K et al. Lancet Neurol 2007: Metaanálisis DESTINY+HAMLET+DECIMAL, n=93, ≤55 años — mortalidad 22% HCD vs 71% médico (RAR 49%, NNT=2); mRS ≤3: 43% HCD vs 21% médico",
+          "pearl": "NNT del metaanálisis de HCD para mortalidad = 2 (uno de los NNT más bajos en neurocirugía). Pero el 43% de los pacientes con HCD tenían mRS ≤3 vs 21% médico: un número sustancial sobrevive con discapacidad moderada-grave. Esta tensión entre NNT y resultado funcional define el asesoramiento sobre HCD."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q2",
+        "stem": "El ensayo DESTINY II (Jüttler et al. NEJM 2014) evaluó la hemicraniectomía descompresiva en pacientes de 61-80 años con infarto maligno de la ACM. El hallazgo CLAVE sobre el resultado funcional fue:",
+        "options": {
+          "A": "La mayoría de los pacientes ancianos tratados quirúrgicamente alcanzaron una función independiente (mRS ≤2)",
+          "B": "Ningún paciente anciano alcanzó una función independiente (mRS ≤2); la mayoría de los supervivientes tenían discapacidad moderada-grave (mRS 4)",
+          "C": "La HCD redujo la mortalidad sin que ningún superviviente presentara discapacidad grave",
+          "D": "La HCD no mostró beneficio en la mortalidad en pacientes ancianos en comparación con el tratamiento médico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "DESTINY II (Jüttler et al. NEJM 2014) aleatorizó a 112 pacientes de 61-80 años con infarto maligno de la ACM a HCD frente a tratamiento médico. La HCD redujo significativamente la mortalidad (33% vs 70%, p<0,001). Sin embargo, el hallazgo crítico fue que NINGÚN paciente del grupo quirúrgico alcanzó mRS ≤2 (función independiente): los mejores resultados fueron mRS 3 (discapacidad moderada) en una pequeña proporción, con la mayoría de los supervivientes con mRS 4 (discapacidad moderada-grave, incapacidad para caminar sin ayuda). Este hallazgo cambió drásticamente el asesoramiento para los pacientes ancianos: la cirugía salva vidas pero la calidad de esas vidas salvadas requiere una discusión explícita sobre la tolerancia a la discapacidad con los pacientes y las familias.",
+          "wrong": {
+            "A": "DESTINY II demostró lo contrario: ningún paciente anciano del grupo quirúrgico alcanzó mRS ≤2. La función independiente no fue alcanzada por ningún paciente con HCD en DESTINY II.",
+            "C": "La HCD sí redujo significativamente la mortalidad en DESTINY II (33% vs 70%). La discapacidad grave NO se previno: la mayoría de los supervivientes tenían mRS 4.",
+            "D": "La HCD sí mostró un beneficio significativo en la mortalidad en pacientes ancianos (33% vs 70%, p<0,001). La preocupación no era la falta de beneficio sino la calidad de esa supervivencia."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — HCD en pacientes >60 años: reduce la mortalidad pero con altas tasas de discapacidad grave; la toma de decisiones compartida es obligatoria; EANS Cerebrovascular 2021",
+          "trial": "Jüttler E et al. NEJM 2014 (DESTINY II): 112 pacientes de 61-80 años, ACM maligna — HCD vs médico; mortalidad 33% vs 70% (p<0,001); mRS ≤2: 0% HCD; mRS 4: 42% HCD; el paradigma de asesoramiento cambió para los pacientes ancianos",
+          "pearl": "DESTINY II: pacientes ancianos (61-80 años) — la HCD salva vidas (33% vs 70% mortalidad) pero NINGÚN paciente alcanza mRS ≤2. La mayoría de los supervivientes = mRS 4 (gravemente discapacitados). Este es el hallazgo más importante para el asesoramiento sobre HCD en pacientes ancianos: discutir el nivel esperado de discapacidad de forma explícita antes del consentimiento."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q3",
+        "stem": "Una mujer de 62 años se presenta 10 horas después del inicio de ataxia severa y vómitos. La RM muestra un infarto cerebeloso del territorio de la ACPI izquierda de 4 × 3 × 3,5 cm con obliteración completa del cuarto ventrículo e hidrocefalia obstructiva en desarrollo (ventrículos laterales moderadamente dilatados). Está estuporosa pero responde. ¿Cuál es el manejo neuroquirúrgico correcto?",
+        "options": {
+          "A": "Drenaje ventricular externo (DVE) solo para el manejo de la hidrocefalia",
+          "B": "Craniectomía suboccipital + duraplastia para descomprimir la fosa posterior, con DVE si es necesario para la hidrocefalia",
+          "C": "Drenaje lumbar para derivación del LCR",
+          "D": "Observación con manejo médico de la PIC; cirugía solo si se desarrolla coma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta paciente tiene un infarto cerebeloso grande con obliteración del cuarto ventrículo e hidrocefalia obstructiva: ambos componentes requieren manejo quirúrgico. La intervención primaria es la craniectomía suboccipital con duraplastia para descomprimir directamente la fosa posterior y aliviar la compresión del tronco del encéfalo por el cerebelo edematoso. El DVE se añade para manejar el componente de hidrocefalia. El DVE solo es peligroso porque puede empeorar la herniación transtentorial ascendente (descomprimiendo la presión supratentorial sin abordar la compresión infratentorial primaria). La paciente está estuporosa pero responde: esta es la ventana para una intervención eficaz antes de la lesión irreversible del tronco del encéfalo.",
+          "wrong": {
+            "A": "El DVE solo es insuficiente y potencialmente peligroso para el infarto cerebeloso con compresión del tronco del encéfalo. Trata la hidrocefalia pero no la compresión primaria del tronco del encéfalo por el tejido cerebeloso edematoso. Peor aún, la descompresión supratentorial rápida mediante DVE puede causar herniación ascendente.",
+            "C": "El drenaje lumbar está contraindicado en presencia de efecto de masa en la fosa posterior e hidrocefalia obstructiva: extrae LCR por debajo del nivel obstruido, agravando el gradiente de presión y precipitando la herniación tonsilar.",
+            "D": "Esperar hasta que se desarrolle el coma antes de la intervención quirúrgica empeora significativamente los resultados en la herniación cerebelosa. La compresión del tronco del encéfalo causa lesión irreversible si se mantiene: la intervención debe preceder al daño fijo del tronco del encéfalo. Esta paciente requiere cirugía ahora."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Infarto cerebeloso grande con compresión del tronco del encéfalo: craniectomía suboccipital ± DVE recomendada; DVE solo insuficiente para la herniación; EANS Cerebrovascular 2021",
+          "trial": "Pfefferkorn T et al. Stroke 2004: Manejo del infarto cerebeloso grande — craniectomía suboccipital vs DVE solo vs médico: mortalidad craniectomía 20% vs DVE solo 53% vs médico 80%; el DVE solo empeoró la herniación ascendente en 3/8 pacientes",
+          "pearl": "Infarto cerebeloso + obliteración del cuarto ventrículo + hidrocefalia: NO usar DVE solo (riesgo de herniación ascendente). Usar craniectomía suboccipital + duraplastia (descompresión primaria) ± DVE para la hidrocefalia. Actuar antes del coma: la herniación del tronco del encéfalo es reversible solo si se trata a tiempo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q4",
+        "stem": "El volumen de infarto en DWI >145 cm³ dentro de las 14 horas del inicio del ictus predice el infarto maligno de la ACM con ¿qué sensibilidad y especificidad?",
+        "options": {
+          "A": "Sensibilidad 70%, especificidad 85%",
+          "B": "Sensibilidad 85%, especificidad 95%",
+          "C": "Sensibilidad 100%, especificidad 94%",
+          "D": "Sensibilidad 50%, especificidad 50%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Oppenheim et al. (Neurology 2000) estableció que un volumen de infarto en DWI >145 cm³ en las primeras 14 horas predice el infarto maligno de la ACM con un 100% de sensibilidad y un 94% de especificidad. La alta sensibilidad significa que no se pierde ningún caso maligno (todos los pacientes que desarrollarán inflamación maligna son identificados); la alta especificidad significa que el 94% de los pacientes predichos como de curso maligno realmente lo tienen. Este umbral se utiliza para identificar a los pacientes para el asesoramiento y la planificación tempranos de la HCD.",
+          "wrong": {
+            "A": "Una sensibilidad del 70% dejaría escapar al 30% de los pacientes que desarrollarán infarto maligno: demasiado baja para la toma de decisiones clínicas.",
+            "B": "Una sensibilidad del 85% es el rendimiento de los predictores clínicos (NIHSS >20); el volumen en DWI es más preciso.",
+            "D": "Sensibilidad y especificidad del 50% equivaldría a una moneda al azar: subestima gravemente la precisión del umbral de volumen en DWI."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Volumen en DWI >145 cm³ como criterio de imagen principal para la predicción del infarto maligno y la evaluación de la elegibilidad para HCD",
+          "trial": "Oppenheim C et al. Neurology 2000: 23 pacientes — volumen en DWI >145 cm³ en <14 horas predijo el infarto maligno con 100% de sensibilidad y 94% de especificidad; validado en múltiples series posteriores; sigue siendo el criterio de imagen estándar",
+          "pearl": "DWI >145 cm³ en <14 horas = infarto maligno de la ACM (100% sensibilidad, 94% especificidad). Este hallazgo desencadena: (1) consulta neuroquirúrgica temprana, (2) reunión familiar sobre HCD, (3) monitorización estrecha de signos de herniación, (4) ingreso en UCI. No esperar a la herniación para discutir la HCD."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q5",
+        "stem": "Un hombre de 50 años recibe tPA IV por un infarto agudo de la ACM derecha. 90 minutos después de finalizar el tPA, desarrolla un empeoramiento súbito y grave de su hemiplegia izquierda. La TC muestra una gran hemorragia intraparenquimatosa en el territorio de la ACM derecha con efecto de masa significativo (patrón PH2 de la ECASS). ¿Cuál es el manejo inmediato?",
+        "options": {
+          "A": "Continuar la observación: todas las hemorragias post-tPA se resuelven espontáneamente",
+          "B": "Detener la infusión de tPA (si aún está activa), administrar crioprecipitado 10 unidades IV, ácido tranexámico 1 g IV, evaluación neuroquirúrgica",
+          "C": "Administrar vitamina K 10 mg IV para revertir el tPA",
+          "D": "Administrar plasma fresco congelado 2 unidades para revertir el tPA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hemorragia intracraneal sintomática (HICs) post-tPA requiere la reversión inmediata del estado trombolítico. El tPA depleta el fibrinógeno y causa un estado de coagulopatía. Manejo: (1) detener el tPA si aún se está infundiendo, (2) crioprecipitado 10 unidades IV (cada unidad contiene 250 mg de fibrinógeno; objetivo fibrinógeno ≥150-200 mg/dL), (3) ácido tranexámico 1 g IV (inhibe la fibrinólisis), (4) transfusión de plaquetas si <100.000, (5) evaluación neuroquirúrgica para evacuación del hematoma si está indicada (>30 mL, efecto de masa significativo con deterioro). Actuar de inmediato: la expansión del hematoma ocurre rápidamente en el estado coagulopático post-tPA.",
+          "wrong": {
+            "A": "La HICs post-tPA es una emergencia médica, no un evento autolimitado. La falta de acción conduce a la expansión del hematoma, herniación y muerte en la mayoría de los casos.",
+            "C": "La vitamina K revierte los anticoagulantes dependientes de la vitamina K (warfarina, agentes anti-Xa) pero NO tiene ningún papel en la reversión de la depleción de fibrinógeno inducida por tPA. La vitamina K tarda 12-24 horas en actuar y aborda una vía de coagulopatía diferente.",
+            "D": "El PFC contiene factores de coagulación pero no es óptimo para revertir la fibrinogenopenia inducida por tPA: proporciona una concentración de fibrinógeno demasiado baja por volumen. El crioprecipitado es el tratamiento específico ya que proporciona fibrinógeno en alta concentración (250 mg/unidad) en un pequeño volumen."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines 2019 — HICs post-tPA: crioprecipitado + ácido tranexámico + evaluación neuroquirúrgica; ESO Stroke 2021 — Reposición de fibrinógeno con crioprecipitado",
+          "trial": "Yaghi S et al. Stroke 2014: Manejo de HICs post-trombólisis — el crioprecipitado reduce significativamente la expansión del hematoma vs sin reversión; Frontera JA et al. Neurocrit Care 2016: Protocolo de manejo para la hemorragia post-tPA — 10 unidades IV de crioprecipitado alcanzan fibrinógeno objetivo >150 mg/dL en >90%",
+          "pearl": "Manejo de HICs post-tPA: DETENER tPA → crioprecipitado 10 unidades (reponer fibrinógeno, objetivo >150 mg/dL) + ácido tranexámico 1 g IV → transfusión de plaquetas si <100K → neurocirugía si >30 mL + deterioro. Vitamina K = INCORRECTO (mecanismo equivocado). PFC = subóptimo. Crioprecipitado = correcto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q6",
+        "stem": "El ensayo DAWN (Nogueira et al. NEJM 2018) demostró el beneficio de la trombectomía endovascular a las 6-24 horas utilizando ¿qué estrategia de selección?",
+        "options": {
+          "A": "Todos los pacientes con oclusión de vaso grande en el intervalo 6-24 horas, independientemente de los hallazgos de imagen",
+          "B": "Discordancia clínico-imagen: pequeño núcleo de infarto en DWI en relación con un déficit NIHSS grave",
+          "C": "Solo pacientes con NIHSS ≥25",
+          "D": "Pacientes con infarto establecido grande del territorio de la ACM (>100 cm³) para prevenir la herniación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo DAWN utilizó la discordancia clínico-imagen para seleccionar a los pacientes para la trombectomía en ventana tardía (6-24 horas). Los pacientes eran elegibles si tenían una oclusión de vaso grande (ACI o M1) con un pequeño núcleo de infarto (volumen en DWI <31 mL para pacientes ≥80 años o NIHSS ≥10, o DWI <51 mL para pacientes de 18-79 años con NIHSS ≥10) en relación con un déficit clínico grave. El concepto de discordancia identifica a los pacientes con penumbra isquémica viable que todavía puede salvarse a pesar de la presentación tardía. Resultados: mRS 0-2 a los 90 días: 49% TME vs 13% médico (OR 0,42, p<0,001).",
+          "wrong": {
+            "A": "DAWN NO seleccionó a todos los pacientes con OVG en ventana tardía: seleccionó específicamente aquellos con evidencia de imagen de un pequeño núcleo de infarto. Los pacientes con grandes infartos establecidos fueron excluidos (sin penumbra salvable, alto riesgo de hemorragia por reperfusión).",
+            "C": "NIHSS ≥25 no fue el único criterio. La discordancia clínico-imagen requería tanto un umbral de NIHSS específico COMO un pequeño núcleo en DWI. NIHSS elevado con infarto grande = excluido.",
+            "D": "Los pacientes con un gran infarto establecido (>100 cm³) tienen un alto riesgo de transformación hemorrágica por la reperfusión y no se beneficiarían de la TME: esto es lo opuesto a los criterios de selección de DAWN."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines 2019 — TME en ventana tardía (6-24 h): discordancia clínico-imagen según criterios DAWN; discordancia de perfusión en DEFUSE-3 (6-16 h); ambas apoyan la TME en ventana extendida",
+          "trial": "Nogueira RG et al. NEJM 2018 (DAWN): 206 pacientes con OVG a las 6-24 h con discordancia clínico-imagen — TME vs médico; mRS 0-2: 49% vs 13% (OR 0,42, p<0,001); detenido precozmente por el DSMB; estableció la ventana de tratamiento de 24 horas",
+          "pearl": "DAWN (NEJM 2018): TME a las 6-24 horas usando discordancia clínico-imagen. mRS 0-2: 49% TME vs 13% médico. Concepto clave: el TIEMPO no es el criterio de selección: la DISCORDANCIA DE IMAGEN lo es. «El tiempo es penumbra» reemplazado por «la imagen es penumbra». DEFUSE-3 extendió a 16 horas usando discordancia perfusión-difusión."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q7",
+        "stem": "¿Cuál es el tamaño mínimo de craniectomía recomendado para la hemicraniectomía descompresiva en el infarto maligno de la ACM?",
+        "options": {
+          "A": "6 × 6 cm",
+          "B": "8 × 10 cm",
+          "C": "12 × 15 cm (diámetro mínimo 12 cm)",
+          "D": "Cualquier tamaño que reduzca el desplazamiento de la línea media"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El tamaño mínimo del colgajo óseo para una hemicraniectomía descompresiva eficaz es de 12 cm en cualquier diámetro, con la mayoría de los protocolos especificando un colgajo de 12 × 15 cm o mayor. Las craniectomías más pequeñas hacen que el encéfalo se hérnie en los bordes, creando congestión venosa focal y hemorragia (lesión «en canto de cuchillo»). Múltiples series han confirmado que el tamaño de la craniectomía es un predictor independiente del resultado: colgajo mayor = mejor descompresión. El colgajo debe incluir el escama temporal rebajada hasta el suelo de la fosa media, el pterion y extenderse desde el lóbulo frontal hasta la unión parieto-occipital.",
+          "wrong": {
+            "A": "6 × 6 cm es mucho demasiado pequeño para la hemicraniectomía descompresiva. Un colgajo de este tamaño causaría hemorragia grave en los bordes por la herniación cerebral y proporcionaría una descompresión inadecuada. Este tamaño podría usarse para la evacuación de un hematoma pequeño, no para la HCD.",
+            "B": "8 × 10 cm sigue estando por debajo del mínimo recomendado. Aunque mayor que 6 × 6, este tamaño se asocia a una descompresión inadecuada en el contexto del infarto maligno de la ACM.",
+            "D": "«Cualquier tamaño que reduzca el desplazamiento de la línea media» no es un principio quirúrgico aceptado. Una craniectomía de tamaño inadecuado que reduzca ligeramente el desplazamiento de la línea media puede igualmente causar hemorragia en los bordes y una descompresión insuficiente."
+          },
+          "guideline": "EANS Cerebrovascular Surgery Guidelines 2021 — Técnica de HCD: colgajo mínimo 12 × 15 cm, incluir escama temporal; ESO Stroke 2021",
+          "trial": "Umamaheswara Rao GS et al. Indian J Anaesth 2009: Tamaño de craniectomía y resultado de HCD — colgajo >12 cm asociado con mortalidad significativamente menor vs <12 cm (28% vs 52%, p=0,04); Mori K et al. Neurosurgery 2004: Técnica estándar de HCD incluyendo descompresión de la base temporal",
+          "pearl": "Tamaño mínimo de HCD: 12 × 15 cm (diámetro mínimo 12 cm). Menor = herniación cerebral en los bordes = hemorragia venosa + descompresión inadecuada. Incluir escama temporal hasta el suelo de la fosa media. El error técnico más frecuente en la HCD de urgencia es hacer el colgajo demasiado pequeño."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q8",
+        "stem": "Un hombre de 55 años presenta un infarto completo del territorio de la ACM izquierda, NIHSS 24, volumen en DWI 165 cm³. Está despierto y puede comunicarse. Declara que no quiere ser mantenido vivo en un estado de dependencia grave. Su familia no está de acuerdo y quiere «que se haga todo». ¿Cuál es el enfoque MÁS apropiado?",
+        "options": {
+          "A": "HCD inmediata sin más discusión: la cirugía está indicada por los criterios clínicos",
+          "B": "Respetar los deseos expresados del paciente (sin cirugía para discapacidad grave); documentar su capacidad de decisión; discutir objetivos paliativos con la familia",
+          "C": "Esperar hasta que el paciente esté en coma antes de tomar decisiones",
+          "D": "Realizar la HCD para salvar su vida; abordar las preferencias sobre la discapacidad tras la recuperación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene capacidad de decisión (está despierto, puede comunicarse y expresa una preferencia clara y coherente). La negativa de un paciente competente a una cirugía que mantiene la vida debe ser respetada, independientemente de los deseos de la familia. El neurocirujano debe: (1) confirmar la capacidad de decisión (comprende la situación, aprecia las consecuencias, razona las opciones, comunica la decisión), (2) documentar claramente la preferencia expresada del paciente, (3) explicar que la HCD salvará su vida pero con discapacidad grave esperada (mRS 3-4), que es exactamente lo que quiere evitar, y (4) pasar a la planificación de cuidados paliativos compartidos con la familia, explicando los deseos expresados del paciente. Ignorar la negativa de un paciente competente constituiría una agresión.",
+          "wrong": {
+            "A": "Los criterios clínicos indican beneficio quirúrgico, pero la negativa de un paciente competente anula la indicación quirúrgica. Realizar cirugía en un paciente competente que la rechaza constituye una agresión.",
+            "C": "Esperar hasta el coma (pérdida de capacidad de decisión) crea un dilema legal y ético: su negativa expresada previamente mientras era competente sigue siendo su directiva anticipada. Esperar para ver si cambia de opinión en estado comatoso es éticamente injustificable.",
+            "D": "Realizar la cirugía en contra de los deseos expresados de un paciente competente y planificar «abordar las preferencias después» ignora la irreversibilidad de su discapacidad (la discapacidad grave por HCD no puede «abordarse» después de la operación)."
+          },
+          "guideline": "EANS/ESO Ethical Guidelines for Stroke Surgery — La negativa del paciente competente a la cirugía debe ser respetada; evaluación y documentación de la capacidad de decisión; directivas anticipadas; integración de cuidados paliativos",
+          "trial": "Mass EH et al. Lancet Neurol 2006: Calidad de vida tras HCD — el 60% de los supervivientes refieren satisfacción con el resultado; el 40% no querría la cirugía de nuevo si supiera el resultado; subraya la necesidad de un asesoramiento preoperatorio explícito y el respeto a las preferencias del paciente",
+          "pearl": "Consentimiento para HCD: un paciente competente que rechaza la cirugía alegando preferencia frente a la discapacidad grave DEBE tener ese deseo respetado. Documentar la capacidad de decisión. El desacuerdo familiar no anula la autonomía del paciente competente. Pasar a cuidados paliativos cuando se rechaza la cirugía. La dimensión ética más crucial de la HCD."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q9",
+        "stem": "El síndrome de hiperperfusión cerebral (SHC) post-endarterectomía carotídea (EAC) se presenta típicamente ¿en qué momento y con qué características clínicas?",
+        "options": {
+          "A": "Inmediatamente (0-2 horas) post-EAC con ictus por trombosis arterial",
+          "B": "2-7 días post-EAC con cefalea ipsilateral, crisis epilépticas y déficits neurológicos focales",
+          "C": "Meses después de la EAC con demencia progresiva por isquemia de la sustancia blanca",
+          "D": "2-4 semanas post-EAC con crisis hipertensiva sistémica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome de hiperperfusión cerebral (SHC) ocurre en el 1-3% de los pacientes con EAC, presentándose 2-7 días después de la operación. Características clínicas: cefalea ipsilateral (frecuentemente grave, «tipo migraña»), crisis epilépticas (focales o generalizadas) y déficits neurológicos focales ipsilaterales a la EAC. La RM muestra edema en el hemisferio ipsilateral, posiblemente con hemorragia. Mecanismo: deterioro crónico de la autorregulación cerebral en un territorio con hipoperfusión de larga data: cuando la presión de perfusión se restaura de forma repentina, las arteriolas no pueden vasoconstringirse adecuadamente, causando hiperperfusión de «irrupción» y edema. Tratamiento: control agresivo de la TA (objetivo <140/90).",
+          "wrong": {
+            "A": "El ictus post-EAC inmediato por trombosis arterial (fallo técnico, reestenosis precoz) ocurre en el período postoperatorio inmediato o temprano y es una complicación diferente al SHC. El ictus trombótico se presenta inmediatamente o en horas con déficits contralaterales por isquemia del territorio carotídeo.",
+            "C": "La demencia progresiva por isquemia de la sustancia blanca meses después de la EAC no es una presentación reconocida del SHC. Los resultados neurológicos a largo plazo después de la EAC son generalmente estables.",
+            "D": "La crisis hipertensiva sistémica a las 2-4 semanas es un fenómeno separado (la hipertensión por denervación de los barorreceptores puede ocurrir de forma precoz) y no es la presentación clásica del SHC."
+          },
+          "guideline": "EANS Carotid Surgery Guidelines 2020 — SHC: 2-7 días post-EAC, cefalea ipsilateral + crisis, control estricto de TA; AHA/ASA Carotid Guidelines 2021",
+          "trial": "van Mook WN et al. Lancet Neurol 2005: Definición e incidencia del SHC — 1-3% tras EAC; inicio 2-7 días; cefalea ipsilateral 80%, crisis 40%, HIC 15%; control de TA crítico para la prevención",
+          "pearl": "SHC post-EAC: 2-7 días, cefalea ipsilateral + crisis (fallo de autorregulación en territorio reperfundido). Prevenir: procedimientos en etapas, monitorización cuidadosa postoperatoria de la TA. Tratar: control agresivo de la TA (<140/90). Evitar: anticoagulantes y escalada antiagregante (empeoran la hemorragia si hay HIC)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q10",
+        "stem": "¿Por qué está contraindicada la dexametasona para el edema cerebral en el ictus isquémico?",
+        "options": {
+          "A": "La dexametasona aumenta la permeabilidad de la barrera hematoencefálica en la isquemia",
+          "B": "El edema cerebral en el ictus isquémico es citotóxico (hinchazón celular), no vasogénico: la dexametasona solo es eficaz para el edema vasogénico",
+          "C": "La dexametasona empeora la isquemia al causar vasoconstricción cerebral",
+          "D": "La dexametasona actúa demasiado lentamente para ser útil en el ictus agudo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El edema cerebral en el ictus isquémico es fundamentalmente edema citotóxico: las células muertas y moribundas se hinchan por el fallo de la bomba sodio-potasio dependiente de ATP, causando acumulación intracelular de agua. Esto no implica alteración de la barrera hematoencefálica. La dexametasona reduce el edema VASOGÉNICO (causado por la alteración de la BHE, como se observa en los tumores cerebrales, abscesos y meningitis bacteriana grave), pero no tiene efecto sobre la hinchazón citotóxica por muerte celular. Múltiples ECA (grupo MAST-E, 1999) han confirmado que la dexametasona es ineficaz para el edema del ictus isquémico y aumenta las tasas de infección.",
+          "wrong": {
+            "A": "La dexametasona no aumenta la permeabilidad de la BHE en la isquemia: de hecho, reduce el edema vasogénico donde la BHE está alterada. El punto clave es que el edema isquémico es citotóxico, no vasogénico.",
+            "C": "La dexametasona causa una leve vasoconstricción periférica sistémica e hiperglucemia, pero no provoca vasoconstricción cerebral significativa. Su ineficacia en el ictus isquémico se debe a la distinción citotóxico vs vasogénico.",
+            "D": "La velocidad de acción no es la razón por la que la dexametasona está contraindicada. Incluso si se administrara de forma aguda, no funcionaría porque se dirige al mecanismo de edema equivocado (vasogénico, no citotóxico)."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Corticoides: no indicados para el edema cerebral tras ictus isquémico; AHA/ASA Stroke 2019 — Recomendación de grado III en contra de la dexametasona en el edema del ictus isquémico",
+          "trial": "Grupo MAST-E (NEJM 1999): Dexametasona en el ictus isquémico — sin beneficio en mortalidad ni resultados; mayor hiperglucemia e infecciones; estableció la contraindicación de los corticoides en el edema del ictus isquémico",
+          "pearl": "Regla de los corticoides en el edema: Dexametasona = EFICAZ para edema vasogénico (tumor, absceso) = NO eficaz para edema citotóxico (ictus isquémico). Ictus isquémico = edema citotóxico = corticoide contraindicado. Pregunta clásica de examen que diferencia los tipos de edema y su tratamiento."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q11",
+        "stem": "¿Cuál es el momento óptimo para la craneoplastia tras la hemicraniectomía descompresiva?",
+        "options": {
+          "A": "2-4 semanas post-HCD para prevenir el síndrome paradójico del trepanado",
+          "B": "6-12 semanas post-HCD, equilibrando el riesgo de infección (precoz) con el síndrome del trepanado (tardío)",
+          "C": "6-12 meses para asegurar la recuperación neurológica completa antes de una cirugía adicional",
+          "D": "No se realiza craneoplastia tras la HCD por ictus maligno: se mantiene la craniectomía permanente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El momento óptimo para la craneoplastia tras la HCD es de 6-12 semanas. La craneoplastia más temprana (<4-6 semanas) se asocia a tasas más altas de infección del sitio quirúrgico, dehiscencia de la herida y complicaciones porque el cuero cabelludo y el encéfalo siguen inflamados. La craneoplastia más tardía (>12-16 semanas) conlleva el riesgo del síndrome paradójico del trepanado (los cambios de presión atmosférica sobre la corteza desprotegida causan síntomas similares a los isquémicos, deterioro cognitivo y cefaleas que empeoran). La ventana de 6-12 semanas permite la cicatrización de la herida a la vez que previene el síndrome del trepanado prolongado.",
+          "wrong": {
+            "A": "2-4 semanas es demasiado pronto: altas tasas de infección. La incisión del cuero cabelludo y el encéfalo subyacente siguen en la fase inflamatoria aguda/subaguda. La infección que requiera la retirada del implante empeoraría los resultados.",
+            "C": "Esperar 6-12 meses es demasiado tarde en la mayoría de los casos. Para los 3 meses, el síndrome paradójico del trepanado puede estar causando una morbilidad significativa. Además, la craneoplastia más temprana se ha asociado a una mejor recuperación neurológica en algunas series (el cráneo reconstruido proporciona una distribución mejorada de la presión de perfusión cerebral).",
+            "D": "La craniectomía permanente sin craneoplastia no es el enfoque estándar. La craneoplastia es esencial para: protección del encéfalo frente a traumatismos, reversión del síndrome del trepanado, cosmética y restauración de la dinámica del LCR."
+          },
+          "guideline": "EANS Skull Base and Cranioplasty Guidelines 2021 — Momento óptimo 6-12 semanas post-HCD; hueso autólogo preferido; implante sintético para hueso de mala calidad",
+          "trial": "Xu H et al. Clin Neurol Neurosurg 2015: Metaanálisis del momento de la craneoplastia — precoz (<3 meses) vs tardío (>3 meses): precoz asociado con mejores resultados neurológicos; sin diferencia en infección a las 6-12 semanas vs 3-6 meses; Beaumont A et al. J Trauma 2001: Inicio del síndrome paradójico del trepanado típicamente a las 6-8 semanas sin craneoplastia",
+          "pearl": "Momento de la craneoplastia: 6-12 semanas (demasiado pronto = infección; demasiado tarde = síndrome del trepanado). Síndrome del trepanado: colgajo hundido + síntomas de presión atmosférica (cefalea, mareo, deterioro cognitivo, mejor en decúbito). Hueso criopreservado autólogo es el estándar de oro."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q12",
+        "stem": "Una mujer de 47 años con infarto maligno del territorio de la ACM derecha (DWI 170 cm³, NIHSS 22, desplazamiento de la línea media de 8 mm a las 36 horas) es sometida a hemicraniectomía descompresiva. La cirugía se realizó 40 horas después del inicio del ictus. ¿Cuál es el resultado MÁS probable a los 12 meses?",
+        "options": {
+          "A": "Recuperación funcional completa (mRS 0-1)",
+          "B": "mRS 3-4 (discapacidad moderada, dependiente para algunas actividades diarias)",
+          "C": "Muerte dentro de los 12 meses",
+          "D": "Estado vegetativo completo (mRS 5)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Basándose en el metaanálisis DESTINY/HAMLET/DECIMAL para pacientes ≤55 años con HCD dentro de las 48 horas: la mortalidad a los 12 meses es del 22%; el mRS ≤3 (discapacidad moderada o mejor) se alcanza en el 43%; la mayoría de los supervivientes se sitúan en el rango de mRS 3-4. Para una mujer de 47 años (edad favorable), mRS 3-4 a los 12 meses es el resultado más probable. La recuperación funcional completa (mRS 0-1) es muy poco frecuente tras un infarto maligno de la ACM, incluso con una HCD exitosa. La muerte es posible (22% de mortalidad) pero menos probable que la discapacidad.",
+          "wrong": {
+            "A": "La recuperación funcional completa (mRS 0-1) solo ocurre en aproximadamente el 5-10% de los supervivientes de HCD. El gran infarto cortical deja déficits neurológicos permanentes incluso en los supervivientes.",
+            "C": "La muerte dentro de los 12 meses ocurre en aproximadamente el 22% tras la HCD en pacientes ≤55 años (frente al 71% sin HCD). La muerte es posible pero no el resultado más probable para esta mujer de 47 años que recibió una HCD oportuna.",
+            "D": "mRS 5 (completamente vegetativo, totalmente dependiente, sin comunicación) es relativamente poco frecuente tras la HCD en una mujer de 47 años. La mayoría de los supervivientes mantienen alguna función y capacidad de comunicación incluso con discapacidad significativa."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Asesoramiento sobre resultados de HCD: el 43% alcanza mRS ≤3 en el análisis de los ensayos de pacientes ≤55 años",
+          "trial": "Vahedi K et al. Lancet Neurol 2007: Resultados a 12 meses tras HCD en pacientes ≤55 años — 43% mRS ≤3, 22% mortalidad; mRS 4-5: 35%; recuperación completa (mRS 0-1) poco frecuente (3-5%)",
+          "pearl": "Resultados de HCD ≤55 años (ensayos combinados): mRS 0-1 ~5%, mRS 2 ~10%, mRS 3 ~28%, mRS 4 ~35%, mRS 5 ~0%, muerte ~22%. La mayoría de los supervivientes = discapacidad moderada-grave (mRS 3-4). Crítico para el asesoramiento preoperatorio: la supervivencia es probable pero la discapacidad grave es más frecuente que la independencia funcional."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q13",
+        "stem": "El ensayo BASICS (Langezaal et al. NEJM 2021) evaluó la trombectomía para la oclusión de la arteria basilar. ¿Cuál fue su hallazgo principal?",
+        "options": {
+          "A": "La trombectomía para la OAB mejoró significativamente los resultados funcionales en comparación con el tPA IV solo (mRS 0-3 a los 90 días: 44% vs 26%)",
+          "B": "Sin diferencias significativas en el resultado funcional a los 90 días entre trombectomía y tPA IV solo (44,2% vs 37,7%, p=0,10), pero tendencia al beneficio en déficit grave",
+          "C": "La trombectomía fue significativamente inferior al tPA IV para la oclusión de la arteria basilar",
+          "D": "La oclusión de la arteria basilar no tiene tratamiento: el manejo médico y el tPA mostraron el 80% de mortalidad independientemente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo BASICS (Langezaal et al. NEJM 2021) aleatorizó a 300 pacientes con oclusión de la arteria basilar a alteplasa IV + TME frente a alteplasa IV sola. El criterio de valoración principal (mRS 0-3 a los 90 días) no fue significativamente diferente: 44,2% TME vs 37,7% tPA solo (OR ajustado 1,18; IC 95% 0,92-1,50; p=0,10). Sin embargo, hubo una tendencia al beneficio en los pacientes con déficits más graves (NIHSS ≥10). Este ensayo fue controvertido: tuvo poca potencia estadística y el brazo médico tuvo mejores resultados de los esperados. La práctica varía: la mayoría de los centros continúan realizando TME para la OAB dado el equilibrio clínico y la mala historia natural.",
+          "wrong": {
+            "A": "BASICS NO demostró una mejora significativa con la TME para la OAB. La diferencia del 44% vs 38% no alcanzó significación estadística (p=0,10).",
+            "C": "La TME no fue significativamente inferior: el resultado fue no significativo con una tendencia (no significativa) a favor de la TME en los casos graves.",
+            "D": "Ambos brazos de tratamiento tuvieron tasas significativas de recuperación funcional (37-44% mRS 0-3). La historia natural de la OAB sin tratamiento se aproxima al 80-90% de mortalidad: el ensayo mostró que ambos tratamientos mejoran sustancialmente los resultados respecto a este punto de partida."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines actualizado 2022 — OAB: TME razonable dado el equilibrio clínico (no inferioridad no demostrada en BASICS); resultados de BASICS no concluyentes; la mayoría de los centros continúan la TME para OAB",
+          "trial": "Langezaal LCM et al. NEJM 2021 (BASICS): 300 pacientes con OAB — alteplasa IV + TME vs alteplasa sola; mRS 0-3: 44,2% TME vs 37,7% alteplasa (OR 1,18, p=0,10); no significativo; controversia en curso sobre TME para OAB",
+          "pearl": "Ensayo BASICS: TME para OAB = beneficio no significativo vs alteplasa sola (44% vs 38%, p=0,10). La práctica continúa variando. Historia natural de OAB no tratada = 80-90% de mortalidad. La TME para OAB sigue siendo una práctica habitual basada en el equilibrio clínico y la tendencia al beneficio en BASICS en los casos graves."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q14",
+        "stem": "Tras una hemicraniectomía descompresiva por infarto maligno de la ACM, un paciente desarrolla un deterioro paradójico. ¿A qué se refiere el «síndrome del trepanado»?",
+        "options": {
+          "A": "Herniación del encéfalo a través del defecto de la craniectomía que causa compresión cortical directa",
+          "B": "Deterioro neurológico por los cambios de presión atmosférica sobre el encéfalo desprotegido a través del defecto de la craniectomía",
+          "C": "Epilepsia postoperatoria por el borde de la craniectomía",
+          "D": "Infección de la herida de la craniectomía que causa meningitis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome paradójico del trepanado (o «síndrome del colgajo hundido») ocurre semanas a meses después de la craniectomía cuando el colgajo del cuero cabelludo se hunde hacia dentro, exponiendo la corteza subyacente a las fluctuaciones de la presión atmosférica. Los síntomas incluyen: cefalea, mareo, deterioro cognitivo, alteración de la movilidad y la fuerza (empeoramiento de los déficits post-ictus) y síntomas que varían con la posición corporal (peor sentado/de pie, mejor en decúbito, porque la posición vertical aumenta el diferencial de presión). Ocurre cuando se retrasa la craneoplastia. Tratamiento: la craneoplastia resuelve típicamente los síntomas de forma dramática en días a semanas tras la sustitución del hueso.",
+          "wrong": {
+            "A": "La herniación del encéfalo a través del defecto de la craniectomía es una complicación quirúrgica de la HCD (herniación en los bordes), pero no es el «síndrome paradójico del trepanado». La herniación a través del defecto es una urgencia quirúrgica aguda; el síndrome del trepanado es un fenómeno subagudo/crónico derivado de los cambios de presión.",
+            "C": "La epilepsia post-craniectomía es una complicación diferente. Las crisis no varían con la posición corporal y no se denominan específicamente «síndrome del trepanado».",
+            "D": "La infección de la herida de craniectomía que causa meningitis es una complicación grave de naturaleza séptica, diferente del síndrome mecánico de presión del trepanado."
+          },
+          "guideline": "EANS Guidelines — Síndrome del trepanado: indicación de craneoplastia; resolución de síntomas típicamente en 2-4 semanas tras la sustitución del hueso",
+          "trial": "Stiver SI et al. Neurosurg Focus 2009: Síndrome paradójico del trepanado: fisiopatología, características clínicas y reversión con craneoplastia; craneoplastia recomendada en 6-12 semanas para prevenir este síndrome",
+          "pearl": "Síndrome del trepanado: semanas-meses tras craniectomía + colgajo hundido del cuero cabelludo + deterioro neurológico dependiente de la posición = compresión por presión atmosférica. Tratar con craneoplastia: los síntomas se revierten drásticamente en días-semanas tras la sustitución del hueso. Prevención: craneoplastia a las 6-12 semanas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q15",
+        "stem": "¿Cuál es la prioridad de manejo cuando se identifica a un paciente con un gran infarto hemisférico izquierdo y una pupila dilatada arreactiva unilateral (compresión del III par craneal izquierdo) 4 horas después del ictus?",
+        "options": {
+          "A": "tPA IV para reabrir la arteria ocluida: la herniación aún no es una preocupación",
+          "B": "Manitol inmediato 1 g/kg IV + intubación + evaluación neuroquirúrgica urgente para HCD",
+          "C": "Aspiración del núcleo del infarto guiada por TC",
+          "D": "Punción lumbar para reducir la PIC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una pupila dilatada arreactiva indica herniación transtentorial avanzada por herniación uncal que comprime el III par craneal: esta es una urgencia neuroquirúrgica. Manejo inmediato: (1) manitol 1 g/kg IV en 20 minutos (reducción de urgencia de la PIC), (2) intubación + hiperventilación leve (PaCO₂ 35-40 mmHg) como puente, (3) evaluación urgente para HCD. La ventana para una intervención significativa es extremadamente estrecha una vez establecida la herniación: la cirugía debe realizarse en minutos a horas. Sin embargo, los resultados tras la HCD con pupila dilatada arreactiva preoperatoria son significativamente peores que la HCD realizada antes de la herniación: por eso es crítica la identificación y la intervención tempranas antes de la midriasis.",
+          "wrong": {
+            "A": "El tPA está contraindicado en el infarto grande establecido con herniación: conlleva riesgo de transformación hemorrágica y no aborda la herniación. El paciente necesita cirugía descompresiva, no trombólisis.",
+            "C": "La aspiración guiada por TC del núcleo del infarto no es un procedimiento establecido para el manejo del ictus isquémico. El propio infarto no puede «aspirarse»: está hinchado pero no es una colección de líquido discreta.",
+            "D": "La punción lumbar en un paciente con PIC elevada y herniación está absolutamente contraindicada: causaría herniación catastrófica al eliminar el amortiguador de presión del LCR espinal."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Pupila dilatada arreactiva en infarto de la ACM = herniación; osmoterapia de urgencia + evaluación de HCD; el momento es crítico; la herniación previa a la cirugía empeora el resultado de la HCD",
+          "trial": "Woitzik J et al. J Neurosurg 2006: Resultados de HCD con estado pupilar preoperatorio — pupila dilatada arreactiva antes de la HCD asociada con mortalidad 47% vs 9% cuando las pupilas son reactivas (p<0,001); HCD preherniación esencial para el resultado óptimo",
+          "pearl": "Pupila dilatada arreactiva en infarto de la ACM = herniación transtentorial = urgencia neuroquirúrgica. INMEDIATO: manitol 1 g/kg + intubación + HCD. Mortalidad pre-herniación ~9%; post-herniación ~47%. La pupila dilatada arreactiva = actuar AHORA, no después de más pruebas de imagen."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q16",
+        "stem": "Con respecto a la administración de manitol para la PIC elevada en el infarto maligno de la ACM, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+        "options": {
+          "A": "El manitol reduce la PIC de forma permanente mediante la absorción del hematoma",
+          "B": "El manitol debe administrarse en perfusión continua a 0,25-0,5 g/kg/hora",
+          "C": "El manitol reduce la PIC por efecto osmótico, con efecto máximo a los 20-30 minutos durante 4-6 horas; las dosis repetidas requieren monitorización de la osmolalidad sérica (máximo 320 mOsm/kg)",
+          "D": "El manitol está contraindicado en el ictus porque empeora la isquemia cerebral"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El manitol (0,25-0,5 g/kg IV en 20 minutos) reduce la PIC creando un gradiente osmótico que extrae agua del parénquima cerebral hacia el torrente sanguíneo. El efecto máximo se produce a los 20-30 minutos y dura 4-6 horas. Para la dosificación repetida, debe monitorizarse la osmolalidad sérica: el manitol está contraindicado cuando la osmolalidad supera los 320 mOsm/kg (riesgo de necrosis tubular renal aguda y alteración paradójica de la BHE, que puede empeorar el edema por ósmosis inversa). El manitol es un puente al tratamiento definitivo (HCD) y no es un sustituto de él.",
+          "wrong": {
+            "A": "El manitol no reduce la PIC de forma permanente. Su efecto es temporal (4-6 horas) y puede producirse una elevación de rebote de la PIC. No tiene efecto sobre la absorción del hematoma.",
+            "B": "El manitol se administra en dosis en bolo (0,25-0,5 g/kg en 20 minutos) cada 4-6 horas según sea necesario, NO en perfusión continua. La perfusión continua causaría acumulación de osmolalidad sin beneficio terapéutico.",
+            "D": "El manitol no está contraindicado en el ictus isquémico y se usa ampliamente como medida puente para la elevación de la PIC. La contraindicación es la hiperosmolalidad (>320 mOsm/kg) y la hipovolemia/hipotensión graves."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Osmoterapia: manitol 0,25-0,5 g/kg IV en bolo, máximo 320 mOsm/kg; suero salino hipertónico como alternativa; ambos son puentes a la HCD",
+          "trial": "Qizilbash N et al. Cochrane Review 2002: Manitol para ictus isquémico — sin evidencia de beneficio vs daño solo; utilizado como puente con buen perfil de seguridad cuando se monitoriza la osmolalidad; Koenig MA et al. Neurocrit Care 2008: Análisis comparativo de osmoterapia — manitol vs SSH: reducción equivalente de PIC, SSH preferido si hipovolemia",
+          "pearl": "Manitol para PIC: 0,25-0,5 g/kg IV en bolo en 20 min. Pico de efecto: 20-30 min. Duración: 4-6 h. Monitorizar osmolalidad sérica: suspender si >320 mOsm/kg (toxicidad renal + efecto paradójico). Puente a HCD, no sustituto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q17",
+        "stem": "¿Qué puntuación ASPECTS (Alberta Stroke Program Early CT Score) corresponde a cambios isquémicos precoces generalizados en más del 50% del territorio de la ACM, indicando alto riesgo de infarto maligno?",
+        "options": {
+          "A": "ASPECTS 9-10 (normal o cambios mínimos)",
+          "B": "ASPECTS 7-8 (cambios leves)",
+          "C": "ASPECTS ≤5 (cambios graves y generalizados)",
+          "D": "ASPECTS 0 (afectación completa del territorio de la ACM)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El sistema de puntuación ASPECTS divide el territorio de la ACM en 10 regiones (1 punto cada una, comenzando desde 10 para lo normal). Cada región con cambios isquémicos precoces pierde 1 punto. ASPECTS ≤5 corresponde a cambios isquémicos precoces generalizados en ≥5 de las 10 regiones de la ACM, indicando infarto de >50% del territorio de la ACM. Este umbral: (1) predice un alto riesgo de infarto maligno, (2) se asocia a malos resultados de la TME (la mayoría de los ensayos y guías sugieren un beneficio limitado de la TME cuando ASPECTS ≤5), y (3) desencadena la consideración de la planificación de HCD. Un ASPECTS ≤5 en la presentación se asocia con un riesgo >80% de curso maligno.",
+          "wrong": {
+            "A": "ASPECTS 9-10 representa una TC casi normal con cambios isquémicos precoces mínimos: bajo riesgo de infarto maligno. Estos pacientes tienen los mejores resultados con la TME.",
+            "B": "ASPECTS 7-8 representa cambios leve-moderados: riesgo intermedio. El beneficio de la TME está bien establecido en este rango.",
+            "D": "ASPECTS 0 significaría las 10 regiones afectadas (territorio completo de la ACM): máximamente grave. Aunque teóricamente posible, los pacientes con este hallazgo en TC ya suelen estar en coma. ASPECTS ≤5 es el umbral clínico utilizado en la práctica."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines 2019 — ASPECTS ≤5 predice mal resultado de TME; ASPECTS 0-3: TME generalmente fútil; ASPECTS ≤5 desencadena el asesoramiento sobre riesgo de infarto maligno",
+          "trial": "Barber PA et al. Lancet 2000: Desarrollo y validación de ASPECTS — cada disminución de 1 punto en ASPECTS → 20% de aumento del riesgo de curso maligno; ASPECTS ≤5 identifica a los pacientes con mayor riesgo; metaanálisis HERMES (Goyal et al. Lancet 2016): beneficio decreciente de TME a menores ASPECTS",
+          "pearl": "ASPECTS ≤5 = >50% del territorio de la ACM afectado = alto riesgo de infarto maligno = considerar la planificación de HCD + beneficio limitado de TME. ASPECTS 0-3: TME probablemente fútil (sin penumbra que salvar). ASPECTS 6-10: beneficio de TME establecido. El umbral de ASPECTS para TME varía según el centro/guía (rango de 6-8 más utilizado)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q18",
+        "stem": "Una mujer de 38 años se presenta 24 horas después de un ictus isquémico del hemisferio izquierdo con empeoramiento progresivo de la hemiplegia derecha y somnolencia. La TC repetida muestra un desplazamiento progresivo de la línea media a 12 mm con signos precoces de herniación transtentorial. Está bajo tratamiento médico óptimo. Su marido estuvo presente cuando ella le dijo a su neurólogo: «Si tengo un ictus importante, no quiero cirugía para mantenerme viva como un vegetal». Está ahora sin respuesta. ¿Cómo debería influir esta conversación documentada en la decisión?",
+        "options": {
+          "A": "No tiene fuerza legal: las declaraciones verbales no son directivas anticipadas",
+          "B": "Es una forma sólida de directiva anticipada que debe informar significativamente la decisión, aunque no sea absolutamente vinculante",
+          "C": "Dado que está sin respuesta, la HCD puede realizarse sin considerar su declaración previa",
+          "D": "Los deseos del marido prevalecen sobre su declaración previa al ser el familiar más próximo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una declaración verbal presenciada realizada a un médico representa una forma sólida de directiva anticipada, aunque no esté formalmente escrita. Debe informar significativamente el proceso de toma de decisiones por representación. En la mayoría de los ordenamientos jurídicos, una preferencia expresada previamente por un paciente competente tiene un peso moral y frecuentemente legal sustancial. El neurocirujano debe: (1) documentar la declaración previa, (2) presentar los resultados de la HCD (probablemente mRS 3-4, discapacidad grave que quería evitar), (3) facilitar una reunión familiar con consulta de ética si es necesario, y (4) apoyar al marido para tomar una decisión coherente con los valores de su esposa. El marido como familiar más próximo toma las decisiones en su nombre, pero debe ser orientado para respetar las preferencias expresadas previamente de su esposa, no las suyas propias.",
+          "wrong": {
+            "A": "Las declaraciones verbales realizadas a médicos, especialmente cuando son presenciadas, tienen un significado legal y ético en la mayoría de los ordenamientos. Representan las preferencias conocidas del paciente incluso sin una directiva anticipada escrita formal.",
+            "C": "La ausencia de respuesta no borra las preferencias expresadas previamente. Las declaraciones previas competentes del paciente sobre no querer cirugía para discapacidad grave representan su elección autónoma y deben ser seriamente consideradas.",
+            "D": "El marido como representante debe tomar decisiones basadas en lo que el paciente habría querido (estándar de juicio sustituto), no en sus propias preferencias. Su papel es representar los valores de ella, no imponer los suyos."
+          },
+          "guideline": "EANS/ESO Ethical Guidelines for Stroke Surgery — Directivas anticipadas y juicio sustituto; toma de decisiones por representación; consulta de ética para casos complejos",
+          "trial": "Honeybul S et al. Neurocrit Care 2013: Calidad de vida tras HCD — el 28% de los supervivientes declaran retrospectivamente que no querrían la cirugía de nuevo; la evaluación preoperatoria de las preferencias del paciente es esencial; documenta la importancia de la planificación anticipada de cuidados en los pacientes neuroquirúrgicos",
+          "pearl": "Directivas anticipadas en HCD: las declaraciones verbales previas competentes a médicos son éticamente vinculantes (incluso sin documento escrito formal). El representante debe usar el juicio sustituto (¿qué habría querido el paciente?). Consulta de ética para desacuerdos familiares. HCD = decisión irreversible con alta tasa de discapacidad: la planificación anticipada antes de los eventos agudos es crítica."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q19",
+        "stem": "En ausencia de evidencia de hemicraniectomía descompresiva bilateral, ¿qué territorio de infarto vascular requiere con mayor frecuencia una craniectomía suboccipital para la descompresión de la fosa posterior?",
+        "options": {
+          "A": "Infarto del territorio de la arteria cerebral anterior (ACA)",
+          "B": "Infarto del territorio de la arteria cerebelosa posteroinferior (ACPI)",
+          "C": "Infarto de arteria perforante (lacunar)",
+          "D": "Infarto de rama M2 de la arteria cerebral media (ACM)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El infarto del territorio de la ACPI es la indicación más frecuente para la descompresión de la fosa posterior (craniectomía suboccipital). La ACPI irriga el cerebelo posterior e inferior, y los grandes infartos del territorio de la ACPI causan inflamación que comprime el tronco del encéfalo y obstruye el cuarto ventrículo, causando hidrocefalia obstructiva y potencialmente una compresión mortal del tronco del encéfalo. El cerebelo infartado edematoso puede ser rápidamente mortal, con deterioro de forma retardada (24-96 horas tras el inicio del ictus). Los infartos de los territorios de la AICA y ACS también pueden causar inflamación de la fosa posterior, pero los infartos del territorio de la ACPI son los más significativos clínicamente.",
+          "wrong": {
+            "A": "El infarto del territorio de la ACA causa déficits predominantes en los miembros inferiores y raramente produce efecto de masa potencialmente mortal que requiera cirugía. El territorio de la ACA es medial y parasagital: la inflamación comprime el hemisferio contralateral pero raramente causa herniación transtentorial que requiera HCD.",
+            "C": "Los infartos lacunares son pequeños (típicamente <1,5 cm) y afectan a una única arteria perforante: nunca causan efecto de masa significativo que requiera descompresión quirúrgica.",
+            "D": "Los infartos de rama M2 de la ACM se limitan a una subdivisión del territorio cortical y típicamente no causan inflamación maligna: el síndrome maligno de la ACM afecta al territorio completo de M1 (M1 = tronco principal de la ACM)."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Infarto de fosa posterior: craniectomía suboccipital para infarto del territorio de ACPI con signos de inflamación/herniación; EANS Cerebrovascular 2021",
+          "trial": "Koh MG et al. Neurocrit Care 2011: Resultados del infarto del territorio de la ACPI — pacientes con inflamación grande tratados con craniectomía suboccipital: mortalidad 20% vs 80% conservador; infarto de fosa posterior más frecuente que requiere cirugía",
+          "pearl": "Indicaciones de descompresión de fosa posterior: infarto cerebeloso del territorio de la ACPI + compresión del tronco del encéfalo/obliteración del cuarto ventrículo. El deterioro retardado (24-96 horas) es característico. Signos: disminución de la consciencia + náuseas/vómitos + parálisis del VI par craneal. Craniectomía suboccipital urgente + duraplastia ± DVE."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q20",
+        "stem": "¿En qué escenario clínico es más apropiada la hemicraniectomía descompresiva como URGENCIA (dentro de las 6 horas de la decisión clínica)?",
+        "options": {
+          "A": "Paciente con NIHSS 18 y DWI 80 cm³ a las 12 horas, despierto e interactivo",
+          "B": "Paciente con infarto grande establecido de la ACM izquierda, NIHSS 25, DWI 160 cm³ a las 20 horas, ahora deteriorando con disminución de consciencia (GCS 9→7 en 2 horas) y nueva midriasis contralateral",
+          "C": "Paciente con DWI 155 cm³, NIHSS 22, consciente y estable a las 30 horas, rechaza la cirugía",
+          "D": "Paciente anciano (76 años) con DWI 170 cm³, NIHSS 24, consciente y solicitando «que se haga todo»"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un paciente con infarto maligno de la ACM que muestra deterioro activo (disminución del GCS, nueva midriasis contralateral, signo de herniación transtentorial precoz) requiere HCD de urgencia en horas, no días. La midriasis contralateral (a la hemiparesia) o ipsilateral indica la progresión de la herniación subfalcial a transtentorial, que es el punto sin retorno. La cirugía debe realizarse antes de que se desarrollen pupilas bilaterales dilatadas y arreactivas fijas. Este es el escenario para el consentimiento quirúrgico de urgencia y la preparación quirúrgica sin demora.",
+          "wrong": {
+            "A": "NIHSS 18 y DWI 80 cm³: demasiado pequeño para calificar como infarto maligno (el umbral es >145 cm³). Este paciente no está en riesgo de curso maligno y no requiere planificación de HCD.",
+            "C": "Un paciente estable y consciente que rechaza la cirugía a las 30 horas: debe respetarse su autonomía. No está en deterioro agudo. Hay tiempo para continuar la discusión, pero su negativa debe ser respetada.",
+            "D": "Un paciente de 76 años (por encima del rango de edad de los ensayos ≤55 años) que pide «que se haga todo»: la HCD es una opción dado que DESTINY II muestra beneficio en supervivencia, pero requiere un asesoramiento cuidadoso sobre el resultado esperado de mRS 4 en los pacientes ancianos. No es una urgencia: el paciente está consciente y estable."
+          },
+          "guideline": "EANS Cerebrovascular Guidelines 2021 — Deterioro clínico con signos de herniación = indicación de HCD de urgencia; cambio pupilar = operar de inmediato; ESO Stroke 2021",
+          "trial": "Woitzik J et al. J Neurosurg 2006: HCD antes vs después de los cambios pupilares — mortalidad 9% pre-herniación vs 47% post-herniación; midriasis ipsilateral = última oportunidad para cirugía que salva la vida",
+          "pearl": "Desencadenante de HCD de urgencia: deterioro clínico activo + descenso del GCS + cambio pupilar = herniación = operar AHORA. Cada 30 minutos de retraso con herniación activa = mayor mortalidad y peor resultado funcional. La midriasis es la última advertencia antes de la lesión irreversible del tronco del encéfalo."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

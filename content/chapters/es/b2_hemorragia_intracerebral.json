@@ -1,0 +1,665 @@
+{
+  "id": "B2",
+  "title": "Hemorragia Intracerebral",
+  "subtitle": "Bloque B — HIC Espontánea: Diagnóstico, Umbrales Quirúrgicos y Técnicas Mínimamente Invasivas",
+  "block": "B",
+  "block_name": "Neurocirugía Neurovascular",
+  "level": "R2-3",
+  "reading_time_min": 42,
+  "guidelines_version": "AHA/ASA ICH Guidelines 2022 · EANS Neurovascular Guidelines 2023 · ESO ICH Guidelines 2023",
+  "textbook_refs": [
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)",
+    "Hemphill JC et al. Guidelines for the Management of Spontaneous Intracerebral Haemorrhage. Stroke 2022",
+    "Anderson CS et al. Intensive Blood-Pressure Reduction in Spontaneous Intracerebral Haemorrhage (INTERACT2). NEJM 2013",
+    "Hanley DF et al. Efficacy and Safety of Minimally Invasive Surgery with Thrombolysis in Intracerebral Haemorrhage Evacuation (MISTIE III). Lancet 2019",
+    "Ironside N et al. ENRICH Trial. NEJM 2024"
+  ],
+  "learning_objectives": [
+    "Aplicar la Escala HIC para estratificar la mortalidad a 30 días y orientar las discusiones sobre objetivos del cuidado",
+    "Identificar los predictores de expansión del hematoma (signo del punto, signo de mezcla, signo del agujero negro) e iniciar las estrategias de reversión adecuadas",
+    "Definir los umbrales quirúrgicos para la HIC cerebelosa, lobular y de ganglios basales basándose en los datos de los ensayos STICH I/II y las guías actuales",
+    "Describir la técnica operatoria y la evidencia de la cirugía mínimamente invasiva (MISTIE III, ENRICH, DISTANCE) en comparación con la craneotomía",
+    "Manejar la reversión de anticoagulación en la HIC: 4F-CPP, andexanet alfa, idarucizumab y momento de administración de vitamina K",
+    "Asesorar a pacientes y familias sobre pronóstico, futilidad quirúrgica y el papel de las órdenes de no reanimación en la HIC"
+  ],
+  "sections": [
+    {
+      "id": "B2-S1",
+      "title": "Epidemiología, Fisiopatología y Escala HIC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hemorragia intracerebral (HIC) espontánea representa el 10–15% de todos los ictus, pero conlleva una morbilidad y mortalidad desproporcionadas, con una tasa de mortalidad a 30 días del 35–52% y solo un 20% de supervivientes funcionalmente independientes a los 6 meses. En España, la incidencia se aproxima a 15–20/100.000 al año. Los dos subtipos fisiopatológicos predominantes son la **enfermedad de pequeño vaso hipertensiva** (ganglios basales, tálamo, protuberancia, cerebelo — perforantes profundas con lipohialinosis y microaneurismas de Charcot-Bouchard) y la **angiopatía amiloide cerebral (AAC)** (lobular, recurrente, ancianos, ApoE ε4 positivos, asociada a microhemorragias previas en SWI/GRE). La distinción entre ambas tiene implicaciones directas: la HIC hipertensiva se maneja con control agresivo de la tensión arterial, mientras que la HIC por AAC suele ocurrir con tensiones arteriales más bajas y el riesgo de recurrencia es mayor. La **Escala HIC** (Hemphill, Stroke 2001) asigna puntos según la GCS (1 punto por cada intervalo GCS 13–15, 5–12, 3–4 = 0/1/2), volumen HIC ≥30 cm³ (1 punto), localización infratentorial (1 punto), extensión intraventricular (1 punto) y edad ≥80 años (1 punto), obteniéndose una probabilidad de mortalidad a 30 días del 0% (puntuación 0) al 100% (puntuación 6). El volumen de la HIC se calcula mediante el **método ABC/2**: A (diámetro máximo en el corte axial) × B (diámetro perpendicular) × C (número de cortes × grosor de corte) ÷ 2. Umbral crítico para la toma de decisiones quirúrgicas: HIC lobular >30 cm³ a menos de 1 cm de la superficie cortical en pacientes con deterioro neurológico."
+        },
+        {
+          "type": "table",
+          "title": "Escala HIC — Componentes y Mortalidad a 30 Días",
+          "headers": ["Componente", "Hallazgo", "Puntos", "Mortalidad a 30 Días por Puntuación Total"],
+          "rows": [
+            ["GCS", "13–15", "0", "Puntuación 0: 0%"],
+            ["GCS", "5–12", "1", "Puntuación 1: 13%"],
+            ["GCS", "3–4", "2", "Puntuación 2: 26%"],
+            ["Volumen HIC", "≥30 cm³", "1", "Puntuación 3: 72%"],
+            ["Infratentorial", "Sí", "1", "Puntuación 4: 97%"],
+            ["Extensión intraventricular", "Sí", "1", "Puntuación 5: 100%"],
+            ["Edad", "≥80 años", "1", "Puntuación 6: 100%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — DNR Precoz y Profecía Autocumplida",
+          "content": "Múltiples estudios (Hemphill 2004, Zahuranec 2007) documentan que las órdenes de no reanimación (DNR) precoces tras la HIC predicen de forma independiente un mal resultado independientemente de la gravedad basal. La retirada agresiva del tratamiento en las primeras 24 horas se convierte en una profecía autocumplida. Las guías AHA/ASA 2022 recomiendan no instaurar medidas de confort exclusivas en las primeras 24 horas a menos que exista un documento de voluntades anticipadas claro o una futilidad obvia (pupilas fijas bilaterales, hemorragia masiva de tronco encefálico con ausencia de reflejos del tronco). Es un punto clave en el examen y un error clínico frecuente."
+        }
+      ]
+    },
+    {
+      "id": "B2-S2",
+      "title": "Expansión del Hematoma: Predictores y Cronología",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La expansión del hematoma (EH) — definida como un aumento >33% o >6 mL en la TC de control — ocurre en el 20–40% de los pacientes con HIC en las primeras 24 horas y es el predictor modificable más importante de deterioro neurológico y muerte. La mayor parte de la expansión (73%) ocurre en las primeras 3 horas desde el inicio de los síntomas, y el 96% en las primeras 24 horas. El **signo del punto en angioTC (spot sign)** — extravasación de contraste dentro del hematoma — tiene una sensibilidad del 51% y una especificidad del 85% para predecir la expansión (Demchuk, Lancet Neurol 2012). El **signo de mezcla** (área hipodensa adyacente al hematoma hiperdenso en TC sin contraste) y el **signo del agujero negro** (densidad heterogénea con hipodensidad redondeada u oval rodeada de área hiperdensa) son predictores de expansión en TC sin contraste que no requieren administración de contraste. El **signo satélite** (pequeño hematoma satélite separado adyacente a la HIC principal) predice tanto la expansión como el mal pronóstico funcional a 90 días. La tensión arterial sistólica (TAS) al ingreso no predice directamente la expansión, pero el ensayo ATACH-II demostró que alcanzar TAS <140 mmHg frente a <180 mmHg no redujo la muerte ni la discapacidad. Sin embargo, TAS >160 mmHg se asocia con riesgo de expansión, y un descenso intensivo precoz (objetivo TAS 140–150 mmHg) está recomendado en las guías AHA/ASA 2022 para pacientes que se presentan en las primeras 2 horas con TAS 150–220 mmHg."
+        },
+        {
+          "type": "table",
+          "title": "Predictores de Expansión del Hematoma en TC",
+          "headers": ["Signo", "Definición", "Sensibilidad", "Especificidad", "Uso Clínico"],
+          "rows": [
+            ["Spot Sign (angioTC)", "Acumulación de contraste dentro del hematoma en angioTC", "51%", "85%", "Predice expansión; orienta tratamiento hemostático"],
+            ["Signo de Mezcla", "Densidad mixta (hipo + hiper) en TC sin contraste", "36%", "96%", "Sin necesidad de contraste; alta especificidad"],
+            ["Signo del Agujero Negro", "Hipodensidad redondeada/oval dentro de hiperatenación", "33%", "97%", "Predice expansión >6 mL"],
+            ["Signo Satélite", "Pequeño hematoma separado adyacente a HIC principal", "42%", "91%", "Predice expansión Y mal pronóstico"],
+            ["Signo Isla", "≥3 atenuaciones dispersas separadas de la HIC principal", "28%", "95%", "Asociado a HIC relacionada con anticoagulantes"],
+            ["Densidad Heterogénea", "Varianza de densidad TC >18 UH dentro del hematoma", "45%", "83%", "Predictor simple en TC sin contraste"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Ensayos de Terapia Hemostática",
+          "content": "El ensayo FAST (Mayer, NEJM 2008) evaluó el factor VIIa recombinante (rFVIIa) a 20 u 80 mcg/kg frente a placebo en las primeras 4 horas de HIC. A pesar de la reducción significativa del crecimiento del hematoma (11,1% frente a 26,0% de expansión), la puntuación mRS a 90 días fue idéntica entre los grupos, y las complicaciones tromboembólicas (IAM, TVP, TEP) fueron más frecuentes en el grupo tratado. El rFVIIa NO está recomendado para la HIC espontánea, salvo en el contexto específico del déficit de factor VII. Este ensayo es un ejemplo paradigmático de cómo un criterio de valoración subrogado (volumen del hematoma) no se traduce en beneficio clínico."
+        }
+      ]
+    },
+    {
+      "id": "B2-S3",
+      "title": "Manejo de la Tensión Arterial: INTERACT2 y ATACH-II",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El objetivo óptimo de tensión arterial en la HIC aguda ha sido investigado en dos grandes ensayos aleatorizados. **INTERACT2** (Anderson, NEJM 2013) aleatorizó a 2.839 pacientes con HIC y TAS 150–220 mmHg en las primeras 6 horas a un descenso intensivo de TA (objetivo TAS <140 mmHg en 1 hora) frente al manejo basado en guías (objetivo TAS <180 mmHg). El criterio de valoración principal — muerte o discapacidad mayor (mRS 3–5) a 90 días — no fue significativamente diferente (52,0% frente a 55,6%, OR 0,87, IC 95% 0,75–1,01, P=0,06). Sin embargo, un análisis ordinal preespecificado del mRS mostró un beneficio significativo a favor del tratamiento intensivo (OR 0,87, P=0,04). No se observó exceso de deterioro neurológico ni eventos adversos renales. **ATACH-II** (Qureshi, NEJM 2016) empleó un enfoque más agresivo: 1.000 pacientes aleatorizados a TAS <140 mmHg frente a TAS <180 mmHg, objetivo alcanzado en 2 horas con nicardipino intravenoso. Sin diferencia significativa en muerte o discapacidad (38,7% frente a 37,7%, RR 1,04, P=0,72) y una tendencia no significativa hacia más eventos adversos renales en el grupo intensivo (9,0% frente a 4,0%, P=0,002). El mensaje fundamental: el descenso intensivo de TA (TAS 140–150 mmHg) es **seguro** y puede aportar un beneficio modesto (análisis ordinal de INTERACT2), pero no mejora de forma definitiva los criterios dicotómicos. Las guías AHA/ASA 2022 recomiendan TAS 130–150 mmHg como objetivo razonable en pacientes que se presentan en las primeras 2 horas con TAS 150–220 mmHg. Se prefieren labetalol o nicardipino intravenosos; el nitroprusiato sódico debe evitarse por riesgo de elevación de la PIC."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Diferencias Clave INTERACT2 vs ATACH-II",
+          "content": "INTERACT2 utilizó análisis ordinal del mRS (resultado positivo P=0,04), mientras que ATACH-II empleó mRS dicotomizado (resultado negativo). ATACH-II consiguió descensos de TA más rápidos e intensos que INTERACT2. Consenso actual: objetivo TAS 140–150 mmHg es el punto óptimo — más agresivo (TAS <130 mmHg) puede causar isquemia perilesional sin beneficio adicional."
+        }
+      ]
+    },
+    {
+      "id": "B2-S4",
+      "title": "Reversión de Anticoagulación en la HIC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La HIC relacionada con anticoagulantes orales (HIC-ACO) representa el 15–20% de todas las HIC y se asocia a mayor volumen del hematoma, mayores tasas de expansión y peores resultados en comparación con la HIC espontánea. La reversión rápida es esencial. **Reversión de antagonistas de la vitamina K (AVK)**: el concentrado de complejo protrombínico de 4 factores (CCP-4F: factores II, VII, IX, X más proteínas C y S) es el agente de elección. Dosificación por peso según el INR (INR 2–4: 25 UI/kg; INR 4–6: 35 UI/kg; INR >6: 50 UI/kg; máximo 5.000 UI). Objetivo INR <1,3 de forma inmediata. Vitamina K 10 mg IV (no IM) concurrente para reversión sostenida a lo largo de 6–12 horas. El plasma fresco congelado (PFC) es inferior (sobrecarga de volumen, corrección del INR más lenta) y no debe emplearse como primera línea cuando el CCP está disponible. **Reversión de anticoagulantes orales de acción directa (ACOD)**: para dabigatrán (inhibidor directo de la trombina), **idarucizumab** (Praxbind) 5 g IV (dos dosis de 2,5 g) es el agente de reversión específico — RE-VERSE AD (Pollack, NEJM 2017). Para los inhibidores del factor Xa (rivaroxabán, apixabán, edoxabán), **andexanet alfa** es el agente de reversión específico — estudio ANNEXA-4 (Connolly, NEJM 2019); sin embargo, el coste y la disponibilidad limitan su uso, y el CCP-4F (50 UI/kg) sigue siendo una alternativa aceptable cuando andexanet no está disponible. Para heparina no fraccionada: sulfato de protamina 1 mg por cada 100 unidades de heparina (máximo 50 mg), con reducción de dosis según el tiempo transcurrido desde la última dosis de heparina. Heparina de bajo peso molecular: protamina 1 mg por 1 mg de enoxaparina (reversión parcial ~60%). HIC relacionada con antiagregantes: la transfusión de plaquetas NO está recomendada — el ensayo PATCH (Baharoglu, Lancet 2016) demostró que la transfusión de plaquetas frente al tratamiento estándar en la HIC asociada a antiagregantes tuvo PEORES resultados (OR para muerte o dependencia 2,05, P=0,026)."
+        },
+        {
+          "type": "table",
+          "title": "Reversión de Anticoagulación en la HIC — Agentes y Dosificación",
+          "headers": ["Anticoagulante", "Agente de Reversión", "Dosis", "Evidencia / Ensayo Clave"],
+          "rows": [
+            ["Warfarina/AVK", "CCP-4F + Vitamina K 10 mg IV", "25–50 UI/kg según INR; objetivo INR <1,3", "AHA/ASA 2022 Clase I; ensayo INCH"],
+            ["Warfarina/AVK", "PFC (si CCP no disponible)", "10–15 mL/kg; inferior a CCP", "AHA/ASA 2022 Clase IIb"],
+            ["Dabigatrán", "Idarucizumab (Praxbind)", "5 g IV (2 × 2,5 g)", "RE-VERSE AD (Pollack NEJM 2017)"],
+            ["Rivaroxabán/Apixabán/Edoxabán", "Andexanet alfa", "800 mg IV en bolo + 960 mg en infusión (dosis alta)", "ANNEXA-4 (Connolly NEJM 2019)"],
+            ["Rivaroxabán/Apixabán", "CCP-4F (si andexanet no disponible)", "50 UI/kg; reversión parcial", "Consenso ESO/SFNV 2021"],
+            ["HNF", "Sulfato de protamina", "1 mg por 100 UI de heparina (máx 50 mg)", "AHA/ASA 2022"],
+            ["Antiagregantes plaquetarios", "SIN transfusión de plaquetas", "Solo tratamiento estándar", "PATCH (Baharoglu Lancet 2016) — señal de daño"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Ensayo PATCH: NO Transfundir Plaquetas en HIC por Antiagregantes",
+          "content": "El ensayo PATCH (2016) es un resultado que cambia el paradigma: la transfusión de plaquetas en la HIC asociada a antiagregantes produjo resultados significativamente PEORES (OR 2,05 para muerte o dependencia a los 3 meses). El mecanismo probable es el efecto protrombótico sistémico con trombosis microvascular perilesional. Es una pregunta de alta rentabilidad en el examen y un punto clínico contraintuitivo que se pasa por alto con frecuencia."
+        }
+      ]
+    },
+    {
+      "id": "B2-S5",
+      "title": "Umbrales Quirúrgicos: STICH I y II, HIC Cerebelosa",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La base de evidencia para la cirugía en la HIC espontánea ha evolucionado considerablemente. **STICH I** (Mendelow, Lancet 2005) aleatorizó a 1.033 pacientes con HIC supratentorial >2 cm a cirugía precoz (craneotomía en las primeras 24 horas) frente a manejo conservador inicial. No hubo diferencia significativa en el criterio de valoración principal de resultado desfavorable (muerto o gravemente discapacitado) a los 6 meses (26% frente a 24% de resultado favorable, P=0,21). Un análisis de subgrupos preespecificado identificó una tendencia favorable a la cirugía precoz en los **hematomas lobulares a menos de 1 cm de la superficie cortical** (OR 0,69), lo que sirvió de base para STICH II. **STICH II** (Mendelow, Lancet 2013) se centró en este subgrupo: 601 pacientes con HIC lobular espontánea de 10–100 cm³ sin extensión intraventricular a menos de 1 cm de la corteza aleatorizados a craneotomía precoz (en las primeras 12 horas) frente a cuidado conservador inicial. De nuevo, sin beneficio significativo de la cirugía (41% frente a 38% de resultado favorable a los 6 meses, OR ajustado 0,86, P=0,367). Sin embargo, se observó un **beneficio absoluto en supervivencia del 8%** a los 6 meses en el grupo quirúrgico (mortalidad del 15% frente al 18% con el mejor tratamiento médico), lo que sugiere un posible valor en pacientes con riesgo de muerte. La conclusión fundamental: la **craneotomía rutinaria para la HIC espontánea supratentorial no mejora los resultados** frente al mejor tratamiento médico en una población amplia. Sin embargo, la cirugía está indicada en: (1) HIC cerebelosa ≥3 cm que causa compresión del tronco encefálico o hidrocefalia; (2) HIC lobular que provoca deterioro neurológico en una localización quirúrgicamente accesible; (3) hematoma que causa herniación inminente. La **HIC cerebelosa** es la indicación quirúrgica más clara: el hematoma ≥3 cm (o menor si produce hidrocefalia obstructiva o deterioro clínico) requiere craniectomía suboccipital, evacuación del hematoma y drenaje ventricular externo (DVE). El DVE aislado sin descompresión de la fosa posterior es inadecuado y potencialmente peligroso (herniación cerebelosa ascendente a través de la incisura tentorial). El deterioro clínico hasta GCS ≤13, incapacidad para caminar o signos de tronco encefálico con cualquier volumen también justifican la cirugía."
+        },
+        {
+          "type": "table",
+          "title": "Indicaciones Quirúrgicas en la HIC Espontánea según Localización",
+          "headers": ["Localización", "Umbral para Cirugía", "Procedimiento de Elección", "Nivel de Evidencia"],
+          "rows": [
+            ["Cerebelosa", "≥3 cm O compresión del tronco O hidrocefalia", "Craniectomía suboccipital + DVE", "AHA/ASA 2022 Clase I"],
+            ["Cerebelosa <3 cm, deterioro", "Cualquier volumen con deterioro clínico", "Craniectomía suboccipital + DVE", "AHA/ASA 2022 Clase I"],
+            ["Lobular (cortical <1 cm)", "Deterioro pese a Tto médico; volumen 20–80 cm³", "Craneotomía o CIM-HIC", "STICH II; Clase IIb"],
+            ["Putaminal/Ganglios Basales", "Generalmente NO quirúrgico; considerar CIM si accesible", "Aspiración estereotáctica ± trombólisis", "Clase IIb (datos limitados)"],
+            ["Talámico", "Generalmente NO quirúrgico (profundo, elocuente)", "Manejo médico; DVE si HIV/hidrocefalia", "Clase III (daño)"],
+            ["Tronco encefálico (protuberancia)", "NO quirúrgico salvo exofítico dorsal específico", "Manejo médico", "Clase III"],
+            ["Cualquier localización con HIV/Hidrocefalia", "Colocación de DVE", "Drenaje ventricular externo", "Clase I"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Conclusiones de STICH para el Examen",
+          "content": "Tanto STICH I como STICH II fueron ensayos NEGATIVOS: la craneotomía precoz NO mejora los resultados frente al manejo conservador inicial en la HIC espontánea supratentorial. La excepción — HIC cerebelosa ≥3 cm o que causa compresión del tronco — NO deriva de evidencia de ensayos clínicos aleatorizados, sino de datos observacionales y razonamiento fisiopatológico. Un paciente con HIC cerebelosa que deteriora hasta GCS ≤13 requiere descompresión de la fosa posterior, no solo DVE."
+        }
+      ]
+    },
+    {
+      "id": "B2-S6",
+      "title": "Cirugía Mínimamente Invasiva para HIC: MISTIE III y ENRICH",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hipótesis que subyace a la cirugía mínimamente invasiva de HIC (CIM-HIC) es que el propio coágulo del hematoma (no solo el efecto de masa) induce lesión neuronal secundaria a través de trombina, ferritina y activación del complemento, y que la CIM reduce la disrupción tisular en comparación con la craneotomía abierta. **MISTIE III** (Minimally Invasive Surgery Plus Alteplase for Intracerebral Haemorrhage Evacuation, Hanley, Lancet 2019) incluyó a 499 pacientes con HIC supratentorial ≥30 mL aleatorizados a colocación de catéter estereotáctico seguida de instilación intracavitaria repetida de alteplasa (1 mg cada 8 horas hasta 9 dosis, con objetivo de hematoma residual ≤15 mL) frente a manejo médico estándar. El criterio de valoración principal — mRS 0–3 a los 365 días — fue no significativamente mejor en el grupo quirúrgico (45% frente a 41%, OR ajustado 1,18, IC 95% 0,82–1,72, P=0,37). **Sin embargo**, un análisis secundario preespecificado demostró que los pacientes que alcanzaron un volumen final del hematoma ≤15 mL tuvieron resultados significativamente mejores (mRS 0–3: 53% frente a 38%), estableciendo un **objetivo quirúrgico**: evacuación del ≥70% del hematoma para alcanzar un volumen residual ≤15 mL. La hemorragia sintomática ocurrió en el 9% del grupo MISTIE. **ENRICH** (Early Minimally Invasive Removal of Intracerebral Haemorrhage, Ironside, NEJM 2024) evaluó la cirugía parafascicular — un retractor tubular (sistema MIPS, Minovia) que permite acceso transcortical — frente al manejo médico en HIC lobular o de ganglios basales anterior ≥30 mL dentro de las primeras 24 horas desde el inicio. De los 300 pacientes incluidos (ensayo interrumpido precozmente), la cirugía mejoró significativamente el criterio de valoración principal (mRS ponderado por utilidad a 180 días: 0,458 frente a 0,374, P=0,038), lo que representa el **primer ensayo aleatorizado positivo de CIM-HIC**. Cabe destacar que el beneficio se limitó a la HIC lobular (0,517 frente a 0,351, P=0,010) y no se observó en la HIC de ganglios basales. El volumen medio del hematoma fue de 49 mL y la cirugía se realizó con una mediana de 15 horas. El ensayo **DISTANCE** (aspiración estereotáctica + uroquinasa, población china) también mostró beneficio principalmente en pacientes con hematomas de tamaño moderado."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Selección de Pacientes para CIM-HIC",
+          "content": "Tras ENRICH, un abordaje razonable es: HIC lobular ≥30 cm³ con GCS 5–14 (suficientemente consciente para cumplir con la rehabilitación), localización accesible y presentación en las primeras 24 horas puede beneficiarse de evacuación CIM parafascicular. La HIC de ganglios basales sigue siendo controvertida. Los criterios de selección de ENRICH incluían: ausencia de HIC de tronco encefálico, sin coagulopatía, sin causa definitiva que requiera tratamiento específico (p. ej., MAV). Los equipos quirúrgicos sin tecnología de retractor tubular pueden utilizar aspiración estereotáctica ± rtPA intracavitario como abordaje CIM alternativo."
+        }
+      ]
+    },
+    {
+      "id": "B2-S7",
+      "title": "Hemorragia Intraventricular, Ventriculostomía y Situaciones Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La extensión intraventricular de la HIC (HIV) ocurre en el 30–45% de los casos y empeora el pronóstico de forma independiente al volumen del hematoma primario, al causar hidrocefalia obstructiva y lesión ventricular directa por trombina y subproductos del hemo. El **drenaje ventricular externo (DVE)** está indicado en la hidrocefalia con deterioro clínico. Sin embargo, el DVE aislado para la HIV tiene limitaciones importantes: los coágulos son densos y el DVE se obstruye con frecuencia. La **fibrinólisis intraventricular (FIV)** con alteplasa (rtPA) instilada a través del DVE acelera la eliminación del coágulo. **CLEAR III** (Hanley, Lancet 2017) aleatorizó a 500 pacientes con HIV refractaria a DVE a alteplasa intraventricular 1 mg cada 8 horas (máximo 12 dosis) frente a placebo salino. El criterio de valoración principal — mRS ≤3 a los 180 días — no fue significativamente diferente (48% frente a 45%, RR 1,06, P=0,30). Sin embargo, la mortalidad a 30 días fue significativamente menor en el grupo de alteplasa (18% frente a 29%, RR 0,60, P=0,002), lo que demuestra de nuevo el problema de la profecía autocumplida: la retirada de cuidados fue más frecuente en el grupo placebo. La **Escala de Graeb** y la **Escala de LeRoux** son escalas estandarizadas de gravedad de la HIV. El **drenaje lumbar** tras el DVE se ha propuesto para acelerar el drenaje del coágulo. La evacuación endoscópica de HIV mediante endoscopia transcortical guiada por neuronavegación permite la extracción directa del coágulo — el ensayo piloto **INVEST** (Bhatt 2023) demostró su viabilidad. La **derivación ventriculoperitoneal a largo plazo** es necesaria en el 30–40% de los supervivientes de HIC con HIV. Para la **HIV relacionada con coagulopatía**, la corrección del INR y las plaquetas antes de la colocación del DVE es esencial para minimizar el riesgo de hemorragia en el trayecto del catéter. En ocasiones se requieren DVE bilaterales para la hidrocefalia obstructiva bilateral. Manejo del DVE: mantener el DVE a 15–20 cm H₂O sobre el meato auditivo externo; reducir gradualmente en 24–48 horas hasta 25–30 cm antes de la prueba de pinzamiento; derivación si la producción de LCR persiste tras la resolución del coágulo."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — CLEAR III: Discordancia entre Supervivencia y Resultado Funcional",
+          "content": "CLEAR III demostró que la alteplasa intraventricular redujo la mortalidad a 30 días (18% frente a 29%, P=0,002) pero NO mejoró el resultado funcional (mRS ≤3 a los 180 días). Esta aparente paradoja refleja la retirada diferencial del tratamiento: más pacientes del grupo placebo recibieron órdenes de cuidados de confort. Entre los supervivientes, los tratados con alteplasa tenían mayor probabilidad de tener mRS 4–5 (discapacidad grave), lo que implica la supervivencia de pacientes que de otro modo habrían fallecido — una forma de 'prolongar la discapacidad'. Este es un concepto ético y metodológico importante en la investigación de resultados en neurocirugía."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Riesgo de Recidiva y Prevención Secundaria",
+          "content": "El riesgo anual de recidiva de HIC es del 2–3% para la HIC hipertensiva y del 7–9% para la HIC por AAC. El control estricto de la tensión arterial (TAS <130 mmHg) es la única medida con base en la evidencia para reducir la recidiva en la HIC hipertensiva (ensayo PROGRESS). Para la HIC por AAC, la evitación de anticoagulantes y antiagregantes es crítica; las estatinas pueden mantenerse (el ensayo RESTART no mostró exceso de recidiva). La reintroducción de anticoagulación tras HIC-ACO sigue siendo controvertida: los ensayos APACHE-AF, PRESTIGE-AF y SoSTART están en curso o recientemente completados y están cambiando la práctica — en general, se considera el reinicio a las 6–8 semanas tras HIC lobular en pacientes con alto riesgo tromboembólico (FA, válvula mecánica)."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre el manejo de la hemorragia intracerebral con 20 preguntas tipo examen MIR.",
+    "questions": [
+      {
+        "id": "B2-Q1",
+        "stem": "Un varón de 68 años con antecedentes de hipertensión arterial presenta de forma brusca hemiplejia derecha y afasia. La TC craneal muestra una hemorragia putaminal izquierda de 18 mL. La GCS es 12. No hay extensión intraventricular. La tensión arterial es 188/102 mmHg. ¿Cuál es su Escala HIC?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Componentes de la Escala HIC: GCS 12 = 1 punto (GCS 5–12); volumen <30 mL = 0 puntos; infratentorial = No (el putamen es supratentorial) = 0 puntos; HIV = No = 0 puntos; edad <80 = 0 puntos. Total = 1 punto. Mortalidad a 30 días ≈ 13%. La TA no es un componente de la Escala HIC.",
+          "wrong": {
+            "B": "La puntuación 2 requeriría componentes positivos adicionales como HIV, volumen ≥30 mL o edad ≥80, ninguno de los cuales está presente",
+            "C": "La puntuación 3 requeriría aún más componentes positivos; este paciente solo tiene GCS en el rango 5–12",
+            "D": "La puntuación 4 se asocia con el 97% de mortalidad a 30 días — este paciente tiene una presentación moderada, lo que hace la puntuación 4 implausible"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Escala HIC para pronóstico y discusiones sobre objetivos del cuidado",
+          "trial": "Hemphill JC et al. (Stroke 2001): validación de la Escala HIC — Puntuación 1 predice 13% de mortalidad a 30 días, puntuación 2 predice 26%, puntuación 3 predice 72%",
+          "pearl": "La Escala HIC utiliza GCS (0/1/2 puntos), volumen HIC ≥30 mL (1 punto), localización infratentorial (1 punto), HIV (1 punto) y edad ≥80 años (1 punto). El putamen es supratentorial. La tensión arterial NO es un componente."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q2",
+        "stem": "Una mujer de 72 años en tratamiento con warfarina por fibrilación auricular presenta una HIC lobular izquierda de 35 mL. El INR al ingreso es 3,8. Está con GCS 14 y debilidad del brazo derecho. ¿Cuál es la estrategia de reversión inicial MÁS adecuada?",
+        "options": {
+          "A": "Plasma fresco congelado 10–15 mL/kg por vía intravenosa",
+          "B": "CCP-4F 35 UI/kg IV más vitamina K 10 mg IV",
+          "C": "Factor VIIa recombinante 80 mcg/kg IV",
+          "D": "Vitamina K 10 mg IV sola y repetir INR en 6 horas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La reversión de AVK en la HIC requiere la corrección inmediata del INR a <1,3. El CCP-4F (factores II, VII, IX, X más proteínas C y S) es el agente de elección: corrección más rápida del INR, menor volumen, menos efectos adversos en comparación con el PFC. INR 3,8 corresponde al rango 4–6, que requiere 35 UI/kg. La vitamina K 10 mg IV concurrente proporciona una reversión sostenida durante 6–12 horas para evitar el rebote del INR (el efecto del CCP se agota tras 6–8 horas). Esta es una recomendación de Clase I en las guías AHA/ASA 2022.",
+          "wrong": {
+            "A": "El PFC es inferior al CCP-4F: corrección del INR más lenta (requiere 30–60 minutos para descongelar y administrar), gran volumen (riesgo de edema pulmonar, especialmente en ancianos) y corrección incompleta de factores. Solo se usa cuando el CCP no está disponible",
+            "C": "El rFVIIa (factor VIIa recombinante) NO está recomendado para la HIC asociada a AVK. El ensayo FAST demostró que reduce la expansión del hematoma pero NO mejora los resultados clínicos y aumenta las complicaciones tromboembólicas",
+            "D": "La vitamina K sola tiene un inicio de acción de 6–12 horas (oral) o 2–6 horas (IV) — demasiado lenta para la HIC aguda donde la expansión ocurre en las primeras 3 horas. Este abordaje sería negligente"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Clase I: CCP-4F es preferible al PFC para reversión de HIC por AVK; vitamina K 10 mg IV concurrente",
+          "trial": "Ensayo INCH (Frontera, JNNP 2016): 50 pacientes aleatorizados a CCP-4F frente a PFC — CCP alcanzó INR <1,3 a las 3 horas en el 67% frente al 9% (P<0,001) con menor crecimiento del hematoma a 24 horas",
+          "pearl": "HIC por AVK: CCP-4F + vitamina K 10 mg IV es el estándar de oro. Dosificar CCP-4F por INR: INR 2–4 = 25 UI/kg; INR 4–6 = 35 UI/kg; INR >6 = 50 UI/kg. Objetivo INR <1,3."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q3",
+        "stem": "Un varón de 75 años en tratamiento con apixabán 5 mg dos veces al día por FA presenta 2 horas tras el inicio una HIC lobular frontal derecha de 42 mL. La GCS es 13. La última dosis de apixabán fue hace 6 horas. La función renal es normal. Andexanet alfa no está disponible en su institución. ¿Cuál es el agente de reversión más adecuado?",
+        "options": {
+          "A": "Idarucizumab 5 g IV",
+          "B": "CCP-4F 50 UI/kg IV",
+          "C": "Plasma fresco congelado 15 mL/kg IV",
+          "D": "Carbón activado 50 g por vía oral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El apixabán es un inhibidor directo del factor Xa. El agente de reversión específico es andexanet alfa (ensayo ANNEXA-4), pero cuando no está disponible, el CCP-4F a 50 UI/kg es la alternativa recomendada (consenso ESO/SFNV 2021, AHA/ASA 2022). Aunque el CCP-4F proporciona solo una reversión parcial de los inhibidores del factor Xa (repone el sustrato del factor X en lugar de revertir directamente el apixabán), es la mejor opción disponible. La última dosis fue hace 6 horas — el carbón activado solo es eficaz en las primeras 2 horas tras la ingestión.",
+          "wrong": {
+            "A": "Idarucizumab (Praxbind) es el agente de reversión específico para DABIGATRÁN (un inhibidor directo de la trombina), NO para los inhibidores del factor Xa como apixabán, rivaroxabán o edoxabán. Su uso para el apixabán sería ineficaz",
+            "C": "El PFC contiene factores de coagulación pero no tiene actividad de reversión específica contra los inhibidores directos del factor Xa. No reduciría significativamente los niveles anti-Xa. El CCP-4F es preferible al PFC",
+            "D": "El carbón activado se une al fármaco en el intestino y puede reducir la absorción, pero solo es eficaz en la primera hora o dos tras la ingestión. Con la última dosis hace 6 horas y absorción sistémica ya ocurrida, el carbón activado no es útil"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Para HIC por inhibidores del factor Xa: andexanet alfa preferido; CCP-4F 50 UI/kg si andexanet no disponible",
+          "trial": "ANNEXA-4 (Connolly NEJM 2019): andexanet alfa logró eficacia hemostática excelente/buena en el 82% de los pacientes con hemorragia mayor asociada a inhibidores del factor Xa",
+          "pearl": "Reversión específica: dabigatrán → idarucizumab; inhibidores del factor Xa (apixabán/rivaroxabán/edoxabán) → andexanet alfa. Si andexanet no disponible: CCP-4F 50 UI/kg. Carbón activado solo útil <2 horas tras la ingestión."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q4",
+        "stem": "Una mujer de 78 años en tratamiento con ácido acetilsalicílico 100 mg/día para prevención secundaria de ictus es traída por su familia con 2 horas de cefalea brusca y debilidad del brazo izquierdo. La TC muestra una HIC lobular temporal derecha de 28 mL compatible con angiopatía amiloide cerebral (múltiples microsangrados corticales en GRE previo). La GCS es 14. No tiene antecedentes de fibrilación auricular. ¿Cuál es el manejo correcto de su antiagregación?",
+        "options": {
+          "A": "Transfusión de plaquetas 1 pool para revertir el efecto antiagregante",
+          "B": "Desmopresina (DDAVP) 0,4 mcg/kg IV para restaurar la función plaquetaria",
+          "C": "Sin transfusión de plaquetas; manejo médico estándar",
+          "D": "Añadir clopidogrel para reducir el riesgo de ictus secundario"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo PATCH (Baharoglu, Lancet 2016) demostró que la transfusión de plaquetas en la HIC asociada a antiagregantes empeoró significativamente los resultados (OR para muerte o dependencia a los 3 meses: 2,05, P=0,026) en comparación con el tratamiento estándar. La transfusión de plaquetas está por tanto CONTRAINDICADA en este contexto. El manejo médico estándar — control de la tensión arterial, cuidados neurocríticos — es el adecuado. La DDAVP puede mejorar transitoriamente la función plaquetaria pero no tiene evidencia de alta calidad para la HIC y no está recomendada actualmente.",
+          "wrong": {
+            "A": "La transfusión de plaquetas está CONTRAINDICADA según el ensayo PATCH — empeoró significativamente los resultados. El mecanismo probable son los efectos protrombóticos sistémicos que causan trombosis microvascular perilesional",
+            "B": "La DDAVP libera FvW y factor VIII del endotelio, mejorando transitoriamente la adhesión plaquetaria. Aunque teóricamente plausible, no existe evidencia de ensayos aleatorizados que apoye su uso en la HIC asociada a antiagregantes y no está recomendada como primera línea en las guías",
+            "D": "Añadir clopidogrel suprimiría aún más la función plaquetaria en el contexto agudo — esto es claramente perjudicial y aumentaría el riesgo de expansión del hematoma"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Clase III (Daño): la transfusión de plaquetas para la HIC asociada a antiagregantes NO está recomendada",
+          "trial": "PATCH (Baharoglu Lancet 2016): 190 pacientes con HIC asociada a antiagregantes — la transfusión de plaquetas produjo un resultado significativamente peor (OR 2,05 para muerte o dependencia, IC 95% 1,18–3,56, P=0,026)",
+          "pearl": "Ensayo PATCH: la transfusión de plaquetas PERJUDICA los resultados en la HIC por antiagregantes. Este resultado contraintuitivo es de alta rentabilidad en el examen. NO transfundir plaquetas salvo que se planifique una intervención neuroquirúrgica urgente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q5",
+        "stem": "Un varón de 70 años presenta disfunción cerebelosa de inicio brusco y cefalea progresiva. La TC muestra una hemorragia cerebelosa derecha de 3,5 cm con obliteración del cuarto ventrículo e hidrocefalia incipiente. La GCS desciende de 14 a 10 en 2 horas. La tensión arterial es 175/100 mmHg. ¿Cuál es la siguiente intervención MÁS adecuada?",
+        "options": {
+          "A": "Colocación de drenaje ventricular externo (DVE) aislado",
+          "B": "Craniectomía suboccipital con evacuación del hematoma más DVE",
+          "C": "Reducción intensiva de la tensión arterial con objetivo TAS <140 mmHg y observación",
+          "D": "Alteplasa intraventricular a través de DVE para descomprimir el cuarto ventrículo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene una HIC cerebelosa ≥3 cm con obliteración del cuarto ventrículo, hidrocefalia obstructiva y deterioro neurológico progresivo (GCS 14 → 10). Las guías AHA/ASA 2022 recomiendan la descompresión de la fosa posterior de urgencia (craniectomía suboccipital + evacuación del hematoma) como Clase I. El DVE aislado sin descompresión de la fosa posterior es inadecuado y potencialmente peligroso porque puede precipitar una herniación cerebelosa ascendente a través de la incisura tentorial al reducir la presión supratentorial mientras persiste la masa en la fosa posterior. Ambos procedimientos — DVE y descompresión de la fosa posterior — deben realizarse simultánea o secuencialmente.",
+          "wrong": {
+            "A": "El DVE aislado es PELIGROSO en la HIC de fosa posterior con compresión del cuarto ventrículo. Al drenar LCR supratentorial dejando intacto el hematoma cerebeloso, el gradiente de presión favorece la herniación ascendente del tejido cerebeloso a través de la incisura tentorial — potencialmente mortal. El DVE es un complemento de, no un sustituto de, la descompresión suboccipital",
+            "C": "El manejo de la tensión arterial es importante pero no aborda el problema mecánico de la compresión del cuarto ventrículo y la herniación inminente. La observación con control de TA es inadecuada cuando la GCS está descendiendo",
+            "D": "La alteplasa intraventricular disuelve el coágulo de HIV, no el hematoma cerebeloso parenquimatoso. No descomprimiría el cuarto ventrículo de forma eficaz y no está indicada aquí"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Clase I: Los pacientes con HIC cerebelosa que se deterioran neurológicamente o que tienen compresión del tronco encefálico y/o hidrocefalia deben someterse a extracción quirúrgica del hematoma lo antes posible",
+          "trial": "Series observacionales (Kirollos 2001, Moriarity 2011): DVE aislado para HIC de fosa posterior con compresión del tronco asociado a herniación ascendente en hasta el 18% de los casos; se requiere descompresión de la fosa posterior + DVE combinados",
+          "pearl": "HIC cerebelosa ≥3 cm o con compresión del tronco/hidrocefalia = craniectomía suboccipital + evacuación del hematoma + DVE. El DVE AISLADO es peligroso por riesgo de herniación ascendente. Esta es la única indicación quirúrgica Clase I clara para la HIC."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q6",
+        "stem": "Un varón de 65 años con una HIC putaminal izquierda de 38 mL está incluido en un protocolo de ensayo clínico. La angioTC al ingreso muestra un signo del punto (acumulación de contraste dentro del hematoma). La TC de control a las 6 horas muestra un crecimiento del hematoma hasta 53 mL. La GCS ha descendido de 13 a 9. ¿Qué predice el signo del punto y cuál es su rendimiento diagnóstico?",
+        "options": {
+          "A": "Expansión del hematoma: sensibilidad 90%, especificidad 75%",
+          "B": "Expansión del hematoma: sensibilidad 51%, especificidad 85%",
+          "C": "Mortalidad a 30 días: sensibilidad 70%, especificidad 80%",
+          "D": "Necesidad de intervención quirúrgica: sensibilidad 65%, especificidad 72%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El signo del punto en angioTC predice la expansión del hematoma con una sensibilidad del 51% y una especificidad del 85% (Demchuk, estudio PREDICT, Lancet Neurol 2012). Aunque la sensibilidad es moderada (51%), la alta especificidad (85%) significa que cuando está presente, es un predictor fiable de expansión. El valor predictivo positivo es aproximadamente del 60% y el valor predictivo negativo de aproximadamente el 80%. El signo del punto se utilizó como criterio de inclusión en el ensayo STOP-IT y el estudio TRAIGE para enriquecer las poblaciones con riesgo de expansión.",
+          "wrong": {
+            "A": "La sensibilidad del 90% es incorrecta — el signo del punto tiene una sensibilidad moderada (~51%) debido a la limitación de la angioTC en fase única; la angioTC multifásica mejora la sensibilidad hasta ~65–70% pero no es el valor estándar citado",
+            "C": "El signo del punto predice principalmente la expansión del hematoma, no directamente la mortalidad a 30 días. Aunque la expansión se correlaciona con la mortalidad, el uso validado del signo del punto es específicamente para predecir el crecimiento del hematoma",
+            "D": "El signo del punto no es un predictor validado de la necesidad de intervención quirúrgica — los umbrales quirúrgicos dependen del volumen del hematoma, la localización, el estado neurológico y los factores del paciente"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Signo del punto en angioTC como marcador pronóstico de expansión del hematoma; puede orientar los ensayos de terapia hemostática",
+          "trial": "Estudio PREDICT (Demchuk, Lancet Neurol 2012): estudio multicéntrico de 228 pacientes con HIC — signo del punto en angioTC: sensibilidad 51%, especificidad 85% para predecir expansión del hematoma ≥33% o ≥6 mL",
+          "pearl": "Signo del punto en angioTC: sensibilidad 51%, especificidad 85% para expansión del hematoma. El signo de mezcla y el signo del agujero negro en TC sin contraste son alternativas cuando la angioTC no está disponible o está contraindicada."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q7",
+        "stem": "El ensayo INTERACT2 incluyó a pacientes con HIC espontánea y TAS 150–220 mmHg, aleatorizándolos a descenso intensivo de TA (objetivo TAS <140 mmHg en 1 hora) frente a tratamiento según guías (objetivo <180 mmHg). El criterio de valoración principal fue muerte o discapacidad mayor a 90 días. ¿Cuáles fueron los resultados clave?",
+        "options": {
+          "A": "Reducción significativa de muerte/discapacidad (52% frente a 55,6%, P=0,02) y mejora significativa del mRS ordinal",
+          "B": "Reducción no significativa de muerte/discapacidad (52% frente a 55,6%, P=0,06) pero mejora significativa del mRS ordinal (P=0,04)",
+          "C": "Aumento significativo del deterioro neurológico en el grupo intensivo sin beneficio en mortalidad",
+          "D": "Sin diferencia en el criterio de valoración principal ni en el análisis ordinal del mRS; ensayo interrumpido por futilidad"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "INTERACT2 (Anderson, NEJM 2013) mostró: criterio principal dicotomizado (muerte o mRS 3–5) = 52,0% en intensivo frente a 55,6% en tratamiento según guías, OR 0,87, P=0,06 — NO significativo. Sin embargo, el análisis ordinal preespecificado de la distribución completa del mRS mostró un desplazamiento significativo a favor del tratamiento intensivo (OR 0,87, P=0,04). No hubo exceso de deterioro neurológico ni eventos adversos renales. Este resultado — análisis ordinal positivo, criterio principal dicotomizado negativo — es un objetivo clásico en el examen.",
+          "wrong": {
+            "A": "El criterio principal dicotomizado en INTERACT2 NO fue estadísticamente significativo (P=0,06). El análisis ordinal fue significativo (P=0,04) pero era un análisis secundario",
+            "C": "INTERACT2 no mostró exceso de deterioro neurológico en el grupo intensivo. El perfil de seguridad del objetivo TAS <140 mmHg fue aceptable",
+            "D": "ATACH-II fue el ensayo con resultados completamente negativos (P=0,72). INTERACT2 tuvo un criterio principal sugestivo pero no significativo con un análisis ordinal secundario positivo"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Para pacientes con TAS 150–220 mmHg que se presentan en las primeras 2 horas, el objetivo TAS 130–150 mmHg es razonable (Clase IIa)",
+          "trial": "INTERACT2 (Anderson NEJM 2013): 2.839 pacientes — criterio principal P=0,06 (no significativo); mRS ordinal P=0,04 (significativo). ATACH-II (Qureshi NEJM 2016): 1.000 pacientes — criterio principal P=0,72 (completamente negativo)",
+          "pearl": "INTERACT2: criterio principal negativo (P=0,06) pero mRS ordinal positivo (P=0,04). ATACH-II: completamente negativo (P=0,72). Recomendación actual: objetivo TAS 130–150 mmHg. TAS <130 mmHg puede causar isquemia perilesional."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q8",
+        "stem": "Una mujer de 62 años en tratamiento con dabigatrán 150 mg dos veces al día por fibrilación auricular no valvular presenta 1 hora tras el inicio una HIC lobular izquierda de 25 mL con GCS 14. Su última dosis de dabigatrán fue hace 4 horas. La función renal es normal. ¿Cuál es el agente de reversión específico?",
+        "options": {
+          "A": "CCP-4F 50 UI/kg IV",
+          "B": "Andexanet alfa 800 mg IV en bolo + 960 mg en infusión",
+          "C": "Idarucizumab 5 g IV (dos dosis de 2,5 g)",
+          "D": "Carbón activado 50 g por sonda nasogástrica"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El dabigatrán es un inhibidor directo de la trombina (IDT). Su agente de reversión específico es idarucizumab (Praxbind), un fragmento de anticuerpo monoclonal humanizado que se une al dabigatrán con una afinidad 350 veces mayor que la trombina. El ensayo RE-VERSE AD (Pollack, NEJM 2017) demostró una reversión casi completa de la anticoagulación por dabigatrán en minutos tras su administración en pacientes con hemorragia no controlada o que requieren cirugía urgente. Dosis: 5 g IV administrados como dos dosis consecutivas de 2,5 g. Con la última dosis hace 4 horas y función renal normal, los niveles máximos de dabigatrán aún estarían presentes, haciendo que la reversión sea urgente.",
+          "wrong": {
+            "A": "El CCP-4F proporciona reposición inespecífica de factores y no tiene actividad directa contra el dabigatrán (un inhibidor de la trombina). Puede usarse para reversión de dabigatrán cuando idarucizumab no está disponible, pero es inferior y conlleva mayor riesgo trombótico",
+            "B": "Andexanet alfa revierte específicamente los inhibidores del factor Xa (rivaroxabán, apixabán, edoxabán). NO tiene actividad contra el dabigatrán, que es un inhibidor directo de la trombina, no del factor Xa",
+            "D": "El carbón activado puede reducir la absorción de dabigatrán si se administra en la primera o segunda hora tras la ingestión. Con la última dosis hace 4 horas, ya se ha producido absorción sistémica significativa. El carbón activado solo sería insuficiente como única intervención en un paciente con HIC"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Clase I: Idarucizumab para reversión de HIC por dabigatrán",
+          "trial": "RE-VERSE AD (Pollack NEJM 2017): 503 pacientes con hemorragia grave asociada a dabigatrán o que requieren cirugía urgente — idarucizumab 5 g consiguió normalización del tiempo de trombina diluido en el 100% de los pacientes en minutos",
+          "pearl": "Agentes de reversión por mecanismo: dabigatrán (IDT) → idarucizumab; inhibidores del factor Xa (apixabán/rivaroxabán/edoxabán) → andexanet alfa. Nunca confundirlos — dar idarucizumab para apixabán es un error clínico y de examen crítico."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q9",
+        "stem": "STICH I (Mendelow, Lancet 2005) aleatorizó a 1.033 pacientes con HIC espontánea supratentorial a cirugía precoz frente a tratamiento conservador inicial. ¿Qué afirmación resume MEJOR el hallazgo principal y su implicación clínica?",
+        "options": {
+          "A": "La cirugía precoz mejoró significativamente los resultados (resultado favorable 26% frente a 24%, P<0,05), estableciendo la craneotomía como estándar de tratamiento",
+          "B": "Sin beneficio significativo de la cirugía precoz en general (26% frente a 24% de resultado favorable, P=0,21); el análisis de subgrupos sugirió un posible beneficio para la HIC lobular a menos de 1 cm de la corteza",
+          "C": "La cirugía precoz fue significativamente perjudicial debido a la morbilidad quirúrgica, y debe usarse el manejo conservador para todos los tipos de HIC incluyendo la cerebelosa",
+          "D": "La cirugía precoz mejoró la supervivencia pero no los resultados funcionales, justificando la cirugía para pacientes con puntuación HIC ≥3"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "STICH I fue un ensayo negativo para la craneotomía precoz. El criterio de valoración principal (resultado favorable a los 6 meses: mRS 0–3 o Índice de Barthel 60–100) fue del 26% con cirugía frente al 24% con manejo conservador — diferencia absoluta del 2%, OR 0,89, P=0,21. Sin beneficio estadísticamente significativo. Un análisis de subgrupos preespecificado identificó una tendencia favorable a la cirugía para los hematomas lobulares a menos de 1 cm de la superficie cortical (OR 0,69, IC 0,47–1,01), lo que motivó STICH II dirigido específicamente a esta población.",
+          "wrong": {
+            "A": "STICH I fue NEGATIVO — P=0,21. La cirugía precoz NO mejoró significativamente los resultados. Este es uno de los ensayos negativos más importantes en neurocirugía",
+            "C": "STICH I versó sobre HIC supratentorial — no se aplica a la HIC cerebelosa, donde la cirugía está indicada en Clase I según evidencia separada (observacional). Afirmar que la cirugía es perjudicial para todos los tipos de HIC es incorrecto",
+            "D": "STICH I no demostró beneficio en supervivencia. No hubo interacción entre la puntuación HIC y el beneficio quirúrgico"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — La efectividad de la cirugía para la HIC supratentorial no está bien establecida; el mayor beneficio se observa en escenarios de deterioro clínico",
+          "trial": "STICH I (Mendelow Lancet 2005): 1.033 pacientes — resultado favorable 26% (cirugía) frente a 24% (conservador), P=0,21. STICH II (Mendelow Lancet 2013): 601 pacientes con HIC lobular a menos de 1 cm de corteza — 41% frente a 38% favorable, P=0,367",
+          "pearl": "Tanto STICH I como STICH II son NEGATIVOS. La craneotomía rutinaria NO mejora los resultados de la HIC espontánea supratentorial. La cirugía es Clase I solo para HIC cerebelosa ≥3 cm o con compresión del tronco/hidrocefalia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q10",
+        "stem": "El ensayo MISTIE III evaluó la cirugía mínimamente invasiva (catéter estereotáctico + alteplasa intracavitaria 1 mg/8h) frente al manejo médico estándar para HIC ≥30 mL. El criterio de valoración principal (mRS 0–3 a los 365 días) fue 45% frente a 41% (OR 1,18, P=0,37) — no significativo. Sin embargo, un análisis secundario preespecificado identificó un objetivo quirúrgico crítico. ¿Cuál fue este hallazgo?",
+        "options": {
+          "A": "Los pacientes con evacuación completa del hematoma (residual <5 mL) tuvieron un resultado mRS 0–3 del 75%",
+          "B": "Los pacientes que alcanzaron un hematoma residual ≤15 mL tuvieron resultados significativamente mejores (53% frente a 38% mRS 0–3)",
+          "C": "La hemorragia sintomática en el grupo MISTIE (9%) anuló cualquier beneficio funcional potencial",
+          "D": "La localización del hematoma (lobular frente a ganglios basales) fue el principal determinante del resultado, no la completitud de la evacuación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MISTIE III (Hanley, Lancet 2019) fue un ensayo negativo para su criterio de valoración principal. Sin embargo, el análisis secundario preespecificado que comparó los pacientes que alcanzaron un volumen final del hematoma ≤15 mL con los que no lo hicieron mostró resultados significativamente mejores: mRS 0–3 a los 365 días fue del 53% en el grupo ≤15 mL frente al 38% en los que tenían un residual >15 mL. Este hallazgo establece un objetivo quirúrgico para la CIM-HIC: el objetivo no es solo la colocación del catéter, sino lograr una evacuación completa (≥70% del hematoma inicial) para alcanzar un volumen residual ≤15 mL.",
+          "wrong": {
+            "A": "La evacuación completa <5 mL no fue el umbral comunicado — el umbral clínica y estadísticamente validado fue el volumen residual ≤15 mL",
+            "C": "Aunque la hemorragia sintomática ocurrió en el 9% del grupo MISTIE, el ensayo fue negativo por razones que van más allá de esta tasa de complicaciones. El análisis secundario demostró que alcanzar el objetivo de evacuación era más importante que el resultado global por intención de tratar",
+            "D": "La localización no fue el determinante principal en el análisis de MISTIE III — fue en el ensayo ENRICH donde se demostró específicamente el beneficio limitado a la HIC lobular (no de ganglios basales)"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — CIM-HIC con aspiración estereotáctica ± trombólisis puede considerarse en pacientes seleccionados (Clase IIb)",
+          "trial": "MISTIE III (Hanley Lancet 2019): criterio principal negativo (P=0,37); análisis secundario: residual ≤15 mL → mRS 0–3 53% frente a 38% (P=0,006). Establece ≤15 mL como objetivo quirúrgico",
+          "pearl": "MISTIE III: criterio principal negativo pero lección clave — el objetivo quirúrgico es hematoma residual ≤15 mL (≥70% de evacuación). Los pacientes que alcanzaron este objetivo tuvieron resultados funcionales significativamente mejores."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q11",
+        "stem": "El ensayo ENRICH (Ironside, NEJM 2024) fue el primer ensayo aleatorizado positivo de cirugía mínimamente invasiva de HIC. ¿Qué población obtuvo el beneficio significativo y cuál fue el criterio de valoración principal?",
+        "options": {
+          "A": "Beneficio en HIC de ganglios basales; criterio principal fue mortalidad a 30 días",
+          "B": "Beneficio en HIC lobular; criterio principal fue mRS ponderado por utilidad a 180 días",
+          "C": "Beneficio igual en HIC lobular y de ganglios basales; criterio principal fue mRS ≤3 a 90 días",
+          "D": "Beneficio en todas las localizaciones de HIC; criterio principal fue mejoría de la NIHSS a 30 días"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ENRICH (Ironside, NEJM 2024) utilizó cirugía parafascicular mediante retractor tubular (sistema MIPS) e incluyó a pacientes con HIC lobular o de ganglios basales anterior ≥30 mL en las primeras 24 horas. El criterio de valoración principal fue el mRS ponderado por utilidad (mRS-PU) a 180 días — una medida ponderada según las preferencias del paciente que asigna utilidades a los estados mRS (0=1,0; 1=0,91; 2=0,76; 3=0,55; 4=0,11; 5=0,0; 6=0,0). mRS-PU global: 0,458 frente a 0,374 (P=0,038). De forma crítica, el análisis de subgrupos mostró beneficio significativo solo en la HIC LOBULAR (mRS-PU 0,517 frente a 0,351, P=0,010), sin beneficio en la HIC de ganglios basales anterior.",
+          "wrong": {
+            "A": "ENRICH NO mostró beneficio en la HIC de ganglios basales — el beneficio se limitó a la HIC lobular. La mortalidad no fue el criterio de valoración principal",
+            "C": "ENRICH mostró beneficio diferencial — la HIC lobular se benefició significativamente, la HIC de ganglios basales no. No fueron iguales",
+            "D": "La mejoría de la NIHSS no fue el criterio principal; el mRS-PU a 180 días fue el criterio principal. El beneficio no fue igual en todas las localizaciones de HIC"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 (actualizado con datos ENRICH post-publicación) — CIM-HIC parafascicular para hematomas lobulares: primera evidencia de ECA",
+          "trial": "ENRICH (Ironside NEJM 2024): 300 pacientes — mRS-PU global 0,458 frente a 0,374 (P=0,038); subgrupo lobular: 0,517 frente a 0,351 (P=0,010); subgrupo BG anterior: no significativo",
+          "pearl": "ENRICH es el PRIMER ensayo positivo de CIM-HIC. Puntos clave: cirugía parafascicular con retractor tubular, la HIC lobular se beneficia (no la de ganglios basales), el criterio principal es el mRS ponderado por utilidad (no mRS dicotomizado)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q12",
+        "stem": "Un varón de 74 años con una HIC putaminal izquierda de 30 mL y HIV con hidrocefalia obstructiva (GCS 10) tiene colocado un DVE. A pesar del funcionamiento del DVE, la HIV persiste a las 48 horas con moldes ventriculares bilaterales. El ensayo CLEAR III es relevante en este escenario. ¿Cuál fue el hallazgo principal de CLEAR III?",
+        "options": {
+          "A": "La alteplasa intraventricular redujo significativamente la muerte o discapacidad mayor a los 180 días (mRS ≤3: 48% frente a 45%, P=0,001)",
+          "B": "La alteplasa intraventricular redujo significativamente la mortalidad a 30 días (18% frente a 29%, P=0,002) pero NO mejoró el resultado funcional (mRS ≤3: 48% frente a 45%, P=0,30)",
+          "C": "La alteplasa intraventricular redujo significativamente tanto la mortalidad como la discapacidad funcional sin problemas de seguridad",
+          "D": "La alteplasa intraventricular se asoció a exceso de hemorragia sintomática, lo que motivó la interrupción del ensayo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CLEAR III (Hanley, Lancet 2017) aleatorizó a 500 pacientes con HIV refractaria a DVE a alteplasa intraventricular 1 mg/8h (máximo 12 dosis) frente a placebo salino. Criterio de valoración principal (mRS ≤3 a los 180 días): 48% frente a 45%, RR 1,06, P=0,30 — NO significativo. Sin embargo, la mortalidad a 30 días fue significativamente menor en el grupo de alteplasa: 18% frente a 29%, RR 0,60, P=0,002. La reducción de mortalidad sin mejoría funcional refleja la retirada diferencial del tratamiento — más pacientes del placebo recibieron órdenes de cuidados de confort, sugiriendo que los supervivientes del grupo alteplasa tenían mayor probabilidad de discapacidad grave (mRS 4–5).",
+          "wrong": {
+            "A": "El criterio de valoración principal en CLEAR III NO fue significativo (P=0,30). La reducción de mortalidad (P=0,002) fue solo un criterio secundario significativo",
+            "C": "Los resultados funcionales NO mejoraron significativamente. La discordancia entre mortalidad y función refleja la profecía autocumplida de la retirada precoz del tratamiento en el grupo placebo",
+            "D": "CLEAR III no se interrumpió por daño. La tasa de hemorragia sintomática fue del 2,2% en el grupo de alteplasa frente al 0,4% en el placebo — aceptable y el ensayo completó la inclusión completa"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — La alteplasa intraventricular a través de DVE puede considerarse para el manejo de la HIV (Clase IIb)",
+          "trial": "CLEAR III (Hanley Lancet 2017): 500 pacientes — mRS ≤3 a los 180 días: 48% frente a 45%, P=0,30 (negativo); mortalidad a 30 días: 18% frente a 29%, P=0,002 (significativo)",
+          "pearl": "CLEAR III: beneficio en mortalidad (RR 0,60, P=0,002) pero sin beneficio funcional (P=0,30). Esta discordancia refleja el sesgo de retirada del tratamiento — los supervivientes en el grupo de alteplasa tuvieron mayor discapacidad grave. Un ejemplo paradigmático de discordancia mortalidad-función en los ensayos neuroquirúrgicos."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B2-Q13",
+        "stem": "Un varón hipertenso de 69 años presenta debilidad izquierda de inicio brusco y cefalea. La TC muestra una HIC putaminal derecha de 22 mL. La GCS es 15. La tensión arterial al ingreso es 195/108 mmHg. Utilizando el objetivo de INTERACT2, ¿cuál debería ser el objetivo de tensión arterial en la primera hora?",
+        "options": {
+          "A": "Tensión arterial sistólica <160 mmHg",
+          "B": "Tensión arterial sistólica <140 mmHg",
+          "C": "Tensión arterial sistólica <180 mmHg",
+          "D": "Presión arterial media <110 mmHg"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "INTERACT2 aleatorizó pacientes con TAS 150–220 mmHg a tratamiento intensivo (objetivo TAS <140 mmHg en 1 hora) frente al tratamiento según guías (objetivo TAS <180 mmHg). Las guías AHA/ASA 2022 recomiendan alcanzar un objetivo TAS 130–150 mmHg para los pacientes que se presentan en las primeras 2 horas del inicio con TAS 150–220 mmHg (Clase IIa). El protocolo de INTERACT2 aspiraba específicamente a TAS <140 mmHg, que es la mejor respuesta aquí al reflejar el protocolo del ensayo y la recomendación actual de las guías.",
+          "wrong": {
+            "A": "TAS <160 mmHg no es el objetivo específico de INTERACT2 y se sitúa entre los objetivos intensivo (<140 mmHg) y según guías (<180 mmHg) — no es un protocolo de tratamiento validado",
+            "C": "TAS <180 mmHg era el objetivo del brazo CONTROL en INTERACT2 — el brazo de manejo según guías, no la intervención evaluada para beneficio",
+            "D": "PAM <110 mmHg no es el objetivo estándar utilizado en los ensayos de HIC. En INTERACT2 y ATACH-II se utilizan objetivos de TAS, no de PAM, porque la medición de la TAS está más estandarizada en la práctica clínica"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Clase IIa: Para pacientes que se presentan con TAS 150–220 mmHg en las primeras 2 horas, el objetivo TAS 130–150 mmHg es razonable",
+          "trial": "INTERACT2 (Anderson NEJM 2013): objetivo del brazo intensivo TAS <140 mmHg — seguro, con tendencia al beneficio en el análisis ordinal del mRS (P=0,04)",
+          "pearl": "Objetivo intensivo de INTERACT2: TAS <140 mmHg en 1 hora. ATACH-II utilizó el mismo objetivo pero con descensos más rápidos e intensos — resultado negativo. Guía actual: TAS 130–150 mmHg. EVITAR TAS <130 mmHg — riesgo de isquemia perilesional."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q14",
+        "stem": "Una mujer de 77 años es ingresada con una HIC lobular derecha de 20 mL. Las imágenes muestran múltiples microhemorragias corticales previas en SWI, predominantemente en las cortezas parietal y occipital. No toma anticoagulantes. Su familia pregunta sobre el riesgo de recidiva y si su warfarina previa (suspendida hace 2 años por riesgo de AAC) debería reintroducirse para su FA. ¿Cómo debería orientar a la familia?",
+        "options": {
+          "A": "El riesgo anual de recidiva de la HIC por AAC es del 2–3%; el reinicio de la anticoagulación es generalmente seguro a las 4 semanas",
+          "B": "El riesgo anual de recidiva de la HIC por AAC es del 7–9%; el reinicio de la anticoagulación es controvertido y generalmente se difiere ≥6–8 semanas, ponderando el riesgo tromboembólico frente al de resangrado",
+          "C": "El riesgo anual de recidiva de la HIC por AAC es del 15–20%; la anticoagulación nunca debe reintroducirse",
+          "D": "El riesgo de recidiva es similar al de la HIC hipertensiva (2–3%); el reinicio de la anticoagulación depende únicamente de la puntuación CHA₂DS₂-VASc"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La HIC lobular por AAC tiene un riesgo anual de recidiva del 7–9% (en comparación con el 2–3% de la HIC profunda hipertensiva). La distinción entre la HIC lobular por AAC y la HIC profunda hipertensiva importa: la HIC por AAC tiene mayor riesgo de recidiva, especialmente con múltiples microhemorragias, genotipo ApoE ε4 y eventos previos de HIC. El reinicio de la anticoagulación tras HIC-ACO por FA es controvertido pero no está absolutamente contraindicado. La evidencia actual (APACHE-AF, PRESTIGE-AF, datos observacionales RESTART) sugiere su consideración a las 6–8 semanas, especialmente en válvulas mecánicas cardíacas (mayor riesgo de tromboembolismo) o puntuación CHA₂DS₂-VASc alta, equilibrando el riesgo tromboembólico anual estimado frente al riesgo de recidiva del 7–9%.",
+          "wrong": {
+            "A": "El riesgo anual de recidiva del 2–3% corresponde a la HIC hipertensiva, no a la HIC por AAC. El reinicio de la anticoagulación a las 4 semanas es demasiado precoz — la mayoría de las guías recomiendan esperar al menos 6–8 semanas e individualizar el riesgo",
+            "C": "El riesgo de recidiva del 15–20% es una sobreestimación. Aunque algunos pacientes de alto riesgo con múltiples microhemorragias pueden aproximarse a esta cifra, la recidiva anual media de la HIC por AAC es del 7–9%",
+            "D": "El riesgo de recidiva difiere fundamentalmente entre la HIC lobular por AAC (7–9%) y la HIC profunda hipertensiva (2–3%). La CHA₂DS₂-VASc es relevante para el manejo de la FA pero no captura el riesgo de recidiva de la HIC, que debe ponderarse de forma independiente"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Recidiva anual de HIC: HIC profunda hipertensiva ~2–3%; HIC lobular por AAC ~7–9%. Reinicio de ACO: individualizar según el riesgo tromboembólico de la FA frente al riesgo de recidiva de HIC; en general considerar tras 6–8 semanas",
+          "trial": "RESTART (Al-Shahi Salman, Lancet 2019): reinicio de antiagregante frente a aspirina tras HIC — sin exceso de recidiva a los 2 años. APACHE-AF, PRESTIGE-AF: ECAs en curso/recientes para reinicio de ACO tras HIC",
+          "pearl": "Recidiva anual de HIC por AAC: 7–9% (frente a 2–3% de la HIC hipertensiva). Momento del reinicio de ACO: mínimo 6–8 semanas, estratificación del riesgo individual requerida. Nunca reiniciar en las primeras 4 semanas."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B2-Q15",
+        "stem": "Un varón de 60 años tiene una HIC lobular izquierda de 48 mL y GCS 12. Es candidato al protocolo del ensayo ENRICH (cirugía MIS parafascicular en las primeras 24 horas). En comparación con MISTIE III, ¿cuál es la diferencia clave en la técnica quirúrgica de ENRICH?",
+        "options": {
+          "A": "ENRICH utiliza la colocación de catéter con marco estereotáctico seguida de instilación intracavitaria de alteplasa",
+          "B": "ENRICH utiliza un retractor tubular parafascicular guiado por neuronavegación (abordaje transcortical) que permite la evacuación quirúrgica directa del hematoma",
+          "C": "ENRICH utiliza trombólisis intraventricular endoscópica seguida de drenaje ventricular externo",
+          "D": "ENRICH utiliza ultrasonidos focalizados transcraneales para licuar el hematoma antes de la aspiración"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ENRICH utilizó cirugía parafascicular — un abordaje transcortical mediante retractor tubular (sistema MIPS de Minovia Therapeutics) guiado por neuronavegación. Esto crea un canal de trabajo a través de los fascículos de sustancia blanca (de ahí 'parafascicular' — entre los haces de fibras, causando menos daño que la retracción amplia) para alcanzar la cavidad del hematoma para una evacuación mecánica directa. Esto es distinto de MISTIE III, que utilizó la colocación de catéter estereotáctico seguida de alteplasa intracavitaria repetida 1 mg/8h para lisar y drenar el coágulo gradualmente de forma química.",
+          "wrong": {
+            "A": "Esto describe la técnica de MISTIE III (catéter estereotáctico + alteplasa intracavitaria), no de ENRICH",
+            "C": "La trombólisis intraventricular endoscópica es una técnica diferente (en estudio en el ensayo INVEST) — no es el abordaje de ENRICH",
+            "D": "Los ultrasonidos focalizados transcraneales (UFT) para la HIC es una técnica experimental en etapa de viabilidad temprana — no es la técnica evaluada en ENRICH"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 (con datos ENRICH) — Cirugía MIS parafascicular para HIC lobular: primera evidencia de ECA positivo",
+          "trial": "ENRICH (Ironside NEJM 2024): retractor tubular parafascicular (sistema MIPS); HIC lobular ≥30 mL; mRS-PU 0,458 frente a 0,374 (P=0,038); primer ensayo positivo de CIM-HIC",
+          "pearl": "MISTIE III = catéter estereotáctico + alteplasa (lisis química). ENRICH = retractor tubular parafascicular (evacuación mecánica). ENRICH es el primer ECA POSITIVO de CIM-HIC; MISTIE III fue negativo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q16",
+        "stem": "Un varón de 58 años en tratamiento con enoxaparina 80 mg subcutáneo dos veces al día (dosis terapéutica para TVP) desarrolla una HIC lobular parietal izquierda de 30 mL 8 horas tras su última dosis de enoxaparina. La creatinina sérica es normal. ¿Cuál es la estrategia de reversión más adecuada?",
+        "options": {
+          "A": "Sulfato de protamina 1 mg por 1 mg de enoxaparina administrada, consiguiendo aproximadamente el 60% de reversión anti-Xa",
+          "B": "CCP-4F 50 UI/kg IV para reversión completa de enoxaparina",
+          "C": "Plasma fresco congelado para restaurar los factores inhibidos por anti-Xa",
+          "D": "No es necesaria la reversión ya que la enoxaparina tiene una vida media corta de 4 horas"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La reversión de la heparina de bajo peso molecular (HBPM) con sulfato de protamina es solo parcialmente eficaz. Protamina 1 mg por 1 mg de enoxaparina consigue aproximadamente el 60% de reversión anti-Xa (en comparación con >90% de reversión de la heparina no fraccionada). La reversión parcial refleja el hecho de que las cadenas más cortas de HBPM responsables de la actividad anti-Xa se unen a la protamina con menos eficacia que las cadenas más largas de heparina. Con la última dosis hace 8 horas y una vida media de la enoxaparina de aproximadamente 4,5 horas con función renal normal, la actividad anti-Xa residual aún es significativa y la reversión está indicada. La dosis máxima de protamina es de 50 mg independientemente de la dosis de enoxaparina.",
+          "wrong": {
+            "B": "El CCP-4F no es el tratamiento estándar para la reversión de HBPM (a diferencia de la reversión de AVK). No existe aprobación regulatoria para la reversión de HBPM con CCP",
+            "C": "El PFC contiene factores de coagulación pero no inhibe ni revierte directamente la actividad anti-Xa de la HBPM. No reduciría significativamente los niveles anti-Xa",
+            "D": "La vida media de la enoxaparina a dosis terapéuticas es de aproximadamente 4,5–7 horas. A las 8 horas con función renal normal, todavía hay actividad anti-Xa residual significativa — la reversión está indicada y es importante en el contexto de una HIC activa"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Reversión de HBPM: protamina 1 mg por 1 mg de enoxaparina (máx 50 mg); consigue ~60% de reversión anti-Xa; reducir dosis al 50% si >8h desde la última dosis de HBPM",
+          "trial": "Consenso de expertos AHA/ASA 2022; Crowther MA et al. (NEJM 2002) farmacología de la reversión de enoxaparina",
+          "pearl": "Reversión de HBPM con protamina es PARCIAL (~60% de reversión anti-Xa). Reversión de HNF es COMPLETA (~>90%). Dosis: 1 mg de protamina por 1 mg de enoxaparina. Máximo 50 mg. Reducir dosis al 50% si >8 horas desde la última dosis de HBPM."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q17",
+        "stem": "Una mujer de 66 años con una HIC putaminal derecha de 35 mL y GCS 11 ingresa en la UCI de neuromonitorización. Su familia solicita que se coloque una orden de no reanimación (DNR) de inmediato, dada su edad y el pronóstico percibido como malo. La Escala HIC es 2 (mortalidad a 30 días estimada del 26%). ¿Cuál es la recomendación basada en evidencia respecto a las órdenes DNR precoces en la HIC?",
+        "options": {
+          "A": "La DNR debe instaurarse en las primeras 24 horas en función de una Escala HIC ≥2 para evitar una reanimación fútil",
+          "B": "Las órdenes DNR precoces (en las primeras 24 horas) deben EVITARSE a menos que exista un documento de voluntades anticipadas claro o una futilidad obvia, ya que empeoran independientemente los resultados mediante profecía autocumplida",
+          "C": "Las preferencias de la familia prevalecen sobre las recomendaciones basadas en evidencia; la DNR debe instaurarse de inmediato si la familia lo solicita",
+          "D": "La DNR es adecuada para una Escala HIC ≥3 pero no para una puntuación de 2; esta paciente debe recibir reanimación completa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Múltiples estudios (Hemphill 2004, Zahuranec 2007, Creutzfeldt 2012) demuestran que las órdenes DNR precoces tras la HIC se asocian independientemente a peores resultados tras controlar las medidas de gravedad, de forma consistente con una profecía autocumplida: la retirada precoz del tratamiento agresivo impide la recuperación potencial. Las guías AHA/ASA 2022 recomiendan explícitamente no realizar retirada precoz del tratamiento (en las primeras 24 horas) como único método de pronóstico. Incluso una Escala HIC de 2 (mortalidad a 30 días del 26%) implica una supervivencia del 74% — el tratamiento agresivo es adecuado en ausencia de directivas anticipadas claras. Las preferencias de la familia deben considerarse pero deben equilibrarse con la evidencia médica.",
+          "wrong": {
+            "A": "La Escala HIC ≥2 NO es un umbral para la DNR precoz. La Escala HIC es una herramienta pronóstica, no una herramienta de decisión para la retirada del tratamiento. Escala HIC 2 = probabilidad de supervivencia del 74%",
+            "C": "Aunque las preferencias de la familia son importantes y deben respetarse, deben estar informadas por información pronóstica precisa. Instaurar una DNR únicamente a petición de la familia sin justificación médica en un paciente con probabilidad de supervivencia del 74% sería éticamente y clínicamente inadecuado",
+            "D": "La evidencia no respalda un umbral específico de Escala HIC para la DNR precoz. El principio fundamental es evitar la retirada precoz del tratamiento como estrategia pronóstica principal"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — El tratamiento agresivo precoz es razonable y los pacientes deben recibir tratamiento médico completo al menos durante las primeras 24–48 horas a menos que exista un documento de voluntades anticipadas contrario",
+          "trial": "Hemphill JC (Neurology 2004): las órdenes DNR precoces predijeron independientemente un mal resultado en la HIC tras ajustar la gravedad basal. Zahuranec DB (Neurology 2007): la retirada del tratamiento ocurrió en el 21% de los pacientes con HIC, con variabilidad significativa en la práctica",
+          "pearl": "DNR precoz en HIC = profecía autocumplida. AHA/ASA 2022: NO retirar el tratamiento en las primeras 24 horas salvo documento de voluntades anticipadas claro o futilidad obvia (pupilas fijas bilaterales, ausencia de reflejos del tronco). Escala HIC 2 = mortalidad a 30 días del 26% = SUPERVIVENCIA del 74%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q18",
+        "stem": "En una TC sin contraste, un paciente de 71 años con una HIC lobular izquierda de 40 mL muestra una región hipodensa redondeada y bien delimitada dentro del hematoma hiperatenante principal, dando un aspecto de 'agujero negro'. Este signo está rodeado de hematoma hiperdenso. ¿Cuál es el nombre de este hallazgo en TC y qué predice?",
+        "options": {
+          "A": "Signo satélite — predice múltiples focos hemorrágicos y mal pronóstico",
+          "B": "Signo de mezcla — predice expansión del hematoma con alta especificidad",
+          "C": "Signo del agujero negro — predice expansión del hematoma (sensibilidad ~33%, especificidad ~97%) en TC sin contraste",
+          "D": "Signo isla — predice origen hemorrágico relacionado con anticoagulantes"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El signo del agujero negro describe un área hipodensa redondeada u oval rodeada de hematoma hiperatenante en la TC sin contraste. Refleja la densidad heterogénea del hematoma debida al sangrado activo en sangre ya coagulada. Predice la expansión del hematoma con una sensibilidad de aproximadamente el 33% y una especificidad de aproximadamente el 97% — muy específico pero poco sensible. Es una alternativa de TC sin contraste al signo del punto en angioTC para identificar pacientes con alto riesgo de expansión.",
+          "wrong": {
+            "A": "El signo satélite describe pequeños focos hemorrágicos separados adyacentes a la HIC principal — un signo diferente que predice expansión Y mal pronóstico funcional a 90 días. No describe una región hipodensa dentro del hematoma principal",
+            "B": "El signo de mezcla describe una densidad mixta heterogénea (hipodensa mezclada con hiperdensa) en la TC sin contraste con aspecto estratificado — morfología diferente de la hipodensidad discreta redondeada/oval dentro del hematoma hiperdenso del signo del agujero negro. La especificidad del signo de mezcla es ~96%",
+            "D": "El signo isla describe ≥3 pequeñas atenuaciones hemorrágicas dispersas separadas del margen del hematoma principal — asociado a HIC por anticoagulantes y predice expansión con alta especificidad"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Marcadores de TC sin contraste de expansión del hematoma como herramientas pronósticas; no existe recomendación específica de manejo basada únicamente en el signo de imagen",
+          "trial": "Li Q et al. (Neurology 2015): validación del signo del agujero negro — sensibilidad 33%, especificidad 97% para expansión del hematoma ≥33% o ≥6 mL. Li Q et al. (Stroke 2016): signo de mezcla — sensibilidad 36%, especificidad 96%",
+          "pearl": "Tres signos de expansión en TC sin contraste: signo de MEZCLA (densidad mixta estratificada), signo del AGUJERO NEGRO (oval hipodensa dentro de hiperatenación), signo SATÉLITE (focos separados). Todos tienen alta especificidad (>90%) pero sensibilidad baja-moderada. Signo del punto en angioTC (sensibilidad 51%, especificidad 85%) requiere contraste pero es el más estudiado."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B2-Q19",
+        "stem": "Un varón de 65 años tiene una HIC talámica de 12 mL con extensión al tercer ventrículo que causa hidrocefalia obstructiva. La GCS es 9. ¿Cuál de las siguientes es el manejo quirúrgico MÁS adecuado?",
+        "options": {
+          "A": "Aspiración estereotáctica del hematoma talámico más DVE",
+          "B": "Craneotomía abierta y evacuación del hematoma talámico",
+          "C": "Colocación de DVE aislado sin evacuación del hematoma",
+          "D": "Colocación de DVE bilateral por obstrucción del tercer ventrículo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La HIC talámica plantea un dilema quirúrgico singular. El tálamo se localiza en la profundidad del cerebro elocuente, y la evacuación directa del hematoma (craneotomía o aspiración estereotáctica) conlleva riesgos significativos de déficit neurológico (núcleos talámicos limbicosensoriomotores bilaterales). En la HIC talámica con hidrocefalia aislada y depresión de la GCS atribuible principalmente a la hidrocefalia y no al efecto de masa del hematoma, la colocación de DVE aislado es la intervención adecuada. Esto descomprime el sistema ventricular, trata la hidrocefalia obstructiva y permite la monitorización de la PIC sin arriesgar lesión quirúrgica de estructuras talámicas. Las guías AHA/ASA 2022 recomiendan no realizar evacuación directa del hematoma talámico en la mayoría de las circunstancias (Clase III — daño).",
+          "wrong": {
+            "A": "La aspiración estereotáctica de la HIC talámica conlleva riesgo de morbilidad significativa por daño a los núcleos talámicos, cápsula interna y estructuras adyacentes. La evidencia no respalda la aspiración rutinaria de la HIC talámica, especialmente a 12 mL sin efecto de masa grave",
+            "B": "La craneotomía abierta para la HIC talámica tiene mayor morbilidad que los abordajes estereotácticos por la extensa disrupción tisular y prácticamente nunca se realiza para hematomas talámicos primarios",
+            "D": "Los DVE bilaterales no se requieren de forma rutinaria para la obstrucción del tercer ventrículo — un DVE colocado en un ventrículo lateral (generalmente el derecho) puede descomprimir adecuadamente ambos lados a través del agujero de Monro"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — HIC talámica: DVE para hidrocefalia (Clase I); evacuación directa del hematoma talámico: Clase III (daño) para la mayoría de los pacientes",
+          "trial": "Datos observacionales (Ziai 2018): el DVE para la HIC talámica con hidrocefalia reduce la mortalidad relacionada con la PIC sin los riesgos de la evacuación directa del hematoma; no existe ECA para cirugía de HIC talámica",
+          "pearl": "HIC talámica + hidrocefalia → solo DVE (NO evacuación del hematoma). El tálamo es elocuente y profundo — la evacuación directa arriesga déficits sensoriomotores y cognitivos bilaterales. El DVE trata de forma segura el componente hidrocefálico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q20",
+        "stem": "Un varón de 73 años presenta una HIC cerebelosa derecha de 22 mL. La GCS es 14, camina con ataxia leve y la TC muestra obliteración leve del cuarto ventrículo sin hidrocefalia obstructiva. La tensión arterial es 180/100 mmHg. No tiene antecedentes de anticoagulación. ¿Cuál es el manejo inicial MÁS adecuado?",
+        "options": {
+          "A": "Craniectomía suboccipital inmediata por localización cerebelosa",
+          "B": "Colocación profiláctica de DVE para prevenir hidrocefalia futura",
+          "C": "Manejo médico con control de la tensión arterial y monitorización neurológica estrecha",
+          "D": "Traslado inmediato a radiología intervencionista para aspiración estereotáctica"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El umbral quirúrgico para la HIC cerebelosa es ≥3 cm (≈14 mL asumiendo una esfera) o la presencia de compresión del tronco encefálico, hidrocefalia obstructiva o deterioro neurológico. Este paciente tiene un hematoma de 22 mL (aproximadamente 3,5 cm de diámetro), pero está con GCS 14 y deambulando — factores clave que modifican la decisión. Tiene obliteración leve del cuarto ventrículo pero SIN hidrocefalia obstructiva (sin dilatación de los ventrículos laterales). Las guías AHA/ASA 2022 respaldan la cirugía para la HIC cerebelosa ≥3 cm CON deterioro clínico O compresión del tronco encefálico O hidrocefalia. En un paciente alerta y deambulante sin hidrocefalia, el manejo médico inicial con monitorización estrecha es adecuado, con un umbral bajo para cirugía si se produce deterioro. Una HIC cerebelosa de 22 mL sin hidrocefalia ni compromiso del tronco en un paciente deambulante NO es una indicación quirúrgica automática.",
+          "wrong": {
+            "A": "La cirugía inmediata NO está indicada para cualquier HIC cerebelosa independientemente del volumen si el paciente está neurológicamente íntegro y no hay hidrocefalia ni compresión del tronco. La combinación del estado clínico, la presencia de hidrocefalia y la compresión del tronco determina el umbral quirúrgico",
+            "B": "La colocación profiláctica de DVE no está recomendada — conlleva riesgo procedimental y el riesgo de herniación ascendente si el hematoma de la fosa posterior se expande posteriormente",
+            "D": "La aspiración estereotáctica no es el abordaje estándar para la HIC cerebelosa — la craniectomía suboccipital con evacuación abierta del hematoma es la técnica quirúrgica de elección cuando la cirugía está indicada"
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Clase I: Cirugía para HIC cerebelosa con deterioro clínico O hematoma ≥3 cm con compresión del tronco O hidrocefalia. El estado clínico (exploración neurológica) es el modificador clave",
+          "trial": "Kirollos RW et al. (Neurosurgery 2001): datos observacionales sobre el manejo de la HIC cerebelosa — los pacientes deambulantes con hematoma <3 cm y sin hidrocefalia pueden manejarse de forma conservadora con seguridad; el umbral quirúrgico es el estado neurológico + hallazgos en TC combinados",
+          "pearl": "Desencadenante quirúrgico en HIC cerebelosa = volumen ≥3 cm/14 mL MÁS compresión del tronco O hidrocefalia O deterioro neurológico. Un paciente deambulante con GCS 14 y HIC cerebelosa de 22 mL sin hidrocefalia puede monitorizarse — la cirugía no es automática."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

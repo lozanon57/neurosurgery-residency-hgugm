@@ -1,0 +1,641 @@
+{
+  "id": "B4",
+  "title": "Aneurismas Intracraneales — No Rotos",
+  "subtitle": "Bloque B — Historia Natural, Estratificación del Riesgo y Toma de Decisiones en el Tratamiento Electivo",
+  "block": "B",
+  "block_name": "Neurocirugía Neurovascular",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "AHA/ASA Unruptured Aneurysm Guidelines 2015 · EANS Neurovascular Guidelines 2023 · ESO Guidelines 2022",
+  "textbook_refs": [
+    "Wiebers DO et al. Unruptured Intracranial Aneurysms: Natural History, Clinical Outcome, and Risks of Surgical and Endovascular Treatment (ISUIA). Lancet 2003",
+    "Greving JP et al. Development of the PHASES Score for Prediction of Risk of Rupture of Intracranial Aneurysms. Lancet Neurol 2014",
+    "Molyneux AJ et al. ISAT: International Subarachnoid Aneurysm Trial — seguimiento a largo plazo. Lancet 2015",
+    "Pierot L et al. Flow Diversion for Intracranial Aneurysms: A Systematic Review. Stroke 2020"
+  ],
+  "learning_objectives": [
+    "Aplicar la puntuación PHASES para calcular el riesgo de rotura a 5 años de cada aneurisma intracraneal no roto",
+    "Describir los datos de historia natural del ISUIA para aneurismas <7 mm, 7–12 mm y >25 mm según la localización",
+    "Diferenciar entre clipaje quirúrgico, embolización endovascular con espirales, embolización asistida con stent, desviación de flujo (Pipeline) y dispositivos intrasaculares (WEB) según la anatomía del aneurisma",
+    "Identificar las indicaciones y limitaciones de la desviación de flujo (dispositivo Pipeline) para aneurismas no rotos",
+    "Manejar pacientes con aneurismas intracraneales familiares (AIF) y protocolos de cribado en la poliquistosis renal autosómica dominante (PRAD)",
+    "Orientar a pacientes con aneurismas no rotos asintomáticos descubiertos incidentalmente en neuroimagen"
+  ],
+  "sections": [
+    {
+      "id": "B4-S1",
+      "title": "Epidemiología e Historia Natural: Datos del ISUIA",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La prevalencia de los aneurismas intracraneales no rotos (AINR) en la población adulta general es de aproximadamente el 3–5% (2–3% en los que no presentan factores de riesgo específicos). La incidencia aumenta con la edad, el sexo femenino, la hipertensión arterial, el tabaquismo y los antecedentes familiares de HSA aneurismática. El **International Study of Unruptured Intracranial Aneurysms (ISUIA)** (Wiebers, Lancet 2003) proporcionó el mayor conjunto de datos de historia natural, con el seguimiento de 4.060 pacientes con AINR. Hallazgos principales de historia natural estratificados por tamaño y localización: **Aneurismas de la circulación anterior sin HSA previa (de un aneurisma diferente)**: <7 mm = 0% de riesgo de rotura a 5 años; 7–12 mm = 2,6%; 13–24 mm = 14,5%; ≥25 mm = 40%. **Circulación posterior y aneurismas de la arteria comunicante posterior**: <7 mm = 2,5%; 7–12 mm = 14,5%; 13–24 mm = 18,4%; ≥25 mm = 50%. **Grupo con HSA previa** (aneurisma diferente al estudiado): <7 mm = riesgo anual del 0,5% para el anterior frente al 1% para el posterior. Estos datos del ISUIA deben interpretarse con cautela: el estudio excluyó a los pacientes en quienes el tratamiento ya había sido recomendado (sesgo de selección hacia una anatomía favorable), y puede subestimar el riesgo de rotura para los aneurismas con morfología desfavorable."
+        },
+        {
+          "type": "table",
+          "title": "Tasas de Rotura Acumulada a 5 Años del ISUIA según Tamaño y Localización",
+          "headers": ["Tamaño", "Circulación Anterior (sin HSA previa)", "Circulación Posterior / AComP (sin HSA previa)", "Cualquier Localización (con HSA previa)"],
+          "rows": [
+            ["<7 mm", "0%", "2,5%", "0,5%/año anterior; 1%/año posterior"],
+            ["7–12 mm", "2,6%", "14,5%", "Mayor que el grupo sin HSA previa"],
+            ["13–24 mm", "14,5%", "18,4%", "Mayor que el grupo sin HSA previa"],
+            ["≥25 mm (gigante)", "40%", "50%", "Muy alto — generalmente tratado"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Sesgo del ISUIA: Riesgo Cero para Aneurismas Anteriores <7 mm",
+          "content": "El ISUIA mostró un riesgo de rotura a 5 años del 0% para los AINR de la circulación anterior <7 mm sin HSA previa. Este dato se cita ampliamente pero puede ser engañoso. El ISUIA excluyó a los pacientes con aneurismas considerados apropiados para el tratamiento (sesgo de selección). En la práctica clínica, el 20–30% de los aneurismas rotos miden <7 mm. La puntuación PHASES proporciona una evaluación del riesgo más detallada incorporando múltiples variables más allá del tamaño solamente."
+        }
+      ]
+    },
+    {
+      "id": "B4-S2",
+      "title": "Puntuación PHASES — Estratificación del Riesgo de Rotura",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **puntuación PHASES** (Greving, Lancet Neurol 2014) integra seis factores de riesgo independientes para calcular el riesgo de rotura a 5 años. Se derivó de un análisis combinado de seis estudios de cohorte prospectivos (8.382 pacientes, 230 roturas). Componentes: **P** = Población (japonesa/finlandesa = 3 puntos, norteamericana/europea/otra = 0); **H** = Hipertensión (1 punto); **A** = Edad ≥70 años (1 punto); **S** = Tamaño (mm): <7 mm = 0; 7,0–9,9 mm = 3; 10,0–19,9 mm = 6; ≥20 mm = 10 puntos; **E** = HSA previa de otro aneurisma (1 punto); **S** = Localización: ACI (cavernosa/oftálmica) = 0; ACM = 2; ACoA/ACA = 2; vertebrobasilar/AComP/otra posterior = 4 puntos. La puntuación total oscila entre 0 y 22. **Riesgos de rotura a 5 años**: Puntuación 0–2 = 0,4%; 3–4 = 1,3%; 5–6 = 3,3%; 7–8 = 6,5%; 9–10 = 11,3%; ≥11 = 17,8%. Esta puntuación es preferible a los simples umbrales de tamaño para la toma de decisiones clínicas, al incorporar factores específicos del paciente."
+        },
+        {
+          "type": "table",
+          "title": "Componentes de la Puntuación PHASES y Asignación de Puntos",
+          "headers": ["Componente", "Factor", "Puntos"],
+          "rows": [
+            ["P — Población", "Norteamericana/Europea/Otra", "0"],
+            ["P — Población", "Japonesa o Finlandesa", "3"],
+            ["H — Hipertensión", "Sí", "1"],
+            ["A — Edad", "≥70 años", "1"],
+            ["S — Tamaño", "<7,0 mm", "0"],
+            ["S — Tamaño", "7,0–9,9 mm", "3"],
+            ["S — Tamaño", "10,0–19,9 mm", "6"],
+            ["S — Tamaño", "≥20 mm", "10"],
+            ["E — HSA Previa", "Sí (aneurisma diferente)", "1"],
+            ["S — Localización", "ACI (cavernosa/oftálmica)", "0"],
+            ["S — Localización", "ACM, ACoA/ACA", "2"],
+            ["S — Localización", "Vertebrobasilar, AComP, posterior", "4"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Factores de Alto Riesgo en PHASES",
+          "content": "Los mayores contribuidores de puntos en PHASES son: tamaño ≥20 mm (10 puntos), etnia japonesa/finlandesa (3 puntos) y localización en circulación posterior/AComP (4 puntos). Un aneurisma de la punta basilar de 22 mm en un paciente japonés hipertenso de 72 años obtiene ≥18 puntos — riesgo de rotura muy alto, que favorece prácticamente de forma universal el tratamiento sobre la observación."
+        }
+      ]
+    },
+    {
+      "id": "B4-S3",
+      "title": "Técnicas Endovasculares: Embolización, Embolización Asistida con Stent y Dispositivo WEB",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **embolización endovascular estándar** implica la navegación de un microcatéter hasta el saco del aneurisma y el despliegue de espirales de platino hasta rellenar el aneurisma. Los aneurismas más adecuados para la embolización estándar tienen un **cuello estrecho** (≤4 mm o relación cúpula/cuello ≥1,5), forma regular y sin ramas críticas emergentes del cuello. La oclusión completa del aneurisma se logra en el 60–70% de forma aguda. La recanalización a largo plazo ocurre en el 20–30%, requiriendo reembolización en el 10–15%. La **embolización asistida con balón** utiliza la inflación temporal de un balón en el cuello del aneurisma para evitar la protrusión de las espirales — permite la embolización de aneurismas de cuello más ancho. La **embolización asistida con stent** despliega un stent autoexpandible (p. ej., Enterprise, Neuroform, LVIS) a través del cuello del aneurisma, a través del cual se colocan las espirales. El stent permite tratar aneurismas de cuello ancho (relación cúpula/cuello <1,5) proporcionando un soporte estructural. Limitación crítica: **requiere doble antiagregación plaquetaria** (ácido acetilsalicílico + clopidogrel) iniciada 5 días antes del procedimiento durante 3–6 meses — esto contraindica la embolización asistida con stent en los aneurismas rotos agudos. **Dispositivo WEB (Woven EndoBridge)**: disruptor de flujo intrasacular desplegado dentro del saco del aneurisma a nivel del cuello, sin necesidad de stent, con mínimo requerimiento de antiagregación (solo aspirina 5 días antes del procedimiento). Particularmente eficaz para los **aneurismas de cuello ancho en bifurcación** de ACM, ACoA y punta basilar. Los estudios WEBCAST y CLARITY mostraron una oclusión completa del 53–61% y una oclusión adecuada del 80–85% a los 12 meses. El WEB es viable en el contexto de la HSA aguda (no se necesita clopidogrel), a diferencia de la embolización asistida con stent."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Embolización Asistida con Stent y Requisito de Antiagregación",
+          "content": "La doble antiagregación (aspirina + clopidogrel) requerida para la embolización asistida con stent significa que esta técnica no puede usarse en aneurismas rotos agudos — la anticoagulación aumenta el riesgo de resangrado. Para un aneurisma roto de cuello ancho en la bifurcación de la ACM, las opciones son: clipaje quirúrgico o dispositivo WEB (no se necesita clopidogrel). Este es un punto de decisión práctico de alta rentabilidad: comprender QUÉ técnica endovascular requiere doble antiagregación y cuándo está contraindicada."
+        }
+      ]
+    },
+    {
+      "id": "B4-S4",
+      "title": "Desviación de Flujo: Dispositivo Pipeline",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **Dispositivo de Embolización Pipeline (PED)** es un stent endoluminal autoexpandible trenzado de alta densidad de malla, desplegado a través del cuello del aneurisma en la arteria portadora. Funciona desviando el flujo sanguíneo del saco del aneurisma, induciendo una trombosis progresiva del aneurisma. A diferencia de la embolización, el aneurisma no se ocluye de inmediato — la oclusión ocurre gradualmente durante 3–6 meses (oclusión completa en el 75–90% a los 12 meses en los estudios PUFS e IntrePED). **Indicaciones**: aneurismas grandes (10–25 mm) y gigantes (>25 mm) de la arteria carótida interna (ACI), en particular los aneurismas del **segmento cavernoso** y **paraclinoideo** (segmento oftálmico) — históricamente difíciles de clipar o embolizar. El ensayo PUFS (estudio pivotal de la FDA, Nelson, AJNR 2011) mostró un 74% de oclusión completa a los 6 meses y un 76% a los 12 meses. **Obligatorio**: doble antiagregación plaquetaria (aspirina + clopidogrel) de forma indefinida o durante un mínimo de 6 meses — se realiza una prueba de resistencia al clopidogrel (ensayo P2Y12 o VerifyNow) antes del procedimiento. **Contraindicaciones**: aneurismas rotos agudos (requiere doble antiagregación), aneurismas vertebrobasilares fusiformes con perforantes (riesgo isquémico por cobertura de perforantes), aneurismas con ramas emergentes del saco. **Riesgos exclusivos de la desviación de flujo**: rotura tardía del aneurisma (rara, ~2%), isquemia por perforantes, oclusión de la arteria portadora y trombosis del stent. El **Pipeline SHIELD** (PED de superficie modificada con recubrimiento de fosforilcolina) puede permitir una duración más corta de antiagregación — ensayos en curso."
+        },
+        {
+          "type": "table",
+          "title": "Desviación de Flujo — Indicaciones, Contraindicaciones y Características Clave",
+          "headers": ["Aspecto", "Detalle"],
+          "rows": [
+            ["Indicación principal", "Aneurismas grandes/gigantes de ACI (cavernosos, paraclinoideos), aneurismas fusiformes, embolización previa fallida"],
+            ["Requisito de antiagregación", "Doble antiagregación (aspirina + clopidogrel) mínimo 6 meses — prueba P2Y12 previa al procedimiento obligatoria"],
+            ["Cronología de oclusión", "Gradual (meses) — NO inmediata; 75–90% completa a los 12 meses"],
+            ["Tasa de oclusión en PUFS", "74% completa a los 6 meses, 76% a los 12 meses (ACI grande/gigante cavernosa/paraclinoidea)"],
+            ["Contraindicaciones", "Aneurisma roto, circulación posterior con perforantes, rama emergente del saco"],
+            ["Riesgos específicos", "Rotura tardía (~2%), isquemia por perforantes, trombosis del stent, oclusión de la arteria portadora"],
+            ["NO adecuado para", "Aneurismas saculares pequeños, aneurismas en bifurcación (ACM, ACoA), vertebrobasilares fusiformes con perforantes"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B4-S5",
+      "title": "Clipaje Quirúrgico de Aneurismas No Rotos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El clipaje quirúrgico de los AINR implica una craneotomía microquirúrgica, disección de la cisura de Silvio o de las cisternas relevantes, y la aplicación de un clip de titanio a través del cuello del aneurisma. La **exclusión completa del aneurisma** se consigue en >95% de los clipajes electivos por cirujanos con experiencia, con bajas tasas de recurrencia (<1% a largo plazo). **Resultados quirúrgicos del ISUIA**: la morbilidad o mortalidad a 5 años fue del 12,6% para los AINR de la circulación anterior y del 13,6% para los de la circulación posterior — más alta de lo estimado anteriormente. Sin embargo, estos resultados reflejan una población amplia y no seleccionada que incluye pacientes de alto riesgo; los centros con alto volumen y cirujanos con experiencia alcanzan resultados sustancialmente mejores. El **clipaje temporal** (interrumpir el flujo sanguíneo a la arteria portadora durante la disección) permite la deflación de aneurismas tensos y una disección segura — típicamente tolerado durante 3–5 minutos antes de que el riesgo isquémico aumente significativamente. **Monitorización intraoperatoria**: potenciales evocados motores (PEM), potenciales evocados somatosensoriales (PESS) y electroencefalografía son estándar durante el clipaje de aneurismas complejos. La **angiografía intraoperatoria** o la **videoangiografía con verde de indocianina (VIC)** confirman la colocación del clip y la permeabilidad de la arteria portadora. Ventajas clave del clipaje sobre la embolización: (1) oclusión completa inmediata en >95%; (2) duradero — sin necesidad de retratamiento; (3) permite la evacuación simultánea del hematoma; (4) sin requisito de antiagregación. Desventajas: traumatismo quirúrgico (mayor morbilidad precoz), recuperación más larga, no adecuado para aneurismas gigantes o cavernosos."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Selección del Tratamiento del Aneurisma No Roto",
+          "content": "La decisión de tratamiento para los AINR integra: puntuación PHASES (riesgo de rotura a 5 años), riesgo procedimental (datos del ISUIA e institucionales), edad del paciente y esperanza de vida, anatomía del aneurisma (localización, tamaño, morfología, cuello), preferencia del paciente y disponibilidad de experiencia. Los pacientes jóvenes (<40 años) con bajo riesgo procedimental y alta puntuación PHASES se benefician más del tratamiento (más años de vida que ganar). Los pacientes mayores (>70 años) con alto riesgo procedimental y PHASES bajo-moderado pueden razonablemente ser vigilados con imagen seriada (angioTC o angioRM cada 1–3 años)."
+        }
+      ]
+    },
+    {
+      "id": "B4-S6",
+      "title": "Aneurismas Intracraneales Familiares y Cribado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **aneurisma intracraneal familiar (AIF)** se define como dos o más familiares de primer grado (o uno de primer y uno de segundo grado) con aneurismas intracraneales. El AIF conlleva un riesgo de rotura 4 veces mayor en comparación con los aneurismas esporádicos, con una edad de rotura más temprana (de media 5–10 años antes) y una mayor proporción de aneurismas múltiples. Se recomienda el cribado en personas con dos o más familiares de primer grado con HSA aneurismática. La modalidad de cribado preferida es la **angioRM (Tiempo de Vuelo, RM 3T)** — no invasiva, sin radiación, con sensibilidad del 90–95% para aneurismas ≥3 mm. **Poliquistosis renal autosómica dominante (PRAD)**: la prevalencia de AINR en la PRAD es del 10–12% (frente al 3–5% de la población general), con mayor riesgo de rotura. Se recomienda angioRM de cribado para los pacientes con PRAD con antecedentes familiares de HSA o síntomas. **Genética del AIF**: ningún gen único representa la mayoría de los casos — los genes del COLÁGENO (COL3A1, COL4A1), ACTA2, NOTCH3 y otros contribuyen. **Enfermedades del tejido conectivo**: el síndrome de Ehlers-Danlos tipo IV (COL3A1), el síndrome de Marfan y la neurofibromatosis tipo 1 se asocian a mayor prevalencia de aneurismas. **Intervalos de cribado para AIF**: primer cribado a los 20–25 años; si negativo, repetir cada 7–10 años; si positivo, seguimiento anual o tratamiento basado en la puntuación PHASES. El programa de cribado finlandés de AIF mostró un rendimiento del 43% de AINR en familias con ≥2 miembros afectados."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Recomendaciones de Cribado para AIF y PRAD",
+          "content": "Cribar aneurismas intracraneales con angioRM (no angioTC — evita la radiación en los cribados seriados) en: (1) AIF — dos o más familiares de primer grado con HSA aneurismática; (2) PRAD — con antecedentes familiares de HSA. Los aneurismas del AIF se rompen antes (edad media 49 años frente a 55 años para los esporádicos). Intervalo: cada 7–10 años si el cribado inicial es negativo; seguimiento anual si se encuentra un aneurisma pero no se trata."
+        }
+      ]
+    },
+    {
+      "id": "B4-S7",
+      "title": "Aneurismas Gigantes y Consideraciones Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los **aneurismas intracraneales gigantes** (diámetro ≥25 mm) representan <5% de todos los aneurismas intracraneales, pero conllevan un riesgo anual de rotura del 8–10% y un alto riesgo de déficit neurológico por efecto de masa, tromboembolismo distal y edema perilesional. Los aneurismas gigantes con frecuencia se presentan SIN rotura — con parálisis progresivas de pares craneales (los gigantes del seno cavernoso causan déficits de PC III/IV/V/VI), síntomas por efecto de masa (cefalea, defectos del campo visual por compresión del nervio óptico o del quiasma) o ictus tromboembólicos por trombo intraaneurismático. **Opciones de tratamiento**: la embolización estándar sola suele ser inadecuada por las altas tasas de recurrencia. La desviación de flujo (PED) es el abordaje endovascular principal para los aneurismas gigantes cavernosos y paraclinoideos de la ACI. La **trombosis intraluminal** en los aneurismas gigantes presenta un riesgo doble: efecto de masa de la porción trombosada Y émbolos del aneurisma parcialmente trombosado. **Oclusión de la arteria portadora (OAP) con bypass**: para los aneurismas gigantes no susceptibles de PED o clipaje, el sacrificio planificado de la arteria portadora combinado con bypass extracraneal-intracraneal (EC-IC) (bypass de la arteria temporal superficial a la ACM, o bypass de alto flujo mediante injerto de arteria radial o vena safena) puede eliminar el aneurisma. La **prueba de oclusión con balón (POB) preoperatoria** evalúa la tolerancia de la circulación colateral al sacrificio de la arteria portadora. Los **aneurismas gigantes de la punta basilar** son uno de los casos más desafiantes de neurocirugía vascular — frecuentemente requieren estrategias endovasculares, parada circulatoria hipotérmica profunda o abordajes escalonados. La tasa de rotura intraoperatoria en la cirugía de aneurismas gigantes es significativamente mayor que para los aneurismas de tamaño estándar."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Efecto de Masa del Aneurisma Gigante y Riesgo Tromboembólico",
+          "content": "Los aneurismas gigantes pueden presentarse con parálisis progresivas de pares craneales, defectos del campo visual o ictus isquémicos (por trombo intraaneurismático) SIN rotura. Un paciente con parálisis progresiva del III par y RM que muestra una gran masa paraclinoidea tiene más probabilidad de tener un aneurisma paraclinoideo gigante que un macroadenoma hipofisario o un meningioma — el estudio angiográfico es obligatorio. NO anticoagular los eventos embólicos de aneurismas gigantes sin asegurar primero el aneurisma."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre los aneurismas intracraneales no rotos con 20 preguntas tipo examen MIR.",
+    "questions": [
+      {
+        "id": "B4-Q1",
+        "stem": "Una mujer de 58 años con hipertensión arterial presenta incidentalmente un aneurisma de la bifurcación de la ACM derecha de 9 mm en una RM realizada para evaluación de cefaleas. No tiene antecedentes de HSA. Es del norte de Europa. Usando la puntuación PHASES, calcule su riesgo de rotura a 5 años.",
+        "options": {
+          "A": "Puntuación PHASES 6; riesgo de rotura a 5 años aproximadamente 3,3%",
+          "B": "Puntuación PHASES 7; riesgo de rotura a 5 años aproximadamente 6,5%",
+          "C": "Puntuación PHASES 4; riesgo de rotura a 5 años aproximadamente 1,3%",
+          "D": "Puntuación PHASES 9; riesgo de rotura a 5 años aproximadamente 11,3%"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Cálculo PHASES: P (norte de Europa) = 0; H (hipertensión) = 1; A (edad 58, <70 años) = 0; S (tamaño 9 mm = 7,0–9,9 mm) = 3; E (sin HSA previa) = 0; S (localización = bifurcación ACM) = 2. Total = 0+1+0+3+0+2 = 6 puntos. Puntuación 5–6 = 3,3% de riesgo de rotura a 5 años.",
+          "wrong": {
+            "B": "La puntuación 7 requeriría un factor de riesgo adicional como edad ≥70 años o HSA previa. Esta paciente tiene 58 años (sin punto de edad) y no tiene HSA previa (sin punto E)",
+            "C": "La puntuación 4 no se corresponde con los componentes: localización ACM (2) + hipertensión (1) + tamaño 7–9,9 mm (3) = 6, no 4",
+            "D": "La puntuación 9 requeriría múltiples características de alto riesgo adicionales como localización en circulación posterior (4 puntos) o mayor tamaño del aneurisma, o etnia japonesa/finlandesa"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Puntuación PHASES recomendada para el cálculo del riesgo de rotura a 5 años en AINR",
+          "trial": "Greving JP et al. Puntuación PHASES (Lancet Neurol 2014): cohorte combinada de 8.382 pacientes, 230 roturas; puntuación 5–6 = 3,3% de riesgo de rotura a 5 años",
+          "pearl": "Componentes de PHASES: Población (0 o 3), Hipertensión (1), Edad ≥70 (1), Tamaño (0/3/6/10), HSA previa (1), Localización (0/2/4). ACM = 2 puntos. Posterior/AComP = 4 puntos. Puntuación 5–6 = 3,3% de riesgo a 5 años."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q2",
+        "stem": "El ISUIA (Wiebers, Lancet 2003) comunicó un riesgo de rotura a 5 años del 0% para aneurismas de la circulación anterior <7 mm en pacientes sin HSA previa. ¿Qué afirmación describe MEJOR la limitación de este hallazgo?",
+        "options": {
+          "A": "El ISUIA no es válido porque utilizó una definición de rotura diferente a la de otros estudios",
+          "B": "El ISUIA excluyó los aneurismas ya considerados apropiados para el tratamiento por el médico tratante (sesgo de selección), y el 20–30% de los aneurismas rotos en la práctica clínica miden <7 mm",
+          "C": "El ISUIA solo incluyó pacientes japoneses, lo que limita su generalización a las poblaciones occidentales",
+          "D": "El ISUIA siguió a los pacientes solo durante 1 año, que es demasiado corto para detectar eventos de rotura"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ISUIA tuvo un sesgo de selección crítico: los pacientes incluidos en la cohorte de historia natural tenían aneurismas para los que el tratamiento AÚN NO había sido recomendado. Esto significa que la población del estudio tenía aneurismas con características que los médicos tratantes consideraron de menor riesgo — seleccionando en contra de la morfología de alto riesgo, los aneurismas sintomáticos y las formas irregulares. Esto sesga los datos de historia natural hacia la subestimación del riesgo de rotura. Además, los datos del mundo real muestran consistentemente que el 20–30% de los aneurismas rotos miden <7 mm, contradiciendo la cifra de riesgo a 5 años del 0%.",
+          "wrong": {
+            "A": "El ISUIA utilizó una definición estándar de rotura (HSA que requiere hospitalización) — esta no es la limitación metodológica",
+            "C": "El ISUIA fue un estudio multicéntrico internacional que incluyó centros norteamericanos y europeos, no exclusivamente japoneses",
+            "D": "El ISUIA tuvo una mediana de seguimiento de 8,3 años para el grupo de historia natural — no es una duración de seguimiento corta"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Limitaciones de los datos del ISUIA: el sesgo de selección excluye los casos apropiados para el tratamiento; se prefiere la puntuación PHASES para la evaluación del riesgo individualizado",
+          "trial": "ISUIA (Wiebers Lancet 2003): 4.060 pacientes — el sesgo de selección del grupo de historia natural es la principal crítica metodológica",
+          "pearl": "El 0% del ISUIA para AINR anteriores <7 mm es ENGAÑOSO por sesgo de selección (se excluyeron los casos de alto riesgo). En el mundo real: el 20–30% de los aneurismas rotos miden <7 mm. Usar la puntuación PHASES para el riesgo individualizado, no el tamaño solamente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q3",
+        "stem": "Un varón de 52 años es diagnosticado de un aneurisma cavernoso izquierdo de la arteria carótida interna de 14 mm que causa parálisis progresiva del nervio motor ocular externo. El aneurisma es completamente intracavernoso sin componente subaracnoideo. No tiene antecedentes de HSA. ¿Cuál es el tratamiento MÁS adecuado?",
+        "options": {
+          "A": "Clipaje quirúrgico mediante craneotomía pterional",
+          "B": "Desviación de flujo con Dispositivo de Embolización Pipeline (PED) más doble antiagregación plaquetaria",
+          "C": "Embolización endovascular estándar con espirales sola",
+          "D": "Observación con angioTC anual — los aneurismas cavernosos de la ACI nunca se rompen hacia el espacio subaracnoideo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un aneurisma cavernoso de la ACI de 14 mm que causa parálisis progresiva del PC VI es la indicación paradigmática del Dispositivo de Embolización Pipeline (PED). Los aneurismas del segmento cavernoso son el objetivo principal del PED — el clipaje quirúrgico es de riesgo extremadamente alto (abordaje al seno cavernoso, PC III/IV/V/VI en riesgo, y la ACI cavernosa no puede cliparse de forma segura). La embolización estándar con espirales sola tiene altas tasas de recurrencia para aneurismas grandes. El PED logra entre el 75–90% de oclusión completa a los 12 meses. El paciente requiere doble antiagregación plaquetaria (aspirina + clopidogrel) durante un mínimo de 6 meses con prueba de resistencia al clopidogrel (P2Y12) antes del procedimiento.",
+          "wrong": {
+            "A": "El clipaje quirúrgico de un aneurisma cavernoso de la ACI requiere abordajes transsylvianos/extradurales al seno cavernoso — morbilidad muy alta por daño de PC III/IV/VI. No es adecuado como tratamiento principal para un aneurisma cavernoso sin extensión subaracnoidea",
+            "C": "La embolización estándar con espirales sola para un aneurisma de 14 mm tiene altas tasas de recurrencia (30–40%) por compactación de espirales e inestabilidad de la cúpula. El PED es superior para los aneurismas cavernosos grandes",
+            "D": "Aunque los aneurismas cavernosos de la ACI tienen menos probabilidad de romperse hacia el espacio subaracnoideo (son intradurales pero rodeados por el plexo venoso del seno cavernoso), pueden causar hemorragia subaracnoidea y más frecuentemente una fístula carótido-cavernosa. La observación no es adecuada para un aneurisma sintomático de 14 mm con parálisis progresiva del PC VI"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Aneurismas grandes cavernosos de ACI: se prefiere la desviación de flujo; no se recomienda el clipaje quirúrgico",
+          "trial": "Ensayo PUFS (Nelson AJNR 2011): 108 aneurismas grandes/gigantes de ACI tratados con PED — 74% de oclusión completa a los 6 meses, 86% a los 5 años; el estudio IntrePED confirmó la seguridad y eficacia",
+          "pearl": "Aneurisma cavernoso grande/gigante de ACI = PED preferido. Requiere doble antiagregación mínimo 6 meses. PED: oclusión gradual en 3–6 meses, 75–90% completa a los 12 meses. No para HSA aguda, no para aneurismas en bifurcación, no para circulación posterior con perforantes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q4",
+        "stem": "Una mujer de 45 años tiene un aneurisma de cuello ancho no roto de 7 mm en la bifurcación de la ACM derecha (relación cúpula/cuello 1,1) con morfología irregular multilobulada. El equipo neurovascular decide proceder con el tratamiento endovascular. ¿Cuál es la opción endovascular MÁS adecuada para este aneurisma dado su morfología?",
+        "options": {
+          "A": "Embolización estándar con espirales sin ningún dispositivo complementario",
+          "B": "Desviación de flujo con Dispositivo Pipeline a través de la bifurcación de la ACM",
+          "C": "Embolización asistida con stent (stent LVIS o Enterprise a través del cuello de la ACM)",
+          "D": "Dispositivo WEB intrasacular (Woven EndoBridge) para aneurisma de cuello ancho en bifurcación"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "El aneurisma de cuello ancho en bifurcación de la ACM (relación cúpula/cuello 1,1, muy por debajo del umbral de 1,5) es la indicación principal del dispositivo WEB. El WEB es un disruptor de flujo intrasacular desplegado dentro del saco del aneurisma — no requiere un stent, evitando la necesidad de carga de clopidogrel. Para un aneurisma electivo no roto, la aspirina sola antes del procedimiento es suficiente. Los estudios WEBCAST y CLARITY demostraron una oclusión adecuada en el 80–85% de los aneurismas de cuello ancho en bifurcación a los 12 meses. El WEB está diseñado específicamente para aneurismas en bifurcación (ACM, ACoA, punta basilar) de cuello ancho.",
+          "wrong": {
+            "A": "La embolización estándar sin complementos para un aneurisma de cuello ancho (relación C/C 1,1) tiene muy altas tasas de fracaso — las espirales se prolapsan hacia la arteria portadora por el cuello ancho y la ausencia de soporte estructural",
+            "B": "El Pipeline (PED) está contraindicado para aneurismas en bifurcación — la bifurcación de la ACM tiene ramas importantes (divisiones M2) que emergen directamente del aneurisma o cerca de él. La desviación de flujo a través de bifurcaciones arriesga ocluir los orígenes de las ramas con consecuencias isquémicas",
+            "C": "La embolización asistida con stent es una opción válida pero requiere doble antiagregación (clopidogrel + aspirina) durante 3–6 meses antes y después del procedimiento. Aunque factible de forma electiva, el WEB está específicamente diseñado para esta anatomía y evita la complejidad de colocar un stent a través de una bifurcación de la ACM"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015; estudios WEBCAST y CLARITY — dispositivo WEB para aneurismas de cuello ancho en bifurcación (ACM, ACoA, punta basilar)",
+          "trial": "WEBCAST (Lubicz, Stroke 2017): 51 aneurismas de cuello ancho en bifurcación — oclusión adecuada 85% a los 12 meses. CLARITY (Pierot, AJNR 2019): 169 pacientes — oclusión adecuada 84,1%",
+          "pearl": "Dispositivo WEB = aneurismas de cuello ancho en BIFURCACIÓN (ACM, ACoA, punta basilar). Sin clopidogrel (solo aspirina). Embolización asistida con stent requiere doble antiagregación. Pipeline contraindicado en bifurcaciones. El WEB actúa intrasacularmente — sin stent en la arteria portadora."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q5",
+        "stem": "¿Cuál de los siguientes pacientes debería recibir MÁS angioRM de cribado para aneurismas intracraneales según las guías actuales?",
+        "options": {
+          "A": "Un varón de 50 años con un solo familiar de primer grado que sufrió un infarto de miocardio",
+          "B": "Una mujer de 35 años con poliquistosis renal autosómica dominante (PRAD) y antecedentes familiares de HSA aneurismática",
+          "C": "Un varón de 60 años con hipertensión crónica y 30 paquetes-año de tabaquismo",
+          "D": "Una mujer de 45 años con migraña con aura sin antecedentes familiares de enfermedad vascular"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La PRAD conlleva una prevalencia del 10–12% de aneurismas intracraneales no rotos (frente al 3–5% de la población general), con mayor riesgo de rotura especialmente en los que tienen antecedentes familiares de HSA. Se recomienda angioRM de cribado para los pacientes con PRAD con antecedentes familiares de HSA. Esta paciente cumple ambos criterios: PRAD + antecedentes familiares de HSA aneurismática. El cribado de aneurisma intracraneal familiar (AIF) también está indicado para personas con dos o más familiares de primer grado con HSA aneurismática.",
+          "wrong": {
+            "A": "Un solo familiar de primer grado con infarto de miocardio no cumple los criterios de cribado — los antecedentes familiares relevantes son la HSA aneurismática, no la enfermedad cardíaca. El AIF requiere dos o más familiares de primer grado con HSA aneurismática (o uno de primer y uno de segundo grado)",
+            "C": "La hipertensión y el tabaquismo son factores de riesgo para la rotura de aneurismas, pero solos sin antecedentes familiares de HSA o PRAD no cumplen las guías de cribado actuales",
+            "D": "La migraña con aura no es una indicación para el cribado de aneurismas. La migraña puede causar mímicos de cefalea en trueno, pero sin antecedentes familiares no se aplica ningún protocolo de cribado"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — AngioRM de cribado recomendada en: dos o más familiares de primer grado con HSA aneurismática (AIF); PRAD con antecedentes familiares de HSA",
+          "trial": "Rinkel GJE et al. (Stroke 1998): prevalencia del AIF y rendimiento del cribado — el cribado con angioRM en familias con AIF detecta AINR en el 9–10% frente al 3–5% de la población general; cribado en PRAD (Irazabal CJASN 2011): prevalencia de AINR del 10–12%",
+          "pearl": "Indicaciones de cribado de aneurisma: (1) AIF — 2+ familiares de primer grado con HSA aneurismática; (2) PRAD + antecedentes familiares de HSA. Modalidad de cribado: angioRM (no angioTC — sin radiación para cribados seriados). Intervalo: cada 7–10 años si negativo."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q6",
+        "stem": "Se planifica la embolización asistida con stent para un aneurisma electivo de cuello ancho de la arteria comunicante anterior de 11 mm en un varón de 55 años. ¿Cuál es el requisito previo al procedimiento MÁS crítico que diferencia la embolización asistida con stent de la embolización estándar?",
+        "options": {
+          "A": "Debe usarse anestesia general (mientras que la embolización estándar puede realizarse con sedación consciente)",
+          "B": "Doble antiagregación plaquetaria previa al procedimiento (aspirina + clopidogrel) iniciada al menos 5 días antes, con prueba de función P2Y12 para confirmar inhibición plaquetaria adecuada",
+          "C": "RM cerebral previa al procedimiento para excluir lesiones de masa adyacentes al aneurisma",
+          "D": "Ecografía de carótidas previa al procedimiento para evaluar estenosis tandem"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El requisito diferenciador crítico para la embolización asistida con stent es la doble antiagregación plaquetaria (DAP) previa al procedimiento. El stent intravascular es una superficie trombogénica, y sin una inhibición plaquetaria adecuada, la trombosis in-stent con oclusión de la arteria portadora e ictus es un riesgo importante. La aspirina + clopidogrel se inicia al menos 5 días antes del procedimiento (permitiendo tiempo para una inhibición plaquetaria adecuada). La prueba de función P2Y12 (VerifyNow o ensayo Multiplate) confirma la respuesta adecuada al clopidogrel — los no respondedores al clopidogrel (hasta el 30% de los pacientes) requieren agentes antiplaquetarios alternativos (prasugrel, ticagrelor). Este requisito de DAP hace que la embolización asistida con stent esté contraindicada para los aneurismas rotos agudos.",
+          "wrong": {
+            "A": "La anestesia general es preferida para los procedimientos endovasculares complejos pero no es el requisito diferenciador específico — la embolización estándar también se realiza habitualmente bajo anestesia general en la mayoría de los centros",
+            "C": "La RM cerebral previa al procedimiento no es específica de la embolización asistida con stent — puede realizarse como práctica estándar pero no es el requisito diferenciador clave",
+            "D": "La ecografía de carótidas es relevante para evaluar el acceso pero no es un requisito previo al procedimiento específico que diferencie la embolización asistida con stent de la estándar"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — La embolización asistida con stent requiere DAP previa al procedimiento durante un mínimo de 5 días; contraindicada en la HSA aguda",
+          "trial": "Shapiro M et al. (AJNR 2012): embolización asistida con stent — las complicaciones tromboembólicas se reducen significativamente con la carga de clopidogrel previa al procedimiento; prueba P2Y12: Kang HS (Stroke 2010) — resistencia al clopidogrel en el 30% de los pacientes",
+          "pearl": "Embolización asistida con stent = DAP previa obligatoria (aspirina + clopidogrel ≥5 días) + prueba P2Y12. CONTRAINDICADA en HSA aguda rota. Embolización estándar y dispositivo WEB: solo aspirina (no se requiere clopidogrel). Esta es una distinción práctica clave."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q7",
+        "stem": "Un varón de 70 años con enfermedad carotídea conocida presenta una historia de 3 semanas de ptosis derecha progresiva, diplopía (limitación de la mirada vertical) y midriasis. La RM con gadolinio muestra una masa paraclinoidea derecha de 22 mm con realce heterogéneo. ¿Cuál es el diagnóstico MÁS probable y qué imagen inmediata se requiere?",
+        "options": {
+          "A": "Macroadenoma hipofisario con invasión del seno cavernoso — RM hipofisaria urgente con secuencias dinámicas de gadolinio",
+          "B": "Aneurisma gigante de la arteria comunicante posterior con parálisis compresiva del PC III — angioTC o angiografía con catéter urgente",
+          "C": "Meningioma del seno cavernoso — biopsia y derivación a oncología",
+          "D": "Síndrome de Tolosa-Hunt (sinusitis cavernosa granulomatosa) — corticosteroides y RM de seguimiento"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una parálisis progresiva dolorosa del PC III (ptosis, diplopía, midriasis) en un paciente mayor con una masa paraselar es un aneurisma gigante hasta que se demuestre lo contrario. El aspecto en RM (realce heterogéneo de gadolinio con vacíos de flujo en un núcleo no realzado, tamaño de 22 mm) es característico de un aneurisma gigante parcialmente trombosado. La angioTC o la angiografía con catéter urgente es obligatoria para definir la anatomía vascular antes de cualquier otra intervención. La afectación de la pupila distingue la parálisis compresiva del PC III de la parálisis isquémica (vasculopática) del PC III, donde la pupila típicamente se preserva.",
+          "wrong": {
+            "A": "El macroadenoma hipofisario con invasión del seno cavernoso es un diagnóstico diferencial razonable, pero típicamente se presenta con hemianopsia bitemporal por compresión del quiasma y alteraciones hormonales. La combinación de parálisis del PC III con afectación pupilar con un síndrome predominantemente del PC III (no pan-seno cavernoso) y una lesión bien delimitada de 22 mm es más consistente con un aneurisma gigante",
+            "C": "El meningioma del seno cavernoso típicamente causa parálisis múltiples progresivas de pares craneales sin afectación pupilar y tiene un aspecto característico en TC (hiperostosis, cola dural). Una biopsia sin angiografía sería catastrófica si esto es un aneurisma",
+            "D": "El Tolosa-Hunt causa oftalmoplejia dolorosa por inflamación granulomatosa y responde a esteroides. Sin embargo, típicamente no causa una masa con realce de 22 mm, y el abordaje correcto es siempre la imagen vascular antes de asumir una causa inflamatoria benigna"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Los aneurismas gigantes con efecto de masa requieren imagen vascular (angioTC/ASD) antes de cualquier biopsia o tratamiento con esteroides; parálisis del PC III con afectación pupilar = causa vascular hasta que se demuestre lo contrario",
+          "trial": "Linskey ME et al. (Neurosurgery 1990): aneurisma gigante presentado como masa paraselar — diagnóstico erróneo como tumor en el 15% de los casos antes de la imagen; sensibilidad de la angioTC del 97–99% para aneurismas gigantes",
+          "pearl": "Parálisis del PC III CON afectación pupilar + masa paraselar = ANEURISMA GIGANTE hasta que se demuestre lo contrario. Siempre obtener angioTC/ASD antes de la biopsia. La afectación pupilar distingue la parálisis compresiva (vascular/tumoral) de la isquémica (vasculopática) del PC III — la parálisis isquémica del PC III respeta la pupila."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q8",
+        "stem": "Una mujer de 48 años con PRAD se somete a angioRM de cribado y se encuentra un aneurisma de la arteria comunicante anterior derecha de 5 mm. No tiene antecedentes de HSA. Su puntuación PHASES es 5 (riesgo de rotura a 5 años del 3,3%). Por lo demás está sana. ¿Cuál es el manejo más adecuado?",
+        "options": {
+          "A": "Clipaje quirúrgico inmediato — los aneurismas en PRAD siempre requieren tratamiento",
+          "B": "Embolización endovascular inmediata — todos los aneurismas de la arteria comunicante anterior requieren tratamiento independientemente del tamaño",
+          "C": "Decisión individualizada: el tratamiento puede ser adecuado dada la edad joven, la larga esperanza de vida y la puntuación PHASES moderada (3,3% a 5 años); discutir los riesgos de la intervención frente a la observación",
+          "D": "Observación con angioRM cada 10 años — el ISUIA muestra un riesgo de rotura del 0% para los aneurismas anteriores <7 mm"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Esta mujer de 48 años con PRAD, un riesgo de rotura a 5 años del 3,3% (puntuación PHASES 5) y una larga esperanza de vida representa una decisión compleja. PHASES 3,3% a 5 años = aproximadamente 0,66% de riesgo anual. Si vive 35 años más, su riesgo de rotura acumulado durante su vida es de aproximadamente el 20–25%. El riesgo procedimental para la embolización endovascular electiva de un aneurisma de la ACoA de este tamaño es de aproximadamente el 1–3% de morbilidad/mortalidad en centros con experiencia. Dada la edad joven, los factores de riesgo asociados a la PRAD y la localización en la ACoA (asociada a mayor riesgo de rotura que la ACI cavernosa), el tratamiento puede ser la decisión correcta — pero esto requiere una discusión individualizada, no observación ni tratamiento automáticos.",
+          "wrong": {
+            "A": "Los aneurismas en PRAD no 'requieren siempre tratamiento' — se aplica el mismo análisis de riesgo-beneficio que para los aneurismas esporádicos, aunque los pacientes con PRAD tienen mayor prevalencia y deberían tener un umbral más bajo para la consideración del tratamiento",
+            "B": "Todos los aneurismas de la arteria comunicante anterior NO requieren tratamiento independientemente del tamaño. La localización aumenta el riesgo (PHASES 2 puntos para ACoA), pero la decisión de tratamiento siempre equilibra el riesgo procedimental frente al riesgo de historia natural",
+            "D": "La cifra del 0% del ISUIA tiene importantes limitaciones de sesgo de selección (ver B4-Q2). Un aneurisma de 5 mm de la ACoA en una paciente de 48 años con PRAD NO debe descartarse categóricamente como riesgo cero — la localización ACoA tiene 2 puntos de PHASES y el factor de riesgo previo de PRAD es relevante"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Las decisiones de tratamiento requieren análisis de riesgo-beneficio individualizado; la edad joven, la puntuación PHASES alta, la localización en la arteria comunicante anterior y la PRAD favorecen la consideración del tratamiento",
+          "trial": "ISUIA (Wiebers Lancet 2003): datos de historia natural con sesgo de selección; PHASES (Greving LN 2014): riesgo individualizado a 5 años; riesgo de rotura de aneurismas en PRAD: Irazabal (CJASN 2011)",
+          "pearl": "Decisión de tratamiento para AINR: puntuación PHASES × edad del paciente/esperanza de vida × riesgo procedimental × preferencia del paciente × anatomía. Los pacientes jóvenes con puntuaciones PHASES moderadas y larga esperanza de vida frecuentemente se benefician del tratamiento. Los pacientes mayores con puntuaciones PHASES bajas pueden razonablemente ser vigilados."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q9",
+        "stem": "¿Cuál de las siguientes describe mejor el mecanismo del Dispositivo de Embolización Pipeline (PED) y por qué la oclusión del aneurisma se produce de forma TARDÍA tras el despliegue?",
+        "options": {
+          "A": "El PED rellena inmediatamente el aneurisma con espirales de platino, causando trombosis instantánea",
+          "B": "El PED se despliega en la arteria portadora a través del cuello del aneurisma, redirigiendo el flujo sanguíneo lejos del aneurisma e induciendo trombosis progresiva en semanas a meses",
+          "C": "El PED libera trombina directamente en el aneurisma, causando trombosis química en 24 horas",
+          "D": "El PED ocluye la arteria portadora, causando trombosis del aneurisma por eliminación del flujo de entrada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El Dispositivo de Embolización Pipeline es un stent endovascular trenzado de alta densidad de malla (35% de cobertura metálica superficial) desplegado en la ARTERIA PORTADORA a través del cuello del aneurisma — NO va dentro del aneurisma. La alta densidad de malla redirige el flujo sanguíneo (desviación de flujo) lejos del orificio del aneurisma, reduciendo las velocidades de flujo intraaneurismático y la tensión de cizallamiento de la pared. Esto promueve una trombosis progresiva dentro del saco del aneurisma a lo largo de semanas a meses. El tejido neointimal crece a través del cuello sobre la malla, remodelando permanentemente la arteria portadora y excluyendo el aneurisma. Este proceso gradual explica por qué la oclusión completa tarda 3–6 meses (75–90% a los 12 meses) — no es un procedimiento inmediatamente protector.",
+          "wrong": {
+            "A": "El PED no contiene ni despliega espirales — es un desviador de flujo desplegado en la arteria portadora, no un dispositivo de relleno del aneurisma",
+            "C": "El PED no tiene mecanismo farmacológico de liberación de trombina. La trombosis ocurre por mecanismos hemodinámicos (desviación de flujo), no químicos",
+            "D": "El PED NO ocluye la arteria portadora — esto causaría un ictus isquémico en el territorio distal al aneurisma. La arteria portadora permanece permeable mientras el aneurisma trombosa"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Mecanismo de desviación de flujo: reconstrucción endoluminal de la arteria portadora que redirige el flujo lejos del aneurisma",
+          "trial": "Ensayo PUFS (Nelson AJNR 2011): 108 pacientes — mecanismo del PED establecido; oclusión tardía confirmada a los 6 meses (74%) y 12 meses (76%) en el estudio prospectivo",
+          "pearl": "PED = desviador de flujo de la arteria portadora, NO dispositivo intrasacular. La alta densidad de malla redirige el flujo, causando trombosis GRADUAL del aneurisma en meses. NO es inmediatamente protector — la oclusión completa tarda 3–6 meses. Requiere doble antiagregación durante un mínimo de 6 meses."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q10",
+        "stem": "Una mujer de 60 años con un aneurisma gigante de la punta basilar de 12 mm está siendo considerada para tratamiento endovascular. Presenta ptosis bilateral y restricción de la mirada vertical por compresión del aneurisma. El equipo debate la embolización estándar frente al Dispositivo de Embolización Pipeline. ¿Por qué el Dispositivo de Embolización Pipeline está relativamente CONTRAINDICADO para este aneurisma?",
+        "options": {
+          "A": "El PED no puede desplegarse en vasos de diámetro inferior a 3 mm",
+          "B": "El aneurisma de la punta basilar tiene múltiples arterias perforantes críticas (perforantes talamoperforantes, ramas de la ACPo) emergentes adyacentes al cuello del aneurisma, que pueden quedar cubiertas por el PED de alta densidad de malla, con riesgo de oclusión",
+          "C": "El PED requiere acceso carotídeo ipsilateral, que no puede lograrse para los aneurismas de la arteria basilar",
+          "D": "El PED ocluye demasiado rápidamente para los aneurismas de la punta basilar, causando déficit neurológico inmediato"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los aneurismas de la circulación posterior — en particular los aneurismas de la punta basilar — son una contraindicación relativa para el Dispositivo de Embolización Pipeline por la densa red de arterias perforantes críticas (arterias talamoperforantes, orígenes de la ACPo, orígenes de la arteria cerebelosa superior) que emergen en la punta basilar y en su inmediata adyacencia. La alta densidad de malla del PED (35% de cobertura metálica superficial) colocado a través de estas perforantes arriesga la oclusión de pequeñas arterias perforantes, causando infartos en el puente, mesencéfalo y tálamo — potencialmente devastadores. Este riesgo es mucho menor para los aneurismas de la ACI donde el segmento vascular cubierto tiene pocas o ninguna perforante.",
+          "wrong": {
+            "A": "El PED puede desplegarse en vasos de 2,5–5 mm de diámetro — la arteria basilar (típicamente 3–4 mm) está dentro de este rango. El tamaño del dispositivo no es la contraindicación",
+            "C": "El acceso a la arteria basilar para el PED se logra a través de las arterias vertebrales (femoral → arteria vertebral → basilar), no a través de la carótida. El acceso es técnicamente factible",
+            "D": "El PED causa trombosis TARDÍA (meses) — no ocluye rápidamente. La preocupación con el PED en la punta basilar es la cobertura de perforantes, no la velocidad de oclusión"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — PED: usar con precaución en la circulación posterior; el riesgo de cobertura de perforantes es la principal preocupación para los aneurismas de la punta basilar",
+          "trial": "Estudio IntrePED (Kallmes, AJNR 2015): 793 procedimientos con PED — los aneurismas de la circulación posterior se asociaron a tasas más altas de complicaciones isquémicas (12,7% frente a 5,9% para la circulación anterior)",
+          "pearl": "PED CONTRAINDICADO (relativo) para la punta basilar — riesgo de cobertura de perforantes (talamoperforantes, orígenes de ACPo). El PED es mejor para la ACI (cavernosa, paraclinoidea) donde el segmento cubierto no tiene perforantes. PED en circulación posterior = mayor tasa de complicaciones isquémicas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q11",
+        "stem": "Una mujer de 55 años tiene dos familiares de primer grado que sufrieron HSA aneurismática: su madre a los 52 años y su hermano a los 47 años. Se realiza una angioRM de cribado a los 50 años y no se encuentra ningún aneurisma intracraneal. ¿Cuándo debe realizarse su próxima angioRM de cribado?",
+        "options": {
+          "A": "AngioRM anual indefinidamente",
+          "B": "Sin más cribado — una única angioRM negativa excluye el aneurisma intracraneal familiar",
+          "C": "Repetir angioRM en 7–10 años (aproximadamente a los 57–60 años)",
+          "D": "Repetir angioRM en 20 años (aproximadamente a los 70 años)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Para las familias con aneurisma intracraneal familiar (AIF) — definido como dos o más familiares de primer grado con HSA aneurismática — se recomienda la angioRM de cribado comenzando a los 20–25 años. Si el primer cribado es negativo, se recomienda repetir el cribado cada 7–10 años para detectar la formación de nuevos aneurismas (los aneurismas de novo se desarrollan en familias con AIF). Un único cribado negativo no excluye el riesgo de aneurisma durante toda la vida en el AIF — los aneurismas pueden desarrollarse con el tiempo en individuos genéticamente susceptibles.",
+          "wrong": {
+            "A": "La angioRM anual es innecesariamente frecuente para un paciente con un primer cribado negativo. El intervalo de 7–10 años está basado en la evidencia y reduce la exposición a la radiación (si se usa angioTC) y el coste",
+            "B": "Un único cribado negativo NO excluye permanentemente el AIF. La formación de aneurismas de novo ocurre en individuos genéticamente susceptibles — pueden desarrollarse nuevos aneurismas en vasos previamente normales",
+            "D": "Veinte años entre cribados es demasiado tiempo. El intervalo de consenso para el AIF es de 7–10 años — suficientemente largo para evitar intervenciones innecesarias, pero suficientemente corto para detectar la formación de nuevos aneurismas mientras siguen siendo pequeños y tratables"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Cribado en AIF: iniciar a los 20–25 años; si negativo, repetir cada 7–10 años",
+          "trial": "Rinkel GJE et al. (Stroke 1998): rendimiento y intervalos del cribado en AIF; Programa de AIF finlandés: 43% de rendimiento en familias con ≥2 miembros afectados; formación de aneurismas de novo documentada en el cribado seriado",
+          "pearl": "Protocolo de cribado en AIF: inicio a los 20–25 años → si negativo, repetir cada 7–10 años. Un ÚNICO cribado negativo NO excluye el riesgo durante toda la vida. Modalidad: angioRM (no angioTC — sin radiación para el cribado seriado)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q12",
+        "stem": "Un varón de 65 años con un aneurisma de la ACI derecha de 8 mm previamente embolizado con espirales se somete a una angioRM de seguimiento rutinaria a los 3 años. Muestra recanalización del cúpula del aneurisma con compactación parcial de espirales (Raymond-Roy Clase III). Está asintomático. ¿Cuál es el manejo recomendado?",
+        "options": {
+          "A": "Observación con angioRM repetida en 5 años — la recanalización menor no requiere tratamiento",
+          "B": "Retratamiento endovascular (reembolización, embolización asistida con stent o desviación de flujo) basado en la morfología del aneurisma y el grado de recanalización",
+          "C": "Clipaje quirúrgico inmediato ya que el aneurisma ha fallado el tratamiento endovascular",
+          "D": "Anticoagulación con warfarina para prevenir la formación de trombo dentro del aneurisma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La recanalización del aneurisma después de la embolización con espirales (Raymond-Roy Clase III = recanalización mayor) indica compactación significativa de las espirales con reapertura de la cúpula del aneurisma — esto conlleva un riesgo renovado de rotura. Los datos a largo plazo del ISAT mostraron una tasa de retratamiento del 13,6% después de la embolización a los 18 años (frente al 8,4% para el clipaje). Para la recanalización Raymond-Roy Clase III (mayor), generalmente se recomienda el retratamiento. Las opciones dependen de la anatomía: reembolización, embolización asistida con stent (si no se ha colocado previamente un stent) o desviación de flujo (PED) si el cuello es ancho. El clipaje quirúrgico sigue siendo una opción, pero es de mayor riesgo después de un tratamiento endovascular fallido.",
+          "wrong": {
+            "A": "La Raymond-Roy Clase III (recanalización mayor con reapertura de la cúpula) NO es un hallazgo menor — indica que la masa de espirales se ha compactado alejándose de la cúpula, dejándola expuesta a la presión arterial. La observación aislada es inadecuada para la recanalización Clase III",
+            "C": "El clipaje quirúrgico es una opción pero no la primera elección automática después de una embolización fallida. La reembolización o la desviación de flujo se consideran típicamente en primer lugar antes de comprometerse con una cirugía abierta",
+            "D": "La anticoagulación aumentaría el riesgo de sangrado del aneurisma recanalizado y no tiene ningún papel en el manejo del aneurisma"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — La recanalización del aneurisma (Raymond-Roy Clase III) después de la embolización justifica el retratamiento en la mayoría de los casos; modalidad de retratamiento basada en anatomía",
+          "trial": "ISAT a largo plazo (Molyneux Lancet 2015): tasa de retratamiento del 13,6% después de embolización a los 18 años frente al 8,4% después del clipaje; escala de oclusión Raymond-Roy: Clase I=completa, II=remanente de cuello, III=recanalización de cúpula",
+          "pearl": "Recanalización Raymond-Roy Clase III = reapertura mayor del aneurisma → retratamiento necesario. Por esto la embolización tiene menor durabilidad a largo plazo que el clipaje (ISAT: 13,6% frente a 8,4% de retratamiento a los 18 años). Siempre seguir los aneurismas embolizados con imagen a los 6m, 18m, 3a, 5a."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q13",
+        "stem": "Una mujer de 62 años es sometida a resección de un glioblastoma frontoparietal derecho. Intraoperatoriamente, se identifica un aneurisma de 6 mm en el segmento M1 de la ACM derecha en la angiografía, de forma incidental. La cirugía del GBM se completa con éxito. ¿Cuál es el manejo más adecuado del aneurisma incidental?",
+        "options": {
+          "A": "Embolización inmediata del aneurisma el mismo día que la craneotomía",
+          "B": "Derivar al equipo neurovascular para cálculo electivo de la puntuación PHASES y decisión de tratamiento individualizada, considerando que el pronóstico del GBM (supervivencia media 12–15 meses) influye significativamente en el análisis de riesgo-beneficio",
+          "C": "Sin manejo adicional — los pacientes con tumor cerebral no deben someterse a tratamiento de aneurisma",
+          "D": "Clipaje quirúrgico durante la misma craneotomía para la resección del GBM"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un aneurisma incidental en un paciente con GBM requiere un abordaje matizado. La supervivencia media del GBM con el protocolo estándar de Stupp (temozolomida + RT) es de 14–16 meses. El riesgo de rotura a 5 años de un aneurisma de 6 mm de la ACM basado en PHASES (asumiendo localización en ACM = 2 puntos, sin hipertensión, edad 62 <70, sin HSA previa, y población no japonesa) es relativamente bajo. Dada la supervivencia media del GBM <2 años, el riesgo de rotura durante su vida es sustancialmente menor que en un paciente con esperanza de vida normal. El tratamiento debe discutirse con el equipo neurovascular en el contexto del pronóstico del GBM — el tratamiento electivo puede diferirse dada la corta supervivencia esperada, o tratarse si el paciente es joven, tiene buen estado funcional y se anticipa una supervivencia prolongada.",
+          "wrong": {
+            "A": "La embolización el mismo día después de una craneotomía mayor es técnicamente factible pero añade riesgo procedimental y anticoagulación en un lecho quirúrgico reciente — no adecuada sin una indicación clara",
+            "C": "Los pacientes con GBM NO están automáticamente excluidos del tratamiento de aneurismas — la decisión requiere evaluación individual. La exclusión general ignora los casos en los que el pronóstico del paciente puede ser mejor de lo esperado",
+            "D": "Clipar el aneurisma durante la misma craneotomía requeriría extender la disección mucho más allá del sitio de resección del tumor (el GBM es frontoparietal, el aneurisma es del segmento M1) — esto añade riesgo operatorio sustancial sin beneficio claro en el contexto agudo"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Las comorbilidades modifican significativamente el cálculo de riesgo-beneficio del tratamiento; las comorbilidades que limitan el pronóstico (cáncer) reducen el riesgo de rotura durante la vida",
+          "trial": "ISUIA (Wiebers Lancet 2003): riesgo del tratamiento frente a historia natural; la esperanza de vida es una variable clave — la menor esperanza de vida reduce el riesgo de rotura durante la vida de cualquier porcentaje de riesgo anual dado",
+          "pearl": "AINR incidental en cáncer: considerar siempre el pronóstico. Supervivencia media del GBM 14 meses — el riesgo de rotura durante la vida de un aneurisma de PHASES bajo es mínimo en comparación con el riesgo del tratamiento. Individualizar según la supervivencia esperada, la puntuación PHASES y las preferencias del paciente."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q14",
+        "stem": "¿Cuál es la importancia de la 'irregularidad' del aneurisma o la morfología de 'saco satélite' en el riesgo de rotura, y está incorporado en la puntuación PHASES?",
+        "options": {
+          "A": "La morfología irregular/sacos satélite NO se asocia con mayor riesgo de rotura; la puntuación PHASES correctamente ignora este factor",
+          "B": "La morfología irregular (bolsillos, sacos satélite, multilobulaciones) aumenta significativamente el riesgo de rotura y se asocia con mayor riesgo que los aneurismas lisos del mismo tamaño; NO está incorporado en la puntuación PHASES, pero se considera clínicamente al tomar decisiones de tratamiento",
+          "C": "PHASES incorpora la morfología como su variable principal (5 puntos por irregular frente a 0 por liso)",
+          "D": "Los sacos satélite se asocian con menor riesgo de rotura porque indican un crecimiento lento y estable del aneurisma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Múltiples estudios (validación de PHASES, ISUIA y múltiples cohortes observacionales) han confirmado que la morfología irregular del aneurisma — bolsillos, sacos satélite, multilobulaciones y superficie irregular — es un predictor independiente del riesgo de rotura más allá del tamaño solamente. Se cree que los aneurismas irregulares representan áreas de concentración de estrés de la pared local y cambios degenerativos de la pared. La puntuación PHASES, a pesar de ser el calculador de riesgo más validado, NO incluye la morfología — esta es una limitación reconocida. Los clínicos deben considerar la morfología como un factor adicional al tomar decisiones de tratamiento para los aneurismas con riesgo PHASES limítrofe.",
+          "wrong": {
+            "A": "La morfología irregular SÍ se asocia con mayor riesgo de rotura — este es uno de los hallazgos más consistentes en los estudios de historia natural de AINR. Es un modificador clínico clave aunque PHASES no lo incluya",
+            "C": "PHASES no incluye la morfología — esta es una limitación validada de la puntuación. Las seis variables de PHASES son: Población, Hipertensión, Edad, Tamaño, HSA previa, Localización",
+            "D": "Los sacos satélite indican debilidad focal de la pared y estrés hemodinámico activo, NO un crecimiento lento y estable. Se asocian con MAYOR riesgo de rotura"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — La morfología irregular, los bolsillos y los sacos satélite aumentan el riesgo de rotura; los clínicos deben considerar la morfología además de la puntuación PHASES",
+          "trial": "Derivación de PHASES (Greving LN 2014): morfología no incluida por medición heterogénea entre conjuntos de datos; Orz Y (Neurosurg Rev 2018): morfología irregular asociada con 2,4 veces mayor riesgo de rotura",
+          "pearl": "PHASES NO incluye la morfología — una limitación conocida. Los aneurismas irregulares (bolsillos, sacos satélite, multilobulaciones) tienen mayor riesgo de rotura que los aneurismas lisos del mismo tamaño. Considerar siempre la morfología clínicamente incluso cuando la puntuación PHASES sea baja-moderada."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q15",
+        "stem": "Una mujer de 58 años sin factores de riesgo tiene un aneurisma de la arteria comunicante anterior de 4 mm descubierto incidentalmente en una TC realizada por sinusitis. Está ansiosa y pregunta sobre el riesgo anual de rotura. ¿Cuál es la afirmación más precisa sobre el riesgo de rotura de este aneurisma específico?",
+        "options": {
+          "A": "El riesgo anual de rotura es exactamente del 0% según el ISUIA — no se necesita tratamiento ni seguimiento",
+          "B": "El riesgo anual de rotura es de aproximadamente el 0,1–0,5% por año según PHASES y la evidencia clínica; se recomienda observación con imagen de seguimiento",
+          "C": "El riesgo anual de rotura es del 5–10% — debe organizarse un tratamiento endovascular urgente",
+          "D": "El riesgo anual de rotura no puede estimarse sin ASD — la angioTC/angioRM son insuficientes para la caracterización del aneurisma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un aneurisma de 4 mm de la ACoA en una mujer de 58 años sin factores de riesgo significativos: puntuación PHASES = P(0) + H(0) + A(0, <70) + S(0, <7mm) + E(0) + S(2, ACoA) = 2 puntos. Puntuación PHASES 2 → riesgo de rotura a 5 años del 0,4% = aproximadamente el 0,08% de riesgo anual. Sin embargo, las categorías de puntuación PHASES 0–2 incluyen algunos aneurismas con riesgo de rotura superior a 0. Práctica clínica: riesgo bajo-moderado (estimación anual del 0,1–0,5%) con observación e imagen de seguimiento (angioRM a los 6–12 meses para evaluar el crecimiento, luego anual o bianual). El 0% del ISUIA no debe citarse como absoluto.",
+          "wrong": {
+            "A": "El 0% del ISUIA para los AINR anteriores <7 mm tiene limitaciones de sesgo de selección — no debe citarse a los pacientes como riesgo cero absoluto. Los datos del mundo real muestran que el 20–30% de los aneurismas rotos miden <7 mm",
+            "C": "Un riesgo anual de rotura del 5–10% se aplicaría a los aneurismas gigantes (≥25 mm) o a los casos de PHASES alto. Un aneurisma de 4 mm de la ACoA en un paciente de bajo riesgo no se acerca a esta magnitud de riesgo anual",
+            "D": "La angioTC y la angioRM son adecuadas para la caracterización del aneurisma en la mayoría de las decisiones de manejo. La ASD (angiografía con catéter) está reservada para la planificación previa al tratamiento, la angioTC/angioRM no concluyentes o la anatomía compleja que requiere imagen de alta resolución"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Observación con imagen seriada recomendada para aneurismas de PHASES bajo; imagen de seguimiento a los 6–12 meses inicialmente, luego cada 1–3 años",
+          "trial": "PHASES (Greving LN 2014): Puntuación 0–2 → riesgo de rotura a 5 años del 0,4% = ~0,08% anual; los estudios del mundo real muestran que este es el límite inferior de estimación",
+          "pearl": "PHASES 0–2 (4 mm ACoA, sin factores de riesgo): riesgo a 5 años del 0,4% (~0,08% anual). Manejo: observación + imagen seriada (angioRM 6–12 meses inicialmente). Citar a los pacientes el 0,1–0,5% de riesgo anual — no el '0%' del ISUIA que tiene sesgo de selección."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q16",
+        "stem": "Una mujer de 67 años con hipertensión y un aneurisma gigante de la punta basilar de 20 mm presenta diplopía progresiva y parálisis de la mirada vertical por compresión del mesencéfalo. Es una mala candidata quirúrgica por comorbilidades cardíacas. ¿Por qué la puntuación PHASES sola es INSUFICIENTE para orientar su manejo?",
+        "options": {
+          "A": "La puntuación PHASES solo es válida para los aneurismas de la circulación anterior",
+          "B": "La puntuación PHASES estima el riesgo de rotura por HSA pero no tiene en cuenta el efecto de masa sintomático (parálisis de PC por compresión directa), que puede justificar el tratamiento para la paliación independientemente del riesgo de rotura",
+          "C": "La puntuación PHASES requiere la medición por ASD del tamaño del aneurisma, que no se ha realizado",
+          "D": "La puntuación PHASES solo es válida para aneurismas <15 mm — los aneurismas gigantes están excluidos de la cohorte de derivación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La puntuación PHASES se derivó para estimar el riesgo de ROTURA y orientar la decisión de riesgo de rotura frente a riesgo procedimental. Sin embargo, los aneurismas gigantes con frecuencia causan indicaciones de tratamiento más allá del riesgo de rotura — específicamente, déficits neurológicos progresivos por efecto de masa (parálisis de pares craneales, defectos del campo visual, hidrocefalia). Un aneurisma de la punta basilar de 20 mm que causa compresión progresiva del mesencéfalo puede justificar el tratamiento para PALIACIÓN de los síntomas por efecto de masa, independientemente del riesgo de rotura calculado. El marco de indicación de tratamiento se amplía de 'prevención de la rotura' a incluir 'paliación del efecto de masa' para los aneurismas gigantes sintomáticos.",
+          "wrong": {
+            "A": "PHASES incluye aneurismas de la circulación posterior/basilar (4 puntos para la localización vertebrobasilar/AComP) — es válido para todas las localizaciones intracraneales",
+            "C": "PHASES utiliza el tamaño medido en cualquier modalidad de imagen validada incluyendo angioTC o angioRM — no se requiere ASD para el cálculo de PHASES",
+            "D": "PHASES se derivó de pacientes incluyendo los que tenían aneurismas grandes — no existe un límite de tamaño superior para la aplicación de PHASES, aunque su precisión predictiva en los extremos del tamaño está menos bien validada"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Los aneurismas sintomáticos (efecto de masa, parálisis de PC) pueden justificar el tratamiento para la paliación de síntomas independientemente del riesgo de rotura calculado por PHASES",
+          "trial": "ISUIA (Wiebers Lancet 2003): los aneurismas sintomáticos eran una categoría de tratamiento independiente separada de la evaluación del riesgo de rotura; los síntomas por efecto de masa de los aneurismas gigantes frecuentemente progresan sin tratamiento",
+          "pearl": "PHASES estima SOLO el riesgo de ROTURA. Los aneurismas sintomáticos (parálisis de PC, defecto del campo visual, hidrocefalia por efecto de masa) tienen una indicación de tratamiento ADICIONAL — paliación de síntomas. Los aneurismas gigantes con efecto de masa frecuentemente requieren tratamiento incluso con un riesgo de rotura más bajo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q17",
+        "stem": "La videoangiografía intraoperatoria con verde de indocianina (VIC) se usa durante el clipaje de aneurismas. ¿Cuál es el PROPÓSITO PRINCIPAL de esta técnica?",
+        "options": {
+          "A": "Medir cuantitativamente el flujo sanguíneo cerebral durante el clipaje temporal",
+          "B": "Confirmar la oclusión completa del aneurisma y verificar la permeabilidad de la arteria portadora y de los vasos de las ramas inmediatamente después de la colocación del clip",
+          "C": "Identificar el hemisferio dominante antes del mapeo de la corteza elocuente",
+          "D": "Detectar el sangrado intraoperatorio desde el sitio del clip mediante fluorescencia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La videoangiografía intraoperatoria con VIC (FLOW 800 o equivalente) implica la inyección intravenosa de colorante de verde de indocianina, que se visualiza a través del microscopio quirúrgico mediante fluorescencia de infrarrojo cercano. Proporciona evaluación en tiempo real de: (1) si el aneurisma está completamente ocluido (sin fluorescencia del VIC dentro del aneurisma después de la colocación del clip); (2) si la arteria portadora y todos los vasos de las ramas son permeables (la fluorescencia fluye a través de ellos sin obstrucción). Esto permite el ajuste inmediato del clip si un vaso de rama queda inadvertidamente clipado o si se detecta residuo del aneurisma — antes de cerrar al paciente. El VIC ha reemplazado o complementado el Doppler intraoperatorio para la confirmación del flujo.",
+          "wrong": {
+            "A": "El VIC proporciona confirmación cualitativa del flujo (permeable frente a ocluido) con mapeo de intensidad relativa — no proporciona mediciones cuantitativas del flujo sanguíneo cerebral en cc/min/100g. La medición cuantitativa del FSC requiere SPECT, PET o técnicas de dilución térmica",
+            "C": "El mapeo de la dominancia hemisférica utiliza pruebas de lenguaje durante la craneotomía en el paciente despierto, fMRI o el test de Wada — no la angiografía con VIC",
+            "D": "El VIC muestra patrones de flujo sanguíneo a través de los vasos fluorescentes — no detecta específicamente el sangrado. La hemostasis se evalúa mediante inspección quirúrgica directa"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Se recomienda videoangiografía intraoperatoria con VIC o ASD intraoperatoria para confirmar la oclusión del aneurisma y la permeabilidad del vaso portador después del clipaje",
+          "trial": "Stummer W et al. (Neurosurgery 2014): VIC comparado con ASD intraoperatoria para evaluación del clip — concordancia >90%; el VIC reduce la necesidad de ASD intraoperatoria rutinaria",
+          "pearl": "VIC intraoperatorio = verificación del clip en tiempo real: confirma (1) aneurisma ocluido (sin VIC en el saco), (2) arteria portadora y ramas permeables (VIC fluye a través de ellas). Permite el ajuste inmediato del clip antes del cierre de la herida. Ha reemplazado al Doppler intraoperatorio como práctica estándar."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q18",
+        "stem": "Un varón de 50 años tiene un aneurisma de cuello ancho en la bifurcación de la ACM derecha de 9 mm tratado con un dispositivo WEB. En el seguimiento a los 12 meses, la angioRM muestra 'oclusión adecuada' (solo remanente de cuello). ¿Qué significa este hallazgo y se requiere tratamiento adicional?",
+        "options": {
+          "A": "La oclusión adecuada significa oclusión completa del aneurisma — no se necesita más tratamiento ni imagen",
+          "B": "La oclusión adecuada (solo remanente de cuello, equivalente a Raymond-Roy clase II) indica tratamiento exitoso con bajo riesgo de retratamiento; continúa el seguimiento con imagen anual",
+          "C": "La oclusión adecuada significa recanalización mayor — se necesita retratamiento urgente",
+          "D": "Los dispositivos WEB siempre requieren embolización adicional a los 12 meses independientemente del estado de oclusión"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para los resultados del dispositivo WEB, la 'oclusión adecuada' (equivalente a Raymond-Roy clase II — remanente de cuello sin recanalización de la cúpula) es el resultado aceptable estándar y representa el éxito del tratamiento. Los estudios WEBCAST y CLARITY utilizaron la oclusión adecuada (oclusión completa + remanente de cuello) como criterio principal de eficacia, logrando tasas del 80–85% a los 12 meses. Un remanente de cuello sin recanalización de la cúpula conlleva un bajo riesgo de reruptura y retratamiento. El seguimiento anual con angioRM/ASD continúa para monitorizar cualquier recanalización tardía, pero no se requiere tratamiento adicional para la oclusión adecuada.",
+          "wrong": {
+            "A": "La oclusión adecuada incluye un remanente de cuello — NO es lo mismo que la oclusión completa (Raymond-Roy clase I). Sin embargo, SÍ es el resultado exitoso estándar del WEB y no requiere retratamiento",
+            "C": "La oclusión adecuada NO es una recanalización mayor — eso sería Raymond-Roy clase III con reapertura de la cúpula. La oclusión adecuada es un resultado estable y aceptable",
+            "D": "Los dispositivos WEB no requieren habitualmente embolización adicional con espirales — el WEB está diseñado como dispositivo autónomo. La embolización adicional solo se consideraría para la recanalización mayor documentada"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 y criterios de valoración de los estudios WEBCAST/CLARITY — oclusión adecuada (completa + remanente de cuello) es el criterio principal para la evaluación del dispositivo WEB",
+          "trial": "WEBCAST (Lubicz, Stroke 2017): 51 pacientes — oclusión adecuada (completa + remanente de cuello) 85% a los 12 meses; CLARITY (Pierot, AJNR 2019): oclusión adecuada 84,1%; tasa de retratamiento 8% a los 12 meses",
+          "pearl": "Resultado del WEB: 'oclusión adecuada' = oclusión completa + remanente de cuello (no recanalización de la cúpula) = ÉXITO DEL TRATAMIENTO. 80–85% de oclusión adecuada a los 12 meses en WEBCAST/CLARITY. Continuar imagen anual. Solo retratar para recanalización mayor (reapertura de la cúpula)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q19",
+        "stem": "Una mujer de 72 años con un aneurisma cavernoso de la ACI de 5 mm tiene una puntuación PHASES de 2 (riesgo de rotura a 5 años del 0,4%). Tiene enfermedad de Alzheimer avanzada (gravedad moderada) y vive en una residencia de memoria. ¿Cuál es la recomendación de manejo MÁS adecuada?",
+        "options": {
+          "A": "Dispositivo Pipeline, ya que los aneurismas cavernosos de la ACI siempre se tratan con PED",
+          "B": "Clipaje quirúrgico, ya que proporciona la oclusión del aneurisma más duradera",
+          "C": "Observación sin seguimiento con imagen — dada la edad, la gravedad de la demencia y la puntuación PHASES muy baja, el riesgo de intervención supera el beneficio potencial",
+          "D": "AngioTC de cribado anual con tratamiento si se detecta crecimiento"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El análisis de riesgo-beneficio favorece fuertemente la observación: (1) puntuación PHASES 2 = riesgo de rotura a 5 años del 0,4% = riesgo anual del 0,08%; (2) edad 72 con enfermedad de Alzheimer moderada — la esperanza de vida limitada reduce sustancialmente el riesgo de rotura durante la vida; (3) el PED para un aneurisma cavernoso de la ACI requiere doble antiagregación y anestesia general — alto riesgo procedimental en una paciente anciana con demencia moderada; (4) es poco probable que un aneurisma cavernoso de 5 mm cause síntomas por efecto de masa; (5) la paciente no puede consentir para imagen de seguimiento continuada ni cumplir con la terapia antiagregante. La observación sin seguimiento intensivo con imagen es adecuada. Es un caso de libro de texto donde las comorbilidades del paciente anulan cualquier factor de tamaño/localización que de otro modo podría favorecer el tratamiento.",
+          "wrong": {
+            "A": "El PED está indicado para los aneurismas grandes/gigantes cavernosos de la ACI con efecto de masa o PHASES alto. Un aneurisma de 5 mm con puntuación PHASES 2 y las comorbilidades de la paciente no justifica el PED",
+            "B": "El clipaje quirúrgico de un aneurisma cavernoso de la ACI en una mujer de 72 años con Alzheimer moderado conlleva un riesgo operatorio muy alto con beneficio mínimo. Los aneurismas cavernosos de la ACI rara vez se clipan por los riesgos de la cirugía del seno cavernoso",
+            "D": "La angioTC anual expone a la paciente a radiación repetida y contraste, requiere transporte desde una residencia de memoria, y los resultados probablemente no cambiarían el manejo para este aneurisma de muy bajo riesgo. La imagen seriada tiene un beneficio mínimo aquí"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — La edad del paciente, la esperanza de vida y las comorbilidades son componentes esenciales de la decisión de tratamiento; PHASES bajo + corta esperanza de vida + alto riesgo procedimental = observación",
+          "trial": "ISUIA (Wiebers Lancet 2003): morbilidad/mortalidad quirúrgica a 5 años del 12,6% en circulación anterior — el riesgo procedimental puede superar el riesgo de rotura para los aneurismas de PHASES bajo en pacientes de alto riesgo",
+          "pearl": "El manejo de los AINR es INDIVIDUALIZADO. PHASES bajo (0,4% a 5 años) + corta esperanza de vida (edad 72, demencia moderada) + alto riesgo procedimental = OBSERVACIÓN. El tratamiento no es automático para ningún aneurisma — siempre ponderar el riesgo de rotura frente al riesgo procedimental en el contexto de la esperanza de vida específica del paciente."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q20",
+        "stem": "Una mujer de 44 años presenta un aneurisma de la arteria comunicante posterior (AComP) de 6 mm descubierto incidentalmente durante el estudio de migraña. No tiene antecedentes de HSA, ni hipertensión, y es del norte de Europa. Su puntuación PHASES se calcula como: P=0, H=0, A=0, S=0 (<7 mm), E=0, S=4 (posterior/AComP). Total = 4 puntos (riesgo de rotura a 5 años del 1,3%). ¿Qué factor clínico adicional modifica significativamente la decisión de tratamiento y NO está recogido por PHASES?",
+        "options": {
+          "A": "Su sexo femenino (las mujeres tienen mayor riesgo de rotura que los hombres con puntuaciones PHASES equivalentes)",
+          "B": "El tamaño del aneurisma es limítrofe 6 mm — redondear a 7 mm aumentaría PHASES a 3 puntos",
+          "C": "Los aneurismas de la AComP conllevan un riesgo específico de compresión del nervio oculomotor incluso antes de la rotura (parálisis sintomática del PC III), que es una indicación de tratamiento independiente del riesgo de rotura",
+          "D": "La migraña es un factor de riesgo independiente para la rotura del aneurisma y debe incluirse en el cálculo del riesgo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El aneurisma de la AComP tiene un riesgo único más allá de la rotura: la compresión directa del nervio oculomotor adyacente (PC III), causando una parálisis dolorosa del PC III (ptosis, midriasis, oftalmoplejia). Esto puede ocurrir por un aneurisma de la AComP ANTES de la rotura y es en sí misma una indicación de tratamiento — paliación de la parálisis del PC III y prevención de más daño nervioso. La puntuación PHASES no incorpora este riesgo de proximidad anatómica. Un aneurisma de 6 mm de la AComP con riesgo de parálisis del PC III puede justificar el tratamiento en una paciente joven, incluso con un riesgo de rotura calculado por PHASES relativamente bajo.",
+          "wrong": {
+            "A": "El sexo femenino NO es un factor de riesgo independiente incorporado en PHASES, y la magnitud de la diferencia de riesgo basada en el sexo es menor que otros factores de PHASES. Algunos estudios sugieren que las mujeres tienen tasas de rotura ligeramente más altas, pero esto es controvertido y no está incluido en PHASES",
+            "B": "Medir 6 mm y no 7 mm significa que cae en la categoría <7 mm — se debe usar el tamaño medido, no redondearlo al alza. La medición correcta de 6 mm = 0 puntos PHASES por tamaño",
+            "D": "La migraña NO es un factor de riesgo independiente para la rotura del aneurisma y no está incorporado en PHASES ni en ninguna puntuación de riesgo validada. La asociación entre migraña y aneurismas está relacionada con el error diagnóstico (cefalea en trueno por HSA clasificada erróneamente como migraña) más que con el riesgo causal"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Los aneurismas sintomáticos (parálisis del PC III por aneurisma de AComP) son una indicación de tratamiento más allá del riesgo de rotura; la parálisis del PC III indica riesgo de compresión directa",
+          "trial": "Múltiples series de aneurismas de AComP (Chen 2003, Yu 2017): riesgo de parálisis del PC III por aneurismas de AComP incluso antes de la rotura; clipaje preferido para la descompresión y recuperación del PC III",
+          "pearl": "Aneurisma de AComP: indicación de tratamiento = (1) riesgo de rotura basado en PHASES + (2) riesgo de parálisis del PC III (incluso pre-rotura). PHASES no captura el riesgo de compresión del PC III — este es un modificador clínico. Aneurisma de AComP + parálisis del PC III → clipaje quirúrgico para descompresión directa del nervio."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

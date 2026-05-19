@@ -1,0 +1,646 @@
+{
+  "id": "A6",
+  "title": "Linfoma Primario del SNC",
+  "subtitle": "Bloque A — Neuro-Oncología: Diagnóstico de LPSNC, Terapia basada en MTX y Consolidación",
+  "block": "A",
+  "block_name": "Neuro-Oncología",
+  "level": "R2-4",
+  "reading_time_min": 38,
+  "guidelines_version": "ESMO PCNSL Guidelines 2023 · NCCN CNS Tumors v1.2024 · EANO PCNSL Recommendations 2021",
+  "textbook_refs": [
+    "Ferreri AJM et al. Primary CNS Lymphoma. Lancet 2016;387:1585-1596",
+    "Bromberg JEC et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. Lancet Oncol 2019;20:216-228",
+    "Ghesquieres H et al. Lenalidomide in combination with rituximab in recurrent or refractory primary CNS lymphoma (REVRI LYSA/LOC): a multicentre, single-arm, phase 2 study. Lancet Haematol 2019;6:e344-e353",
+    "Thiel E et al. High-dose methotrexate with or without whole brain radiotherapy for primary CNS lymphoma (G-PCNSL-SG-1). Lancet Oncol 2010;11:1036-1047"
+  ],
+  "learning_objectives": [
+    "Identificar las características clínicas y radiológicas características del linfoma primario del SNC (LPSNC) que lo distinguen del glioma de alto grado y las metástasis cerebrales",
+    "Describir el estudio diagnóstico esencial, incluyendo la exploración oftalmológica, la punción lumbar, la biopsia vítrea y la técnica de biopsia estereotáctica",
+    "Resumir la base de evidencia del metotrexato en dosis altas (HD-MTX) como piedra angular del tratamiento de inducción del LPSNC",
+    "Comparar las estrategias de consolidación (radioterapia cerebral total frente a quimioterapia de altas dosis con trasplante autólogo de células madre) en cuanto a eficacia y neurotoxicidad",
+    "Aplicar el manejo adecuado en pacientes inmunocomprometidos (VIH, postrasplante) con LPSNC",
+    "Describir el papel del metotrexato intravítreo en el linfoma vitreorretiniano"
+  ],
+  "sections": [
+    {
+      "id": "A6-S1",
+      "title": "Epidemiología, Patología y Diagnóstico Diferencial",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El linfoma primario del SNC (LPSNC) es un linfoma no Hodgkin extranodal raro pero agresivo, confinado al cerebro, la médula espinal, las leptomeninges, los ojos o los nervios craneales, sin enfermedad sistémica. Representa aproximadamente el 4-6% de todos los tumores cerebrales primarios y el 2-3% de todos los linfomas. La gran mayoría (95%) son **linfoma difuso de células B grandes (LDCBG)** del subtipo de células B no de centro germinal (no-GCB/ABC), caracterizado por la mutación MYD88 L265P (50-80%) y mutaciones en CD79B (30-70%), detectables en el ADN libre en LCR y en el humor vítreo, ofreciendo un enfoque diagnóstico no invasivo.\n\nEl LPSNC tiene una incidencia bimodal: los pacientes inmunocomprometidos (VIH, postrasplante de órgano sólido o hematopoyético, inmunodeficiencia congénita) desarrollan LPSNC a edades más jóvenes (mediana 30-40 años), mientras que los pacientes inmunocompetentes lo desarrollan a una mediana de 60-65 años. La incidencia en pacientes inmunocomprometidos ha disminuido drásticamente con el tratamiento antirretroviral eficaz (TAR) para el VIH, mientras que la incidencia en inmunocompetentes ha aumentado, posiblemente por la mejora del diagnóstico y el envejecimiento de la población.\n\n**Patológicamente**, el LPSNC se caracteriza por un patrón de crecimiento angiocéntrico: las células tumorales se concentran alrededor de los vasos sanguíneos en los espacios de Virchow-Robin, extendiéndose frecuentemente a lo largo de los canales vasculares. La barrera hematoencefálica está alterada de forma variable; esta propiedad ofrece oportunidades para la terapia intratecal, pero también limita la penetración de los fármacos sistémicos.\n\n**Diagnóstico diferencial por RM**: el LPSNC aparece como iso-hipointenso en T2/FLAIR (la alta celularidad restringe la difusión del agua: marcada restricción en DWI), con realce intenso, localización periventricular/cuerpo calloso preferente y muestra típicamente un patrón en «mariposa» que cruza la línea media cuando es grande. Este patrón imita al GBM, pero la restricción en DWI, la ausencia de necrosis y el patrón de localización deben sugerir LPSNC. Otros diagnósticos diferenciales: absceso (realce en anillo, DWI restringido centralmente, fiebre), esclerosis múltiple tumefactiva (realce en anillo abierto, sin efecto de masa proporcional al tamaño) y GBM (realce en anillo, necrosis, edema peritumoral desproporcionado al tamaño)."
+        },
+        {
+          "type": "table",
+          "title": "Características de RM: LPSNC vs GBM vs Absceso Cerebral",
+          "headers": ["Característica", "LPSNC", "GBM", "Absceso cerebral"],
+          "rows": [
+            ["Realce", "Intenso, sólido, homogéneo", "Realce en anillo, irregular", "Anillo fino y liso"],
+            ["DWI/ADC", "Restringido (ADC marcadamente bajo) — área sólida", "Mixto (necrosis = ADC alto centralmente)", "Restringido centralmente (pus)"],
+            ["Localización", "Periventricular, cuerpo calloso, ganglios basales", "Sustancia blanca, frontal/temporal", "Unión córtico-subcortical, cortical/subcortical"],
+            ["Necrosis", "Ausente (inmunocompetente) o en anillo (VIH)", "Presente (necrosis central)", "Central (cavidad de pus)"],
+            ["Edema", "Moderado, proporcional", "Extenso en dedo de guante", "Moderado perilesional"],
+            ["Señal T2/FLAIR", "Baja (alta celularidad)", "Alta (mixta)", "Reborde de T2 bajo (cápsula)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — LPSNC en RM: Restricción DWI + Periventricular + Realce Intenso",
+          "content": "RM clásica de LPSNC: localización periventricular o en cuerpo calloso, realce sólido e intenso homogéneo, DWI marcadamente restringido (alta celularidad) y ausencia de necrosis en pacientes inmunocompetentes. En pacientes VIH+, el LPSNC puede presentar realce en anillo (simulando toxoplasmosis). La mutación MYD88 L265P en ADN libre del LCR se utiliza cada vez más como biomarcador casi diagnóstico, evitando la biopsia estereotáctica en algunos casos."
+        }
+      ]
+    },
+    {
+      "id": "A6-S2",
+      "title": "Estudio Diagnóstico y Estadificación",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El diagnóstico histológico del LPSNC requiere una planificación cuidadosa para evitar dos errores críticos: (1) administrar corticosteroides antes de la biopsia (lo que provoca una dramática «lisis tumoral» y convierte la biopsia en no diagnóstica en el 30-40% de los casos) y (2) pasar por alto el componente oftalmológico (linfoma vitreorretiniano).\n\n**Estudio diagnóstico estándar** (recomendaciones ESMO/EANO):\n\n1. **RM cerebral y espinal con gadolinio** — extensión completa de la enfermedad, valoración de metástasis espinales\n2. **Exploración oftalmológica con lámpara de hendidura** — linfoma vitreorretiniano en el 15-25% de los LPSNC; puede permitir biopsia vítrea para citología, citometría de flujo y análisis de mutaciones MYD88/CD79B\n3. **Punción lumbar**: citología, citometría de flujo, proteínas/glucosa, reordenamiento del gen IgH y biopsia líquida (mutación MYD88 L265P, CD79B en ADN libre del LCR: sensibilidad 50-60%, especificidad >95%)\n4. **Biopsia estereotáctica**: el procedimiento diagnóstico definitivo. Realizado SIN dexametasona previa siempre que sea posible. Con marco o neuronavegación sin marco, dirigida al componente más accesible y de mayor señal. Se prefiere la aguja de corte frente a la aspiración para la arquitectura histológica. La sección por congelación intraoperatoria confirma tejido linfoide.\n5. **Estadificación**: PET-TC de cuerpo entero (o TC tórax/abdomen/pelvis) para descartar linfoma sistémico (lo que cambia la clasificación de LPSNC a LDCBG del SNC secundario con manejo diferente). Biopsia de médula ósea si se sospecha enfermedad sistémica. Serología de VIH. Ecografía testicular en varones >60 años (el linfoma testicular puede presentarse como recidiva en el SNC de enfermedad sistémica)\n6. **Angiografía fluoresceínica oftalmológica y biopsia vítrea** si la exploración con lámpara de hendidura es anormal"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Corticosteroides Antes de la Biopsia en LPSNC",
+          "content": "Administrar dexametasona antes de la biopsia estereotáctica del LPSNC es el error clínico más frecuente y trascendente. Los corticosteroides provocan una rápida lisis tumoral en el LPSNC (a diferencia de los gliomas), produciendo un «tumor fantasma» en la RM de control y material de biopsia necrótico no diagnóstico en el 30-40% de los casos. Esto retrasa el diagnóstico y el tratamiento durante semanas. Excepción: si la herniación cerebral es inminente, los corticoides deben administrarse, pero hay que planificar una nueva biopsia cuando el tumor reaparezca tras la reducción de la dosis. NUNCA administrar corticoides «empíricamente» ante una lesión periventricular antes del diagnóstico histológico."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Linfoma Vitreorretiniano como Presentación del LPSNC",
+          "content": "Un hombre inmunocompetente de 67 años consulta por miodesopsias y visión borrosa en el ojo izquierdo de 3 meses de evolución. La exploración con lámpara de hendidura muestra vitritis y depósitos subretinianos amarillentos. La RM cerebral revela una lesión periventricular con realce. Se trata de un linfoma vitreorretiniano (LVR) copresentado con LPSNC: la biopsia vítrea muestra células B grandes CD20+, confirmando el linfoma de células B. El LVR se diagnostica en el 15-25% de los pacientes con LPSNC. Requiere metotrexato intravítreo (400 mcg dos veces por semana x 4 semanas y luego semanalmente x 8 semanas) además de la terapia sistémica con HD-MTX."
+        }
+      ]
+    },
+    {
+      "id": "A6-S3",
+      "title": "Tratamiento de Inducción: Metotrexato en Dosis Altas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El metotrexato en dosis altas (HD-MTX) es la piedra angular del tratamiento del LPSNC, constituyendo la base de todos los regímenes de inducción eficaces. El MTX penetra la barrera hematoencefálica cuando se administra a dosis ≥3,5 g/m² IV, alcanzando concentraciones terapéuticas en el LCR que superan a las obtenibles por administración intratecal. La dosis óptima es de 3,5-8 g/m², con la mayoría de los protocolos contemporáneos usando 3,5 g/m².\n\nLos **regímenes de combinación basados en MTX** han superado a la monoterapia con MTX. El régimen más utilizado es **MATRix** (MTX + citarabina + tiotepa + rituximab), establecido por el **ensayo IELSG32** (Ferreri et al. Lancet Haematol 2016). El IELSG32 fue un ensayo de fase II aleatorizado multicéntrico de 3 regímenes de inducción: (A) MTX + citarabina, (B) MTX + citarabina + rituximab, (C) MATRix (MTX + citarabina + tiotepa + rituximab). La tasa de respuesta completa (RC) fue significativamente mayor con MATRix: 49% frente al 46% (brazo A) y el 52% (brazo B). Esto estableció MATRix como el estándar de inducción preferido.\n\nEl ensayo **HOVON 105/ALLG NHL 24** (Bromberg et al. Lancet Oncol 2019) aleatorizó a 200 pacientes con LPSNC a MTX + citarabina (±BCNU) frente a MTX + citarabina + rituximab. Añadir rituximab mejoró significativamente la supervivencia libre de eventos (HR 0,60, p=0,013) y la SG a 2 años (69% vs 52%), confirmando el papel del rituximab en la inducción del LPSNC.\n\n**Requisitos de administración del MTX**: el MTX a 3,5 g/m² requiere: (1) hidratación IV vigorosa (suero alcalino, bicarbonato sódico para mantener pH urinario >7), (2) rescate con leucovorina (ácido folínico) iniciado 24 horas después del MTX para rescatar la toxicidad sistémica mientras el MTX permanece activo en el LCR, (3) monitorización de niveles de MTX a las 24, 48 y 72 horas (objetivo <0,1 µmol/L a las 72 horas antes de suspender la leucovorina). Los pacientes con insuficiencia renal (FG <50 mL/min) no pueden recibir MTX a dosis estándar: se requiere reducción de dosis o alternativas solo con RCT.\n\n**MTX intratecal (IT)**: el papel del MTX IT además del HD-MTX sistémico es controvertido. Los datos modernos sugieren que el MTX IT añade toxicidad sin ventaja significativa de eficacia cuando se usan dosis sistémicas adecuadas de HD-MTX (≥3,5 g/m²), ya que el HD-MTX sistémico ya alcanza concentraciones terapéuticas en el LCR. La EANO 2021 no recomienda de rutina el MTX IT cuando se administra HD-MTX sistémico adecuado."
+        },
+        {
+          "type": "table",
+          "title": "Principales Regímenes de Inducción del LPSNC — Resumen de Evidencia",
+          "headers": ["Régimen", "Componentes", "Tasa de RC", "Ensayo clave", "Papel actual"],
+          "rows": [
+            ["MTX en monoterapia", "MTX 3,5 g/m² c/21 días", "30-40%", "Múltiples fase II", "Solo pacientes ancianos/frágiles"],
+            ["MTX + citarabina", "MTX 3,5 g/m² + Ara-C 2 g/m² x2", "46%", "IELSG32 brazo A", "Estándar histórico"],
+            ["MTX + Ara-C + rituximab", "MTX + Ara-C + R", "52%", "HOVON 105 (Lancet Oncol 2019)", "Alternativa aceptable"],
+            ["MATRix", "MTX + Ara-C + tiotepa + R", "49% RC (80% TRO)", "IELSG32 (Lancet Haematol 2016)", "Estándar preferido actual"],
+            ["R-MPV (EE.UU.)", "R + MTX + procarbazina + vincristina", "60% RC", "DeAngelis (JCO 2002)", "Protocolo habitual en EE.UU."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A6-S4",
+      "title": "Consolidación: RCT frente a Trasplante Autólogo de Células Madre",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tras la inducción con terapia basada en HD-MTX, la consolidación es esencial para mantener la remisión. Se comparan dos estrategias principales de consolidación: la radioterapia cerebral total (RCT) y la quimioterapia de altas dosis seguida de trasplante autólogo de células madre (QAD-TACM).\n\n**RCT como consolidación**: el ensayo de referencia **G-PCNSL-SG-1** (Thiel et al. Lancet Oncol 2010) comparó HD-MTX x8 ciclos seguido de RCT (45 Gy) frente a HD-MTX solo en pacientes con LPSNC ≥60 años. HD-MTX + RCT produjo mayores tasas de RC pero no beneficio en SG en comparación con HD-MTX solo. Crucialmente, la RCT causó neurotoxicidad diferida grave (demencia, ataxia, incontinencia urinaria) en el 35-40% de los supervivientes a largo plazo >60 años. Este ensayo estableció que omitir la RCT después de HD-MTX preserva la cognición sin sacrificar la SG en los pacientes ancianos.\n\nPara los **pacientes más jóvenes (<65 años) en RC después de la inducción**, la RCT a dosis reducida (23,4 Gy) sigue siendo una opción con mejor tolerabilidad, pero la neurotoxicidad sigue siendo una preocupación. La tendencia actual en pacientes jóvenes y en buen estado es evitar la RCT en favor de la consolidación con QAD-TACM.\n\n**Consolidación con QAD-TACM**: el acondicionamiento con tiotepa ± BCNU (carmustina) seguido de TACM autólogo alcanza excelentes niveles de fármacos en el SNC gracias a la excelente penetración de la tiotepa en la BHE. El **IELSG32 parte 2** (Ferreri et al. Lancet Haematol 2018) aleatorizó a pacientes en respuesta tras MATRix a RCT (36 Gy) frente a QAD-TACM (tiotepa + BCNU). QAD-TACM alcanzó una SLP a 2 años significativamente mejor (80% vs 69%, p=0,007) y SG a 2 años (87% vs 74%). El ensayo **PRECIS** (Houillier et al. JCO 2019) confirmó la superioridad de QAD-TACM en pacientes jóvenes y en buen estado.\n\n**Recomendaciones actuales ESMO/EANO 2023**: Para pacientes en buen estado ≤65 años: inducción con MATRix → QAD-TACM (acondicionamiento con tiotepa + BCNU). Para pacientes de 65-70 años: inducción con MATRix → RCT de dosis reducida (23,4 Gy) o QAD-TACM si están en buen estado. Para pacientes >70 años: inducción basada en HD-MTX (±rituximab) → mantenimiento con rituximab o RCT si es necesario. Se evita la RCT en los pacientes ancianos por la neurotoxicidad."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — IELSG32 Parte 2: QAD-TACM Superior a RCT como Consolidación",
+          "content": "IELSG32 parte 2 (Ferreri, Lancet Haematol 2018): para pacientes <65-70 años en respuesta tras MATRix — QAD-TACM (tiotepa+BCNU) vs RCT (36 Gy): SLP a 2 años 80% vs 69% (p=0,007), SG a 2 años 87% vs 74%. La QAD-TACM es ahora la consolidación preferida para los pacientes jóvenes y en buen estado, sustituyendo a la RCT. La tiotepa es el agente clave por su excelente penetración en la barrera hematoencefálica."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — La RCT Causa Neurotoxicidad Diferida Grave en Ancianos",
+          "content": "La RCT como consolidación del LPSNC causa leucoencefalopatía diferida grave y demencia en el 35-40% de los pacientes >60 años (ensayo G-PCNSL-SG-1). Síntomas: demencia subcortical, ataxia, incontinencia urinaria: la tríada clásica que simula la hidrocefalia a presión normal. Este proceso es irreversible. Para los pacientes >65 años, evitar la RCT como consolidación siempre que sea posible. El mantenimiento con rituximab o la observación son alternativas preferidas sin neurotoxicidad."
+        }
+      ]
+    },
+    {
+      "id": "A6-S5",
+      "title": "LPSNC en Recaída/Refractario y Poblaciones Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El LPSNC tiene una SG mediana de 12-18 meses con la terapia estándar en estudios basados en población, lo que refleja el reto de la enfermedad en recaída (30-50% recaen en los 2 años siguientes). En la recaída, la re-exposición a HD-MTX es eficaz en pacientes con enfermedad sensible al MTX (>12 meses desde el último MTX), alcanzando una 2.ª RC en el 50-70%. Sin embargo, en la enfermedad resistente al MTX (<12 meses de remisión), se necesitan regímenes alternativos.\n\n**Opciones de tratamiento en la recaída**:\n- **Rituximab + lenalidomida** (ensayo REVRI, Ghesquières et al. Lancet Haematol 2019): tasa de respuesta global del 35%, SLP a 6 meses del 42%, toxicidad manejable: ahora es una opción estándar para el LPSNC en recaída/refractario\n- **Ibrutinib** (inhibidor de BTK): aprovecha la dependencia de la señalización MYD88 L265P y BCR; TRO del 75-90% en estudios de un solo brazo (Wilson et al. Nat Med 2015), con la combinación ibrutinib + MTX en investigación creciente\n- **Pemetrexed**: activo en la enfermedad refractaria al MTX\n- **Temozolomida ± rituximab**: actividad modesta como opción paliativa en pacientes ancianos\n\n**LPSNC asociado al VIH**: en pacientes VIH+, el propio TAR mejora los resultados del LPSNC al reconstituir la función inmune. El LPSNC en el VIH está casi exclusivamente asociado a coinfección por VEB (ADN-VEB en LCR por PCR). Manejo: iniciar u optimizar TAR → HD-MTX ± rituximab en pacientes con recuentos de CD4 adecuados; RCT si están en buen estado; mejor tratamiento de soporte en pacientes gravemente inmunocomprometidos (CD4 <50) donde la tolerancia al HD-MTX es escasa. El dramático descenso del LPSNC-VIH desde el TAR es un notable éxito terapéutico.\n\n**Trastorno linfoproliferativo postrasplante (TLPT)** con afectación del SNC: el TLPT del SNC suele estar mediado por VEB en el TLPT precoz. Primer paso: reducir la inmunosupresión. La terapia anti-CD20 (rituximab) es muy eficaz en el TLPT VEB+. El HD-MTX puede utilizarse en los casos refractarios. El TLPT del SNC tiene un pronóstico más favorable que el LPSNC de novo en huéspedes inmunocompetentes cuando es VEB positivo y responde a la reducción de la inmunosupresión."
+        },
+        {
+          "type": "table",
+          "title": "Opciones de Tratamiento del LPSNC en Recaída/Refractario",
+          "headers": ["Agente/Régimen", "Mecanismo", "TRO", "Ensayo/Referencia clave", "Idoneidad del paciente"],
+          "rows": [
+            ["Reexposición a HD-MTX", "MTX ≥3,5 g/m²", "50-70% (si >12 meses desde último MTX)", "Plotkin et al. Neurology 2004", "Sensible a MTX, recaída tardía >12 meses"],
+            ["Rituximab + lenalidomida", "CD20 + inmunomodulador", "35%", "REVRI (Lancet Haematol 2019)", "Resistente a MTX, pacientes en buen estado"],
+            ["Ibrutinib", "Inhibidor de BTK (vía MYD88/BCR)", "75-90%", "Wilson et al. Nat Med 2015", "LPSNC MYD88 L265P+ (la mayoría de los casos)"],
+            ["Pemetrexed", "Antifolato (alternativa al MTX)", "45%", "Raizer et al. Neuro Oncol 2012", "Resistente a MTX"],
+            ["RCT (rescate)", "RCT 36-45 Gy", "50-80% de respuesta", "Opción formal de rescate", "Pacientes no irradiados previamente"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A6-S6",
+      "title": "Neurotoxicidad, Linfoma Vitreorretiniano y Cuidados de Soporte",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La neurotoxicidad diferida es la principal morbilidad a largo plazo de los supervivientes de LPSNC. El síndrome de **leucoencefalopatía inducida por quimioterapia/radiación** se manifiesta como deterioro cognitivo progresivo, trastorno de la marcha e incontinencia urinaria («tríada de leucoencefalopatía»), que se desarrolla típicamente 12-24 meses después de la consolidación basada en RCT en pacientes >60 años. La RM muestra hiperseñal difusa de la sustancia blanca en T2/FLAIR y atrofia cerebral. Este síndrome es muy difícil de tratar: la derivación ventriculoperitoneal (DVP) puede proporcionar alivio temporal cuando existe un componente hidrocefálico significativo, pero la leucoencefalopatía subyacente es irreversible.\n\nLa **prevención de la neurotoxicidad** es la estrategia más eficaz: (1) evitar la RCT en pacientes >65 años con respuesta completa a la quimioterapia con HD-MTX, (2) utilizar RCT de dosis reducida (23,4 Gy vs 45 Gy) si la RCT es inevitable, (3) preferir la QAD-TACM frente a la RCT en pacientes jóvenes y en buen estado. El ensayo **RTOG 93-10** (DeAngelis et al. JCO 2002) demostró que omitir o diferir la RCT después de la quimioterapia basada en MTX produjo una SLP y SG equivalentes o mejores con menor neurotoxicidad.\n\nEl **linfoma vitreorretiniano (LVR)** coexistente con LPSNC requiere tratamiento ocular específico además de la terapia sistémica. El metotrexato intravítreo (400 mcg/0,1 mL) se administra como: 2 inyecciones por semana x 4 semanas (inducción) → 1 inyección por semana x 8 semanas (consolidación) → 1 inyección mensual (mantenimiento). Se realiza de forma bilateral si están afectados ambos ojos. El HD-MTX sistémico solo no alcanza niveles adecuados del fármaco en el globo ocular por la barrera hematorretiniana. La recidiva del LVR en el ojo es frecuente y requiere retratamiento.\n\n**Quimioterapia intratecal profiláctica**: el papel del MTX IT o la citarabina IT además del HD-MTX sistémico es debatido. La ESMO 2023 y la EANO 2021 no recomiendan de rutina la quimioterapia IT cuando se administran dosis sistémicas adecuadas de HD-MTX, ya que la penetración sistémica es suficiente y el tratamiento IT añade complicaciones relacionadas con la punción lumbar sin beneficio demostrado."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Reconocer la Neurotoxicidad Inducida por RCT",
+          "content": "Un hombre de 68 años con LPSNC alcanzó remisión completa hace 2 años con HD-MTX + RCT (45 Gy). Consulta por pérdida de memoria progresiva, marcha a pequeños pasos e incontinencia urinaria durante 6 meses. La RM muestra cambios difusos en la sustancia blanca y atrofia cortical sin recidiva tumoral. Se trata de leucoencefalopatía inducida por RCT, no recidiva de LPSNC. El LCR es normal; PET/DOTATATE negativo para linfoma. Manejo: descartar recidiva (citología del LCR, biopsia líquida), rehabilitación neurocognitiva, considerar apoyo neuropsiquiátrico. Si existe hidrocefalia significativa, la DVP puede ayudar a la marcha. Esta complicación es la razón por la que ahora se evita la RCT en los pacientes ancianos con LPSNC."
+        }
+      ]
+    },
+    {
+      "id": "A6-S7",
+      "title": "Pronóstico y Puntuaciones Pronósticas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El pronóstico del LPSNC ha mejorado sustancialmente con los regímenes de combinación basados en HD-MTX modernos y la consolidación con QAD-TACM. La SG mediana en las series contemporáneas de pacientes en buen estado supera los 5 años en aquellos que alcanzan remisión completa. Sin embargo, los datos basados en la población (incluyendo pacientes ancianos y con comorbilidades) siguen mostrando una SG mediana de 12-18 meses.\n\nLa **puntuación pronóstica IELSG** (Ferreri et al. JCO 2003) es la herramienta estándar para el pronóstico del LPSNC. Cinco factores adversos (1 punto cada uno): edad >60 años, ECOG PS >1, LDH elevada, proteínas elevadas en LCR, afectación de estructuras cerebrales profundas (periventricular, ganglios basales, tronco del encéfalo, cerebelo). Puntuación 0-1 (bajo riesgo): SG a 2 años 80%. Puntuación 2-3 (intermedio): SG a 2 años 48%. Puntuación 4-5 (alto riesgo): SG a 2 años 15%.\n\nLa **puntuación del MSKCC** (dos factores pronósticos: edad ≥50 años y KPS <70) es más sencilla: clase 1 (edad <50 años): SG mediana 8,5 años; clase 2 (edad ≥50 años, KPS ≥70): SG mediana 3,2 años; clase 3 (edad ≥50 años, KPS <70): SG mediana 1,1 años.\n\n**Marcadores pronósticos moleculares**: la mutación MYD88 L265P (presente en el 50-80%) no predice independientemente el pronóstico controlando por los factores clínicos. Una alta frecuencia de alelo variante (FAV) de MYD88/CD79B en el LCR puede correlacionarse con la carga tumoral y la respuesta al tratamiento. La **deleción de CDKN2A** (por FISH o análisis de metilación) es un marcador pronóstico adverso emergente: el LPSNC con deleción de CDKN2A tiene una SLP y SG más cortas que los tumores con CDKN2A intacto. El fenotipo GCB CD10+ es extremadamente raro en el LPSNC y puede tener un pronóstico diferente.\n\n**Monitorización de la respuesta**: RM a las 3-4 semanas después de cada ciclo de inducción (típicamente 2-4 ciclos de HD-MTX), utilizando los criterios IPCG (Grupo Colaborativo Internacional de Linfoma Primario del SNC): RC = resolución radiológica completa + normalización del LCR + normalización oftalmológica; RP = reducción tumoral ≥50%; PE = aumento >25% o nueva lesión."
+        },
+        {
+          "type": "table",
+          "title": "Puntuación Pronóstica IELSG para el LPSNC",
+          "headers": ["Factor adverso", "Definición", "Puntuación", "SG a 2 años por puntuación total"],
+          "rows": [
+            ["Edad", ">60 años", "1 punto", "Puntuación 0-1: 80%"],
+            ["ECOG PS", ">1 (ECOG 2-4)", "1 punto", "Puntuación 2-3: 48%"],
+            ["LDH", "Elevada (>LSN)", "1 punto", "Puntuación 4-5: 15%"],
+            ["Proteínas en LCR", "Elevadas (>0,45 g/L)", "1 punto", "—"],
+            ["Afectación cerebral profunda", "Periventricular, GB, tronco, cerebelo", "1 punto", "—"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúa tus conocimientos sobre el linfoma primario del SNC con 20 preguntas tipo examen de residencia.",
+    "questions": [
+      {
+        "id": "A6-Q1",
+        "stem": "Una mujer inmunocompetente de 65 años presenta confusión subaguda y hemiparesia derecha. La RM muestra una masa periventricular con realce de 3 cm y DWI restringido (ADC bajo), que cruza el cuerpo calloso, sin necrosis. ¿Cuál es la acción diagnóstica MÁS importante antes de la biopsia estereotáctica?",
+        "options": {
+          "A": "Administrar dexametasona 16 mg/día para reducir el edema antes de la biopsia",
+          "B": "Evitar los corticosteroides salvo que el paciente esté herniando; proceder a la biopsia sin corticoides",
+          "C": "Realizar un PET-TC de cuerpo entero antes de la biopsia para planificar el sitio",
+          "D": "Realizar espectroscopia de RM para confirmar el diagnóstico de forma no invasiva"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La acción más crítica antes de la biopsia estereotáctica en el LPSNC sospechado es EVITAR los corticosteroides salvo que exista herniación cerebral inminente. Los corticosteroides provocan una rápida lisis tumoral en el LPSNC (único entre los tumores cerebrales), destruyendo hasta el 30-40% de las células tumorales en 24-48 horas, produciendo un «tumor fantasma» en la RM — el tumor parece desvanecerse — y material de biopsia necrótico no diagnóstico. Proceder a la biopsia de forma inmediata sin corticoides es el enfoque correcto. Solo en el caso de herniación clínica deben administrarse corticoides antes de la biopsia.",
+          "wrong": {
+            "A": "Esta es la acción más peligrosa: administrar dexametasona en dosis altas antes de la biopsia destruye el tejido del LPSNC e impide el diagnóstico. La biopsia solo mostrará necrosis, infiltrado linfocítico y gliosis, sin resultado diagnóstico. Esto retrasa el tratamiento durante semanas.",
+            "C": "El PET-TC de cuerpo entero es importante para la estadificación, pero no debe retrasar la biopsia estereotáctica cuando se sospecha LPSNC. El PET puede realizarse de forma simultánea o tras la confirmación histológica.",
+            "D": "La espectroscopia de RM puede apoyar el diagnóstico de LPSNC (colina alta, NAA baja) pero no es diagnóstica: se requiere diagnóstico histológico. Proceder a la biopsia sin corticoides es la acción prioritaria correcta."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Biopsia: los corticosteroides deben evitarse antes de la biopsia salvo riesgo de herniación; EANO PCNSL Recommendations 2021",
+          "trial": "Balmaceda C et al. Ann Neurol 1995: Fenómeno del «tumor fantasma» — la dexametasona administrada antes de la biopsia causó una tasa de biopsia no diagnóstica >40% en una serie de LPSNC; estableció la evitación de corticoides como principio prebiopsia obligatorio",
+          "pearl": "LPSNC sensible a corticoides: dexametasona antes de la biopsia → no diagnóstica en el 30-40% (tumor fantasma). NUNCA administrar corticoides antes de la biopsia de LPSNC salvo herniación inminente. Este es el principio de manejo de mayor rendimiento en el LPSNC."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q2",
+        "stem": "El ensayo IELSG32 (Ferreri et al.) estableció ¿qué régimen de inducción como estándar preferido para los pacientes con LPSNC en buen estado?",
+        "options": {
+          "A": "MTX + citarabina (MA)",
+          "B": "MTX en monoterapia",
+          "C": "MATRix (MTX + citarabina + tiotepa + rituximab)",
+          "D": "R-CHOP (rituximab + ciclofosfamida + doxorubicina + vincristina + prednisolona)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo IELSG32 (Ferreri et al. Lancet Haematol 2016) comparó tres regímenes de inducción en LPSNC. El brazo MATRix (MTX + citarabina + tiotepa + rituximab, brazo C) alcanzó la mayor tasa de respuesta completa (49% RC) y tasa de respuesta global (80%) en comparación con MA solo (46% RC) y MA + rituximab (52% RC). MATRix es ahora el estándar de inducción preferido para los pacientes con LPSNC en buen estado en las guías europeas (ESMO/EANO 2023).",
+          "wrong": {
+            "A": "MTX + citarabina (MA) es el brazo comparador del IELSG32 con una tasa de RC del 46%: un régimen aceptable pero inferior al MATRix. Sigue siendo una opción para los pacientes que no pueden recibir tiotepa o rituximab.",
+            "B": "La monoterapia con MTX alcanza una RC del 30-40% y está reservada para los pacientes ancianos/frágiles que no pueden tolerar la terapia de combinación.",
+            "D": "R-CHOP es el estándar para el LDCBG sistémico, pero NO es apropiado para el LPSNC porque no penetra eficazmente la barrera hematoencefálica. La doxorubicina y la vincristina no alcanzan concentraciones terapéuticas en el SNC. R-CHOP para LPSNC es un error crítico."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — MATRix como inducción preferida para pacientes en buen estado basándose en IELSG32; EANO PCNSL Recommendations 2021",
+          "trial": "Ferreri AJM et al. Lancet Haematol 2016 (IELSG32): ensayo de fase II aleatorizado de 3 brazos — brazo C MATRix: RC 49%, TRO 80%, superior a MA (46% RC) y MAR (52% RC); estableció MATRix como inducción preferida del LPSNC",
+          "pearl": "Inducción estándar del LPSNC (pacientes en buen estado): MATRix = MTX + Ara-C + tiotepa + rituximab. R-CHOP es INCORRECTO para el LPSNC (escasa penetración en BHE). MATRix RC 49%, TRO 80% (IELSG32). Diferencia clave: tiotepa y rituximab añadidos a la base MA."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q3",
+        "stem": "El ensayo G-PCNSL-SG-1 (Thiel et al. Lancet Oncol 2010) demostró que la radioterapia cerebral total después de HD-MTX en pacientes con LPSNC >60 años:",
+        "options": {
+          "A": "Mejoró significativamente la supervivencia global sin aumentar la neurotoxicidad",
+          "B": "Mejoró significativamente la supervivencia global pero causó neurotoxicidad diferida grave en el 35-40%",
+          "C": "No mejoró la supervivencia global y causó neurotoxicidad diferida grave en el 35-40%",
+          "D": "Redujo la neurotoxicidad en comparación con HD-MTX solo manteniendo la SG"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El G-PCNSL-SG-1 (Thiel et al. Lancet Oncol 2010) aleatorizó a pacientes con LPSNC ≥60 años a HD-MTX x8 ciclos + RCT (45 Gy) frente a HD-MTX solo. La RCT NO mejoró la supervivencia global (SG mediana: 32,4 meses RCT vs 37,1 meses HD-MTX solo, NS). Sin embargo, la RCT causó neurotoxicidad diferida grave (demencia, ataxia, incontinencia) en el 35-40% de los supervivientes a largo plazo, muy por encima del impacto neurotóxico de HD-MTX solo. Esto estableció que omitir la RCT después de la terapia basada en MTX preserva la cognición sin sacrificar la SG en pacientes ≥60 años.",
+          "wrong": {
+            "A": "La RCT NO mejoró la SG en el ensayo G-PCNSL-SG-1: esta respuesta afirma incorrectamente lo contrario. La SG fue ligeramente mejor (de forma no significativa) en el brazo de observación.",
+            "B": "La RCT causó neurotoxicidad grave (correcto, 35-40%) pero NO mejoró la SG: esta respuesta afirma incorrectamente que mejoró la SG.",
+            "D": "La RCT AUMENTÓ la neurotoxicidad (35-40% de neurotoxicidad diferida grave) en comparación con HD-MTX solo. No la redujo."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Basándose en G-PCNSL-SG-1: evitar la RCT como consolidación en pacientes ≥65 años con respuesta completa a HD-MTX; EANO PCNSL Recommendations 2021",
+          "trial": "Thiel E et al. Lancet Oncol 2010 (G-PCNSL-SG-1): 551 pacientes ≥60 años — MTX+RCT vs MTX solo; SG 32,4 vs 37,1 meses (NS); neurotoxicidad grave 35-40% RCT vs 15% MTX solo; estableció la omisión de la RCT como segura tras RC con MTX en ancianos",
+          "pearl": "G-PCNSL-SG-1 (Lancet Oncol 2010): RCT tras HD-MTX en LPSNC anciano — sin beneficio en SG + 35-40% de leucoencefalopatía diferida grave. Resultado: omitir la RCT en pacientes ≥60-65 años que alcanzan RC con HD-MTX. Este es el ensayo más importante para establecer la evitación de la RCT en LPSNC anciano."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q4",
+        "stem": "Un hombre de 62 años con LPSNC confirmado (LDCBG) alcanza remisión completa tras 4 ciclos de inducción con MATRix. Tiene ECOG PS 0 y sin comorbilidades significativas. Según los resultados del IELSG32 parte 2, ¿qué estrategia de consolidación es preferida?",
+        "options": {
+          "A": "RCT 45 Gy en 25 fracciones",
+          "B": "Quimioterapia de altas dosis (acondicionamiento con tiotepa + BCNU) seguida de TACM autólogo",
+          "C": "Mantenimiento con rituximab 375 mg/m² cada 2 meses durante 2 años",
+          "D": "Observación: no se necesita consolidación tras la RC con MATRix"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El IELSG32 parte 2 (Ferreri et al. Lancet Haematol 2018) aleatorizó a pacientes en respuesta tras MATRix a RCT (36 Gy) frente a QAD-TACM (acondicionamiento con tiotepa + BCNU). La QAD-TACM alcanzó una SLP a 2 años significativamente superior (80% vs 69%, p=0,007) y SG a 2 años (87% vs 74%). Para pacientes en buen estado ≤65-70 años en RC tras MATRix, la QAD-TACM con acondicionamiento basado en tiotepa es la estrategia de consolidación preferida según ESMO/EANO 2023.",
+          "wrong": {
+            "A": "La RCT a 45 Gy como consolidación se asocia a neurotoxicidad diferida grave, especialmente a esta edad (62 años). El IELSG32 parte 2 demostró la superioridad de la QAD-TACM sobre la RCT. La RCT a dosis reducida (36 Gy probada en el ensayo) es inferior en SLP/SG.",
+            "C": "El mantenimiento con rituximab es una opción para los pacientes mayores/más frágiles que no pueden someterse a QAD-TACM, pero no es el estándar para un paciente de 62 años en buen estado en RC tras MATRix. Los datos de mantenimiento con rituximab en LPSNC son limitados.",
+            "D": "La observación sin consolidación da lugar a altas tasas de recaída (50-70% en 2 años). La consolidación tras RC inducción es obligatoria en el LPSNC: la cuestión es qué consolidación utilizar."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Pacientes en buen estado ≤65 años en respuesta tras MATRix: QAD-TACM (tiotepa+BCNU) consolidación preferida; EANO PCNSL 2021",
+          "trial": "Ferreri AJM et al. Lancet Haematol 2018 (IELSG32 parte 2): 140 pacientes tras respuesta a MATRix — RCT vs QAD-TACM; SLP a 2 años 80% TACM vs 69% RCT (p=0,007); SG a 2 años 87% vs 74%; estableció QAD-TACM como consolidación preferida",
+          "pearl": "IELSG32 parte 2: tras MATRix, QAD-TACM (tiotepa+BCNU) > RCT como consolidación: SLP a 2 años 80% vs 69%, SG a 2 años 87% vs 74%. La tiotepa es el agente clave con penetración en SNC. Preferida para pacientes en buen estado ≤65-70 años. RCT reservada para ancianos/frágiles que no pueden someterse a TACM."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q5",
+        "stem": "¿Cuál es la dosis mínima de metotrexato IV necesaria para alcanzar concentraciones terapéuticas en el LCR en el linfoma primario del SNC?",
+        "options": {
+          "A": "0,5 g/m²",
+          "B": "1,0 g/m²",
+          "C": "3,5 g/m²",
+          "D": "10 g/m²: a mayor dosis, mejor"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El metotrexato sistémico penetra la barrera hematoencefálica y alcanza concentraciones terapéuticas en el LCR solo a dosis altas, específicamente ≥3,5 g/m² IV. Por debajo de este umbral, las concentraciones de MTX en el LCR son insuficientes para la actividad antilinfoma en el SNC. La dosis estándar en los protocolos de LPSNC es 3,5 g/m², infundida en 4-6 horas con hidratación alcalina obligatoria y rescate con leucovorina. En algunos protocolos se han utilizado dosis de hasta 8 g/m² sin un beneficio adicional claro. Por eso el MTX debe administrarse a dosis altas (no convencionales): las dosis de MTX utilizadas para el linfoma sistémico (típicamente 0,5-1 g/m²) son subterapéuticas para la enfermedad del SNC.",
+          "wrong": {
+            "A": "0,5 g/m² es una dosis convencional de MTX usada para el linfoma sistémico o la artritis reumatoide. A esta dosis, los niveles de MTX en LCR están muy por debajo de las concentraciones terapéuticas para el linfoma del SNC. Esta dosis no tendría actividad antilinfoma en el SNC de forma significativa.",
+            "B": "1,0 g/m² sigue siendo subterapéutica para la enfermedad del SNC. Los niveles de MTX en LCR a esta dosis no alcanzan las concentraciones requeridas para la eficacia antilinfoma en el SNC.",
+            "D": "Aunque se han estudiado dosis más altas (hasta 8 g/m²), las dosis superiores a 3,5 g/m² no mejoran claramente los resultados y aumentan el riesgo de toxicidad renal. La dosis óptima es 3,5-8 g/m²: a mayor dosis no es simplemente mejor."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — HD-MTX ≥3,5 g/m² necesario para penetración en SNC; EANO PCNSL 2021 — requisitos de dosificación e hidratación del MTX",
+          "trial": "Gabbai AA et al. J Neurooncol 1989: Farmacocinética del MTX en LCR tras MTX IV — concentraciones terapéuticas en LCR (>1 µmol/L) alcanzadas solo con dosis IV ≥3,5 g/m²; DeAngelis LM et al. JCO 2002 (protocolo MSKCC): 3,5 g/m² de MTX como dosis estándar",
+          "pearl": "HD-MTX para LPSNC: ≥3,5 g/m² IV = dosis mínima para concentraciones terapéuticas en LCR. Requiere hidratación IV alcalina (pH >7) + rescate con leucovorina a las 24 h + monitorización de niveles de MTX (objetivo <0,1 µmol/L a las 72 h). La función renal es crítica: FG <50 mL/min: reducción de dosis de MTX o evitar."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q6",
+        "stem": "Un hombre de 72 años es diagnosticado de LPSNC (LDCBG). Tiene ECOG PS 2, insuficiencia renal leve (FG 45 mL/min) y no cuenta con apoyo para la administración de un régimen intensivo. Sin síntomas visuales. ¿Cuál es el enfoque terapéutico más apropiado?",
+        "options": {
+          "A": "MATRix a dosis completa (MTX 3,5 g/m² + Ara-C + tiotepa + rituximab) según el estándar",
+          "B": "Solo cuidados de soporte óptimos: el LPSNC en pacientes ancianos es uniformemente fatal",
+          "C": "Régimen de intensidad reducida: MTX 1,5-2,5 g/m² + rituximab, con monitorización renal cuidadosa; considerar RCT si se alcanza respuesta",
+          "D": "R-CHOP como terapia estándar del linfoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Para un paciente anciano (72 años) con LPSNC, ECOG PS 2, insuficiencia renal leve (FG 45 mL/min que contraindica MTX completo de 3,5 g/m²) y escaso apoyo, es apropiado un enfoque de intensidad reducida. Las opciones incluyen: MTX a dosis reducida (1,5-2,5 g/m²) con hidratación reforzada y monitorización cuidadosa + rituximab, seguido de RCT si se alcanza RC/RP (la RCT sigue siendo una opción para los pacientes ancianos que no pueden tolerar la QAD-TACM, aceptando el riesgo de neurotoxicidad a cambio del control de la enfermedad). La ESMO 2023 respalda la reducción individualizada de dosis para pacientes con insuficiencia renal o mal estado funcional.",
+          "wrong": {
+            "A": "MATRix a dosis completa con MTX 3,5 g/m² está contraindicado con FG 45 mL/min: el MTX se excreta por vía renal y se acumula con la función renal deteriorada, causando mucositis grave, mielosupresión e insuficiencia renal. Un FG <50 mL/min requiere reducción de dosis.",
+            "B": "Solo los cuidados de soporte no son apropiados para un paciente con ECOG PS 2 que es por lo demás funcional. Incluso los regímenes de intensidad reducida logran respuestas significativas en el LPSNC anciano. Un paciente de clase 3 del MSKCC (SG 1,1 año) puede seguir beneficiándose de una terapia adaptada.",
+            "D": "R-CHOP es ineficaz para el LPSNC: no alcanza concentraciones terapéuticas de fármacos en el SNC. Este es un error crítico en el manejo del LPSNC independientemente de la edad del paciente."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Pacientes ancianos/frágiles: HD-MTX adaptado (reducción de dosis por insuficiencia renal) + rituximab; evitar MATRix a dosis completa con FG <50 mL/min",
+          "trial": "Omuro AM et al. Neuro Oncol 2007: MTX adaptado (1,5 g/m²) + procarbazina + vincristina + RCT en LPSNC anciano — RC 50%, SG mediana 14 meses; demostrando la viabilidad de los enfoques de intensidad reducida",
+          "pearl": "LPSNC anciano (>70 años) con insuficiencia renal (FG <50): reducir la dosis de MTX (1,5-2,5 g/m²). FG <30: MTX contraindicado. La RCT es una opción para los pacientes ancianos que alcanzan respuesta con quimioterapia de intensidad reducida. R-CHOP = incorrecto. MATRix = demasiado tóxico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q7",
+        "stem": "La mutación MYD88 L265P se detecta en el 50-80% de los linfomas primarios del SNC. ¿Cuál es su principal utilidad clínica en el diagnóstico del LPSNC?",
+        "options": {
+          "A": "Confirma la diseminación sistémica del LDCBG que requiere cambio a terapia sistémica",
+          "B": "Sirve como marcador de biopsia líquida casi diagnóstico en LCR o vítreo, potencialmente evitando o complementando la biopsia estereotáctica",
+          "C": "Identifica a los pacientes elegibles para ibrutinib como terapia de primera línea",
+          "D": "Indica un LPSNC de origen en células B del centro germinal (GCB) que requiere terapia basada en CHOP"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La mutación MYD88 L265P detectada en ADN libre del LCR o en el humor vítreo es un biomarcador casi diagnóstico del LPSNC, con especificidad >95% y sensibilidad del 50-60%. Puede utilizarse junto con la citología y la citometría de flujo del LCR para confirmar el diagnóstico de LPSNC en casos en que: (1) la biopsia es arriesgada por la localización de la lesión, (2) los corticoides previos han dado lugar a una biopsia no diagnóstica, o (3) un paciente presenta síntomas sugestivos de linfoma vitreorretiniano sin lesión cerebral accesible. Aunque no es 100% sensible (falso negativo en ~40%), un MYD88 L265P positivo en LCR en el contexto clínico apropiado es casi diagnóstico.",
+          "wrong": {
+            "A": "MYD88 L265P en LCR indica un linfoma PRIMARIO del SNC: no indica diseminación sistémica. El LDCBG sistémico con afectación del SNC se clasificaría como «LDCBG secundario del SNC» y se manejaría de forma diferente.",
+            "C": "Aunque ibrutinib es activo en el LPSNC MYD88-mutado (MYD88 activa la señalización BCR/NF-κB a la que apunta la inhibición de BTK), la mutación MYD88 no es actualmente un requisito regulatorio para la indicación de ibrutinib, e ibrutinib no es terapia de primera línea para el LPSNC. Las pruebas de MYD88 son principalmente para el diagnóstico, no para la elegibilidad de ibrutinib.",
+            "D": "Las mutaciones MYD88 L265P y CD79B son características del subtipo de células B no de centro germinal (no-GCB/ABC), que es lo CONTRARIO del origen GCB. El LPSNC no-GCB es el subtipo predominante (95%), y el CHOP es inapropiado para el LPSNC independientemente del subtipo."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Biopsia líquida: MYD88 L265P y CD79B en ADN libre del LCR: especificidad >95%, sensibilidad 50-60%; usar cuando el diagnóstico histológico no está disponible",
+          "trial": "Spina V et al. Blood 2011: MYD88 L265P en LCR de LPSNC — sensibilidad 70%, especificidad 96%; Fontanilles M et al. Neuro Oncol 2017: ADN libre del LCR MYD88+CD79B detección dual: la sensibilidad mejora al 75%",
+          "pearl": "Biopsia líquida del LPSNC: MYD88 L265P en LCR = >95% específico, ~60% sensible. Un resultado positivo en el contexto clínico apropiado (lesión periventricular, adulto inmunocompetente) es casi diagnóstico del LPSNC. Usar cuando la biopsia es imposible o no diagnóstica. Combinado con CD79B mejora la sensibilidad."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q8",
+        "stem": "Un hombre VIH+ de 58 años (recuento de CD4 85 células/µL, sin TAR) presenta múltiples lesiones periventriculares con realce en anillo en RM. La serología de toxoplasma es negativa. El ADN del VEB en LCR se detecta a un nivel alto. ¿Cuál es el diagnóstico más probable y el manejo inicial?",
+        "options": {
+          "A": "Toxoplasmosis: iniciar pirimetamina + sulfadiazina de forma empírica",
+          "B": "LPSNC (asociado a VEB): iniciar TAR de inmediato; biopsia si no hay mejoría en 2 semanas",
+          "C": "Leucoencefalopatía multifocal progresiva (LMP): sin tratamiento más allá del TAR",
+          "D": "GBM: realizar craneotomía para resección"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En un paciente VIH+ con CD4 <100, lesiones cerebrales con realce en anillo con serología de toxoplasma negativa y ADN del VEB alto en LCR, el diagnóstico es LPSNC asociado al VIH. El LPSNC-VIH está casi siempre asociado al VEB (el VEB impulsa la linfoproliferación en el contexto inmunocomprometido). El ADN del VEB positivo en el LCR en este contexto es casi diagnóstico (sensibilidad 80%, especificidad >95%). El paso inicial más importante es la iniciación del tratamiento antirretroviral (TAR): reconstituir la función inmune puede causar regresión del LPSNC en algunos pacientes. Si no hay respuesta en 2 semanas, biopsia estereotáctica y HD-MTX (si el CD4 y la función renal lo permiten) o RCT.",
+          "wrong": {
+            "A": "La serología de toxoplasma negativa hace que la toxoplasmosis sea poco probable (sensibilidad >95% en pacientes con SIDA con toxoplasmosis activa). Aunque el tratamiento empírico de la toxoplasmosis puede ser apropiado cuando la serología es positiva o equívoca, la serología negativa con ADN del VEB positivo apunta al LPSNC. La pirimetamina + sulfadiazina sería inapropiada en este caso.",
+            "C": "La LMP causa lesiones desmielinizantes sin realce (virus JC, asimétricas, sin efecto de masa), no lesiones con realce en anillo con efecto de masa. El cuadro clínico descrito es inconsistente con la LMP.",
+            "D": "El GBM en un paciente VIH+ de 58 años con múltiples lesiones (el GBM es típicamente solitario) y CD4 <100 en el contexto de enfermedad definitoria de SIDA: el LPSNC es mucho más probable que el GBM. El GBM no explicaría el contexto del SIDA."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — LPSNC-VIH: TAR primero; ADN del VEB en LCR casi diagnóstico; evitar corticoides si es posible; NCCN CNS Tumors v1.2024",
+          "trial": "Gildas Angele-Amivi et al. Lancet HIV 2016: ADN del VEB en LCR en LPSNC-VIH — sensibilidad 80%, especificidad 97%; la reconstitución inmune mediada por TAR se asoció con respuesta del LPSNC en el 30-40% sin terapia adicional",
+          "pearl": "LPSNC-VIH: lesiones con realce en anillo + serología de toxo negativa + ADN del VEB positivo en LCR = LPSNC-VIH. TAR = primer paso y más importante. Impulsado por VEB, la reconstitución inmune puede causar regresión. HD-MTX si buen estado; RCT si no. CD4 <50: tolerancia muy limitada a la quimioterapia agresiva."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q9",
+        "stem": "¿Cuál es el protocolo correcto de rescate con leucovorina después de metotrexato en dosis altas 3,5 g/m² para el LPSNC?",
+        "options": {
+          "A": "Leucovorina 15 mg oral empezando 2 horas tras el fin de la infusión de MTX, cada 6 horas durante 24 dosis",
+          "B": "Leucovorina 15 mg IV cada 6 horas empezando 24 horas tras el inicio de la infusión de MTX, continuada hasta que el MTX sérico <0,1 µmol/L",
+          "C": "La leucovorina no es necesaria: la toxicidad sistémica no ocurre con MTX a 3,5 g/m²",
+          "D": "Leucovorina 200 mg/m² en dosis única inmediatamente después de la infusión de MTX"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Rescate estándar con leucovorina tras HD-MTX para LPSNC: leucovorina (ácido folínico) 15 mg IV cada 6 horas, iniciando 24-36 horas después del INICIO de la infusión de MTX (no inmediatamente después, para permitir que el MTX alcance concentraciones máximas en el LCR). La leucovorina se continúa hasta que el MTX sérico descienda por debajo de 0,1 µmol/L (medido a las 24, 48 y 72 horas). El retraso de 24 horas es crítico: iniciar la leucovorina demasiado pronto puede antagonizar el efecto antitumoral del MTX en el LCR antes de que se alcance una exposición adecuada en el SNC. La hidratación IV alcalina (pH >7) se coadministra durante todo el proceso para evitar la precipitación del MTX en los túbulos renales.",
+          "wrong": {
+            "A": "Iniciar la leucovorina solo 2 horas después del fin de la infusión de MTX es demasiado pronto: esto antagonizaría el efecto terapéutico del MTX en el LCR antes de alcanzar concentraciones adecuadas. El estándar es 24 horas desde el INICIO de la infusión.",
+            "C": "El rescate con leucovorina es absolutamente necesario tras HD-MTX 3,5 g/m²: sin él, la toxicidad sistémica grave (mucositis, mielosupresión, insuficiencia renal, muerte) es inevitable. El HD-MTX sin leucovorina es un error potencialmente mortal.",
+            "D": "Una dosis única de leucovorina es inadecuada: la leucovorina debe continuarse cada 6 horas hasta confirmar el aclaramiento del MTX (<0,1 µmol/L). Una dosis única inmediatamente tras la infusión no protegería contra la toxicidad prolongada del MTX durante su aclaramiento."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Administración de HD-MTX: rescate con leucovorina iniciando 24-36 h tras el inicio de la infusión de MTX, cada 6 h hasta MTX <0,1 µmol/L; hidratación alcalina obligatoria",
+          "trial": "DeAngelis LM et al. J Clin Oncol 2002: Protocolo MTX 3,5 g/m² — rescate con leucovorina 10-25 mg IV c/6h iniciando 24 h tras la infusión hasta MTX sérico <0,1 µmol/L; estándar adoptado en todos los ensayos posteriores de LPSNC",
+          "pearl": "Protocolo HD-MTX: (1) hidratación IV alcalina (pH orina >7 antes del MTX), (2) MTX 3,5 g/m² en 4-6 h, (3) rescate con leucovorina iniciando 24 h tras el INICIO de la infusión, cada 6 h, (4) continuar hasta MTX <0,1 µmol/L a las 72 h, (5) monitorizar función renal diariamente. Cualquier desviación es potencialmente mortal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q10",
+        "stem": "Según la puntuación pronóstica IELSG, un paciente con LPSNC de 65 años, ECOG PS 1, LDH elevada, proteínas en LCR normales y afectación cerebral profunda (periventricular) obtiene una puntuación total de 3. ¿Cuál es su supervivencia global a 2 años aproximada?",
+        "options": {
+          "A": "80%",
+          "B": "48%",
+          "C": "15%",
+          "D": "5%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cálculo de la puntuación IELSG: edad >60 años = 1 punto; ECOG PS 1 = 0 puntos (solo puntúa si >1); LDH elevada = 1 punto; proteínas en LCR normales = 0 puntos; afectación cerebral profunda = 1 punto. Total = 3 puntos. Según la puntuación IELSG: 0-1 puntos (bajo riesgo) = SG a 2 años ~80%; 2-3 puntos (intermedio) = SG a 2 años ~48%; 4-5 puntos (alto riesgo) = SG a 2 años ~15%. Una puntuación de 3 corresponde al grupo de riesgo intermedio con aproximadamente el 48% de SG a 2 años.",
+          "wrong": {
+            "A": "El 80% de SG a 2 años corresponde al riesgo bajo IELSG (0-1 puntos). Este paciente puntúa 3, es decir, riesgo intermedio.",
+            "C": "El 15% de SG a 2 años corresponde al riesgo alto IELSG (4-5 puntos). Este paciente puntúa 3, no 4-5.",
+            "D": "El 5% no forma parte de las categorías pronósticas de la puntuación IELSG. Las tres categorías son aproximadamente 80%, 48% y 15%."
+          },
+          "guideline": "Ferreri AJM et al. JCO 2003: Validación de la puntuación pronóstica IELSG en 378 pacientes con LPSNC; ESMO PCNSL 2023 respalda la puntuación IELSG para la estratificación del tratamiento",
+          "trial": "Ferreri AJM et al. J Clin Oncol 2003 (puntuación IELSG): 5 factores adversos — edad >60, ECOG PS >1, LDH elevada, proteínas en LCR elevadas, afectación cerebral profunda; puntuación 0-1: SG a 2 años 80%; 2-3: 48%; 4-5: 15%",
+          "pearl": "Puntuación IELSG, 5 factores (1 pt cada uno): edad >60, ECOG >1, LDH elevada, proteínas en LCR elevadas, afectación cerebral profunda. Puntuación 0-1=80% SG a 2 años; 2-3=48%; 4-5=15%. Esta es la herramienta pronóstica estándar del LPSNC."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q11",
+        "stem": "Una mujer de 69 años con LPSNC alcanza remisión completa tras HD-MTX + rituximab. Es demasiado frágil para QAD-TACM (ECOG 2, deterioro cognitivo leve). No recibió RCT. ¿Cuál es la mejor estrategia de mantenimiento para prolongar la remisión?",
+        "options": {
+          "A": "RCT 45 Gy en 25 fracciones",
+          "B": "Temozolomida 200 mg/m² durante 5 días cada 28 días",
+          "C": "Rituximab 375 mg/m² cada 2 meses durante 2 años",
+          "D": "Metotrexato intratecal 12 mg mensual"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El mantenimiento con rituximab (375 mg/m² cada 2 meses durante 2 años) es la estrategia de mantenimiento con mayor respaldo evidencial para los pacientes con LPSNC ancianos/frágiles que alcanzan RC tras la inducción y no pueden someterse a QAD-TACM. El ensayo HOVON 105 y los datos de fase II de apoyo muestran que el rituximab es bien tolerado y se asocia a una mejora de la SLP en pacientes con LPSNC que no pueden someterse a consolidación intensiva. Evita la neurotoxicidad de la RCT y la morbilidad de la QAD-TACM.",
+          "wrong": {
+            "A": "La RCT a 45 Gy en una paciente de 69 años con deterioro cognitivo leve conlleva un alto riesgo de leucoencefalopatía diferida grave (35-40% en G-PCNSL-SG-1 para pacientes ≥60 años). Dado su deterioro cognitivo preexistente, este riesgo es inaceptable. El mantenimiento con rituximab es más seguro.",
+            "B": "La temozolomida tiene una actividad modesta e inconsistente en el LPSNC. Se utiliza como agente de rescate en la enfermedad refractaria, pero no está establecida como estrategia de mantenimiento tras la RC por inducción.",
+            "D": "El MTX intratecal mensual como mantenimiento tiene evidencia limitada y requiere procedimientos repetidos de punción lumbar, que son una carga para una paciente frágil de 69 años. Su papel cuando se ha administrado HD-MTX sistémico adecuado durante la inducción no está establecido por datos de fase III."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Pacientes ancianos/frágiles que alcanzan RC: mantenimiento con rituximab como alternativa a QAD-TACM o RCT; EANO PCNSL 2021",
+          "trial": "Bromberg JEC et al. Lancet Oncol 2019 (HOVON 105): La adición de rituximab durante la inducción y el mantenimiento mejoró la SLE (HR 0,60, p=0,013); mantenimiento con rituximab 375 mg/m² cada 2 meses extrapolado al contexto de mantenimiento",
+          "pearl": "LPSNC anciano/frágil en RC, no elegible para TACM o RCT: mantenimiento con rituximab 375 mg/m² cada 2 meses durante 2 años. Evidencia del HOVON 105. Alternativa: observación con RM estrecha. RCT en ancianos = 35-40% de neurotoxicidad. Rituximab = opción de consolidación más segura."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q12",
+        "stem": "¿Qué característica clínica indica con MAYOR fuerza la necesidad de incluir una evaluación oftalmológica (exploración con lámpara de hendidura) en el estudio diagnóstico del LPSNC?",
+        "options": {
+          "A": "Cefalea como síntoma de presentación",
+          "B": "Elevación de proteínas en LCR",
+          "C": "Miodesopsias, visión borrosa o fotofobia coexistentes con síntomas neurológicos",
+          "D": "Localización periventricular de la lesión en RM"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los síntomas oftalmológicos (miodesopsias, visión borrosa, fotofobia) coexistentes con síntomas neurológicos o LPSNC conocido indican linfoma vitreorretiniano (LVR), que ocurre en el 15-25% de los casos de LPSNC. La exploración con lámpara de hendidura puede detectar vitritis, infiltrados subretinianos y hemorragias retinianas. Si es anormal, la biopsia vítrea para citología, citometría de flujo y biopsia líquida de MYD88/CD79B puede confirmar el diagnóstico de linfoma, evitando potencialmente la biopsia cerebral estereotáctica. La exploración con lámpara de hendidura se recomienda en TODOS los pacientes con LPSNC independientemente de los síntomas oculares (ya que el LVR puede ser subclínico), pero los síntomas oculares la convierten en la investigación de mayor prioridad.",
+          "wrong": {
+            "A": "La cefalea sola no indica específicamente LVR o evaluación oftalmológica más allá de lo que se hace de forma rutinaria (fondo de ojo para papiledema). Todos los pacientes con LPSNC deben tener evaluación oftalmológica, pero es más urgente cuando hay síntomas oculares.",
+            "B": "La elevación de proteínas en LCR es un signo de inflamación/tumor en el SNC, pero no indica específicamente la necesidad de evaluación oftalmológica: indica que la evaluación con punción lumbar es importante.",
+            "D": "La localización periventricular es el patrón de RM característico del LPSNC y debe desencadenar la punción lumbar y la biopsia estereotáctica, pero no indica específicamente afectación ocular: todos los pacientes con LPSNC deben tener evaluación oftalmológica independientemente de la localización."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Exploración oftalmológica obligatoria en todos los pacientes con LPSNC; prioridad en pacientes con síntomas oculares; LVR en el 15-25% del LPSNC",
+          "trial": "Chan CC et al. Ophthalmology 2007: LVR coexistente con LPSNC — prevalencia 15-25%; la lámpara de hendidura revela vitritis en el 70%, infiltrados subretinianos en el 50%; detección de MYD88 L265P en biopsia vítrea: sensibilidad 75%",
+          "pearl": "Linfoma vitreorretiniano en el 15-25% del LPSNC. Exploración con lámpara de hendidura obligatoria en TODOS los pacientes con LPSNC (el LVR puede ser asintomático). Síntomas oculares (miodesopsias, visión borrosa) = lámpara de hendidura urgente. El LVR requiere MTX intravítreo 400 mcg dos veces por semana además del HD-MTX sistémico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q13",
+        "stem": "El ensayo REVRI (Ghesquières et al. Lancet Haematol 2019) evaluó ¿qué combinación para el LPSNC en recaída/refractario?",
+        "options": {
+          "A": "Ibrutinib + metotrexato",
+          "B": "Rituximab + lenalidomida",
+          "C": "Temozolomida + rituximab",
+          "D": "Pemetrexed + rituximab"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo REVRI (Ghesquières et al. Lancet Haematol 2019) evaluó rituximab + lenalidomida en LPSNC en recaída/refractario y LPSNC del ojo. Resultados: tasa de respuesta global del 35%, SLP a 6 meses del 42%, SG mediana de 18,3 meses. La combinación es activa y tolerable en esta población de difícil tratamiento. Está ahora incluida en las guías ESMO/EANO como opción de tratamiento para el LPSNC en recaída/refractario.",
+          "wrong": {
+            "A": "Ibrutinib + metotrexato es una combinación en investigación para el LPSNC en recaída, pero el ensayo REVRI evaluó específicamente rituximab + lenalidomida.",
+            "C": "Temozolomida + rituximab es otra opción para el LPSNC anciano en recaída, pero no fue la combinación evaluada en el ensayo REVRI.",
+            "D": "Pemetrexed + rituximab no fue la combinación del REVRI. El pemetrexed en monoterapia tiene actividad en el LPSNC refractario al MTX."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Opciones en LPSNC en recaída: rituximab+lenalidomida (datos REVRI), ibrutinib, reexposición a HD-MTX",
+          "trial": "Ghesquières H et al. Lancet Haematol 2019 (REVRI LYSA/LOC): 50 pacientes con LPSNC en recaída/refractario — rituximab 375 mg/m² + lenalidomida 20 mg/día d1-21 c28; TRO 35%, SLP a 6 meses 42%, SG mediana 18,3 meses",
+          "pearl": "Opciones de tratamiento del LPSNC en recaída/refractario: (1) Reexposición a HD-MTX (si >12 meses desde el último MTX), (2) rituximab+lenalidomida (ensayo REVRI, TRO 35%), (3) ibrutinib (TRO 75-90%), (4) RCT si no irradiado previamente. El ibrutinib actúa a través de la vía MYD88 L265P/BCR."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q14",
+        "stem": "Un receptor de trasplante renal de 45 años en tratamiento con tacrolimus, micofenolato y prednisolona a dosis bajas desarrolla una nueva lesión cerebral periventricular con realce. El ADN del VEB en LCR es positivo a niveles altos. ¿Cuál es la prioridad de manejo inicial?",
+        "options": {
+          "A": "Iniciar HD-MTX 3,5 g/m² de inmediato",
+          "B": "Realizar biopsia estereotáctica antes de cualquier otra intervención",
+          "C": "Reducir la inmunosupresión (reducir/suspender micofenolato, reducir tacrolimus), iniciar rituximab si se confirma TLPT VEB+",
+          "D": "Iniciar radioterapia cerebral total 30 Gy en 10 fracciones"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "En un receptor de trasplante renal con una lesión del SNC y ADN del VEB alto en LCR, el trastorno linfoproliferativo postrasplante (TLPT) del SNC es el diagnóstico más probable. El primer paso crítico es la reducción de la inmunosupresión: reducir o suspender el micofenolato y reducir el tacrolimus, lo que permite la reconstitución inmune y puede causar regresión del TLPT-VEB en el 30-50% de los casos precoces. Esto debe equilibrarse con el riesgo de rechazo. Una vez implementada la reducción de IS, se añade rituximab (dirigido a CD20) si la lesión es TLPT CD20+ confirmado (que representa la mayoría del TLPT precoz). El HD-MTX y la RCT son pasos posteriores si la reducción de IS + rituximab fracasan.",
+          "wrong": {
+            "A": "El HD-MTX es apropiado para el LPSNC VEB negativo en pacientes inmunocompetentes, pero en un receptor de trasplante, el primer paso es la reducción de la inmunosupresión y rituximab: la reducción de IS sola puede causar regresión del TLPT-VEB. Iniciar HD-MTX antes de la reducción de IS omite la intervención más eficaz y menos tóxica.",
+            "B": "La biopsia es necesaria para el diagnóstico definitivo si la biopsia líquida/LCR no es diagnóstica, pero en el contexto de ADN del VEB positivo en LCR y trasplante de órgano sólido, el diagnóstico de TLPT es probable. La reducción de IS puede iniciarse con esta alta probabilidad clínica mientras se organiza la biopsia.",
+            "D": "La RCT como tratamiento inicial del TLPT del SNC es prematura y omite la reducción de IS + rituximab, que son el enfoque estándar de primera línea. La RCT puede ser necesaria para la enfermedad refractaria a la quimioterapia."
+          },
+          "guideline": "ESMO PTLD Guidelines 2021 — TLPT del SNC: reducción de inmunosupresión + rituximab (si TLPT VEB+ CD20+) como primera línea; HD-MTX o RCT para la enfermedad refractaria",
+          "trial": "Trappe R et al. Lancet Oncol 2012 (ensayo PTLD-1): rituximab + reducción de IS para TLPT — RC 25%, OR 52%; SG a 3 años 63%; estableció rituximab secuencial como estándar para TLPT; el subgrupo de TLPT del SNC siguió el mismo enfoque",
+          "pearl": "TLPT del SNC (trasplante de órgano sólido + lesión del SNC VEB+): Paso 1 = reducir inmunosupresión. Paso 2 = rituximab si TLPT VEB+ CD20+. La reducción de IS sola induce respuesta en el 30-50% del TLPT precoz. HD-MTX y RCT reservados para el fracaso de reducción de IS + rituximab."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q15",
+        "stem": "R-CHOP está contraindicado como tratamiento primario del LPSNC porque:",
+        "options": {
+          "A": "El rituximab no puede cruzar la barrera hematoencefálica",
+          "B": "La ciclofosfamida, la doxorubicina y la vincristina no alcanzan concentraciones terapéuticas en el LCR",
+          "C": "Los regímenes CHOP causan daño irreversible del nervio óptico",
+          "D": "El LPSNC es un linfoma de células T que no expresa CD20"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La razón clave por la que R-CHOP es ineficaz para el LPSNC es que la ciclofosfamida, la doxorubicina (Adriamicina) y la vincristina son moléculas grandes con escasa solubilidad lipídica que no pueden penetrar la barrera hematoencefálica ni alcanzar concentraciones terapéuticas en el SNC. El LPSNC requiere agentes con penetración demostrada en la BHE: metotrexato en dosis altas (3,5 g/m² aprovecha el gradiente de concentración), citarabina, tiotepa y rituximab. Múltiples series retrospectivas y prospectivas han confirmado que R-CHOP es ineficaz para el LPSNC, con tasas de RC y SG inferiores a los regímenes basados en HD-MTX.",
+          "wrong": {
+            "A": "El rituximab sí penetra la barrera hematoencefálica en cierta medida (especialmente cuando la BHE está alterada por el tumor) y ha demostrado actividad en el LPSNC cuando se añade a regímenes basados en HD-MTX (HOVON 105). El propio rituximab no es la razón para evitar R-CHOP: son los agentes de quimioterapia CHOP los que plantean el problema.",
+            "C": "El CHOP no causa daño irreversible del nervio óptico. La vincristina puede causar neuropatía periférica, pero esto no es la razón para evitar R-CHOP en el LPSNC.",
+            "D": "El LPSNC es un linfoma de células B (LDCBG) que expresa CD20 en >95% de los casos, no de células T. La expresión de CD20 es la razón por la que el rituximab es eficaz en el LPSNC."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — R-CHOP explícitamente contraindicado para LPSNC; se requiere penetración en BHE para la eficacia; EANO PCNSL 2021",
+          "trial": "Batchelor T et al. Neuro Oncol 2011: R-CHOP histórico para LPSNC — tasa de RC 15-20%, SG mediana 7-10 meses; inferior a los regímenes de HD-MTX (RC 40-60%, SG mediana 18-36 meses); impermeabilidad de la BHE confirmada como mecanismo principal de fracaso",
+          "pearl": "R-CHOP = contraindicado para LPSNC. Razón: ciclofosfamida, doxorubicina, vincristina no pueden cruzar la BHE → sin actividad farmacológica en SNC. Deben usarse agentes con penetración en BHE: HD-MTX ≥3,5 g/m², citarabina, tiotepa, rituximab. Este es el principio de tratamiento más fundamental del LPSNC."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q16",
+        "stem": "Una mujer de 60 años con LPSNC en remisión completa tras MATRix + QAD-TACM desarrolla pérdida de memoria progresiva y trastorno de la marcha 18 meses después. La RM no muestra recidiva tumoral, pero sí cambios difusos en la sustancia blanca en T2. ¿Cuál es el diagnóstico más probable?",
+        "options": {
+          "A": "Recaída del LPSNC: iniciar HD-MTX de rescate",
+          "B": "Leucoencefalopatía relacionada con el tratamiento por quimioterapia/acondicionamiento para TACM",
+          "C": "Hidrocefalia a presión normal: realizar derivación ventriculoperitoneal",
+          "D": "Infección oportunista del SNC post-TACM: analizar LCR para virus JC, CMV, VEB"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los cambios difusos en T2 de la sustancia blanca con deterioro cognitivo y trastorno de la marcha a los 18 meses del acondicionamiento para QAD-TACM (que usa tiotepa, un agente de acondicionamiento altamente neurotóxico) en un paciente con enfermedad negativa en RM son más consistentes con leucoencefalopatía relacionada con el tratamiento. El acondicionamiento basado en tiotepa causa lesión diferida de la sustancia blanca similar a la RCT. Manejo: descartar recaída del LPSNC (citología del LCR/ADN libre de MYD88, PET) y luego cuidados de soporte (rehabilitación cognitiva, apoyo neuropsiquiátrico). A diferencia de la leucoencefalopatía inducida por RCT, los cambios inducidos por tiotepa pueden ser menos graves pero igualmente irreversibles.",
+          "wrong": {
+            "A": "La recaída del LPSNC en RM mostraría nuevas lesiones con realce, no cambios difusos en la sustancia blanca sin realce. El aspecto en RM (cambios difusos en T2, sin nuevo realce) y el curso neurológico normal (deterioro cognitivo progresivo vs inicio agudo de síntomas) argumentan en contra de la recaída. La citología del LCR y la biopsia líquida deben confirmarlo.",
+            "C": "La hidrocefalia a presión normal (HPN) se presenta con deterioro cognitivo + apraxia de la marcha + incontinencia urinaria (tríada de Hakim) y tiene resultados característicos de derivación del LCR. Aunque la tríada es similar, el contexto (QAD-TACM reciente, cambios difusos en T2 en RM) apunta a leucoencefalopatía relacionada con el tratamiento más que a HPN idiopática.",
+            "D": "La infección oportunista post-TACM es importante descartar (JC/LMP, encefalitis por CMV, TLPT por VEB) y debe ser parte del estudio diagnóstico (PCR en LCR). Sin embargo, la LMP causa lesiones asimétricas no realzadas en la sustancia blanca (no cambios bilaterales difusos en T2), y el contexto del tratamiento del LPSNC hace más probable la leucoencefalopatía relacionada con el tratamiento."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Monitorización de neurotoxicidad tras QAD-TACM: leucoencefalopatía por tiotepa reconocida como complicación; se recomienda RM de vigilancia y evaluación neuropsicológica",
+          "trial": "Illerhaus G et al. Haematologica 2016: QAD-TACM en LPSNC — leucoencefalopatía en el 15-25% a los 2 años; cambios en la sustancia blanca inducidos por tiotepa distintos de la neurotoxicidad por RCT; el deterioro cognitivo es la toxicidad tardía más frecuente",
+          "pearl": "Leucoencefalopatía relacionada con el tratamiento post-TACM/RCT: deterioro cognitivo progresivo + cambios en T2 de la sustancia blanca sin realce = NO recaída del LPSNC. La recaída del LPSNC muestra nuevas lesiones con realce. Confirmar siempre que no hay tumor en RM y citología/biopsia líquida del LCR antes de atribuirlo a toxicidad del tratamiento."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q17",
+        "stem": "¿A qué dosis estándar se administra el metotrexato intravítreo para el linfoma vitreorretiniano (LVR)?",
+        "options": {
+          "A": "12,5 mg por inyección (dosis estándar de MTX intratecal)",
+          "B": "400 mcg (0,4 mg) por inyección",
+          "C": "100 mg/m² por inyección",
+          "D": "3,5 g/m² por inyección (igual que el sistémico)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El metotrexato intravítreo para el LVR se administra a 400 mcg (0,4 mg) en 0,1 mL por inyección, una dosis mucho menor que la sistémica (3,5 g/m²) o la intratecal (12,5 mg). La pauta estándar es inducción (dos veces a la semana x 4 semanas), consolidación (semanalmente x 8 semanas) y mantenimiento (mensual). Esta inyección de pequeño volumen administra MTX directamente en la cavidad vítrea para alcanzar concentraciones intraorbitarias terapéuticas. La barrera hematorretiniana restringe la penetración del MTX sistémico o incluso del MTX sistémico a dosis altas en el vítreo, lo que hace necesaria la vía intravítrea.",
+          "wrong": {
+            "A": "12,5 mg es la dosis de MTX intratecal (por punción lumbar o reservorio de Ommaya). La inyección intravítrea de 12,5 mg causaría toxicidad catastrófica en la retina y el nervio óptico.",
+            "C": "100 mg/m² sería adecuado para MTX sistémico en algunos contextos, pero es excesivo para la inyección intraocular: el volumen vítreo es de aproximadamente 4 mL. Cualquier dosis muy superior a 400 mcg/0,1 mL en el vítreo causa retinoquímica grave.",
+            "D": "3,5 g/m² es la dosis sistémica IV para el LPSNC: es imposible administrarla de forma intravítrea. El volumen máximo de inyección intravítrea es 0,1 mL."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Tratamiento del LVR: MTX intravítreo 400 mcg/0,1 mL; pauta estándar inducción/consolidación/mantenimiento; NCCN CNS Tumors v1.2024",
+          "trial": "Frenkel S et al. Ophthalmology 2008: MTX intravítreo 400 mcg para LVR — tasa de respuesta inicial del 100% en linfoma ocular; recidiva en el 54% al año que requiere retratamiento; estableció los 400 mcg como dosis segura y eficaz",
+          "pearl": "MTX intravítreo para LVR: 400 mcg/0,1 mL por inyección (NO 12,5 mg que es intratecal). Pauta: dos veces por semana x4 semanas → semanalmente x8 semanas → mensual. La barrera hematorretiniana impide que el HD-MTX sistémico trate adecuadamente el LVR → se requiere vía intravítrea."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q18",
+        "stem": "Un hombre de 55 años con recaída de LPSNC presenta la mutación MYD88 L265P. ¿Qué agente oral ha demostrado la mayor tasa de respuesta global como agente único en la recaída de LPSNC MYD88-mutado?",
+        "options": {
+          "A": "Lenalidomida",
+          "B": "Temozolomida",
+          "C": "Ibrutinib",
+          "D": "Pemetrexed"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Ibrutinib (inhibidor de la tirosina quinasa de Bruton) alcanzó una tasa de respuesta global del 75-90% en el estudio de referencia Wilson et al. (Nat Med 2015) de un solo brazo de ibrutinib en LPSNC en recaída/refractario. La actividad es particularmente alta en el LPSNC MYD88 L265P-mutado porque MYD88 L265P activa la vía de señalización BCR-NF-κB a través de BTK. Ibrutinib 560-840 mg/día alcanza concentraciones terapéuticas en el LCR y es un agente oral muy activo para el LPSNC en recaída. Sin embargo, las respuestas a menudo no son duraderas (SLP mediana ~5 meses en monoterapia).",
+          "wrong": {
+            "A": "La lenalidomida sola tiene una actividad modesta en el LPSNC en recaída (~25-30% de TRO). Su actividad se potencia sustancialmente con la combinación con rituximab (ensayo REVRI TRO 35%), pero la monoterapia con ibrutinib alcanza una TRO mayor que la lenalidomida sola.",
+            "B": "La temozolomida tiene una actividad modesta e inconsistente en la recaída del LPSNC (<15-20% de TRO) y es generalmente una opción paliativa para los pacientes ancianos con tratamiento intensivo previo. Su eficacia es mucho menor que la del ibrutinib.",
+            "D": "El pemetrexed alcanza un TRO del 45% en el LPSNC refractario al MTX (Raizer et al. Neuro Oncol 2012), lo que lo hace más activo que la temozolomida, pero menos activo que ibrutinib en la enfermedad MYD88-mutada."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — LPSNC en recaída: ibrutinib recomendado para la enfermedad MYD88-mutada; TRO 75-90%; EANO PCNSL 2021",
+          "trial": "Wilson WH et al. Nat Med 2015: Ibrutinib en monoterapia 560 mg/día en 20 LPSNC en recaída/refractario — TRO 75% (todos MYD88 L265P-mutados); SLP mediana 4,6 meses; concentraciones de ibrutinib en LCR terapéuticas; estableció ibrutinib como inhibidor de BTK altamente activo con penetración en SNC",
+          "pearl": "Ibrutinib para LPSNC MYD88 L265P en recaída: TRO 75-90% (mayor TRO como agente único en LPSNC en recaída). Inhibidor de BTK dirigido a la vía BCR-NF-κB. Agente oral con buena penetración en SNC. Limitación: las respuestas a menudo no son duraderas (SLP mediana 4-6 meses en monoterapia). Combinación con HD-MTX en investigación."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q19",
+        "stem": "¿Cuál es el subtipo histológico más frecuente del linfoma primario del SNC en adultos inmunocompetentes?",
+        "options": {
+          "A": "Linfoma folicular",
+          "B": "Linfoma difuso de células B grandes (LDCBG), subtipo no de centro germinal",
+          "C": "Linfoma de células T periférico",
+          "D": "Linfoma de la zona marginal de células B"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Aproximadamente el 95% del LPSNC en adultos inmunocompetentes son linfoma difuso de células B grandes (LDCBG) del subtipo no de centro germinal (no-GCB, también llamado de células B activadas, ABC). Estos se caracterizan por la mutación MYD88 L265P (50-80%), mutación en CD79B (30-70%), sobreexpresión de BCL2 y alto índice proliferativo (Ki67 >90%). El subtipo no-GCB refleja la activación de las vías de señalización NF-κB/STAT3 que promueven el tropismo por el SNC. El LPSNC de subtipo GCB es raro (<5%).",
+          "wrong": {
+            "A": "El linfoma folicular raramente afecta al SNC de forma primaria. Es un linfoma sistémico indolente que puede afectar secundariamente al SNC (linfoma secundario del SNC por transformación), pero no es un histotipo de linfoma cerebral primario.",
+            "C": "El linfoma primario del SNC de células T es muy raro (<5% del LPSNC) y más frecuente en huéspedes inmunocomprometidos. La gran mayoría (95%) del LPSNC en inmunocompetentes es de células B (LDCBG).",
+            "D": "El linfoma de zona marginal de células B raramente afecta al SNC de forma primaria. Cuando lo hace, tiende a afectar a la duramadre (linfoma dural primario) más que al parénquima cerebral y tiene mejor pronóstico."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Patología: LDCBG subtipo no-GCB en el 95% del LPSNC inmunocompetente; Clasificación OMS de Linfomas 2022",
+          "trial": "Montesinos-Rongen M et al. Blood 2008: Perfil molecular del LPSNC — 93% subtipo LDCBG, ABC/no-GCB en el 91% del LDCBG; MYD88 L265P en el 79% por secuenciación; mutaciones en CD79B en el 69%; estableció no-GCB/ABC como subtipo molecular definitorio",
+          "pearl": "Histología del LPSNC: 95% LDCBG, subtipo no-GCB (ABC). Molecular: MYD88 L265P (50-80%), mutación CD79B (30-70%), reordenamiento de BCL6 raro. Ki67 alto (>90%). El fenotipo no-GCB es la razón por la que los inhibidores de la vía NF-κB (ibrutinib) son activos. El LPSNC de tipo GCB es raro (<5%)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q20",
+        "stem": "Un hombre de 63 años con LPSNC alcanza remisión completa tras 4 ciclos de MATRix. Se está considerando la consolidación con QAD-TACM. ¿Qué exploración es la MÁS importante antes de proceder al TACM?",
+        "options": {
+          "A": "Reevaluación oftalmológica para descartar recidiva de LVR",
+          "B": "Ecocardiograma para evaluar la elegibilidad para el acondicionamiento con tiotepa",
+          "C": "PET-TC de cuerpo entero y RM cerebral para confirmar la remisión completa (sin enfermedad residual sistémica ni en SNC)",
+          "D": "Punción lumbar para medir el aclaramiento del MTX"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Antes de proceder al acondicionamiento para QAD-TACM (tiotepa + BCNU), es obligatorio confirmar la remisión completa: sin enfermedad residual en el SNC en RM y sin enfermedad sistémica en el PET-TC de cuerpo entero. El acondicionamiento para TACM es tóxico (la tiotepa causa mucositis grave, mielosupresión, neurotoxicidad) y solo debe ofrecerse a los pacientes que están en RC confirmada o muy buena respuesta parcial. Proceder al TACM con enfermedad activa da lugar a peores resultados. La imagen de reestadificación (RM cerebral + PET-TC + valoración del LCR) es la evaluación pre-TACM más crítica.",
+          "wrong": {
+            "A": "La reevaluación oftalmológica es importante ya que el LVR puede persistir o recidivar incluso cuando la enfermedad cerebral responde, pero confirmar la remisión sistémica y del SNC por imagen es la investigación pre-TACM de mayor prioridad.",
+            "B": "El ecocardiograma puede ser relevante para evaluar el riesgo de cardiotoxicidad por BCNU, pero no es la investigación pre-TACM más importante en un paciente de riesgo estándar. La reestadificación para confirmar la remisión es el paso crítico antes de comprometerse con el acondicionamiento.",
+            "D": "La medición del aclaramiento de MTX es relevante durante la administración de MTX (para guiar la dosis de leucovorina), pero no es un requisito de evaluación pre-TACM. En el momento en que se considera la consolidación con TACM (semanas después de completar la inducción), el MTX ha sido completamente aclarado."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Reestadificación pre-TACM: RM cerebral + PET-TC de cuerpo entero obligatorios para confirmar RC antes del acondicionamiento; valoración del LCR recomendada",
+          "trial": "Ferreri AJM et al. Lancet Haematol 2018 (IELSG32 parte 2): Estado de remisión completa pre-TACM — la RC antes del TACM se asocia con SLP y SG superiores frente a la RP; subraya la importancia de confirmar RC antes del acondicionamiento",
+          "pearl": "Pre-TACM obligatorio: RM cerebral + PET-TC para confirmar RC. El acondicionamiento (tiotepa+BCNU) con enfermedad activa = peores resultados. Comprobar también: función cardíaca (cardiotoxicidad por BCNU), función renal/hepática, valoración oftalmológica para LVR, citología del LCR/biopsia líquida. TACM solo para pacientes en RC/casi-RC."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}
