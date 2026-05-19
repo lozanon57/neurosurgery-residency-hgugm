@@ -1,0 +1,661 @@
+{
+  "id": "A5",
+  "title": "Tumores Hipofisarios",
+  "subtitle": "Bloque A — Neuro-Oncología: Adenomas Hipofisarios, Craneofaringiomas y Patología Selar",
+  "block": "A",
+  "block_name": "Neuro-Oncología",
+  "level": "R1-3",
+  "reading_time_min": 42,
+  "guidelines_version": "Endocrine Society Pituitary Guidelines 2020 · EANS Transsphenoidal Surgery Guidelines 2019 · NCCN CNS Tumors v1.2024",
+  "textbook_refs": [
+    "Melmed S et al. Acromegaly: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2018;103:1621-1651",
+    "Dekkers OM et al. European Society of Endocrinology Clinical Practice Guideline on Pituitary Tumours. Eur J Endocrinol 2023;189:G1-G42",
+    "Laws ER et al. Transsphenoidal Surgery for Pituitary Adenomas. J Neurosurg 2017;126:1423-1428",
+    "Muller HL et al. Craniopharyngioma. Nat Rev Dis Primers 2019;5:75"
+  ],
+  "learning_objectives": [
+    "Clasificar los adenomas hipofisarios según tamaño (microadenoma vs macroadenoma) y estado funcional (secretores vs no funcionantes) con sus presentaciones clínicas características",
+    "Identificar la evaluación hormonal necesaria para el estudio preoperatorio de los tumores hipofisarios, incluyendo los ejes hipofisarios anterior y posterior",
+    "Describir las indicaciones, el abordaje quirúrgico (endoscópico endonasal vs microscópico) y los puntos de referencia anatómicos clave para la cirugía transesfenoidal",
+    "Reconocer las complicaciones postoperatorias de la cirugía hipofisaria, incluyendo diabetes insípida, fístula de LCR, hiponatremia y apoplejía hipofisaria",
+    "Aplicar las opciones de tratamiento médico específicas para los adenomas secretores (agonistas dopaminérgicos para prolactinomas, análogos de somatostatina para acromegalia, pasireotida para enfermedad de Cushing)",
+    "Diferenciar el adenoma hipofisario de otras masas selares (craneofaringioma, quiste de Rathke, meningioma, tumor de células germinales) en base a criterios clínicos e imagenológicos"
+  ],
+  "sections": [
+    {
+      "id": "A5-S1",
+      "title": "Clasificación y Presentación Clínica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los adenomas hipofisarios representan la neoplasia intracraneal más frecuente después de los gliomas y meningiomas, y suponen el 10-15% de todos los tumores intracraneales y aproximadamente el 25% de las intervenciones quirúrgicas intracraneales. Las series de autopsias demuestran microadenomas incidentales en el 10-22% de la población general, y las lesiones hipofisarias descubiertas de forma incidental ('incidentalomas') representan una proporción creciente de los encuentros clínicos, impulsada por la amplia disponibilidad de la RM.\n\n**Clasificación por tamaño**: Los microadenomas tienen ≤10 mm de diámetro máximo; los macroadenomas son >10 mm. Los adenomas gigantes (>40 mm) constituyen un subgrupo pequeño con la mayor complejidad quirúrgica. La clasificación según el estado funcional divide los adenomas en funcionantes (secretores de hormonas, 60-70%) y no funcionantes (AFNF, 30-40%). La clasificación de la OMS 2022 de los tumores neuroendocrinos hipofisarios (PitNETs) reemplazó el término 'adenoma' por 'tumor neuroendocrino hipofisario' en la clasificación patológica, aunque 'adenoma' sigue usándose en la práctica clínica.\n\n**Adenomas funcionantes por frecuencia**: (1) Los prolactinomas son los más frecuentes (40-45% de todos los adenomas hipofisarios), secretan prolactina (PRL) y causan hiperprolactinemia: amenorrea/galactorrea en mujeres, disfunción sexual/ginecomastia en hombres. (2) Los adenomas hipofisarios no funcionantes (AFNF, 25-30%) suelen presentarse con efecto masa (cefalea, defectos del campo visual, hipopituitarismo) y no con síndrome hormonal. (3) Los adenomas secretores de hormona de crecimiento (10-15%) causan acromegalia (en adultos) o gigantismo (antes de la fusión epifisaria). (4) Los adenomas secretores de ACTH (5-10%) causan la enfermedad de Cushing. (5) Los adenomas secretores de TSH (1%) causan hipertiroidismo central. (6) Los gonadotropinomas secretores de LH/FSH suelen ser clínicamente no funcionantes.\n\n**Defectos del campo visual** por macroadenomas hipofisarios: la extensión supraselar comprime el quiasma óptico a nivel de la decusación inferomedial de las fibras nasales, produciendo la característica **hemianopsia bitemporal** (pérdida del campo visual bitemporal). La compresión quiasmática es la indicación principal para la descompresión quirúrgica de los macroadenomas no funcionantes."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación y Características Clínicas de los Adenomas Hipofisarios",
+          "headers": ["Tipo de Adenoma", "Frecuencia", "Hormona Clave", "Síndrome Clínico", "Tratamiento Principal"],
+          "rows": [
+            ["Prolactinoma", "40-45%", "Prolactina", "Mujeres: amenorrea, galactorrea, infertilidad; Hombres: disfunción sexual, ginecomastia", "Agonista dopaminérgico (cabergolina)"],
+            ["No funcionante (AFNF)", "25-30%", "Ninguna (subunidades FSH/LH)", "Cefalea, defectos del campo visual, hipopituitarismo, parálisis de nervios craneales", "Cirugía (transesfenoidal)"],
+            ["Secretor de GH (Acromegalia)", "10-15%", "GH/IGF-1", "Agrandamiento acral, facies tosca, artropatía, apnea del sueño, hipertensión, DM", "Cirugía (primera línea); ASA si mal candidato quirúrgico"],
+            ["Secretor de ACTH (Cushing)", "5-10%", "ACTH/Cortisol", "Aumento de peso, estrías, hematomas, hipertensión, osteoporosis, síntomas psiquiátricos", "Cirugía (transesfenoidal); suprarrenalectomía bilateral si fracaso"],
+            ["Secretor de TSH", "1%", "TSH", "Hipertiroidismo (central): palpitaciones, pérdida de peso, bocio", "Cirugía; ASA preoperatoria para normalizar función tiroidea"],
+            ["Secretor de gonadotropinas", "5-10%", "FSH/LH", "Habitualmente no funcionante clínicamente; detectado solo en IHQ", "Cirugía si sintomático por efecto masa"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Prolactinoma: Tratamiento Médico en Primera Línea",
+          "content": "Los prolactinomas son el ÚNICO subtipo de adenoma hipofisario en el que el tratamiento médico (y no la cirugía) es el tratamiento de primera línea. La cabergolina (agonista D2 dopaminérgico) normaliza la prolactina en el 85-90% de los pacientes y reduce el volumen tumoral en el 70-80%, incluyendo grandes macroadenomas. La cirugía se reserva para resistencia/intolerancia a cabergolina, compromiso visual urgente o preferencia del paciente. Esto distingue el manejo del prolactinoma del de todos los demás adenomas secretores, en los que la cirugía es el tratamiento primario."
+        }
+      ]
+    },
+    {
+      "id": "A5-S2",
+      "title": "Evaluación Hormonal Preoperatoria",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La evaluación hormonal preoperatoria completa es obligatoria antes de la cirugía hipofisaria y debe preceder a la intervención quirúrgica, ya que las deficiencias hormonales (en particular la insuficiencia de cortisol) pueden ser potencialmente mortales si no se reconocen en el período perioperatorio. La evaluación valora tanto el exceso de hormonas hipofisarias (confirmando el tipo secretor) como la deficiencia de hormonas hipofisarias (evaluando el grado de hipopituitarismo por efecto masa sobre el tejido hipofisario normal).\n\n**Evaluación hormonal basal**: PRL sérica, IGF-1, cortisol (8h de la mañana), ACTH, GH, TSH, T4 libre, LH, FSH, testosterona (hombres), estradiol (mujeres) y sodio/osmolalidad para la función hipofisaria posterior. Para sospecha de enfermedad de Cushing: cortisol libre urinario de 24 horas (CLU) ×2, cortisol salival nocturno tardío ×2, test de supresión con 1 mg de dexametasona nocturno; estos deben ser patológicos antes de considerar la cirugía.\n\n**Consideraciones preoperatorias clave según tipo de adenoma**:\n- **Secretor de ACTH (Cushing)**: Confirmar el diagnóstico bioquímicamente antes de CUALQUIER cirugía. El muestreo de senos petrosos inferiores (MSPI) con estimulación de CRH confirma el origen hipofisario de la ACTH (ratio MSPI:periférico ≥2 en reposo o ≥3 tras CRH = origen hipofisario). El hidrocortisona en dosis de estrés perioperatoria es obligatoria.\n- **Secretor de GH (Acromegalia)**: El octreotida LAR preoperatorio reduce el sangrado quirúrgico y las complicaciones cardíacas; la evidencia apoya la reducción de la morbilidad quirúrgica cuando se administra 3-6 meses antes de la cirugía en pacientes seleccionados.\n- **Secretor de TSH**: Tratamiento antitiroideo preoperatorio para normalizar la función tiroidea antes de la cirugía y prevenir la tormenta tiroidea.\n- **Evaluación del hipopituitarismo**: La insuficiencia de ACTH (cortisol matutino <100 nmol/L o test de Synacthen corto fallido) requiere reposición perioperatoria de hidrocortisona 100 mg IV en la inducción y luego 25-50 mg cada 8 horas en el postoperatorio. El hipotiroidismo (T4 libre baja) requiere reposición con levotiroxina."
+        },
+        {
+          "type": "table",
+          "title": "Protocolo de Evaluación Hormonal Perioperatoria para Cirugía Hipofisaria",
+          "headers": ["Eje", "Prueba Preoperatoria", "Acción Crítica si Anormal", "Monitorización Postoperatoria"],
+          "rows": [
+            ["Suprarrenal (ACTH)", "Cortisol 8h, ACTH; Synacthen corto si equívoco", "Hidrocortisona 100 mg IV en inducción + reposición", "Cortisol días 1 y 3 postop; valorar recuperación dinámica a las 6 semanas"],
+            ["Tiroideo (TSH)", "TSH, T4 libre", "Reposición con levotiroxina; secretor de TSH: antitiroideos", "TSH y T4 libre a las 6 semanas postop"],
+            ["Prolactina", "PRL sérica (en ayunas)", ">2000 mU/L probablemente prolactinoma — reconsiderar cirugía", "PRL día 1 postop (bajo = predictor de curación)"],
+            ["GH/IGF-1", "IGF-1, GH (nadir durante SOG)", "Confirmar exceso; octreotida preop si comorbilidad cardíaca", "IGF-1 a los 3 meses; nadir de GH en SOG <1 ng/mL = curación"],
+            ["ACTH/Cortisol (Cushing)", "CLU 24h ×2, cortisol salival nocturno ×2, supresión 1mg", "Confirmar bioquímicamente antes de cirugía; MSPI si RM negativa", "Cortisol día 1 postop (<50 nmol/L sugiere remisión)"],
+            ["Hipófisis posterior", "Sodio, osmolalidad sérica, osmolalidad urinaria", "Documentar DI basal antes de cirugía", "Balance hídrico estricto, diuresis, sodio sérico postop"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Crisis Suprarrenal Perioperatoria",
+          "content": "La insuficiencia de ACTH no reconocida en un paciente con macroadenoma hipofisario provoca una crisis suprarrenal en el período perioperatorio (hipotensión, náuseas, hiponatremia, shock): se trata de una emergencia quirúrgica. Comprobar siempre el cortisol matutino e instaurar reposición con hidrocortisona en dosis de estrés si el cortisol es <400 nmol/L o si el test de Synacthen corto falla. No retrasar la hidrocortisona mientras se esperan los niveles de cortisol en un paciente hemodinámicamente inestable con enfermedad hipofisaria conocida."
+        }
+      ]
+    },
+    {
+      "id": "A5-S3",
+      "title": "Cirugía Transesfenoidal Endoscópica Endonasal",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La cirugía transesfenoidal (CTE) es el tratamiento definitivo para la mayoría de los adenomas hipofisarios funcionantes (acromegalia, enfermedad de Cushing, secretores de TSH) y para los macroadenomas no funcionantes que causan efecto masa (compromiso visual, hipopituitarismo). El **abordaje endoscópico endonasal transesfenoidal (AEE)** ha reemplazado en gran medida al abordaje microscópico sublabial transesfenoidal tradicional en centros de alto volumen, ofreciendo visualización superior de la región selar y paraselar, menor morbilidad nasal y sin incisión labial.\n\n**Corredores anatómicos**: El AEE discurre a través de la fosa nasal, la hendidura esfenoetmoidal y el seno esfenoidal hasta la pared anterior de la silla. Los puntos de referencia anatómicos clave son: (1) el cornete superior (extirpado para el acceso), (2) el ostium esfenoidal, (3) el rostrum del esfenoides, (4) el suelo de la silla turca (habitualmente al nivel del suelo del seno esfenoidal), (5) el seno cavernoso lateralmente (que contiene la arteria carótida), (6) los canales ópticos y el quiasma superiormente, y (7) el diafragma selar (que limita la extensión supraselar del abordaje).\n\n**Pasos quirúrgicos**: Tras la preparación con técnica binostril de 4 manos, se abre la cara del esfenoides y se extirpa el septo interseno. Se perfora o fractura el suelo selar. La duramadre se abre en forma de cruz tras confirmar las posiciones de la arteria carótida con Doppler o navegación intraoperatoria. El tumor se extirpa sistemáticamente por cuadrantes (inferior, lateral, superior). La RM o ecografía intraoperatoria puede confirmar la extensión de la resección. Tras la extirpación tumoral, el defecto dural se reconstruye con injerto de grasa y/o colgajo nasoseptal vascularizado (colgajo de Hadad-Bassagasteguy) para abordajes extendidos o fístulas de LCR de alto flujo.\n\n**Criterios de remisión**: Para la **acromegalia**, la curación quirúrgica se define como IGF-1 normalizado para edad y sexo, Y GH en ayunas <1 ng/mL, Y nadir de GH <0,4 ng/mL durante SOG (valorado 3 meses después de la cirugía). Tasas de curación: 75-90% para microadenomas, 50-70% para macroadenomas. Para la **enfermedad de Cushing**, la remisión se define por cortisol sérico matutino <50 nmol/L (o <1,8 µg/dL) dentro de los 7 días posteriores a la cirugía, lo que refleja la extirpación completa de las células secretoras de ACTH y la supresión de la función corticotropa normal. Tasas de curación: 70-90% para microadenomas, 50-65% para macroadenomas."
+        },
+        {
+          "type": "table",
+          "title": "Resultados de la Cirugía Transesfenoidal según Tipo de Adenoma",
+          "headers": ["Tipo de Adenoma", "Tasa de Remisión Quirúrgica (micro)", "Tasa de Remisión Quirúrgica (macro)", "Tasa de Recurrencia (10 años)", "Adyuvante si Falla la Cirugía"],
+          "rows": [
+            ["Acromegalia (GH)", "75-90%", "50-70%", "5-10%", "ASA (octreotida LAR, lanreotida); pegvisomant; RCE"],
+            ["Enfermedad de Cushing (ACTH)", "70-90%", "50-65%", "10-15%", "Pasireotida; suprarrenalectomía bilateral; RCE"],
+            ["AFNF", "N/A (sin curación hormonal)", "Resección total amplia 60-80%", "10-20% (5 años)", "RCE/RT adyuvante para residuo; observación si completa"],
+            ["Prolactinoma (quirúrgico)", "70-85% micro", "30-50% macro", "Cabergolina para residuo", "Cabergolina; RCE"],
+            ["Acromegalia — Criterios de remisión", "IGF-1 normal + GH <1 ng/mL", "Nadir de GH en SOG <0,4 ng/mL a los 3 meses", "—", "—"],
+            ["Cushing — Criterios de remisión", "Cortisol <50 nmol/L días 1-7 postop", "Requiere reposición de cortisol postop", "—", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Monitorización de Cortisol Perioperatorio en Enfermedad de Cushing",
+          "content": "Tras la CTE por enfermedad de Cushing, las mediciones de cortisol en el postoperatorio inmediato son el indicador principal de remisión. Un cortisol de los días 1-3 <50 nmol/L (con el paciente sin reposición de esteroides) indica curación quirúrgica: el descenso brusco refleja la extirpación de las células secretoras de ACTH y la supresión de los corticotropos normales restantes por el exceso crónico de cortisol. Los pacientes necesitarán reposición de hidrocortisona durante 6-12 meses tras la curación mientras se recupera el eje HHS. Las mediciones precoces de cortisol (y no los test de nadir matutino) determinan el éxito quirúrgico."
+        }
+      ]
+    },
+    {
+      "id": "A5-S4",
+      "title": "Complicaciones Postoperatorias",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La cirugía transesfenoidal tiene un perfil de seguridad favorable en centros con experiencia, con una mortalidad <0,5% para los procedimientos estándar. Sin embargo, varias complicaciones específicas requieren reconocimiento y tratamiento.\n\n**Diabetes insípida (DI)**: La complicación postoperatoria más frecuente (10-30%), causada por la lesión del tallo o de la neurohipófisis durante la disección tumoral. Se caracteriza por poliuria (diuresis >250 mL/hora o >3 L/24 horas), orina diluida (osmolalidad <300 mOsm/kg) e hipernatremia. Tres patrones: (1) **DI transitoria** (la más frecuente): se resuelve en 1-2 semanas; (2) **Respuesta trifásica**: DI → SIADH → DI — la respuesta 'trifásica' clásica que ocurre en el 5-10%, causada por edema axonal inicial (DI) → liberación de hormona antidiurética desde neuronas dañadas que mueren (SIADH, días 5-10) → DI permanente si se destruye suficiente neurohipófisis. La fase SIADH puede provocar hiponatremia peligrosa; (3) **DI permanente**: requiere desmopresina (DDAVP) de por vida. Tratamiento: DDAVP 0,1-0,2 mg oral o 1-4 mcg subcutáneo.\n\n**Fístula de LCR (rinorrea)**: Ocurre en el 1-5% de los casos de CTE estándar y hasta el 10-15% de los AEE extendidos. Se caracteriza por secreción nasal acuosa; se confirma por medición de glucosa (glucosa en LCR >2/3 de la glucosa sérica) o prueba de beta-2 transferrina (estándar de referencia). Las fístulas menores pueden sellarse con drenaje lumbar y reposo en cama; las fístulas persistentes requieren reparación quirúrgica (injerto de grasa, colgajo nasoseptal pediculado). Las fístulas de LCR conllevan riesgo de meningitis.\n\n**Hiponatremia**: Ocurre en el 10-20% entre los días 5-14 del postoperatorio, causada por SIADH tras la manipulación de la neurohipófisis. Se presenta con náuseas, cefalea y, si es grave (<125 mmol/L), convulsiones y edema cerebral. Tratamiento: restricción hídrica para SIADH leve-moderado; suero salino hipertónico para hiponatremia grave sintomática (<120 mmol/L o sintomática). Los pacientes deben tener el sodio controlado los días 7-10 del postoperatorio de forma ambulatoria.\n\n**Apoplejía hipofisaria postoperatoria**: Rara (1-2%); la hemorragia aguda en el tumor residual o en la hipófisis normal causa cefalea de inicio súbito, deterioro visual y crisis hormonal. Requiere dexametasona de urgencia y reintervención si la visión se deteriora.\n\n**Deterioro visual**: El nuevo déficit visual tras la CTE ocurre en <1-2% de los casos; causado por tracción del nervio/quiasma óptico, hematoma o vasoespasmo. La RM postoperatoria en las primeras 48 horas es estándar para valorar el residuo y excluir hematoma."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — La Respuesta Trifásica: Reconocer la Fase SIADH",
+          "content": "La respuesta trifásica tras cirugía hipofisaria es: Días 1-4: DI (poliuria, hipernatremia) → Días 5-10: SIADH (hiponatremia, diuresis normal o reducida) → Día 10 en adelante: DI permanente (si se ha destruido suficiente neurohipófisis). La fase más peligrosa para los pacientes en domicilio es la fase SIADH: la hiponatremia puede ser grave y causar convulsiones. Todos los pacientes dados de alta tras cirugía hipofisaria deben tener el sodio controlado los días 7-10. Restricción hídrica para la SIADH; continuar DDAVP con precaución si hay DI permanente."
+        }
+      ]
+    },
+    {
+      "id": "A5-S5",
+      "title": "Craneofaringiomas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los craneofaringiomas son tumores epiteliales benignos (grado 1 de la OMS) que se originan a partir de restos de la bolsa de Rathke a lo largo del tallo hipofisario y la región hipotalámica. A pesar de su histología benigna, los craneofaringiomas causan una morbilidad profunda por afectación hipotalámica, disfunción hipofisaria y deterioro visual. Existen dos subtipos histológicos diferenciados: **adamantinomatoso** (incidencia bimodal, edades 5-14 y >50 años; mutación CTNNB1 que activa la señalización Wnt/β-catenina; calcificaciones y quistes prominentes) y **papilar** (pico de edad 50-70 años; mutación BRAF V600E en ~95%; arquitectura sólida; raramente calcificado).\n\n**Presentación clínica**: La tríada clásica es defectos del campo visual bitemporal, hipopituitarismo (la deficiencia de hormona de crecimiento es la más frecuente en niños) y, cuando está afectado el hipotálamo, obesidad hipotalámica, diabetes insípida y alteración de la sensación de sed. La RM muestra una masa supraselar con componentes quísticos (líquido hiperdenso 'aceite de motor' en TC) y sólidos, frecuentemente con calcificación (mejor visible en TC). El grado hipotalámico (grado de afectación hipotalámica) es el factor pronóstico más importante para los resultados y guía la intensidad del tratamiento.\n\n**Filosofía de tratamiento**: La resección quirúrgica completa ofrece la mayor posibilidad de curación (SG a 5 años >90%) pero conlleva la mayor morbilidad hipotalámica: obesidad hipotalámica (IMC >35 en el 40-60%), deficiencia de GH (100%), DI (70-90%) y panhipopituitarismo. La **cirugía limitada + radioterapia** logra un control tumoral equivalente a largo plazo en muchas series (abordaje basado en RT) con morbilidad hipotalámica sustancialmente reducida. El **ensayo KRANIOPHARYNGEOM 2007** demostró que la cirugía conservadora del hipotálamo seguida de radioterapia logra una SLP equivalente (10 años: 74% cirugía limitada+RT vs 59% cirugía radical) con menor disfunción hipotalámica grave. El manejo contemporáneo favorece la cirugía limitada (conservadora del hipotálamo) en casos con hipotálamo comprometido (grado Muller 2/3), seguida de radioterapia fraccionada o protonterapia.\n\n**Craneofaringiomas papilares BRAF V600E**: El descubrimiento de mutaciones BRAF V600E en casi todos los craneofaringiomas papilares ha llevado a ensayos de fase II con inhibición BRAF/MEK (dabrafenib + trametinib, vemurafenib). Brastianos et al. (NEJM 2016) comunicaron respuestas notables en tres pacientes, con regresión quística confirmada. Los ensayos de fase II (BRAF-CRAN) están en curso y pueden transformar el manejo del craneofaringioma papilar."
+        },
+        {
+          "type": "table",
+          "title": "Craneofaringioma Adamantinomatoso vs Papilar — Diferencias Clave",
+          "headers": ["Característica", "Adamantinomatoso", "Papilar"],
+          "rows": [
+            ["Pico de edad", "Bimodal: 5-14 años y >50 años", "50-70 años (solo adultos)"],
+            ["Alteración molecular", "Mutación CTNNB1 (vía Wnt)", "BRAF V600E (~95%)"],
+            ["Histología", "Epitelio en empalizada, 'queratina húmeda', calcificación", "Pseudopapilas escamosas, sin calcificación"],
+            ["Aspecto en RM", "Quístico + sólido + calcificación (TC); quistes T1 hiperintensos", "Predominantemente sólido, raramente quístico"],
+            ["Calcificación", "Presente en el 90% (TC)", "Rara"],
+            ["Terapia dirigida BRAF", "No aplicable", "Dabrafenib+trametinib: alta tasa de respuesta"],
+            ["Pronóstico", "Mayor recurrencia, invasión hipotalámica frecuente", "Mejor pronóstico; la terapia BRAF transforma el manejo"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Obesidad Hipotalámica: La Morbilidad Dominante",
+          "content": "La obesidad hipotalámica es la morbilidad a largo plazo más devastadora del craneofaringioma, ocurriendo en el 40-60% de los pacientes tras el tratamiento. Está causada por la lesión del núcleo ventromedial hipotalámico (centro de la saciedad) que lleva a resistencia a la leptina, disfunción autonómica e hiperfagia refractaria. Una vez establecida, es esencialmente irreversible. El grado de afectación hipotalámica (grado de Muller) es el principal determinante de la planificación del tratamiento: el grado 2-3 de afectación hipotalámica obliga a una cirugía conservadora (que preserve el hipotálamo) para prevenir esta complicación."
+        }
+      ]
+    },
+    {
+      "id": "A5-S6",
+      "title": "Apoplejía Hipofisaria y Quiste de Rathke",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**La apoplejía hipofisaria** es una urgencia neuroquirúrgica definida por infarto o hemorragia agudos dentro de un adenoma hipofisario. Ocurre en el 2-7% de los pacientes con adenoma y se asocia con desencadenantes que incluyen anticoagulación, inicio de bromocriptina, hipotensión, cirugía cardíaca, o puede ser espontánea. La presentación clínica es la tríada clásica: (1) cefalea de inicio súbito 'en trueno' (retroorbitaria, 'peor cefalea de la vida'), (2) alteración visual (disminución de agudeza, defectos del campo, parálisis de III/IV/VI par craneal por compresión del seno cavernoso) y (3) hipopituitarismo agudo, especialmente crisis suprarrenal (hipotensión, náuseas, confusión). El componente hemorrágico produce un cambio de señal en RM T1 (hiperintenso), que puede imitar una hemorragia subaracnoidea. Las analíticas urgentes deben incluir cortisol y electrolitos.\n\n**Manejo de la apoplejía hipofisaria**: La hidrocortisona en dosis altas (100 mg IV en bolo) es obligatoria de inmediato, dado el alto riesgo de crisis suprarrenal aguda. Valoración oftalmológica para agudeza y campos visuales. RM cerebral urgente (preferida) o TC (si la RM no está disponible de inmediato). **Indicaciones de cirugía urgente** (en las 24-72 horas): deterioro de agudeza visual, deterioro del campo visual, disminución del nivel de conciencia o deterioro clínico bajo manejo médico. El manejo conservador con vigilancia estrecha es apropiado para pacientes con visión estable, nivel de conciencia conservado y sin evidencia de obstrucción activa del LCR.\n\n**Quiste de la hendidura de Rathke (QHR)**: Los QHR se originan a partir de restos de la bolsa de Rathke entre la adenohipófisis y la neurohipófisis, localizados en la pars intermedia. Están revestidos por epitelio cúbico o cilíndrico simple y contienen líquido mucoide o seroso. En RM, típicamente intraselar con leve extensión supraselar, T2 hiperintenso (contenido líquido), T1 variable. El nódulo intraquístico patognomónico (visible en el 70%) representa material mucoide espesado y es un discriminador de RM útil frente al craneofaringioma. Los QHR suelen ser incidentales pero pueden causar cefaleas, síntomas visuales o hiperprolactinemia por compresión del tallo. El tratamiento es el drenaje mediante CTE si son sintomáticos: no se extirpa la pared quística (hacerlo causa DI e hipopituitarismo). Tasa de recurrencia del 10-20% a los 5 años."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Manejo de Urgencia de la Apoplejía Hipofisaria",
+          "content": "Un hombre de 48 años acude a urgencias con cefalea retroorbitaria súbita grave de 1 hora de evolución y parálisis del III par craneal izquierdo (ptosis, midriasis, exotropia). No tiene enfermedad hipofisaria conocida, pero en la revisión de una RM previa se identifica un macroadenoma hipofisario conocido de 2,5 cm. Tensión arterial 90/60. Paso 1: hidrocortisona 100 mg IV DE INMEDIATO (crisis suprarrenal). Paso 2: RM cerebral urgente (señal T1 en la silla). Paso 3: valoración oftalmológica. Paso 4: consulta a endocrinología. Cirugía en las 24-72 horas si hay deterioro visual o parálisis del NC sin mejoría. La parálisis del III par por apoplejía tiene un buen pronóstico de recuperación (70-80% de resolución tras la descompresión)."
+        }
+      ]
+    },
+    {
+      "id": "A5-S7",
+      "title": "Tratamiento Médico de los Adenomas Secretores",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El tratamiento médico es el tratamiento primario para los prolactinomas y un complemento importante para la acromegalia y la enfermedad de Cushing cuando la cirugía fracasa o está contraindicada.\n\n**Prolactinoma**: La cabergolina (agonista D2 dopaminérgico, 0,5-3,0 mg/semana) normaliza la prolactina en el 85-90% y logra una reducción del volumen tumoral ≥50% en el 70-80%. Es superior a la bromocriptina (agente más antiguo, dosificación dos veces al día, más efectos secundarios). El tratamiento a largo plazo (≥2 años con PRL normal y reducción tumoral significativa) permite el intento de retirada de cabergolina en el 25% de los pacientes. Se recomienda monitorización ecocardiográfica de valvulopatía cardíaca (rara a dosis <3 mg/semana) en pacientes bajo tratamiento prolongado con dosis altas.\n\n**Acromegalia**: Tras la cirugía, aproximadamente el 30-40% de los pacientes presentan exceso persistente de GH/IGF-1. Los **análogos de somatostatina (ASA)** —octreotida LAR 10-40 mg IM mensual o lanreotida autogel 60-120 mg SC mensual— logran la normalización de IGF-1 en el 30-55% de los fracasos quirúrgicos. El **pegvisomant** (antagonista del receptor de GH) es el agente médico más eficaz, normalizando IGF-1 en el >90% de los pacientes; no reduce el tamaño tumoral (la GH sube durante el tratamiento) y es costoso. El **pasireotida LAR** (ASA multirreceptor) es superior a octreotida para el control de GH/IGF-1 pero provoca hiperglucemia en ~60%.\n\n**Enfermedad de Cushing**: Las opciones médicas se utilizan como tratamiento puente antes de la reintervención o radioterapia, o en casos inoperables. Inhibidores de la esteroidogénesis: la **metirapona** (1-3 g/día en dosis divididas, inhibe la 11-β-hidroxilasa) y el **ketoconazol** (400-1200 mg/día, inhibición enzimática múltiple) se usan a corto plazo. La **pasireotida** (agonista SST5) reduce la ACTH y el cortisol en el 25-40% de los pacientes con enfermedad de Cushing, pero provoca hiperglucemia en el 70-80%. El **osilodrostat** y el **levoketoconazol** son inhibidores de la esteroidogénesis más nuevos aprobados por la FDA. La **suprarrenalectomía bilateral** es la curación definitiva para la enfermedad de Cushing refractaria, pero requiere reposición corticosteroide de por vida y conlleva el riesgo del síndrome de Nelson (crecimiento del tumor secretor de ACTH tras la suprarrenalectomía)."
+        },
+        {
+          "type": "table",
+          "title": "Opciones de Tratamiento Médico para los Adenomas Secretores de Hormonas",
+          "headers": ["Tipo de Adenoma", "Agente Médico de Primera Línea", "Eficacia (Normalización de PRL/IGF-1/Cortisol)", "Efecto Secundario Clave", "Opción de Segunda Línea"],
+          "rows": [
+            ["Prolactinoma", "Cabergolina 0,5-3 mg/semana", "85-90% normalización de PRL", "Valvulopatía cardíaca a dosis altas; náuseas (leve)", "Bromocriptina; cirugía"],
+            ["Acromegalia (posquirúrgica)", "Octreotida LAR 20-30 mg/mes", "30-55% normalización de IGF-1", "Colelitiasis (30%), diarrea, intolerancia a la glucosa", "Pegvisomant (antagonista receptor GH; 90% eficacia); RCE"],
+            ["Enfermedad de Cushing (puente)", "Metirapona 1-3 g/día", "60-70% normalización de cortisol", "Hirsutismo, hipertensión (precursores mineralocorticoides)", "Ketoconazol; osilodrostat"],
+            ["Enfermedad de Cushing (largo plazo)", "Pasireotida LAR 10-40 mg/mes", "25-40% normalización de cortisol", "Hiperglucemia 70-80%", "Suprarrenalectomía bilateral"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre tumores hipofisarios con 20 preguntas de tipo examen.",
+    "questions": [
+      {
+        "id": "A5-Q1",
+        "stem": "Una mujer de 32 años consulta por 8 meses de amenorrea y galactorrea. La prolactina sérica es de 4200 mU/L. La RM muestra una lesión hipofisaria de 6 mm (microadenoma). ¿Cuál es el tratamiento de primera línea?",
+        "options": {
+          "A": "Cirugía transesfenoidal",
+          "B": "Cabergolina 0,5-1,0 mg dos veces por semana",
+          "C": "Bromocriptina 2,5 mg tres veces al día",
+          "D": "Radioterapia fraccionada 50,4 Gy en 28 fracciones"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La cabergolina es el tratamiento de primera línea para el prolactinoma: el prolactinoma es el único adenoma hipofisario en el que el tratamiento médico (y no la cirugía) es el tratamiento primario. La cabergolina (agonista D2 dopaminérgico) normaliza la prolactina en el 85-90% de los pacientes y reduce el volumen tumoral en el 70-80%. Es superior a la bromocriptina por la dosificación semanal o quincenal, mejor tolerabilidad y mayor eficacia. La cirugía se reserva para la resistencia/intolerancia a la cabergolina o cuando se necesita descompresión visual urgente.",
+          "wrong": {
+            "A": "La cirugía no es de primera línea para el prolactinoma en ausencia de resistencia/intolerancia al fármaco. La cabergolina logra un control tumoral comparable a la cirugía con menor riesgo en la gran mayoría de los pacientes.",
+            "C": "La bromocriptina fue el agonista dopaminérgico original para el prolactinoma, pero es inferior a la cabergolina en eficacia y tolerabilidad. Requiere administración tres veces al día y produce más náuseas/vómitos. La cabergolina es el agente preferido.",
+            "D": "La radioterapia es tratamiento de tercera línea o adyuvante para el prolactinoma refractario a tratamiento médico y cirugía. Nunca es de primera línea y causaría hipopituitarismo en esta mujer joven."
+          },
+          "guideline": "Guía de Práctica Clínica de la Endocrine Society sobre Hiperprolactinemia 2011 (actualizada 2020) — Cabergolina primera línea para prolactinoma; Guías ESE de Tumores Hipofisarios 2023",
+          "trial": "Webster J et al. NEJM 1994: ECA cabergolina vs bromocriptina — normalización de PRL 83% cabergolina vs 59% bromocriptina; resolución de amenorrea 72% vs 52%; estableció la superioridad de la cabergolina",
+          "pearl": "Prolactinoma = tratamiento médico primero (cabergolina). Es el ÚNICO adenoma hipofisario secretor en el que la cirugía NO es de primera línea. Cabergolina: normalización de PRL 85-90%; la bromocriptina es inferior pero aceptable como alternativa."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q2",
+        "stem": "Un hombre de 45 años con macroadenoma hipofisario de 3,2 cm es intervenido mediante cirugía transesfenoidal. En el día 2 del postoperatorio, desarrolla poliuria (4,5 L de diuresis en 24 horas), orina diluida (osmolalidad 120 mOsm/kg) y el sodio sérico sube a 152 mmol/L. ¿Cuál es el diagnóstico y el tratamiento?",
+        "options": {
+          "A": "SIADH; tratar con restricción hídrica",
+          "B": "Diabetes insípida; tratar con desmopresina (DDAVP) 0,1 mg oral o 1-4 mcg SC",
+          "C": "Cerebral salt wasting; tratar con suero fisiológico IV",
+          "D": "Crisis suprarrenal; tratar con hidrocortisona 100 mg IV"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La diabetes insípida (DI) postoperatoria es la complicación más frecuente tras la cirugía transesfenoidal hipofisaria, ocurriendo en el 10-30%. Se caracteriza por poliuria (>3 L/24 horas o >250 mL/hora), orina diluida (osmolalidad <300 mOsm/kg) e hipernatremia (Na+ sérico en ascenso). Resulta de la lesión de la neurohipófisis o el tallo que reduce la secreción de ADH. El tratamiento es desmopresina (análogo sintético de ADH, DDAVP): 0,1-0,2 mg oral o 1-4 mcg subcutáneo. La mayoría de la DI postoperatoria es transitoria (se resuelve en 1-2 semanas); vigilar la respuesta trifásica.",
+          "wrong": {
+            "A": "El SIADH se presenta con hiponatremia y orina concentrada: lo contrario de este caso. Este paciente tiene hipernatremia y orina diluida, compatible con DI. La restricción hídrica en la DI agravaría peligrosamente la hipernatremia.",
+            "C": "El cerebral salt wasting se presenta con hiponatremia con depleción de volumen y sodio urinario elevado: lo contrario de esta presentación. El sodio sérico alto con orina diluida es DI.",
+            "D": "La crisis suprarrenal se presenta con hipotensión, hiponatremia (no hipernatremia) e hipoglucemia: el patrón electrolítico opuesto. Aunque la deficiencia de cortisol es importante de tratar, este patrón electrolítico es DI."
+          },
+          "guideline": "Guías Postoperatorias de la Endocrine Society para Hipófisis 2020 — Manejo de DI tras CTE: DDAVP si diuresis >300 mL/hora u osmolalidad <200 mOsm/kg; Guías EANS CTE 2019",
+          "trial": "Kristof RA et al. J Clin Neurosci 2009: DI postoperatoria tras CTE — incidencia 23%; 80% transitoria (resolución <1 semana); 5% permanente; respuesta trifásica en el 3-5%",
+          "pearl": "DI post-CTE: poliuria >3 L/día + osmolalidad urinaria <300 mOsm/kg + hipernatremia = DI → DDAVP. Vigilar respuesta trifásica: DI (días 1-4) → SIADH/hiponatremia (días 5-10) → DI permanente. Controlar sodio los días 7-10 en TODOS los pacientes post-CTE."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q3",
+        "stem": "Una mujer de 38 años con enfermedad de Cushing es intervenida mediante resección transesfenoidal. En el día 1 del postoperatorio, el cortisol matutino es de 28 nmol/L (referencia 200-700 nmol/L). Está clínicamente bien. ¿Qué indica esto?",
+        "options": {
+          "A": "Insuficiencia suprarrenal que requiere hidrocortisona de urgencia",
+          "B": "Curación quirúrgica de la enfermedad de Cushing — células secretoras de ACTH extirpadas; corticotropos normales suprimidos",
+          "C": "Fracaso quirúrgico — el cortisol debería ser más alto tras una cirugía exitosa",
+          "D": "Hallazgo postoperatorio normal que no requiere manejo específico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El cortisol matutino postoperatorio <50 nmol/L (o <1,8 µg/dL) en los días 1-7 tras CTE por enfermedad de Cushing indica remisión quirúrgica. El cortisol bajo refleja: (1) extirpación completa del tumor secretor de ACTH y (2) supresión de los corticotropos normales por el hipercortisolismo crónico — estas células tardan meses en recuperarse. Este 'nadir de cortisol postoperatorio' es el predictor más fiable de curación quirúrgica. La paciente sí requiere reposición de hidrocortisona para prevenir la insuficiencia suprarrenal durante la recuperación del eje HHS, pero esto es esperado y planificado, no una urgencia.",
+          "wrong": {
+            "A": "Aunque el cortisol es genuinamente bajo (requiere reposición de hidrocortisona), este es el hallazgo esperado y deseado tras una cirugía exitosa de la enfermedad de Cushing. No es una crisis suprarrenal de urgencia: es la prueba de la curación quirúrgica. La reposición de hidrocortisona se administra de forma electiva.",
+            "C": "Lo contrario es cierto: una cirugía exitosa hace que el cortisol DEScienda precipitadamente en los primeros días del postoperatorio. Un cortisol postoperatorio alto indica secreción persistente de ACTH y fracaso quirúrgico.",
+            "D": "Este hallazgo SÍ es significativo y requiere manejo específico (reposición de hidrocortisona); sin embargo, indica curación, no una complicación. El manejo es la reposición rutinaria con hidrocortisona 20 mg por la mañana + 10 mg por la tarde, reduciendo durante meses."
+          },
+          "guideline": "Guías de la Endocrine Society para la Enfermedad de Cushing 2015 — Cortisol postoperatorio <50 nmol/L = criterio de remisión; Guías ESE de Tumores Hipofisarios 2023",
+          "trial": "Hamrahian AH et al. J Clin Endocrinol Metab 2010: Estudio del nadir de cortisol postoperatorio — cortisol matutino <50 nmol/L en días 1-7: sensibilidad 95%, especificidad 85% para curación de la enfermedad de Cushing; estudio fundamental que estableció el criterio de remisión",
+          "pearl": "Criterio de curación quirúrgica en enfermedad de Cushing: cortisol postop matutino <50 nmol/L (días 1-7). Este es el indicador clave de remisión. Requiere reposición planificada de hidrocortisona durante meses mientras se recupera el eje HHS. Cortisol postop alto = fracaso; cortisol postop muy bajo = curación."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q4",
+        "stem": "Un hombre de 55 años presenta cefalea progresiva, pérdida de campo visual bitemporal y DE bilateral. Analítica: testosterona baja, FSH baja, LH baja, PRL levemente elevada a 850 mU/L, GH baja, cortisol normal-bajo, IGF-1 bajo, TSH baja con T4 libre baja. RM: masa hipofisaria de 2,8 cm que comprime el quiasma óptico. ¿Cuál es el diagnóstico más probable y la prioridad inmediata antes de la cirugía?",
+        "options": {
+          "A": "Prolactinoma — tratar con cabergolina antes de considerar la cirugía",
+          "B": "Adenoma hipofisario no funcionante con hipopituitarismo — iniciar hidrocortisona ANTES de la cirugía",
+          "C": "Acromegalia — iniciar octreotida LAR antes de la cirugía",
+          "D": "Craneofaringioma — no se necesita reposición hormonal inmediata"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este cuadro clínico corresponde a un adenoma hipofisario no funcionante (AFNF) con panhipopituitarismo, no a un prolactinoma. La PRL levemente elevada (850 mU/L) representa el 'efecto de tallo': la compresión del tallo hipofisario por la masa reduce el aporte de dopamina a los lactotropos, desinhibiendo la secreción de prolactina. Los prolactinomas verdaderos que causan compromiso visual suelen ser mucho más grandes y tener niveles de PRL >3000-4000 mU/L para una masa de 2,8 cm. El paso inmediato más importante es la reposición de hidrocortisona antes de la cirugía: la deficiencia no reconocida de cortisol causa crisis suprarrenal perioperatoria. El cortisol bajo es la prioridad; la levotiroxina NO debe iniciarse antes de la reposición de cortisol (puede precipitar una crisis al aumentar la demanda metabólica).",
+          "wrong": {
+            "A": "La PRL elevada de 850 mU/L para una lesión de 2,8 cm es desproporcionadamente baja para un prolactinoma verdadero (del que se esperaría una PRL >3000-4000 mU/L para este tamaño). Este patrón representa efecto de tallo. La cabergolina para la PRL por efecto de tallo sería un error: reduciría la señal de compresión del tallo pero no trataría el AFNF.",
+            "C": "El IGF-1 está bajo (no elevado), lo que excluye la acromegalia. Las características clínicas (DE, hemianopsia bitemporal, hipopituitarismo) son por efecto masa de AFNF, no por exceso de GH.",
+            "D": "El craneofaringioma es posible, pero los datos de la RM y la presentación en adulto con AFNF favorecen este diagnóstico. Independientemente del diagnóstico, la insuficiencia suprarrenal debe corregirse antes de la cirugía."
+          },
+          "guideline": "Guías de la Endocrine Society para Hipopituitarismo 2016 — Hidrocortisona obligatoria antes de cirugía hipofisaria si hay insuficiencia suprarrenal; Guías ESE de Tumores Hipofisarios 2023",
+          "trial": "Snyder PJ et al. JAMA 1974: Efecto de la sección del tallo — demostración fundamental de que la elevación de PRL por compresión del tallo es modesta (<3000 mU/L) y representa hiperprolactinemia farmacológica, distinguiendo el AFNF del prolactinoma verdadero",
+          "pearl": "Efecto de tallo: PRL levemente elevada (<3000 mU/L) con masa hipofisaria grande = AFNF con compresión del tallo, NO prolactinoma. El prolactinoma macro verdadero suele tener PRL >5000 mU/L para una masa de 2-3 cm. Reponer siempre hidrocortisona antes de la cirugía hipofisaria si hay insuficiencia suprarrenal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q5",
+        "stem": "¿Qué marcador molecular se encuentra en aproximadamente el 95% de los craneofaringiomas papilares y diferencia este subtipo del craneofaringioma adamantinomatoso?",
+        "options": {
+          "A": "Mutación CTNNB1 (beta-catenina)",
+          "B": "Mutación IDH1 R132H",
+          "C": "Mutación BRAF V600E",
+          "D": "Pérdida bialélica de NF2"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La mutación BRAF V600E se encuentra en aproximadamente el 95% de los craneofaringiomas papilares y es patognomónica de este subtipo. Diferencia el craneofaringioma papilar (aparición en adultos, arquitectura sólida, sin calcificación, BRAF V600E) del adamantinomatoso (edad bimodal, quístico/sólido, calcificación, mutación CTNNB1). Esta distinción es clínicamente crítica porque los craneofaringiomas papilares responden a la inhibición BRAF/MEK (dabrafenib + trametinib), abriendo una nueva vía terapéutica.",
+          "wrong": {
+            "A": "La mutación CTNNB1 (activación de la vía Wnt/β-catenina) se encuentra en los craneofaringiomas adamantinomatosos, no en el tipo papilar. Son alteraciones mutuamente excluyentes de los dos subtipos.",
+            "B": "La mutación IDH1 R132H se encuentra en los gliomas difusos (astrocitoma IDH mutante, oligodendroglioma) y no está relacionada con ningún subtipo de craneofaringioma.",
+            "D": "La pérdida bialélica de NF2 es la alteración más frecuente en los meningiomas y schwannomas vestibulares, no en los craneofaringiomas."
+          },
+          "guideline": "Clasificación OMS de Tumores del SNC 2021 — Sección de craneofaringioma: tipo papilar definido por BRAF V600E; adamantinomatoso por CTNNB1; Muller HL et al. Nat Rev Dis Primers 2019",
+          "trial": "Brastianos PK et al. Nat Genet 2014: BRAF V600E en el 95% de los craneofaringiomas papilares por secuenciación de exoma; Brastianos PK et al. NEJM Evidence 2021: Dabrafenib+trametinib en craneofaringioma papilar — regresión tumoral notable",
+          "pearl": "Craneofaringioma papilar: BRAF V600E (95%) — adultos, sólido, sin calcificación, responde a dabrafenib+trametinib. Adamantinomatoso: mutación CTNNB1 — edad bimodal, quístico+calcificado, sin terapia dirigida. La determinación molecular del craneofaringioma es ahora obligatoria para guiar el tratamiento."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q6",
+        "stem": "Una mujer de 40 años presenta cefalea retroorbitaria intensa de inicio súbito y parálisis del tercer par craneal izquierdo (ptosis, midriasis, desviación inferior y externa). La RM muestra una masa hipofisaria de 2,5 cm con hiperintensidad T1 en la silla turca. El cortisol sérico es de 60 nmol/L. ¿Cuál es la secuencia correcta del manejo de urgencia?",
+        "options": {
+          "A": "Descompresión quirúrgica urgente de inmediato antes que cualquier otra intervención",
+          "B": "Punción lumbar para descartar hemorragia subaracnoidea antes de tratar",
+          "C": "Hidrocortisona 100 mg IV en bolo de inmediato, luego valoración oftalmológica urgente, confirmación por RM y evaluación neuroquirúrgica",
+          "D": "Cabergolina 1 mg oral de inmediato para reducir el presunto prolactinoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Manejo de la apoplejía hipofisaria: (1) PRIMERO Y MÁS CRÍTICO: hidrocortisona 100 mg IV de inmediato. La crisis suprarrenal aguda por destrucción de la hipófisis secretora de ACTH es potencialmente mortal de forma inmediata. Un cortisol de 60 nmol/L confirma la insuficiencia suprarrenal. (2) Oftalmología urgente para agudeza visual, visión de colores y campos formales. (3) Confirmación de apoplejía por RM. (4) Consulta neuroquirúrgica para decidir el momento de la descompresión quirúrgica. La cirugía está indicada en las 24-72 horas si la visión se deteriora. La parálisis del III par por apoplejía tiene buena tasa de recuperación (70-80%) con descompresión.",
+          "wrong": {
+            "A": "La hidrocortisona DEBE administrarse ANTES de la cirugía. Operar sin cobertura esteroidea a un paciente en crisis suprarrenal provoca colapso cardiovascular intraoperatorio. La hidrocortisona es el primer paso absoluto.",
+            "B": "La punción lumbar para descartar HSA no es necesaria si la hiperintensidad T1 en la RM dentro de la silla confirma la apoplejía hipofisaria. La PL puede ser perjudicial si hay hipertensión intracraneal. La angio-TC puede ser necesaria para descartar un aneurisma de la arteria comunicante posterior que cause parálisis del III par, pero la PL no es la prioridad inicial.",
+            "D": "La cabergolina es de primera línea para el prolactinoma, pero no es apropiada para la apoplejía hipofisaria aguda. Aunque esto fuera un prolactinoma con apoplejía, la cabergolina no es la intervención de urgencia: la hidrocortisona sí lo es."
+          },
+          "guideline": "Guías de Apoplejía Hipofisaria del Reino Unido 2011 (Rajasekaran et al.) — Hidrocortisona 100 mg IV en bolo = primer paso obligatorio; Declaración de Posición de la ESE sobre Apoplejía Hipofisaria 2015",
+          "trial": "Rajasekaran S et al. Clin Endocrinol 2011: Guías nacionales del Reino Unido para la apoplejía hipofisaria — manejo conservador vs quirúrgico: la cirugía dentro de los 8 días para compromiso visual logra mejores resultados visuales que la cirugía tardía",
+          "pearl": "Apoplejía hipofisaria = cefalea en trueno + parálisis III par + masa hipofisaria hiperintensa en T1. PASO 1: hidrocortisona 100 mg IV (prevención de crisis suprarrenal). PASO 2: oftalmología. PASO 3: neurocirugía para cirugía si se deteriora la visión. La parálisis del III par se recupera en el 70-80% con descompresión."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q7",
+        "stem": "¿Cuál es el criterio estándar de remisión para la curación quirúrgica de la acromegalia valorado a los 3 meses del postoperatorio?",
+        "options": {
+          "A": "Normalización de IGF-1 para edad/sexo únicamente",
+          "B": "GH aleatoria <5 ng/mL",
+          "C": "IGF-1 normal para edad/sexo Y nadir de GH durante SOG <0,4 ng/mL",
+          "D": "RM postoperatoria con extirpación tumoral completa (grado 1 de Simpson)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los criterios actuales de remisión bioquímica para la acromegalia tras cirugía (valorados a los 3 meses) requieren AMBOS: (1) IGF-1 dentro del rango normal para edad y sexo, Y (2) nadir de GH <0,4 ng/mL (0,4 µg/L) durante un test de tolerancia oral a la glucosa (SOG) estándar de 75 g. Ambos criterios deben cumplirse para declarar la remisión. El nadir de GH durante la SOG es la prueba de supresión más sensible: en la acromegalia, la secreción autónoma de GH impide la supresión normal inducida por la SOG. El umbral se ha reducido de 1 ng/mL a 0,4 ng/mL con ensayos de GH más sensibles.",
+          "wrong": {
+            "A": "La normalización de IGF-1 es un componente importante pero no suficiente para declarar la remisión. El nadir de GH durante la SOG también debe confirmarse. Algunos pacientes tienen IGF-1 discordante (normal) con GH no suprimida en la SOG, lo que indica curación incompleta.",
+            "B": "La GH aleatoria <5 ng/mL es un umbral obsoleto. La remisión moderna de la acromegalia requiere GH aleatoria <1 ng/mL Y nadir de GH <0,4 ng/mL en SOG. La GH <5 ng/mL no es un criterio de remisión aceptado.",
+            "D": "La resección radiológica completa es un objetivo quirúrgico necesario pero no define la remisión bioquímica. Incluso tras una resección aparentemente total, el tumor residual o la hiperplasia pueden mantener el exceso de GH/IGF-1. Los criterios bioquímicos definen la curación, no la imagen."
+          },
+          "guideline": "Guía de Práctica Clínica de la Endocrine Society para Acromegalia 2018 (Melmed et al.) — Valoración postoperatoria a los 3 meses: IGF-1 normal + nadir de GH en SOG <0,4 ng/mL = remisión",
+          "trial": "Carmichael JD et al. J Clin Endocrinol Metab 2009: Validación del nadir de GH <0,4 ng/mL (ensayo sensible) como umbral óptimo — valor predictivo positivo del 98% para remisión en seguimiento a largo plazo; Giustina A et al. Eur J Endocrinol 2020: Criterios consensuados actualizados",
+          "pearl": "Curación de acromegalia: IGF-1 normal para edad/sexo + nadir de GH <0,4 ng/mL en SOG a los 3 meses postop. Ambos criterios son necesarios. El umbral antiguo era <1 ng/mL; los ensayos modernos sensibles usan <0,4 ng/mL. Tasa de curación de microadenoma 75-90%; macroadenoma 50-70%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q8",
+        "stem": "Un niño de 14 años presenta cefalea, retraso del crecimiento y poliuria/polidipsia. La RM muestra una masa supraselar quística con contenido líquido hiperintenso en T1 y calcificación en TC. El diagnóstico más probable es:",
+        "options": {
+          "A": "Germinoma",
+          "B": "Craneofaringioma adamantinomatoso",
+          "C": "Quiste de la hendidura de Rathke",
+          "D": "Glioma de bajo grado (astrocitoma pilocítico)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Presentación clásica del craneofaringioma adamantinomatoso en un paciente pediátrico: localización supraselar, masa quística/sólida con líquido T1 hiperintenso (líquido rico en colesterol 'aceite de motor'), calcificación en TC (presente en el 90% del tipo adamantinomatoso), DI (poliuria/polidipsia por afectación de la neurohipófisis/tallo), retraso del crecimiento (deficiencia de GH, el primer eje hipofisario afectado en niños) y cefalea por hipertensión intracraneal. La distribución de edad bimodal (5-14 años y >50 años) y esta combinación de hallazgos son patognomónicas. La mutación CTNNB1 es el factor molecular impulsor.",
+          "wrong": {
+            "A": "El germinoma también se localiza en la región supraselar/pineal en adolescentes y puede causar DI, pero suele ser sólido con realce homogéneo, no quístico con calcificación. Deben determinarse AFP y beta-HCG en suero/LCR (normal y levemente elevada en germinoma, respectivamente). El germinoma es muy radiosensible.",
+            "C": "El quiste de la hendidura de Rathke es típicamente intraselar, más pequeño y contiene líquido seroso o mucoide (no 'aceite de motor'). Raramente presenta calcificación y no suele causar retraso del crecimiento en niños. El nódulo intraquístico es un hallazgo característico.",
+            "D": "El astrocitoma pilocítico hipotalámico/quiasmático puede causar DI y síntomas visuales, pero es un tumor sólido/parcialmente quístico sin calcificación ni líquido T1 hiperintenso. Se da en niños pero carece del aspecto quístico calcificado clásico."
+          },
+          "guideline": "Muller HL et al. Nat Rev Dis Primers 2019 — Patología y características clínicas del craneofaringioma; Guías SIOPE/KRANIOPHARYNGEOM 2019",
+          "trial": "Estudio KRANIOPHARYNGEOM 2007 (Muller et al. Eur J Endocrinol 2010): Registro prospectivo alemán — epidemiología del craneofaringioma adamantinomatoso: DGH en el momento del diagnóstico 75%, DI 40-50%, retraso del crecimiento signo de presentación más frecuente en pacientes pediátricos",
+          "pearl": "Craneofaringioma adamantinomatoso: paciente pediátrico + masa supraselar quística + líquido T1 brillante + calcificación en TC = clásico. Retraso del crecimiento (DGH) + DI = afectación del tallo hipofisario. Líquido T1 brillante = contenido quístico rico en colesterol. Mutación CTNNB1."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q9",
+        "stem": "Durante la cirugía transesfenoidal endoscópica endonasal por macroadenoma hipofisario, el cirujano accede inadvertidamente a la pared medial del seno cavernoso. ¿Qué estructura corre riesgo inmediato de lesión catastrófica?",
+        "options": {
+          "A": "Quiasma óptico",
+          "B": "Arteria carótida interna (segmento cavernoso)",
+          "C": "Arteria basilar",
+          "D": "Seno sagital superior"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La arteria carótida interna (ACI) discurre dentro del seno cavernoso, justo lateral a la silla turca. La ACI cavernosa está en riesgo inmediato si el cirujano perfora o hace curetaje más allá del margen lateral de la silla. La lesión carotídea durante la CTE es la complicación intraoperatoria más temida: se presenta como hemorragia arterial masiva súbita con colapso inmediato del campo quirúrgico. Tratamiento: empaquetamiento nasal apretado + compresión de inmediato, oclusión endovascular, angiografía urgente. La posición de la ACI debe confirmarse con Doppler intraoperatorio, navegación o conocimiento de la imagen preoperatoria. El segmento cavernoso de la ACI se encuentra típicamente a 1-2 cm lateral de la pared selar media.",
+          "wrong": {
+            "A": "El quiasma óptico corre riesgo durante la manipulación superior en la cirugía hipofisaria (en particular cuando el tumor se extiende supraselarmente y se abre el diafragma selar), no por la entrada lateral en el seno cavernoso. La lesión del quiasma óptico provoca deterioro visual.",
+            "C": "La arteria basilar no es adyacente al seno cavernoso en el corredor quirúrgico transesfenoidal habitual. Se encuentra detrás del clivus y es relevante para los abordajes extendidos de la base del cráneo, no para la CTE estándar.",
+            "D": "El seno sagital superior es una estructura sagital superior en el compartimento intracraneal, completamente alejada del campo operatorio esfenoidal/selar de la CTE."
+          },
+          "guideline": "Guías EANS de Cirugía Transesfenoidal 2019 — Lesión de la arteria carótida: complicación intraoperatoria más temida; puntos de referencia anatómicos para prevenir la lesión carotídea",
+          "trial": "Park J et al. J Neurosurg 2016: Lesión de la arteria carótida en CTE — incidencia 0,4-1,1%; mortalidad 30-40% sin control endovascular urgente; empaquetamiento inmediato y angiografía urgente = únicas opciones de tratamiento",
+          "pearl": "Lesión de la arteria carótida en CTE = complicación más temida; incidencia 0,4-1,1%. MANEJO INMEDIATO: empaquetamiento nasal + compresión + angiografía/oclusión endovascular urgente. Confirmar la posición de la ACI con Doppler intraoperatorio antes de la disección lateral. Prevención > tratamiento."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q10",
+        "stem": "Una mujer de 58 años con acromegalia tiene IGF-1 y GH elevados de forma persistente tras cirugía transesfenoidal. Rechaza la reintervención. La GH se suprime >50% con octreotida LAR, pero el IGF-1 permanece elevado. ¿Cuál es la siguiente escalada médica más apropiada?",
+        "options": {
+          "A": "Añadir cabergolina a octreotida LAR",
+          "B": "Cambiar de octreotida LAR a pegvisomant (antagonista del receptor de GH)",
+          "C": "Iniciar tamoxifeno como terapia anti-hormonal adyuvante",
+          "D": "Indicar suprarrenalectomía bilateral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El pegvisomant (antagonista del receptor de GH) es el tratamiento médico más eficaz para la acromegalia, normalizando IGF-1 en el >90% de los pacientes. Actúa por debajo del receptor de GH, bloqueando la acción de la GH independientemente de los niveles de GH o la respuesta a los ASA. Se utiliza como monoterapia o en combinación con ASA en pacientes con respuesta parcial al ASA (IGF-1 todavía elevado a pesar de octreotida). La combinación ASA + pegvisomant puede ser más eficaz que cualquiera de los dos por separado. La paciente recibe octreotida LAR con supresión parcial de GH: la escalada a pegvisomant es el siguiente paso correcto.",
+          "wrong": {
+            "A": "Añadir cabergolina al ASA es una estrategia usada en algunos pacientes (la cabergolina tiene modestos efectos antiacromegalia a través de los receptores D2 en las células secretoras de GH), pero es menos eficaz que cambiar a pegvisomant. La tasa de normalización de IGF-1 con octreotida + cabergolina es ~30%, inferior a la del pegvisomant.",
+            "C": "El tamoxifeno no tiene ningún papel establecido en el manejo de la acromegalia. La terapia antiestrogénica se usa en cánceres de mama y uterino sensibles a estrógenos, no en tumores hipofisarios secretores de GH.",
+            "D": "La suprarrenalectomía bilateral es el tratamiento para la enfermedad de Cushing refractaria (eliminar la producción de cortisol), no para la acromegalia. No tiene ningún papel en el manejo del exceso de GH."
+          },
+          "guideline": "Guías de la Endocrine Society para Acromegalia 2018 — Pegvisomant recomendado para pacientes con control inadecuado de IGF-1 con ASA; Guías ESE de Tumores Hipofisarios 2023",
+          "trial": "Trainer PJ et al. NEJM 2000 (ACROSTUDY): Pegvisomant (antagonista del receptor de GH) — normalización de IGF-1 97,2% en ensayo de fase III; Holdaway IM et al. J Clin Endocrinol Metab 2004: Combinación octreotida+pegvisomant superior a cualquiera de ellos por separado para casos resistentes",
+          "pearl": "Pegvisomant = tratamiento médico más eficaz para acromegalia (90-97% normalización de IGF-1). Actúa por debajo del receptor de GH: eficaz incluso con niveles altos de GH. Limitación: no reduce el tamaño tumoral (la GH sube durante el tratamiento — monitorizar RM). Elevado coste. Usar cuando el ASA es insuficiente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q11",
+        "stem": "Una mujer de 29 años con enfermedad de Cushing tiene una RM hipofisaria negativa pero exceso de ACTH hipofisario confirmado bioquímicamente (CLU 24h elevado ×3, supresión con 1 mg no suprimida, ACTH sérica detectable). ¿Qué estudio debe realizarse antes de proceder a la cirugía?",
+        "options": {
+          "A": "PET-FDG para identificar un microadenoma hipofisario oculto",
+          "B": "Muestreo de senos petrosos inferiores (MSPI) con estimulación de CRH",
+          "C": "PET con 18F-fluorodesoxiglucosa para identificar fuente ectópica de ACTH",
+          "D": "TC de cuerpo completo para descartar síndrome de Cushing suprarrenal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El muestreo de senos petrosos inferiores (MSPI) es la prueba de referencia para confirmar el origen hipofisario de la ACTH cuando la RM es negativa o no concluyente. Los senos petrosos drenan la hipófisis, por lo que el muestreo simultáneo durante la estimulación con CRH crea un gradiente central-periférico de ACTH. Criterios de origen hipofisario: ratio SP:P ≥2 en reposo O ≥3 tras estimulación con CRH (100 mcg IV). El MSPI también lateraliza el tumor (gradiente SP derecho:izquierdo ≥1,4 tras CRH sugiere el lado del tumor) para guiar la exploración quirúrgica en casos con RM negativa. En la enfermedad de Cushing con RM negativa, el MSPI que confirma el origen hipofisario permite al cirujano realizar una exploración sistemática de la hipófisis anterior.",
+          "wrong": {
+            "A": "El PET-FDG tiene utilidad limitada para los microadenomas secretores de ACTH por su pequeño tamaño y actividad metabólica inespecífica. El PET con 68Ga-DOTATATE se utiliza a veces, pero el MSPI sigue siendo el estándar de referencia para la lateralización y confirmación del origen.",
+            "C": "El síndrome de ACTH ectópica (por carcinoide pulmonar, CPCP, tumor tímico) debe descartarse bioquímicamente antes del MSPI. Sin embargo, con ACTH sérica elevada y características típicas de la enfermedad de Cushing (no cíclicas/paraneoplásicas), la ACTH ectópica es menos probable. El MSPI es el paso siguiente apropiado para confirmar el origen hipofisario antes de la cirugía.",
+            "D": "La TC abdominal es apropiada si se sospecha síndrome de Cushing suprarrenal (ACTH-independiente), pero en este caso la ACTH sérica es detectable, indicando enfermedad ACTH-dependiente. La TC suprarrenal podría ser anormal (hiperplasia suprarrenal bilateral), pero no cambiaría la decisión de manejo sobre la cirugía hipofisaria."
+          },
+          "guideline": "Guías de la Endocrine Society para el Síndrome de Cushing 2015 — MSPI con CRH obligatorio cuando la RM es negativa/no concluyente en el síndrome de Cushing ACTH-dependiente; criterios del ratio SP:P",
+          "trial": "Oldfield EH et al. NEJM 1991: MSPI con CRH en 281 pacientes — sensibilidad 94%, especificidad 100% para identificar origen hipofisario; exactitud de lateralización 78%; estableció el MSPI como estándar de referencia",
+          "pearl": "Enfermedad de Cushing con RM negativa: realizar MSPI con CRH antes de la cirugía. Ratio SP:P ≥2 (reposo) o ≥3 (tras CRH) = origen hipofisario. Lateralización (ratio D:I ≥1,4 tras CRH) guía el lado de exploración quirúrgica. Sensibilidad del MSPI 94%: superior a la RM para identificar microadenoma oculto."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q12",
+        "stem": "Un paciente en el día 9 tras cirugía transesfenoidal por macroadenoma hipofisario acude a urgencias con cefalea, náuseas y confusión. El sodio sérico es de 118 mmol/L. ¿Cuál es la causa más probable?",
+        "options": {
+          "A": "Diabetes insípida — tratar con desmopresina",
+          "B": "Crisis suprarrenal — tratar con hidrocortisona",
+          "C": "SIADH por manipulación de la neurohipófisis — tratar con restricción hídrica",
+          "D": "Meningitis bacteriana por fístula de LCR — tratar con antibióticos"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La hiponatremia que aparece en los días 5-14 del postoperatorio es el momento clásico para la SIADH, el síndrome de secreción inadecuada de ADH por manipulación de la neurohipófisis o la fase SIADH de la respuesta trifásica. En el día 9, esto está dentro de la ventana temporal. La SIADH causa hiponatremia euvolémica o levemente hipervolémica (orina concentrada a pesar de baja osmolalidad sérica). Un sodio de 118 mmol/L es gravemente hiponatrémico y sintomático (confusión): el tratamiento es restricción hídrica para casos leves; suero salino hipertónico 1,5-3 mL/kg/h para hiponatremia grave sintomática (objetivo de corrección ≤8-10 mmol/L por 24 horas para evitar el síndrome de desmielinización osmótica).",
+          "wrong": {
+            "A": "La diabetes insípida causa hipernatremia (Na+ sérico alto con orina diluida), no hiponatremia. La DI suele presentarse en los primeros 1-4 días del postoperatorio.",
+            "B": "La crisis suprarrenal causa hiponatremia, pero se asocia con hipotensión, hipoglucemia y antecedente de omisión de esteroides. Un sodio de 118 mmol/L con euvolemia y el momento del día 9 postoperatorio sugieren fuertemente SIADH más que crisis suprarrenal. Debe comprobarse el cortisol, pero el manejo primario es el de la SIADH.",
+            "D": "Aunque la meningitis bacteriana es una complicación temida de la fístula de LCR (que puede causar hiponatremia indirectamente), la causa más frecuente de hiponatremia en los días 5-14 tras CTE es la SIADH. Se necesitarían fiebre, signos meníngeos y hallazgos en el LCR para diagnosticar meningitis."
+          },
+          "guideline": "Guías Postoperatorias de la Endocrine Society para Hipófisis 2020 — Hiponatremia tras CTE: SIADH en días 5-14, controlar sodio los días 7-10 tras el alta",
+          "trial": "Zada G et al. Neurosurgery 2007: Hiponatremia postoperatoria tras CTE — incidencia 10-18%; pico días 5-10; SIADH causa principal; defiende el control obligatorio de sodio los días 7-10 tras el alta",
+          "pearl": "Hiponatremia post-CTE en días 5-14 = SIADH (fase SIADH de la respuesta trifásica). Restricción hídrica es el tratamiento. Grave (<120 mmol/L) o sintomático = suero salino hipertónico. Corregir ≤8-10 mmol/L por 24 horas. Controlar sodio los días 7-10 en TODOS los pacientes post-CTE — esta complicación es mortal si se presenta tarde."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q13",
+        "stem": "¿Cuál es el hallazgo imagenológico patognomónico del quiste de la hendidura de Rathke en RM que ayuda a distinguirlo del craneofaringioma?",
+        "options": {
+          "A": "Calcificación en cáscara de huevo visible en T2 de RM",
+          "B": "Un nódulo intraquístico (hipointenso en T2) dentro de un quiste intraselar hiperintenso en T2",
+          "C": "Invasión bilateral del seno cavernoso",
+          "D": "Realce homogéneo intenso con gadolinio"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El nódulo intraquístico es patognomónico del quiste de la hendidura de Rathke en RM, visible en aproximadamente el 70% de los casos. Aparece como un nódulo hipointenso dentro del contenido líquido por lo demás hiperintenso en T2, y representa material mucoide espesado o un tapón mucoide. Este nódulo NO realza con gadolinio (lo que lo distingue de un nódulo tumoral sólido). El QHR es típicamente intraselar (a veces con extensión supraselar), T2 hiperintenso, T1 variable, y el nódulo intraquístico es el rasgo discriminador clave frente al craneofaringioma (que tiene componente sólido, realce anular y calcificación).",
+          "wrong": {
+            "A": "La calcificación en cáscara de huevo no es un hallazgo del QHR: la calcificación es característica del craneofaringioma (especialmente del tipo adamantinomatoso, visible en TC). La RM no demuestra la calcificación de forma fiable.",
+            "C": "La invasión bilateral del seno cavernoso es un hallazgo de los macroadenomas hipofisarios invasivos, no del QHR. Los QHR son típicamente pequeños y confinados a la región de la pars intermedia sin comportamiento invasivo.",
+            "D": "El realce homogéneo intenso es característico de los meningiomas y no es un hallazgo del QHR. El contenido líquido del QHR no realza: solo la pared quística delgada puede mostrar leve realce. El realce homogéneo distingue el meningioma o el adenoma sólido del QHR."
+          },
+          "guideline": "NCCN CNS Tumors v1.2024 — Diagnóstico diferencial de la masa selar; Binning MJ et al. J Neurosurg 2008: Patología e imagen del quiste de la hendidura de Rathke",
+          "trial": "Aho CJ et al. J Clin Endocrinol Metab 2005: Serie de QHR — nódulo intraquístico presente en el 68%, T1 variable (mucoide vs seroso), T2 hiperintenso, sin calcificación; el tratamiento de drenaje sin extirpación de la pared quística logra una tasa de recurrencia del 10-20% a los 5 años",
+          "pearl": "RM del quiste de la hendidura de Rathke: quiste T2 brillante intraselar + nódulo intraquístico hipointenso no realzante (70%) = patognomónico. Sin calcificación (distingue del craneofaringioma). T1 variable (mucoide = brillante; seroso = oscuro). Tratamiento: solo drenaje (sin extirpar la pared = DI evitada)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q14",
+        "stem": "La pasireotida (análogo de somatostatina multirreceptor) se utiliza para la enfermedad de Cushing. ¿Cuál es su efecto adverso más significativo desde el punto de vista clínico?",
+        "options": {
+          "A": "Fibrosis de la válvula cardíaca",
+          "B": "Hiperglucemia en el 60-80% de los pacientes",
+          "C": "Prolongación del intervalo QT que requiere monitorización ECG",
+          "D": "Hipotiroidismo que requiere suplementación con levotiroxina"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hiperglucemia es el efecto adverso más significativo desde el punto de vista clínico de la pasireotida, ocurriendo en el 60-80% de los pacientes en el ensayo PASPORT-CUSHINGS. Esta cifra es sustancialmente más alta que con otros análogos de somatostatina (octreotida: 10-20% de hiperglucemia). El mecanismo es la inhibición de la secreción de GLP-1 y GIP de las células L y K intestinales (a través de los receptores SST5), lo que altera la secreción de insulina mediada por incretinas, junto con la reducción de la secreción de insulina de las células beta pancreáticas. Muchos pacientes requieren el inicio de metformina o agonistas del receptor GLP-1. Esta elevada tasa de hiperglucemia debe comentarse en el consentimiento informado antes de iniciar la pasireotida.",
+          "wrong": {
+            "A": "La fibrosis de la válvula cardíaca es un efecto secundario de la cabergolina (agonistas dopaminérgicos, especialmente a dosis altas) y se asoció con el uso histórico de pergolida, no con los análogos de somatostatina como la pasireotida.",
+            "C": "La prolongación del QT es un efecto conocido pero poco frecuente de la pasireotida, no el efecto adverso clínicamente más significativo. La hiperglucemia (60-80%) es el efecto dominante y de mayor impacto clínico que requiere monitorización y tratamiento rutinarios.",
+            "D": "El hipotiroidismo no es un efecto adverso significativo reconocido de la pasireotida. La función tiroidea puede cambiar en el contexto del tratamiento de la enfermedad de Cushing (la reducción del cortisol puede desenmascarar un hipotiroidismo previo), pero esto no es un efecto directo de la pasireotida."
+          },
+          "guideline": "Ficha técnica de pasireotida FDA 2012; Guías de la Endocrine Society para la Enfermedad de Cushing 2015 — Sección de efectos adversos de pasireotida",
+          "trial": "Colao A et al. NEJM 2012 (PASPORT-CUSHINGS): 162 pacientes con enfermedad de Cushing — pasireotida 600/900 µg SC dos veces al día vs placebo; normalización de CLU 15-19%; hiperglucemia en el 73% (incluida DM de novo); estableció la eficacia y la hiperglucemia como toxicidad principal",
+          "pearl": "Pasireotida (agonista SST5) para enfermedad de Cushing: normalización de CLU 15-25%, pero hiperglucemia en el 60-80% (nueva DM en muchos casos). Mecanismo: SST5 inhibe GLP-1/GIP → secreción reducida de insulina. Monitorizar glucosa y frecuentemente iniciar terapia antidiabética. También se usa como pasireotida preoperatoria para acromegalia (superior a octreotida)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q15",
+        "stem": "Un hombre de 62 años tiene un adenoma hipofisario no funcionante de 4,5 cm que se extiende hacia el seno cavernoso derecho y alcanza el quiasma óptico. La visión está intacta. Tiene panhipopituitarismo. Tras la cirugía transesfenoidal, el tumor del seno cavernoso se deja in situ (equivalente al grado 4 de Simpson). ¿Cuál es el tratamiento adyuvante recomendado para el residuo en el seno cavernoso?",
+        "options": {
+          "A": "Reintervención inmediata para resección completa",
+          "B": "Radioterapia fraccionada (45-54 Gy) o radiocirugía estereotáctica al residuo",
+          "C": "Cabergolina para reducir el residuo",
+          "D": "Solo observación — los AFNF del seno cavernoso nunca progresan"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para el AFNF residual tras cirugía (en particular la invasión del seno cavernoso que no puede resecarse de forma segura), la radioterapia fraccionada (45-54 Gy en fracciones de 1,8-2 Gy) o la radiocirugía estereotáctica (RCE, 12-16 Gy para enfermedad del seno cavernoso) es el tratamiento adyuvante recomendado. La RT reduce la tasa de progresión a 10 años del 40-50% (observación) al 10-20%. Para los residuos del seno cavernoso en los que la anatomía de los nervios craneales impide dosis agresivas de RCE, se prefiere la RTEF fraccionada. Las guías NCCN de Tumores del SNC y las europeas recomiendan RT adyuvante para el macroadenoma residual tras cirugía, especialmente para la invasión del seno cavernoso.",
+          "wrong": {
+            "A": "La reintervención por invasión del seno cavernoso conlleva alto riesgo de lesión de los pares craneales III/IV/V/VI y no está recomendada cuando la cirugía primaria logró una descompresión adecuada del aparato óptico. La resección subtotal planificada + RT es la estrategia correcta para el AFNF con invasión del seno cavernoso.",
+            "C": "La cabergolina no tiene eficacia establecida para los adenomas hipofisarios no funcionantes (que típicamente expresan poco o ningún receptor D2). Solo es eficaz para prolactinomas y algunos adenomas secretores de GH.",
+            "D": "Los residuos de AFNF del seno cavernoso SÍ progresan: 40-50% a los 10 años sin tratamiento. La observación aislada no es estándar tras la resección incompleta de un AFNF, especialmente en un paciente con panhipopituitarismo en el que el crecimiento posterior causaría pérdida de visión."
+          },
+          "guideline": "Guías ESE de Tumores Hipofisarios 2023 — AFNF residual tras cirugía: RT adyuvante recomendada para invasión del seno cavernoso; recurrencia a 10 años 10-20% con RT vs 40-50% sin ella; NCCN CNS Tumors v1.2024",
+          "trial": "Dekkers OM et al. J Clin Endocrinol Metab 2007: Revisión sistemática del manejo del AFNF — la RT reduce la recurrencia del 46% (observación) al 14% a los 10 años tras resección incompleta; Reddy R et al. Neuro Oncol 2009: RCE para AFNF del seno cavernoso — control a 5 años 91%",
+          "pearl": "AFNF residual tras cirugía: RT adyuvante (fraccionada o RCE) reduce la recurrencia a 10 años del 40-50% al 10-20%. Para la invasión del seno cavernoso: RCE 12-16 Gy al residuo es preferida a la RT fraccionada si se cumplen las restricciones de dosis a los NC. La RT no restaura la función endocrina perdida: reponer hormonas independientemente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q16",
+        "stem": "Una niña de 10 años se somete recientemente a una resección total amplia de un craneofaringioma adamantinomatoso. El cirujano logró afectación hipotalámica (grado 2 de Muller). En el postoperatorio presenta DI, deficiencia de GH, hipotiroidismo central, insuficiencia suprarrenal central e hiperfagia grave. ¿Cuál de estas complicaciones resulta directamente de la lesión del núcleo ventromedial hipotalámico?",
+        "options": {
+          "A": "Diabetes insípida",
+          "B": "Hipotiroidismo central",
+          "C": "Obesidad hipotalámica",
+          "D": "Deficiencia de hormona de crecimiento"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La obesidad hipotalámica resulta específicamente de la lesión del núcleo ventromedial hipotalámico (NVM), que actúa como centro de la saciedad. La destrucción del NVM causa resistencia a la leptina, alteración de la regulación del sistema nervioso autónomo e hiperinsulinemia, dando lugar a hiperfagia patológica, gasto energético reducido y obesidad grave refractaria a la intervención dietética. La obesidad hipotalámica es la morbilidad a largo plazo más devastadora del craneofaringioma y ocurre en el 40-60% de los pacientes sometidos a manipulación hipotalámica agresiva. Una vez establecida, es esencialmente irreversible.",
+          "wrong": {
+            "A": "La diabetes insípida resulta de la lesión de los núcleos supraóptico y paraventricular del hipotálamo y de la neurohipófisis/tallo hipofisario, no específicamente del núcleo ventromedial.",
+            "B": "El hipotiroidismo central resulta de la lesión de las células tirotropas en la adenohipófisis o de las neuronas de TRH (hormona liberadora de tirotropina) hipotalámicas, no específicamente del NVM.",
+            "D": "La deficiencia de GH resulta de la lesión de las células somatotropas en la adenohipófisis o de las neuronas de GHRH, no específicamente del centro de la saciedad del NVM."
+          },
+          "guideline": "Muller HL et al. Nat Rev Dis Primers 2019 — Obesidad hipotalámica del craneofaringioma: mecanismo de lesión del NVM; Guías de Tratamiento del Craneofaringioma SIOPE 2019",
+          "trial": "Muller HL et al. Eur J Endocrinol 2010 (KRANIOPHARYNGEOM 2007): El grado de afectación hipotalámica predice el resultado en obesidad — el grado 2-3 de afectación hipotalámica se asocia con IMC >35 en el 40-60% a los 5 años; la lesión del NVM es la complicación metabólica más devastadora",
+          "pearl": "Lesión del NVM = obesidad hipotalámica (hiperfagia, resistencia a la leptina, gasto energético reducido, hiperinsulinemia). Irreversible una vez establecida. El grado hipotalámico de Muller (0-2) es el factor más importante para la planificación del tratamiento: el grado 2 de afectación hipotalámica obliga a cirugía conservadora (que preserve el hipotálamo)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q17",
+        "stem": "El estudio KRANIOPHARYNGEOM 2007 demostró cuál de los siguientes hallazgos clave sobre la estrategia quirúrgica para el craneofaringioma:",
+        "options": {
+          "A": "La cirugía radical logra una supervivencia global superior a la cirugía limitada + radioterapia",
+          "B": "La cirugía conservadora del hipotálamo + radioterapia logra una SLP equivalente a los 10 años que la cirugía radical con menor disfunción hipotalámica",
+          "C": "La radioterapia sola es superior a cualquier intervención quirúrgica para el craneofaringioma",
+          "D": "La resección completa siempre es alcanzable y debe ser el objetivo quirúrgico independientemente de la afectación hipotalámica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El estudio prospectivo KRANIOPHARYNGEOM 2007 (Muller et al.) demostró que la cirugía conservadora del hipotálamo (limitada) seguida de radioterapia logró una SLP equivalente a los 10 años (74% cirugía limitada+RT vs 59% cirugía radical) y sustancialmente menor disfunción hipotalámica (menor tasa de obesidad hipotalámica con el abordaje limitado). Este ensayo estableció la base de evidencia para el estándar contemporáneo: cirugía conservadora del hipotálamo + radioterapia adyuvante para los craneofaringiomas con afectación hipotalámica (grado 2-3 de Muller), sacrificando la completitud de la resección para preservar la función hipotalámica.",
+          "wrong": {
+            "A": "El estudio KRANIOPHARYNGEOM 2007 demostró lo contrario: la cirugía radical NO logró una SLP superior a la cirugía limitada + RT (59% vs 74% a los 10 años, en favor de la limitada + RT), causando al mismo tiempo significativamente más morbilidad hipotalámica.",
+            "C": "La radioterapia sola no es estándar para el craneofaringioma: la cirugía es necesaria para la reducción tumoral, la descompresión de las vías del LCR y el diagnóstico histológico. La RT es el adyuvante esencial, no una monoterapia.",
+            "D": "La resección completa independientemente de la afectación hipotalámica es la filosofía antigua que causó obesidad hipotalámica epidémica en los supervivientes de craneofaringioma. Las guías modernas recomiendan explícitamente NO realizar resección radical cuando conlleva riesgo de daño hipotalámico."
+          },
+          "guideline": "Guías de Tratamiento del Craneofaringioma SIOPE 2019 — Basadas en KRANIOPHARYNGEOM 2007: cirugía conservadora del hipotálamo + RT recomendada para afectación hipotalámica grado 2-3",
+          "trial": "Muller HL et al. Eur J Endocrinol 2010 (KRANIOPHARYNGEOM 2007): Registro prospectivo alemán — cirugía limitada+RT: SLP 10 años 74%, obesidad hipotalámica 26%; cirugía radical: SLP 10 años 59%, obesidad hipotalámica 52%; estableció la cirugía limitada+RT como estrategia superior",
+          "pearl": "KRANIOPHARYNGEOM 2007: cirugía limitada + RT ≥ cirugía radical en SLP a 10 años (74% vs 59%), con MENOR obesidad hipotalámica. Esto revirtió el dogma tradicional de resección radical. Grado hipotalámico 2-3 de Muller: siempre abordaje conservador del hipotálamo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q18",
+        "stem": "Una mujer de 35 años con microadenoma de 1,5 cm es intervenida mediante cirugía transesfenoidal por enfermedad de Cushing confirmada. El cortisol del día 1 del postoperatorio es de 280 nmol/L. ¿Cómo debe interpretarse este resultado?",
+        "options": {
+          "A": "Remisión quirúrgica confirmada — el cortisol ha descendido por debajo del umbral de 50 nmol/L",
+          "B": "Fracaso quirúrgico — el cortisol está insuficientemente suprimido; planificar reintervención o tratamiento médico",
+          "C": "El cortisol está elevado por el estrés quirúrgico — reevaluar a las 6 semanas",
+          "D": "Hallazgo postoperatorio normal — un cortisol de 280 nmol/L siempre es esperable tras cualquier cirugía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El cortisol postoperatorio de 280 nmol/L en el día 1 NO cumple el criterio de remisión para la enfermedad de Cushing. La remisión quirúrgica requiere cortisol matutino <50 nmol/L (o <1,8 µg/dL) en los primeros 1-7 días del postoperatorio. Un cortisol de 280 nmol/L indica secreción persistente de ACTH: las células tumorales secretoras de ACTH no fueron completamente extirpadas. Esto representa un fracaso quirúrgico que requiere considerar: reintervención si se identifica un residuo discreto, radiocirugía estereotáctica, tratamiento médico (pasireotida, metirapona, osilodrostat) o suprarrenalectomía bilateral.",
+          "wrong": {
+            "A": "280 nmol/L está muy por encima del umbral de remisión de 50 nmol/L. Esta afirmación interpreta erróneamente el resultado como un descenso cuando en realidad representa exceso persistente de cortisol por producción continuada de ACTH.",
+            "C": "Aunque el estrés quirúrgico eleva el cortisol en pacientes normales (la respuesta cortisólica a la cirugía mayor suele alcanzar un pico de 600-800 nmol/L), en un paciente con enfermedad de Cushing que logra la curación quirúrgica, el cortisol DESCIENDE drásticamente a <50 nmol/L a pesar del estrés quirúrgico, porque el tumor secretor de ACTH ha sido extirpado y el exceso crónico de cortisol suprimió los corticotropos normales. Un cortisol postop de 280 nmol/L en este contexto indica enfermedad persistente.",
+            "D": "280 nmol/L NO es un hallazgo normal del postoperatorio tras cirugía de la enfermedad de Cushing: indica que el adenoma no fue extirpado. Los pacientes con cirugía hipofisaria normal sin enfermedad de Cushing tendrían cortisol inducido por estrés >400-600 nmol/L de forma aguda."
+          },
+          "guideline": "Guías de la Endocrine Society para el Tratamiento de la Enfermedad de Cushing 2015 — Cortisol postop <50 nmol/L = remisión; >140 nmol/L = enfermedad persistente; intermedio (50-140 nmol/L) = incierto, monitorizar",
+          "trial": "Hamrahian AH et al. J Clin Endocrinol Metab 2010: Validación del nadir de cortisol postoperatorio — cortisol >140 nmol/L en días 1-7 = enfermedad persistente con valor predictivo positivo del 95%; estableció cortisol <50 nmol/L como umbral óptimo de remisión",
+          "pearl": "Interpretación del cortisol postop tras cirugía de la enfermedad de Cushing: <50 nmol/L = remisión (requiere reposición de hidrocortisona). 50-140 nmol/L = incierto, monitorizar. >140 nmol/L = enfermedad persistente. Cortisol de 280 nmol/L = fracaso quirúrgico. El descenso brusco del cortisol postop es la prueba de curación."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q19",
+        "stem": "En una mujer de 48 años se detecta un incidentaloma hipofisario de 12 mm en una RM realizada por cefalea. Evaluación hormonal: PRL 600 mU/L (rango normal 60-500 mU/L), el resto de los ejes hipofisarios son normales. Es postmenopáusica. Los campos visuales son normales. ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Cabergolina de inmediato — se trata de un prolactinoma",
+          "B": "Cirugía transesfenoidal — cualquier macroadenoma hipofisario requiere cirugía",
+          "C": "RM de control en 6 meses y reevaluación hormonal; la leve elevación de PRL probablemente representa efecto de tallo por un adenoma no funcionante",
+          "D": "Radioterapia para prevenir el crecimiento de este macroadenoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Una PRL de 600 mU/L con un adenoma de 12 mm representa hiperprolactinemia leve desproporcionadamente baja para un prolactinoma de este tamaño (del que se esperaría una PRL >2000-3000 mU/L para una lesión de 12 mm). Esto sugiere un adenoma hipofisario no funcionante con efecto de tallo: la compresión del tallo hipofisario reduce el aporte de dopamina, desinhibiendo los lactotropos. En una mujer postmenopáusica asintomática con campos visuales normales y todos los ejes normales, la observación con RM en 6 meses es apropiada. Si la RM no muestra crecimiento, repetir anualmente durante 3-5 años. Si la PRL es realmente de un prolactinoma, la cabergolina la normalizaría y reduciría el volumen tumoral.",
+          "wrong": {
+            "A": "Iniciar cabergolina sin distinguir la hiperprolactinemia por efecto de tallo de un microprolactinoma verdadero es incorrecto. La PRL de 600 mU/L para una lesión de 12 mm es baja para un prolactinoma. La cabergolina para el efecto de tallo puede enmascarar el crecimiento del AFNF. La distinción requiere observación (o determinación de macroprolactina).",
+            "B": "No todo macroadenoma hipofisario requiere cirugía inmediata. Según las guías de la EANS y la Endocrine Society, la cirugía está indicada para los macroadenomas sintomáticos (compromiso visual, hipopituitarismo significativo, crecimiento rápido). Un adenoma de 12 mm asintomático con visión conservada puede observarse.",
+            "D": "La radioterapia para un macroadenoma incidental asintomático con visión normal y aspecto estable no está indicada. La RT se reserva para residuos crecientes o sintomáticos tras cirugía."
+          },
+          "guideline": "Guías ESE de Incidentaloma Hipofisario 2023 — Macroadenoma asintomático sin compromiso visual: vigilancia activa con RM a los 6 meses, luego anualmente; interpretación del efecto de tallo según la ESE",
+          "trial": "Casanueva FF et al. Eur J Endocrinol 2006: Efecto de tallo: PRL <200 mU/L raramente por compresión del tallo; PRL 200-3000 mU/L: indeterminado (efecto de tallo o microprolactinoma); PRL >5000 mU/L: prolactinoma verdadero. Factor diferenciador: tamaño tumoral en relación con el nivel de PRL",
+          "pearl": "PRL por efecto de tallo: levemente elevada (200-3000 mU/L) desproporcionada al tamaño tumoral sugiere AFNF con compresión del tallo, no prolactinoma. Prolactinoma macro verdadero: PRL habitualmente >3000-5000 mU/L para una masa de 1,2 cm. Observación o ensayo de cabergolina ambos razonables: la determinación de macroprolactina descarta elevación artificial."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q20",
+        "stem": "Un hombre de 55 años se somete a cirugía transesfenoidal no complicada por un adenoma secretor de ACTH de 2,5 cm (enfermedad de Cushing). En el día 3 del postoperatorio nota secreción nasal acuosa transparente por la narina derecha. La prueba de beta-2 transferrina resulta positiva. ¿Cuál es el manejo correcto?",
+        "options": {
+          "A": "Reintervención quirúrgica inmediata para cierre quirúrgico",
+          "B": "Antibióticos empíricos y observación",
+          "C": "Elevación de la cabecera, restricción hídrica y drenaje lumbar; reparación quirúrgica si no se sella en 48-72 horas",
+          "D": "RM para valorar hematoma hipofisario"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La fístula de LCR (rinorrea) postoperatoria ocurre en el 1-5% de los casos estándar de CTE. Protocolo de manejo: (1) drenaje lumbar inmediato (drenaje de LCR a 10-15 mL/hora durante 5 días) para reducir la presión del LCR y permitir la cicatrización dural espontánea, combinado con (2) elevación de la cabecera (30 grados) y restricción de las maniobras de Valsalva (tos, sonarse la nariz, esfuerzos). Si la fístula no se sella en las 48-72 horas del drenaje lumbar, se requiere reexploración quirúrgica con reconstrucción mediante injerto de grasa y/o colgajo nasoseptal pediculado. Los antibióticos empíricos son controvertidos (no hay evidencia de nivel I para profilaxis, aunque a menudo se administran dado el riesgo de meningitis). La beta-2 transferrina positiva es la prueba confirmatoria de referencia para el LCR.",
+          "wrong": {
+            "A": "La reintervención inmediata en el día 3 por fístula de LCR no es el primer paso. El manejo conservador con drenaje lumbar cierra exitosamente el 70-80% de las fístulas de LCR postoperatorias sin necesidad de reintervención. La reintervención se reserva para las fístulas que no responden al drenaje lumbar tras 48-72 horas.",
+            "B": "Los antibióticos empíricos solos sin derivación del LCR son insuficientes. La fístula de LCR no tratada conlleva riesgo de meningitis ascendente. El drenaje lumbar es la intervención clave para reducir la presión del LCR y permitir la cicatrización dural.",
+            "D": "La RM para valorar el hematoma está indicada para el deterioro visual, el nuevo déficit neurológico o la inestabilidad hemodinámica, no principalmente para la rinorrea de LCR. El resultado positivo de beta-2 transferrina ya confirma la fístula de LCR; la prioridad es el tratamiento, no el diagnóstico adicional por imagen."
+          },
+          "guideline": "Guías EANS de Cirugía Transesfenoidal 2019 — Fístula de LCR postoperatoria: drenaje lumbar en primer lugar; reparación quirúrgica si no se sella en 48-72 horas; colgajo nasoseptal para fístulas de alto flujo o persistentes",
+          "trial": "Mehta GU et al. J Neurosurg 2016: Manejo de la fístula de LCR en CTE — drenaje lumbar exitoso en el 78% sin reintervención; reparación quirúrgica requerida en el 22%; el colgajo nasoseptal se asoció con menor tasa de fístula recurrente frente al injerto de grasa solo",
+          "pearl": "Rinorrea de LCR post-CTE: confirmar con beta-2 transferrina → drenaje lumbar (10-15 mL/h) + elevación de cabecera + sin Valsalva → 48-72 horas de observación → reparación quirúrgica si no cicatriza. Colgajo nasoseptal (Hadad) para reintervención o fístulas de alto flujo. El riesgo de meningitis por fístula de LCR no tratada obliga a un manejo ágil."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

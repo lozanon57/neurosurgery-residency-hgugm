@@ -1,0 +1,627 @@
+{
+  "id": "B5",
+  "title": "Malformaciones Arteriovenosas Cerebrales",
+  "subtitle": "Bloque B — Clasificación de las MAV, Historia Natural y Tratamiento Multimodal",
+  "block": "B",
+  "block_name": "Neurocirugía Neurovascular",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "AHA/ASA AVM Guidelines 2017 · EANS Neurovascular Guidelines 2023 · ESO AVM Guidelines 2022",
+  "textbook_refs": [
+    "Mohr JP et al. Medical Management with or without Interventional Therapy for Unruptured Brain AVMs (ARUBA). Lancet 2014",
+    "Spetzler RF et al. The Spetzler-Martin Grading Scale for Arteriovenous Malformations. J Neurosurg 1986",
+    "Lunsford LD et al. Stereotactic Radiosurgery for Arteriovenous Malformations. NEJM 1991",
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)"
+  ],
+  "learning_objectives": [
+    "Aplicar la Escala de Graduación de Spetzler-Martin para predecir el riesgo quirúrgico en las MAV cerebrales",
+    "Describir la historia natural de las MAV cerebrales no rotas e interpretar los resultados y limitaciones del ensayo ARUBA",
+    "Definir las indicaciones de resección microquirúrgica, radiocirugía estereotáctica (RCE), embolización endovascular y tratamiento multimodal según las características de la MAV",
+    "Calcular el riesgo anual de rotura en MAV rotas y no rotas y orientar a los pacientes sobre el manejo a largo plazo",
+    "Identificar los factores morfológicos y hemodinámicos de riesgo de rotura de MAV (drenaje venoso profundo, vena de drenaje única, localización profunda/infratentorial)",
+    "Manejar las fístulas arteriovenosas durales (FAVd): clasificación de Cognard y selección del tratamiento"
+  ],
+  "sections": [
+    {
+      "id": "B5-S1",
+      "title": "Patología, Epidemiología e Historia Natural",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las malformaciones arteriovenosas (MAV) cerebrales son lesiones vasculares congénitas caracterizadas por una derivación arteriovenosa directa a través de un nido vascular enredado, que elude el lecho capilar normal. El nido está compuesto por arterias y venas displásicas sin parénquima cerebral normal interpuesto, embebido en tejido gliótico. La prevalencia se estima en 0,1–0,2% (10–18/100.000), con una tasa de detección anual de aproximadamente 1,3/100.000. Las MAV pueden presentarse con hemorragia intracraneal (50%), crisis epilépticas (25%), cefalea (15%) o déficit neurológico progresivo (10%); el hallazgo incidental en neuroimagen supone una proporción creciente. El riesgo anual de hemorragia en las **MAV no rotas** es del 2–4% anual, según estudios poblacionales. En las **MAV previamente rotas**, el riesgo anual de resangrado aumenta al 6–18% en el primer año, retornando posteriormente a la tasa basal. Los factores clínicos clave de riesgo de hemorragia en el momento del diagnóstico incluyen: **drenaje venoso profundo** (asociado a mayor presión intranidal), **vena de drenaje única** (menor drenaje alternativo), **localización profunda o infratentorial** (tronco encefálico, ganglios basales, sustancia blanca profunda) y **aneurismas intranidales** (aneurismas relacionados con el flujo dentro del nido de la MAV que predicen de forma independiente el riesgo de hemorragia). La hemorragia por MAV se asocia en general a mejores resultados que la HSA aneurismática, con tasas de mortalidad de aproximadamente el 10–15% por sangrado y recuperación espontánea significativa. El **ensayo ARUBA** (Mohr, Lancet 2014) cambió radicalmente el enfoque terapéutico de las MAV no rotas al demostrar que el tratamiento médico exclusivo era superior al tratamiento intervencionista en el período de seguimiento a corto plazo."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Riesgo Anual de Hemorragia por MAV",
+          "content": "Riesgo anual de hemorragia en MAV no rota: 2–4%. MAV previamente rota: riesgo anual del 6–18% en el año 1 (luego vuelve al 2–4%). Fórmula del riesgo acumulado durante la vida: 1 − (1 − 0,03)^(105 − edad del paciente). Un paciente de 20 años con una MAV no rota tiene un riesgo acumulado de hemorragia durante el resto de su vida de aproximadamente el 94% — este elevado riesgo vital es el contraargumento a la perspectiva a corto plazo del ensayo ARUBA."
+        }
+      ]
+    },
+    {
+      "id": "B5-S2",
+      "title": "Escala de Graduación de Spetzler-Martin",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **Escala de Graduación de Spetzler-Martin (SM)** (1986) es el sistema más utilizado para predecir el riesgo quirúrgico en las MAV cerebrales. Asigna puntos según: **Tamaño** — pequeño (<3 cm) = 1, mediano (3–6 cm) = 2, grande (>6 cm) = 3; **Elocuencia** del cerebro adyacente — no elocuente = 0, elocuente = 1 (áreas elocuentes: sensitivo-motora, lenguaje, corteza visual, tálamo, hipotálamo, cápsula interna, tronco encefálico, pedúnculos cerebelosos, núcleos cerebelosos profundos); **Drenaje venoso** — solo superficial = 0, cualquier drenaje profundo = 1. Puntuación total 1–5 (el Grado VI se reserva por convención para MAV inoperables). Resultados quirúrgicos por grado: **Grado I–II**: morbilidad <5%, riesgo bajo, resección quirúrgica favorecida. **Grado III**: morbilidad 7–15%, riesgo intermedio, decisión individualizada. **Grado IV–V**: morbilidad 17–22% y >22%, riesgo alto, el tratamiento intervencionista generalmente se difiere en favor de RCE o abordajes multimodales, o tratamiento médico (especialmente tras ARUBA). La clasificación de Spetzler-Ponce simplifica a **Clase A** (Grado SM I–II), **Clase B** (Grado SM III) y **Clase C** (Grado SM IV–V) para la estratificación del manejo. El **Sistema de Graduación SM Suplementario** (Lawton 2010) añade la edad del paciente, la difusidad del nido y el sangrado previo para mejorar la predicción del resultado quirúrgico."
+        },
+        {
+          "type": "table",
+          "title": "Escala de Graduación de Spetzler-Martin",
+          "headers": ["Variable", "Característica", "Puntos"],
+          "rows": [
+            ["Tamaño", "Pequeño (<3 cm)", "1"],
+            ["Tamaño", "Mediano (3–6 cm)", "2"],
+            ["Tamaño", "Grande (>6 cm)", "3"],
+            ["Elocuencia del cerebro adyacente", "No elocuente", "0"],
+            ["Elocuencia del cerebro adyacente", "Elocuente (motor, lenguaje, visual, tálamo, tronco encefálico, etc.)", "1"],
+            ["Drenaje venoso", "Solo superficial", "0"],
+            ["Drenaje venoso", "Cualquier drenaje profundo", "1"],
+            ["Grado I–II total (quirúrgico)", "Morbilidad <5%", "Favorecido para resección quirúrgica"],
+            ["Grado III total (individualizado)", "Morbilidad 7–15%", "Individualizado; RCE o cirugía según anatomía"],
+            ["Grado IV–V total (alto riesgo)", "Morbilidad >17–22%", "RCE, embolización u observación"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Puntuación del Drenaje Venoso Profundo",
+          "content": "CUALQUIER drenaje venoso profundo (no 'exclusivamente profundo') puntúa 1 punto en la escala de Spetzler-Martin. Una MAV con una vena de drenaje superficial y una profunda sigue puntuando 1 punto en drenaje venoso. Este es un error habitual en la graduación SM — la clave es si EXISTE ALGÚN drenaje profundo, no si TODO el drenaje es profundo."
+        }
+      ]
+    },
+    {
+      "id": "B5-S3",
+      "title": "Ensayo ARUBA — MAV No Rotas y Tratamiento Médico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **ensayo ARUBA** (A Randomised trial of Unruptured Brain Arteriovenous malformations, Mohr, Lancet 2014) fue el primer ensayo aleatorizado que comparó el tratamiento intervencionista frente al tratamiento médico en MAV cerebrales no rotas. Se aleatorizaron 226 pacientes con MAV cerebrales no rotas a tratamiento intervencionista (cirugía, RCE, embolización o combinación) frente a tratamiento médico (mejor tratamiento médico para epilepsia, cefalea y modificación de factores de riesgo). El objetivo principal fue el combinado de ictus o muerte a los 33 meses de seguimiento medio. Los resultados fueron llamativos: el tratamiento intervencionista empeoró significativamente los resultados — 30,7% de ictus o muerte en el grupo intervencionista frente al 10,1% en el grupo de tratamiento médico (HR 3,06, P=0,0003). El ensayo se detuvo precozmente por este motivo a instancias del Comité de Seguridad y Monitorización de Datos. Sin embargo, **ARUBA presenta limitaciones importantes**: (1) el seguimiento medio de 33 meses es muy breve en relación con el riesgo vital de hemorragia por MAV (horizonte de riesgo de 30–80 años); (2) el 50% de los pacientes recibió radiocirugía, que presenta una latencia de 3–5 años antes del beneficio — la mayor parte de los beneficios de la RCE ocurren TRAS la ventana de seguimiento del ensayo; (3) población heterogénea de pacientes (se incluyeron MAV de bajo grado aptas para cirugía segura junto a MAV de alto grado); (4) participaron centros con experiencia limitada en MAV, lo que puede haber inflado las tasas de complicaciones intervencionistas. El seguimiento a largo plazo de ARUBA (Al-Shahi Salman, Lancet Neurol 2020) a 12 años del grupo de tratamiento médico mostró una tasa de hemorragia acumulada del 44%, lo que sugiere que el tratamiento médico exclusivo no está libre de riesgo de hemorragia a largo plazo."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Interpretación de ARUBA en la Práctica",
+          "content": "ARUBA cuestionó el dogma de que todas las MAV no rotas deben tratarse. Consenso actual: los resultados de ARUBA deben llevar a la PRECAUCIÓN ante el tratamiento de TODAS las MAV no rotas, pero no establecen el manejo conservador universal como obligatorio. Las MAV de Grado I–II no rotas en pacientes jóvenes con localizaciones accesibles siguen siendo candidatas apropiadas para tratamiento en centros con experiencia. El debate continúa — el seguimiento breve de ARUBA no permite captar el beneficio a largo plazo de la obliteración definitiva de la MAV frente al riesgo acumulado de hemorragia vital."
+        }
+      ]
+    },
+    {
+      "id": "B5-S4",
+      "title": "Resección Microquirúrgica y Embolización Endovascular",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **resección microquirúrgica** es el tratamiento más definitivo de la MAV, logrando obliteración completa inmediata en >95% de las MAV de Grado I–III en centros con experiencia. La estrategia quirúrgica consiste en la disección circunferencial del nido de la MAV con coagulación y sección progresiva de las arterias nutricias, seguida de la sección final de la vena de drenaje (el sacrificio prematuro de la vena de drenaje causa hemorragia por aumento de presión intranidal). **Principio intraoperatorio clave**: identificar y desconectar TODAS las arterias nutricias antes de dividir la vena de drenaje. El clipaje temporal no se utiliza en cirugía de MAV (las MAV no tienen un vaso nutricio único que pueda ocluirse temporalmente). El **monitoreo neurofisiológico intraoperatorio** (PEM, PESS, cartografía del lenguaje en cirugía con paciente despierto) reduce la morbilidad neurológica. La **angiografía con verde de indocianina (VIC)** intraoperatoria confirma la resección completa antes del cierre. La **angiografía por sustracción digital (ASD)** posresección a los 6 meses es obligatoria para confirmar la obliteración — la recurrencia de la MAV puede producirse por nido residual o angiogénesis de novo. La **embolización endovascular** aislada raramente logra la curación completa de la MAV (solo 5–15% de obliteración completa con embolizantes modernos como Onyx). La embolización actúa como **coadyuvante preoperatorio** para reducir el volumen del nido, disminuir el flujo y simplificar la cirugía o RCE posterior. Objetivos de la embolización preoperatoria: (1) arterias nutricias profundas inaccesibles quirúrgicamente; (2) reducción del nido para facilitar el volumen de RCE (objetivo <10 cm³ para RCE óptima); (3) embolización de aneurismas intranidales antes de la RCE para reducir el riesgo de hemorragia durante el período de latencia. La embolización con intención curativa puede ser apropiada en MAV pequeñas (<2 cm) con un único pedículo nutricio y sin afectación elocuente."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Regla Quirúrgica: Arterias Nutricias Antes de la Vena de Drenaje",
+          "content": "La regla cardinal de la cirugía de MAV es identificar y desconectar TODAS las arterias nutricias ANTES de dividir la vena de drenaje. El sacrificio prematuro de la vena de drenaje atrapa la sangre en el nido, aumentando drásticamente la presión intranidal, causando hemorragia y 'ruptura de la presión de perfusión normal' (RPPN). Dividir la vena de drenaje EN ÚLTIMO LUGAR, solo tras el aislamiento completo del nido."
+        }
+      ]
+    },
+    {
+      "id": "B5-S5",
+      "title": "Radiocirugía Estereotáctica en MAV",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **radiocirugía estereotáctica (RCE)** — Gamma Knife, CyberKnife, LINAC — administra radiación focalizada de alta dosis al nido de la MAV, induciendo proliferación endotelial progresiva, esclerosis vascular y obliteración a lo largo de un **período de latencia de 2–4 años**. La RCE es el tratamiento de elección para: (1) MAV pequeñas (<3 cm de diámetro, <10 cm³ de volumen) en localizaciones profundas, elocuentes o quirúrgicamente inaccesibles; (2) MAV residual tras resección quirúrgica incompleta; (3) pacientes ancianos o con alto riesgo quirúrgico. Tasas de obliteración: ~70–80% de obliteración completa a los 3–5 años para MAV ≤3 cm; considerablemente menores para volúmenes mayores (50–60% para 3–4 cm). **Limitación crítica**: durante el período de latencia de 2–4 años, el riesgo de hemorragia por MAV persiste a la tasa anual previa al tratamiento — la RCE no proporciona protección inmediata. Este riesgo de hemorragia durante la latencia es una consideración mayor en pacientes jóvenes. Dosis de prescripción óptima para RCE: **dosis marginal de 20–25 Gy** al nido logra las mejores tasas de obliteración con toxicidad por radiación aceptable. Complicaciones de la radiocirugía: edema inducido por radiación (sintomático en 10–15%, a los 12–36 meses), radionecrosis (<5%), nuevas crisis epilépticas (<5%) y formación tardía de quistes (infrecuente, 2–10 años posRCE). La plataforma de RCE con LINAC utiliza arcoterapia mientras que el Gamma Knife emplea 192 fuentes de cobalto-60 — ambas son equivalentes en precisión para nidos de MAV bien definidos. La **RCE en estadios por volumen** para MAV grandes (>15 cm³) consiste en tratar el nido en múltiples sesiones para reducir la dosis de radiación aunque alargando la latencia hasta la obliteración."
+        },
+        {
+          "type": "table",
+          "title": "Modalidad de Tratamiento de MAV — Criterios de Selección",
+          "headers": ["Modalidad", "Características óptimas de la MAV", "Tasa de obliteración completa", "Ventaja clave"],
+          "rows": [
+            ["Resección microquirúrgica", "Grado SM I–II, accesible, no elocuente, cualquier tamaño", ">95% inmediata", "Curación definitiva inmediata; sin período de latencia"],
+            ["Radiocirugía estereotáctica", "<3 cm, profunda/elocuente, quirúrgicamente inaccesible", "70–80% a los 3–5 años", "No invasiva; evita el riesgo quirúrgico en localizaciones profundas"],
+            ["Embolización endovascular sola", "Pequeña (<2 cm), pedículo único, superficial", "5–15% sola", "Curativa en MAV simples seleccionadas; adyuvante preoperatorio"],
+            ["Embolización + cirugía", "Grado SM III grande, arterias nutricias profundas", "Igual que cirugía", "Reduce pérdida sanguínea intraoperatoria y complejidad"],
+            ["Embolización + RCE", "Grado SM III–IV, >3 cm, para reducir volumen para RCE", "50–60% (combinado)", "Permite tratar con RCE volúmenes mayores"],
+            ["Observación (ARUBA)", "No rotas, grado SM alto, ancianos, esperanza de vida corta", "N/A", "Evita el riesgo del procedimiento; tratamiento definitivo diferido"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B5-S6",
+      "title": "Fístulas Arteriovenosas Durales: Clasificación de Cognard y Manejo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las **fístulas arteriovenosas durales (FAVd)** son lesiones adquiridas en las que la derivación arteriovenosa anómala ocurre dentro de las capas durales, habitualmente en el seno venoso dural o en sus proximidades. Las FAVd representan el 10–15% de todas las malformaciones vasculares intracraneales. La clasificación más importante es la **clasificación de Cognard**, que estratifica las FAVd según el patrón de drenaje venoso y predice el riesgo anual de hemorragia y la morbilidad neurológica. **Clasificación de Cognard**: Tipo I — drenaje al seno venoso dural (flujo anterógrado normal) = benigno, riesgo anual de hemorragia <2%; Tipo II — drenaje al seno dural con reflujo: IIa (retrógrado al seno), IIb (retrógrado a la vena cortical), IIa+b (ambos) — riesgo anual 7–10%; Tipo III — drenaje venoso cortical directo (sin seno) = riesgo anual de hemorragia 40%; Tipo IV — drenaje venoso cortical con ectasia venosa — riesgo anual de hemorragia 65%; Tipo V — drenaje venoso perimedular espinal — mielopatía progresiva. La **clasificación de Borden-Shucart** es más sencilla: Tipo I (solo drenaje al seno), Tipo II (drenaje al seno + vena cortical), Tipo III (solo drenaje a vena cortical). El concepto clave: el **reflujo venoso cortical** (drenaje a vena cortical) es el principal factor de riesgo de hemorragia y déficit neurológico, independientemente del sistema de clasificación. Tratamiento: **Embolización transarterial** (inyección de Onyx en las arterias nutricias) para FAVd Tipo II–IV — tasas de curación del 50–80% según la arquitectura. **Embolización transvenosa** (espirales en el punto del seno fistuloso) logra tasas de curación ≥90% en FAVd del seno cavernoso. **Desconexión quirúrgica** de la vena de drenaje cortical para FAVd no susceptibles de tratamiento endovascular. **RCE** para FAVd con derivación arteriovenosa — latencia de 3–5 años."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Clasificación de Cognard: Reflujo Venoso Cortical = Alto Riesgo",
+          "content": "El factor de riesgo clave en la clasificación de FAVd es el DRENAJE VENOSO CORTICAL (reflujo). Cognard Tipo I (solo seno, flujo anterógrado) = benigno (<2% de riesgo anual de hemorragia). Cognard Tipo III (solo vena cortical) = 40% de riesgo anual de hemorragia. Cognard Tipo IV (vena cortical + ectasia) = 65% de riesgo anual de hemorragia. Los Tipos III y IV requieren tratamiento urgente. La presencia o ausencia de reflujo venoso cortical es la distinción binaria crítica."
+        }
+      ]
+    },
+    {
+      "id": "B5-S7",
+      "title": "Malformaciones Cavernosas y Lesiones Vasculares Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las **malformaciones cavernosas cerebrales (MCC)** — también llamadas cavernomas o angiomas cavernosos — son hamartomas vasculares compuestos por canales vasculares sinusoidales dilatados de paredes finas sin parénquima cerebral normal interpuesto. Las MCC afectan al 0,4–0,8% de la población y aparecen como lesiones en 'palomita de maíz' en resonancia magnética (señal T2 heterogénea con halo de hemosiderina en imagen ponderada en susceptibilidad). Tres formas genéticas: esporádica (lesión única) y familiar (múltiples, autosómica dominante: CCM1/KRIT1, CCM2/malcavernin, CCM3/PDCD10). Riesgo anual de hemorragia: **MCC supratentoriales** = 0,2–0,3% (riesgo bajo); **MCC del tronco encefálico** = 2–3% anuales inicial, aumentando al 5–20% tras sangrado previo (riesgo alto, frecuentemente tratadas quirúrgicamente si son accesibles). La hemorragia por MCC es característicamente pequeña (no HSA masiva), causando déficits neurológicos focales. Indicaciones quirúrgicas: lesión accesible que causa hemorragia sintomática recurrente (≥2 sangrados de la misma lesión), déficit neurológico progresivo o crisis epilépticas refractarias a fármacos por una MCC resecable. La radiocirugía estereotáctica (RCE) para las MCC es **controvertida** — sin evidencia de ensayos aleatorizados, y los estudios retrospectivos muestran beneficio variable. Las guías AHA/ASA recomiendan resección quirúrgica sobre RCE para MCC sintomáticas accesibles. Las **anomalías del desarrollo venoso (ADV)** — antes denominadas 'angiomas venosos' — son variantes normales del drenaje venoso del desarrollo, NO lesiones patológicas. Las ADV sirven de drenaje venoso para el cerebro normal adyacente — la resección quirúrgica está absolutamente contraindicada ya que provoca infarto venoso. Las ADV se asocian con frecuencia a MCC adyacentes y nunca deben confundirse con la lesión que requiere tratamiento."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Nunca Resecar una Anomalía del Desarrollo Venoso",
+          "content": "Las anomalías del desarrollo venoso (ADV) son variantes NORMALES del drenaje venoso — no son lesiones patológicas. Las ADV coexisten frecuentemente con malformaciones cavernosas adyacentes, que SÍ son patológicas. Resecar la ADV provoca infarto venoso. Si se trata una MCC adyacente, la ADV debe preservarse. Esta es una de las distinciones conceptuales más importantes en neurocirugía cerebrovascular."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre las malformaciones arteriovenosas cerebrales y lesiones vasculares relacionadas con 20 preguntas tipo MIR.",
+    "questions": [
+      {
+        "id": "B5-Q1",
+        "stem": "Un varón de 28 años presenta su primera crisis epiléptica. La RM revela una MAV de 2,5 cm en el lóbulo temporal izquierdo. La angiografía confirma que el nido está localizado en el área de Wernicke, con drenaje venoso exclusivamente superficial. ¿Cuál es el grado de Spetzler-Martin?",
+        "options": {
+          "A": "Grado SM I (pequeño, elocuente, drenaje superficial = 1+1+0 = 2) — esto es Grado II",
+          "B": "Grado SM II (1+1+0 = 2 puntos)",
+          "C": "Grado SM III (1+1+1 = 3 puntos)",
+          "D": "Grado SM IV (2+1+1 = 4 puntos)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cálculo de Spetzler-Martin: Tamaño 2,5 cm (<3 cm) = 1 punto; Elocuencia = área de Wernicke (corteza del lenguaje) = 1 punto (elocuente); Drenaje venoso = solo superficial = 0 puntos. Total = 1+1+0 = 2 puntos = Grado SM II. Las MAV de Grado II en centros con experiencia tienen una morbilidad <5% con resección quirúrgica y son en general buenas candidatas para tratamiento.",
+          "wrong": {
+            "A": "El cálculo 1+1+0 = 2 puntos es correcto y corresponde al Grado II, no al Grado I. El Grado I requeriría tamaño pequeño + no elocuente + superficial = 1+0+0 = 1 punto",
+            "C": "El Grado III requeriría 1+1+1 = 3 puntos — precisaría drenaje venoso profundo (1 punto) que aquí no está presente (solo superficial = 0 puntos)",
+            "D": "El Grado IV requeriría 4 puntos — tamaño mediano (2 puntos) + elocuente (1) + profundo (1) = 4, u otras combinaciones. Esta MAV es <3 cm y puntúa solo 1 punto de tamaño"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Grado SM I–II: riesgo quirúrgico bajo (<5% de morbilidad); considerar resección en centros con experiencia",
+          "trial": "Spetzler RF, Martin NA (J Neurosurg 1986): derivación de la escala SM; Hamilton MG, Spetzler RF (J Neurosurg 1994): validación prospectiva — Grado II: 95% buenos resultados con cirugía",
+          "pearl": "Grado SM = Tamaño (1/2/3) + Elocuencia (0/1) + Drenaje venoso (0/1). Área de Wernicke = elocuente = 1 punto. Solo drenaje superficial = 0 puntos. Pequeño (<3 cm) + elocuente + superficial = 1+1+0 = Grado II."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q2",
+        "stem": "El ensayo ARUBA (Mohr, Lancet 2014) aleatorizó pacientes con MAV cerebrales no rotas a tratamiento intervencionista frente a tratamiento médico. ¿Cuál fue el resultado principal y cuál es la limitación metodológica más importante?",
+        "options": {
+          "A": "El tratamiento intervencionista mejoró significativamente los resultados; la limitación fue el reclutamiento insuficiente",
+          "B": "El tratamiento intervencionista empeoró significativamente los resultados (HR 3,06 para ictus/muerte, P=0,0003) con un seguimiento medio de 33 meses; la limitación crítica es el seguimiento breve en relación con el horizonte de riesgo de hemorragia por MAV de 30–80 años",
+          "C": "No hubo diferencias significativas entre grupos; la limitación fue el uso mixto de cirugía y RCE",
+          "D": "El tratamiento médico fue equivalente al intervencionista; la limitación fue la ausencia de un grupo comparador de MAV rotas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ARUBA demostró que el tratamiento intervencionista fue significativamente peor que el tratamiento médico a los 33 meses: ictus o muerte combinado 30,7% (intervencionista) frente a 10,1% (médico), HR 3,06, P=0,0003. El ensayo se detuvo precozmente. La limitación crítica: los 33 meses de seguimiento capturan solo los daños relacionados con la intervención, omitiendo la mayor parte del riesgo de historia natural a largo plazo — la RCE tiene una latencia de 2–4 años antes del beneficio. La mayoría de los beneficios del tratamiento de MAV ocurren TRAS los 5–10 años, que ARUBA no captó. El seguimiento a largo plazo a 12 años (Al-Shahi Salman LN 2020) mostró una hemorragia acumulada del 44% en el brazo médico — demostrando que el tratamiento médico tiene un riesgo de hemorragia a largo plazo sustancial que el breve seguimiento de ARUBA no detectó.",
+          "wrong": {
+            "A": "ARUBA demostró que el tratamiento intervencionista fue PEOR, no mejor. El resultado principal fue que la intervención aumentó significativamente el ictus y la muerte a corto plazo",
+            "C": "La diferencia SÍ fue significativa (P=0,0003, HR 3,06). ARUBA NO fue un ensayo neutro — mostró daño de la intervención en el seguimiento a corto plazo",
+            "D": "ARUBA incluyó solo MAV no rotas — la comparación fue intervencionista frente a médico en MAV no rotas, no en rotas"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Evidencia ARUBA citada; intervención en MAV no rotas considerada con cautela, especialmente en MAV de alto grado; Grado I–II frecuentemente tratadas en centros con experiencia",
+          "trial": "ARUBA (Mohr Lancet 2014): 226 pacientes — ictus/muerte 30,7% frente a 10,1%, HR 3,06, P=0,0003, detenido precozmente; seguimiento a largo plazo (Al-Shahi Salman LN 2020): 44% de hemorragia acumulada en brazo médico a 12 años",
+          "pearl": "ARUBA: la intervención EMPEORÓ los resultados a corto plazo (HR 3,06). Pero 33 meses es demasiado breve — la latencia de RCE es 2–4 años, el riesgo vital por MAV abarca décadas. A largo plazo: 44% de hemorragia acumulada en el brazo médico. ARUBA es una advertencia contra el tratamiento indiscriminado, NO un mandato para el manejo conservador universal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q3",
+        "stem": "Una mujer de 35 años presenta su primera hemorragia por una MAV parietal derecha. La MAV mide 4 cm, afecta a la corteza sensitivo-motora y tiene una vena de drenaje profunda y una cortical. ¿Cuál es el grado de Spetzler-Martin y cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Grado SM III (2+1+0 = 3); la cirugía tiene morbilidad 7–15% — decisión individualizada considerando RCE o tratamiento multimodal",
+          "B": "Grado SM IV (2+1+1 = 4); la cirugía tiene morbilidad 17–22% — RCE, embolización+RCE o tratamiento multimodal preferibles a la cirugía directa",
+          "C": "Grado SM II (1+1+0 = 2); excelente candidata quirúrgica",
+          "D": "Grado SM V (3+1+1 = 5); inoperable — solo observación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cálculo de Grado SM: Tamaño 4 cm (rango 3–6 cm) = 2 puntos; Elocuencia = corteza sensitivo-motora = 1 punto (elocuente); Drenaje venoso = CUALQUIER drenaje profundo presente = 1 punto (aunque también existe una vena de drenaje superficial). Total = 2+1+1 = 4 puntos = Grado SM IV. La morbilidad quirúrgica del Grado IV es del 17–22% — es un objetivo quirúrgico de alto riesgo. Para una MAV de Grado IV rota, las opciones incluyen: RCE (si el volumen del nido posthematoma es <10 cm³), embolización seguida de RCE para reducir el volumen del nido, u observación tras resolución del hematoma con reevaluación. La resección quirúrgica directa de una MAV de Grado IV conlleva un riesgo significativo y no es de elección.",
+          "wrong": {
+            "A": "El Grado SM III tiene 3 puntos — pero esta MAV tiene drenaje profundo presente (1 punto), tamaño mediano (2 puntos) y elocuencia (1 punto) = 4 puntos = Grado IV, no III",
+            "C": "El Grado SM II tiene 2 puntos. Esta MAV es mediana (2 puntos) + elocuente (1 punto) + drenaje profundo (1 punto) = 4 puntos = Grado IV, no II",
+            "D": "El Grado SM V requiere 5 puntos (ej., grande [3] + elocuente [1] + profundo [1] = 5). Esta MAV de 4 cm puntúa solo 4 puntos"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Grado SM IV: cirugía no recomendada por alta morbilidad (17–22%); preferible RCE o abordaje multimodal",
+          "trial": "Hamilton MG, Spetzler RF (J Neurosurg 1994): resultados quirúrgicos prospectivos por grado — Grado IV: buen resultado 73% (frente a 94% Grado I–II)",
+          "pearl": "Drenaje venoso SM: CUALQUIER drenaje profundo = 1 punto (incluso si también hay vena superficial). MAV sensitivo-motora de 4 cm con una vena profunda = 2+1+1 = Grado IV (morbilidad quirúrgica 17–22%). No confundir 'cualquier drenaje profundo' con 'drenaje exclusivamente profundo'."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q4",
+        "stem": "¿Cuál es el riesgo anual de hemorragia para una MAV cerebral PREVIAMENTE ROTA en el primer año tras el sangrado índice?",
+        "options": {
+          "A": "Igual que en no rotas: 2–4% anual",
+          "B": "Aproximadamente 6–18% en el primer año tras la rotura, retornando posteriormente a la tasa anual basal del 2–4%",
+          "C": "Aproximadamente 30–40% anual (resangrado casi universal en el primer año)",
+          "D": "Prácticamente nulo en el primer año debido a la trombosis posthemorrágica del nido"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tras la rotura de una MAV, el riesgo anual de resangrado está significativamente elevado en el primer año: 6–18% (según el estudio — Stapf 2006 comunicó 6%, Pollock 2012 comunicó tasas más altas especialmente con localización profunda y nido pequeño). Tras el primer año, el riesgo de resangrado vuelve a la tasa anual basal del 2–4%. Este 'período de alto riesgo en el primer año' es análogo al mayor riesgo de resangrado del aneurisma tras la HSA, aunque menos extremo. Este mayor riesgo en el primer año es uno de los argumentos para el tratamiento precoz de las MAV rotas.",
+          "wrong": {
+            "A": "El primer año tras la rotura conlleva un riesgo mayor que el basal del 2–4% — específicamente 6–18% en el primer año antes de volver al basal",
+            "C": "El riesgo anual de resangrado del 30–40% corresponde a las FAVd de mayor riesgo (Cognard III–IV), no a las MAV cerebrales. El riesgo de rerotura de MAV en el primer año es del 6–18%",
+            "D": "La trombosis posthemorrágica puede comprimir parcialmente el nido de forma transitoria, pero no elimina el riesgo de sangrado. El riesgo aumenta en el primer año"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Riesgo anual de hemorragia: no rotas 2–4%; previamente rotas: 6–18% en el año 1, luego basal 2–4%",
+          "trial": "Stapf C et al. (Stroke 2006): factores de riesgo de hemorragia por MAV — hemorragia previa aumenta el riesgo anual a aproximadamente el 6%; estimaciones más altas con localización profunda y drenaje venoso exclusivamente profundo",
+          "pearl": "Riesgo de rotura de MAV: no rota = 2–4%/año. Previamente rota = 6–18%/año en el año 1, luego vuelve al 2–4%. El mayor riesgo en el primer año tras la rotura apoya la evaluación y planificación terapéutica precoz."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q5",
+        "stem": "En la angiografía se detecta una fístula arteriovenosa dural (FAVd). Drena exclusivamente a venas corticales con ectasia venosa de la vena de drenaje (variz de 3 cm). ¿Cuál es la clasificación de Cognard y cuál es el riesgo anual de hemorragia?",
+        "options": {
+          "A": "Cognard Tipo I; riesgo anual de hemorragia <2%",
+          "B": "Cognard Tipo III; riesgo anual de hemorragia aproximadamente 40%",
+          "C": "Cognard Tipo IV; riesgo anual de hemorragia aproximadamente 65%",
+          "D": "Cognard Tipo IIb; riesgo anual de hemorragia aproximadamente 7–10%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El Tipo IV de Cognard se define como drenaje exclusivo a venas corticales (sin drenaje al seno dural) CON ectasia venosa de la vena cortical de drenaje — la variz representa dilatación venosa localizada bajo el flujo arterializado de alta presión. El Tipo IV de Cognard conlleva el mayor riesgo de hemorragia, de aproximadamente el 65% anual. Se trata de una urgencia neuroquirúrgica que requiere tratamiento urgente (embolización transarterial con Onyx, embolización transvenosa o desconexión quirúrgica).",
+          "wrong": {
+            "A": "El Tipo I de Cognard (drenaje al seno con flujo anterógrado normal) tiene un riesgo anual de hemorragia <2% — la forma benigna. Esta FAVd drena exclusivamente a venas corticales, no al seno, por lo que no es Tipo I",
+            "B": "El Tipo III de Cognard es drenaje a vena cortical SIN ectasia — 40% de riesgo anual de hemorragia. Esta FAVd tiene TANTO drenaje a vena cortical COMO ectasia venosa, lo que la clasifica como Tipo IV (65% de riesgo anual)",
+            "D": "El Tipo IIb de Cognard es drenaje venoso cortical retrógrado desde un seno dural — diferente del drenaje exclusivo a vena cortical. El Tipo IIb tiene un riesgo anual del 7–10%"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — FAVd Cognard Tipo III–IV requieren tratamiento urgente; drenaje venoso cortical (especialmente con ectasia) es una urgencia neuroquirúrgica",
+          "trial": "Cognard C et al. (Radiology 1995): clasificación de FAVd e historia natural — Tipo IV: 65% de tasa anual de hemorragia/déficit neurológico",
+          "pearl": "Clasificación de Cognard: Tipo I (solo seno) = benigno (<2%). Tipo IIb (reflujo cortical desde seno) = intermedio (7–10%). Tipo III (solo cortical, sin ectasia) = 40%. Tipo IV (cortical + ectasia) = 65%. Tipos III–IV = tratamiento URGENTE. Reflujo venoso cortical = ALTO RIESGO."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q6",
+        "stem": "Una mujer de 40 años tiene una MAV de 2 cm en los ganglios basales izquierdos (localización elocuente profunda) con drenaje venoso exclusivamente profundo. Se presenta con la primera hemorragia (hematoma putaminal de 5 mL, GCS 14). Tras la recuperación clínica, el equipo neurovascular debate las opciones de tratamiento. ¿Por qué se prefiere la radiocirugía estereotáctica (RCE) frente a la resección microquirúrgica para esta MAV específica?",
+        "options": {
+          "A": "La RCE proporciona obliteración inmediata de la MAV sin riesgo de hemorragia durante el período de latencia",
+          "B": "La RCE se prefiere porque la localización profunda en los ganglios basales y la elocuencia hacen que la resección quirúrgica sea de muy alto riesgo (equivalente a Grado SM IV–V), mientras que la RCE logra una obliteración del 70–80% a los 3–5 años con morbilidad del procedimiento mucho menor",
+          "C": "La RCE se prefiere porque las MAV pequeñas (<3 cm) no pueden visualizarse durante la microcirugía",
+          "D": "La RCE se prefiere porque el riesgo de hemorragia cesa inmediatamente tras el tratamiento con RCE"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una MAV de 2 cm en los ganglios basales izquierdos con drenaje venoso exclusivamente profundo: Grado SM = pequeño (<3 cm) = 1 + elocuente (ganglios basales/cápsula interna) = 1 + drenaje profundo = 1 = Grado III. Sin embargo, la localización profunda en ganglios basales conlleva un riesgo adicional más allá del grado SM — el abordaje requiere atravesar sustancia blanca elocuente, haciendo que la morbilidad quirúrgica sea sustancialmente mayor que los equivalentes de Grado III superficial. La RCE logra una obliteración del 70–80% para MAV ≤3 cm a los 3–5 años con morbilidad del procedimiento del 5–10% (edema por radiación, radionecrosis). Esto es muy inferior a la morbilidad del 30–50% de la cirugía abierta en los ganglios basales.",
+          "wrong": {
+            "A": "La RCE NO proporciona obliteración inmediata — el período de latencia de 2–4 años es su principal desventaja. El riesgo de hemorragia persiste a la tasa anual basal durante este período de latencia",
+            "C": "Las MAV pequeñas (<3 cm) son técnicamente visibles durante la microcirugía — el tamaño no es el motivo para preferir la RCE. La localización elocuente profunda es la razón",
+            "D": "La RCE NO elimina inmediatamente el riesgo de hemorragia — el riesgo persiste a tasas basales durante el período de latencia de 2–4 años. Esta es una idea errónea crítica a evitar"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — MAV profundas, elocuentes, quirúrgicamente inaccesibles ≤3 cm: RCE preferida; morbilidad de RCE sustancialmente menor que cirugía para MAV profundas",
+          "trial": "Lunsford LD et al. (NEJM 1991): RCE para MAV — 70–80% de obliteración para MAV <3 cm a los 3–5 años; Pollock BE et al. (J Neurosurg 1998): resultados a largo plazo de RCE para MAV profundas",
+          "pearl": "MAV elocuente profunda (ganglios basales, tálamo, tronco encefálico) + RCE ≤3 cm = 70–80% de obliteración a los 3–5 años con baja morbilidad. El riesgo quirúrgico para MAV elocuentes profundas es del 30–50% de morbilidad — inaceptable. La RCE NO elimina el riesgo de hemorragia durante el período de latencia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q7",
+        "stem": "Durante la resección microquirúrgica de una MAV, el cirujano divide inadvertidamente la principal vena de drenaje antes de desconectar todas las arterias nutricias. ¿Cuál es la consecuencia inmediata MÁS probable?",
+        "options": {
+          "A": "Trombosis espontánea del nido de la MAV — resultado beneficioso inadvertido",
+          "B": "Aumento dramático de la presión intranidal causando hemorragia del nido ingurgitado ('ruptura de la presión de perfusión normal')",
+          "C": "Infarto venoso cerebral inmediato en el territorio previamente drenado por la vena",
+          "D": "Sin consecuencias inmediatas significativas — las venas de drenaje pueden dividirse en cualquier momento de la cirugía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El sacrificio prematuro de la vena de drenaje es un error quirúrgico crítico. Con las arterias nutricias aún permeables, el sacrificio de la vena de drenaje crea un sistema cerrado de alta presión — toda la sangre arterializada que entra en el nido no puede escapar. La presión intranidal aumenta drásticamente, los vasos del nido de paredes finas se rompen y se produce una hemorragia catastrófica. Esto se describe a veces como 'ruptura de la presión de perfusión normal' (RPPN), aunque el mecanismo es principalmente el atrapamiento del flujo de alta presión más que la RPPN en el sentido clásico. La regla quirúrgica cardinal: identificar y desconectar PRIMERO TODAS las arterias nutricias, luego dividir la vena de drenaje EN ÚLTIMO LUGAR.",
+          "wrong": {
+            "A": "El sacrificio prematuro de la vena NO causa trombosis espontánea — causa hemorragia por aumento de presión en el nido aún arterializado",
+            "C": "El infarto venoso cerebral ocurre cuando se sacrifica una vena de drenaje normal en cerebro normal. En cirugía de MAV, la vena de drenaje ya es patológica y no drena parénquima normal — pero el nido de la MAV sangrará por el aumento de presión, no causará infarto venoso per se",
+            "D": "Esto es completamente erróneo — la secuencia de división de la vena de drenaje es uno de los principios técnicos más críticos de la cirugía de MAV"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Técnica quirúrgica: arterias nutricias antes de la vena de drenaje; el sacrificio prematuro de la vena causa hemorragia",
+          "trial": "Spetzler RF et al. (J Neurosurg 1986): escala SM y principios técnicos quirúrgicos; Spetzler RF (Neurosurgery 1988): concepto de RPPN y principios quirúrgicos en MAV",
+          "pearl": "Regla quirúrgica de MAV: NUTRICIAS PRIMERO, VENA AL FINAL. El sacrificio prematuro de la vena de drenaje = sangre arterial atrapada en el nido = hemorragia catastrófica. Este es el principio técnico más importante de la microcirugía de MAV."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q8",
+        "stem": "Un varón de 45 años presenta una malformación cavernosa cerebral (cavernoma) sintomática en el lóbulo parietal derecho, causando dos episodios hemorrágicos separados en 3 años y crisis epilépticas refractarias a fármacos. La RM muestra una lesión de 1,5 cm en 'palomita de maíz' con halo de hemosiderina. Una anomalía del desarrollo venoso (ADV) es visible adyacente al cavernoma. ¿Cuál es el abordaje quirúrgico más apropiado?",
+        "options": {
+          "A": "Resecar tanto el cavernoma como la ADV para prevenir hemorragia futura de la ADV",
+          "B": "Resecar solo el cavernoma; preservar completamente la ADV ya que representa el drenaje venoso normal",
+          "C": "Radiocirugía estereotáctica tanto para el cavernoma como para la ADV",
+          "D": "Solo observación — los cavernomas siempre se tratan de forma conservadora"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El principio es crítico: el cavernoma es la lesión patológica que causa hemorragia y crisis epilépticas — hay que resecarlo. La ADV es una vía de drenaje venoso normal del desarrollo para el cerebro normal adyacente — su preservación es obligatoria. Resecar la ADV causa infarto venoso del cerebro que drena. Este paciente tiene dos indicaciones quirúrgicas: hemorragia sintomática recurrente (2 sangrados) y crisis epilépticas refractarias por un cavernoma parietal derecho accesible — ambas apoyan la resección quirúrgica del cavernoma.",
+          "wrong": {
+            "A": "Resecar la ADV está CONTRAINDICADO — sirve de drenaje venoso para el cerebro normal adyacente. La resección de la ADV causa infarto venoso. Las ADV no sangran de forma independiente y NUNCA deben tratarse",
+            "C": "La RCE para cavernomas es controvertida con evidencia limitada. Para un cavernoma parietal accesible con hemorragia recurrente y crisis refractarias, la cirugía es el tratamiento basado en evidencia. La RCE no tiene beneficio establecido para las ADV",
+            "D": "Este paciente tiene DOS indicaciones para cirugía: hemorragia recurrente (2 sangrados de la misma lesión — indicación estándar) Y crisis epilépticas refractarias a fármacos. La observación no es apropiada"
+          },
+          "guideline": "AHA/ASA Cavernous Malformation Guidelines 2017 — Resección quirúrgica para cavernomas accesibles con ≥2 hemorragias o crisis refractarias; la ADV debe preservarse",
+          "trial": "Englot DJ et al. (J Neurosurg 2011): cirugía de cavernoma para crisis epilépticas — libre de crisis en el 75% tras resección; Kim DS et al. (Neurosurgery 2006): preservación de la ADV obligatoria para prevenir infarto venoso",
+          "pearl": "Cavernoma + ADV adyacente: SIEMPRE resecar cavernoma + SIEMPRE preservar ADV. ADV = drenaje normal = no tocar. Indicaciones quirúrgicas de cavernoma: ≥2 hemorragias sintomáticas de la misma lesión, O crisis epilépticas refractarias de cavernoma accesible."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q9",
+        "stem": "Una mujer de 52 años presenta acúfenos pulsátiles progresivos, soplo craneal y leve proptosis del ojo derecho. La RM/ARM muestra una FAVd del seno cavernoso derecho. La angiografía confirma Cognard Tipo I (drenaje al seno cavernoso derecho con flujo solo anterógrado). ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Embolización transvenosa urgente — todas las FAVd del seno cavernoso requieren tratamiento inmediato",
+          "B": "Manejo conservador con observación; maniobras de compresión carotídea (autocompresión); la mayoría de las FAVd del seno cavernoso de bajo flujo (Cognard Tipo I) se resuelven espontáneamente o con medidas conservadoras",
+          "C": "Desconexión quirúrgica urgente del seno cavernoso de las arterias nutricias durales",
+          "D": "Radiocirugía estereotáctica — tratamiento de primera línea para todas las FAVd del seno cavernoso"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La FAVd del seno cavernoso Cognard Tipo I (tipo benigno — drenaje al seno venoso dural con flujo anterógrado normal, sin reflujo venoso cortical) tiene un riesgo de hemorragia muy bajo (<2% anual) y una alta tasa de resolución espontánea (25–50%) con tratamiento conservador. La compresión carotídeo-cavernosa (compresión digital de la carótida ipsilateral durante 30 segundos, 10 veces al día) es una técnica conservadora reconocida que aumenta la posibilidad de trombosis espontánea. El tratamiento se reserva para: fracaso del tratamiento conservador tras 3–6 meses, proptosis progresiva con riesgo visual, acúfenos intolerables o desarrollo de reflujo venoso cortical (que clasificaría como Cognard Tipo IIb o superior).",
+          "wrong": {
+            "A": "El tratamiento urgente NO está indicado para el Cognard Tipo I — esta FAVd es de bajo riesgo y benigna. El tratamiento urgente se reserva para los Tipos III–IV de Cognard con drenaje venoso cortical y alto riesgo de hemorragia",
+            "C": "La desconexión quirúrgica es un abordaje de alto riesgo para las FAVd del seno cavernoso dada la proximidad a los pares craneales III, IV, V, VI. La embolización transvenosa endovascular se prefiere si se necesita tratamiento — la cirugía es el último recurso",
+            "D": "La RCE tiene una latencia de 2–4 años y no es de primera línea para ningún tipo de FAVd. La embolización transvenosa logra tasas de curación ≥90% para las FAVd del seno cavernoso y es el abordaje intervencionista preferido si el tratamiento conservador fracasa"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — FAVd del seno cavernoso Cognard Tipo I: tratamiento conservador primero; resolución espontánea en 25–50%; tratar por riesgo visual, acúfenos intratables o reflujo venoso cortical",
+          "trial": "Halbach VV et al. (AJNR 1987): historia natural de FAVd del seno cavernoso — resolución espontánea 25–50%; Cognard C (Radiology 1995): Tipo I riesgo anual de hemorragia <2%",
+          "pearl": "FAVd Cognard Tipo I (seno cavernoso, flujo anterógrado) = benigno = tratamiento conservador. Maniobras de autocompresión + observación. Intervenir solo por riesgo visual o fracaso del tratamiento conservador. Tipos III–IV (vena cortical) = tratamiento urgente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q10",
+        "stem": "Un varón de 30 años tiene una MAV grande de Grado SM V (grande, elocuente, drenaje profundo) de 7 cm en la región temporal-parietal derecha. Está neurológicamente intacto salvo leve dificultad para encontrar palabras. El ensayo ARUBA incluyó pacientes como él. ¿Cuál es el manejo más basado en la evidencia?",
+        "options": {
+          "A": "Resección quirúrgica inmediata — las MAV de Grado V deben tratarse urgentemente",
+          "B": "Tratamiento médico (observación, control de epilepsia si es necesario, manejo de la tensión arterial), dados los datos de ARUBA y la muy alta morbilidad quirúrgica de las MAV de Grado V (>22%)",
+          "C": "Radiocirugía estereotáctica abarcando el nido completo de 7 cm en una sola sesión",
+          "D": "Embolización para reducir el nido un 50% seguida de resección quirúrgica inmediata"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MAV no rota de Grado SM V: morbilidad quirúrgica >22% en la resección intentada (validación prospectiva de Spetzler-Martin). La RCE para un nido de 7 cm no es factible en una sola sesión (volumen óptimo de RCE <10 cm³ para una administración de dosis adecuada; 7 cm de diámetro representan un volumen de ~180 cm³). ARUBA demostró que el tratamiento médico fue superior a la intervención a los 33 meses para MAV no rotas en general. Para una MAV no rota de Grado V, el tratamiento médico es el abordaje más apropiado de primera línea. La RCE en estadios por volumen podría teóricamente considerarse en múltiples sesiones, pero con tasas de obliteración muy bajas para este tamaño. Si el paciente sangra, se requiere una reevaluación.",
+          "wrong": {
+            "A": "La morbilidad quirúrgica del Grado SM V es >22% — la resección quirúrgica no es apropiada para una MAV no rota de Grado V en un paciente neurológicamente intacto. Esto causaría daño iatrogénico muy superior al riesgo de historia natural a corto plazo",
+            "C": "Una MAV de 7 cm (volumen aproximado de 180 cm³) no puede tratarse con RCE en una sola sesión. La RCE es factible para MAV ≤3 cm y es más efectiva para volúmenes ≤10 cm³. Tratar esta MAV con RCE estándar causaría toxicidad por radiación grave",
+            "D": "La embolización preoperatoria seguida de cirugía para una MAV de Grado V sigue conllevando la morbilidad quirúrgica basal para una lesión de Grado V — la embolización puede reducir la pérdida sanguínea pero no reduce los riesgos fundamentales de elocuencia y tamaño"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — MAV SM Grado V: intervención generalmente no recomendada para MAV no rotas; tratamiento médico con observación estrecha",
+          "trial": "ARUBA (Mohr Lancet 2014): MAV no rota — tratamiento médico superior a la intervención a los 33 meses. Hamilton MG, Spetzler RF (1994): morbilidad quirúrgica Grado V >22%",
+          "pearl": "MAV SM Grado V: morbilidad quirúrgica >22%, RCE impracticable para 7 cm, embolización raramente curativa. Datos ARUBA + morbilidad quirúrgica Grado V = tratamiento médico es el abordaje basado en evidencia para MAV no rotas de Grado V."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q11",
+        "stem": "¿Cuál es la función y la relevancia clínica de un aneurisma intranidal (aneurisma relacionado con el flujo) dentro de una MAV?",
+        "options": {
+          "A": "Los aneurismas intranidales son variaciones estructurales normales y no conllevan riesgo adicional de hemorragia",
+          "B": "Los aneurismas intranidales son dilataciones saculares dentro del nido de la MAV que predicen de forma independiente un mayor riesgo de hemorragia y pueden embolizarse antes del tratamiento definitivo de la MAV para reducir el riesgo durante cualquier período de latencia",
+          "C": "Los aneurismas intranidales indican que la MAV está en proceso de trombosis espontánea y no requieren tratamiento",
+          "D": "Los aneurismas intranidales solo son significativos si miden >10 mm de diámetro"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los aneurismas intranidales (aneurismas relacionados con el flujo) son dilataciones saculares dentro del nido o en las arterias nutricias de una MAV, que se desarrollan por el estrés hemodinámico anómalo del shunt arteriovenoso de alto flujo. Se detectan en la ASD en el 10–20% de las MAV. Múltiples estudios (Redekop 1998, Thompson 1998) demuestran que los aneurismas intranidales son predictores independientes de hemorragia por MAV — el riesgo anual de hemorragia se duplica aproximadamente con la presencia de aneurisma intranidal. En pacientes con MAV no rotas sometidos a RCE (latencia de 2–4 años), la embolización dirigida preRCE del aneurisma intranidal reduce el riesgo de hemorragia durante el período de latencia.",
+          "wrong": {
+            "A": "Los aneurismas intranidales NO son variantes normales — son patológicos y aumentan de forma independiente el riesgo de hemorragia. Este es un hallazgo clínico crítico en la angiografía de MAV",
+            "C": "Los aneurismas intranidales no indican trombosis espontánea — indican estrés hemodinámico de alto flujo y son un factor de riesgo de hemorragia",
+            "D": "Los aneurismas intranidales son significativos independientemente del tamaño — incluso los aneurismas intranidales pequeños <5 mm conllevan mayor riesgo de rotura en el contexto del alto flujo de la MAV"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Aneurismas intranidales: factor de riesgo independiente de hemorragia; embolización dirigida antes del tratamiento definitivo o durante el período de latencia",
+          "trial": "Redekop G et al. (J Neurosurg 1998): la presencia de aneurisma intranidal se asocia a un riesgo de hemorragia doblado en pacientes con MAV",
+          "pearl": "Aneurisma intranidal = predictor independiente de hemorragia por MAV (duplica el riesgo). Objetivo de embolización antes de RCE para reducir el riesgo de hemorragia durante la latencia. Detectado en ASD en el 10–20% de las MAV. Buscar siempre aneurismas intranidales en la angiografía de MAV."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q12",
+        "stem": "Un varón de 25 años es evaluado por una MAV no rota de 3,5 cm en el lóbulo temporal izquierdo con drenaje venoso superficial y sin afectación de corteza elocuente (Grado SM II: tamaño mediano 2 + no elocuente 0 + superficial 0 = 2). No tuvo hemorragia. ¿Cuál es el debate terapéutico más apropiado basado en la evidencia actual?",
+        "options": {
+          "A": "ARUBA establece la observación exclusiva — ninguna intervención para ninguna MAV no rota",
+          "B": "Para MAV no rotas de Grado SM I–II, los centros con experiencia pueden todavía ofrecer resección microquirúrgica con morbilidad esperada <5%, ya que el riesgo de hemorragia acumulado vital durante más de 70 años supera con creces los datos a corto plazo de ARUBA; se recomienda una discusión individualizada",
+          "C": "La embolización endovascular exclusiva es curativa y debe realizarse urgentemente",
+          "D": "La radiocirugía estereotáctica es la única opción de tratamiento recomendada para todas las MAV no rotas tras ARUBA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El manejo en la era post-ARUBA de las MAV no rotas no es 'observar todas' — es 'individualizar según el grado, la edad del paciente y la experiencia del centro'. Para un paciente de 25 años con una MAV SM Grado II y morbilidad quirúrgica esperada <5% en un centro con experiencia, el riesgo vital de hemorragia (anual 2–4% × más de 60 años = riesgo acumulado extremadamente alto) favorece claramente el tratamiento frente a la observación. El seguimiento de 33 meses de ARUBA es insuficiente para representar el riesgo vital en un paciente joven. Las guías AHA/ASA 2017 reconocen que las MAV de Grado I–II en pacientes jóvenes pueden seguir sometiéndose apropiadamente a tratamiento tras una cuidadosa discusión individual del riesgo-beneficio.",
+          "wrong": {
+            "A": "ARUBA NO establece la observación para todas las MAV no rotas — sus limitaciones (seguimiento breve, latencia de RCE, sesgo de selección) implican que no puede extrapolarse como mandato de observación universal para MAV de bajo grado en pacientes jóvenes",
+            "C": "La embolización exclusiva logra curación completa solo en el 5–15% de las MAV. No es monoterapia curativa para la mayoría de MAV y no está urgentemente indicada aquí",
+            "D": "La RCE es una opción para las MAV no rotas pero no es la 'única opción de tratamiento recomendada tras ARUBA'. Las MAV de Grado I–II accesibles a cirugía pueden seguir tratándose quirúrgicamente en centros con experiencia"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Perspectiva post-ARUBA: MAV de Grado I–II en pacientes jóvenes pueden ser candidatos apropiados para tratamiento en centros con experiencia; decisión individualizada",
+          "trial": "ARUBA (Mohr Lancet 2014); seguimiento a largo plazo (Al-Shahi Salman LN 2020): 44% de hemorragia acumulada en brazo médico a 12 años apoya el tratamiento en pacientes jóvenes",
+          "pearl": "Post-ARUBA: Grado SM I–II, paciente joven, centro con experiencia = cirugía todavía apropiada con morbilidad <5% y riesgo de hemorragia acumulado vital muy superior. ARUBA es una advertencia contra el tratamiento indiscriminado de MAV DE ALTO GRADO, no un mandato para el manejo conservador universal de MAV de bajo grado."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q13",
+        "stem": "¿Cuál es la descripción MÁS precisa del período de latencia tras la radiocirugía estereotáctica (RCE) para MAV, y por qué es clínicamente importante?",
+        "options": {
+          "A": "La RCE oblitera la MAV de forma inmediata en 24 horas mediante lesión térmica aguda",
+          "B": "La RCE tiene un período de latencia de 2–4 años antes de la obliteración de la MAV; el riesgo de hemorragia persiste a la tasa anual basal durante este período — consideración importante para el consejo al paciente y puede favorecer la cirugía sobre la RCE en pacientes jóvenes que toleran la cirugía",
+          "C": "La RCE reduce el riesgo de hemorragia a casi cero en 6 meses mediante trombosis vascular progresiva",
+          "D": "La RCE no tiene latencia — la obliteración ocurre cuando la dosis total de radiación se completa (dentro de la sesión de tratamiento)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La RCE induce proliferación endotelial progresiva y esclerosis vascular a lo largo de meses a años — la obliteración completa ocurre típicamente a los 2–4 años. Durante este período de latencia, la MAV continúa conllevando el riesgo anual de hemorragia previo al tratamiento (2–4% para no rotas, mayor para previamente rotas). Esto significa que un paciente joven tratado con RCE permanece con riesgo de hemorragia durante 2–4 años. Para un paciente de 20 años con una MAV de Grado I accesible, el riesgo total de hemorragia durante la latencia de RCE (2–4 años × 3% = 6–12% de riesgo acumulado de hemorragia) debe sopesarse frente a la morbilidad quirúrgica <5% de la resección definitiva inmediata.",
+          "wrong": {
+            "A": "La RCE no causa lesión térmica aguda — induce daño por radiación progresivo en el ADN endotelial causando esclerosis vascular diferida. No hay obliteración inmediata",
+            "C": "La RCE no reduce el riesgo de hemorragia en 6 meses — la latencia de 2–4 años está bien establecida. Durante este período la MAV permanece permeable y con pleno riesgo de hemorragia",
+            "D": "La obliteración de la RCE ocurre a lo largo de AÑOS, no durante la sesión de tratamiento. La sesión administra la dosis prescrita, pero el efecto biológico (esclerosis vascular y trombosis) se desarrolla progresivamente a lo largo de años"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Período de latencia de RCE: 2–4 años; riesgo de hemorragia persiste a nivel basal durante la latencia; importante para el consejo y la selección del tratamiento",
+          "trial": "Lunsford LD et al. (NEJM 1991): RCE para MAV — 70–80% de obliteración a los 3–5 años; Pollock BE (J Neurosurg 1998): riesgo de hemorragia durante el período de latencia documentado",
+          "pearl": "Latencia de RCE: 2–4 años antes de la obliteración. El riesgo de hemorragia persiste a nivel BASAL durante la latencia — no se reduce. Pacientes jóvenes con MAV accesibles de bajo grado: comparar morbilidad quirúrgica (<5% Grado I–II) frente a riesgo acumulado de latencia de RCE (2–4 años × riesgo anual)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q14",
+        "stem": "Una mujer de 38 años tiene una malformación cavernosa cerebral (MCC) en la protuberancia que ha sangrado dos veces en 2 años, causando disfagia episódica y debilidad facial izquierda. Su RM muestra una lesión protuberancial de 1,5 cm con halo de hemosiderina. ¿Cuál es el riesgo anual de hemorragia para las MCC del tronco encefálico tras un sangrado previo, y cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Riesgo anual 0,2–0,3% (igual que supratentorial); solo observación",
+          "B": "Riesgo anual 5–20% tras sangrado previo; debe discutirse la resección quirúrgica si la lesión alcanza la superficie pial o ependimaria",
+          "C": "Riesgo anual 30–40%; RCE inmediata mandatoria",
+          "D": "Riesgo anual 2–4% (igual que MAV); RCE preferida sobre cirugía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El riesgo anual de hemorragia de las MCC del tronco encefálico es sustancialmente mayor que el de las MCC supratentoriales: aproximadamente 2–3% inicial, aumentando al 5–20% anual tras un sangrado previo (frente al 0,2–0,3% de las MCC supratentoriales). Este mayor riesgo justifica la consideración quirúrgica. Indicaciones quirúrgicas para MCC del tronco encefálico: lesión que ha sangrado ≥2 veces Y alcanza la superficie pial o ependimaria (permitiendo un corredor quirúrgico seguro sin atravesar tejido normal del tronco encefálico). Las lesiones profundas dentro del tronco encefálico que no alcanzan la superficie no son resecables con seguridad. La RCE para MCC del tronco encefálico es controvertida — los datos retrospectivos muestran posible beneficio tras 2–3 años pero sin evidencia de ensayos aleatorizados.",
+          "wrong": {
+            "A": "El riesgo anual del 0,2–0,3% corresponde a las MCC supratentoriales — las MCC del tronco encefálico tienen un riesgo drásticamente mayor (5–20% tras sangrado previo). Solo la observación para una MCC del tronco encefálico que ha sangrado dos veces sería inapropiado",
+            "C": "El riesgo anual del 30–40% corresponde a las FAVd Cognard Tipo IV, no a las MCC del tronco encefálico tras sangrado previo. El riesgo de MCC del tronco encefálico post-sangrado es del 5–20%. La RCE es una opción pero es controvertida y no está mandatada",
+            "D": "El riesgo anual del 2–4% corresponde a las MAV cerebrales, no a las MCC del tronco encefálico tras sangrado previo. Los mecanismos y perfiles de riesgo son completamente diferentes"
+          },
+          "guideline": "AHA/ASA Cavernous Malformation Guidelines 2017 — MCC del tronco encefálico tras ≥2 sangrados con acceso a superficie pial: resección quirúrgica puede ser apropiada; riesgo 5–20%/año tras sangrado previo",
+          "trial": "Kim DH et al. (J Neurosurg 1997): riesgo de sangrado de MCC del tronco encefálico — 5–20% tras sangrado previo frente al 0,2–0,3% supratentorial; Porter RW et al. (J Neurosurg 1999): resultados quirúrgicos de MCC del tronco encefálico",
+          "pearl": "Riesgo de sangrado de MCC del tronco encefálico: 2–3%/año inicial, 5–20%/año tras sangrado previo (frente al 0,2–0,3% supratentorial). Indicación quirúrgica: ≥2 sangrados + lesión alcanza superficie pial/ependimaria (corredor seguro). MCC del tronco encefálico profunda sin alcanzar superficie: RCE u observación."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q15",
+        "stem": "¿Cuál de los siguientes factores de riesgo ha sido identificado de forma MÁS consistente como predictor independiente de hemorragia por MAV en el momento de la presentación?",
+        "options": {
+          "A": "Tamaño grande de la MAV (>6 cm) — las MAV grandes se rompen con mayor frecuencia",
+          "B": "Localización profunda y drenaje venoso exclusivamente profundo — asociados de forma independiente a mayor riesgo de hemorragia que las MAV superficiales con drenaje cortical",
+          "C": "Sexo masculino — los hombres tienen 2 veces más riesgo de hemorragia por MAV",
+          "D": "Presentación con crisis epilépticas — las MAV que debutan con crisis tienen el mayor riesgo de hemorragia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Múltiples estudios poblacionales y prospectivos (Stapf 2006, Mast 1997, Pollock 2012) identifican de forma consistente la localización profunda de la MAV (ganglios basales, tálamo, tronco encefálico, sustancia blanca profunda) y el drenaje venoso exclusivamente profundo como los predictores independientes más potentes de hemorragia por MAV. El mecanismo propuesto es una mayor presión intranidal por las venas de drenaje profundas con menos vías de salida alternativas y mayor resistencia al flujo de salida venoso. Paradójicamente, las MAV PEQUEÑAS se asocian a mayor riesgo de hemorragia por unidad de tejido de MAV que las MAV grandes — las MAV grandes tienden a presentarse con crisis epilépticas por irritación cortical mientras que las pequeñas tienen mayor propensión hemorrágica.",
+          "wrong": {
+            "A": "Las MAV grandes (>6 cm) en realidad tienen MENORES tasas de hemorragia relativas que las MAV pequeñas — se presentan más frecuentemente con crisis epilépticas y síntomas corticales. El riesgo de hemorragia no es proporcional al tamaño de la MAV de forma lineal",
+            "C": "El sexo masculino no es un predictor independiente identificado de forma consistente de hemorragia por MAV. Algunos estudios no muestran diferencias por sexo; otros muestran tasas ligeramente mayores en mujeres. No es un predictor sólido validado",
+            "D": "La presentación con crisis epilépticas es un signo pronóstico FAVORABLE — sugiere una MAV cortical superficial con menor riesgo de hemorragia. La presentación hemorrágica es el factor de riesgo, no la presentación con crisis"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Predictores independientes de hemorragia por MAV: localización profunda, drenaje venoso exclusivamente profundo, hemorragia previa, aneurisma intranidal",
+          "trial": "Stapf C et al. (Stroke 2006): localización profunda HR 1,9 y drenaje venoso profundo HR 2,4 para hemorragia por MAV en una cohorte prospectiva poblacional",
+          "pearl": "Factores de riesgo de hemorragia por MAV: (1) localización profunda (ganglios basales/tálamo/tronco encefálico), (2) drenaje venoso exclusivamente profundo, (3) hemorragia previa, (4) aneurisma intranidal. El tamaño pequeño de la MAV está paradójicamente asociado a MAYOR riesgo de hemorragia que las MAV grandes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q16",
+        "stem": "Una mujer de 55 años presenta mielopatía progresiva — debilidad en miembros inferiores, nivel sensitivo en T6 y disfunción vesical — durante 8 meses. La RM muestra una vena perimedular tortuosa y dilatada con edema medular. La angiografía espinal revela una FAVd espinal a nivel T6. ¿Cuál es la clasificación equivalente de Cognard y cómo debe tratarse?",
+        "options": {
+          "A": "Equivalente Cognard Tipo I — solo observación",
+          "B": "Equivalente Cognard Tipo V (drenaje perimedular espinal) — desconexión quirúrgica del punto fistuloso o tratamiento endovascular para prevenir una mielopatía progresiva y potencialmente irreversible",
+          "C": "Equivalente Cognard Tipo III — RCE en el punto fistuloso a T6",
+          "D": "Esto no está clasificado por Cognard — las FAVf espinales se manejan de forma conservadora"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La FAVd espinal con drenaje venoso perimedular corresponde al Tipo V de Cognard en la clasificación intracraneal — drenaje venoso perimedular espinal. Estas lesiones son la malformación vascular espinal más frecuente en adultos (>50% de las lesiones vasculares espinales) y causan mielopatía progresiva por isquemia medular inducida por hipertensión venosa (síndrome de Foix-Alajouanine). La mielopatía suele ser progresiva e irreversible si no se trata. Tratamiento: desconexión quirúrgica (laminectomía, coagulación/sección de la vena de drenaje en el punto fistuloso — inmediata y duradera) o embolización endovascular con Onyx/NBCA (curación a largo plazo del 65–80%; mayor tasa de recurrencia que la cirugía). El tratamiento precoz es esencial — la recuperación neurológica se correlaciona inversamente con la duración y gravedad del déficit previo al tratamiento.",
+          "wrong": {
+            "A": "La FAVd espinal con mielopatía progresiva NO es una lesión benigna de observación — la isquemia medular progresiva lleva a paraplejia irreversible. Se requiere tratamiento urgente",
+            "C": "La RCE no es apropiada para la FAVd espinal — la fístula puede ser directamente accedida y desconectada quirúrgicamente o por vía endovascular con efecto inmediato y altas tasas de curación",
+            "D": "Las FAVd espinales están clasificadas dentro del sistema de Cognard como Tipo V (drenaje perimedular). NO se manejan de forma conservadora — requieren tratamiento para prevenir paraplejia irreversible"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — FAVd espinal: tratamiento urgente (cirugía o embolización) para prevenir mielopatía irreversible; clasificación Cognard Tipo V",
+          "trial": "Cognard C (Radiology 1995): clasificación Tipo V; Van Dijk JMC (J Neurosurg 2002): desconexión quirúrgica frente a embolización para FAVd espinal — la cirugía logra curación duradera en el 98% frente al 65–70% de la embolización",
+          "pearl": "FAVd espinal = Cognard Tipo V. Causa mielopatía progresiva (síndrome de Foix-Alajouanine) por hipertensión venosa. Requiere tratamiento urgente: desconexión quirúrgica (curación duradera 98%) o embolización (curación 65–70%). La recuperación neurológica se correlaciona con el tratamiento precoz."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q17",
+        "stem": "Para la radiocirugía de MAV, ¿cuál es la dosis de prescripción marginal óptima que equilibra la eficacia de obliteración con una toxicidad por radiación aceptable?",
+        "options": {
+          "A": "5–10 Gy — dosis baja para minimizar la toxicidad por radiación",
+          "B": "20–25 Gy — mayores tasas de obliteración con perfil de toxicidad aceptable",
+          "C": "35–40 Gy — dosis máxima para obliteración garantizada",
+          "D": "15 Gy — dosis estándar para todas las MAV independientemente del tamaño"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La dosis de prescripción marginal óptima para la radiocirugía de MAV es de 20–25 Gy. En este rango de dosis, las tasas de obliteración son del 70–80% para MAV ≤3 cm a los 3–5 años. Por debajo de 18 Gy, las tasas de obliteración disminuyen sustancialmente. Por encima de 25 Gy, las tasas de obliteración no aumentan significativamente pero la toxicidad por radiación (radionecrosis, edema, déficits neurológicos) aumenta sustancialmente. El histograma dosis-volumen debe planificarse cuidadosamente para lograr 20–25 Gy en el margen del nido minimizando la dosis al cerebro normal adyacente. Para MAV de gran volumen donde 20–25 Gy a todo el nido excedería la tolerancia, se utiliza la RCE en estadios por volumen (tratando volúmenes parciales en múltiples sesiones).",
+          "wrong": {
+            "A": "5–10 Gy está sustancialmente por debajo del umbral terapéutico — las tasas de obliteración a esta dosis son <20%. Este rango de dosis se usa para la paliación de metástasis cerebrales (RT cerebral total), no para la obliteración de MAV",
+            "C": "35–40 Gy causaría radionecrosis grave y toxicidad neurológica. Las dosis máximas seguras para RCE de MAV (margen del nido) son 25 Gy; los centros raramente superan este umbral",
+            "D": "15 Gy está por debajo del rango óptimo (20–25 Gy) y daría tasas de obliteración más bajas (~50%) frente al 70–80% logrado con 20–25 Gy"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Dosis marginal óptima de RCE: 20–25 Gy para MAV ≤3 cm; la relación dosis-volumen determina la planificación del tratamiento",
+          "trial": "Lunsford LD (NEJM 1991): RCE con Gamma Knife — dosis marginal de 20–25 Gy logra 70–80% de obliteración a los 3–5 años; Flickinger JC (IJROBP 1996): curva dosis-respuesta para obliteración de MAV",
+          "pearl": "Dosis óptima de RCE para MAV: 20–25 Gy marginal. Por debajo de 18 Gy = obliteración insuficiente. Por encima de 25 Gy = más toxicidad, no más obliteración. Aplicable a MAV ≤3 cm (<10 cm³). MAV más grandes: RCE en estadios por volumen (múltiples sesiones a volúmenes parciales)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q18",
+        "stem": "¿Qué distingue una MAV cerebral de una malformación cavernosa cerebral (MCC) en RM y ASD?",
+        "options": {
+          "A": "Las MAV muestran vacíos de flujo en RM y son visibles en ASD; las MCC muestran aspecto de 'palomita de maíz' en T2/GRE/SWI con halo de hemosiderina y son ANGIOGRÁFICAMENTE OCULTAS",
+          "B": "Las MAV y las MCC tienen imágenes de RM idénticas; solo la biopsia las distingue",
+          "C": "Las MCC muestran vacíos de flujo en RM y son visibles en ASD; las MAV muestran aspecto de 'palomita de maíz'",
+          "D": "Ambas lesiones son idénticas en TC; la RM es necesaria para distinguirlas"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La distinción entre MAV y MCC es fundamental: las MAV tienen vasos permeables de alto flujo visibles como vacíos de flujo en T2/gradiente eco en RM Y se demuestran en ASD como ovillos de vasos con shunt arteriovenoso. Las MCC son lesiones de bajo flujo con depósitos de hemosiderina por microhemorragias repetidas — su aspecto en RM es el característico de 'palomita de maíz' con señal T2 heterogénea mezclada con un halo oscuro completo de hemosiderina en GRE/SWI (imagen ponderada en susceptibilidad). Las MCC son 'angiográficamente ocultas' — no tienen shunt arteriovenoso y NO son visibles en ASD. Por eso la ASD es negativa en pacientes con MCC y no está rutinariamente indicada.",
+          "wrong": {
+            "B": "Las MAV y las MCC tienen aspectos de RM completamente diferentes — la biopsia NO es necesaria para el diagnóstico. Las características de RM son patognomónicas de cada una",
+            "C": "Esta inversión es incorrecta. Vacíos de flujo = MAV (alto flujo). Palomita de maíz + hemosiderina = MCC (angiográficamente oculta). Nunca confundirlas",
+            "D": "El TC puede mostrar ambos tipos de lesiones pero con menos especificidad. La RM es el estándar diagnóstico para MCC (SWI/GRE para hemosiderina). La ASD distingue MAV (positiva) de MCC (negativa/oculta)"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 y Cavernous Malformation Guidelines 2017 — Características de RM y hallazgos angiográficos distinguen MAV de MCC",
+          "trial": "Oclusión angiográfica de MCC confirmada en múltiples series; coexistencia de ADV con MCC descrita (Kim 1997); caracterización del vacío de flujo de MAV en RM (Wilms 1990)",
+          "pearl": "MAV = vacíos de flujo en RM + VISIBLE en ASD (shunt arteriovenoso). MCC = aspecto en 'palomita de maíz' en T2 + halo de hemosiderina en SWI/GRE + ANGIOGRÁFICAMENTE OCULTA (ASD normal). Nunca solicitar ASD para el diagnóstico de MCC — será normal."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q19",
+        "stem": "Una mujer de 32 años presenta su primera crisis epiléptica. La RM muestra una MAV temporal derecha de 4 cm con dos venas de drenaje: una cortical y una profunda (hacia la vena cerebral interna). El nido afecta al giro temporal superior (área de Wernicke). ¿Cuál es el Grado SM y cuál es la Clase de Spetzler-Ponce?",
+        "options": {
+          "A": "Grado SM III (2+1+0=3); Clase A de Spetzler-Ponce",
+          "B": "Grado SM IV (2+1+1=4); Clase C de Spetzler-Ponce",
+          "C": "Grado SM III (2+1+0=3); Clase B de Spetzler-Ponce",
+          "D": "Grado SM V (3+1+1=5); Clase C de Spetzler-Ponce"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cálculo de Grado SM: Tamaño 4 cm (rango 3–6 cm) = 2 puntos; Elocuencia = giro temporal superior (área de Wernicke, área del lenguaje) = 1 punto; Drenaje venoso = CUALQUIER drenaje profundo presente (vena profunda hacia la vena cerebral interna) = 1 punto. Total = 2+1+1 = 4 puntos = Grado SM IV = Clase C de Spetzler-Ponce. La regla es que CUALQUIER drenaje profundo presente puntúa 1 punto, incluso si también existe una vena de drenaje superficial.",
+          "wrong": {
+            "A": "El Grado SM III requeriría sin drenaje venoso profundo (2+1+0=3). Pero esta MAV tiene una vena de drenaje profunda hacia la vena cerebral interna — que puntúa 1 punto",
+            "C": "El cálculo 2+1+0=3 (Grado III, Clase B) ignora la vena de drenaje profunda. CUALQUIER drenaje profundo = 1 punto, haciendo la puntuación 4 (Grado IV)",
+            "D": "El Grado SM V requiere 5 puntos. Esta MAV mide 4 cm (puntuando 2 por tamaño), no >6 cm (que puntuaría 3 por tamaño)"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Graduación de Spetzler-Martin: drenaje profundo CUALQUIER vena profunda = 1 punto independientemente de que también exista vena superficial",
+          "trial": "Spetzler RF, Martin NA (J Neurosurg 1986): escala SM — drenaje venoso: superficial=0, CUALQUIER profundo=1",
+          "pearl": "Regla crítica del drenaje venoso SM: CUALQUIER drenaje profundo = 1 punto, incluso si también está presente vena superficial. MAV de 4 cm en área de Wernicke con una vena profunda = 2+1+1 = Grado IV (Clase C). No Grado III."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q20",
+        "stem": "Un varón de 20 años tiene una MAV de Grado SM I de 2 cm descubierta incidentalmente y no rota en el lóbulo temporal anterior derecho (no elocuente, drenaje superficial). Por lo demás está sano y practica deporte de competición. El neurocirujano vascular de un centro de alto volumen estima una morbilidad quirúrgica del 2%. ¿Cómo debe estimarse su riesgo vital de hemorragia utilizando la fórmula estándar?",
+        "options": {
+          "A": "Riesgo vital = 2% × (105 − 20) = 170% — significa que es casi seguro que sangre",
+          "B": "Riesgo vital = 1 − (1 − 0,03)^(105 − 20) = 1 − (0,97)^85 = aproximadamente 93% de riesgo acumulado vital de hemorragia",
+          "C": "El riesgo vital no puede calcularse para MAV — las tasas anuales son demasiado variables",
+          "D": "Riesgo vital = 85 años × 0,03 = 2,55 — significa que se esperan 2,55 episodios hemorrágicos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La fórmula estándar para el riesgo acumulado vital de hemorragia por MAV es: 1 − (1 − riesgo anual)^(años de exposición). Para un paciente de 20 años con riesgo anual del 3% y 85 años restantes (105 − 20): 1 − (0,97)^85 = 1 − 0,072 = 0,928 ≈ 93% de riesgo acumulado vital. Este 93% de riesgo frente a un evento quirúrgico único del 2% favorece claramente el tratamiento en un paciente joven y sano con una MAV de Grado I accesible. Este cálculo es central en el argumento de que la perspectiva a corto plazo de ARUBA no captura la carga vital de la MAV.",
+          "wrong": {
+            "A": "El riesgo anual × años es matemáticamente incorrecto para la probabilidad compuesta — sobrecontabiliza y da valores >100% que son físicamente imposibles. La fórmula correcta usa probabilidad compuesta: 1 − (1 − riesgo anual)^años",
+            "C": "La fórmula 1 − (1 − riesgo anual)^años está específicamente validada y es de uso generalizado para el consejo en MAV. La variabilidad del riesgo anual puede abordarse usando el rango del 2–4%",
+            "D": "Calcular el número esperado de episodios (85 × 0,03 = 2,55) da el número esperado de sangrados a lo largo de la vida, que es una métrica diferente a la probabilidad acumulada. La probabilidad de experimentar al menos un sangrado es la métrica clínica más útil"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Fórmula de riesgo vital de hemorragia: 1 − (1 − riesgo anual)^años de exposición; utilizada para el consejo al paciente",
+          "trial": "Brown RD et al. (Stroke 1996): historia natural de MAV; validación de la fórmula de riesgo vital; Ondra SL (J Neurosurg 1990): estudio prospectivo de MAV a 24 años que confirma una tasa de sangrado anual del 4%",
+          "pearl": "Riesgo vital de MAV = 1 − (1 − 0,03)^(105 − edad). Edad 20: 1 − (0,97)^85 ≈ 93%. Esto justifica el tratamiento de MAV accesibles de bajo grado en pacientes jóvenes a pesar de los datos de ARUBA — el 93% de riesgo vital frente al 2% de morbilidad quirúrgica es un argumento convincente para la cirugía."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

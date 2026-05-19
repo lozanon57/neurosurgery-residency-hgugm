@@ -1,0 +1,627 @@
+{
+  "id": "C1",
+  "title": "Patología de la Columna Cervical",
+  "subtitle": "Bloque C — Mielopatía Cervical, Radiculopatía y Abordajes Quirúrgicos",
+  "block": "C",
+  "block_name": "Neurocirugía Espinal",
+  "level": "R2-3",
+  "reading_time_min": 42,
+  "guidelines_version": "AOSpine Clinical Practice Guidelines 2017 · CNS/AANS Cervical Spondylotic Myelopathy Guidelines 2017 · EANS Spine Guidelines 2022",
+  "textbook_refs": [
+    "Riew KD et al. AOSpine Clinical Practice Guidelines for Cervical Spondylotic Myelopathy. Global Spine J 2017",
+    "Fehlings MG et al. Efficacy and Safety of Surgical Decompression in Patients with Cervical Spondylotic Myelopathy (AOSpine North America). J Bone Joint Surg 2013",
+    "Yoshimatsu H et al. Conservative Treatment of Cervical Spondylotic Myelopathy. Spine 2001",
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)"
+  ],
+  "learning_objectives": [
+    "Clasificar la gravedad de la mielopatía cervical mediante la escala modificada de la Japanese Orthopaedic Association (mJOA) e identificar candidatos quirúrgicos",
+    "Diferenciar entre abordajes quirúrgicos anteriores (ACDF, ACCF) y posteriores (laminectomía, laminoplastia, laminectomía + artrodesis) según la patología, la alineación y el número de niveles",
+    "Aplicar las guías de práctica clínica de la AOSpine Myelopathy Research Network para la toma de decisiones sobre el momento y la indicación quirúrgica en la mielopatía cervical espondilótica (MCE)",
+    "Reconocer la presentación clínica y los hallazgos de imagen del síndrome de cordón central cervical y manejarlo adecuadamente",
+    "Identificar la anatomía relevante para la parálisis de C5, la enfermedad del segmento adyacente y la cifosis poslaminectomía como complicaciones de la cirugía de la columna cervical",
+    "Manejar las fracturas cervicales traumáticas agudas mediante el Sistema de Clasificación Subaxial de AOSpine y la clasificación de Denis para las fracturas de odontoides"
+  ],
+  "sections": [
+    {
+      "id": "C1-S1",
+      "title": "Mielopatía Cervical Espondilótica — Diagnóstico y Clasificación",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La mielopatía cervical espondilótica (MCE) es la causa más frecuente de disfunción de la médula espinal en adultos mayores de 55 años en todo el mundo. La fisiopatología implica una lesión compresiva progresiva de la médula espinal cervical debida a cambios degenerativos: hernia discal, hipertrofia de la articulación uncovertebal, hipertrofia de la articulación facetaria, abombamiento del ligamento amarillo y osificación del ligamento vertebral común posterior (OLVCP). La historia natural es variable: aproximadamente un tercio de los pacientes se mantiene estable, un tercio mejora espontáneamente y un tercio se deteriora con el tiempo. Sin embargo, el deterioro neurológico es impredecible y puede producirse de forma brusca, lo que justifica la evaluación quirúrgica precoz en pacientes sintomáticos. La presentación clínica incluye: síntomas en miembros superiores (torpeza, pérdida de la función motora fina, atrofia de músculos intrínsecos de la mano, fenómeno de Lhermitte — sensación de descarga eléctrica por la columna al flexionar el cuello), síntomas en miembros inferiores (marcha espástica, dificultad para el equilibrio, marcha en tijera, hiperreflexia, signo de Babinski, clonus) y disfunción vesicointestinal (habitualmente tardía). La **escala modificada de la Japanese Orthopaedic Association (mJOA)** es la medida de resultado estándar: escala de 18 puntos que engloba la función motora de los miembros superiores (0–5), la función motora de los miembros inferiores (0–7), la función sensitiva de los miembros superiores (0–3) y la función sensitiva de los miembros inferiores y el tronco (0–3). Clasificación de la gravedad: mJOA 15–18 = leve; 12–14 = moderada; <12 = MCE grave. El signo de Hoffmann (flexión del pulgar e índice al chasquear el dedo medio) y el fenómeno de Lhermitte son signos clínicos clave de la mielopatía cervical."
+        },
+        {
+          "type": "table",
+          "title": "Escala mJOA — Gravedad de la Mielopatía Cervical",
+          "headers": ["Dominio", "Puntuación máxima", "Clasificación de la gravedad"],
+          "rows": [
+            ["Función motora de miembros superiores (escritura, palillos)", "5", "mJOA 15–18 = MCE leve"],
+            ["Función motora de miembros inferiores (marcha, escaleras)", "7", "mJOA 12–14 = MCE moderada"],
+            ["Función sensitiva de miembros superiores", "3", "mJOA <12 = MCE grave"],
+            ["Función sensitiva de miembros inferiores/tronco", "3", "Máximo total = 18 puntos"],
+            ["Total", "18", "Cirugía indicada para moderada-grave (mJOA ≤14)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Signo de Hoffmann y Mielopatía Cervical",
+          "content": "El signo de Hoffmann se obtiene chasqueando la punta del dedo medio — un signo positivo es la flexión del pulgar y el índice. Es un signo de disfunción del tracto corticoespinal (neurona motora superior). Sensibilidad 58%, especificidad 78% para mielopatía cervical. Un signo de Hoffmann bilateralmente positivo en un paciente con inestabilidad en la marcha y torpeza en las manos requiere una RM cervical urgente para excluir compresión significativa de la médula."
+        }
+      ]
+    },
+    {
+      "id": "C1-S2",
+      "title": "Imagen y Guías Quirúrgicas AOSpine",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La RM es la modalidad de imagen primaria para la MCE: la hiperintensidad de señal T2 dentro de la médula al nivel de la compresión indica cambio mielopático (sensibilidad para mielopatía clínica 65–75%). La hipointensidad T1 al mismo nivel indica una lesión más grave y potencialmente irreversible. La RM dinámica (flexión-extensión) evalúa la compresión medular con el movimiento del cuello. La TC-mielografía se utiliza cuando la RM está contraindicada (marcapasos, claustrofobia) o cuando la valoración de la anatomía ósea es crítica (extensión de la OLVCP, estenosis foraminal). **Guías de Práctica Clínica AOSpine (Fehlings 2017)**: (1) MCE leve (mJOA 15–18): rehabilitación estructurada durante 3–6 meses; cirugía si deterioro o si el estilo de vida se ve significativamente afectado; (2) MCE moderada (mJOA 12–14): descompresión quirúrgica recomendada — la cirugía proporciona mayor mejoría funcional que el tratamiento no quirúrgico en la MCE moderada; (3) MCE grave (mJOA <12): descompresión quirúrgica urgente recomendada. La base de evidencia: **AOSpine North America** (Fehlings, J Bone Joint Surg 2013) cohorte multicéntrica prospectiva — 279 pacientes sometidos a descompresión quirúrgica por MCE — el 87% logró una mejoría clínica significativa (≥1 punto mJOA) a los 12 meses. **OLVCP (Osificación del Ligamento Vertebral Común Posterior)**: frecuente en poblaciones del Este Asiático, puede causar MCE grave — la descompresión quirúrgica es necesaria pero conlleva mayor riesgo de parálisis posoperatoria de C5 y desgarro dural por adherencia de la OLVCP a la duramadre."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — La Señal T2 de la Médula en RM NO Contraindica la Cirugía",
+          "content": "La hiperintensidad de señal T2 de la médula en RM indica lesión medular pero NO contraindica la descompresión quirúrgica. Incluso los pacientes con cambios de señal medular de larga evolución pueden mejorar significativamente tras la descompresión. La hipointensidad T1 al mismo nivel (que sugiere mielomalacia/necrosis) se asocia a menor mejoría posoperatoria, pero no es una contraindicación absoluta para la cirugía. Nunca aconsejar a un paciente con mielopatía sintomática 'evitar la cirugía por la señal medular' sin una evaluación neuroquirúrgica adecuada."
+        }
+      ]
+    },
+    {
+      "id": "C1-S3",
+      "title": "Abordajes Quirúrgicos Anteriores: ACDF y ACCF",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **discectomía y artrodesis cervical anterior (ACDF)** es el abordaje anterior estándar para la patología cervical de 1–3 niveles. Mediante una disección retrofaríngea derecha (o izquierda), se accede al espacio discal, se extrae el disco y los osteofitos posteriores, y se implanta una jaula (PEEK o titanio) con injerto óseo, seguida de fijación con placa cervical anterior. La ACDF proporciona una excelente descompresión de la compresión ventral de la médula/raíz nerviosa y restaura la altura discal y la lordosis segmentaria. Tasas de complicaciones: disfagia (30% precoz, <5% persistente), parálisis del nervio laríngeo recurrente (abordajes por el lado izquierdo — mayor riesgo), síndrome de Horner (cadena simpática sobre el músculo largo del cuello), parálisis de C5 (debilidad del deltoides, 2–5%, mecanismo: tracción de la raíz durante la descompresión). La **corpectomía y artrodesis cervical anterior (ACCF)** se utiliza cuando la compresión es principalmente a nivel del cuerpo vertebral posterior (OLVCP detrás del cuerpo vertebral, enfermedad discal multinivel con componente retrovertebral crítico). Se extrae uno o varios cuerpos vertebrales y se coloca una jaula larga que abarca el defecto de la corpectomía con placa anterior. La ACCF conlleva mayores tasas de pseudoartrosis (10–15% para corpectomía de 3 niveles frente a 2–5% para ACDF) y mayor riesgo quirúrgico que la ACDF. **Preservación del movimiento**: la artroplastia de disco cervical (ADC) es una alternativa a la ACDF para la enfermedad degenerativa de disco de uno o dos niveles en ausencia de inestabilidad significativa u OLVCP — preserva el movimiento segmentario y reduce la incidencia de enfermedad del segmento adyacente (ESA), aunque la superioridad a largo plazo sobre la ACDF sigue en debate."
+        },
+        {
+          "type": "table",
+          "title": "Cirugía Cervical Anterior vs Posterior — Indicaciones y Selección",
+          "headers": ["Abordaje", "Mejor indicación", "Ventajas", "Desventajas/Riesgos"],
+          "rows": [
+            ["ACDF (1–3 niveles)", "Compresión ventral, hernia discal, cifosis", "Descompresión directa, restaura lordosis", "Disfagia, parálisis NLR, pseudoartrosis, ESA"],
+            ["ACCF (corpectomía)", "OLVCP, compresión retrovertebral multinivel", "Amplia descompresión anterior", "Alta tasa de pseudoartrosis, recuperación más larga"],
+            ["ADC (artroplastia)", "Enfermedad degenerativa de 1/2 niveles, sin inestabilidad/OLVCP", "Preservación del movimiento, menos ESA", "Contraindicada: inestabilidad, OLVCP, artrosis facetaria"],
+            ["Laminectomía sola", "Alineación lordótica, estenosis multinivel (>3 niveles)", "Descompresión posterior", "Riesgo de cifosis poslaminectomía"],
+            ["Laminoplastia", "OLVCP multinivel, MCE en columna lordótica, ≥3 niveles", "Preserva elementos posteriores, sin artrodesis", "Limitada en columna cifótica; menos descompresión de lesiones ventrales"],
+            ["Laminectomía + artrodesis", "Estenosis multinivel + inestabilidad o riesgo de cifosis", "Descompresión estable", "Morbilidad de la artrodesis, estrés en segmento adyacente"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1-S4",
+      "title": "Cirugía Cervical Posterior: Laminoplastia y Laminectomía-Artrodesis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **laminoplastia cervical** (técnica de puerta abierta de Hirabayashi, o técnica de doble puerta/puerta francesa bilateral) amplía el canal espinal cervical articulando las láminas y manteniéndolas abiertas con espaciadores, preservando los elementos posteriores sin artrodesis. La médula se descomprime al migrar posteriormente hacia el canal ampliado. **Indicaciones clave de laminoplastia frente a ACDF/corpectomía**: (1) MCE multinivel (≥3 niveles) con alineación cervical lordótica o neutra; (2) OLVCP multinivel en lordosis (la médula flota posteriormente tras la laminoplastia); (3) estenosis cervical congénita. **Contraindicación crítica para la laminoplastia**: **cifosis cervical** — si la columna cervical es cifótica, la médula espinal está plegada sobre el vértice de la cifosis y NO migrará posteriormente tras la descompresión posterior. La cirugía posterior en cifosis puede empeorar paradójicamente la compresión medular. La laminoplastia solo debe realizarse con alineación neutra o lordótica. La **laminectomía + artrodesis** combina la extirpación completa de la lámina con artrodesis instrumentada posterior (tornillos pediculares o de masa lateral + barras). Indicaciones: estenosis multinivel + inestabilidad cervical (espondilolistesis, subluxación atlantoaxial reumatoide), fracaso de laminoplastia, cifosis postraumática. La **enfermedad del segmento adyacente (ESA)** es una complicación conocida a largo plazo de la artrodesis cervical — degeneración acelerada en los niveles adyacentes a un segmento fusionado, que requiere reintervención en el 6–16% de los pacientes con ACDF a los 10 años. La **parálisis de C5** (debilidad del deltoides, déficit de abducción del hombro) ocurre en el 2–7% de los casos de descompresión cervical posterior y en el 2–5% de las ACDF — el mecanismo implica la tracción y el atrapamiento de la raíz nerviosa C5 al acortarse tras la migración posterior de la médula. Habitualmente se resuelve espontáneamente en 3–6 meses en el 85–90% de los casos."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Elección del Abordaje Posterior: El Principio de la Alineación",
+          "content": "La regla fundamental de selección para la cirugía cervical posterior: confirmar la alineación LORDÓTICA antes de elegir la laminoplastia. Si el perfil sagital cervical es cifótico, la descompresión posterior aislada es insuficiente — la médula no puede migrar posteriormente y la tensión sobre la médula aumenta. Para la MCE cifótica, se requiere corrección anterior (ACDF/ACCF con restauración de la lordosis) primero, o se realiza laminectomía posterior + artrodesis con corrección lordótica. Nunca realizar laminoplastia aislada en una columna cervical cifótica."
+        }
+      ]
+    },
+    {
+      "id": "C1-S5",
+      "title": "Radiculopatía Cervical — Hernia Blanda vs Dura, Estenosis Foraminal",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **radiculopatía cervical** se presenta con dolor en el brazo de distribución dermatomérica, parestesias y debilidad siguiendo la distribución de una raíz nerviosa comprimida. Los niveles más frecuentemente afectados son C5-6 (radiculopatía C6 — parestesias en pulgar e índice, debilidad del bíceps, reducción del reflejo bicipital) y C6-7 (radiculopatía C7 — parestesias en dedo medio, debilidad del tríceps, reducción del reflejo tricipital). **Historia natural**: el 80–90% de las radiculopatías cervicales aisladas se resuelven con tratamiento conservador (AINEs, fisioterapia, tracción cervical) en 4–6 semanas. La cirugía está indicada en: fracaso del tratamiento conservador tras 6–12 semanas, déficit neurológico progresivo, dolor intratable o hernia discal grande aguda con mielopatía. La **hernia discal blanda** (hernia discal aguda, típicamente en pacientes jóvenes <50 años) se trata mejor con ACDF (el abordaje anterior descomprime directamente el disco herniado). El **disco duro** (estenosis foraminal osteofítica, hipertrofia de la articulación uncovertebral, estenosis foraminal espondilótica) puede tratarse por vía anterior (ACDF con resección uncovertebal) o posterior (foraminotomía posterior — abordaje en cerradura). La **foraminotomía posterior** (foraminotomía en cerradura) es un abordaje posterior mínimamente invasivo para descomprimir el receso lateral y el foramen neural desde atrás — excelente para hernia discal lateral o estenosis foraminal sin afectación del canal central, preservando el movimiento (no se requiere artrodesis)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Niveles de Radiculopatía Cervical y Signos Clínicos",
+          "content": "Raíz C5 (disco C4-5): debilidad del deltoides, déficit de abducción del hombro, reducción del reflejo bicipital. Raíz C6 (disco C5-6): debilidad del bíceps, parestesias en pulgar/índice, reducción de los reflejos bicipital y braquiorradial. Raíz C7 (disco C6-7): debilidad del tríceps, parestesias en dedo medio, reducción del reflejo tricipital. Raíz C8 (disco C7-T1): debilidad de los músculos intrínsecos de la mano (dedo anular/meñique), reducción de los flexores de los dedos. El nivel del disco afectado está un nivel POR ENCIMA del número de la raíz (ej., el disco C5-6 comprime la raíz C6)."
+        }
+      ]
+    },
+    {
+      "id": "C1-S6",
+      "title": "Síndrome de Cordón Central y Lesión Cervical Aguda de Médula",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **síndrome de cordón central (SCC)** es la lesión incompleta de médula espinal más frecuente, representando el 50% de todas las lesiones cervicales incompletas de médula. Ocurre predominantemente en pacientes ancianos con espondilosis cervical preexistente tras un **mecanismo de hiperextensión** (ej., caída sobre la cara, colisión trasera de vehículos de motor) — incluso sin fractura. La fisiopatología implica compresión del cordón central, que contiene fibras para la función de los miembros superiores (situadas medialmente en el tracto corticoespinal) desproporcionada a las fibras de los miembros inferiores (situadas lateralmente). **Presentación clásica**: debilidad de los miembros superiores desproporcionadamente mayor que la de los miembros inferiores (manos peor que brazos, brazos peor que piernas), disfunción vesical (retención urinaria) y déficit sensitivo variable. La **Escala de Deterioro ASIA** (AIS) clasifica la lesión medular: A=completa (sin motor/sensitivo por debajo de la lesión), B=solo sensitivo por debajo, C=más de la mitad del motor por debajo grado 3, D=más de la mitad del motor grado 3 o mejor, E=normal. El SCC es típicamente AIS D. **Momento de la cirugía**: históricamente controvertido, pero el **estudio de temporización de AOSpine** (Fehlings 2012) demostró que la cirugía dentro de las 24 horas de la lesión para la lesión cervical incompleta de médula se asocia a una recuperación neurológica significativamente mejor a los 6 meses en comparación con la cirugía diferida (>24 horas): OR 2,8 para la mejoría del grado AIS. Las guías actuales de AOSpine (2017) recomiendan la descompresión precoz (dentro de las 24 horas) para la lesión cervical aguda de médula — evidencia de Clase I para lesiones incompletas, más débil pero de apoyo para lesiones completas."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — SCC en Pacientes Ancianos Sin Fractura",
+          "content": "Un varón de 70 años cae y golpea la cara. Tiene debilidad bilateral en las manos (apenas puede agarrar), camina con ayuda y tiene retención urinaria con necesidad de sondaje. La radiografía y TC cervical no muestran fractura. Este es el síndrome de cordón central clásico por lesión de hiperextensión sobre una columna cervical espondilótica. Debe realizarse RM urgente — mostrará contusión/hemorragia medular y espondilosis multinivel subyacente. Debe considerarse la descompresión quirúrgica dentro de las 24 horas según las guías AOSpine."
+        }
+      ]
+    },
+    {
+      "id": "C1-S7",
+      "title": "Fracturas de Odontoides e Inestabilidad Atlantoaxial",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las **fracturas de odontoides (apófisis odontoides)** se clasifican por el **sistema de Anderson-D'Alonzo**: Tipo I (avulsión de la punta de la odontoides, estable, tratamiento conservador); Tipo II (fractura en la base de la apófisis — unión con el cuerpo de C2, ALTO riesgo de pseudoartrosis, frecuentemente requiere cirugía); Tipo III (fractura se extiende al cuerpo de C2, generalmente consolida con collarín/halo). Las **fracturas de odontoides Tipo II** tienen una tasa de pseudoartrosis del 20–40% con solo tratamiento conservador, que asciende al 70–80% en pacientes >50 años o con desplazamiento >5 mm. Opciones quirúrgicas para el Tipo II: (1) tornillo de odontoides anterior (tornillo único o doble, preserva la rotación atlantoaxial — ideal para fracturas recientes no conminutas con ligamentos posteriores intactos); (2) artrodesis C1-C2 posterior (técnica de Harms: tornillos en masa lateral de C1 + tornillos pediculares en C2 con barra — sacrifica la rotación C1-C2, pero artrodesis muy fiable — indicada para fracturas conminutas, fracaso del abordaje anterior o desplazamiento significativo). **Subluxación atlantoaxial (SAA) reumatoide**: la artritis reumatoide destruye el ligamento transverso y las articulaciones facetarias C1-C2, causando subluxación anterior atlantoaxial — el intervalo atlanto-odontoides (IAO) en la radiografía lateral o TC. IAO normal en adultos: ≤3 mm (≤5 mm en niños). IAO >3,5 mm = lesión ligamentosa; >10 mm = riesgo de compresión medular. La artrodesis C1-C2 posterior (Harms o ligamentos de alambre de Gallie/Brooks) está indicada para SAA sintomática o compresión de la médula cervical por inestabilidad C1-C2."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación de Anderson-D'Alonzo de Fractura de Odontoides y Manejo",
+          "headers": ["Tipo", "Descripción", "Riesgo de pseudoartrosis", "Tratamiento"],
+          "rows": [
+            ["Tipo I", "Avulsión de la punta de la odontoides (poco frecuente)", "Muy bajo", "Collarín cervical 6–12 semanas"],
+            ["Tipo II", "Fractura en la unión apófisis-cuerpo (MÁS FRECUENTE)", "20–40% (hasta 80% si >50 años o desplazamiento >5 mm)", "Cirugía: tornillo de odontoides O artrodesis C1-C2 posterior"],
+            ["Tipo III", "Fractura a través del cuerpo de C2", "Bajo", "Halo-chaleco u ortesis rígida 8–12 semanas"],
+            ["Tipo IIA", "Tipo II conminuto (modificación de Grauer)", "Muy alto", "Artrodesis C1-C2 posterior preferida (no tornillo de odontoides)"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre la patología de la columna cervical con 20 preguntas tipo MIR.",
+    "questions": [
+      {
+        "id": "C1-Q1",
+        "stem": "Un varón de 62 años presenta 8 meses de dificultad progresiva para escribir, torpeza en las manos y marcha inestable. La exploración muestra hiperreflexia bilateral, signo de Hoffmann bilateralmente positivo y marcha espástica de base amplia. La puntuación mJOA es 13. La RM muestra estenosis cervical multinivel con compresión medular de C3 a C6 y cambio de señal T2 de la médula a C4-5. ¿Qué indica la puntuación mJOA y cuál es el manejo apropiado?",
+        "options": {
+          "A": "mJOA 13 = MCE leve; tratamiento conservador durante 12 meses antes de considerar cirugía",
+          "B": "mJOA 13 = MCE moderada; se recomienda descompresión quirúrgica",
+          "C": "mJOA 13 = MCE grave; descompresión quirúrgica urgente en las siguientes 24 horas",
+          "D": "mJOA 13 = MCE moderada; el cambio de señal T2 de la médula es una contraindicación para la cirugía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "mJOA 12–14 = MCE moderada. Las Guías de Práctica Clínica AOSpine (2017) recomiendan descompresión quirúrgica para la MCE moderada — la cirugía proporciona mayor mejoría funcional que el tratamiento no quirúrgico en este grupo de gravedad. El estudio prospectivo AOSpine North America (Fehlings, J Bone Joint Surg 2013) mostró que el 87% de los pacientes logró una mejoría clínicamente significativa tras la cirugía. El cambio de señal T2 de la médula NO contraindica la cirugía.",
+          "wrong": {
+            "A": "mJOA 13 es MODERADA (12–14), no leve (15–18). Esperar 12 meses para una MCE moderada con síntomas progresivos es inapropiado — el deterioro neurológico puede volverse irreversible",
+            "C": "mJOA 13 es moderada, no grave. La MCE grave es mJOA <12. La descompresión urgente en el mismo día está indicada para lesión aguda de médula/crisis mielopática, no para MCE moderada crónica progresiva",
+            "D": "El cambio de señal T2 de la médula NO es una contraindicación para la cirugía — indica lesión medular existente pero no predice imposibilidad de mejoría. Incluso los pacientes con cambio de señal medular muestran mejoría significativa tras la descompresión"
+          },
+          "guideline": "AOSpine Clinical Practice Guidelines for CSM (Fehlings 2017) — MCE moderada (mJOA 12–14): descompresión quirúrgica recomendada",
+          "trial": "AOSpine North America (Fehlings J Bone Joint Surg 2013): 279 pacientes con MCE — 87% de mejoría significativa a los 12 meses; la MCE moderada se beneficia más de la cirugía",
+          "pearl": "mJOA: leve=15–18, moderada=12–14, grave=<12. AOSpine: descompresión quirúrgica recomendada para MCE MODERADA y GRAVE. Cambio de señal T2 ≠ contraindicación para cirugía."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q2",
+        "stem": "Una mujer de 58 años con mJOA 12 de mielopatía cervical espondilótica presenta una alineación cervical neutra a cifótica en la radiografía lateral y RM, con compresión en tres niveles de C4 a C7. ¿Cuál es el abordaje quirúrgico MÁS apropiado?",
+        "options": {
+          "A": "Laminoplastia cervical aislada — óptima para la enfermedad multinivel",
+          "B": "Discectomía y artrodesis cervical anterior (ACDF) o corpectomía cervical anterior con artrodesis para restaurar la lordosis, o laminectomía posterior + artrodesis con corrección lordótica",
+          "C": "Laminoplastia posterior aislada — la alineación no es una contraindicación",
+          "D": "Tratamiento conservador durante 6 meses — la enfermedad multinivel no es indicación quirúrgica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El principio fundamental de selección de la cirugía cervical posterior: la laminoplastia requiere una columna cervical lordótica. En una columna cervical cifótica, la médula está plegada sobre el vértice de la cifosis — la descompresión posterior no permite que la médula migre posteriormente, y la médula puede permanecer comprimida o empeorar. Opciones para MCE multinivel cifótica: (1) abordaje anterior con restauración de la lordosis (ACDF/ACCF), o (2) laminectomía posterior + artrodesis con instrumentación posterior que logre corrección lordótica (tornillos pediculares o de masa lateral en múltiples niveles con contorneado lordótico de la barra).",
+          "wrong": {
+            "A": "La laminoplastia aislada está CONTRAINDICADA en una columna cervical cifótica — el criterio de selección crítico para la laminoplastia es la alineación lordótica o neutra",
+            "C": "La alineación cifótica SÍ es una contraindicación para la laminoplastia aislada. Esta respuesta es incorrecta",
+            "D": "La MCE grave (mJOA 12) requiere tratamiento quirúrgico, no 6 meses más de tratamiento conservador. mJOA ≤12 = grave, y las guías AOSpine recomiendan descompresión quirúrgica"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Laminoplastia posterior contraindicada en alineación cifótica; se requiere abordaje anterior o laminectomía+artrodesis posterior con corrección lordótica",
+          "trial": "Fehlings MG et al. (J Bone Joint Surg 2013): selección quirúrgica según alineación; resultados de laminoplastia y cifosis: Suda K (Spine 2003) — cifosis >13° predice mal resultado de laminoplastia",
+          "pearl": "LAMINOPLASTIA = requiere LORDOSIS. Columna cervical cifótica = abordaje anterior (ACDF/ACCF) o laminectomía+artrodesis posterior con corrección lordótica. NUNCA laminoplastia aislada en cifosis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q3",
+        "stem": "Un varón de 45 años desarrolla dolor agudo en el brazo derecho irradiado al pulgar e índice con debilidad del bíceps (4/5) tras 2 días de cervicalgia. La RM muestra una hernia discal blanda derecha C5-6 con compresión de la raíz C6. No tiene mielopatía. ¿Cuál es el manejo de PRIMERA LÍNEA?",
+        "options": {
+          "A": "ACDF urgente en C5-6 para prevenir parálisis permanente del bíceps",
+          "B": "6–12 semanas de tratamiento conservador (AINEs, fisioterapia cervical, considerar inyección epidural cervical de corticoides); cirugía si no hay mejoría o déficit progresivo",
+          "C": "Laminoplastia cervical de C4 a C7",
+          "D": "Foraminotomía posterior en C5-6 ya que preserva el movimiento"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La radiculopatía cervical aislada por hernia discal blanda C5-6 en un paciente de 45 años sin mielopatía tiene una excelente historia natural — el 80–90% se resuelve con tratamiento conservador en 4–6 semanas. Primera línea: AINEs, fisioterapia y consideración de inyección epidural cervical de corticoides para casos resistentes. La cirugía está indicada si: (1) fracaso tras 6–12 semanas, (2) déficit neurológico progresivo, (3) dolor intratable, o (4) la debilidad del bíceps progresa a <3/5 o parálisis completa.",
+          "wrong": {
+            "A": "La ACDF urgente no está indicada para una primera presentación de radiculopatía con debilidad parcial (4/5) del bíceps sin mielopatía. La historia natural es excelente con tratamiento conservador",
+            "C": "La laminoplastia es para la mielopatía cervical multinivel en columna lordótica — completamente inapropiada para radiculopatía de un solo nivel sin mielopatía",
+            "D": "La foraminotomía posterior es una excelente opción quirúrgica pero no es de primera línea — el tratamiento conservador es el primero. La cirugía se reserva para el tratamiento conservador fallido"
+          },
+          "guideline": "AOSpine CSM/Radiculopathy Guidelines 2017 — Radiculopatía cervical sin mielopatía: tratamiento conservador primero 6–12 semanas; cirugía para fracaso o déficit progresivo",
+          "trial": "Persson LCG et al. (Spine 1997): radiculopatía cervical aleatorizada a cirugía frente a conservador — sin diferencia a los 12 meses; la cirugía resuelve síntomas más rápido pero resultados finales equivalentes; Radhakrishnan K (Brain 1994): resolución espontánea 80–90%",
+          "pearl": "Radiculopatía cervical aislada (sin mielopatía) = tratamiento conservador primero (6–12 semanas). Cirugía indicada: fracaso del tratamiento conservador, déficit progresivo, dolor intratable. Bíceps 4/5 solo con 2 días de síntomas = tratamiento conservador, no cirugía urgente."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q4",
+        "stem": "Un varón de 74 años con espondilosis cervical conocida cae al bajar un bordillo, golpeándose la barbilla. Presenta debilidad bilateral en las manos (3/5 en la prensión bilateralmente) peor que la debilidad en las piernas (4/5 bilateral en flexores de cadera), retención urinaria con necesidad de sondaje y sensibilidad perineal conservada. La TC cervical no muestra fractura. ¿Cuál es el diagnóstico y el manejo apropiado?",
+        "options": {
+          "A": "Lesión medular completa (ASIA A) — cuidados paliativos y manejo vesical",
+          "B": "Síndrome de cordón central (ASIA C o D) por lesión de hiperextensión; RM urgente y debe considerarse descompresión quirúrgica precoz dentro de las 24 horas",
+          "C": "Síndrome de Brown-Séquard — lesión de hemimédula por fractura-luxación",
+          "D": "Síndrome de cordón anterior — oclusión de la arteria espinal anterior por flexión cervical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Síndrome de cordón central clásico (SCC): paciente anciano con espondilosis, mecanismo de hiperextensión (golpe en la barbilla), debilidad de los miembros superiores desproporcionadamente mayor que los inferiores, retención urinaria, preservación de alguna función sensitiva. Esta es la lesión cervical incompleta de médula más frecuente. ASIA C o D (incompleta). Manejo: RM urgente para confirmar la lesión medular y la compresión subyacente, luego descompresión quirúrgica precoz dentro de las 24 horas según los datos de temporización de AOSpine (Fehlings 2012 — cirugía en <24 h asociada a OR 2,8 para mejoría neurológica).",
+          "wrong": {
+            "A": "ASIA A (lesión medular completa) requiere pérdida completa de la función motora Y sensitiva por debajo del nivel de la lesión. Este paciente tiene sensibilidad perineal conservada y algo de función en las piernas — es una lesión incompleta. Los cuidados paliativos son inapropiados",
+            "C": "El síndrome de Brown-Séquard se presenta con pérdida motora ipsilateral y pérdida de dolor/temperatura contralateral (hemisección medular). Este paciente tiene déficits bilaterales simétricos — no es Brown-Séquard",
+            "D": "El síndrome de cordón anterior (oclusión de la arteria espinal anterior) se presenta con función de columna posterior preservada (vibración y propiocepción) pero pérdida de motor y dolor/temperatura por debajo de la lesión. Sin embargo, el mecanismo (hiperextensión, paciente anciano con espondilosis) y el patrón (manos peor que piernas) son característicos del SCC, no del síndrome de cordón anterior"
+          },
+          "guideline": "AOSpine Cervical SCI Guidelines 2017 — Descompresión precoz dentro de las 24 horas recomendada para lesión cervical incompleta de médula (evidencia de Clase I para mejoría funcional)",
+          "trial": "Fehlings MG et al. Estudio de temporización AOSpine (Neurosurgery 2012): cirugía en <24 h frente a >24 h para lesión cervical de médula — OR 2,8 para mejoría del grado AIS con cirugía precoz",
+          "pearl": "Síndrome de cordón central: manos peor que piernas + anciano + hiperextensión (sin necesidad de fractura) + retención urinaria. Lesión medular incompleta más frecuente. Cirugía precoz (<24 h) mejora los resultados (OR 2,8 para mejoría AIS). Siempre realizar RM urgente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q5",
+        "stem": "La clasificación de las fracturas de odontoides es crucial para el manejo. Un varón de 65 años sufre un accidente de tráfico y presenta cervicalgia. La TC muestra una fractura a través de la base de la apófisis odontoides en su unión con el cuerpo de C2, con 4 mm de desplazamiento anterior. ¿Cuál es el tipo según Anderson-D'Alonzo y cuál es el manejo recomendado?",
+        "options": {
+          "A": "Fractura Tipo I — collarín cervical durante 6 semanas",
+          "B": "Fractura Tipo II — fijación quirúrgica (tornillo de odontoides anterior o artrodesis C1-C2 posterior) dado el alto riesgo de pseudoartrosis en un paciente >50 años con desplazamiento >5 mm",
+          "C": "Fractura Tipo III — inmovilización con halo-chaleco durante 12 semanas",
+          "D": "Fractura Tipo II — tratamiento conservador con collarín rígido; los riesgos quirúrgicos superan los beneficios"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Fractura de odontoides Tipo II (fractura en la unión apófisis-cuerpo) con 4 mm de desplazamiento en un paciente de 65 años. Riesgo de pseudoartrosis: la edad >50 años y el desplazamiento >4–5 mm son factores de riesgo independientes para la pseudoartrosis (riesgo global 20–40%, hasta 70–80% en ancianos con desplazamiento). El tratamiento quirúrgico está recomendado. Opciones: tornillo de odontoides anterior (preserva la rotación C1-C2, requiere fractura no conminuta con ligamento transverso intacto) o artrodesis C1-C2 posterior (técnica de Harms, sacrifica la rotación pero muy fiable). Dada la edad >50 años y el desplazamiento, la mayoría de los cirujanos recomendarían artrodesis C1-C2 posterior.",
+          "wrong": {
+            "A": "El Tipo I es una fractura de avulsión de la punta — muy infrecuente, estable, tratada con collarín cervical. Esta fractura es en la unión apófisis-cuerpo = Tipo II",
+            "C": "Las fracturas Tipo III se extienden al cuerpo de C2 y generalmente se tratan de forma conservadora con halo u ortesis rígida. Esta fractura es en la unión apófisis-cuerpo = Tipo II, no Tipo III",
+            "D": "El tratamiento conservador para una fractura Tipo II en un paciente de 65 años con 4 mm de desplazamiento conlleva un riesgo de pseudoartrosis del 70–80% — esto NO es apropiado. Los riesgos quirúrgicos de la artrodesis C1-C2 en un paciente de 65 años por lo demás sano son considerablemente menores que el riesgo de pseudoartrosis e inestabilidad crónica"
+          },
+          "guideline": "AOSpine Odontoid Fracture Guidelines — Tipo II con edad >50 o desplazamiento >4 mm: fijación quirúrgica recomendada por alto riesgo de pseudoartrosis",
+          "trial": "Grauer JN et al. (Spine 2005): fracturas de odontoides Tipo II en ancianos — pseudoartrosis 60–80% con tratamiento conservador; Apfelbaum RI (J Neurosurg 2000): serie de tornillos de odontoides anteriores",
+          "pearl": "Tipos de odontoides: I=avulsión de la punta (infrecuente, collarín), II=unión apófisis-cuerpo (alto riesgo de pseudoartrosis — CIRUGÍA), III=extensión al cuerpo de C2 (halo/collarín). Riesgo de pseudoartrosis Tipo II: 20–40% en general, 70–80% si edad >50 o desplazamiento >5 mm. Opciones quirúrgicas: tornillo de odontoides (preserva rotación) o artrodesis C1-C2 (más fiable)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q6",
+        "stem": "Tras una discectomía y artrodesis cervical anterior (ACDF) de dos niveles en C5-6 y C6-7, un paciente de 48 años refiere a la mañana siguiente nuevo dolor en el hombro derecho e incapacidad para abducir el hombro derecho contra resistencia (debilidad del deltoides 2/5) sin debilidad preoperatoria en el hombro. El reflejo bicipital derecho está reducido. ¿Cuál es esta complicación y cuál es el pronóstico?",
+        "options": {
+          "A": "Radiculopatía C6 por mala posición del tornillo — TC urgente y revisión del tornillo necesarios",
+          "B": "Parálisis de C5 — disfunción posdescompresión de la raíz nerviosa; habitualmente se resuelve espontáneamente en 3–6 meses en el 85–90% de los casos; tratamiento conservador con fisioterapia",
+          "C": "Síndrome de Horner por lesión de la cadena simpática — complicación permanente que requiere revisión especializada",
+          "D": "Lesión de la arteria vertebral — angioTC urgente necesario"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La parálisis de C5 es una complicación bien conocida tanto de la descompresión cervical anterior como posterior, que ocurre en el 2–7% de los casos. Se presenta como nueva debilidad posoperatoria del deltoides (raíz C5 — abducción del hombro), con o sin pérdida sensitiva en el dermatoma C5. El mecanismo es el atrapamiento de la raíz C5 al acortarse tras la descompresión medular y la migración posterior de la médula. La reducción del reflejo bicipital es consistente (C5 también contribuye al reflejo bicipital). Pronóstico: el 85–90% se recupera completamente en 3–6 meses con tratamiento conservador (fisioterapia, protección del hombro). La revisión quirúrgica NO está indicada para la parálisis de C5 en ausencia de evidencia de imagen de compresión de la raíz o hematoma.",
+          "wrong": {
+            "A": "La mala posición del tornillo que causa radiculopatía C6 afectaría el dedo medio (distribución dermatomérica C7) o el bíceps (C6), no específicamente la debilidad dominante del deltoides. La parálisis de C5 afecta específicamente al deltoides y supraespinoso (abducción del hombro)",
+            "C": "El síndrome de Horner (ptosis, miosis, anhidrosis) resulta de la lesión de la cadena simpática cervical durante la cirugía por abordaje anterior — un cuadro clínico diferente de la debilidad aislada del deltoides descrita",
+            "D": "La lesión de la arteria vertebral causa ictus, no déficit aislado de la raíz C5. Se presentaría con signos de isquemia de la circulación posterior (mareos, ataxia, diplopía, déficit motor contralateral)"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Parálisis de C5: complicación reconocida de la descompresión cervical; tratamiento conservador; 85–90% se resuelve en 6 meses",
+          "trial": "Nassr A et al. (J Bone Joint Surg 2012): parálisis de C5 tras cirugía cervical — incidencia 2–7%; tratamiento conservador con 85–90% de resolución; Bydon M (Spine 2014): resultados multicéntricos prospectivos de parálisis de C5",
+          "pearl": "Parálisis de C5 tras descompresión cervical: nueva debilidad posoperatoria del deltoides (abducción del hombro), posiblemente reducción del reflejo bicipital. Mecanismo: atrapamiento de la raíz por migración posterior de la médula. 85–90% se resuelve en 3–6 meses. NO se necesita cirugía — solo fisioterapia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q7",
+        "stem": "Una mujer de 55 años con artritis reumatoide de 20 años de evolución ha desarrollado cervicalgia progresiva, cefalea occipital y ahora inestabilidad en la marcha. La radiografía lateral cervical en flexión muestra un intervalo atlanto-odontoides (IAO) de 8 mm. Tiene debilidad bilateral en las manos. ¿Cuál es el diagnóstico y el tratamiento?",
+        "options": {
+          "A": "Variante normal del IAO — no se requiere tratamiento para la afectación cervical reumatoide",
+          "B": "Subluxación atlantoaxial por destrucción reumatoide del ligamento transverso — artrodesis C1-C2 posterior indicada para inestabilidad sintomática con compresión medular",
+          "C": "Espondilosis cervical degenerativa — ACDF en C3-4",
+          "D": "IAO de 8 mm solo es preocupante en niños — en adultos cualquier IAO es normal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "IAO normal en adultos: ≤3 mm (niños ≤5 mm). IAO >3,5 mm indica lesión o insuficiencia del ligamento transverso. IAO 8 mm = inestabilidad atlantoaxial grave por destrucción reumatoide del ligamento transverso. Esta paciente tiene mielopatía (inestabilidad en la marcha, debilidad bilateral en las manos). La artrodesis C1-C2 posterior (técnica de Harms: tornillos en masa lateral de C1 + tornillos pediculares en C2) es el tratamiento quirúrgico estándar. La línea de Wackenheim y el intervalo atlanto-odontoides posterior (IAOP) <14 mm son también predictores de compromiso medular que requieren estabilización quirúrgica.",
+          "wrong": {
+            "A": "IAO 8 mm es gravemente anormal (normal ≤3 mm) — se trata de una inestabilidad atlantoaxial grave. 'Sin tratamiento' en un paciente con mielopatía sería negligente",
+            "C": "La patología está a nivel C1-C2 (nivel atlantoaxial), no en C3-4. La ACDF en C3-4 no abordaría la inestabilidad C1-C2 que causa la compresión medular",
+            "D": "El IAO normal en adultos es ≤3 mm. Un IAO de 8 mm en un adulto es gravemente anormal. La afirmación de que cualquier IAO es normal en adultos es factualmente incorrecta"
+          },
+          "guideline": "AOSpine/EANS — SAA reumatoide: IAO >3,5 mm = insuficiencia ligamentosa; IAOP <14 mm = riesgo de compresión medular; artrodesis C1-C2 posterior para SAA sintomática con mielopatía",
+          "trial": "Boden SD (Spine 1994): IAOP y pronóstico neurológico en SAA reumatoide; Harms J, Melcher RP (Spine 2001): técnica de tornillo de masa lateral de C1 + pedicular de C2 para artrodesis atlantoaxial",
+          "pearl": "IAO normal en adultos: ≤3 mm. IAO >3,5 mm = lesión ligamentosa. IAO >10 mm = alto riesgo de compresión medular. SAA reumatoide con mielopatía → artrodesis C1-C2 posterior (técnica de Harms). IAOP <14 mm es un indicador adicional de compromiso medular."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q8",
+        "stem": "Para una mujer de 50 años con MCE moderada (mJOA 13) por compresión en tres niveles (C3-4, C4-5, C5-6) en columna cervical lordótica, sin cifosis significativa, sin inestabilidad y con compresión predominantemente posterior por hipertrofia del ligamento amarillo e hipertrofia articular facetaria: ¿cuál es el abordaje quirúrgico MÁS apropiado?",
+        "options": {
+          "A": "ACDF en tres niveles — proporciona descompresión anterior directa",
+          "B": "Laminoplastia cervical (C3-C6) — apropiada para compresión posterior multinivel en columna lordótica, preservando el movimiento sin artrodesis",
+          "C": "Laminectomía sola sin artrodesis — estándar para la enfermedad multinivel",
+          "D": "ACDF de un solo nivel en el nivel más comprimido solamente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este escenario describe con precisión la indicación ideal para la laminoplastia cervical: MCE multinivel (3 niveles), alineación cervical lordótica, compresión posterior (ligamento amarillo, articulación facetaria) y sin inestabilidad. La laminoplastia amplía el canal, permite la migración posterior de la médula en la columna lordótica, preserva la columna posterior y evita la artrodesis. La ACDF de tres niveles tiene tasas más altas de pseudoartrosis y morbilidad. La laminectomía aislada (sin artrodesis) conlleva riesgo de cifosis poslaminectomía con el tiempo.",
+          "wrong": {
+            "A": "La ACDF de tres niveles es técnicamente factible pero conlleva tasas más altas de pseudoartrosis (10–15%) y generalmente se reserva para la compresión ventral (hernia discal, OLVCP). Esta paciente tiene compresión principalmente posterior — un abordaje de laminoplastia o posterior es más eficiente",
+            "C": "La laminectomía aislada sin artrodesis ha sido prácticamente abandonada por la alta tasa de cifosis poslaminectomía (cifosis cervical que se desarrolla tras la extirpación del elemento posterior sin estabilización). Se prefiere la laminoplastia o la laminectomía+artrodesis",
+            "D": "La ACDF de un solo nivel en el nivel más comprimido es inadecuada cuando tres niveles son sintomáticos — dejaría compresión medular residual en los niveles adyacentes"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — MCE multinivel (≥3 niveles) en columna lordótica con compresión predominantemente posterior: la laminoplastia es el abordaje quirúrgico apropiado",
+          "trial": "Hirabayashi K (1979): técnica de laminoplastia; Fehlings MG (J Bone Joint Surg 2013): comparación de abordajes de descompresión multinivel — laminoplastia con eficacia equivalente a ACDF para MCE multinivel en columna lordótica",
+          "pearl": "Indicación ideal de laminoplastia: MCE multinivel (≥3 niveles) + alineación LORDÓTICA + compresión POSTERIOR predominante (ligamento amarillo, articulaciones facetarias). NO para: cifosis, compresión de predominio ventral, inestabilidad."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q9",
+        "stem": "¿Cuáles son las características clínicas que distinguen el síndrome de cordón ANTERIOR del síndrome de cordón CENTRAL?",
+        "options": {
+          "A": "Cordón anterior: manos peor que piernas; cordón central: piernas peor que manos",
+          "B": "Cordón anterior: pérdida completa de motor y dolor/temperatura por debajo del nivel de la lesión, CON PRESERVACIÓN de la función de la columna posterior (vibración, propiocepción, tacto fino); cordón central: manos peor que piernas con retención urinaria",
+          "C": "Cordón anterior: función motora preservada con pérdida sensitiva; cordón central: pérdida completa de motor y sensitivo",
+          "D": "El cordón anterior y el cordón central son clínicamente idénticos — solo la RM los distingue"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Síndrome de cordón anterior: causado por isquemia de la arteria espinal anterior o contusión directa del cordón anterior. El cordón espinal anterior contiene: (1) tractos corticoespinales (motor), (2) tractos espinotalámicos (dolor/temperatura). Las columnas posteriores (cordones dorsales — vibración, propiocepción, tacto fino) están irrigadas por las arterias espinales posteriores y típicamente están RESPETADAS. Clínica: pérdida completa de motor + pérdida completa de dolor/temperatura por debajo de la lesión + PRESERVACIÓN de vibración y propiocepción. Síndrome de cordón central: debilidad desproporcionada de los miembros superiores (manos > brazos > piernas), disfunción urinaria. La preservación de la columna posterior en el síndrome de cordón anterior es la característica diferenciadora.",
+          "wrong": {
+            "A": "Esto invierte las descripciones — manos peor que piernas es el síndrome de cordón CENTRAL, no el anterior",
+            "C": "El síndrome de cordón anterior NO preserva la función motora — causa parálisis motora completa por debajo de la lesión. El síndrome de cordón posterior (infrecuente) preserva la función motora",
+            "D": "Las presentaciones clínicas son claramente diferentes según la distribución de la lesión medular — la exploración clínica distingue los síndromes"
+          },
+          "guideline": "EANS/AOSpine — Síndromes de lesión medular: la clasificación clínica guía el pronóstico y el manejo",
+          "trial": "Escala de Deterioro ASIA y clasificación de lesión medular incompleta; Schneider RC (1954): descripción original del síndrome de cordón central; Roth EJ (Arch Phys Med Rehab 1991): pronóstico del síndrome de cordón anterior",
+          "pearl": "Síndrome de cordón anterior = pérdida motora + pérdida de dolor/temperatura + PRESERVACIÓN de columna posterior (vibración, propiocepción). Mecanismo: arteria espinal anterior. Cordón central = manos peor que piernas + retención urinaria. Brown-Séquard = pérdida motora ipsilateral + pérdida de dolor/temperatura contralateral."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q10",
+        "stem": "Una mujer de 53 años fue sometida a ACDF de un solo nivel en C4-5 siete años atrás por radiculopatía. Ahora presenta nuevo dolor en el brazo, debilidad e imagen que muestra espondilosis grave en C3-4 (el nivel inmediatamente superior a la artrodesis previa). ¿Cuál es este fenómeno?",
+        "options": {
+          "A": "Pseudoartrosis en el nivel de artrodesis C4-5 — se requiere revisión de la artrodesis previa",
+          "B": "Enfermedad del segmento adyacente (ESA) — degeneración acelerada en los niveles adyacentes a una artrodesis cervical previa",
+          "C": "Hernia discal recurrente en el mismo nivel — se requiere nueva exploración de C4-5",
+          "D": "Mielopatía cervical por enfermedad multinivel no relacionada con la artrodesis previa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La enfermedad del segmento adyacente (ESA) es el desarrollo de patología degenerativa sintomática en los niveles vertebrales inmediatamente adyacentes a una artrodesis previa. Tras la artrodesis ACDF en C4-5, aumenta el movimiento y el estrés transferido a los segmentos no fusionados adyacentes (C3-4 por encima y C5-6 por debajo). Incidencia de ESA: aproximadamente el 6–16% requieren reintervención en los 10 años siguientes a una ACDF. La fisiopatología es la degeneración mecánica acelerada por la biomecánica alterada en el nivel adyacente. La artroplastia de disco cervical (preservación del movimiento) se desarrolló en parte para reducir las tasas de ESA — aunque la superioridad a largo plazo sigue en debate.",
+          "wrong": {
+            "A": "La pseudoartrosis (ausencia de unión de la artrodesis) se presentaría en el nivel C4-5 con cervicalgia recurrente o persistente y movimiento en el nivel de artrodesis en las vistas de flexión-extensión — no con nueva patología en C3-4",
+            "C": "La hernia discal recurrente en C4-5 podría ocurrir (pseudoartrosis con recurrencia del disco) pero es una patología diferente. Nueva enfermedad en C3-4 a los 7 años de una artrodesis en C4-5 = enfermedad del segmento adyacente",
+            "D": "Aunque puede existir enfermedad degenerativa multinivel de forma independiente, el desarrollo de patología específicamente en el nivel adyacente a una artrodesis previa a los 7 años es la definición de enfermedad del segmento adyacente"
+          },
+          "guideline": "AOSpine CSM Guidelines — Enfermedad del segmento adyacente: complicación a largo plazo reconocida de la artrodesis cervical; requiere reintervención en el 6–16% a los 10 años",
+          "trial": "Goffin J et al. (Spine 2004): ESA tras ACDF — tasa de reintervención del 6% a los 10 años; Hilibrand AS (J Bone Joint Surg 1999): ESA sintomática en el 2,9% anual tras ACDF",
+          "pearl": "Enfermedad del segmento adyacente: degeneración sintomática en niveles ADYACENTES a artrodesis cervical previa. 6–16% de reintervención a los 10 años. Acelerada por transferencia de estrés biomecánico. La ADC (artroplastia) se desarrolló para reducir la ESA preservando el movimiento — la evidencia muestra ESA radiológica reducida, ESA clínica en debate."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q11",
+        "stem": "Una mujer de 40 años presenta mielopatía progresiva (mJOA 10) por osificación del ligamento vertebral común posterior (OLVCP) que se extiende de C3 a C6. La TC muestra que la OLVCP ocupa el 50% del diámetro del canal. La alineación cervical es lordótica. ¿Cuál es el abordaje quirúrgico más apropiado y qué complicación específica aumenta en la cirugía de OLVCP?",
+        "options": {
+          "A": "ACDF en todos los niveles afectados — la OLVCP siempre requiere abordaje anterior",
+          "B": "La laminoplastia cervical (C3-C6) es apropiada dado el alineamiento lordótico; la complicación específica es la fuga de LCR intraoperatoria por adherencia OLVCP-dural en el abordaje anterior",
+          "C": "Tratamiento conservador — la OLVCP responde a la fisioterapia",
+          "D": "Foraminotomía posterior en cada nivel — la OLVCP es un problema foraminal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La OLVCP cervical multinivel en columna lordótica es una indicación clásica para la laminoplastia cervical. El abordaje posterior permite la descompresión medular por migración posterior sin manipular directamente la OLVCP, evitando el alto riesgo de desgarro dural y fuga de LCR por adherencia OLVCP-dural durante la cirugía anterior. La OLVCP puede adherirse a la duramadre (osificación dural en el 4–20% de las OLVCP), y el intento de ACDF/corpectomía en esta situación conlleva tasas muy altas de fuga de LCR. La laminoplastia evita la manipulación directa de la OLVCP. El riesgo específico elevado durante la cirugía ANTERIOR de OLVCP es el **desgarro dural intraoperatorio** por adherencia de la osificación a la duramadre.",
+          "wrong": {
+            "A": "La OLVCP no siempre requiere cirugía anterior — la OLVCP multinivel con alineación lordótica se trata preferentemente por vía posterior (laminoplastia) para evitar el alto riesgo de desgarro dural durante la resección anterior de OLVCP",
+            "C": "mJOA 10 = MCE grave. El tratamiento conservador es inapropiado para la mielopatía grave por cualquier causa incluyendo la OLVCP",
+            "D": "La foraminotomía posterior aborda la compresión de la raíz nerviosa en el foramen — la OLVCP causa estenosis del canal central y mielopatía, no radiculopatía foraminal"
+          },
+          "guideline": "AOSpine CSM/OPLL Guidelines 2017 — OLVCP multinivel en columna lordótica: laminoplastia posterior preferida; la resección anterior de OLVCP tiene alto riesgo de desgarro dural",
+          "trial": "Fehlings MG et al. (J Neurosurg Spine 2010): resultados quirúrgicos de OLVCP; riesgo de adherencia dural y fuga de LCR en cirugía anterior de OLVCP documentado en múltiples series",
+          "pearl": "OLVCP multinivel + columna lordótica = LAMINOPLASTIA (posterior). Evitar la cirugía anterior para OLVCP porque puede adherirse a la duramadre — riesgo muy alto de desgarro dural y fuga de LCR. Si se requiere cirugía anterior para OLVCP, planificar posible desgarro dural y reparación de LCR."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q12",
+        "stem": "El fenómeno de Lhermitte (signo de Lhermitte) es una característica clásica de la mielopatía cervical. ¿Qué describe y cuál es su fisiopatología?",
+        "options": {
+          "A": "Un signo de Babinski positivo provocado por la flexión del cuello — signo de neurona motora superior",
+          "B": "Una sensación de descarga eléctrica que recorre la columna vertebral y los miembros al flexionar el cuello — indica irritación de los cordones dorsales (funículo posterior) por compresión medular o desmielinización",
+          "C": "La flexión del cuello que causa pérdida de conciencia inmediata por compresión vertebrobasilar",
+          "D": "Dolor que se irradia al brazo al comprimir el cuello — indica irritación de la raíz nerviosa por fibras C"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El fenómeno de Lhermitte describe una breve parestesia en forma de descarga eléctrica que se irradia por la columna y las extremidades con la flexión del cuello. Es causado por la irritación mecánica de los cordones dorsales (funículo posterior) desmielinizados o comprimidos en la médula cervical durante el estiramiento en la flexión. NO es específico de la espondilosis cervical — también ocurre en la esclerosis múltiple (síntoma clave de la EM), mielitis transversa y tras la irradiación cervical. En el contexto de la espondilosis cervical con mielopatía, indica afectación de los cordones dorsales.",
+          "wrong": {
+            "A": "El signo de Babinski se obtiene por estimulación plantar, no por flexión del cuello. Lhermitte es un fenómeno sensitivo, no un reflejo plantar patológico",
+            "C": "La pérdida de conciencia por flexión del cuello sugiere insuficiencia vertebrobasilar o arritmia — no Lhermitte. Lhermitte es una parestesia breve, no síncope",
+            "D": "El dolor radicular en el brazo por compresión del cuello es el signo de Spurling — una prueba diferente. Lhermitte es un signo mielopático (cordón dorsal), no un signo radicular"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Signo de Lhermitte como indicador clínico de mielopatía cervical; indica afectación de los cordones dorsales",
+          "trial": "Al-Arfaj A (CMAJ 2003): signo de Lhermitte en EM frente a espondilosis cervical; Yoss RE (Proc Staff Meet Mayo Clin 1957): signos clínicos de mielopatía cervical espondilótica",
+          "pearl": "Signo de Lhermitte = descarga eléctrica por la columna y los miembros con la flexión del cuello = irritación del cordón dorsal (funículo posterior). Causas: espondilosis cervical, esclerosis múltiple, mielopatía por radiación. NO específico de espondilosis cervical — la EM es otra causa clave."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q13",
+        "stem": "Una mujer de 35 años tiene una radiculopatía C6 derecha por hernia discal blanda C5-6. Sus síntomas han persistido durante 10 semanas a pesar de AINEs y fisioterapia. Tiene debilidad del bíceps derecho (4/5) y reflejo bicipital derecho reducido. No desea cirugía con artrodesis. ¿Cuál es una opción quirúrgica mínimamente invasiva apropiada que preserva el movimiento cervical?",
+        "options": {
+          "A": "Foraminotomía posterior derecha en C5-6 (abordaje en cerradura) — descomprime la raíz C6 desde atrás sin artrodesis",
+          "B": "Discectomía y artrodesis cervical anterior (ACDF) en C5-6 — la única opción para la radiculopatía C6",
+          "C": "Laminoplastia cervical C4-C7 — tratamiento estándar para toda radiculopatía cervical",
+          "D": "Inyección epidural lumbar de corticoides — las inyecciones cervicales y lumbares son intercambiables"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La foraminotomía cervical posterior (foraminotomía en cerradura) mediante un abordaje posterior con retractor tubular mínimamente invasivo descomprime el receso lateral y el foramen neural en C5-6 desde un abordaje posterior, aliviando la compresión de la raíz C6 sin necesidad de cirugía anterior ni artrodesis. Es particularmente adecuada para hernia discal lateral o posterolateral que causa radiculopatía, y para estenosis foraminal por osteofitos de la articulación uncovertebral. Preserva el movimiento C5-6. Tasas de éxito: 90–95% de alivio del dolor radicular en pacientes cuidadosamente seleccionados. No es adecuada para compresión medular central o hernia discal medial significativa.",
+          "wrong": {
+            "B": "La ACDF es una excelente opción pero requiere artrodesis y no es la única opción. Para un paciente que solicita específicamente la preservación del movimiento, la foraminotomía posterior es la alternativa apropiada",
+            "C": "La laminoplastia es para la mielopatía multinivel, no para la radiculopatía de un solo nivel. Es completamente inapropiada para la radiculopatía C6 aislada",
+            "D": "Las inyecciones epidurales lumbares tratan la patología lumbar — no tienen efecto sobre la radiculopatía cervical. Las inyecciones epidurales o transforaminales cervicales de corticoides son la opción de inyección para la radiculopatía cervical"
+          },
+          "guideline": "AOSpine Radiculopathy Guidelines — Foraminotomía posterior: apropiada para radiculopatía cervical lateral/foraminal en pacientes que desean preservar el movimiento; resultados equivalentes a ACDF",
+          "trial": "Ruetten S et al. (Spine 2008): foraminotomía posterior endoscópica completa frente a ACDF — resultados equivalentes a los 2 años; sin necesidad de artrodesis",
+          "pearl": "Foraminotomía cervical posterior = alternativa con preservación del movimiento a la ACDF para hernia discal lateral/foraminal que causa radiculopatía. Sin artrodesis. 90–95% de alivio del dolor radicular. Contraindicada para estenosis del canal central o mielopatía."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q14",
+        "stem": "Una mujer de 70 años con osteoporosis sufre una fractura de C2 en una caída de baja velocidad. La TC muestra una fractura de odontoides Tipo III (fractura que se extiende al cuerpo de C2). Hay desplazamiento mínimo (<2 mm). Está neurológicamente intacta y no tiene contraindicaciones médicas para la inmovilización con halo. ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Artrodesis C1-C2 urgente — todas las fracturas de odontoides requieren cirugía",
+          "B": "Ortesis cervical rígida durante 6–8 semanas — las fracturas Tipo III tienen buenas tasas de consolidación con inmovilización externa",
+          "C": "Las fracturas Tipo III nunca deben tratarse de forma conservadora — todas requieren tornillo de odontoides anterior",
+          "D": "Observación sin inmovilización — las fracturas Tipo III son estables por definición"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las fracturas de odontoides Tipo III (que se extienden al cuerpo de C2) tienen una historia natural favorable con tratamiento conservador debido a la gran superficie de hueso esponjoso disponible para la consolidación. Tasas de consolidación con halo-chaleco u ortesis rígida (8–12 semanas): 85–90%. En esta paciente con desplazamiento mínimo (<2 mm), sin déficit neurológico y sin inestabilidad significativa, la ortesis cervical rígida durante 6–8 semanas (más tiempo si anciana/osteoporosis) es apropiada. La cirugía (artrodesis C1-C2 posterior) se reserva para fracturas Tipo III con desplazamiento significativo (>5 mm), conminución, fracaso del tratamiento conservador o incapacidad del paciente para tolerar la fijación externa.",
+          "wrong": {
+            "A": "NO todas las fracturas de odontoides requieren cirugía. El Tipo III con desplazamiento mínimo tiene excelentes resultados conservadores (85–90% de consolidación con collarín). La cirugía se reserva para características de mayor riesgo específicas",
+            "C": "Las fracturas Tipo III SÍ tienen buenos resultados conservadores — el tornillo de odontoides anterior no es apropiado para el Tipo III (el tornillo está diseñado para el Tipo II). El Tipo III se trata con inmovilización externa",
+            "D": "Las fracturas Tipo III no se tratan sin inmovilización — aunque consolidan bien, se requiere inmovilización externa (collarín) para promover la consolidación y prevenir el desplazamiento"
+          },
+          "guideline": "AOSpine Subaxial/Upper Cervical Spine Guidelines — Odontoides Tipo III: tratamiento conservador con halo u ortesis rígida; cirugía para desplazamiento >5 mm, conminución o fracaso del tratamiento conservador",
+          "trial": "Anderson LD, D'Alonzo RT (J Bone Joint Surg 1974): clasificación y resultados de las fracturas de odontoides; Grauer JN (Spine 2005): tasas de consolidación conservadora del Tipo III 85–90%",
+          "pearl": "Manejo de fractura de odontoides: Tipo I = collarín, Tipo II = cirugía (si >50 años, desplazamiento >4–5 mm o conminuto), Tipo III = ortesis rígida (85–90% de unión). El tratamiento conservador para el Tipo III es la primera línea en la mayoría de los casos."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q15",
+        "stem": "Un varón de 45 años ha sido sometido a ACDF multinivel (C3-4, C4-5, C5-6, C6-7) por mielorradiculopatía. En el posoperatorio refiere nuevo dolor en el hombro izquierdo y brazo superior con debilidad (deltoides 3/5, bíceps 4/5, reflejo bicipital izquierdo ausente). La TC y la RM no muestran hematoma, mala posición del material de síntesis ni descompresión inadecuada del canal. ¿Cuál es el diagnóstico más probable y cuál es el pronóstico?",
+        "options": {
+          "A": "Parálisis de C5 posoperatoria — se espera resolución espontánea en el 85–90% en 3–6 meses",
+          "B": "Lesión de la arteria vertebral — ASD urgente necesaria",
+          "C": "Hematoma posoperatorio — regreso urgente a quirófano",
+          "D": "Pseudoartrosis en C4-5 — se requiere nueva artrodesis"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Se trata de parálisis de C5: nueva debilidad posoperatoria del deltoides y del bíceps (distribución C5) tras descompresión multinivel con ACDF. La TC y la RM excluyen mala posición del material de síntesis o hematoma. Diagnóstico de exclusión: parálisis de C5 por atrapamiento de la raíz nerviosa al descomprimirse la médula posteriormente. El reflejo bicipital izquierdo ausente (contribución C5-6) es consistente. Pronóstico: el 85–90% se recupera completamente en 3–6 meses con tratamiento conservador (fisioterapia, protección del hombro, ejercicios pasivos de rango de movimiento). El mecanismo de la parálisis de C5 es controvertido — probablemente incluye tracción de la raíz medular, compromiso foraminal por restauración de la altura vertebral y hemorragia local.",
+          "wrong": {
+            "B": "La lesión de la arteria vertebral causa síntomas de ictus de la circulación posterior (vértigo, diplopía, ataxia, déficits en miembros contralaterales) — no debilidad aislada en la distribución C5 del miembro superior con función preservada de los miembros inferiores",
+            "C": "Un hematoma que cause déficit neurológico se vería en RM y TC, y típicamente causaría déficits mielopáticos bilaterales en lugar de déficit aislado unilateral de la raíz C5",
+            "D": "La pseudoartrosis es una complicación a largo plazo (meses a años posoperatorio) caracterizada por cervicalgia persistente y movimiento en el nivel de artrodesis — no déficit motor agudo posoperatorio de la raíz C5"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Parálisis de C5: complicación reconocida de ACDF multinivel; tratamiento conservador; 85–90% de resolución en 6 meses",
+          "trial": "Nassr A (J Bone Joint Surg 2012): incidencia y pronóstico de parálisis de C5; Bydon M (Spine 2014): resultados multicéntricos de parálisis de C5 — 85–90% de recuperación completa en 6 meses",
+          "pearl": "Parálisis de C5 tras ACDF multinivel: nueva debilidad del deltoides ± bíceps tras descompresión. Excluir hematoma/mala posición de material con imagen. Si imagen normal → parálisis de C5, manejo conservador. 85–90% de recuperación en 3–6 meses."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q16",
+        "stem": "En la discectomía y artrodesis cervical anterior (ACDF) por un abordaje derecho, ¿qué nervio craneal importante está en riesgo durante la disección profunda lateral y qué déficit causa su lesión?",
+        "options": {
+          "A": "Nervio vago — causando bradicardia e hipotensión",
+          "B": "Nervio laríngeo recurrente (NLR) — causando parálisis ipsilateral de la cuerda vocal con disfonía y riesgo de aspiración",
+          "C": "Nervio frénico — causando parálisis ipsilateral del diafragma",
+          "D": "Nervio hipogloso — causando desviación ipsilateral de la lengua"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El nervio laríngeo recurrente (NLR) es el nervio craneal con mayor riesgo durante la ACDF. En el lado derecho, el NLR rodea la arteria subclavia antes de ascender en el surco traqueoesofágico. Discurre inmediatamente adyacente al borde lateral de la glándula tiroides y el surco traqueoesofágico. La lesión del NLR causa parálisis ipsilateral de la cuerda vocal — que se presenta como disfonía, tos débil y riesgo de aspiración. Muchos cirujanos prefieren el abordaje ACDF por el lado IZQUIERDO ya que el NLR izquierdo tiene un trayecto más largo y protegido (rodeando el arco aórtico y ascendiendo más medialmente en el surco traqueoesofágico), aunque esto es debatido.",
+          "wrong": {
+            "A": "El nervio vago discurre dentro de la vaina carotídea (junto a la arteria carótida común y la vena yugular interna) — la lesión directa es posible pero menos frecuente que la lesión del NLR con retracción quirúrgica correcta",
+            "C": "El nervio frénico (C3-5) discurre sobre la superficie anterior del músculo escaleno anterior — puede lesionarse durante la disección lateral o la retracción, pero es menos frecuente en la discusión de riesgo del NLR",
+            "D": "El nervio hipogloso (XII) discurre superiormente en el cuello cerca del hueso hioides — es relevante durante la exposición cervical alta (abordaje anterior C1-C2) pero no durante la ACDF estándar (C3-C7)"
+          },
+          "guideline": "AOSpine ACDF Technical Guidelines — El NLR es el nervio craneal principal en riesgo; el abordaje por el lado izquierdo puede reducir el riesgo de lesión del NLR; la retracción medial cuidadosa de la tráquea y el esófago reduce el riesgo",
+          "trial": "Netterville JL (Ann Otol Rhinol Laryngol 1996): lesión del NLR en ACDF — disfonía 1–11%; debate abordaje izquierdo frente a derecho",
+          "pearl": "Nervio craneal en riesgo en ACDF: NLR (nervio laríngeo recurrente) → parálisis de cuerda vocal (disfonía, aspiración). NLR derecho rodea la arteria subclavia (más corto, más lateral). NLR izquierdo rodea el arco aórtico (más medial, más profundo en el surco traqueoesofágico). El síndrome de Horner por lesión de la cadena simpática es la otra complicación importante."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q17",
+        "stem": "Un varón de 60 años se somete a laminectomía cervical de C3 a C6 sin artrodesis por MCE multinivel. En los 2 años siguientes desarrolla cervicalgia progresiva, mielopatía que empeora y la radiografía lateral muestra una deformidad cifótica cervical en C4-5. ¿Cuál es esta complicación y cómo debe manejarse?",
+        "options": {
+          "A": "Cifosis poslaminectomía — requiere corpectomía anterior con reconstrucción lordótica o artrodesis posterior de revisión con corrección lordótica",
+          "B": "Enfermedad del segmento adyacente — se requiere ACDF en C2-C3",
+          "C": "Se trata de un cambio posoperatorio normal — no se necesita tratamiento",
+          "D": "Pseudoartrosis poslaminectomía — solo revisión de la descompresión"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La cifosis poslaminectomía es una complicación a largo plazo reconocida de la laminectomía cervical multinivel SIN artrodesis (incidencia 6–20% en adultos, mayor en niños). Tras eliminar la banda de tensión posterior (ligamento nucal, cápsulas articulares facetarias, ligamentos supraespinoso/interespinoso, láminas), la columna cervical pierde el soporte de la banda posterior de tensión y los cuerpos vertebrales anteriores soportan la carga axial completa, tendiendo al colapso cifótico. Esto empeora la compresión medular (la médula se pliega sobre el vértice cifótico). Manejo: reconstrucción anterior con ACDF/ACCF lordótico para restaurar la lordosis, o revisión posterior con artrodesis instrumentada (tornillos de masa lateral/pédiculares) con contorneado lordótico de la barra. Esta es la razón por la que se prefiere la laminoplastia (que preserva los elementos posteriores) o la laminectomía+artrodesis sobre la laminectomía aislada.",
+          "wrong": {
+            "B": "La enfermedad del segmento adyacente afecta a los niveles adyacentes a una artrodesis — este paciente no tiene artrodesis previa. El problema es la cifosis por la extirpación del elemento posterior",
+            "C": "La deformidad cifótica progresiva con mielopatía que empeora NO es un hallazgo posoperatorio normal — requiere tratamiento",
+            "D": "La pseudoartrosis se aplica a los sitios de artrodesis — en este caso no se realizó artrodesis. La complicación es la deformidad cifótica por laminectomía"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — La laminectomía aislada sin artrodesis aumenta el riesgo de cifosis poslaminectomía; se prefiere laminoplastia o laminectomía+artrodesis para la descompresión multinivel",
+          "trial": "Guigui P (Spine 1998): incidencia y manejo de la cifosis poslaminectomía; Kaptain GJ (J Neurosurg Spine 2000): cifosis poslaminectomía — incidencia 6–20% sin artrodesis",
+          "pearl": "Cifosis poslaminectomía: complicación de la laminectomía multinivel SIN artrodesis. Incidencia 6–20%. Prevención: usar laminoplastia (preserva la columna posterior) o laminectomía+artrodesis. Tratamiento: reconstrucción anterior (ACDF/ACCF con corrección lordótica) o artrodesis posterior."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q18",
+        "stem": "Una mujer de 48 años tiene distribución dermatomérica de C6. ¿Cuál de las siguientes opciones describe correctamente el territorio dermatomérico C6 y su reflejo asociado?",
+        "options": {
+          "A": "C6: parestesias en dedo anular y meñique; reflejo tricipital reducido",
+          "B": "C6: parestesias en pulgar, índice y antebrazo lateral; reflejo bicipital y braquiorradial reducido",
+          "C": "C6: parestesias en dedo medio y dorso de la mano; reflejo tricipital reducido",
+          "D": "C6: toda la palma y muñeca volar; reflejo flexor de los dedos reducido"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Territorio dermatomérico de C6: pulgar, índice y antebrazo lateral (el territorio pulgar/índice es la característica diferenciadora clave). C6 inerva el bíceps (flexión del codo) y el braquiorradial — los reflejos bicipital y braquiorradial están reducidos con la lesión de la raíz C6. C5-6 es el nivel de disco cervical más frecuentemente afectado en la enfermedad degenerativa.",
+          "wrong": {
+            "A": "Dedo anular y meñique con reflejo tricipital = distribución de raíz C8 (nivel de disco C7-T1). C6 no afecta al dedo anular/meñique",
+            "C": "Dedo medio con dorso de la mano = distribución de raíz C7 (nivel de disco C6-7). La lesión de la raíz C7 reduce el reflejo tricipital (no bicipital). Dedo medio = C7",
+            "D": "Toda la palma y muñeca volar es la distribución del nervio mediano (C6, C7, C8, T1 a través del nervio mediano) — no el dermatoma específico de C6, que es pulgar/índice/antebrazo lateral"
+          },
+          "guideline": "AOSpine/EANS — Referencia dermatomérica cervical: C5=brazo lateral, C6=pulgar/índice/antebrazo lateral, C7=dedo medio, C8=dedo anular/meñique",
+          "trial": "Referencias estándar de exploración neurológica; Aids to the Examination of the Peripheral Nervous System (Medical Research Council 1976)",
+          "pearl": "Mnemotecnia dermatomérica cervical: C5=hombro (deltoides), C6=PULGAR (reflejo bicipital/braquiorradial), C7=dedo MEDIO (reflejo tricipital), C8=dedo MEÑIQUE (flexores de los dedos). Nivel del disco = uno por encima del número de la raíz: raíz C6 = disco C5-6."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q19",
+        "stem": "Una mujer de 68 años desarrolla nueva cervicalgia e incapacidad para flexionar el cuello 3 días después de una inyección epidural cervical de corticoides guiada por fluoroscopia para radiculopatía cervical. Tiene temperatura de 38,8°C, PCR elevada y leucocitos 14.000/µL. La RM muestra cambio de señal T2 en el espacio discal C3-C5 y edema del cuerpo vertebral. ¿Cuál es el diagnóstico y el manejo?",
+        "options": {
+          "A": "Espasmo muscular cervical por traumatismo de la aguja — AINEs y fisioterapia",
+          "B": "Espondilodiscitis cervical (absceso epidural u osteomielitis vertebral) — evaluación neuroquirúrgica urgente, antibioterapia empírica y consideración de desbridamiento quirúrgico",
+          "C": "Miopatía por corticoides — suspender corticoides y observar",
+          "D": "SDRC (síndrome de dolor regional complejo) por traumatismo de la inyección"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Fiebre posprocedimental, marcadores inflamatorios elevados, rigidez de cuello y RM que muestra cambio de señal T2 en el espacio discal con edema vertebral tras un procedimiento espinal invasivo constituye espondilodiscitis espinal (discitis infecciosa ± osteomielitis vertebral) hasta que se demuestre lo contrario. Esta es una complicación infrecuente reconocida de la inyección epidural de corticoides. Manejo: (1) consulta a neurocirugía y enfermedades infecciosas; (2) RM con gadolinio (estándar de oro — muestra realce del disco, erosión de la placa terminal y extensión epidural); (3) biopsia guiada por TC para cultivo antes de los antibióticos si hemodinámicamente estable; (4) antibióticos IV empíricos (habitualmente 6–8 semanas en total); (5) desbridamiento quirúrgico y estabilización si absceso epidural con compromiso neurológico o fracaso del tratamiento médico.",
+          "wrong": {
+            "A": "La nueva fiebre, los marcadores inflamatorios elevados y el cambio de señal del disco en RM 3 días después de una intervención procedimental NO es espasmo muscular — esto es infección hasta que se demuestre lo contrario",
+            "C": "La miopatía por corticoides es una complicación crónica (semanas a meses) del uso sistémico de corticoides — no una presentación posinyección aguda con fiebre y cambios en RM",
+            "D": "El SDRC no causa cambios de señal del disco en RM, fiebre ni marcadores inflamatorios elevados"
+          },
+          "guideline": "EANS/NASS — Infección espinal posprocedimental: evaluación urgente con RM; antibioterapia mínimo 6 semanas; cirugía para compromiso neurológico o fracaso del tratamiento médico",
+          "trial": "Reeves RK (Reg Anesth Pain Med 2000): serie de casos de infección tras inyección epidural de corticoides; Deyo RA (NEJM 2001): procedimientos espinales y riesgo de infección",
+          "pearl": "Fiebre posprocedimiento + cervicalgia + PCR elevada + cambio de señal del disco en RM = ESPONDILODISCITIS hasta que se demuestre lo contrario. Tratar urgentemente: hemocultivos, RM con gadolinio, biopsia guiada por TC si estable, luego antibióticos IV empíricos. Cirugía para absceso epidural con déficit neurológico."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q20",
+        "stem": "La artroplastia de disco cervical (ADC) se propone como alternativa con preservación del movimiento a la ACDF. ¿Cuál es la PRINCIPAL ventaja propuesta de la ADC frente a la ACDF y cuál es su principal contraindicación?",
+        "options": {
+          "A": "Ventaja: alivio inmediato del dolor; contraindicación: osteoporosis",
+          "B": "Ventaja: preservación del movimiento segmentario para reducir la enfermedad del segmento adyacente (ESA); principal contraindicación: inestabilidad significativa, OLVCP o artrosis facetaria",
+          "C": "Ventaja: mejores tasas de consolidación que la ACDF; contraindicación: edad <45 años",
+          "D": "Ventaja: aplicable a mielopatía de cualquier gravedad; contraindicación: laminoplastia previa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La artroplastia de disco cervical preserva el movimiento segmentario en el nivel tratado, reduciendo teóricamente el aumento de estrés transferido a los segmentos adyacentes que causa la enfermedad del segmento adyacente (ESA). Múltiples ECA (ensayo del disco BRYAN, ensayo ProDisc-C, ensayo Prestige ST) muestran que la ADC logra resultados al menos equivalentes a la ACDF a los 2–7 años con menor ESA que requiere reintervención. La principal contraindicación: cualquier condición que requiera ARTRODESIS — inestabilidad (traumática o ligamentosa), OLVCP (donde la prótesis no puede colocarse por el LCP osificado), artrosis facetaria (limita el beneficio del movimiento), osteoporosis grave e infección activa.",
+          "wrong": {
+            "A": "La osteoporosis es una contraindicación relativa pero no la PRINCIPAL contraindicación. La inestabilidad y la OLVCP son contraindicaciones más absolutas para la ADC",
+            "C": "La ADC NO logra tasas de consolidación (está diseñada para NO fusionar). La edad más joven favorece de hecho la ADC (más años para beneficiarse de la preservación del movimiento)",
+            "D": "La ADC es apropiada para la radiculopatía y la mielopatía leve — no es aplicable universalmente a la mielopatía de cualquier gravedad. La mielopatía grave que requiere descompresión agresiva (ACCF) no es indicación de ADC"
+          },
+          "guideline": "AOSpine CDA Guidelines — ADC: la preservación del movimiento reduce la ESA; contraindicaciones incluyen inestabilidad, OLVCP, artrosis facetaria, osteoporosis, infección activa",
+          "trial": "Murrey D et al. Ensayo del disco BRYAN (Spine J 2009): ADC frente a ACDF — resultados equivalentes, menor tasa de reintervención por ESA con ADC a los 7 años; Janssen ME Ensayo ProDisc-C (J Neurosurg Spine 2015)",
+          "pearl": "Ventaja de ADC: preservación del movimiento → reducción de la ESA (menor tasa de reintervención por enfermedad del segmento adyacente). Contraindicaciones: inestabilidad, OLVCP, artrosis facetaria, osteoporosis, infección activa. ADC = preservación del movimiento. ACDF = artrodesis. Elegir según estabilidad y calidad ósea."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

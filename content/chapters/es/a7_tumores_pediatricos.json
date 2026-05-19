@@ -1,0 +1,635 @@
+{
+  "id": "A7",
+  "title": "Tumores Cerebrales Pediátricos",
+  "subtitle": "Bloque A — Neuro-Oncología: Meduloblastoma, Ependimoma, GIPD y Gliomas Pediátricos",
+  "block": "A",
+  "block_name": "Neuro-Oncología",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "SIOPE Paediatric CNS Tumour Guidelines 2023 · NCCN CNS Tumors v1.2024 · WHO CNS Classification 2021",
+  "textbook_refs": [
+    "Taylor MD et al. Molecular subgroups of medulloblastoma: the current consensus. Acta Neuropathol 2012;123:465-472",
+    "Cavalli FMG et al. Intertumoral heterogeneity within medulloblastoma subgroups. Cancer Cell 2017;31:737-754",
+    "Mackay A et al. Integrated molecular meta-analysis of 1000 paediatric high-grade and diffuse intrinsic pontine glioma. Cancer Cell 2017;32:520-537",
+    "Ramaswamy V et al. Risk stratification of childhood medulloblastoma in the molecular era: the SIOP risk stratification framework. Lancet Oncol 2016;17:e470-e485"
+  ],
+  "learning_objectives": [
+    "Aplicar la clasificación molecular en subgrupos de la OMS 2021 del meduloblastoma (WNT, SHH, Grupo 3, Grupo 4) a la estratificación del riesgo clínico y la planificación del tratamiento",
+    "Describir el protocolo de tratamiento estándar para el meduloblastoma según el grupo de riesgo (riesgo estándar vs alto riesgo, dosis de irradiación craneoespinal)",
+    "Distinguir los tipos de ependimoma de fosa posterior (PFA, PFB) y sus características moleculares (fusiones RELA/YAP1, expresión de H3K27me3)",
+    "Aplicar los criterios diagnósticos y el abordaje terapéutico para el glioma intrínseco difuso del tronco del encéfalo (GIPD) y el papel de la mutación H3 K27M",
+    "Describir el manejo de los gliomas pediátricos de bajo grado (fusión BRAF-KIAA1549, astrocitoma pilocítico) y el papel emergente de la inhibición BRAF/MEK",
+    "Identificar los retos únicos del manejo de los tumores del SNC en niños, incluidos los efectos tardíos de la radioterapia en el cerebro en desarrollo"
+  ],
+  "sections": [
+    {
+      "id": "A7-S1",
+      "title": "Meduloblastoma: Clasificación y Estratificación del Riesgo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El meduloblastoma es el tumor cerebral maligno más frecuente en niños, y representa aproximadamente el 20% de todos los tumores del SNC pediátricos. Se origina en la fosa posterior, predominantemente desde el vermis cerebeloso (línea media, cuarto ventrículo) en niños pequeños, y desde los hemisferios cerebelosos en adolescentes. La clasificación de la OMS 2021 ha reestructurado fundamentalmente el meduloblastoma en cuatro subgrupos moleculares, cada uno con biología, asociaciones clínicas y pronóstico diferenciados.\n\n**Meduloblastoma activado por WNT** (10-15%): El subgrupo de mejor pronóstico con SG a 5 años >95%. Se caracteriza por mutaciones en CTNNB1 (β-catenina), deleción 6q y monosomía 6. Se origina en el tronco del encéfalo dorsal. Responde excelentemente a la quimiorradioterapia. Los **ensayos de desescalada** están evaluando dosis reducidas de RT craneoespinal (18 Gy frente al estándar de 23,4 Gy) o abordajes de quimioterapia sola dado el excelente pronóstico.\n\n**Meduloblastoma activado por SHH** (25-30%): Distribución de edad bimodal (lactantes <3 años y adultos >16 años). Mutaciones en PTCH1, SMO o SUFU; histología desmoplásica/nodular en lactantes. Pronóstico intermedio (SG a 5 años ~75% en general). **El estado mutacional de TP53 modifica críticamente el pronóstico**: SHH con mutación TP53 tiene SG a 5 años ~40% (se trata como ultra-alto riesgo); SHH con TP53 nativo tiene SG a 5 años ~80%. El vismodegib (inhibidor de SMO) tiene actividad en el meduloblastoma activado por SHH.\n\n**Meduloblastoma de Grupo 3** (25%): Predominantemente lactantes y niños pequeños. Amplificación de MYC/MYCN en ~15%. Asociado a histología de células grandes/anaplásica. Peor pronóstico (SG a 5 años ~50%), especialmente con amplificación de MYC (SG a 5 años ~30%). La histología clásica es la más frecuente.\n\n**Meduloblastoma de Grupo 4** (35-40%): El subgrupo más frecuente. Amplificación de CDK6, duplicación en tándem de SNCAIP. Pronóstico intermedio (SG a 5 años ~75%). Isocromosoma 17q en >80%. Predominio masculino."
+        },
+        {
+          "type": "table",
+          "title": "Subgrupos Moleculares del Meduloblastoma — OMS 2021",
+          "headers": ["Subgrupo", "Frecuencia", "Pico de Edad", "Características Moleculares Clave", "SG 5 años", "Grupo de Riesgo"],
+          "rows": [
+            ["Activado por WNT", "10-15%", "Cualquiera (>5 años)", "Mutación CTNNB1, monosomía 6, del 6q", ">95%", "Estándar (ensayos de desescalada)"],
+            ["Activado por SHH, TP53 nativo", "20-25%", "Bimodal (<3 años, >16 años)", "Mutación PTCH1/SMO/SUFU; desmoplásico en lactantes", "~80%", "Estándar a Alto"],
+            ["Activado por SHH, TP53 mutado", "5-8%", "5-18 años", "Mutación TP53; frecuentemente amplificación de MYCN", "~40%", "Ultra-alto riesgo"],
+            ["Grupo 3", "~25%", "<5 años", "Amplificación MYC (15%); histología CGA", "~50% (30% con amplificación MYC)", "Alto riesgo"],
+            ["Grupo 4", "35-40%", "Edad escolar, varón", "Amplificación CDK6, duplicación SNCAIP, i17q", "~75%", "Estándar a Alto"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Meduloblastoma WNT: Mejor Pronóstico, Candidato a Desescalada",
+          "content": "El meduloblastoma activado por WNT tiene una SG a 5 años >95% con tratamiento estándar. Es el único subgrupo evaluado en ensayos de desescalada (SJMB12, ACNS0332) usando dosis reducida de RT craneoespinal (18 vs 23,4 Gy) o quimioterapia sola. El WNT se identifica por: acumulación nuclear de β-catenina en IHQ, mutación CTNNB1, monosomía 6. No confundir con el Grupo 4 (el más frecuente, pronóstico intermedio)."
+        }
+      ]
+    },
+    {
+      "id": "A7-S2",
+      "title": "Meduloblastoma: Cirugía, Estadificación y Tratamiento",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Objetivos quirúrgicos**: La resección máxima segura del meduloblastoma es crítica: los pacientes con resección total amplia (RTA, definida como <1,5 cm² de residuo en la RM postoperatoria en las 48 horas) tienen resultados significativamente mejores que los de resección subtotal (RST, >1,5 cm² de residuo). La RTA se logra en el 70-80% de los casos. El acceso es mediante craneotomía suboccipital de línea media con el paciente en prono o en posición sentada. La monitorización neurofisiológica intraoperatoria (PME, PESS, monitorización de nervios craneales incluyendo el VII par y los nervios craneales bajos) es obligatoria. La búsqueda agresiva de la RTA requiere la disección desde el suelo del cuarto ventrículo: la lesión del rafe y el tegmento pontinos causa el **síndrome de fosa posterior** (mutismo cerebeloso, disregulación emocional, hipotonía), que ocurre en el 15-25% de los pacientes, especialmente en tumores de línea media grandes. Suele resolverse parcialmente a lo largo de meses.\n\n**Sistema de estadificación de Chang** (modificado): M0 = sin metástasis; M1 = células tumorales en LCR; M2 = diseminación macroscópica del LCR (intracraneal); M3 = diseminación macroscópica del LCR (espinal); M4 = metástasis extraneural. La estadificación requiere: RM postoperatoria de cerebro Y columna (preoperatoriamente o ≥2 semanas después para evitar el artefacto quirúrgico) y citología del LCR (mediante punción lumbar 2 semanas después para evitar resultados positivos por el trauma quirúrgico).\n\n**Estratificación del riesgo**: Riesgo estándar = edad ≥3 años, M0, RTA (o <1,5 cm² de residuo), histología no anaplásica. Alto riesgo = edad <3 años, M1-M4, RST (>1,5 cm² de residuo) o histología de células grandes/anaplásica (CGA). Alto riesgo molecular = Grupo 3 con amplificación de MYC; SHH con mutación de TP53.\n\n**Tratamiento estándar (≥3 años, riesgo estándar)**: Cirugía → irradiación craneoespinal (ICE) 23,4 Gy + boost en fosa posterior a 54-55,8 Gy → 8 ciclos de quimioterapia adyuvante (CCNU + vincristina + cisplatino). Este protocolo logra una SSE a 5 años ~75-80% para riesgo estándar. **Alto riesgo**: ICE 36 Gy + boost en fosa posterior a 54-55,8 Gy + quimioterapia adyuvante; SSE a 5 años ~55-65%.\n\n**Niños <3 años**: La radioterapia se evita o se retrasa por sus efectos devastadores en el cerebro en desarrollo (deterioro cognitivo grave, retraso del crecimiento, disfunción endocrina). El tratamiento postquirúrgico es quimioterapia intensiva (protocolos HEAD Start, Baby Brain con carboplatino, vincristina, etopósido en dosis altas) para retrasar o evitar la RT. El meduloblastoma desmoplásico/nodular SHH del lactante tiene un excelente pronóstico con quimioterapia sola (SG a 5 años >75%)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Síndrome de Fosa Posterior tras Cirugía de Meduloblastoma",
+          "content": "El síndrome de fosa posterior (mutismo cerebeloso) ocurre en el 15-25% de los pacientes tras cirugía de tumor de fosa posterior de línea media, especialmente meduloblastomas grandes. Inicio: 24-96 horas del postoperatorio (retrasado, no inmediato). Características: mutismo (incapacidad para hablar), labilidad emocional, hipotonía, ataxia. Causa: lesión de la vía dentato-talamo-cortical a través de los pedúnculos cerebelosos. Pronóstico: se resuelve lentamente a lo largo de 6-18 meses, pero pueden persistir déficits del lenguaje. Las familias deben ser informadas preoperatoriamente."
+        }
+      ]
+    },
+    {
+      "id": "A7-S3",
+      "title": "Ependimoma: Fosa Posterior y Espinal",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los ependimomas son el tercer tumor cerebral pediátrico más frecuente, originados en las células ependimarias que revisten el sistema ventricular y el canal espinal. La clasificación de la OMS 2021 introdujo subtipos definidos molecularmente que han transformado el manejo del ependimoma:\n\n**Ependimoma de fosa posterior tipo A (PFA)**: El subtipo más frecuente y más relevante clínicamente en niños. Se caracteriza por la **pérdida de H3K27me3** (trimetilación de la lisina 27 en la histona H3) por inmunohistoquímica, utilizada como marcador diagnóstico. Sobreexpresión de CXorf67 y mutación de EZHIP. Localizado en la fosa posterior, típicamente en niños <5 años. SG media ~5 años. Alta tendencia a recurrencia loco-regional y mal pronóstico a pesar del tratamiento.\n\n**Ependimoma de fosa posterior tipo B (PFB)**: Predominantemente en adultos y niños mayores. Perfil citogenético prácticamente equilibrado (pocas variaciones en el número de copias). H3K27me3 conservada. Pronóstico sustancialmente mejor que el PFA (SG a 10 años >80%).\n\n**Ependimoma espinal**: El tumor intraspinal primario más frecuente en adultos. El subtipo **mutado en NF2** (frecuente en adultos) y el ependimoma espinal con **amplificación de MYCN** (raro, agresivo). El ependimoma mixopapilar (grado 1, localización sacra/cola de caballo) se comporta de forma indolente.\n\n**Ependimoma supratentorial**: Los ependimomas con **fusión ZFTA-RELA** (anteriormente C11orf95-RELA) son el subtipo supratentorial más frecuente en niños, caracterizados por comportamiento agresivo y alta tasa de recurrencia. Los ependimomas supratentoriales con **fusión YAP1** ocurren en lactantes y tienen mejor pronóstico.\n\n**Tratamiento del ependimoma**: Cirugía (resección máxima segura: la resección total amplia se asocia firmemente con la supervivencia); radioterapia local conformada (54-59,4 Gy) tras la RTA en niños ≥1-3 años (se prefiere protonterapia en niños pequeños). La quimioterapia tiene un beneficio probado limitado en el ependimoma fuera de los protocolos de lactantes. El papel de la RT craneoespinal es debatido: la ICE no es estándar para el ependimoma localizado (a diferencia del meduloblastoma). **La RTA sigue siendo el factor pronóstico más importante**: SSP a 5 años 65% vs 30% para RST."
+        },
+        {
+          "type": "table",
+          "title": "Subtipos Moleculares del Ependimoma según la OMS 2021",
+          "headers": ["Subtipo", "Localización", "Característica Molecular Clave", "Edad", "Pronóstico (SG 5 años)", "Marcador IHQ"],
+          "rows": [
+            ["PFA (Fosa Posterior A)", "Fosa posterior", "PÉRDIDA de H3K27me3, EZHIP/CXorf67", "<5 años", "~55% (5 años)", "H3K27me3 IHQ negativo"],
+            ["PFB (Fosa Posterior B)", "Fosa posterior", "Genoma equilibrado, H3K27me3 conservada", "Niños mayores/adultos", ">80% (10 años)", "H3K27me3 IHQ positivo"],
+            ["ZFTA-RELA (ST-RELA)", "Supratentorial", "Fusión ZFTA-RELA (activación NF-κB)", "Niños", "~45% (5 años)", "RELA IHQ+, L1CAM IHQ+"],
+            ["YAP1-fused (ST-YAP1)", "Supratentorial", "Fusión YAP1", "Lactantes <5 años", ">80%", "YAP1 IHQ+"],
+            ["Mixopapilar", "Sacro/cola de caballo", "Matriz mixoide, patrón papilar", "Adultos jóvenes", ">90%", "GFAP+, EMA+"],
+            ["Espinal NF2 mutado", "Cervical/torácico", "Pérdida bialélica de NF2", "Adultos", ">85%", "Pérdida de NF2 en IHQ"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A7-S4",
+      "title": "Glioma Intrínseco Difuso del Tronco del Encéfalo (GIPD) y Gliomas con Mutación H3 K27M",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El glioma intrínseco difuso del tronco del encéfalo (GIPD, anteriormente DIPG) es el tumor cerebral pediátrico más devastador, con una SG media de 9-11 meses desde el diagnóstico a pesar del tratamiento. Se da predominantemente en niños en edad escolar (mediana 6-9 años), presentándose con la tríada clásica de parálisis de nervios craneales (más frecuentemente VI y VII par), ataxia cerebelosa y signos de vía larga (piramidales), con un desarrollo <6 meses. La RM es diagnóstica: señal T2 difusa que agranda >50% del puente, con realce parcheado variable.\n\n**Mutación H3 K27M**: El hallazgo fundamental del grupo del St. Jude Children's Research Hospital (Wu et al. Nat Genet 2012) identificó que el 80% del GIPD alberga una mutación de ganancia de función en la histona H3 (H3.1 o H3.3 K27M), que reduce globalmente la trimetilación de H3K27 (H3K27me3), provocando desregulación epigenética y activación transcripcional generalizada. Esta mutación se ha incorporado a la clasificación de la OMS 2021 como el rasgo definitorio del **glioma difuso de la línea media con alteración H3 K27 (grado 4 de la OMS)**, que engloba el GIPD y los gliomas talámicos/espinales de la línea media con esta mutación. H3 K27M es detectable en el ADN libre de células del líquido cefalorraquídeo (biopsia líquida), permitiendo el diagnóstico sin biopsia tisular en algunos casos.\n\n**Cirugía**: La biopsia es ahora recomendada por las guías SIOPE para el GIPD/glioma difuso de la línea media cuando: (1) la información molecular cambiaría el manejo (por ejemplo, inclusión en ensayos estratificados molecularmente), (2) existen características de imagen atípicas o (3) debe excluirse un diagnóstico raro tratable. La biopsia mediante abordaje estereotáctico o endoscópico proporciona tejido con una tasa de complicaciones <1-2% en centros con experiencia. Para el GIPD clínico/imagen clásico en un niño pequeño, muchos centros continúan tratando sin biopsia.\n\n**Tratamiento**: La radioterapia 54 Gy en 30 fracciones (focal, no ICE) sigue siendo el único tratamiento establecido, proporcionando mejoría clínica temporal en el 75-80% pero sin curación. La SG media permanece en 9-11 meses. **ONC201** (antagonista DRD2, activa la respuesta integrada al estrés) mostró una actividad drástica en el GIPD con mutación H3 K27M en el Programa de Medicina de Precisión para GIPD, logrando respuestas sin precedentes (>50% SG a 18 meses en H3 K27M G34 mutante): ensayo de registro en curso. La **administración por convección mejorada (CED)** de quimioterapia directamente en el puente (eludiendo la BHE) está bajo investigación. Múltiples ensayos clínicos dirigidos a inhibidores de desmetilasas H3 K27M (por ejemplo, inhibidores de HDAC, inhibidores de EZH2) no han mejorado la SG hasta la fecha."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — GIPD: H3 K27M, RT 54 Gy, Sin Cirugía",
+          "content": "Criterios diagnósticos del GIPD: tumor pontino intrínseco difuso, señal T2 que afecta >50% del puente, pico de edad 6-9 años, tríada clásica (parálisis VI/VII + ataxia + signos piramidales). Mutación H3 K27M en el 80%. Tratamiento: RT focal 54 Gy/30 fr (sin ICE). La cirugía NO se realiza para resección total amplia (destruiría el puente). Biopsia considerada solo cuando la información molecular cambia la elegibilidad para ensayos. SG media 9-11 meses: iniciar el abordaje paliativo de forma precoz."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Punción Lumbar Antes de la RM en el GIPD",
+          "content": "El GIPD clásico en la RM (expansión pontina difusa, sin obstrucción, tríada clínica típica) NO requiere punción lumbar para el diagnóstico: el diagnóstico es radiológico. La PL en el GIPD puede causar herniación del tronco del encéfalo si existe alguna obstrucción del cuarto ventrículo o herniación amigdalar. La PL solo debe realizarse si se necesita LCR para la biopsia líquida de H3 K27M para la estratificación en ensayos, Y SOLO después de confirmar la ausencia de herniación amigdalar significativa en la RM."
+        }
+      ]
+    },
+    {
+      "id": "A7-S5",
+      "title": "Gliomas Pediátricos de Bajo Grado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los gliomas pediátricos de bajo grado (GBG-p) son los tumores del SNC más frecuentes en niños, y comprenden el 40-50% de todos los tumores del SNC pediátricos. A diferencia de los GBG del adulto, los GBG-p tienen un panorama molecular fundamentalmente diferente y un pronóstico sustancialmente mejor: la SG global a 10 años supera el 80-90% para la mayoría de los subtipos.\n\n**Astrocitoma pilocítico (grado 1 de la OMS)**: El tumor cerebral pediátrico más frecuente en general (30-40% de los GBG-p). Se caracteriza por la **fusión BRAF-KIAA1549** (duplicación en tándem del cromosoma 7q34) en el 70-80% de los astrocitomas pilocíticos de fosa posterior. Histología bifásica: fibras de Rosenthal y cuerpos granulares eosinófilos. La fosa posterior (cerebelo) es la localización más frecuente (50%), seguida de la vía óptica/hipotalámica, el tronco del encéfalo y el hemisferio cerebral. La resección quirúrgica completa es curativa en el astrocitoma pilocítico cerebeloso (SG a 5 años >95%). El astrocitoma pilocítico incompletamente resecado o recurrente requiere quimioterapia (carboplatino + vincristina como primera línea estándar, protocolo TPCV) o inhibición BRAF/MEK.\n\n**Terapia dirigida BRAF para GBG-p**: El principal avance terapéutico en los GBG-p es el desarrollo de inhibidores BRAF/MEK eficaces. El **ensayo FIREFLY-1** (Kilburn et al. Lancet Oncol 2023) evaluó tovorafenib (inhibidor de RAF) en GBG-p recurrente/refractario, logrando una tasa de respuesta global del 67%. El **ensayo FIREFLY-2** y los ensayos **TADPOLE (dabrafenib+trametinib)** y **LOGGIC (selumetinib)** están estableciendo la inhibición BRAF/MEK como terapia de primera línea para GBG-p con fusión BRAF, potencialmente reemplazando carboplatino+vincristina como estándar de quimioterapia de primera línea. El **selumetinib** (inhibidor de MEK) está aprobado por la FDA para GBG-p asociado a NF1 (ensayo SPRINT: 25% tasa de respuesta, mejora significativa de la SSP).\n\n**Glioma de la vía óptica asociado a NF1 (GVO)**: Los niños con neurofibromatosis tipo 1 desarrollan gliomas de la vía óptica en el 15-20% de los casos. La mayoría son astrocitomas pilocíticos que se originan en el nervio óptico, el quiasma o las cintillas ópticas. El manejo consiste en observación en pacientes asintomáticos; quimioterapia (carboplatino+vincristina o selumetinib) para la enfermedad progresiva que cause deterioro visual. La radioterapia se evita en pacientes con NF1 por el alto riesgo de neoplasia secundaria maligna inducida por RT (particularmente glioblastoma secundario en el margen del campo de RT) y vasculopatía tipo moyamoya.\n\n**GBG-p con mutación BRAF V600E**: Aproximadamente el 15-20% de los GBG-p albergan la mutación puntual BRAF V600E (frecuente en ganglioglioma, GBM epitelioide, GBG-p en hemisferios cerebrales). Estos responden a vemurafenib o dabrafenib + trametinib, con una tasa de respuesta global del 40-50%."
+        },
+        {
+          "type": "table",
+          "title": "Gliomas Pediátricos de Bajo Grado — Subtipos Frecuentes y Alteraciones Moleculares",
+          "headers": ["Tipo Tumoral", "Grado OMS", "Alteración Molecular", "Localización Frecuente", "Tratamiento", "Pronóstico"],
+          "rows": [
+            ["Astrocitoma pilocítico", "Grado 1", "Fusión BRAF-KIAA1549 (70-80%)", "Cerebelo, vía óptica, hipotálamo", "Cirugía; carboplatino+vincristina si irresecable", ">95% (RTA cerebelosa)"],
+            ["Glioma con mutación BRAF V600E", "Grado 1-2", "BRAF V600E", "Hemisferio cerebral, fosa posterior", "Cirugía; BRAF+MEKi en recurrencia", "Variable (80-90% a 5 años)"],
+            ["Ganglioglioma", "Grado 1", "BRAF V600E (70%), CDK4/6", "Lóbulo temporal", "Cirugía (cirugía de la epilepsia)", ">95% con RTA"],
+            ["Tumor neuroepitelial disembrioplásico (DNET)", "Grado 1", "FGFR1 (50%), BRAF", "Corteza temporal (cortical)", "Cirugía para crisis epilépticas", "Excelente tras RTA"],
+            ["Astrocitoma difuso IDH nativo, GBG-p", "Grado 2", "FGFR1-TACC1, MYB/MYBL1", "Hemisferio cerebral", "Cirugía; quimioterapia si irresecable", "~80% SG a 5 años"],
+            ["GVO pilocítico asociado a NF1", "Grado 1", "Pérdida bialélica de NF1", "Nervio/quiasma/cintilla óptica", "Observación; carboplatino+vincristina; selumetinib", "Excelente (80-90% SG a 10 años)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A7-S6",
+      "title": "Efectos Tardíos de la Radioterapia en Tumores del SNC Pediátricos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El cerebro en desarrollo es exquisitamente sensible a la radioterapia, y los efectos tardíos representan un desafío importante en la supervivencia de los pacientes con tumor del SNC pediátrico. La gravedad de los efectos tardíos depende de: la dosis de radiación, el volumen irradiado (cerebro completo vs focal vs craneoespinal), la edad en el momento de la irradiación (menor edad = mayor susceptibilidad) y la quimioterapia neurotóxica concomitante.\n\n**Deterioro neurocognitivo**: La irradiación craneal provoca un deterioro cognitivo progresivo que afecta a la velocidad de procesamiento, la memoria de trabajo, la atención y las funciones ejecutivas. Los niños irradiados con RT de cerebro completo a una edad <5 años pierden una media de 2-3 puntos de CI por año durante varios años. Los niños tratados con ICE (23,4 Gy) por meduloblastoma tienen un CI medio 10-20 puntos por debajo de los niveles pretratamiento a los 5 años. La dosis más alta (36 Gy) causa un deterioro más grave. El hipocampo es particularmente sensible: las técnicas de evitación hipocampal y la protonterapia (que ahorra el cerebro anterior del efecto de salida) mitigan pero no eliminan este efecto.\n\n**Disfunción endocrina**: La deficiencia de hormona de crecimiento (DGH) ocurre en >90% de los niños que reciben ICE ≥24 Gy, manifestándose típicamente 1-3 años después de la RT. Todos los niños deben recibir reposición de GH (si no existe contraindicación tumoral) para normalizar la velocidad de crecimiento. El hipotiroidismo (central y primario) ocurre en el 40-60% tras la ICE. La insuficiencia suprarrenal tras ICE es poco frecuente pero debe valorarse. La deficiencia de gonadotropinas (pubertad precoz o retrasada) ocurre en el 30-50%.\n\n**Vasculopatía y neoplasia secundaria maligna**: La RT craneal causa vasculopatía inducida por la radiación (síndrome de moyamoya, especialmente en pacientes con NF1), malformaciones cavernosas (en el campo irradiado) y necrosis por radiación. Lo más importante son las **neoplasias secundarias malignas** (NSM), que ocurren en el 3-5% a los 10 años y en el 5-10% a los 20 años tras RT craneal pediátrica, incluyendo GBM inducido por RT (el más temido), meningioma (latencia 10-20 años) y leucemia (si se administran agentes alquilantes).\n\n**Ventajas de la protonterapia**: La radioterapia con protones (escaneado de haz de lápiz) deposita la dosis del pico de Bragg dentro del tumor/diana y administra una dosis de salida mínima al cerebro normal, en comparación con la RT fotónica. Para la ICE del meduloblastoma, la protonterapia reduce la dosis media en la cóclea (preservación auditiva), la dosis media en el hipocampo (preservación cognitiva), la dosis cardíaca y pulmonar (para el boost de fosa posterior) y reduce la ototoxicidad del cisplatino. El ensayo **SJMB12** y los estudios comparativos demuestran un control tumoral equivalente con ICE de protones y una preservación superior de la función coclear y los resultados neurocognitivos. La protonterapia es ahora el estándar para niños que reciben ICE en centros con acceso a ella."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Vigilancia de Efectos Tardíos tras el Tratamiento del Meduloblastoma",
+          "content": "Una niña de 9 años tratada hace 3 años con ICE (23,4 Gy) + boost en fosa posterior (54 Gy) + 8 ciclos de cisplatino/vincristina/CCNU por meduloblastoma de riesgo estándar acude al seguimiento a largo plazo. Evaluación obligatoria de efectos tardíos: (1) evaluación neuropsicológica anual (CI, velocidad de procesamiento, atención), (2) evaluación endocrina anual (eje GH: IGF-1, test de estimulación de GH; TSH/T4 libre; cortisol), (3) audiología anual (ototoxicidad por cisplatino — grado CTCAE), (4) RM anual de cerebro y columna (seguimiento tumoral), (5) velocidad de crecimiento y estadificación puberal. La reposición de GH debe haberse iniciado ya si el IGF-1 está bajo. La mayoría de los niños requerirán GH, levotiroxina y posiblemente reposición hormonal sexual."
+        }
+      ]
+    },
+    {
+      "id": "A7-S7",
+      "title": "Tumores Cerebrales del Lactante y Abordajes Moleculares",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los tumores cerebrales en lactantes (<12 meses) presentan retos diagnósticos y terapéuticos únicos. Los tumores cerebrales del lactante más frecuentes incluyen: (1) glioma hemisférico del lactante (GHL) con fusiones de ALK, ROS1, NTRK o MET, sensible a inhibidores de NTRK (larotrectinib, entrectinib); (2) tumor teratoide/rabdoide atípico (TTRA) con pérdida bialélica de SMARCB1 (INI1) o SMARCA4; (3) meduloblastoma del lactante (tipo desmoplásico/nodular SHH); (4) tumores del plexo coroideo.\n\n**Tumor Teratoide/Rabdoide Atípico (TTRA)**: El tumor cerebral pediátrico más agresivo, que afecta predominantemente a niños <2 años (mediana de edad 18 meses). Definido por la pérdida bialélica de SMARCB1 (INI1) o SMARCA4: el hallazgo diagnóstico es la pérdida de la tinción nuclear INI1/BRG1 en IHQ. Grado 4 de la OMS. Tres subtipos moleculares: TYR (mayor expresión de la vía de la tirosinasa), SHH y MYC. Tratamiento estándar: cirugía + quimioterapia intensiva (sistémica e intratecal) ± quimioterapia en altas dosis con TCH ± RT focal o craneoespinal (evitada/retrasada en lactantes). La SG media es solo de 17-24 meses a pesar del tratamiento agresivo; las mutaciones germinales de SMARCB1 en el 30-40% de los pacientes requieren asesoramiento genético.\n\n**Gliomas del lactante con fusión NTRK**: Un subgrupo de gliomas de alto grado del lactante alberga fusiones génicas que implican a NTRK1/2/3, ALK, ROS1 o MET. El larotrectinib (inhibidor TRK) logra una tasa de respuesta global >75% en tumores del SNC con fusión TRK en niños, transformando los resultados de esta enfermedad anteriormente fatal. El **ensayo pediátrico SCOUT** demuestra la eficacia del larotrectinib en el glioma pediátrico con fusión TRK. La perfilación molecular con análisis de panel de fusiones en ARN es ahora obligatoria para todos los gliomas de alto grado del lactante.\n\n**GIPD H3.1 K27M en lactantes**: Una minoría de los GIPD alberga H3.1 K27M (mutación de H3F3A de la histona H3) en lugar de H3.3. El GIPD con H3.1 K27M tiende a ocurrir en niños ligeramente más pequeños, tiene mejor pronóstico que H3.3 K27M y responde con mayor frecuencia a ONC201. Esta distinción requiere una caracterización molecular cuidadosa."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — TTRA: Pérdida de INI1 = Mutación Bialélica de SMARCB1",
+          "content": "El TTRA se define por la pérdida de expresión de SMARCB1 (INI1) o SMARCA4 (BRG1) en IHQ. La pérdida de la tinción nuclear INI1 en IHQ = TTRA (alta especificidad, alta sensibilidad). Debe comprobarse en TODOS los tumores pediátricos de fosa posterior en niños <2 años: cambia profundamente el tratamiento respecto a los protocolos del meduloblastoma. Mutación germinal de SMARCB1 en el 30-40%: asesoramiento genético obligatorio y manejo del síndrome de predisposición tumoral (riesgo de tumor rabdoide renal bilateral). Pronóstico desfavorable a pesar del tratamiento agresivo."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre tumores del SNC pediátricos con 20 preguntas de tipo examen.",
+    "questions": [
+      {
+        "id": "A7-Q1",
+        "stem": "Un niño de 6 años presenta 4 semanas de ataxia, cefalea matutina y vómitos. La RM muestra una masa de fosa posterior de línea media de 4 cm con realce homogéneo e hidrocefalia obstructiva. Se planifica la cirugía. ¿Qué imagen preoperatoria inmediata se requiere para completar la estadificación?",
+        "options": {
+          "A": "Solo RM cerebral — la RM espinal no es necesaria antes de la cirugía de fosa posterior",
+          "B": "RM preoperatoria de cerebro y columna (o RM espinal en las 48 horas del postoperatorio)",
+          "C": "TC de tórax/abdomen/pelvis para estadificación sistémica",
+          "D": "PET-FDG para diferenciar meduloblastoma de ependimoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La estadificación del meduloblastoma requiere RM de todo el neuroeje (cerebro + columna) para detectar diseminación leptomeníngea (estadificación M2, M3), lo que cambia el tratamiento de riesgo estándar a alto riesgo y afecta profundamente al pronóstico. La RM espinal preoperatoria es la preferida (para evitar el artefacto quirúrgico); si no es posible preoperatoriamente, la RM espinal se obtiene 2 semanas después de la cirugía. La citología del LCR también es necesaria (PL 2 semanas postop) para valorar la estadificación M1. Estos datos completan el sistema de estadificación de Chang: la dicotomía riesgo estándar (M0, RTA) frente a alto riesgo (M1-M4, RST) es la decisión de estratificación del tratamiento más importante.",
+          "wrong": {
+            "A": "La RM espinal es absolutamente necesaria para la estadificación del meduloblastoma: la diseminación leptomeníngea ocurre en el 30% del meduloblastoma de alto riesgo y cambia el manejo de ICE 23,4 Gy para riesgo estándar a 36 Gy para alto riesgo. Omitir la estadificación espinal es un grave error de manejo.",
+            "C": "El meduloblastoma raramente metastatiza fuera del SNC (estadificación M4): la estadificación sistémica con TC no es necesaria de forma rutinaria. La estadificación estándar es mediante RM del neuroeje + citología del LCR.",
+            "D": "El PET-FDG no distingue de forma fiable el meduloblastoma del ependimoma: ambos pueden mostrar captación de FDG. La biopsia tisular (resección quirúrgica) es el paso diagnóstico definitivo."
+          },
+          "guideline": "Guías SIOPE de Meduloblastoma 2023 — Estadificación: RM cerebro + columna preoperatoriamente o en las 2 semanas postop; citología del LCR en PL 2 semanas postop; aplicación del sistema de estadificación de Chang",
+          "trial": "Packer RJ et al. J Clin Oncol 1999: Validación de la estadificación de Chang en 379 pacientes con meduloblastoma — estadificación M1-M3 identifica el grupo de alto riesgo con SSP a 5 años ~50% frente a ~75% para M0; la RM espinal es esencial para una estadificación precisa",
+          "pearl": "Estadificación del meduloblastoma: RM cerebro + COLUMNA (antes o ≤2 semanas tras la cirugía) + citología del LCR (PL 2 semanas postop). Estadificación M de Chang: M0 sin metástasis, M1 citología LCR+, M2 diseminación macroscópica intracraneal, M3 diseminación macroscópica espinal, M4 extraneural. M1-M4 = tratamiento de alto riesgo."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q2",
+        "stem": "¿Qué subgrupo molecular de meduloblastoma tiene la mejor supervivencia global a 5 años (>95%) y está siendo evaluado en ensayos de desescalada de radioterapia?",
+        "options": {
+          "A": "Meduloblastoma de Grupo 3",
+          "B": "Meduloblastoma activado por SHH, con mutación TP53",
+          "C": "Meduloblastoma activado por WNT",
+          "D": "Meduloblastoma de Grupo 4"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El meduloblastoma activado por WNT tiene el mejor pronóstico de todos los subgrupos, con una SG a 5 años >95% con tratamiento estándar. Se identifica por acumulación nuclear de β-catenina (mutación CTNNB1), monosomía 6 y se origina en el tronco del encéfalo dorsal. Este excelente pronóstico ha impulsado ensayos clínicos de desescalada que evalúan si la dosis reducida de RT craneoespinal (18 Gy frente al estándar de 23,4 Gy) o incluso abordajes de quimioterapia sola pueden mantener la misma tasa de curación con menor morbilidad relacionada con el tratamiento.",
+          "wrong": {
+            "A": "El meduloblastoma de Grupo 3 tiene el peor pronóstico (SG a 5 años ~50%, que desciende a ~30% con amplificación de MYC). Afecta predominantemente a lactantes y niños pequeños y se trata como alto riesgo.",
+            "B": "El meduloblastoma activado por SHH con mutación TP53 es el grupo de ultra-alto riesgo con SG a 5 años ~40%, lo contrario del mejor pronóstico. La mutación TP53 en el meduloblastoma SHH es un marcador pronóstico adverso independiente.",
+            "D": "El Grupo 4 es el subgrupo más frecuente (35-40%) con pronóstico intermedio (SG a 5 años ~75%). No está siendo desescalado y tiene características (amplificación CDK6, i17q) asociadas a resultados variables."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — Subgrupos del meduloblastoma; SIOPE Meduloblastoma 2023; Cavalli et al. Cancer Cell 2017 que confirma el pronóstico del WNT",
+          "trial": "Ramaswamy V et al. Lancet Oncol 2016: Marco de estratificación del riesgo molecular — WNT SG a 5 años >95%; ensayo SJMB12: desescalada de ICE de 23,4 Gy a 18 Gy en meduloblastoma activado por WNT en curso",
+          "pearl": "Pronóstico del meduloblastoma por subgrupo: WNT >95% (mejor, ensayos de desescalada) > Grupo 4/SHH-TP53 nativo ~75% > Grupo 3 ~50% > SHH-TP53 mutado ~40% (peor). WNT = mutación CTNNB1, monosomía 6, β-catenina nuclear en IHQ. Esta clasificación por subgrupos es obligatoria para todo meduloblastoma."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q3",
+        "stem": "Una niña de 4 años es intervenida de un tumor de fosa posterior. Se informa a la familia de que tiene un 'tumor cerebral maligno de grado 4'. La IHQ muestra pérdida de la tinción nuclear de INI1. ¿Cuál es el diagnóstico y su implicación genética clave?",
+        "options": {
+          "A": "Glioblastoma — requiere determinación de la metilación de MGMT",
+          "B": "Tumor teratoide/rabdoide atípico (TTRA); pérdida bialélica de SMARCB1; mutación germinal en el 30-40% — asesoramiento genético obligatorio",
+          "C": "Meduloblastoma Grupo 3 — se requiere determinación de la amplificación de MYC",
+          "D": "Ependimoma PFA — se necesita IHQ de H3K27me3 para confirmar"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La pérdida de la tinción nuclear de INI1 en IHQ es patognomónica del TTRA (tumor teratoide/rabdoide atípico), que refleja la pérdida bialélica del gen SMARCB1 que codifica la proteína INI1/hSNF5. El TTRA es el tumor del SNC pediátrico más agresivo, afectando predominantemente a niños <2 años (esta niña de 4 años es ligeramente mayor que lo típico, pero el TTRA puede ocurrir hasta los 6 años). Implicación germinal crítica: el 30-40% de los pacientes con TTRA tienen mutaciones germinales de SMARCB1 (síndrome de predisposición a tumores rabdoides), predisponiéndoles a tumores rabdoides renales y otras neoplasias malignas deficientes en SMARCB1. El asesoramiento genético y el estudio del niño Y los padres es obligatorio.",
+          "wrong": {
+            "A": "El GBM en una niña de 4 años es extremadamente raro y no explicaría la pérdida de INI1. INI1 no se pierde en el GBM. La determinación de la metilación de MGMT es relevante para el GBM del adulto.",
+            "C": "El meduloblastoma de Grupo 3 no muestra pérdida de INI1 en IHQ. Aunque el Grupo 3 puede mostrar amplificación de MYC, las características histológicas e IHQ son distintas del TTRA. La pérdida de INI1 indica específicamente la inactivación de SMARCB1 = diagnóstico de TTRA.",
+            "D": "El ependimoma PFA se identifica por la PÉRDIDA de H3K27me3 en IHQ (no pérdida de INI1). INI1 es una proteína diferente (SMARCB1). Los dos marcadores IHQ analizan proteínas distintas e indican diagnósticos diferentes."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — TTRA definido por pérdida bialélica de SMARCB1 o SMARCA4; Guías SIOPE TTRA 2023; asesoramiento genético obligatorio para todos los pacientes con TTRA",
+          "trial": "Biegel JA et al. Cancer Res 1999: Mutaciones germinales de SMARCB1 en TTRA — estableció la predisposición tumoral hereditaria; actualizado por Hasselblatt M et al. Acta Neuropathol 2018: tasa germinal del 30-40%; transmisión materna frecuente",
+          "pearl": "TTRA = pérdida de INI1 en IHQ (pérdida bialélica de SMARCB1). Hallazgo diagnóstico: pérdida de la tinción nuclear de INI1. Edad <2 años predominantemente. SG media 17-24 meses. Mutación germinal de SMARCB1 en el 30-40% → asesoramiento genético obligatorio → cribado familiar para el síndrome de predisposición a tumores rabdoides."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q4",
+        "stem": "¿Cuál es la dosis estándar de irradiación craneoespinal (ICE) para el meduloblastoma de riesgo estándar en niños ≥3 años?",
+        "options": {
+          "A": "ICE 18 Gy + boost en fosa posterior 36 Gy (total 54 Gy en FP)",
+          "B": "ICE 23,4 Gy + boost en fosa posterior a 54-55,8 Gy",
+          "C": "ICE 36 Gy + boost en fosa posterior a 54 Gy",
+          "D": "ICE 45 Gy sin boost local"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El meduloblastoma de riesgo estándar (edad ≥3 años, M0, RTA o <1,5 cm² de residuo, histología no anaplásica) se trata con ICE 23,4 Gy más un boost en fosa posterior a 54-55,8 Gy en total, seguido de 8 ciclos de quimioterapia adyuvante (CCNU + vincristina + cisplatino). Este régimen logra una SSE a 5 años ~75-80% para riesgo estándar. La dosis de ICE se redujo de 36 Gy a 23,4 Gy mediante el ensayo CCG-923 (Packer et al. JCO 1999) cuando se añadió la quimioterapia adyuvante, demostrando un control local equivalente con menor neurotoxicidad.",
+          "wrong": {
+            "A": "La ICE de 18 Gy está siendo evaluada en ensayos de desescalada específicamente para el meduloblastoma activado por WNT. No es estándar para todos los meduloblastomas de riesgo estándar, que requieren ICE 23,4 Gy.",
+            "C": "La ICE 36 Gy es la dosis para el meduloblastoma de ALTO RIESGO (M1-M4, RST, histología CGA). Usar 36 Gy para riesgo estándar causa neurotoxicidad cognitiva y endocrina innecesaria.",
+            "D": "La ICE 45 Gy sin boost local no es un protocolo estándar de meduloblastoma. Las dosis de ICE en el meduloblastoma son 23,4 Gy (riesgo estándar) o 36 Gy (alto riesgo), siempre con un boost a 54-55,8 Gy en la fosa posterior/lecho tumoral."
+          },
+          "guideline": "Guías SIOPE de Meduloblastoma 2023 — Riesgo estándar: ICE 23,4 Gy + boost FP 54-55,8 Gy + quimioterapia; Alto riesgo: ICE 36 Gy + boost FP + quimioterapia",
+          "trial": "Packer RJ et al. J Clin Oncol 1999 (CCG-923): ECA ICE a dosis reducida (23,4 Gy) + quimioterapia vs ICE estándar (36 Gy) — SSE a 5 años equivalente (~79% vs 70%) con menor neurotoxicidad cognitiva; estableció 23,4 Gy como estándar para meduloblastoma de bajo riesgo",
+          "pearl": "Dosis de RT en meduloblastoma: Riesgo estándar = ICE 23,4 Gy + boost FP 54 Gy. Alto riesgo = ICE 36 Gy + boost FP 54 Gy. Ensayos de desescalada WNT evaluando ICE 18 Gy. Niños <3 años: evitar RT (abordajes de quimioterapia sola). ICE = todo el neuroeje incluyendo columna."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q5",
+        "stem": "Una niña de 8 años presenta 6 semanas de parálisis del VI par craneal, ataxia y debilidad progresiva. La RM muestra señal T2 difusa que agranda >60% del puente con realce parcheado sin masa discreta. La IHQ de H3 K27M es positiva en la biopsia líquida del LCR. ¿Cuál es el diagnóstico y el tratamiento apropiado?",
+        "options": {
+          "A": "Astrocitoma pilocítico — realizar biopsia y planificar resección quirúrgica",
+          "B": "Glioma intrínseco difuso del tronco del encéfalo (GIPD)/glioma difuso de la línea media con alteración H3 K27 — radioterapia focal 54 Gy en 30 fracciones",
+          "C": "Ependimoma PFA — resección quirúrgica máxima seguida de RT",
+          "D": "Meduloblastoma — ICE 23,4 Gy + boost en fosa posterior a 54 Gy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Presentación clásica del GIPD: niña en edad escolar, curso de 6 semanas, parálisis del VI/VII par + ataxia + signos piramidales (la tríada clásica), señal T2 difusa que expande el puente (>50%), H3 K27M positiva. Diagnóstico: glioma difuso de la línea media con alteración H3 K27 (GIPD), grado 4 de la OMS. Tratamiento: radioterapia focal 54 Gy en 30 fracciones sobre el puente (NO craneoespinal: la ICE no aporta beneficio adicional y aumenta la toxicidad). La cirugía para RTA es imposible y sería fatal. La biopsia solo se considera si la información molecular cambia la elegibilidad para ensayos. SG media 9-11 meses.",
+          "wrong": {
+            "A": "El astrocitoma pilocítico del puente se presenta como una masa discreta, circunscrita, bien definida con componente quístico T1 y nódulo mural, no como una expansión T2 difusa de todo el puente. La resección quirúrgica de un tumor pontino difuso destruiría el tronco del encéfalo.",
+            "C": "El ependimoma PFA se presenta como una masa de fosa posterior con realce discreto (frecuentemente en el suelo del cuarto ventrículo), no como una expansión pontina intrínseca difusa. La PÉRDIDA de H3K27me3 (no la positividad de H3 K27M) es el marcador del PFA.",
+            "D": "El meduloblastoma es una masa discreta de fosa posterior, no un tumor pontino infiltrante difuso. La ICE para el GIPD no aporta beneficio y añade toxicidad. El tratamiento es RT pontina focal únicamente."
+          },
+          "guideline": "Guías SIOPE GIPD 2023 — RT focal 54 Gy/30 fr estándar para GIPD; H3 K27M = glioma difuso de la línea media grado 4 OMS 2021; biopsia opcional para inclusión en ensayos",
+          "trial": "Cohen KJ et al. Pediatr Blood Cancer 2011: RT sola 54 Gy/30 fr sigue siendo estándar para GIPD — SG media 9-11 meses; múltiples ensayos de quimioterapia/dianas han fracasado en mejorar la SG; ONC201 (específico para H3 K27M) mostrando resultados prometedores en ensayos de registro (Arrillaga-Romany et al. 2022)",
+          "pearl": "GIPD/glioma difuso de la línea media H3 K27 alterado: tríada clásica (VI/VII + ataxia + piramidal) en niño en edad escolar + expansión T2 difusa del puente + H3 K27M = RT focal 54 Gy/30 fr. Sin cirugía para RTA. SG media 9-11 meses. ONC201 emerge como primer agente dirigido activo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q6",
+        "stem": "La fusión BRAF-KIAA1549 se encuentra en aproximadamente el 70-80% de cuál de los siguientes tumores cerebrales pediátricos:",
+        "options": {
+          "A": "Meduloblastoma Grupo 4",
+          "B": "Astrocitoma pilocítico (fosa posterior)",
+          "C": "Glioma intrínseco difuso del tronco del encéfalo",
+          "D": "TTRA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La fusión BRAF-KIAA1549 (resultante de una duplicación en tándem del cromosoma 7q34 que yuxtapone BRAF con KIAA1549) se encuentra en aproximadamente el 70-80% de los astrocitomas pilocíticos cerebelosos, convirtiéndola en el marcador molecular distintivo de este tumor. Esta fusión activa la vía MAPK/ERK y es el objetivo de los inhibidores BRAF/MEK evaluados en el astrocitoma pilocítico recurrente. El astrocitoma pilocítico con fusión BRAF-KIAA1549 está ahora clasificado como una entidad molecular diferenciada en la OMS 2021.",
+          "wrong": {
+            "A": "El meduloblastoma de Grupo 4 se asocia con amplificación de CDK6, duplicación en tándem de SNCAIP e isocromosoma 17q, no con la fusión BRAF-KIAA1549.",
+            "C": "El GIPD está definido por la mutación H3 K27M, no por la fusión BRAF-KIAA1549. Las alteraciones de BRAF en el GIPD son poco frecuentes y son mutaciones puntuales V600E (no fusiones), vistas en un subgrupo de gliomas de alto grado pediátricos.",
+            "D": "El TTRA está definido por la pérdida bialélica de SMARCB1 (INI1) o SMARCA4. La fusión BRAF-KIAA1549 no es una característica molecular del TTRA."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — Astrocitoma pilocítico: fusión BRAF-KIAA1549 en el 70-80% de los astrocitomas pilocíticos cerebelosos; Guías SIOPE GBG-p 2023",
+          "trial": "Jones DT et al. Oncogene 2009: Descubrimiento de la fusión BRAF-KIAA1549 en el astrocitoma pilocítico — presente en el 66% de todos los AP, 80% de los AP cerebelosos; mecanismo de activación de la vía MAPK; Karajannis et al. Neuro Oncol 2017: Inhibición BRAF en AP recurrente que demuestra actividad",
+          "pearl": "Fusión BRAF-KIAA1549 = astrocitoma pilocítico (fosa posterior, 70-80%). Mutación puntual BRAF V600E = ganglioglioma, xantoastrocitoma pleomórfico, algunos GBG-p hemisféricos. BRAF-KIAA1549 es una fusión (reorganización estructural), no una mutación puntual. Distintas alteraciones de BRAF en diferentes subtipos de GBG-p."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q7",
+        "stem": "¿Cuál es el marcador IHQ que distingue el ependimoma de fosa posterior tipo A (PFA) del tipo B (PFB)?",
+        "options": {
+          "A": "Positividad de IDH1 R132H",
+          "B": "Pérdida de la trimetilación H3K27me3 en IHQ",
+          "C": "Fusión RELA por FISH",
+          "D": "Pérdida de la tinción nuclear de ATRX"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La pérdida de la trimetilación H3K27 (H3K27me3) en IHQ es el marcador clave que distingue el PFA (H3K27me3 PERDIDA) del PFB (H3K27me3 CONSERVADA). El PFA es el subtipo agresivo en niños pequeños con mal pronóstico (SG a 5 años ~55%), causado por la sobreexpresión de EZHIP/CXorf67 que inhibe la metiltransferasa EZH2, reduciendo globalmente H3K27me3: el mismo mecanismo epigenético que H3 K27M en el GIPD (pero logrado a través de un mecanismo molecular diferente). El PFB tiene H3K27me3 conservada y un pronóstico mucho mejor (SG a 10 años >80%). Este único marcador IHQ (H3K27me3) es suficiente para clasificar el tipo de ependimoma de fosa posterior en la mayoría de los casos.",
+          "wrong": {
+            "A": "La positividad de IDH1 R132H es el marcador IHQ para los gliomas IDH mutantes (astrocitoma difuso, oligodendroglioma, GBM IDH mutante), no para el ependimoma. Los ependimomas son IDH nativos.",
+            "C": "La fusión RELA (ZFTA-RELA) es la característica molecular definidora del ependimoma SUPRATENTORIAL en niños, detectada por FISH o secuenciación de ARN. No se usa para distinguir PFA de PFB.",
+            "D": "La pérdida de la tinción nuclear de ATRX indica mutación de ATRX en astrocitomas de grado 2-3 y GBM con mutación H3 G34. No se usa para subclasificar el ependimoma de fosa posterior."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — Ependimoma PFA vs PFB: IHQ de H3K27me3 (pérdida=PFA, conservada=PFB); Guías EANO de Ependimoma 2022",
+          "trial": "Pajtler KW et al. Cancer Cell 2015: Clasificación molecular del ependimoma que define PFA vs PFB — IHQ H3K27me3 como marcador sustituto clínico; Fukuoka K et al. Acta Neuropathol 2018: Validación IHQ H3K27me3 — sensibilidad 87%, especificidad 92% para clasificación de PFA",
+          "pearl": "IHQ del ependimoma de fosa posterior: PÉRDIDA de H3K27me3 = PFA (agresivo, niños, mal pronóstico). H3K27me3 CONSERVADA = PFB (mejor pronóstico, adultos/niños mayores). Este ÚNICO marcador IHQ clasifica PFA vs PFB. Mecanismo PFA: sobreexpresión de EZHIP que inhibe EZH2 → pérdida global de H3K27me3."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q8",
+        "stem": "El tratamiento estándar del meduloblastoma de riesgo estándar en un niño de 7 años consiste en cirugía + ICE 23,4 Gy + boost en fosa posterior 54 Gy + quimioterapia adyuvante. ¿Qué régimen de quimioterapia se usa en el protocolo estándar?",
+        "options": {
+          "A": "Temozolomida 200 mg/m² días 1-5 cada 28 días",
+          "B": "CCNU + vincristina + cisplatino (8 ciclos)",
+          "C": "MATRix (MTX + Ara-C + tiotepa + rituximab)",
+          "D": "Carboplatino + etopósido + vincristina"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El régimen de quimioterapia adyuvante estándar para el meduloblastoma tras la ICE es CCNU (lomustina) + vincristina + cisplatino, administrado durante 8 ciclos. Este régimen fue establecido por el ensayo fundamental de Packer et al. (NEJM 1994) que demostró una mejora de la SSE a 5 años (79% frente al 55%) con quimioterapia añadida a la RT en tumores de fosa posterior. El régimen lleva más de 30 años en uso con modificaciones (carboplatino sustituyendo al cisplatino en algunos protocolos por la ototoxicidad). El cisplatino es el agente único más activo en el meduloblastoma, pero causa ototoxicidad significativa, especialmente problemática con la ICE concurrente.",
+          "wrong": {
+            "A": "La temozolomida es la quimioterapia estándar para el GBM del adulto (protocolo de Stupp) pero no tiene ningún papel establecido en los protocolos de tratamiento estándar del meduloblastoma pediátrico. Múltiples ensayos han sido negativos para la TMZ en el meduloblastoma.",
+            "C": "MATRix es el régimen de inducción del LPSNC (MTX + Ara-C + tiotepa + rituximab): una enfermedad y contexto de tratamiento completamente diferentes. No tiene ningún papel en el manejo del meduloblastoma.",
+            "D": "Carboplatino + etopósido + vincristina se usa en los protocolos de meduloblastoma del lactante (protocolos baby brain para retrasar la RT) y en los regímenes de quimioterapia en altas dosis, no en el tratamiento adyuvante estándar post-ICE para niños ≥3 años."
+          },
+          "guideline": "Guías SIOPE de Meduloblastoma 2023 — Adyuvante post-ICE: CCNU + vincristina + cisplatino x8 ciclos (riesgo estándar); Packer RJ et al. NEJM 1994: ensayo fundamental que establece el beneficio de la quimioterapia",
+          "trial": "Packer RJ et al. NEJM 1994: 71 pacientes con PNET de fosa posterior/meduloblastoma — RT + CCNU/vincristina/cisplatino vs RT sola; SSE a 5 años 63% con quimioterapia vs 40% con RT sola; estableció la terapia trimodal como estándar; Packer 1999 JCO: dosis reducida de ICE a 23,4 Gy + quimioterapia",
+          "pearl": "Quimioterapia estándar del meduloblastoma (post-ICE): CCNU + vincristina + cisplatino x8 ciclos (protocolo Packer). Cisplatino = agente más activo pero ototóxico (especialmente con ICE). Carboplatino sustituido en algunos protocolos. TMZ = incorrecto para meduloblastoma. Este régimen lleva >30 años siendo estándar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q9",
+        "stem": "¿Por qué la radioterapia se evita o retrasa generalmente en niños con tumores cerebrales menores de 3 años?",
+        "options": {
+          "A": "La radioterapia causa progresión tumoral inmediata en niños pequeños",
+          "B": "El cerebro en desarrollo es exquisitamente sensible a la RT, causando deterioro cognitivo grave, retraso del crecimiento y disfunción endocrina",
+          "C": "Los niños pequeños no pueden tolerar el posicionamiento necesario para la RT",
+          "D": "La RT es ineficaz en niños menores de 3 años por la inmadurez de la barrera hematoencefálica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El cerebro en desarrollo (menores de 3-5 años) es muy susceptible a la lesión por radiación, causando efectos tardíos graves que son mucho más devastadores que en niños mayores o adultos. Los principales efectos tardíos de la RT craneoespinal en niños muy pequeños incluyen: (1) deterioro neurocognitivo grave (pérdida media de CI de 2-3 puntos/año, con descensos totales del CI de 20-30 puntos en algunas series), (2) deficiencia de GH (>90%), (3) alteración del desarrollo de la sustancia blanca (leucoencefalopatía), (4) hipotiroidismo, deficiencia de gonadotropinas y (5) neoplasia secundaria maligna. Por eso todos los protocolos de meduloblastoma del lactante utilizan quimioterapia intensiva para retrasar o evitar la RT, aceptando tasas de control local ligeramente inferiores a cambio de una calidad de vida dramáticamente mejor.",
+          "wrong": {
+            "A": "La radioterapia no causa progresión tumoral inmediata en niños pequeños. La RT es eficaz en niños pequeños, pero causa efectos tardíos inaceptables. La preocupación es la toxicidad a largo plazo, no la progresión tumoral aguda.",
+            "C": "Los niños pequeños pueden recibir RT bajo anestesia general si es necesario. La barrera no es el posicionamiento técnico sino las devastadoras consecuencias del neurodesarrollo de la irradiación del cerebro inmaduro.",
+            "D": "La maduración de la BHE no afecta a la eficacia de la RT. La BHE en niños muy pequeños es funcional. El problema es la sensibilidad del propio tejido neural en desarrollo a la lesión por radiación."
+          },
+          "guideline": "Guías SIOPE de Efectos Tardíos en Tumores Pediátricos del SNC 2022 — Evitar RT en niños <3-5 años; protocolos de quimioterapia primero para meduloblastoma del lactante",
+          "trial": "Duffner PK et al. Neurology 1993: Ensayo Baby POG — quimioterapia sola para meduloblastoma del lactante para retrasar la RT; resultados de CI dramáticamente mejores en los que reciben solo quimioterapia frente a RT precoz; Mulhern RK et al. JCO 2004: ICE en niños <7 años asociada a >20 puntos de descenso medio del CI a los 5 años",
+          "pearl": "Evitar RT en <3 años: daño neurocognitivo grave por irradiación del cerebro en desarrollo (descenso del CI 2-3 pts/año con ICE), deficiencia de GH (>90%), lesión de la sustancia blanca, neoplasia secundaria. Protocolos del lactante: quimioterapia intensiva (altas dosis, carboplatino/vincristina/etopósido) para retrasar RT hasta los 3-5 años. Meduloblastoma SHH desmoplásico/nodular del lactante: la quimioterapia sola puede ser suficiente (75% SG sin RT)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q10",
+        "stem": "Una niña de 11 años presenta nuevas crisis epilépticas. La RM muestra una lesión cortical temporal izquierda de 3 cm, hiperintensa en T2, brillante en FLAIR, sin realce, con aspecto de 'burbujas de jabón'. La lesión estaba presente en imágenes previas de hace 5 años con cambios mínimos. La resección quirúrgica muestra: arquitectura multinodular, neurócitos y células gliales flotando en una matriz mucoide, calcificación. ¿Cuál es el diagnóstico?",
+        "options": {
+          "A": "GBM de lóbulo temporal",
+          "B": "Tumor neuroepitelial disembrioplásico (DNET)",
+          "C": "Oligodendroglioma IDH mutante, con codeleción 1p/19q",
+          "D": "Ganglioglioma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El tumor neuroepitelial disembrioplásico (DNET) es un tumor cortical de grado 1 de la OMS que se presenta en niños y adultos jóvenes con epilepsia intratables. Características: (1) localización cortical/subcortical (lóbulo temporal la más frecuente), (2) aspecto T2 de 'burbujas de jabón' por arquitectura multinodular en matriz mucoide, (3) sin realce o realce mínimo, (4) estable en imágenes seriadas a lo largo de años (crecimiento extremadamente lento), (5) asociado a displasia cortical. Histología: 'elemento glioneuronal específico' con neurócitos flotando en una matriz mixoide con células tipo oligodendrocito. Mutaciones de FGFR1 (~50%). Tratamiento: la resección quirúrgica logra la libertad de crisis epilépticas en el 60-80%.",
+          "wrong": {
+            "A": "El GBM mostraría realce en anillo, necrosis y progresión rápida, no estabilidad durante 5 años y aspecto de burbujas de jabón. El GBM es extraordinariamente raro en niños menores de 15 años.",
+            "C": "El oligodendroglioma IDH mutante requiere mutación IDH1/2 + codeleción 1p/19q para el diagnóstico. Es un tumor del adulto (raro en niños) y se presenta con señal T2 infiltrativa difusa en lugar del patrón cortical de burbujas de jabón. El DNET precede al diagnóstico de oligodendroglioma en niños.",
+            "D": "El ganglioglioma es un diagnóstico diferencial cercano: también temporal, también causa epilepsia, también grado 1 de la OMS. Sin embargo, el ganglioglioma tiene un aspecto de nódulo mural quístico (no burbujas de jabón), típicamente realza en el nódulo mural e histológicamente muestra neuronas displásicas + astrocitos neoplásicos (no neurócitos flotantes en matriz mucoide). Mutaciones FGFR1 frente a BRAF V600E en ganglioglioma."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — DNET: tumor cortical multinodular, elemento glioneuronal, alteraciones FGFR1; resección quirúrgica para libertad de crisis epilépticas",
+          "trial": "Daumas-Duport C et al. Cancer 1988: Descripción original del DNET — tumor cortical con elemento glioneuronal específico y comportamiento benigno; Chassoux F et al. Neurology 2012: Resultados quirúrgicos — 64% de libertad de crisis epilépticas a los 2 años tras resección completa",
+          "pearl": "DNET: corteza temporal + epilepsia infantil + RM en burbujas de jabón + estable durante años + histología (neurócitos flotantes en matriz mixoide) = DNET. Grado 1 de la OMS. Mutaciones FGFR1. Tratamiento: cirugía para curación de la epilepsia. Diagnóstico diferencial cercano: ganglioglioma (nódulo mural + quiste, BRAF V600E)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q11",
+        "stem": "¿Qué inhibidor de MEK aprobado por la FDA ha demostrado actividad en el glioma pediátrico de bajo grado de la vía óptica asociado a NF1 y recibió la aprobación de la FDA basándose en el ensayo SPRINT?",
+        "options": {
+          "A": "Dabrafenib",
+          "B": "Trametinib",
+          "C": "Selumetinib",
+          "D": "Vemurafenib"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El selumetinib (AstraZeneca, inhibidor de MEK1/2) recibió la aprobación de la FDA en abril de 2020 para niños ≥2 años con neurofibromas plexiformes asociados a NF1. El ensayo SPRINT (Dombi et al. NEJM 2016) demostró una tasa de respuesta del 70% para los neurofibromas plexiformes en NF1. Para los gliomas de la vía óptica (GVO), el selumetinib logra ~25% de tasa de respuesta global con mejora significativa de la SSP en NF1-GVO. Es el primer tratamiento dirigido aprobado por la FDA para los tumores asociados a NF1 y se usa actualmente en el NF1-GVO como alternativa a la quimioterapia con carboplatino+vincristina.",
+          "wrong": {
+            "A": "El dabrafenib es un inhibidor de BRAF V600E (no de MEK) usado para tumores con mutación BRAF V600E. Está siendo evaluado en GBG-p pediátrico pero no está aprobado específicamente para NF1-GVO (que típicamente tiene fusión BRAF-KIAA1549 o pérdida de NF1, no BRAF V600E).",
+            "B": "El trametinib es un inhibidor de MEK usado en combinación con dabrafenib para tumores con mutación BRAF. Está siendo estudiado en GBG-p, pero el ensayo SPRINT y la aprobación de la FDA fueron para selumetinib, no para trametinib.",
+            "D": "El vemurafenib es un inhibidor de BRAF V600E con datos pediátricos del SNC limitados. No está aprobado para NF1-GVO y tiene una penetración deficiente en el SNC en comparación con los nuevos inhibidores de BRAF."
+          },
+          "guideline": "NCCN CNS Tumors v1.2024 — NF1-GVO: selumetinib como opción de primera línea; Guías SIOPE GBG-p 2023; aprobación FDA abril 2020 para neurofibromas plexiformes de NF1",
+          "trial": "Dombi E et al. NEJM 2016 (SPRINT Fase II): Selumetinib en neurofibromas plexiformes de NF1 — tasa de respuesta 70% (frente al 0% históricamente con quimioterapia); SSP mejorada; aprobado FDA 2020; Fangusaro J et al. Neuro Oncol 2021: Selumetinib en NF1-GVO — ~25% tasa de respuesta global, mejora significativa de la SSP",
+          "pearl": "Selumetinib = inhibidor de MEK1/2, aprobado por la FDA para tumores asociados a NF1. Ensayo SPRINT: 70% tasa de respuesta en neurofibromas plexiformes de NF1. En NF1-GVO: ~25% tasa de respuesta. RT evitada en pacientes con NF1 (riesgo de neoplasia secundaria maligna, vasculopatía tipo moyamoya). Selumetinib reemplazando carboplatino+vincristina como primera línea para NF1-GVO."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q12",
+        "stem": "Un niño de 5 años desarrolla un meduloblastoma cerebeloso de línea media de 4,5 cm. La RM postoperatoria muestra <1 cm² de residuo. La RM espinal es M0. Patología: histología clásica. Molecular: Grupo 4, amplificación CDK6, sin amplificación de MYC. ¿Cuál es su clasificación de riesgo y tratamiento planificado?",
+        "options": {
+          "A": "Alto riesgo — ICE 36 Gy + boost FP 54 Gy + quimioterapia",
+          "B": "Riesgo estándar — ICE 23,4 Gy + boost FP 54-55,8 Gy + CCNU/vincristina/cisplatino x8 ciclos",
+          "C": "Riesgo estándar — solo quimioterapia, diferir RT dada la edad de 5 años",
+          "D": "Subgrupo WNT — ensayo de desescalada con ICE 18 Gy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente cumple los criterios de riesgo estándar: edad ≥3 años (5 años), M0 (sin metástasis espinales), equivalente a RTA (<1 cm² de residuo: por debajo del umbral de 1,5 cm²), histología clásica (no CGA/anaplásica), subgrupo molecular Grupo 4 (no ultra-alto riesgo). Tratamiento de riesgo estándar: ICE 23,4 Gy + boost en fosa posterior a 54-55,8 Gy + 8 ciclos adyuvantes de CCNU/vincristina/cisplatino. El Grupo 4 con amplificación CDK6 (sin amplificación de MYC) es riesgo estándar dentro del Grupo 4: no actualiza automáticamente a alto riesgo.",
+          "wrong": {
+            "A": "ICE 36 Gy de alto riesgo es para enfermedad M1-M4, RST (>1,5 cm² de residuo) o histología CGA. Este paciente tiene <1 cm² de residuo (equivalente a RTA), M0 e histología clásica: criterios de riesgo estándar.",
+            "C": "La quimioterapia sola difiriendo la RT es el abordaje para niños <3 años, no para un niño de 5 años. A los 5 años, el estándar de atención es ICE + quimioterapia. Diferir la RT en un paciente de 5 años con riesgo estándar sería un manejo inadecuado.",
+            "D": "El meduloblastoma activado por WNT se identifica por mutación CTNNB1 + monosomía 6 + IHQ de β-catenina nuclear, no por amplificación de CDK6. La amplificación de CDK6 es característica del Grupo 4, no del WNT. La desescalada con ICE 18 Gy solo es para pacientes WNT activados en ensayos clínicos."
+          },
+          "guideline": "Guías SIOPE de Meduloblastoma 2023 — Riesgo estándar: edad ≥3, M0, RTA (<1,5 cm²), histología no anaplásica → ICE 23,4 Gy + boost + quimioterapia",
+          "trial": "Packer RJ et al. J Clin Oncol 1999: Riesgo estándar definido y tratado con ICE 23,4 Gy + CCNU/VCR/CDDP; SSE a 5 años 79%; Ramaswamy V et al. Lancet Oncol 2016: Pronóstico del Grupo 4 — amplificación CDK6 riesgo intermedio, amplificación MYC alto riesgo",
+          "pearl": "Criterios de meduloblastoma de riesgo estándar: edad ≥3 años + M0 + RTA/NTR (<1,5 cm²) + histología no CGA. TODOS los criterios deben cumplirse. Tratamiento estándar: ICE 23,4 Gy + boost FP 54 Gy + CCNU/VCR/CDDP x8 ciclos. Cualquier desviación de los criterios = alto riesgo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q13",
+        "stem": "¿Cuál es el único factor pronóstico más importante para el resultado del ependimoma tras la cirugía?",
+        "options": {
+          "A": "Grado de la OMS (grado 2 vs grado 3)",
+          "B": "Subgrupo molecular (PFA vs PFB)",
+          "C": "Extensión de la resección quirúrgica (total amplia vs subtotal)",
+          "D": "Edad en el momento del diagnóstico"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La extensión de la resección quirúrgica (RTA vs RST) es el factor pronóstico más poderoso para el ependimoma, con una SSP a 5 años de aproximadamente el 65% tras la RTA frente al 30% tras la RST, en múltiples series de gran tamaño. Por eso la cirugía del ependimoma exige la resección máxima segura con intención de RTA, aceptando una segunda cirugía si se logra una resección casi total en la primera operación. El beneficio en la supervivencia de la RTA es mayor en el ependimoma que en cualquier otro tumor cerebral. El subgrupo molecular (PFA/PFB) y el grado de la OMS aportan una estratificación pronóstica adicional, pero no anulan la importancia primordial de la completitud quirúrgica.",
+          "wrong": {
+            "A": "El grado de la OMS tiene significado pronóstico (grado 3 = ependimoma con anaplasia), pero es menos potente que la extensión de la resección en el análisis multivariante. Además, la OMS 2021 ha reducido el énfasis en la gradación a favor de la clasificación por subgrupos moleculares.",
+            "B": "El subgrupo molecular (PFA vs PFB) es el factor pronóstico molecular más importante, pero en los análisis multivariantes, la RTA emerge consistentemente como el factor pronóstico independiente más sólido en todos los subgrupos.",
+            "D": "La edad en el momento del diagnóstico se correlaciona con el pronóstico (los lactantes tienen peores resultados), pero es menos potente que la extensión de la resección para determinar los resultados individuales del paciente."
+          },
+          "guideline": "Guías EANO de Ependimoma 2022 — RTA como objetivo quirúrgico principal; SSP a 5 años 65% RTA vs 30% RST; segunda cirugía recomendada si resección casi total",
+          "trial": "Merchant TE et al. J Clin Oncol 2004: 153 pacientes con ependimoma — RTA vs RST: SSP a 5 años 75% vs 40%; RTA el predictor más sólido en análisis multivariante; Pajtler KW et al. Cancer Cell 2015: RTA sigue siendo el factor pronóstico dominante incluso dentro de los subgrupos moleculares",
+          "pearl": "Ependimoma: RTA = factor pronóstico dominante. SSP a 5 años: 65% RTA vs 30% RST. Segunda cirugía recomendada tras resección casi total. A diferencia del glioma donde se evita la RTA en corteza elocuente, el ependimoma exige la búsqueda agresiva de la RTA incluso requiriendo disección del suelo del cuarto ventrículo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q14",
+        "stem": "¿Cuál es el mecanismo por el que la mutación H3 K27M en el GIPD ejerce su efecto oncogénico?",
+        "options": {
+          "A": "Amplificación de EGFR que lleva a proliferación incontrolada",
+          "B": "Reducción global de la trimetilación de H3K27 (H3K27me3), causando desregulación epigenética generalizada",
+          "C": "Actividad neomórfica de IDH1 R132H que produce D-2-hidroxiglutarato",
+          "D": "Metilación del promotor de MGMT que impide la reparación del ADN"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "H3 K27M es una mutación de ganancia de función con efecto dominante negativo: la única proteína H3 K27M mutante actúa en trans para inhibir el complejo PRC2 (específicamente la actividad catalítica de EZH2), reduciendo globalmente la trimetilación de H3K27 en todo el genoma. H3K27me3 es la marca represiva clave de la histona que mantiene el silenciamiento génico. Su pérdida causa una desrepresión transcripcional generalizada (activación de oncogenes, genes de células madre, genes del desarrollo que deberían permanecer silenciados en células diferenciadas), impulsando la transformación maligna. Este mecanismo epigenético explica por qué solo una pequeña fracción de las proteínas de histona H3 necesita llevar la mutación K27M para causar la pérdida global de H3K27me3.",
+          "wrong": {
+            "A": "La amplificación de EGFR ocurre en el GBM del adulto y no es el mecanismo de la oncogénesis de H3 K27M en el GIPD. Las alteraciones de EGFR pueden coexistir en algunos GIPD, pero no son el mecanismo oncogénico principal.",
+            "C": "La producción neomórfica de D-2-hidroxiglutarato por IDH1 R132H es el mecanismo en los gliomas IDH mutantes (astrocitoma, oligodendroglioma). H3 K27M opera a través de un mecanismo epigenético completamente diferente (modificación de histonas, no oncogénesis metabólica).",
+            "D": "La metilación del promotor de MGMT silencia el gen de la O6-metilguanina-ADN-metiltransferasa, reduciendo la reparación del daño por alquilación: relevante para la sensibilidad a la TMZ en el GBM, no el mecanismo de la oncogénesis de H3 K27M."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — Glioma difuso de la línea media con alteración H3 K27: mecanismo patogénico, inhibición dominante negativa de EZH2",
+          "trial": "Lewis PW et al. Science 2013: Estudio mecanístico de H3 K27M — demuestra que el H3 K27M mutante actúa como inhibidor dominante negativo de PRC2/EZH2 → reducción global de H3K27me3; Funato K et al. Science 2014: La pérdida de H3K27me3 impulsa la desrepresión transcripcional y la transformación maligna",
+          "pearl": "Mecanismo H3 K27M: inhibición dominante negativa de PRC2/EZH2 → reducción global de H3K27me3 → desrepresión transcripcional de genes del desarrollo → transformación maligna. Clave: la mutación K27M en UNA copia de H3 inhibe la metilación de TODOS los nucleosomas (efecto dominante negativo en trans). EZHIP en el ependimoma PFA tiene el mismo efecto a través de un mecanismo diferente."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q15",
+        "stem": "A un niño de 12 años se le detecta un astrocitoma pilocítico cerebeloso izquierdo de 2,5 cm en la RM. La cirugía logra una resección total amplia; la patología confirma astrocitoma pilocítico de grado 1 de la OMS con fusión BRAF-KIAA1549. ¿Cuál es el manejo postoperatorio recomendado?",
+        "options": {
+          "A": "Radioterapia adyuvante 54 Gy en 30 fracciones",
+          "B": "Quimioterapia adyuvante con carboplatino + vincristina x12 ciclos",
+          "C": "Observación — RM cada 3-6 meses durante 5 años; sin tratamiento adyuvante",
+          "D": "Temozolomida 200 mg/m² x5 días cada 28 días x12 ciclos"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Para un astrocitoma pilocítico cerebeloso completamente resecado (RTA) en un niño de 12 años, la observación con vigilancia por RM es el manejo estándar: no se requiere ningún tratamiento adyuvante. La RTA del astrocitoma pilocítico es efectivamente curativa, con una supervivencia libre de recurrencia a 5 años >95% y una SG a 10 años que se aproxima al 100%. La fusión BRAF-KIAA1549 confirma el diagnóstico molecular. El tratamiento adyuvante se reserva para el astrocitoma pilocítico incompletamente resecado, con residuo sintomático o recurrente.",
+          "wrong": {
+            "A": "La radioterapia tras la RTA de un astrocitoma pilocítico de grado 1 de la OMS no está indicada: causaría efectos tardíos significativos (disfunción endocrina, neurocognición, neoplasia secundaria) sin beneficio en un tumor benigno completamente resecado.",
+            "B": "La quimioterapia con carboplatino + vincristina se usa para el astrocitoma pilocítico irresecable, progresivo o recurrente, no para la enfermedad con resección total amplia. La quimioterapia post-RTA sería toxicidad innecesaria.",
+            "D": "La temozolomida no tiene ningún papel establecido en el manejo del astrocitoma pilocítico. La TMZ se usa para el GBM del adulto y no forma parte de ningún protocolo estándar de GBG-p."
+          },
+          "guideline": "Guías SIOPE GBG-p 2023 — RTA de astrocitoma pilocítico de grado 1 de la OMS: solo observación; sin tratamiento adyuvante indicado; programa de seguimiento por RM",
+          "trial": "Fernandez C et al. J Neurosurg 2003: Gran serie de astrocitoma pilocítico cerebeloso — RTA logra SSP >95% a los 10 años; recurrencia tras RTA rara (<5%); el tratamiento adyuvante tras RTA no muestra beneficio",
+          "pearl": "Astrocitoma pilocítico cerebeloso: RTA = curación (SG >95% a 10 años). Sin tratamiento adyuvante tras RTA. Seguimiento por RM: cada 3 meses el año 1, cada 6 meses años 2-5, anualmente a partir de entonces. Carboplatino+vincristina reservado para resección incompleta, residuo progresivo o recurrencia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q16",
+        "stem": "¿Cuál es la justificación clínica para evitar la radioterapia en niños con glioma de la vía óptica asociado a NF1 específicamente (a diferencia del glioma óptico sin NF1)?",
+        "options": {
+          "A": "El NF1-GVO es intrínsecamente resistente a la radiación",
+          "B": "Alto riesgo de neoplasia secundaria maligna inducida por RT (GBM secundario) y vasculopatía tipo moyamoya en los márgenes del campo",
+          "C": "La radioterapia causa deterioro visual inmediato en pacientes con NF1",
+          "D": "Los pacientes con NF1 ya han recibido radiación por neurofibromas plexiformes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En niños con NF1, la radioterapia craneal conlleva un riesgo sustancialmente mayor de neoplasias secundarias malignas inducidas por RT (en particular GBM secundario en el margen del campo de RT, que ocurre 10-20 años después) en comparación con la población general. Los pacientes con NF1 también tienen predisposición a la enfermedad cerebrovascular inducida por RT (vasculopatía tipo moyamoya), que causa ictus tardío y deterioro cognitivo progresivo. Estos riesgos, combinados con la historia natural generalmente favorable del NF1-GVO (muchos se estabilizan o regresan espontáneamente), hacen que evitar la radioterapia en el NF1-GVO sea una recomendación firme de las guías. La quimioterapia (carboplatino+vincristina o selumetinib) es el tratamiento preferido para el NF1-GVO progresivo.",
+          "wrong": {
+            "A": "El NF1-GVO no es intrínsecamente resistente a la radiación. La RT es eficaz en el NF1-GVO: la preocupación no es la eficacia sino la morbilidad a largo plazo específica de los pacientes con NF1.",
+            "C": "La radioterapia no causa deterioro visual inmediato en pacientes con NF1 más que en otros pacientes. La preocupación son los riesgos vasculares y de neoplasia secundaria a largo plazo, no la toxicidad aguda.",
+            "D": "La mayoría de los pacientes con NF1 con GVO no han recibido radiación previamente. La razón para evitar la RT es el mayor riesgo de malignidad intrínseco del síndrome de predisposición NF1 por la RT, no el historial de tratamiento previo."
+          },
+          "guideline": "Guías de Tumores NF1 SIOPE 2023 — RT contraindicada/fuertemente desaconsejada en NF1-GVO; riesgo de neoplasia secundaria maligna y vasculopatía tipo moyamoya; NCCN CNS Tumors v1.2024",
+          "trial": "Grill J et al. J Neurooncol 2000: NF1-GVO tratado con RT — GBM secundario en el campo de RT en 4/65 pacientes (vs 0/65 en cohorte comparable sin NF1, p=0,04); vasculopatía tipo moyamoya inducida por RT en el 8% de NF1 vs 1% sin NF1",
+          "pearl": "NF1 + RT craneal = alto riesgo de GBM secundario (latencia 10-20 años en el margen del campo de RT) + riesgo de vasculopatía tipo moyamoya. Estos riesgos son específicos de los portadores de la mutación germinal NF1. Evitar RT en NF1-GVO = recomendación firme de las guías. Usar carboplatino+vincristina o selumetinib en su lugar."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q17",
+        "stem": "¿Cuál es el curso temporal típico del síndrome de fosa posterior (mutismo cerebeloso) tras la cirugía de meduloblastoma?",
+        "options": {
+          "A": "Inicio en las 2 horas de la cirugía (complicación intraoperatoria)",
+          "B": "Inicio 24-96 horas del postoperatorio; recuperación parcial a lo largo de 6-18 meses",
+          "C": "Inicio 6-12 meses del postoperatorio cuando comienza la radioterapia",
+          "D": "Déficits permanentes inmediatos sin recuperación esperada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome de fosa posterior (mutismo cerebeloso) tiene de forma característica un inicio RETRASADO: típicamente 24-96 horas después de la cirugía, tras un período inicial de habla postoperatoria aparentemente normal (el 'intervalo lúcido transitorio'). Este inicio retrasado se explica por la lesión secundaria de la vía dentato-talamo-cortical: el trauma quirúrgico inicial en los pedúnculos cerebelosos lleva a edema y disfunción axonal progresiva durante las siguientes horas o días. La recuperación es lenta: muchos niños muestran mejoría gradual a lo largo de 6-18 meses, pero pueden persistir déficits lingüísticos, dificultades de aprendizaje y disregulación emocional. Las familias deben ser informadas específicamente sobre esto de forma preoperatoria.",
+          "wrong": {
+            "A": "El inicio en las 2 horas de la cirugía sugeriría un mecanismo diferente (lesión cortical directa, efecto anestésico). El rasgo distintivo del síndrome de fosa posterior es el inicio retrasado tras un período aparentemente normal de conciencia y habla.",
+            "C": "El síndrome de fosa posterior es una complicación quirúrgica (no de la radiación), que ocurre a los pocos días de la intervención. Los efectos inducidos por la radiación tienen un curso temporal diferente (semanas a meses para los subagudos, años para los tardíos).",
+            "D": "El síndrome de fosa posterior no es inmediatamente permanente: la recuperación (frecuentemente sustancial, aunque incompleta) es la norma. Los niños con mutismo cerebeloso generalmente recuperan el habla a lo largo de semanas o meses, aunque es posible que no se produzca una recuperación cognitiva completa."
+          },
+          "guideline": "Guías de Cirugía del Meduloblastoma SIOPE 2023 — Síndrome de fosa posterior: inicio retrasado 24-96 h, recuperación 6-18 meses; asesoramiento preoperatorio obligatorio",
+          "trial": "Robertson PL et al. JNCI 1993: Primera gran serie de mutismo cerebeloso tras cirugía de tumor de fosa posterior — incidencia 15-25%, inicio retrasado característico, recuperación gradual; Ku M et al. J Child Neurol 2016: Neuroimagen de la lesión de la vía dentato-talamo-cortical en el síndrome de fosa posterior",
+          "pearl": "Síndrome de fosa posterior: inicio retrasado (24-96 h), NO inmediato. Mecanismo: lesión de la vía dentato-talamo-cortical → edema → disfunción tardía. Características: mutismo + labilidad emocional + hipotonía + ataxia. Recuperación: parcial a lo largo de 6-18 meses, pero déficits lingüísticos frecuentes. Incidencia: 15-25% tras cirugía de tumor de fosa posterior de línea media."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q18",
+        "stem": "Un niño de 2 años presenta un tumor de fosa posterior de rápido crecimiento. La patología muestra: células rabdoides, un patrón de crecimiento epitelioide maligno y áreas que recuerdan a un tumor neuroectodérmico primitivo. IHQ: tinción de INI1 CONSERVADA, BRG1/SMARCA4 PERDIDA. ¿Cuál es el diagnóstico?",
+        "options": {
+          "A": "TTRA con pérdida bialélica de SMARCB1",
+          "B": "TTRA con pérdida bialélica de SMARCA4",
+          "C": "Meduloblastoma de Grupo 3 con rasgos anaplásicos",
+          "D": "Carcinoma del plexo coroideo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El TTRA puede estar causado por la pérdida bialélica de SMARCB1 (INI1) o SMARCA4 (BRG1/SMARCA4), que codifican subunidades del complejo de remodelación de la cromatina SWI/SNF. Cuando la tinción de INI1 está CONSERVADA y la de BRG1/SMARCA4 está PERDIDA, esto indica pérdida bialélica de SMARCA4: la variante de TTRA menos frecuente (~3% de los casos de TTRA). Este TTRA deficiente en SMARCA4 (tipo 'SCCOHT' o 'TTRA deficiente en SMARCA4') debe distinguirse del TTRA deficiente en SMARCB1 (el más frecuente). El tratamiento es idéntico al TTRA estándar. La presentación clínica en un niño de 2 años con crecimiento rápido y morfología rabdoide es típica.",
+          "wrong": {
+            "A": "El TTRA por pérdida bialélica de SMARCB1 mostraría PÉRDIDA de la tinción de INI1. En este caso, INI1 está CONSERVADA y BRG1 está perdida: indica deficiencia de SMARCA4, no de SMARCB1.",
+            "C": "El meduloblastoma de Grupo 3 con rasgos anaplásicos mostraría INI1 conservada Y BRG1 conservada. La pérdida de IHQ de cualquier subunidad del complejo de remodelación de la cromatina no es una característica del meduloblastoma.",
+            "D": "El carcinoma del plexo coroideo tiene arquitectura papilar que imita el plexo coroideo, expresa transtiretina y citoqueratina y no muestra pérdida de las subunidades del complejo SWI/SNF."
+          },
+          "guideline": "Clasificación OMS del SNC 2021 — TTRA definido por pérdida bialélica de SMARCB1 O SMARCA4; TTRA deficiente en SMARCA4 es un subtipo reconocido",
+          "trial": "Torchia J et al. Nat Genet 2015: Clasificación por subgrupos moleculares del TTRA — subtipos TYR, SHH, MYC; TTRA deficiente en SMARCA4 distinto del tipo deficiente en SMARCB1; pronóstico equivalente",
+          "pearl": "Diagnóstico IHQ del TTRA: pérdida de SMARCB1 = INI1 IHQ negativo (el más frecuente). Pérdida de SMARCA4 = BRG1 IHQ negativo CON INI1 conservada (menos frecuente, ~3%). Cualquiera de las formas = diagnóstico de TTRA. OMS 2021: INI1 conservada + BRG1 perdida = TTRA deficiente en SMARCA4. Es importante analizar AMBOS marcadores."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q19",
+        "stem": "Una niña de 9 años con meduloblastoma completó el tratamiento de riesgo estándar (ICE + quimioterapia) hace 3 años. Ahora tiene 12 años y sus padres refieren que está teniendo muchas dificultades en el colegio. ¿Qué evaluación endocrina debe realizarse PRIMERO dado su riesgo específico por el tratamiento?",
+        "options": {
+          "A": "Cortisol libre urinario de 24 horas para evaluar la función suprarrenal",
+          "B": "IGF-1 y test de estimulación de GH para evaluar la deficiencia de GH",
+          "C": "Test de estimulación con ACTH (Synacthen corto)",
+          "D": "Glucosa en ayunas y HbA1c para diabetes relacionada con el tratamiento"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La deficiencia de hormona de crecimiento (DGH) es el efecto tardío endocrino más frecuente tras la irradiación craneoespinal (ICE), ocurriendo en >90% de los pacientes que reciben ≥24 Gy de ICE. Suele ser el primer eje hipofisario en fallar tras la RT (por la alta radiosensibilidad de las células somatotropas) y se manifiesta clínicamente como retraso del crecimiento y contribuye a las dificultades escolares (la GH tiene efectos cognitivos además de efectos sobre el crecimiento). Valoración: niveles de IGF-1 y test formal de estimulación de GH (test de tolerancia a la insulina o test de estimulación con glucagón) deben realizarse 12-18 meses tras completar la RT. La reposición de GH mejora la velocidad de crecimiento y puede mejorar la calidad de vida. Esta debe ser la valoración endocrina de primera línea en cualquier superviviente de ICE con retraso del crecimiento.",
+          "wrong": {
+            "A": "La insuficiencia suprarrenal (central, por deficiencia de ACTH) ocurre con menor frecuencia que la DGH tras la ICE y suele ser una manifestación tardía (>5 años post-RT). Aunque es importante evaluarla, no es la PRIMERA prioridad cuando la preocupación principal son las dificultades escolares en un superviviente de ICE.",
+            "C": "El test de estimulación con ACTH es apropiado para el cribado de la insuficiencia suprarrenal, pero esta es menos frecuente que la DGH en las fases tempranas tras la ICE. En un niño 3 años post-ICE, la valoración de la DGH tiene prioridad dado su incidencia >90%.",
+            "D": "La diabetes inducida por RT de ICE no es una complicación significativa reconocida: la resistencia a la insulina y el síndrome metabólico pueden ocurrir en supervivientes, pero no son principalmente por la radiación. La valoración de la DGH es la evaluación endocrina prioritaria."
+          },
+          "guideline": "Guías de Efectos Tardíos SIOPE 2022 — Supervivientes de ICE: eje GH (IGF-1 + test de estimulación formal) a los 12-18 meses post-ICE; anualmente a partir de entonces; reposición de GH obligatoria si hay deficiencia y sin contraindicación tumoral",
+          "trial": "Brennan BM et al. Arch Dis Child 1998: DGH tras ICE — >90% DGH a los 5 años de ICE ≥24 Gy; test de estimulación de GH recomendado 12-18 meses post-RT; la reposición de GH restaura la velocidad de crecimiento y mejora la CdV; no hay evidencia de riesgo de recurrencia tumoral con la reposición de GH en el meduloblastoma",
+          "pearl": "Efectos tardíos de la ICE: DGH (>90% tras ≥24 Gy) = primer eje en fallar = complicación endocrina más frecuente. Test: IGF-1 + test de estimulación de GH a los 12-18 meses post-ICE. Reposición de GH: mejora el crecimiento y la CdV. Riesgo de recurrencia tumoral con reposición de GH: no demostrado para el meduloblastoma (pero evitar en los primeros 1-2 años post-tratamiento)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q20",
+        "stem": "El ensayo FIREFLY-1 evaluó el tovorafenib para cuál tumor cerebral pediátrico, y cuál fue la tasa de respuesta global?",
+        "options": {
+          "A": "Meduloblastoma de Grupo 3; tasa de respuesta global 30%",
+          "B": "Glioma pediátrico de bajo grado recurrente/refractario (con fusión BRAF); tasa de respuesta global 67%",
+          "C": "GIPD H3 K27M; tasa de respuesta global 50%",
+          "D": "TTRA deficiente en SMARCB1; tasa de respuesta global 40%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo FIREFLY-1 (Kilburn et al. Lancet Oncol 2023) evaluó el tovorafenib (DAY101, un inhibidor de RAF con penetración en el SNC) en niños con glioma pediátrico de bajo grado (GBG-p) recurrente o refractario. El ensayo incluyó predominantemente GBG-p con alteración de BRAF (con fusión BRAF-KIAA1549 o mutación BRAF V600E). La tasa de respuesta global fue del 67% (respuesta completa 3%, respuesta parcial 64%), con una tasa de beneficio clínico del 89%: una eficacia transformadora en comparación con la tasa de respuesta histórica de la quimioterapia del 25-40%. Este ensayo llevó a la aprobación de la FDA del tovorafenib para el GBG pediátrico recurrente/refractario con una alteración de BRAF.",
+          "wrong": {
+            "A": "FIREFLY-1 no fue para el meduloblastoma de Grupo 3. El tovorafenib tiene como diana la vía RAF/BRAF, que no es el impulsor del Grupo 3 del meduloblastoma (que tiene la amplificación de MYC como principal impulsor oncogénico).",
+            "C": "Los ensayos clínicos del GIPD tienen como diana las vías relacionadas con H3 K27M: inhibidores de EZH2, inhibidores de HDAC, ONC201 (agonista DRD2). Los inhibidores de BRAF/tovorafenib no son el abordaje principal para el GIPD. FIREFLY-1 fue específicamente para GBG-p.",
+            "D": "El TTRA no alberga alteraciones de BRAF: está impulsado por la pérdida de SMARCB1/SMARCA4 (disfunción del complejo SWI/SNF). Los inhibidores de BRAF no tienen ningún papel en el tratamiento del TTRA."
+          },
+          "guideline": "NCCN CNS Tumors v1.2024 — Tovorafenib (DAY101) aprobado por la FDA para GBG-p recurrente/refractario con alteración de BRAF; Guías SIOPE GBG-p 2023",
+          "trial": "Kilburn LB et al. Lancet Oncol 2023 (FIREFLY-1): 77 pacientes con GBG-p recurrente/refractario — tovorafenib oral una vez por semana; tasa de respuesta global 67% (respuesta parcial 64%, respuesta completa 3%); tasa de beneficio clínico 89%; Designación de Terapia Innovadora de la FDA; establecido como agente más eficaz hasta la fecha para GBG-p recurrente con fusión BRAF",
+          "pearl": "Tovorafenib (FIREFLY-1, Lancet Oncol 2023): inhibidor de RAF, oral una vez por semana, para GBG-p recurrente con fusión BRAF o BRAF V600E → tasa de respuesta global 67%, tasa de beneficio clínico 89%. Mejor eficacia como agente único en GBG-p recurrente. Aprobado por la FDA. Selumetinib (inhibidor de MEK) para NF1-GVO (ensayo SPRINT). Distintas dianas, distintas indicaciones."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

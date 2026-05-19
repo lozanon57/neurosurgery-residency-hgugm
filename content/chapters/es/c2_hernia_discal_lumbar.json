@@ -1,0 +1,623 @@
+{
+  "id": "C2",
+  "title": "Hernia Discal Lumbar y Radiculopatía",
+  "subtitle": "Bloque C — Hernia Discal Lumbar: Diagnóstico, Tratamiento Conservador y Microdiscectomía",
+  "block": "C",
+  "block_name": "Neurocirugía Espinal",
+  "level": "R1-2",
+  "reading_time_min": 38,
+  "guidelines_version": "NASS Clinical Practice Guidelines 2012 (updated 2020) · EANS Spine Guidelines 2022 · NICE Spine Guidelines 2016",
+  "textbook_refs": [
+    "Weinstein JN et al. Surgical vs Non-operative Treatment for Lumbar Disk Herniation (SPORT). JAMA 2006",
+    "Peul WC et al. Surgery vs Prolonged Conservative Treatment for Sciatica (Leiden-The Hague Spine Group). NEJM 2007",
+    "Gibson JN, Waddell G. Surgical Interventions for Lumbar Disc Prolapse. Cochrane Database 2007",
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)"
+  ],
+  "learning_objectives": [
+    "Aplicar los criterios clínicos y radiológicos de la hernia discal lumbar y distinguir las hernias paracentral de las extraforaminales",
+    "Interpretar los resultados del ensayo SPORT comparando el tratamiento quirúrgico frente al no quirúrgico en la hernia discal lumbar",
+    "Definir las indicaciones absolutas y relativas de microdiscectomía lumbar urgente, incluyendo el síndrome de cola de caballo",
+    "Describir la técnica de microdiscectomía, las variantes de abordaje (abierta frente a mínimamente invasiva) y los resultados esperados",
+    "Identificar la sensibilidad y especificidad de la prueba de Lasègue (SLR) y cómo realizar la prueba de SLR cruzada",
+    "Manejar la hernia discal según la localización (paracentral, foraminal, extraforaminal) y distinguir clínicamente los niveles L4-5 de L5-S1"
+  ],
+  "sections": [
+    {
+      "id": "C2-S1",
+      "title": "Anatomía, Clasificación e Historia Natural",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hernia discal lumbar (HDL) se produce cuando el núcleo pulposo se extruye a través de un defecto en el anillo fibroso, comprimiendo las estructuras neurales adyacentes. El anillo posterior es el más delgado y carece del refuerzo del ligamento vertebral común posterior (LVCP) en la línea media; las hernias posterolaterales son las más frecuentes (90%), produciéndose a través de los márgenes laterales del LVCP. Clasificación por posición: **paracentral** (posterolateral — la más frecuente, comprime la raíz de paso en el receso lateral); **foraminal** (dentro del foramen, comprime la raíz saliente — en L3-4, L4-5 sería L3 o L4 respectivamente); **extraforaminal** (hernia muy lateral, comprime la raíz saliente por encima del nivel discal). Clasificación por morfología: **protrusión** (anillo intacto, el núcleo hace prominencia), **extrusión** (núcleo a través del anillo, todavía en contacto con el LVCP), **secuestro** (fragmento libre, LVCP disrumpido). **Historia natural**: el 80–90% de los episodios de radiculopatía se resuelven en 6–12 semanas independientemente del tratamiento. El mecanismo de resolución espontánea incluye la reabsorción del fragmento mediante fagocitosis mediada por macrófagos (los fragmentos extruidos de mayor tamaño se reabsorben de forma más predecible que las protrusiones), la reducción de la inflamación neural mediada por prostaglandinas y la resolución posicional de la irritación de la raíz nerviosa. Hernias discales en los niveles lumbares más frecuentes: **hernia discal L4-5** (que causa radiculopatía L5 en la hernia posterolateral): pie caído (debilidad del extensor hallucis longus, EHL), déficit de dorsiflexión del dedo gordo del pie, parestesias en la cara anterior de la pierna; **hernia discal L5-S1** (que causa radiculopatía S1): debilidad de la flexión plantar (complejo gastrocnemio-sóleo, caminar de puntillas), ausencia del reflejo aquíleo, parestesias en la cara posterolateral de la pantorrilla y el pie lateral."
+        },
+        {
+          "type": "table",
+          "title": "Hernia Discal Lumbar — Características Clínicas por Nivel",
+          "headers": ["Nivel del disco", "Raíz comprimida (paracentral)", "Déficit motor", "Pérdida sensitiva", "Reflejo afectado"],
+          "rows": [
+            ["L3-4 (paracentral)", "L4", "Debilidad del cuádriceps (extensión de la rodilla)", "Cara anterior del muslo y cara medial de la pierna", "Reflejo patelar reducido"],
+            ["L4-5 (paracentral)", "L5", "Debilidad del EHL (dorsiflexión del dedo gordo/pie, pie caído)", "Cara lateral de la pierna, dorso del pie, primer espacio interdigital", "Sin reflejo específico (no se explora refejo L5 de rutina)"],
+            ["L5-S1 (paracentral)", "S1", "Debilidad gastrocnemio-sóleo (flexión plantar, elevación del talón)", "Cara posterolateral de la pantorrilla, pie lateral, 4.º-5.º dedos", "Ausencia del reflejo aquíleo (Aquiles)"],
+            ["L4-5 (foraminal)", "L4 (saliente)", "Debilidad del cuádriceps", "Cara anterior del muslo/cara medial de la pierna", "Reflejo patelar reducido"],
+            ["L5-S1 (foraminal)", "L5 (saliente)", "Debilidad del EHL, pie caído", "Cara lateral de la pierna, dorso del pie", "Sin reflejo específico"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Hernia Foraminal vs Paracentral: Raíz Afectada",
+          "content": "La hernia paracentral (posterolateral) en L4-5 comprime la raíz DE PASO (L5). La hernia foraminal en L4-5 comprime la raíz SALIENTE (L4). La regla: en el nivel discal L(n)-L(n+1), la hernia paracentral afecta a la raíz L(n+1); la hernia foraminal afecta a la raíz L(n). Esta distinción es fundamental para la planificación quirúrgica — una hernia foraminal L4-5 que causa radiculopatía L4 requiere un abordaje quirúrgico diferente al de una hernia paracentral L4-5."
+        }
+      ]
+    },
+    {
+      "id": "C2-S2",
+      "title": "Diagnóstico Clínico: Lasègue y Pruebas Clínicas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **prueba de Lasègue (SLR, Straight Leg Raise)** es la prueba clínica más sensible para la hernia discal lumbar con compresión de la raíz nerviosa. El paciente está en decúbito supino; el explorador eleva pasivamente la pierna extendida (flexión de cadera, rodilla extendida). La tensión de la raíz nerviosa es máxima a los 35–70° de elevación. Un resultado positivo es dolor que se irradia desde la espalda a la pierna por debajo de la rodilla en la distribución de la raíz afectada (no solo tensión isquiotibial en la cara posterior del muslo). Sensibilidad: 91% para hernias L4-5 y L5-S1. Especificidad: 26% (muchos falsos positivos por tensión isquiotibial). **Prueba de Lasègue cruzada** (SLR contralateral): la elevación de la pierna no afectada causa dolor radicular en la pierna afectada — menor sensibilidad (29%) pero ALTA especificidad (88%). Un Lasègue cruzado positivo es altamente predictivo de compresión de la raíz nerviosa. **Prueba de estiramiento femoral** (para compresión de las raíces L2-L4): en decúbito prono, la flexión de la rodilla provoca dolor en la cara anterior del muslo — pone a prueba la tensión de las raíces L2, L3, L4. El **test de Lasègue clásico** es una descripción alternativa de la SLR con la rodilla inicialmente flexionada (anulando la tensión isquiotibial) antes de extenderla — positivo si el dolor aparece por debajo de la rodilla. Los **signos de Waddell** (comportamiento de dolor no orgánico): hipersensibilidad superficial al tacto ligero, cambios sensitivos no anatómicos, debilidad cedente, sobrereacción, dolor a la carga axial — la presencia de ≥3 signos sugiere componente psicológico y es un predictor de mal resultado quirúrgico."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Diferenciación de la Hernia Discal de Otras Causas de Radiculopatía",
+          "content": "No todo el dolor en la pierna procedente de la espalda es una hernia discal. Diagnóstico diferencial de la radiculopatía lumbar: síndrome del piramidal (dolor glúteo profundo, sin hernia discal en RM), radiculopatía diabética (no posicional, frecuentemente bilateral, sin correlato en RM), herpes zóster (vesículas dermatoméricas antes del dolor), metástasis espinal (dolor nocturno, pérdida de peso, neoplasia conocida — RM urgente obligatoria), estenosis espinal lumbar (claudicación neurógena — dolor bilateral en las piernas al caminar, aliviado al sentarse). La RM confirma la compresión estructural de la raíz nerviosa y guía el tratamiento."
+        }
+      ]
+    },
+    {
+      "id": "C2-S3",
+      "title": "Ensayo SPORT — Cirugía vs Tratamiento Conservador",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **ensayo SPORT** (Spine Patient Outcomes Research Trial, Weinstein, JAMA 2006) es el ECA de referencia y el estudio de cohorte observacional que compara la cirugía frente al tratamiento no quirúrgico para la hernia discal lumbar. El brazo de ECA incluyó a 501 pacientes con hernia discal lumbar sintomática confirmada por RM y exploración clínica durante ≥6 semanas, aleatorizados a discectomía frente a tratamiento conservador. **Resultados**: se produjo un cruce significativo (el 40% de los pacientes aleatorizados cruzaron la asignación de tratamiento), lo que hizo que el análisis por intención de tratar fuera no significativo. Sin embargo, el **análisis por tratamiento recibido** mostró una mejoría significativamente mayor en el dolor corporal, la función física y la satisfacción del paciente en el grupo quirúrgico a los 3 meses (P<0,001), con la ventaja que desaparecía en gran medida a los 2 años a medida que los pacientes conservadores continuaban mejorando. **Ensayo Peul** (NEJM 2007, Grupo Espinal de Leiden-La Haya): 283 pacientes con ≥6 semanas de radiculopatía aleatorizados a cirugía precoz frente a tratamiento conservador prolongado. La cirugía logró una recuperación más rápida — a las 8 semanas, recuperación quirúrgica en el 95% frente al 64% de los conservadores (P<0,001). Al año, los resultados fueron equivalentes. La conclusión clínica clave: **la cirugía proporciona un alivio más rápido** de la ciática (recuperación a las 8 semanas frente a las 52 semanas con tratamiento conservador), pero **los resultados a largo plazo a 1–2 años son equivalentes**. La cirugía es por tanto apropiada para pacientes con discapacidad funcional significativa por radiculopatía que fracasan al tratamiento conservador de 6 semanas — no como urgencia a menos que esté presente el síndrome de cola de caballo."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Conclusión del Ensayo SPORT",
+          "content": "SPORT: la cirugía logra una recuperación más rápida (beneficio significativo a los 3 meses) pero los resultados a largo plazo a 1–2 años son EQUIVALENTES al tratamiento conservador. Peul: la cirugía a las 8 semanas tiene un 95% de recuperación frente al 64% conservador — pero al año, son equivalentes. Implicación clínica: ofrecer cirugía a los pacientes con discapacidad significativa persistente por radiculopatía tras 6–8 semanas de tratamiento conservador que deseen una recuperación más rápida, NO como tratamiento obligatorio."
+        }
+      ]
+    },
+    {
+      "id": "C2-S4",
+      "title": "Síndrome de Cola de Caballo — Cirugía Urgente",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **síndrome de cola de caballo (SCC)** es una urgencia neuroquirúrgica causada por la compresión de las raíces nerviosas de la cola de caballo en el canal espinal lumbar — más frecuentemente por hernia discal central masiva en L4-5 o L5-S1. La cola de caballo comprende las raíces lumbares y sacras (L2–S5) por debajo del cono medular (que finaliza en L1-L2 en adultos). **Características clínicas**: debilidad bilateral de los miembros inferiores (puede ser asimétrica), ciática bilateral, **anestesia en silla de montar** (periné, cara interna de los muslos, nalgas — distribución S2-4), disfunción vesical (retención urinaria — el signo precoz más importante), disfunción intestinal (incontinencia o retención fecal) y disfunción sexual. El SCC se clasifica en: **SCC-R (retención)** — retención urinaria = forma más grave, urgencia quirúrgica en las 24 horas; **SCC-I (incompleto)** — disfunción vesical pero SIN retención, sensibilidad variable = cirugía urgente en 24–48 horas; **SCC sospechado** — ciática bilateral sin signos definitivos de SCC = RM urgente. **Momento de la cirugía**: múltiples estudios apoyan la cirugía dentro de las 24 horas para el SCC-R (Todd 2011, metaanálisis de Ahn 2000) con recuperación vesical e intestinal significativamente mejor en comparación con la cirugía diferida. Consenso actual: RM en las 4 horas siguientes a la sospecha clínica, cirugía en las 24 horas para el SCC-R. El procedimiento quirúrgico para el SCC: laminotomía/laminectomía bilateral en L4-5 o L5-S1 con extirpación del fragmento discal central — la descompresión completa de toda la cola de caballo es esencial."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — NO Demorar la RM ante Síntomas de SCC",
+          "content": "Todo paciente que presente nueva retención urinaria + lumbalgia + síntomas bilaterales o asimétricos en los miembros inferiores tiene un síndrome de cola de caballo hasta que se demuestre lo contrario. Esto requiere una RM URGENTE de la columna lumbar. No esperar a la visita de la mañana, no pedir radiografías primero, no aplazar para la siguiente cita de RM disponible. El SCC-R (retención) requiere cirugía en las 24 horas — la recuperación vesical es significativamente peor con la descompresión diferida. Llamar al neurocirujano de guardia inmediatamente después de que la RM confirme la hernia discal masiva."
+        }
+      ]
+    },
+    {
+      "id": "C2-S5",
+      "title": "Técnica de Microdiscectomía y Variantes de Abordaje",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **microdiscectomía lumbar** (técnica de Caspar-Yasargil, 1977) ha sido el tratamiento quirúrgico estándar para la hernia discal lumbar durante más de 40 años. La técnica incluye: (1) posición en decúbito prono sobre un marco de Wilson o Andrews; (2) incisión cutánea paramediana de 2–3 cm; (3) retracción del músculo paravertebral para exponer el espacio interlaminar; (4) flavotomía (resección parcial del ligamento amarillo); (5) retracción medial suave del saco dural; (6) visualización de la hernia discal por debajo de la raíz nerviosa de paso; (7) discectomía — extracción del fragmento herniado y curetaje del espacio discal para reducir el riesgo de recurrencia; (8) hemostasia y cierre. El microscopio quirúrgico proporciona magnificación e iluminación. La **microdiscectomía tubular mínimamente invasiva (MIS)**: utiliza retractores tubulares (METRx, SpineBlade) colocados mediante dilatación secuencial de los músculos paravertebrales, reduciendo el daño muscular y el dolor posoperatorio. Múltiples ECA (Perez-Cruet 2002, Arts 2011) muestran eficacia equivalente a la microdiscectomía abierta con menor dolor posoperatorio y estancia hospitalaria más corta. **Resultados esperados**: 90–95% de alivio del dolor en la pierna inmediatamente tras la cirugía; la mejoría del dolor lumbar es menos predecible. Tasa de recurrencia: 5–8% (re-herniación ipsilateral al mismo nivel). Éxito a largo plazo (>10 años): 90% de satisfacción del paciente. **Sequestrectomía frente a discectomía agresiva**: la sequestrectomía (extirpación del fragmento herniado únicamente, preservando el espacio discal) tiene menor riesgo de recurrencia en el segmento operado, pero puede tener tasas ligeramente más altas de reintervención por re-herniación al mismo nivel. La discectomía agresiva (curetaje del espacio discal) reduce la re-herniación al mismo segmento pero puede acelerar la pérdida de altura discal. La mayoría de los cirujanos realizan un abordaje equilibrado."
+        },
+        {
+          "type": "table",
+          "title": "Microdiscectomía — Puntos Técnicos Clave y Complicaciones",
+          "headers": ["Aspecto", "Detalle", "Tasa de complicación"],
+          "rows": [
+            ["Recurrencia", "Re-herniación ipsilateral al mismo nivel", "5–8%"],
+            ["Desgarro dural", "Fuga de LCR por durotomía inadvertida; reparación primaria + injerto graso; reposo en cama", "1–3%"],
+            ["Lesión de la raíz nerviosa", "Retracción directa o sección inadvertida", "<1%"],
+            ["Discitis", "Infección posoperatoria del espacio discal; tratar con antibióticos ± irrigación", "0,1–0,5%"],
+            ["Cirugía en nivel incorrecto", "Debe confirmarse el nivel intraoperatoriamente con fluoroscopia", "Infrecuente (<0,1%)"],
+            ["Hematoma", "Hematoma epidural que causa déficit neurológico agudo", "<1%"],
+            ["Lesión vascular", "Aorta/VCI/vasos ilíacos por instrumentación demasiado profunda del espacio discal", "Muy infrecuente (<0,05%)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2-S6",
+      "title": "Hernia Discal Muy Lateral (Extraforaminal)",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **hernia discal muy lateral (extraforaminal)** representa aproximadamente el 7–12% de todas las hernias discales lumbares y presenta un reto diagnóstico y quirúrgico específico. La hernia se produce lateral al pedículo, fuera del canal espinal y del foramen, comprimiendo la **raíz saliente** al mismo nivel que el disco (ej., la hernia muy lateral L4-5 comprime la raíz L4, causando radiculopatía L4). Esto es lo **contrario** de la hernia paracentral (que comprime la raíz de paso). **Reto diagnóstico**: debido a que la hernia es extraforaminal, queda fuera de las secuencias sagitales de RM estándar que muestran el canal y el foramen — es fácil OMITIRLA en la RM rutinaria si los cortes axiales no se extienden suficientemente hacia lateral. Siempre extender los cortes axiales de RM lo suficiente como para visualizar la zona extraforaminal. La **prueba de estiramiento femoral** es positiva para la hernia muy lateral L4 (la extensión de cadera provoca tensión de la raíz L4), y el Lasègue puede ser negativo o menos positivo de lo esperado para el grado de déficit neurológico. **Abordaje quirúrgico**: el abordaje interlaminar estándar es INADECUADO — el disco muy lateral no es accesible por el abordaje medial. Opciones: (1) abordaje paraespinal de Wiltse (disección muscular lateral a la línea media, entre los músculos multífido y longísimo, permitiendo acceso directo lateral a la zona extraforaminal); (2) abordaje endoscópico transforaminal (técnica de Yeung) — acceso endoscópico directo a la zona extraforaminal bajo anestesia local."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Hernia Muy Lateral: Raíz Saliente, No Raíz de Paso",
+          "content": "La hernia discal muy lateral (extraforaminal) en L4-5 comprime la raíz SALIENTE L4. La hernia paracentral en L4-5 comprime la raíz DE PASO L5. ¡Mismo nivel discal, raíz diferente! Un paciente con hernia muy lateral L4-5 tiene síntomas L4 (debilidad del cuádriceps, reflejo patelar reducido) a pesar del nivel discal L4-5. Los cortes axiales de RM deben extenderse lateralmente para visualizar la zona extraforaminal."
+        }
+      ]
+    },
+    {
+      "id": "C2-S7",
+      "title": "Predictores de Resultado, Recurrencia y Situaciones Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Predictores de buen resultado quirúrgico**: corta duración de los síntomas (<3 meses), síntomas clínicos y hallazgos de RM concordantes, Lasègue positivo, edad más joven, sin cirugía previa en el nivel, sin componente psicológico significativo. **Predictores de mal resultado quirúrgico**: larga duración de los síntomas (>12 meses — sugiere cambio por radiculopatía irreversible), dolor lumbar axial predominante (no dolor radicular en la pierna — sugiere dolor discógeno más que radiculopatía), sufrimiento psicológico significativo (signos de Waddell ≥3), reclamación por accidente laboral (predictor independiente de mal resultado en múltiples estudios), edad avanzada con múltiples comorbilidades y cirugía recurrente al mismo nivel. **Hernia discal recurrente**: recurrencia ipsilateral en el 5–8%, tratada con microdiscectomía de revisión (misma técnica, mayor riesgo de desgarro dural y lesión neural por fibrosis epidural). Tres o más cirugías al mismo nivel aumentan significativamente la fibrosis epidural y el riesgo. **Hernia discal e inyecciones epidurales de corticoides**: la inyección epidural transforaminal cervical o lumbar de corticoides (IETC) logra alivio a corto plazo (2–6 semanas) en el 60–70% de los pacientes — útil como puente hacia la resolución por historia natural u optimización preoperatoria. La IETC NO previene la necesidad de cirugía en pacientes con déficit neurológico progresivo. **Poblaciones especiales**: hernia discal en **gestantes** — la mayoría se manejan de forma conservadora ya que la radiculopatía habitualmente se resuelve tras el parto; cirugía solo en casos graves refractarios. Hernia discal en adolescentes (<18 años) — poco frecuente; frecuentemente requiere RM para excluir fractura del anillo apofisario posterior (avulsión del anillo vertebral posterior en lugar de hernia del núcleo pulposo, requiere extirpación quirúrgica del fragmento óseo)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — El Dolor Lumbar Axial Predominante NO es una Buena Indicación Quirúrgica",
+          "content": "La microdiscectomía está diseñada para tratar la RADICULOPATÍA (dolor en la pierna en distribución dermatomérica por compresión de la raíz nerviosa). El dolor lumbar axial predominante SIN radiculopatía es dolor discógeno — se trata de forma conservadora (fisioterapia, manejo del dolor, a veces procedimientos intradiscales). Realizar una microdiscectomía principalmente por dolor lumbar axial (no por dolor en la pierna) se asocia a malos resultados y es un error clínico significativo. La indicación principal de la microdiscectomía es el dolor en la pierna > dolor en la espalda."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre la hernia discal lumbar con 20 preguntas tipo MIR.",
+    "questions": [
+      {
+        "id": "C2-Q1",
+        "stem": "Un varón de 38 años presenta 4 semanas de dolor agudo en la pierna derecha que se irradia desde la zona lumbar por la cara posterior del muslo hasta la pantorrilla lateral y el dorso del pie, con debilidad de la extensión del dedo gordo derecho (EHL 4/5) y parestesias en la cara lateral de la pierna. La RM muestra una hernia discal L4-5 paracentral derecha. ¿Qué raíz nerviosa está comprimida y cuál es el tratamiento de primera línea?",
+        "options": {
+          "A": "Compresión de la raíz L4; microdiscectomía inmediata",
+          "B": "Compresión de la raíz L5; 6 semanas de tratamiento conservador (AINEs, fisioterapia, modificación de la actividad) antes de considerar la cirugía",
+          "C": "Compresión de la raíz S1; cirugía inmediata por la debilidad grave",
+          "D": "Compresión de la raíz L4; inyección epidural cervical de corticoides"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hernia discal L4-5 paracentral derecha comprime la raíz L5 DE PASO (posterolateral = raíz de paso un nivel más abajo). Raíz L5: parestesias en cara lateral de la pierna, dorso del pie, primer espacio interdigital; debilidad del EHL (riesgo de pie caído); sin pérdida de reflejo específica (no se explora reflejo L5 de rutina). Con 4 semanas de síntomas y debilidad parcial (4/5), la primera línea es el tratamiento conservador durante 6 semanas (AINEs, fisioterapia) — el 80–90% se resuelve espontáneamente. La cirugía está indicada si no hay mejoría tras 6 semanas o con déficit progresivo.",
+          "wrong": {
+            "A": "La compresión de la raíz L4 causaría debilidad del cuádriceps y reflejo patelar reducido — no debilidad del EHL y parestesias en el dorso del pie. Esta es la raíz L5. La cirugía inmediata no está indicada con 4 semanas de síntomas y déficit parcial",
+            "C": "La compresión de la raíz S1 causa debilidad del gastrocnemio, ausencia del reflejo aquíleo y parestesias en la cara posterolateral de la pantorrilla/pie lateral — no debilidad del EHL y síntomas en el dorso del pie",
+            "D": "Las inyecciones epidurales cervicales tratan la patología cervical — no la radiculopatía lumbar. Una inyección epidural transforaminal lumbar de corticoides sería la opción de inyección apropiada si el tratamiento conservador fracasa"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Raíz L5 (hernia paracentral L4-5): debilidad del EHL, parestesias en el dorso del pie; tratamiento conservador de primera línea durante ≤6 semanas sin déficit significativo",
+          "trial": "SPORT (Weinstein JAMA 2006): la cirugía proporciona recuperación más rápida pero los resultados a 1–2 años son equivalentes al conservador; Peul (NEJM 2007): los pacientes conservadores se recuperan bien al año",
+          "pearl": "Hernia paracentral L4-5 → raíz L5 (de paso). Signos de L5: debilidad del EHL (riesgo de pie caído), parestesias en cara lateral de pierna/dorso del pie/primer espacio interdigital, sin reflejo específico. Primera línea: 6 semanas conservador. Cirugía si fracaso o déficit progresivo."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q2",
+        "stem": "Una mujer de 45 años presenta síndrome de cola de caballo: debilidad bilateral en las piernas, anestesia perineal y en silla de montar, y retención urinaria. La RM urgente muestra una hernia discal central masiva en L4-5 que comprime toda la cola de caballo. ¿Cuándo debe realizarse la cirugía?",
+        "options": {
+          "A": "Dentro de las 24 horas desde el inicio de los síntomas para el SCC-R (retención); el retraso aumenta el riesgo de disfunción vesical permanente",
+          "B": "En los 7 días siguientes — el síndrome de cola de caballo no es una urgencia quirúrgica",
+          "C": "Tras 6 semanas de tratamiento conservador para permitir la recuperación natural",
+          "D": "Inmediatamente (en 2 horas) independientemente de las restricciones prácticas — cada minuto cuenta"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El SCC-R (síndrome de cola de caballo con retención urinaria) requiere descompresión quirúrgica urgente dentro de las 24 horas. Múltiples estudios (metaanálisis de Ahn 2000, Todd 2011) demuestran una recuperación vesical e intestinal significativamente mejor cuando la cirugía se realiza dentro de las 24 horas en comparación con la descompresión diferida (>24 horas). Consenso actual: confirmación por RM en las 4 horas siguientes a la sospecha clínica, cirugía descompresiva dentro de las 24 horas para el SCC-R. Más allá de las 24–48 horas, la recuperación de la función vesical disminuye significativamente.",
+          "wrong": {
+            "B": "El SCC-R SÍ es una urgencia neuroquirúrgica — el retraso de 7 días causa disfunción vesical e intestinal irreversible en la mayoría de los pacientes",
+            "C": "El SCC NO se recupera espontáneamente de la hernia discal en la gran mayoría de los casos — el efecto masa de la hernia masiva persiste y ocurre daño nervioso progresivo irreversible",
+            "D": "Aunque la urgencia es real, 'cada minuto cuenta' es una exageración que puede llevar a realizar cirugía apresurada e insegura. El umbral basado en evidencia es dentro de las 24 horas para el SCC-R, lo que permite tiempo para la preparación anestésica adecuada, el equipo quirúrgico y la optimización preoperatoria"
+          },
+          "guideline": "NASS CES Guidelines — SCC-R: descompresión quirúrgica dentro de las 24 horas; RM dentro de las 4 horas desde la sospecha clínica",
+          "trial": "Ahn UM et al. (Spine 2000): metaanálisis de SCC — cirugía dentro de las 48 horas significativamente mejor recuperación vesical que con retraso; Todd NV (Eur Spine J 2011): dentro de las 24 horas para SCC-R",
+          "pearl": "SCC-R (retención) = cirugía urgente dentro de las 24 horas. RM en las 4 horas. Recuperación vesical significativamente peor con descompresión diferida. NO esperar a la mañana ni aplazar para la siguiente lista disponible."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q3",
+        "stem": "El ensayo SPORT (Weinstein, JAMA 2006) comparó la cirugía frente al tratamiento no quirúrgico para la hernia discal lumbar. ¿Cuál fue el principal problema metodológico y la conclusión clínica principal?",
+        "options": {
+          "A": "El ensayo demostró que la cirugía era significativamente mejor a los 2 años sin problemas metodológicos",
+          "B": "El brazo de ECA presentó un cruce significativo (40%), haciendo no significativo el análisis por intención de tratar; el análisis por tratamiento recibido mostró que la cirugía proporciona una recuperación significativamente más rápida (beneficio a los 3 meses) pero resultados equivalentes a 1–2 años",
+          "C": "El ensayo se detuvo precozmente porque la cirugía causó daño excesivo; el tratamiento conservador es siempre superior",
+          "D": "El ensayo no mostró diferencias en ningún momento; cirugía y tratamiento conservador son exactamente equivalentes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El defecto metodológico crítico de SPORT: cruce del 40% entre brazos (muchos pacientes aleatorizados a cirugía eligieron el tratamiento conservador; muchos conservadores cruzaron a cirugía). Esto hizo no significativo el análisis por intención de tratar. El análisis por tratamiento recibido mostró: la cirugía logró una mejoría significativamente mayor en dolor corporal, función física y satisfacción a los 3 meses; a los 2 años, los resultados fueron en gran medida equivalentes a medida que los pacientes conservadores continuaron mejorando. Peul (NEJM 2007) confirmó: la cirugía logra una recuperación más rápida (8 semanas: 95% cirugía frente a 64% conservador), pero los resultados al año son equivalentes.",
+          "wrong": {
+            "A": "El cruce significativo (40%) fue el problema metodológico clave — invalidó el análisis primario por intención de tratar, haciendo no significativo el resultado primario del ECA de SPORT",
+            "C": "La cirugía NO fue perjudicial en SPORT — el análisis por tratamiento recibido mostró de hecho mejores resultados a corto plazo con la cirugía. El ensayo no se detuvo precozmente",
+            "D": "SÍ hubo una diferencia a los 3 meses (cirugía significativamente mejor en el análisis por tratamiento recibido) — los resultados NO fueron exactamente equivalentes en todos los momentos. La cirugía proporciona recuperación más rápida"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — La cirugía proporciona recuperación más rápida (evidencia de nivel I); los resultados a largo plazo son equivalentes al tratamiento conservador",
+          "trial": "SPORT (Weinstein JAMA 2006): cruce del 40%; análisis por tratamiento recibido significativo a los 3 meses; ITT no significativo. Peul (NEJM 2007): cirugía precoz 95% frente a 64% de recuperación a las 8 semanas",
+          "pearl": "Limitación de SPORT: cruce del 40% invalidó el análisis ITT. Por tratamiento recibido: cirugía más rápida (3 meses significativo). A largo plazo: equivalente. Conclusión: cirugía = recuperación más rápida, no mejores resultados a largo plazo. Ofrecer cirugía a pacientes que desean recuperación más rápida tras 6–8 semanas de fracaso conservador."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q4",
+        "stem": "Un varón de 50 años tiene una hernia discal L5-S1 paracentral derecha con radiculopatía S1 derecha. ¿Qué hallazgos clínicos se esperarían en la exploración?",
+        "options": {
+          "A": "Reflejo patelar reducido, debilidad del cuádriceps, dolor en la cara anterior del muslo",
+          "B": "Ausencia del reflejo aquíleo derecho, debilidad del gastrocnemio-sóleo (incapaz de realizar la elevación sobre el talón), parestesias en la cara posterolateral de la pantorrilla y el pie lateral",
+          "C": "Debilidad del EHL, parestesias en el dorso del pie y el dedo gordo, sin cambio en los reflejos",
+          "D": "Reflejo patelar reducido, pérdida sensitiva en la cara medial de la pierna, debilidad de la flexión de cadera"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hernia discal L5-S1 paracentral comprime la raíz S1 DE PASO. Signos de la raíz S1: (1) ausencia del reflejo aquíleo (Aquiles) — S1 es la raíz principal para el reflejo aquíleo; (2) debilidad del complejo gastrocnemio-sóleo — caminar de puntillas, elevación monopodal sobre el talón imposible; (3) parestesias en cara posterolateral de la pantorrilla, pie lateral y 4.º-5.º dedos (dermatoma S1). La debilidad de la flexión plantar es el déficit motor clave.",
+          "wrong": {
+            "A": "Reflejo patelar reducido + debilidad del cuádriceps = raíz L4 (hernia L3-4 o muy lateral L4-5). No es S1",
+            "C": "Debilidad del EHL + parestesias en el dorso del pie = raíz L5 (hernia paracentral L4-5). No es S1",
+            "D": "Reflejo patelar reducido + pérdida sensitiva en la cara medial de la pierna + debilidad de la flexión de cadera = raíz L3 o L4 (niveles lumbares superiores). No es S1"
+          },
+          "guideline": "NASS LDH Guidelines — Raíz S1 (disco L5-S1): ausencia del reflejo aquíleo, debilidad de la flexión plantar, pérdida sensitiva en la pantorrilla posterolateral",
+          "trial": "Exploración neurológica estándar; datos clínicos del SPORT que confirman los signos de radiculopatía S1",
+          "pearl": "Raíz S1 (disco L5-S1): ausencia del reflejo AQUÍLEO + debilidad del gastrocnemio (caminar de puntillas) + parestesias en pantorrilla posterolateral/pie lateral. Raíz L5 (disco L4-5): sin cambio en reflejos + debilidad del EHL (riesgo de pie caído) + parestesias en el dorso del pie."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q5",
+        "stem": "Un varón de 35 años tiene dolor grave en la pierna derecha irradiado desde el nivel L4-5. La RM muestra una hernia discal muy lateral (extraforaminal) L4-5. Tiene debilidad del cuádriceps derecho y reflejo patelar reducido. ¿Qué raíz está comprimida y qué abordaje quirúrgico se requiere?",
+        "options": {
+          "A": "Raíz L5 (de paso); microdiscectomía interlaminar estándar",
+          "B": "Raíz L4 (saliente); abordaje paraespinal de Wiltse (disección muscular) o abordaje endoscópico transforaminal a la zona extraforaminal",
+          "C": "Raíz L5 (de paso); laminectomía posterior",
+          "D": "Raíz L4 (saliente); abordaje retroperitoneal anterior (ALIF)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hernia muy lateral (extraforaminal) L4-5 comprime la raíz L4 SALIENTE (no la raíz L5 de paso). Raíz L4: debilidad del cuádriceps, reflejo patelar reducido, parestesias en cara anterior del muslo/cara medial de la pierna. La hernia está FUERA del canal espinal, lateral al pedículo — el abordaje interlaminar estándar no visualiza la zona extraforaminal. Abordaje quirúrgico: abordaje paraespinal de Wiltse (lateral a la línea media, entre los músculos multífido y longísimo) permite acceso directo a la zona extraforaminal. Alternativamente, abordaje endoscópico transforaminal.",
+          "wrong": {
+            "A": "La raíz L5 causaría debilidad del EHL y parestesias en el dorso del pie (sin cambio en el reflejo patelar). La hernia muy lateral L4-5 comprime L4, no L5. El abordaje interlaminar estándar NO puede llegar a la zona extraforaminal",
+            "C": "Los signos de la raíz L5 son incorrectos para esta presentación clínica. La laminectomía posterior accede al canal central — no a la zona extraforaminal",
+            "D": "El abordaje retroperitoneal anterior (ALIF) es para la sustitución/artrodesis del disco intervertebral — no para la discectomía por radiculopatía de hernia muy lateral"
+          },
+          "guideline": "NASS LDH Guidelines — Hernia discal muy lateral: raíz saliente afectada; se requiere abordaje paraespinal o endoscópico",
+          "trial": "Foley KT, Smith MM (Neurosurg Focus 1996): abordaje mínimamente invasivo para hernia muy lateral; Wiltse LL (Spine 1988): técnica del abordaje paraespinal",
+          "pearl": "Hernia muy lateral (extraforaminal): raíz SALIENTE afectada (lo contrario de la paracentral que afecta la raíz DE PASO). Muy lateral L4-5 → raíz L4 (reflejo patelar, cuádriceps). Abordaje: Wiltse (paraespinal) o endoscopia transforaminal — NO interlaminar estándar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q6",
+        "stem": "La prueba de Lasègue (SLR) se realiza en un paciente con sospecha de radiculopatía L5. A los 50° de flexión de cadera con la rodilla extendida, el paciente refiere dolor intenso que se irradia desde la zona lumbar a la pantorrilla lateral (por debajo de la rodilla). El SLR CONTRALATERAL (pierna no afectada) a los 60° reproduce el mismo dolor en la pierna derecha. ¿Qué indican estos dos resultados?",
+        "options": {
+          "A": "Ambas pruebas son positivas por tensión isquiotibial — sin significado clínico",
+          "B": "Lasègue positivo (sensibilidad 91% para HDL) confirma la compresión de la raíz nerviosa; Lasègue cruzado positivo (especificidad 88%) es altamente predictivo de hernia discal con compresión de la raíz",
+          "C": "El Lasègue positivo sugiere dolor psicosomático; el Lasègue cruzado no tiene valor diagnóstico",
+          "D": "Ambas pruebas deben repetirse en 6 semanas antes de realizar el diagnóstico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Sensibilidad del Lasègue: 91% para HDL en L4-5/L5-S1. Dolor por debajo de la rodilla (en distribución dermatomérica) a los 35–70° de elevación = Lasègue positivo. El Lasègue cruzado (la elevación de la pierna contralateral reproduce el dolor radicular ipsilateral) tiene sensibilidad del 29% pero especificidad del 88% — un Lasègue cruzado positivo es altamente específico para la compresión de la raíz nerviosa por hernia discal. En conjunto: Lasègue ipsilateral positivo + Lasègue cruzado positivo = probabilidad muy alta de compresión de raíz nerviosa por HDL.",
+          "wrong": {
+            "A": "El dolor por debajo de la rodilla en distribución dermatomérica no es tensión isquiotibial (que causa molestia en la cara posterior del muslo, no dolor radicular por debajo de la rodilla). La distinción entre tensión isquiotibial y verdadero dolor radicular es clínicamente importante",
+            "C": "El Lasègue cruzado tiene alta especificidad diagnóstica (88%) para la hernia discal — tiene un valor diagnóstico significativo. Un Lasègue cruzado positivo no es un signo de dolor psicosomático",
+            "D": "El Lasègue y el Lasègue cruzado son pruebas de exploración clínica realizadas en el momento de la asistencia — proporcionan información diagnóstica inmediata. No es necesario esperar 6 semanas para interpretar estas pruebas"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Sensibilidad del Lasègue 91%; especificidad del Lasègue cruzado 88%; ambas pruebas juntas son altamente predictivas de HDL con compresión de la raíz",
+          "trial": "Devillé WL (Spine 2000): metaanálisis del SLR — sensibilidad 91%, especificidad 26%; Lasègue cruzado — sensibilidad 29%, especificidad 88%",
+          "pearl": "Lasègue (SLR): alta sensibilidad (91%), baja especificidad (26%). Lasègue cruzado: baja sensibilidad (29%), ALTA especificidad (88%). Lasègue cruzado positivo = altamente predictivo de hernia discal con compresión de raíz. El dolor POR DEBAJO DE LA RODILLA distingue el dolor radicular de la tensión isquiotibial."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q7",
+        "stem": "Una mujer de 42 años lleva 10 semanas con radiculopatía L5 derecha por hernia discal L4-5. El tratamiento conservador (AINEs, fisioterapia, una inyección epidural de corticoides) no ha mejorado sus síntomas. Tiene debilidad moderada del EHL (3/5) y deterioro funcional significativo que afecta a su trabajo como enfermera. ¿Cuál es el paso más apropiado a seguir?",
+        "options": {
+          "A": "Continuar el tratamiento conservador durante otros 6 meses antes de considerar la cirugía",
+          "B": "Derivación quirúrgica para microdiscectomía L4-5 — la cirugía es apropiada para el fracaso del tratamiento conservador a las 6–12 semanas con déficit significativo",
+          "C": "Repetir la RM para confirmar la hernia discal antes de considerar la cirugía",
+          "D": "Artrodesis lumbar en L4-5 — la hernia discal requiere artrodesis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta paciente ha fracasado al tratamiento conservador (AINEs + fisioterapia + inyección epidural de corticoides) a las 10 semanas, tiene un déficit neurológico significativo (EHL 3/5 = debilidad moderada) y deterioro funcional significativo. Estas son indicaciones apropiadas para la derivación quirúrgica. La microdiscectomía en L4-5 es el procedimiento correcto — NO la artrodesis. Los ensayos SPORT y Peul confirman que la cirugía proporciona una recuperación más rápida para este tipo de pacientes. Esperar otros 6 meses con debilidad del EHL de 3/5 arriesga la desnervación progresiva y la mala recuperación.",
+          "wrong": {
+            "A": "Esperar 6 meses adicionales con debilidad del EHL de 3/5 arriesga la desnervación progresiva y la pérdida motora irreversible. 10 semanas de fracaso del tratamiento conservador es un umbral apropiado para la consulta quirúrgica",
+            "C": "La RM en la presentación inicial ya mostró hernia discal L4-5 consistente con radiculopatía L5. La RM repetida no es necesaria habitualmente antes de la cirugía a menos que se produzca un cambio clínico significativo o la RM previa sea antigua (>6 meses)",
+            "D": "La hernia discal que causa radiculopatía se trata con DISCECTOMÍA (extirpación del fragmento herniado), NO artrodesis. La artrodesis se reserva para la inestabilidad, la espondilolistesis o la enfermedad degenerativa del disco que causa dolor lumbar axial"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Indicación quirúrgica: fracaso de 6–12 semanas de tratamiento conservador + deterioro funcional significativo + imagen concordante; microdiscectomía, no artrodesis",
+          "trial": "SPORT (Weinstein JAMA 2006): cirugía apropiada a las 6 semanas para discapacidad significativa; Peul (NEJM 2007): recuperación más rápida con cirugía precoz",
+          "pearl": "Indicaciones de microdiscectomía: (1) fracaso de 6–12 semanas de tratamiento conservador, (2) déficit neurológico progresivo (EHL 3/5 es significativo), (3) deterioro funcional significativo. EHL ≤3/5 indica riesgo de pie caído — adelantar el momento quirúrgico. Discectomía, NO artrodesis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q8",
+        "stem": "¿Qué son los signos de Waddell y cuál es su significado clínico en los pacientes que consultan por dolor lumbar?",
+        "options": {
+          "A": "Los signos de Waddell son signos neurológicos objetivos que confirman la hernia discal — los resultados positivos indican indicación quirúrgica inmediata",
+          "B": "Los signos de Waddell son 5 hallazgos conductuales no orgánicos (hipersensibilidad superficial, prueba de simulación, prueba de distracción, debilidad/pérdida sensitiva regional no anatómica, sobrereacción); ≥3 signos positivos sugieren componente psicológico y predicen un mal resultado quirúrgico",
+          "C": "Los signos de Waddell incluyen Lasègue positivo, reflejos ausentes y pérdida sensitiva dermatomérica — que confirman la compresión de la raíz nerviosa",
+          "D": "Los signos de Waddell solo son relevantes en casos medicolegales — sin importancia clínica en la práctica habitual"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los signos de Waddell (Waddell 1980) son 5 comportamientos de dolor no orgánico: (1) hipersensibilidad superficial no anatómica al rodamiento suave de la piel; (2) simulación — dolor lumbar con carga axial simulada (presión sobre el cráneo) o rotación simulada; (3) distracción — Lasègue positivo en prueba en decúbito supino que se vuelve negativo cuando el paciente está distraído; (4) regional — debilidad o pérdida sensitiva no dermatomérica; (5) sobrereacción — verbalización, expresión facial o guarda desproporcionada. La presencia de ≥3 signos de Waddell indica un componente psicológico significativo y se asocia con malos resultados quirúrgicos, alta insatisfacción posoperatoria y fracaso en la vuelta al trabajo. NO deben interpretarse como simulación, sino como indicadores de sufrimiento psicológico que requieren manejo multidisciplinario del dolor.",
+          "wrong": {
+            "A": "Los signos de Waddell son NO orgánicos — son lo OPUESTO a los signos neurológicos objetivos. Indican factores psicológicos, no hernia discal",
+            "C": "El Lasègue, los reflejos ausentes y la pérdida sensitiva dermatomérica son signos neurológicos ORGÁNICOS — completamente diferentes de los signos de Waddell. Estos son signos DE hernia discal, no signos de comportamiento de dolor no orgánico",
+            "D": "Los signos de Waddell son clínicamente significativos en la valoración habitual del dolor lumbar — predicen malos resultados quirúrgicos y guían la selección apropiada de pacientes para la cirugía"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Signos de Waddell preoperatorios ≥3: predictor de mal resultado quirúrgico; se recomienda valoración psicológica",
+          "trial": "Waddell G et al. (Spine 1980): desarrollo y validación de los signos no orgánicos; Main CJ (Pain 1984): signos de Waddell y predicción de resultados quirúrgicos",
+          "pearl": "Signos de Waddell ≥3 = componente psicológico = predictor de MAL resultado quirúrgico. 5 signos: hipersensibilidad superficial, simulación, distracción, regional no anatómico, sobrereacción. NO es simulación — indicadores de sufrimiento psicológico que requieren manejo biopsicosocial."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q9",
+        "stem": "Un varón de 30 años presenta debilidad bilateral en las piernas, entumecimiento perineal y la incapacidad de orinar — la última micción fue hace 8 horas. La RM realizada urgentemente muestra una extrusión discal masiva en L5-S1 que comprime la cola de caballo. ¿Qué constituye el SÍNDROME COMPLETO de cola de caballo?",
+        "options": {
+          "A": "Dolor bilateral en las piernas + Lasègue positivo + reflejos reducidos",
+          "B": "Debilidad bilateral en los miembros inferiores (variable, puede ser asimétrica) + anestesia en silla de montar (periné, cara interna de los muslos, nalgas — S2-4) + disfunción vesical (retención o incontinencia) + disfunción intestinal + disfunción sexual",
+          "C": "Paraplejia completa + solo incontinencia fecal",
+          "D": "Debilidad unilateral en la pierna + pérdida ipsilateral de reflejos únicamente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Características clásicas del síndrome de cola de caballo (SCC): (1) debilidad (bilateral o asimétrica) de los miembros inferiores — puede oscilar de leve a grave; (2) anestesia en silla de montar — pérdida de sensibilidad en el periné, cara interna de los muslos y nalgas (dermatomas S2-4, porque estas raíces discurren en la cola de caballo a lo largo de la línea media); (3) disfunción vesical — retención urinaria (SCC-R, más grave y urgente) o incontinencia; (4) disfunción intestinal — retención o incontinencia fecal; (5) disfunción sexual. La anestesia en silla de montar y la retención urinaria son las características diagnósticas más importantes.",
+          "wrong": {
+            "A": "Dolor bilateral en las piernas con Lasègue positivo y reflejos reducidos = radiculopatía bilateral. Este NO es el síndrome completo de SCC — la anestesia en silla de montar y la disfunción vesical son necesarias para completar el diagnóstico",
+            "C": "La paraplejia completa requeriría una lesión a un nivel superior (cono medular o medular) — el SCC afecta a las raíces nerviosas lumbares y sacras y causa debilidad variable, no necesariamente paraplejia completa. La incontinencia fecal sola es insuficiente",
+            "D": "El SCC es típicamente bilateral (aunque puede ser asimétrico) — la debilidad unilateral en la pierna con pérdida ipsilateral de reflejos describe una monoradiculopatía, no un SCC"
+          },
+          "guideline": "NASS CES Guidelines — Diagnóstico clínico: debilidad bilateral en las piernas + anestesia en silla de montar + disfunción vesical/intestinal = SCC; RM urgente necesaria",
+          "trial": "Gitelman A (Spine 2008): características de presentación del SCC — la anestesia en silla de montar y la retención urinaria son los signos precoces más importantes; Todd NV (Eur Spine J 2011): clasificación del SCC",
+          "pearl": "SCC = debilidad bilateral en piernas + ANESTESIA EN SILLA DE MONTAR (S2-4, periné/cara interna de muslos/nalgas) + DISFUNCIÓN VESICAL (retención = SCC-R = más urgente). Síntomas bilaterales + anestesia en silla de montar = RM URGENTE inmediata."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q10",
+        "stem": "Una mujer de 55 años se somete a microdiscectomía lumbar en L4-5. Durante el procedimiento, el cirujano desgarra inadvertidamente la duramadre con una gubia de Kerrison. Se drena LCR transparente del defecto. ¿Cuál es el manejo intraoperatorio apropiado?",
+        "options": {
+          "A": "Colocar un injerto de grasa sobre el desgarro y continuar — los desgarros durales se sellan por sí solos",
+          "B": "Reparación dural primaria con sutura de Nurolon/Prolene 4-0 o 5-0 (estanca al agua); reforzar con injerto graso, pegamento de fibrina o Tachosil; reposo en cama plana posoperatorio 24–48 horas",
+          "C": "Cerrar inmediatamente la herida — los desgarros durales se curan espontáneamente con reposo",
+          "D": "Convertir a laminectomía abierta y derivar a neurocirugía vascular"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El desgarro dural es una complicación intraoperatoria reconocida de la microdiscectomía lumbar (incidencia 1–3%). Manejo: la reparación dural primaria estanca es el estándar de oro — usando sutura no absorbible 4-0 o 5-0 (Nurolon, Prolene). Debe repararse antes del cierre de la herida. Tras la reparación: reforzar con injerto graso, pegamento de fibrina o esponja hemostática. En el posoperatorio: reposo en cama plana durante 24–48 horas para permitir la cicatrización dural. Si se logra la reparación, el resultado es generalmente excelente con bajas tasas de pseudomeningocele y fuga persistente de LCR.",
+          "wrong": {
+            "A": "Un injerto de grasa solo sin reparación primaria es inadecuado para una laceración dural — puede no prevenir la fuga de LCR y el pseudomeningocele. Se requiere reparación primaria con sutura cuando es técnicamente factible",
+            "C": "Los desgarros durales NO cicatrizan espontáneamente sin reparación — resultan en fuga persistente de LCR, pseudomeningocele y cefalea posoperatoria. El cierre inmediato sin reparación es inapropiado",
+            "D": "Los desgarros durales durante la cirugía espinal están dentro de la competencia del neurocirujano operador para repararlos — no se requiere derivación a neurocirugía vascular"
+          },
+          "guideline": "EANS Spine Guidelines — Desgarro dural intraoperatorio: reparación primaria con sutura + sellante de fibrina; reposo en cama plana 24–48 h; refuerzo con injerto graso",
+          "trial": "Wang JC (Spine 2009): manejo del desgarro dural en cirugía espinal — reparación primaria + pegamento de fibrina logra >90% de cicatrización primaria con formación mínima de pseudomeningocele",
+          "pearl": "Desgarro dural durante discectomía (1–3%): reparación primaria estanca con sutura + injerto graso/pegamento de fibrina de refuerzo + reposo en cama plana 24–48 h. Reparación inadecuada → fuga de LCR, pseudomeningocele, riesgo de meningitis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q11",
+        "stem": "¿Cuál es el resultado a largo plazo esperado de la microdiscectomía para la hernia discal lumbar con radiculopatía, según los ensayos SPORT y otros grandes estudios?",
+        "options": {
+          "A": "90% de tasa de re-herniación en 5 años — la microdiscectomía raramente proporciona alivio duradero",
+          "B": "90% de satisfacción del paciente y >90% de alivio del dolor en la pierna a corto-medio plazo; tasa de recurrencia ipsilateral del 5–8%; resultados a largo plazo comparables al tratamiento conservador a 1–2 años",
+          "C": "100% de tasa de curación quirúrgica — las hernias discales nunca recidivan tras una discectomía adecuada",
+          "D": "La cirugía reduce el dolor lumbar pero no el dolor en la pierna — la microdiscectomía aborda principalmente los síntomas axiales"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Resultados de la microdiscectomía: 90–95% de alivio del dolor en la pierna inmediatamente tras la cirugía; aproximadamente 90% de satisfacción del paciente a los 2 años. Tasa de recurrencia (re-herniación ipsilateral, mismo nivel): 5–8%. A largo plazo (>10 años): 90% de satisfacción del paciente mantenida. SPORT mostró que la cirugía proporciona una recuperación más rápida (beneficio a los 3 meses) con resultados equivalentes al tratamiento conservador a 1–2 años. La microdiscectomía alivia principalmente el dolor radicular en la pierna — la mejoría del dolor lumbar es menos predecible y menos completa.",
+          "wrong": {
+            "A": "La tasa de re-herniación es del 5–8%, NO del 90%. Una tasa de re-herniación del 90% significaría que la cirugía es casi siempre fallida — la tasa real de éxito quirúrgico es la opuesta (90% de éxito)",
+            "C": "La tasa de recurrencia del 5–8% significa que la cirugía NO es 100% curativa. La hernia recurrente es una complicación reconocida que requiere microdiscectomía de revisión en algunos pacientes",
+            "D": "La microdiscectomía aborda principalmente el DOLOR RADICULAR EN LA PIERNA (que es la indicación de la cirugía), no el dolor lumbar axial. Este es el paradigma correcto — el dolor lumbar axial mejora de forma menos fiable con la discectomía"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Resultados de microdiscectomía: 90–95% de alivio del dolor en la pierna; 5–8% de recurrencia; la cirugía proporciona recuperación más rápida que el conservador",
+          "trial": "SPORT (Weinstein JAMA 2006): resultados a 2 años; Spengler DM (J Bone Joint Surg 1982): resultados a largo plazo de microdiscectomía; Barth M (Spine 2008): tasas de recurrencia",
+          "pearl": "Microdiscectomía: 90% de alivio inmediato del dolor en la pierna, 90% de satisfacción del paciente. Recurrencia: 5–8%. Mejoría del dolor lumbar menos predecible. SPORT: cirugía más rápida (3 meses mejor) pero equivalente al conservador a 1–2 años."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q12",
+        "stem": "Una mujer de 40 años presenta nueva radiculopatía L4 derecha de inicio reciente — dolor en el muslo, reflejo patelar reducido y debilidad del cuádriceps. La RM NO muestra hernia discal ni estenosis foraminal en la columna lumbar. ¿Cuál es el diagnóstico diferencial más importante a excluir?",
+        "options": {
+          "A": "Síndrome del piramidal — la causa más frecuente de radiculopatía L4 aislada sin hallazgos en la RM",
+          "B": "Metástasis espinal (o tumor vertebral primario) — la radiculopatía aislada sin hernia discal en la RM requiere RM con contraste de gadolinio para excluir tumor epidural o metástasis espinal",
+          "C": "Estenosis espinal lumbar — la RM normal excluye la estenosis",
+          "D": "Enfermedad de Hirayama — una rara mielopatía cervical en adultos jóvenes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una radiculopatía sin la hernia discal o estenosis foraminal esperada en la RM requiere RM con contraste de gadolinio para excluir metástasis epidural espinal, metástasis del cuerpo vertebral, tumor espinal primario (tumor de la vaina nerviosa, ependimoma, meningioma) o enfermedad leptomeníngea. Especialmente en un adulto con nueva radiculopatía y secuencias de RM rutinarias normales, la RM con contraste es obligatoria para descartar lesiones captantes que pueden omitirse en las secuencias T2. Los antecedentes de cáncer, síntomas constitucionales (pérdida de peso, dolor nocturno, fiebre) son banderas rojas.",
+          "wrong": {
+            "A": "El síndrome del piramidal causa dolor glúteo profundo, no radiculopatía L4 clásica con cambios en los reflejos y déficit motor. Típicamente causa dolor en la cara posterior del muslo (compresión del nervio ciático) más que debilidad del cuádriceps y pérdida del reflejo patelar específicos de L4",
+            "C": "Las secuencias de RM rutinarias no 'excluyen' toda patología — los tumores espinales captantes, la enfermedad leptomeníngea y algunas lesiones perineurales pueden omitirse en las secuencias T2 pero detectarse con gadolinio",
+            "D": "La enfermedad de Hirayama es una mielopatía cervical por flexión que causa atrofia de los músculos intrínsecos de la mano en hombres jóvenes — una afección cervical, no lumbar, y no explica la radiculopatía L4"
+          },
+          "guideline": "NASS LDH Guidelines — Banderas rojas en radiculopatía: RM normal sin hernia discal requiere RM con contraste para excluir tumor; los antecedentes de cáncer requieren contraste",
+          "trial": "Nater A (World Neurosurg 2016): metástasis espinal que se presenta como radiculopatía — RM con gadolinio crítica para el diagnóstico; incidencia de radiculopatía maligna en pacientes con cáncer",
+          "pearl": "Radiculopatía + RM rutinaria NORMAL = RM con GADOLINIO para excluir metástasis espinal, tumor de la vaina nerviosa o enfermedad leptomeníngea. Banderas rojas de malignidad: dolor nocturno, pérdida de peso, edad >50, antecedentes de cáncer, sin respuesta al tratamiento conservador."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q13",
+        "stem": "Un varón de 38 años tiene una hernia discal L4-5 confirmada con radiculopatía L5. Sus síntomas son principalmente dolor intenso en la pierna derecha (EVA 8/10) pero SIN déficit motor (EHL 5/5, todos los reflejos intactos). La duración es de 3 semanas. Su trabajo es manual y pide cirugía inmediata para volver al trabajo más rápido. ¿Cuál es el abordaje más basado en la evidencia?",
+        "options": {
+          "A": "Cirugía inmediata — la preferencia del paciente por una recuperación más rápida es una indicación absoluta de cirugía",
+          "B": "6 semanas de tratamiento conservador; si los síntomas persisten con deterioro funcional significativo, derivación quirúrgica — SPORT y Peul confirman recuperación más rápida con cirugía pero resultados a largo plazo equivalentes; el paciente puede tomar una decisión informada tras 6 semanas",
+          "C": "Repetir la RM a las 6 semanas antes de cualquier decisión de tratamiento",
+          "D": "Valoración de incapacidad permanente — la hernia discal siempre resulta en discapacidad permanente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "3 semanas de duración sin déficit motor: el tratamiento conservador es la primera línea durante 6 semanas. Tras 6 semanas de fracaso del tratamiento conservador, la cirugía es apropiada. El paciente PUEDE ser informado de que si se realiza cirugía (tras 6 semanas de fracaso conservador), SPORT y Peul confirman una recuperación significativamente más rápida con cirugía — esto es legítimo en la toma de decisiones compartida. Sin embargo, a las 3 semanas sin déficit motor, la cirugía inmediata sin ensayo conservador adecuado no está basada en la evidencia. La preferencia del paciente por una recuperación más rápida es una consideración importante pero no absoluta — es relevante tras el ensayo de 6 semanas.",
+          "wrong": {
+            "A": "La preferencia del paciente por sí sola no es una indicación absoluta de cirugía inmediata a las 3 semanas sin ensayo conservador. Muchos pacientes que reciben cirugía inmediata evitan procedimientos innecesarios ya que el 80–90% se resuelven de forma conservadora",
+            "C": "No se necesita una RM repetida a las 6 semanas a menos que ocurra un cambio clínico. La decisión es clínica — ¿tiene el paciente síntomas persistentes tras 6 semanas de tratamiento conservador adecuado?",
+            "D": "La hernia discal NO siempre resulta en discapacidad permanente — el 80–90% se resuelve. Esto es factualmente incorrecto y causaría un daño innecesario al paciente"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Ensayo conservador de 6 semanas recomendado antes de la derivación quirúrgica para radiculopatía sin déficit motor significativo",
+          "trial": "SPORT (Weinstein JAMA 2006): análisis por tratamiento recibido — cirugía más rápida a los 3 meses; Peul (NEJM 2007): cirugía precoz = 95% de recuperación a las 8 semanas frente al 64%; pero al año, equivalente",
+          "pearl": "3 semanas de radiculopatía por HDL, sin déficit motor: tratamiento conservador primero (6 semanas). Tras 6 semanas de fracaso: cirugía apropiada. El paciente puede ser informado de que la cirugía = recuperación más rápida (SPORT/Peul) para ayudar en la toma de decisiones compartida. Sin déficit motor = sin urgencia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q14",
+        "stem": "Tras una microdiscectomía L4-5 sin complicaciones por radiculopatía L5 derecha, el paciente desarrolla nueva debilidad bilateral en los miembros inferiores y retención urinaria en el día 1 posoperatorio. La RM urgente muestra un gran hematoma epidural en el nivel L4-5. ¿Cuál es el manejo inmediato?",
+        "options": {
+          "A": "Observación y RM repetida en 24 horas — los cambios neurológicos posoperatorios frecuentemente se resuelven espontáneamente",
+          "B": "Regreso urgente a quirófano para la evacuación del hematoma — el hematoma epidural espinal posoperatorio que causa déficit neurológico es una urgencia quirúrgica",
+          "C": "Solo reversión de anticoagulación — el hematoma se reabsorberá con el tiempo",
+          "D": "Punción lumbar para descomprimir el saco tecal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El hematoma epidural espinal (HEE) posoperatorio es una complicación infrecuente pero grave de la cirugía espinal (incidencia <1%). Nuevo déficit neurológico (debilidad bilateral, signos de cola de caballo) en el día 1 posoperatorio con RM confirmatoria de hematoma epidural = urgencia neuroquirúrgica que requiere REGRESO INMEDIATO A QUIRÓFANO para la evacuación del hematoma. El tiempo hasta la descompresión quirúrgica es crítico — los resultados son significativamente peores si la descompresión se demora más de 6–8 horas desde el inicio de los síntomas. Reexploración urgente, extirpación del hematoma y hemostasia.",
+          "wrong": {
+            "A": "La observación ante un HEE posoperatorio con déficit neurológico llevaría a daño neurológico permanente. Esta es una urgencia quirúrgica — el retraso es inaceptable",
+            "C": "El hematoma epidural espinal con compresión medular/de la cola de caballo significativa NO se reabsorbe de forma adecuada con el tiempo — el efecto masa persiste, causando daño nervioso progresivo irreversible",
+            "D": "La punción lumbar no puede descomprimir un hematoma epidural — no puede drenar un coágulo sanguíneo epidural posterior"
+          },
+          "guideline": "EANS Spine Guidelines — HEE posoperatorio que causa déficit neurológico: reexploración urgente y evacuación del hematoma en 6–8 horas",
+          "trial": "Kou J (Spine 2002): hematoma espinal posoperatorio — la recuperación neurológica es inversamente proporcional al tiempo hasta la descompresión; la descompresión dentro de las 8 horas es óptima",
+          "pearl": "Hematoma epidural posoperatorio + déficit neurológico = REGRESO URGENTE A QUIRÓFANO. Descompresión dentro de las 6–8 horas para la mejor recuperación neurológica. NO observar — el retraso causa daño permanente."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q15",
+        "stem": "La historia natural de la hernia discal lumbar muestra que la mayoría de los casos se resuelven espontáneamente. ¿Cuál es el mecanismo propuesto de reabsorción espontánea del fragmento?",
+        "options": {
+          "A": "Reabsorción del disco herniado por rehidratación del núcleo pulposo dentro del anillo",
+          "B": "Fagocitosis mediada por macrófagos y neovascularización del fragmento herniado, con resolución de la inflamación mediada por prostaglandinas; los fragmentos extruidos/secuestrados se reabsorben de forma más predecible que las protrusiones",
+          "C": "Asentamiento gravitacional del fragmento discal lejos de la raíz nerviosa con el tiempo",
+          "D": "Liberación del espasmo muscular, lo que permite que el disco vuelva a su posición original"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La reabsorción espontánea de la HDL se produce mediante fagocitosis mediada por macrófagos del tejido del núcleo pulposo herniado. El núcleo pulposo extruido, al ser inmunológicamente extraño para el espacio epidural, desencadena una respuesta inflamatoria con neovascularización e infiltración de macrófagos. La prostaglandina E2 y las citocinas (IL-1, TNF-alfa) median la inflamación neural (causando dolor) pero también impulsan la reabsorción del fragmento. **Principio clave**: los fragmentos extruidos y secuestrados de mayor tamaño se reabsorben de forma MÁS predecible y completa que las protrusiones (donde el anillo permanece intacto, limitando el acceso de los macrófagos). Esto explica por qué los fragmentos secuestrados (las hernias más grandes) tienen paradójicamente una mejor historia natural que las protrusiones.",
+          "wrong": {
+            "A": "El núcleo herniado NO se reabsorbe de vuelta al disco — una vez extruido a través del anillo, el núcleo está fuera y no puede volver a entrar en el espacio discal",
+            "C": "Los fragmentos discales no se asientan gravitacionalmente — están contenidos en el espacio epidural y su movimiento es mínimo sin intervención quirúrgica",
+            "D": "La liberación del espasmo muscular no causa el reposicionamiento del fragmento discal — el material nuclear herniado está extruido más allá del anillo y no puede ser 'empujado hacia atrás' por la relajación muscular"
+          },
+          "guideline": "NASS LDH Guidelines — Mecanismo de la historia natural: reabsorción mediada por macrófagos; los fragmentos más grandes se reabsorben mejor que las protrusiones",
+          "trial": "Ahn SH (Spine 2002): evidencia de RM de reabsorción discal espontánea; Saal JA (Spine 1990): papel de los macrófagos y mediadores inflamatorios en la reabsorción discal",
+          "pearl": "Historia natural de HDL: fagocitosis de macrófagos + neovascularización → reabsorción del fragmento. Paradoja: los fragmentos extruidos/secuestrados MÁS GRANDES se reabsorben de forma MÁS predecible que las protrusiones. Esto explica por qué el 80–90% se resuelve espontáneamente a pesar de grandes hallazgos en la RM."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q16",
+        "stem": "¿Cuál es la indicación principal de la ARTRODESIS lumbar (en lugar de la discectomía sola) para la hernia discal lumbar?",
+        "options": {
+          "A": "Todas las hernias discales en L5-S1 requieren artrodesis por las altas tasas de recurrencia",
+          "B": "Hernia discal en L4-5 en pacientes >45 años",
+          "C": "Inestabilidad segmentaria asociada (espondilolistesis, inestabilidad iatrogénica por facetectomía extensa durante la descompresión) o dolor lumbar axial significativo por enfermedad degenerativa del disco como queja principal",
+          "D": "Todas las hernias discales que causan déficit motor requieren artrodesis para la estabilización"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La discectomía sola (extirpación del fragmento herniado) es apropiada para la hernia discal aislada que causa radiculopatía en una columna estable. Se añade artrodesis cuando: (1) espondilolistesis asociada (inestabilidad segmentaria preexistente); (2) facetectomía extensa necesaria durante la descompresión que desestabiliza el segmento; (3) dolor lumbar axial significativo por enfermedad degenerativa del disco (dolor discógeno) como queja principal (no solo radiculopatía); (4) hernia discal recurrente al mismo nivel con pérdida significativa de altura discal e inestabilidad segmentaria. La artrodesis para radiculopatía pura sin inestabilidad no está basada en la evidencia y aumenta la morbilidad.",
+          "wrong": {
+            "A": "Las hernias discales L5-S1 NO requieren artrodesis de forma rutinaria — la discectomía sola tiene excelentes resultados (>90% de éxito). Las tasas de recurrencia son similares a L4-5",
+            "B": "La edad >45 años no es indicación de artrodesis con hernia discal. La indicación es la inestabilidad o el dolor axial discógeno, no la edad",
+            "D": "El déficit motor por hernia discal indica urgencia de la discectomía pero NO indica necesidad de artrodesis. La artrodesis tiene que ver con la estabilidad, no con la recuperación motora"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Discectomía sola para hernia discal aislada sin inestabilidad; artrodesis añadida para espondilolistesis, inestabilidad o dolor lumbar discógeno significativo",
+          "trial": "Caspar W (Acta Neurochir 1977): técnica de discectomía; SPORT: discectomía sola apropiada para hernia sin inestabilidad; Herkowitz HN (Spine 1991): artrodesis para espondilolistesis con estenosis",
+          "pearl": "Discectomía (no artrodesis) para hernia discal aislada + radiculopatía en columna estable. AÑADIR artrodesis para: espondilolistesis, inestabilidad inducida por facetectomía extensa, o dolor axial discógeno significativo. Nunca artrodesís solo por radiculopatía en columna estable."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q17",
+        "stem": "Un paciente sometido a microdiscectomía L5-S1 está en riesgo de una complicación intraoperatoria infrecuente pero catastrófica si los instrumentos quirúrgicos penetran demasiado profundamente a través del espacio discal anterior hacia el espacio prevertebral. ¿Qué estructura está en riesgo?",
+        "options": {
+          "A": "Aorta abdominal y vena cava inferior (o vasos ilíacos comunes a nivel L5-S1)",
+          "B": "Uréter — para prevenir hidronefrosis posoperatoria",
+          "C": "Intestino — causando peritonitis",
+          "D": "Cadena simpática — causando síndrome de Horner"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El espacio discal anterior a nivel L5-S1 está inmediatamente adyacente a las arterias ilíacas comunes (bifurcación aórtica en L4-5, ilíacas comunes en L5-S1) y la vena cava inferior (vena ilíaca común izquierda en L4-5). Si los instrumentos del espacio discal (pinzas de hipófisis, curetas) penetran demasiado profundamente a través del anillo anterior, puede producirse una lesión vascular catastrófica — hemorragia masiva en el retroperitoneo. Esta es una complicación infrecuente (<0,05%) pero potencialmente fatal. Claves intraoperatorias: hipotensión inexplicada, taquicardia y distensión abdominal durante la discectomía. Manejo: cirugía vascular abdominal inmediata (laparotomía de urgencia o reparación endovascular).",
+          "wrong": {
+            "B": "El uréter discurre lateralmente sobre el músculo psoas — no inmediatamente anterior al espacio discal. La lesión ureteral por discectomía es teóricamente posible pero extremadamente infrecuente y no es la preocupación principal durante la instrumentación del espacio discal",
+            "C": "La lesión intestinal es posible con los procedimientos de acceso retroperitoneal (ALIF) pero no es el riesgo principal de la instrumentación posterior del espacio discal por microdiscectomía",
+            "D": "La cadena simpática discurre anterior y lateral a los cuerpos vertebrales — una posible complicación de los abordajes anteriores (que causa eyaculación retrógrada) pero no el riesgo vascular catastrófico de la discectomía posterior"
+          },
+          "guideline": "EANS Spine Technical Guidelines — Lesión vascular por instrumentación del espacio discal: complicación catastrófica que requiere consulta urgente de cirugía vascular",
+          "trial": "Papadoulas S (Eur J Vasc Endovasc Surg 2002): complicaciones vasculares de la cirugía discal lumbar — serie de lesiones vasculares mayores; principios de manejo",
+          "pearl": "Complicación catastrófica de la discectomía lumbar: lesión vascular por instrumentación profunda del disco que penetra el anillo anterior → arteria/vena ilíaca común o aorta/VCI. Riesgo en L4-5 (bifurcación aórtica) y L5-S1 (vasos ilíacos comunes). Hipotensión intraoperatoria inexplicada = sospechar lesión vascular."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q18",
+        "stem": "¿Cuál es la característica clínica diferenciadora de la claudicación neurógena (por estenosis espinal lumbar) que la diferencia de la claudicación vascular?",
+        "options": {
+          "A": "La claudicación neurógena se provoca al caminar y se alivia al detenerse, igual que la claudicación vascular",
+          "B": "La claudicación neurógena se provoca al caminar/estar de pie en posición erguida y se alivia al SENTARSE o FLEXIONAR HACIA ADELANTE (signo del carrito de la compra); la claudicación vascular se alivia simplemente al DEJAR DE CAMINAR (de pie)",
+          "C": "La claudicación neurógena causa solo dolor en el pie; la vascular solo en la pantorrilla",
+          "D": "La claudicación neurógena se asocia a ausencia de pulsos en el tobillo; la vascular no"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Claudicación neurógena (por estenosis espinal lumbar): provocada por la postura erguida (caminar, estar de pie), aliviada al SENTARSE o flexionar hacia adelante (lo que aumenta el diámetro del canal espinal lumbar al flexionar la columna). El 'signo del carrito de la compra' (inclinarse hacia adelante sobre un carrito para mantener la flexión al ir a comprar) es patognomónico. Claudicación vascular (por enfermedad arterial periférica): provocada por el ejercicio, aliviada simplemente DETENIENDO EL MOVIMIENTO Y PERMANECIENDO DE PIE — las arterias suministran más oxígeno en reposo independientemente de la postura. La diferenciación es crítica: la claudicación vascular requiere índice tobillo-brazo y evaluación vascular; la neurógena requiere RM lumbar.",
+          "wrong": {
+            "A": "La claudicación neurógena NO se alivia simplemente deteniendo el movimiento — el paciente debe sentarse o flexionar la columna. La claudicación vascular SÍ se alivia de pie",
+            "C": "La localización del dolor no diferencia de forma fiable las dos — ambas pueden causar dolor en la pantorrilla. La dependencia posicional del alivio es la característica diferenciadora clave",
+            "D": "La ausencia de pulsos en el tobillo es un signo de enfermedad arterial periférica (claudicación vascular) — la claudicación neurógena tiene pulsos normales. Sin embargo, esto las distingue, no al revés como se indica"
+          },
+          "guideline": "NASS Lumbar Spinal Stenosis Guidelines — Claudicación neurógena: alivio postural (sentado/flexión); claudicación vascular: de pie alivia; ambas deben diferenciarse para el manejo apropiado",
+          "trial": "Porter RW (Spine 1984): diferenciación clínica de claudicación neurógena frente a vascular; Johnsson KE (Clin Orthop 1995): historia natural de la estenosis lumbar",
+          "pearl": "Claudicación neurógena = aliviada por SENTARSE/FLEXIÓN ANTERIOR (signo del carrito de la compra). Claudicación vascular = aliviada DETENIENDO EL MOVIMIENTO DE PIE. Signo del carrito = estenosis neurógena. Esta es la pregunta clásica de examen."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q19",
+        "stem": "Un trabajador manual de 42 años desarrolla hernia discal L5-S1 con radiculopatía S1. Es reclamante por accidente laboral y tiene 4 de 5 signos de Waddell. El tratamiento conservador ha sido ineficaz durante 3 meses. Su EHL es 5/5 y el reflejo aquíleo está reducido pero presente. Exige la cirugía. ¿Cómo deben influir los signos de Waddell en la decisión quirúrgica?",
+        "options": {
+          "A": "Los signos de Waddell son irrelevantes — cualquier paciente con fracaso del tratamiento conservador debe recibir cirugía",
+          "B": "4/5 signos de Waddell es un fuerte predictor de mal resultado quirúrgico; la valoración biopsicosocial y el manejo multidisciplinario del dolor deben preceder a la toma de decisión quirúrgica; la cirugía no está contraindicada pero los resultados probablemente serán malos sin optimización psicológica",
+          "C": "4/5 signos de Waddell demuestra que el paciente está simulando síntomas — dar el alta sin tratamiento",
+          "D": "Los signos de Waddell solo importan en ausencia de hernia discal confirmada por RM"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los signos de Waddell ≥3 se asocian de forma independiente con malos resultados quirúrgicos, fracaso en la vuelta al trabajo y alta insatisfacción posoperatoria, incluso cuando la cirugía es técnicamente exitosa. El estado de reclamación por accidente laboral es también un predictor independiente de mal resultado. La respuesta apropiada no es rechazar categóricamente la cirugía, sino: (1) realizar una valoración biopsicosocial exhaustiva; (2) derivar a manejo multidisciplinario del dolor y valoración psicológica; (3) optimizar los factores psicológicos antes de la cirugía; (4) mantener una conversación franca con el paciente sobre las expectativas quirúrgicas realistas dado estos predictores negativos.",
+          "wrong": {
+            "A": "Los signos de Waddell son predictores de resultado muy relevantes — ignorarlos lleva a altas tasas del síndrome de cirugía fallida de espalda",
+            "C": "Los signos de Waddell NO demuestran simulación — indican sufrimiento psicológico significativo (ansiedad, depresión, catastrofización) que amplifica la percepción del dolor. Los pacientes con signos de Waddell positivos tienen dolor genuino pero con un componente psicológico significativo que requiere manejo biopsicosocial",
+            "D": "Los signos de Waddell son relevantes independientemente de los hallazgos de RM — predicen el resultado quirúrgico de forma independiente de la patología anatómica"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Signos de Waddell preoperatorios ≥3: mal resultado quirúrgico; valoración psicológica recomendada antes de la cirugía",
+          "trial": "Waddell G (Spine 1980): desarrollo de los signos de Waddell; Spengler DM (J Bone Joint Surg 1982): el componente psicológico predice de forma independiente el mal resultado quirúrgico; accidente laboral: Nguyen TH (Spine 2011)",
+          "pearl": "Signos de Waddell ≥3 + accidente laboral = predictor de MAL resultado quirúrgico (no una contraindicación). Valoración biopsicosocial obligatoria antes de la cirugía. La cirugía puede realizarse pero el consentimiento informado debe incluir la discusión de la probabilidad de mal resultado sin optimización psicológica."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q20",
+        "stem": "Un atleta varón de 18 años presenta dolor intenso agudo en la pierna derecha y radiculopatía L5 tras levantar un peso importante. La RM muestra una gran extrusión discal L4-5. Durante la valoración, en la reconstrucción sagital de la TC se observa un pequeño fragmento óseo adyacente a la esquina posterosuperior del cuerpo de L4. ¿Cuál es el diagnóstico y en qué se diferencia del manejo estándar de la hernia discal?",
+        "options": {
+          "A": "Se trata de una variante normal — tratar como hernia discal estándar",
+          "B": "Fractura del anillo apofisario posterior — una avulsión ósea del anillo apofisario (anillo cartilaginoso vertebral) más frecuente en adolescentes; el fragmento óseo (no solo disco blando) debe extraerse quirúrgicamente, ya que no se reabsorberá espontáneamente",
+          "C": "Fractura de estrés de la pars interarticularis — tratar con ortesis para espondilólisis",
+          "D": "Osteomielitis vertebral — se requiere RM con gadolinio para la valoración infecciosa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La fractura del anillo apofisario posterior (avulsión del anillo cartilaginoso posterior) es una afección específica en adolescentes y adultos jóvenes en los que el anillo cartilaginoso todavía no se ha osificado y fusionado completamente con el cuerpo vertebral. Las fuerzas de levantamiento de pesos o de flexión-extensión pueden avulsionar este anillo cartilaginoso, creando un fragmento óseo en el espacio discal posterior adyacente a la placa terminal vertebral. A diferencia de una hernia discal de tejido blando puro que puede reabsorberse con el manejo conservador, el fragmento óseo NO se reabsorbe espontáneamente. La extirpación quirúrgica es necesaria para el tratamiento definitivo — esto lo diferencia del manejo estándar de la hernia discal.",
+          "wrong": {
+            "A": "Un fragmento óseo adyacente a la esquina vertebral posterior en un adolescente NO es una variante normal — representa una avulsión del anillo apofisario que requiere un manejo diferente al de la hernia discal estándar",
+            "C": "La espondilólisis (fractura de estrés de la pars interarticularis) se diagnostica por defectos bilaterales de la pars en la TC y se presenta con lumbalgia sin radiculopatía en deportistas. La imagen de RM de un fragmento discal posterior con radiculopatía L5 es diferente de la espondilólisis",
+            "D": "El inicio agudo tras levantar peso en un atleta sin fiebre, síntomas constitucionales ni factores de riesgo metabólicos no sugiere osteomielitis. La avulsión del anillo posterior es el diagnóstico correcto"
+          },
+          "guideline": "AANS/EANS Pediatric Spine Guidelines — Fractura del anillo apofisario: se requiere extirpación quirúrgica (el fragmento óseo no se reabsorbe); debe distinguirse de la hernia discal estándar en adolescentes",
+          "trial": "Epstein NE (Neurosurgery 1989): fracturas del anillo apofisario posterior en adolescentes — se requiere extirpación quirúrgica; Savini R (Spine 1991): serie de avulsiones del anillo posterior en adolescentes",
+          "pearl": "Adolescente + levantamiento de pesos + radiculopatía L5 + fragmento óseo en la esquina vertebral posterior en TC = FRACTURA DEL ANILLO APOFISARIO POSTERIOR. Diferencia clave con la hernia discal estándar: el fragmento óseo NO se reabsorbe — requiere EXTIRPACIÓN QUIRÚRGICA (no solo tratamiento conservador)."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}
