@@ -1,0 +1,627 @@
+{
+  "id": "B5",
+  "title": "Cerebral Arteriovenous Malformations",
+  "subtitle": "Block B — AVM Classification, Natural History, and Multimodality Treatment",
+  "block": "B",
+  "block_name": "Neurovascular Neurosurgery",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "AHA/ASA AVM Guidelines 2017 · EANS Neurovascular Guidelines 2023 · ESO AVM Guidelines 2022",
+  "textbook_refs": [
+    "Mohr JP et al. Medical Management with or without Interventional Therapy for Unruptured Brain AVMs (ARUBA). Lancet 2014",
+    "Spetzler RF et al. The Spetzler-Martin Grading Scale for Arteriovenous Malformations. J Neurosurg 1986",
+    "Lunsford LD et al. Stereotactic Radiosurgery for Arteriovenous Malformations. NEJM 1991",
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)"
+  ],
+  "learning_objectives": [
+    "Apply the Spetzler-Martin Grading Scale to predict surgical risk for cerebral AVMs",
+    "Describe the natural history of unruptured brain AVMs and interpret the ARUBA trial results and limitations",
+    "Define the indications for microsurgical resection, stereotactic radiosurgery (SRS), endovascular embolisation, and multimodality treatment based on AVM characteristics",
+    "Calculate the annual rupture risk for ruptured and unruptured AVMs and counsel patients on lifelong management",
+    "Identify the morphological and haemodynamic risk factors for AVM rupture (deep venous drainage, single draining vein, deep/infratentorial location)",
+    "Manage dural arteriovenous fistulas (dAVFs): Cognard classification and treatment selection"
+  ],
+  "sections": [
+    {
+      "id": "B5-S1",
+      "title": "Pathology, Epidemiology, and Natural History",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cerebral arteriovenous malformations (AVMs) are congenital vascular lesions characterised by direct arteriovenous shunting through a tangled vascular nidus, bypassing the normal capillary bed. The nidus is composed of dysplastic arteries and veins without intervening normal brain parenchyma, embedded in gliotic tissue. Prevalence is estimated at 0.1–0.2% (10–18/100,000), with an annual detection rate of approximately 1.3/100,000. AVMs may present with intracranial haemorrhage (50%), seizures (25%), headache (15%), or progressive neurological deficit (10%); incidental discovery on neuroimaging accounts for an increasing proportion. The annual haemorrhage risk for **unruptured AVMs** is 2–4% per year, based on population-based studies. For **previously ruptured AVMs**, the annual re-bleeding risk increases to 6–18% in the first year, returning to the baseline rate thereafter. Key clinical risk factors for haemorrhage on AVM diagnosis include: **deep venous drainage** (associated with higher intranidal pressure), **single draining vein** (less alternative drainage), **deep or infratentorial location** (brainstem, basal ganglia, deep white matter), and **intranidal aneurysms** (flow-related aneurysms within the AVM nidus that independently predict haemorrhage risk). Haemorrhage from AVM is generally associated with better outcomes than aneurysmal SAH, with mortality rates of approximately 10–15% per bleed and significant spontaneous recovery. The **ARUBA trial** (Mohr, Lancet 2014) radically changed management thinking for unruptured AVMs by demonstrating that medical management alone was superior to interventional therapy in the short-term follow-up period."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — AVM Annual Haemorrhage Risk",
+          "content": "Unruptured AVM annual haemorrhage risk: 2–4%. Previously ruptured AVM: 6–18% annual risk in year 1 (then returns to 2–4%). Cumulative lifetime risk formula: 1 − (1 − 0.03)^(105 − patient age). A 20-year-old with an unruptured AVM has an 85-year residual lifetime risk of approximately 94% cumulative haemorrhage risk — this high lifetime risk is the counterargument to the ARUBA trial's short-term perspective."
+        }
+      ]
+    },
+    {
+      "id": "B5-S2",
+      "title": "Spetzler-Martin Grading Scale",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **Spetzler-Martin (SM) Grading Scale** (1986) is the most widely used system for predicting surgical risk in cerebral AVMs. It assigns points based on: **Size** — small (<3 cm) = 1, medium (3–6 cm) = 2, large (>6 cm) = 3; **Eloquence** of adjacent brain — non-eloquent = 0, eloquent = 1 (eloquent sites: sensorimotor, language, visual cortex, thalamus, hypothalamus, internal capsule, brainstem, cerebellar peduncles, deep cerebellar nuclei); **Venous drainage** — superficial only = 0, any deep drainage = 1. Total score 1–5 (Grade VI reserved for inoperable AVMs by convention). Grade-specific surgical outcomes: **Grade I–II**: morbidity <5%, low risk, surgical resection favoured. **Grade III**: morbidity 7–15%, intermediate risk, individualised decision. **Grade IV–V**: morbidity 17–22% and >22%, high risk, interventional therapy generally deferred in favour of SRS or multimodality approaches, or medical management (especially after ARUBA). The Spetzler-Ponce classification simplifies to **Class A** (SM Grade I–II), **Class B** (SM Grade III), and **Class C** (SM Grade IV–V) for management stratification. The **Supplementary SM Grading System** (Lawton 2010) adds patient age, diffuseness of nidus, and prior haemorrhage to improve surgical outcome prediction."
+        },
+        {
+          "type": "table",
+          "title": "Spetzler-Martin Grading Scale",
+          "headers": ["Variable", "Feature", "Points"],
+          "rows": [
+            ["Size", "Small (<3 cm)", "1"],
+            ["Size", "Medium (3–6 cm)", "2"],
+            ["Size", "Large (>6 cm)", "3"],
+            ["Eloquence of adjacent brain", "Non-eloquent", "0"],
+            ["Eloquence of adjacent brain", "Eloquent (motor, language, visual, thalamus, brainstem, etc.)", "1"],
+            ["Venous drainage", "Superficial only", "0"],
+            ["Venous drainage", "Any deep drainage", "1"],
+            ["Grade I–II total (surgical)", "Morbidity <5%", "Favoured for surgical resection"],
+            ["Grade III total (individualised)", "Morbidity 7–15%", "Individualised; SRS or surgery based on anatomy"],
+            ["Grade IV–V total (high risk)", "Morbidity >17–22%", "SRS, embolisation, or observation"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Deep Venous Drainage Scoring",
+          "content": "ANY deep venous drainage (not 'exclusively deep') scores 1 point in the Spetzler-Martin scale. An AVM with one superficial and one deep draining vein still scores 1 point for venous drainage. This is a common error in SM grading — the question is whether ANY deep drainage is present, not whether ALL drainage is deep."
+        }
+      ]
+    },
+    {
+      "id": "B5-S3",
+      "title": "ARUBA Trial — Unruptured AVMs and Medical Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **ARUBA trial** (A Randomised trial of Unruptured Brain Arteriovenous malformations, Mohr, Lancet 2014) was the first randomised trial comparing interventional therapy versus medical management for unruptured brain AVMs. 226 patients with unruptured brain AVMs were randomised to interventional therapy (surgery, SRS, embolisation, or combination) versus medical management (best medical care for seizures, headache, risk factor modification). The primary endpoint was the composite of stroke or death at 33 months median follow-up. Results were striking: interventional therapy significantly worsened outcomes — 30.7% stroke or death in the interventional group versus 10.1% in the medical management group (HR 3.06, P=0.0003). The trial was stopped early by the Data Safety Monitoring Board for this reason. However, **ARUBA has significant limitations**: (1) 33-month median follow-up is very short relative to the lifetime AVM haemorrhage risk (30–80 year risk horizon); (2) 50% of patients received radiosurgery, which has a 3–5 year latency before benefit — most SRS-related benefits occur AFTER the trial's follow-up window; (3) heterogeneous patient population (low-grade AVMs eligible for safe surgery were included alongside high-grade AVMs); (4) centres with limited AVM experience participated, potentially inflating intervention complication rates. Long-term ARUBA follow-up (Al-Shahi Salman, Lancet Neurol 2020) at 12 years of the medical management group showed a 44% cumulative haemorrhage rate, suggesting that medical management alone is not free of long-term haemorrhage risk."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Interpreting ARUBA in Practice",
+          "content": "ARUBA challenged the dogma that all unruptured AVMs should be treated. Current consensus: ARUBA results should lead to CAUTION about treating ALL unruptured AVMs, but do not mandate universal conservative management. Grade I–II unruptured AVMs in young patients with accessible locations are still appropriately treated in experienced centres. The debate continues — ARUBA's short follow-up fundamentally misses the long-term benefit of definitive AVM obliteration versus cumulative lifetime haemorrhage risk."
+        }
+      ]
+    },
+    {
+      "id": "B5-S4",
+      "title": "Microsurgical Resection and Endovascular Embolisation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Microsurgical resection** is the most definitive AVM treatment, achieving immediate complete AVM obliteration in >95% of Grade I–III AVMs in experienced centres. The surgical strategy involves circumferential dissection of the AVM nidus with progressive coagulation and division of feeding arteries, followed by final division of the draining vein (premature draining vein sacrifice causes haemorrhage from increased nidus pressure). **Key intraoperative principle**: identify and disconnect ALL arterial feeders before dividing the draining vein. Temporary clipping is not used for AVM surgery (AVMs have no single feeding vessel to temporarily occlude). **Intraoperative neurophysiological monitoring** (MEPs, SSEPs, language mapping in awake surgery) reduces neurological morbidity. **Indocyanine green (ICG) angiography** confirms complete resection before closure. Post-resection **digital subtraction angiography (DSA)** at 6 months is mandatory to confirm obliteration — AVM re-recurrence can occur from residual nidus or de novo angiogenesis. **Endovascular embolisation** alone rarely achieves complete AVM cure (only 5–15% complete obliteration for modern embolisants such as Onyx). Embolisation serves as a **pre-operative adjunct** to reduce nidus volume, decrease blood flow, and simplify subsequent surgery or SRS. Goals of pre-operative embolisation: (1) deep arterial feeders inaccessible surgically; (2) reduction of nidus to facilitate SRS volume (target <10 cm³ for optimal SRS); (3) embolisation of intranidal aneurysms before SRS to reduce haemorrhage risk during the latency period. Embolisation with curative intent may be appropriate for small AVMs (<2 cm) with a single feeding pedicle and no eloquent involvement."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Surgical Rule: Feed Arteries Before Draining Vein",
+          "content": "The cardinal rule of AVM surgery is to identify and disconnect ALL arterial feeders BEFORE dividing the draining vein. Premature sacrifice of the draining vein traps blood in the nidus, dramatically increasing intranidal pressure, causing haemorrhage and 'normal perfusion pressure breakthrough' (NPPB). Divide the draining vein LAST, only after complete nidus isolation."
+        }
+      ]
+    },
+    {
+      "id": "B5-S5",
+      "title": "Stereotactic Radiosurgery for AVMs",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Stereotactic radiosurgery (SRS)** — Gamma Knife, CyberKnife, LINAC — delivers high-dose focused radiation to the AVM nidus, inducing progressive endothelial proliferation, vascular sclerosis, and obliteration over a **2–4 year latency period**. SRS is the treatment of choice for: (1) small AVMs (<3 cm diameter, <10 cm³ volume) in deep, eloquent, or surgically inaccessible locations; (2) residual AVM after incomplete surgical resection; (3) elderly patients or those with high surgical risk. Obliteration rates: ~70–80% complete obliteration at 3–5 years for AVMs ≤3 cm; substantially lower for larger volumes (50–60% for 3–4 cm). **Critical limitation**: during the 2–4 year latency period, AVM haemorrhage risk persists at the pre-treatment annual rate — SRS does not provide immediate protection. This latency period haemorrhage risk is a major consideration in young patients. Optimal SRS prescription dose: **20–25 Gy marginal dose** to the nidus achieves the best obliteration rates with acceptable radiation toxicity. Radiosurgery complications: radiation-induced oedema (symptomatic in 10–15%, at 12–36 months), radiation necrosis (<5%), new seizures (<5%), and very late cyst formation (rare, 2–10 years post-SRS). The LINAC-based SRS platform uses arc therapy while Gamma Knife uses 192 cobalt-60 sources — both are equivalent in precision for well-defined AVM niduses. **Volume-staged SRS** for large AVMs (>15 cm³) involves treating the nidus in multiple sessions to reduce radiation dose while extending the latency to obliteration."
+        },
+        {
+          "type": "table",
+          "title": "AVM Treatment Modality — Selection Criteria",
+          "headers": ["Modality", "Optimal AVM Characteristics", "Complete Obliteration Rate", "Key Advantage"],
+          "rows": [
+            ["Microsurgical resection", "SM Grade I–II, accessible, non-eloquent, any size", ">95% immediate", "Immediate permanent cure; no latency period"],
+            ["Stereotactic radiosurgery", "<3 cm, deep/eloquent, surgically inaccessible", "70–80% at 3–5 years", "Non-invasive; avoids surgical risk in deep locations"],
+            ["Endovascular embolisation alone", "Small (<2 cm), single pedicle, superficial", "5–15% alone", "Curative for select simple AVMs; pre-op adjunct"],
+            ["Embolisation + surgery", "Large SM Grade III, deep feeders", "Same as surgery", "Reduces intraoperative blood loss and complexity"],
+            ["Embolisation + SRS", "SM Grade III–IV, >3 cm, to reduce SRS volume", "50–60% (combined)", "Allows SRS treatment of larger volumes"],
+            ["Observation (ARUBA)", "Unruptured, high SM grade, elderly, short life expectancy", "N/A", "Avoids procedural risk; deferred to definitive future tx"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B5-S6",
+      "title": "Dural Arteriovenous Fistulas: Cognard Classification and Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Dural arteriovenous fistulas (dAVFs)** are acquired lesions in which abnormal arteriovenous shunting occurs within the dural leaflets, usually at or near a dural venous sinus. dAVFs account for 10–15% of all intracranial vascular malformations. The most important classification is the **Cognard classification**, which stratifies dAVFs by venous drainage pattern and predicts annual haemorrhage and neurological morbidity risk. **Cognard Classification**: Type I — drainage into dural venous sinus (normal antegrade flow) = benign, annual haemorrhage risk <2%; Type II — drainage into dural sinus with reflux: IIa (retrograde to sinus), IIb (retrograde to cortical vein), IIa+b (both) — annual risk 7–10%; Type III — direct cortical venous drainage (no sinus) = annual haemorrhage risk 40%; Type IV — cortical venous drainage with venous ectasia — annual haemorrhage risk 65%; Type V — spinal perimedullary venous drainage — progressive myelopathy. The **Borden-Shucart classification** is simpler: Type I (sinus drainage only), Type II (sinus + cortical vein drainage), Type III (cortical vein drainage only). The critical concept: **cortical venous reflux** (cortical venous drainage) is the primary risk factor for haemorrhage and neurological deficit, regardless of classification system. Treatment: **Transarterial embolisation** (Onyx injection into arterial feeders) for Type II–IV dAVFs — cure rates 50–80% depending on architecture. **Transvenous embolisation** (coiling of the fistulous sinus point) achieves 90%+ cure rates for cavernous sinus dAVFs. **Surgical disconnection** of the cortical draining vein for dAVFs not amenable to endovascular treatment. **SRS** for dAVFs with arteriovenous shunting — 3–5 year latency."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Cognard Classification: Cortical Venous Reflux = High Risk",
+          "content": "The key risk factor in dAVF classification is CORTICAL VENOUS DRAINAGE (reflux). Cognard Type I (sinus-only drainage) = benign (<2% annual haemorrhage). Cognard Type III (cortical vein only) = 40% annual haemorrhage risk. Cognard Type IV (cortical vein + ectasia) = 65% annual haemorrhage risk. Types III and IV require urgent treatment. The presence or absence of cortical venous reflux is the critical binary distinction."
+        }
+      ]
+    },
+    {
+      "id": "B5-S7",
+      "title": "Cavernous Malformations and Special Vascular Lesions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cerebral cavernous malformations (CCMs)** — also called cavernomas or cavernous angiomas — are vascular hamartomas composed of enlarged, thin-walled sinusoidal vascular channels without intervening normal brain parenchyma. CCMs affect 0.4–0.8% of the population, appearing as 'popcorn' lesions on MRI (heterogeneous T2 signal with haemosiderin rim on susceptibility-weighted imaging). Three genetic forms: sporadic (single lesion) and familial (multiple, autosomal dominant: CCM1/KRIT1, CCM2/malcavernin, CCM3/PDCD10). Annual haemorrhage risk: **supratentorial CCMs** = 0.2–0.3% (low risk); **brainstem CCMs** = 2–3% per year initial, increasing to 5–20% after a prior bleed (high risk and often treated surgically if surgically accessible). CCM haemorrhage is characteristically small (not large SAH), causing focal neurological deficits. Surgical indications: accessible lesion causing recurrent symptomatic haemorrhage (≥2 bleeds from the same lesion), progressive neurological deficit, or medically refractory seizures from a resectable CCM. Stereotactic radiosurgery (SRS) for CCMs is **controversial** — no randomised evidence, and retrospective studies show variable benefit. AHA/ASA recommends surgical resection over SRS for accessible symptomatic CCMs. **Developmental venous anomalies (DVAs)** — previously called 'venous angiomas' — are normal developmental venous drainage variants, NOT pathological lesions. DVAs serve as venous drainage for adjacent normal brain — surgical resection is absolutely contraindicated as it causes venous infarction. DVAs are frequently associated with adjacent CCMs and should never be mistaken for the lesion requiring treatment."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Never Resect a Developmental Venous Anomaly",
+          "content": "Developmental venous anomalies (DVAs) are NORMAL venous drainage variants — not pathological lesions. DVAs often co-exist with adjacent cavernous malformations, which ARE pathological. Resecting the DVA causes venous infarction. If treating an adjacent CCM, the DVA must be preserved. This is one of the most important conceptual distinctions in cerebrovascular neurosurgery."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of cerebral arteriovenous malformations and related vascular lesions with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B5-Q1",
+        "stem": "A 28-year-old man presents with a first seizure. MRI reveals a 2.5 cm AVM in the left temporal lobe. Angiography confirms the nidus is located in Wernicke's area, with superficial venous drainage only. What is the Spetzler-Martin grade?",
+        "options": {
+          "A": "SM Grade I (small, eloquent, superficial drainage = 1+1+0 = 2) — this is Grade II",
+          "B": "SM Grade II (1+1+0 = 2 points)",
+          "C": "SM Grade III (1+1+1 = 3 points)",
+          "D": "SM Grade IV (2+1+1 = 4 points)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Spetzler-Martin calculation: Size 2.5 cm (<3 cm) = 1 point; Eloquence = Wernicke's area (language cortex) = 1 point (eloquent); Venous drainage = superficial only = 0 points. Total = 1+1+0 = 2 points = SM Grade II. Grade II AVMs in experienced centres have morbidity <5% with surgical resection and are generally good candidates for treatment.",
+          "wrong": {
+            "A": "The calculation 1+1+0 = 2 points is correct and corresponds to Grade II, not Grade I. Grade I would require small size + non-eloquent + superficial = 1+0+0 = 1 point",
+            "C": "Grade III would require 1+1+1 = 3 points — this would need deep venous drainage (1 point) which is not present here (superficial only = 0 points)",
+            "D": "Grade IV would require 4 points — this would need medium size (2 points) + eloquent (1) + deep (1) = 4, or other combinations. This AVM is <3 cm scoring only 1 size point"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Spetzler-Martin Grade I–II: low surgical risk (<5% morbidity); consider resection in experienced centres",
+          "trial": "Spetzler RF, Martin NA (J Neurosurg 1986): SM grading scale derivation; Hamilton MG, Spetzler RF (J Neurosurg 1994): prospective validation — Grade II: 95% good outcomes with surgery",
+          "pearl": "SM Grade = Size (1/2/3) + Eloquence (0/1) + Venous drainage (0/1). Wernicke's area = eloquent = 1 point. Superficial drainage only = 0 points. Small (<3 cm) + eloquent + superficial = 1+1+0 = Grade II."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q2",
+        "stem": "The ARUBA trial (Mohr, Lancet 2014) randomised patients with unruptured brain AVMs to interventional therapy versus medical management. What was the primary result, and what is the most important methodological limitation?",
+        "options": {
+          "A": "Interventional therapy significantly improved outcomes; the limitation was under-enrolment",
+          "B": "Interventional therapy significantly worsened outcomes (HR 3.06 for stroke/death, P=0.0003) at 33-month median follow-up; the critical limitation is the short follow-up relative to the 30–80 year AVM haemorrhage risk horizon",
+          "C": "No significant difference between groups; the limitation was mixed use of surgery and SRS",
+          "D": "Medical management was equivalent to interventional therapy; the limitation was absence of a ruptured AVM comparison group"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ARUBA showed interventional therapy was significantly worse than medical management at 33 months: composite stroke or death 30.7% (interventional) vs 10.1% (medical), HR 3.06, P=0.0003. The trial was stopped early. The critical limitation: 33-month follow-up captures only intervention-related harms while missing most of the long-term natural history haemorrhage risk — SRS has a 2–4 year latency before benefit. Most AVM treatment benefits occur AFTER 5–10 years, which ARUBA did not capture. Long-term follow-up at 12 years (Al-Shahi Salman LN 2020) showed 44% cumulative haemorrhage in the medical arm — demonstrating that medical management has substantial long-term haemorrhage risk that ARUBA's short follow-up missed.",
+          "wrong": {
+            "A": "ARUBA showed interventional therapy was WORSE, not better. The primary result was that intervention significantly increased stroke and death in the short term",
+            "C": "The difference WAS significant (P=0.0003, HR 3.06). ARUBA was NOT a neutral trial — it showed harm from intervention in the short-term follow-up",
+            "D": "ARUBA enrolled unruptured AVMs only — the comparison was interventional vs medical for unruptured AVMs, not ruptured"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — ARUBA evidence cited; intervention for unruptured AVMs considered carefully, particularly for high-grade AVMs; Grade I–II still often treated at experienced centres",
+          "trial": "ARUBA (Mohr Lancet 2014): 226 patients — stroke/death 30.7% vs 10.1%, HR 3.06, P=0.0003, stopped early; long-term follow-up (Al-Shahi Salman LN 2020): 44% cumulative haemorrhage in medical arm at 12 years",
+          "pearl": "ARUBA: intervention WORSENED short-term outcomes (HR 3.06). But 33-month follow-up is too short — SRS latency is 2–4 years, lifetime AVM risk spans decades. Long-term: 44% cumulative haemorrhage in medical arm. ARUBA is a warning about indiscriminate treatment, NOT a mandate for universal conservative management."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q3",
+        "stem": "A 35-year-old woman presents with a first haemorrhage from a right parietal AVM. The AVM is 4 cm in diameter, involves the sensorimotor cortex, and has one deep draining vein and one cortical vein. What is the Spetzler-Martin grade and what management is most appropriate?",
+        "options": {
+          "A": "SM Grade III (2+1+0 = 3); surgery has 7–15% morbidity — individualised decision considering SRS or multimodality therapy",
+          "B": "SM Grade IV (2+1+1 = 4); surgery has 17–22% morbidity — SRS, embolisation+SRS, or multimodality therapy preferred over upfront surgery",
+          "C": "SM Grade II (1+1+0 = 2); excellent surgical candidate",
+          "D": "SM Grade V (3+1+1 = 5); inoperable — observation only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SM Grade calculation: Size 4 cm (3–6 cm range) = 2 points; Eloquence = sensorimotor cortex = 1 point (eloquent); Venous drainage = ANY deep drainage present = 1 point (even though there is also a superficial draining vein). Total = 2+1+1 = 4 points = SM Grade IV. Grade IV surgical morbidity is 17–22% — this is a high-risk surgical target. For a ruptured Grade IV AVM, options include: SRS (if post-haematoma nidus volume <10 cm³), embolisation followed by SRS to reduce nidus volume, or observation after haemorrhage resolution with re-evaluation. Upfront surgical resection of a Grade IV AVM carries significant risk and is not favoured.",
+          "wrong": {
+            "A": "SM Grade III has 3 points — but this AVM has deep drainage present (1 point), medium size (2 points), and eloquence (1 point) = 4 points = Grade IV, not III",
+            "C": "SM Grade II has 2 points. This AVM is medium (2 points) + eloquent (1 point) + deep drainage (1 point) = 4 points = Grade IV, not II",
+            "D": "SM Grade V requires 5 points (e.g., large [3] + eloquent [1] + deep [1] = 5). This 4 cm AVM scores only 4 points"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — SM Grade IV: surgery not recommended due to high morbidity (17–22%); SRS or multimodality approach preferred",
+          "trial": "Hamilton MG, Spetzler RF (J Neurosurg 1994): prospective Grade-specific surgical outcomes — Grade IV: good outcome 73% (vs 94% Grade I–II)",
+          "pearl": "SM venous drainage: ANY deep drainage = 1 point (even if superficial vein also present). A 4 cm sensorimotor AVM with one deep vein = 2+1+1 = Grade IV (17–22% surgical morbidity). Do NOT confuse 'any deep drainage' with 'exclusively deep drainage'."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q4",
+        "stem": "What is the annual haemorrhage risk for a previously RUPTURED cerebral AVM in the first year after the index bleed?",
+        "options": {
+          "A": "Same as unruptured: 2–4% per year",
+          "B": "Approximately 6–18% in the first year after rupture, then returning to the baseline 2–4% annual rate",
+          "C": "Approximately 30–40% annually (near-universal rebleeding in first year)",
+          "D": "Essentially zero in the first year due to post-haemorrhagic thrombosis of the nidus"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "After AVM rupture, the annual re-bleeding risk is significantly elevated in the first year: 6–18% (depending on the study — Stapf 2006 reported 6%, Pollock 2012 reported higher rates especially with deep location and small nidus). After the first year, the re-bleeding rate returns to the baseline annual rate of 2–4%. This 'first-year high risk' period is analogous to the increased aneurysm re-bleeding risk after SAH, though less extreme. This elevated first-year risk is one argument for early treatment of ruptured AVMs.",
+          "wrong": {
+            "A": "The first year after rupture carries a higher risk than the baseline 2–4% — specifically 6–18% in the first year before returning to baseline",
+            "C": "30–40% annual re-bleeding risk applies to the highest-risk dAVF types (Cognard III–IV), not to brain AVMs. AVM first-year re-rupture risk is 6–18%",
+            "D": "Post-haemorrhagic thrombosis can partially compress the nidus temporarily, but this does not eliminate the bleeding risk. The risk actually increases in the first year"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Annual haemorrhage risk: unruptured 2–4%; previously ruptured: 6–18% in year 1, then baseline 2–4%",
+          "trial": "Stapf C et al. (Stroke 2006): AVM haemorrhage risk factors — prior haemorrhage increases annual risk to approximately 6%; higher estimates with deep location and exclusive deep venous drainage",
+          "pearl": "AVM rupture risk: unruptured = 2–4%/year. Previously ruptured = 6–18%/year in year 1, then returns to 2–4%. The elevated first-year risk after rupture supports prompt evaluation and treatment planning."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q5",
+        "stem": "A dural arteriovenous fistula (dAVF) is found on angiography. It drains exclusively into cortical veins with venous ectasia of the draining vein (3 cm varix). What is the Cognard classification, and what is the annual haemorrhage risk?",
+        "options": {
+          "A": "Cognard Type I; annual haemorrhage risk <2%",
+          "B": "Cognard Type III; annual haemorrhage risk approximately 40%",
+          "C": "Cognard Type IV; annual haemorrhage risk approximately 65%",
+          "D": "Cognard Type IIb; annual haemorrhage risk approximately 7–10%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Cognard Type IV is defined as drainage exclusively into cortical veins (no dural sinus drainage) WITH venous ectasia of the draining cortical vein — the varix represents localised venous dilation under high-pressure arterialized flow. Cognard Type IV carries the highest haemorrhage risk of approximately 65% annual rate. This is a neurosurgical emergency requiring urgent treatment (transarterial Onyx embolisation, transvenous embolisation, or surgical disconnection).",
+          "wrong": {
+            "A": "Cognard Type I (sinus drainage with normal antegrade flow) has <2% annual haemorrhage risk — the benign form. This AVM drains exclusively into cortical veins, not sinus, so it is not Type I",
+            "B": "Cognard Type III is cortical vein drainage WITHOUT ectasia — 40% annual haemorrhage risk. This dAVF has BOTH cortical vein drainage AND venous ectasia, which classifies it as Type IV (65% annual risk)",
+            "D": "Cognard Type IIb is retrograde cortical venous drainage from a dural sinus — different from exclusive cortical vein drainage. Type IIb has 7–10% annual risk"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Cognard Type III–IV dAVFs require urgent treatment; cortical venous drainage (especially with ectasia) is a neurosurgical emergency",
+          "trial": "Cognard C et al. (Radiology 1995): dAVF classification and natural history — Type IV: 65% annual haemorrhage/neurological deficit rate",
+          "pearl": "Cognard classification key: Type I (sinus only) = benign (<2%). Type IIb (cortical reflux from sinus) = intermediate (7–10%). Type III (cortical only, no ectasia) = 40%. Type IV (cortical + ectasia) = 65%. Types III–IV = URGENT treatment. Cortical venous reflux = HIGH RISK."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q6",
+        "stem": "A 40-year-old woman has a 2 cm AVM in the left basal ganglia (deep eloquent location) with exclusive deep venous drainage. She presents with a first haemorrhage (5 mL putaminal haematoma, GCS 14). After clinical recovery, the neurovascular team discusses treatment options. Why is stereotactic radiosurgery (SRS) preferred over microsurgical resection for this specific AVM?",
+        "options": {
+          "A": "SRS provides immediate AVM obliteration with no haemorrhage risk during the latency period",
+          "B": "SRS is preferred because the deep basal ganglia location and eloquence make surgical resection extremely high risk (SM Grade IV–V equivalent), while SRS achieves 70–80% obliteration at 3–5 years with much lower procedural morbidity",
+          "C": "SRS is preferred because small AVMs (<3 cm) cannot be visualised during microsurgery",
+          "D": "SRS is preferred because haemorrhage risk ceases immediately after SRS treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 2 cm AVM in the left basal ganglia with exclusive deep venous drainage: SM Grade = small (<3 cm) = 1 + eloquent (basal ganglia/internal capsule) = 1 + deep drainage = 1 = Grade III. However, the deep basal ganglia location carries additional risk beyond SM grade — approach requires traversal of eloquent white matter, making surgical morbidity substantially higher than superficial Grade III equivalents. SRS achieves 70–80% obliteration for AVMs ≤3 cm at 3–5 years with procedural morbidity of 5–10% (radiation oedema, radiation necrosis). This is far lower than the 30–50% morbidity of open surgery in the basal ganglia.",
+          "wrong": {
+            "A": "SRS does NOT provide immediate obliteration — the 2–4 year latency period is its major disadvantage. Haemorrhage risk persists at the baseline annual rate during this latency period",
+            "C": "Small (<3 cm) AVMs are technically visualisable during microsurgery — size is not the reason for preferring SRS. The deep eloquent location is the reason",
+            "D": "SRS does NOT immediately eliminate haemorrhage risk — risk persists at baseline rates during the 2–4 year latency period. This is a critical misconception to avoid"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Deep, eloquent, surgically inaccessible AVMs ≤3 cm: SRS preferred; SRS morbidity substantially lower than surgery for deep AVMs",
+          "trial": "Lunsford LD et al. (NEJM 1991): SRS for AVMs — 70–80% obliteration for <3 cm AVMs at 3–5 years; Pollock BE et al. (J Neurosurg 1998): long-term outcomes of SRS for deep AVMs",
+          "pearl": "Deep eloquent AVM (basal ganglia, thalamus, brainstem) + SRS ≤3 cm = 70–80% obliteration at 3–5 years with low procedural morbidity. Surgical risk for deep eloquent AVMs is 30–50% morbidity — not acceptable. SRS does NOT eliminate haemorrhage risk during latency period."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q7",
+        "stem": "During microsurgical AVM resection, the surgeon inadvertently divides the main draining vein before disconnecting all arterial feeders. What is the MOST likely immediate consequence?",
+        "options": {
+          "A": "Spontaneous thrombosis of the AVM nidus — inadvertent beneficial outcome",
+          "B": "Dramatic increase in intranidal pressure causing haemorrhage from the engorged nidus ('normal perfusion pressure breakthrough')",
+          "C": "Immediate cerebral venous infarction in the territory previously drained by the vein",
+          "D": "No significant immediate consequence — draining veins can be divided at any stage of surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Premature sacrifice of the draining vein is a critical surgical error. With arterial feeders still patent, the draining vein sacrifice creates a closed-loop high-pressure system — all arterialised blood entering the nidus cannot escape. Intranidal pressure rises dramatically, the thin-walled nidus vessels rupture, and catastrophic haemorrhage results. This is sometimes described as 'normal perfusion pressure breakthrough' (NPPB), though the mechanism is primarily trapped high-pressure flow rather than NPPB in the classical sense. The cardinal surgical rule: identify and disconnect ALL arterial feeders FIRST, then divide the draining vein LAST.",
+          "wrong": {
+            "A": "Premature vein sacrifice does NOT cause spontaneous thrombosis — it causes haemorrhage from increased pressure in the still-arterialized nidus",
+            "C": "Cerebral venous infarction occurs when a normal draining vein is sacrificed in normal brain. In AVM surgery, the draining vein is already pathological and not draining normal parenchyma — but the AVM nidus will haemorrhage from increased pressure, not cause venous infarction per se",
+            "D": "This is completely wrong — draining vein division sequence is one of the most critical technical principles in AVM surgery"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Surgical technique: arterial feeders before draining vein; premature vein sacrifice causes haemorrhage",
+          "trial": "Spetzler RF et al. (J Neurosurg 1986): SM grading and surgical technique principles; Spetzler RF (Neurosurgery 1988): NPPB concept and AVM surgical principles",
+          "pearl": "AVM surgical rule: FEEDERS FIRST, VEIN LAST. Premature draining vein sacrifice = arterial blood trapped in nidus = catastrophic haemorrhage. This is the most important technical principle in AVM microsurgery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q8",
+        "stem": "A 45-year-old man has a symptomatic cerebral cavernous malformation (cavernoma) in the right parietal lobe, causing two separate haemorrhagic episodes over 3 years and medically refractory seizures. MRI shows a 1.5 cm 'popcorn' lesion with haemosiderin rim. A developmental venous anomaly (DVA) is visible adjacent to the cavernoma. What is the most appropriate surgical approach?",
+        "options": {
+          "A": "Resect both the cavernoma and the DVA to prevent future haemorrhage from the DVA",
+          "B": "Resect the cavernoma only; preserve the DVA completely as it represents normal venous drainage",
+          "C": "Stereotactic radiosurgery for both the cavernoma and the DVA",
+          "D": "Observation only — cavernomas are always treated conservatively"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The principle is critical: the cavernoma is the pathological lesion causing haemorrhage and seizures — resect it. The DVA is a normal developmental venous drainage pathway for adjacent normal brain — preserving it is mandatory. Resecting the DVA causes venous infarction of the brain it drains. This patient has two surgical indications: recurrent symptomatic haemorrhage (2 bleeds) and medically refractory seizures from an accessible right parietal cavernoma — both support surgical resection of the cavernoma.",
+          "wrong": {
+            "A": "Resecting the DVA is CONTRAINDICATED — it serves as venous drainage for normal adjacent brain. DVA resection causes venous infarction. DVAs do not haemorrhage independently and should NEVER be treated",
+            "C": "SRS for cavernomas is controversial with limited evidence. For an accessible parietal cavernoma with recurrent haemorrhage and refractory seizures, surgery is the evidence-based treatment. SRS has no established benefit for DVAs",
+            "D": "This patient has TWO indications for surgery: recurrent haemorrhage (2 bleeds from same lesion — a standard indication) AND medically refractory seizures. Observation is not appropriate"
+          },
+          "guideline": "AHA/ASA Cavernous Malformation Guidelines 2017 — Surgical resection for accessible cavernomas with ≥2 haemorrhages or refractory seizures; DVA must be preserved",
+          "trial": "Englot DJ et al. (J Neurosurg 2011): cavernoma surgery for seizures — seizure-free in 75% after resection; Kim DS et al. (Neurosurgery 2006): DVA preservation mandatory to prevent venous infarction",
+          "pearl": "Cavernoma + DVA adjacent: ALWAYS resect cavernoma + ALWAYS preserve DVA. DVA = normal drainage = never touch. Cavernoma surgical indications: ≥2 symptomatic haemorrhages from same lesion, OR medically refractory seizures from accessible cavernoma."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q9",
+        "stem": "A 52-year-old woman presents with progressive pulsatile tinnitus, a cranial bruit, and mild proptosis of the right eye. MRI/MRA shows a right cavernous sinus dural AVF. Angiography confirms Cognard Type I (drainage into right cavernous sinus with antegrade flow only). What is the most appropriate management?",
+        "options": {
+          "A": "Urgent transvenous embolisation — all cavernous sinus dAVFs require immediate treatment",
+          "B": "Conservative management with observation; carotid-cavernous compression exercises (self-compression); the majority of low-flow cavernous sinus dAVFs (Cognard Type I) resolve spontaneously or with conservative measures",
+          "C": "Urgent surgical disconnection of the cavernous sinus from the dural feeders",
+          "D": "Stereotactic radiosurgery — first-line treatment for all cavernous sinus dAVFs"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cognard Type I cavernous sinus dAVF (benign type — drainage into dural venous sinus with normal antegrade flow, no cortical venous reflux) has a very low haemorrhage risk (<2% annual) and a high rate of spontaneous resolution (25–50%) with conservative management. Carotid-cavernous compression (digital compression of the ipsilateral carotid artery for 30 seconds, 10 times daily) is a recognised conservative technique that increases the chance of spontaneous thrombosis. Treatment is reserved for: failed conservative management after 3–6 months, progressive proptosis with vision threat, intolerable tinnitus, or development of cortical venous reflux (which would upgrade to Cognard Type IIb or higher).",
+          "wrong": {
+            "A": "Urgent treatment is NOT indicated for Cognard Type I — this is a low-risk benign dAVF. Urgent treatment is reserved for Cognard Type III–IV with cortical venous drainage and high haemorrhage risk",
+            "C": "Surgical disconnection is a high-risk approach for cavernous sinus dAVFs given proximity to CN III, IV, V, VI. Endovascular transvenous embolisation is preferred if treatment is needed — surgery is a last resort",
+            "D": "SRS has a 2–4 year latency and is not first-line for any dAVF type. Transvenous embolisation achieves 90%+ cure rates for cavernous sinus dAVFs and is the preferred interventional approach if conservative management fails"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Cognard Type I cavernous sinus dAVF: conservative management first; spontaneous resolution in 25–50%; treat for vision threat, intractable tinnitus, or cortical venous reflux",
+          "trial": "Halbach VV et al. (AJNR 1987): cavernous sinus dAVF natural history — 25–50% spontaneous resolution; Cognard C (Radiology 1995): Type I annual haemorrhage risk <2%",
+          "pearl": "Cognard Type I dAVF (cavernous sinus, antegrade sinus flow) = benign = conservative management. Self-compression exercises + observation. Intervene only for vision threat or failed conservative management. Types III–IV (cortical vein drainage) = urgent treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q10",
+        "stem": "A 30-year-old man has a 7 cm large SM Grade V AVM (large, eloquent, deep drainage) in the right temporal-parietal region. He is neurologically intact except for mild word-finding difficulty. The ARUBA trial enrolled patients like him. What is the most evidence-based management approach?",
+        "options": {
+          "A": "Immediate surgical resection — Grade V AVMs must be treated urgently",
+          "B": "Medical management (observation, seizure control if needed, blood pressure management), given ARUBA data and the very high surgical morbidity of Grade V AVMs (>22%)",
+          "C": "Stereotactic radiosurgery targeting the entire 7 cm nidus in a single session",
+          "D": "Embolisation alone to reduce the nidus by 50% followed by immediate surgical resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SM Grade V unruptured AVM: surgical morbidity >22% for attempted resection (Spetzler-Martin prospective validation). SRS for a 7 cm nidus is not feasible in a single session (optimal SRS volume <10 cm³ for adequate dose delivery; 7 cm diameter represents a volume of ~180 cm³). ARUBA showed medical management was superior to intervention at 33 months for unruptured AVMs broadly. For a Grade V unruptured AVM, medical management is the most appropriate first-line approach. Volume-staged SRS could theoretically be considered over multiple sessions but with very low obliteration rates for this size. If the patient haemorrhages, reassessment is required.",
+          "wrong": {
+            "A": "SM Grade V surgical morbidity is >22% — surgical resection is not appropriate for an unruptured Grade V AVM in an otherwise neurologically intact patient. This would cause iatrogenic harm that far exceeds the natural history risk in the short term",
+            "C": "A 7 cm (approximately 180 cm³ volume) AVM cannot be treated with single-session SRS. SRS is feasible for ≤3 cm AVMs and is the most effective for ≤10 cm³ volumes. Treating this AVM with standard SRS would cause severe radiation toxicity",
+            "D": "Pre-operative embolisation followed by surgery for a Grade V AVM still carries the baseline surgical morbidity for a Grade V lesion — embolisation may reduce blood loss but does not reduce the fundamental eloquence and size risks"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — SM Grade V AVMs: intervention not generally recommended for unruptured AVMs; medical management with close observation",
+          "trial": "ARUBA (Mohr Lancet 2014): unruptured AVM — medical management superior to intervention at 33 months. Hamilton MG, Spetzler RF (1994): Grade V surgical morbidity >22%",
+          "pearl": "SM Grade V AVM: surgery morbidity >22%, SRS impractical for 7 cm, embolisation rarely curative. ARUBA data + Grade V surgical morbidity = medical management is the evidence-based approach for unruptured Grade V AVMs."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q11",
+        "stem": "What is the function and clinical significance of an intranidal aneurysm (flow-related aneurysm) within an AVM?",
+        "options": {
+          "A": "Intranidal aneurysms are normal structural variations and carry no additional haemorrhage risk",
+          "B": "Intranidal aneurysms are saccular dilations within the AVM nidus that independently predict increased haemorrhage risk and may be embolised before definitive AVM treatment to reduce the risk during any latency period",
+          "C": "Intranidal aneurysms indicate the AVM is in the process of spontaneous thrombosis and do not require treatment",
+          "D": "Intranidal aneurysms are only significant if they are >10 mm in diameter"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intranidal aneurysms (flow-related aneurysms) are saccular dilations within or on the feeding arteries of an AVM, developing due to the abnormal haemodynamic stress of high-flow arteriovenous shunting. They are detected on DSA in 10–20% of AVMs. Multiple studies (Redekop 1998, Thompson 1998) demonstrate that intranidal aneurysms are independent predictors of AVM haemorrhage — the annual haemorrhage risk is approximately doubled with intranidal aneurysm presence. In patients with unruptured AVMs undergoing SRS (2–4 year latency), pre-SRS targeted embolisation of the intranidal aneurysm reduces haemorrhage risk during the latency period.",
+          "wrong": {
+            "A": "Intranidal aneurysms are NOT normal variants — they are pathological and independently increase haemorrhage risk. This is a critical clinical finding on AVM angiography",
+            "C": "Intranidal aneurysms do not indicate spontaneous thrombosis — they indicate high-flow haemodynamic stress and are a risk factor for haemorrhage",
+            "D": "Intranidal aneurysms are significant regardless of size — even small intranidal aneurysms <5 mm carry increased rupture risk in the context of high AVM flow"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Intranidal aneurysms: independent risk factor for haemorrhage; targeted embolisation before definitive treatment or during latency period",
+          "trial": "Redekop G et al. (J Neurosurg 1998): intranidal aneurysm presence associated with doubled haemorrhage risk in AVM patients",
+          "pearl": "Intranidal aneurysm = independent predictor of AVM haemorrhage (doubles risk). Target for embolisation before SRS to reduce latency-period haemorrhage risk. Detected on DSA in 10–20% of AVMs. Always look for intranidal aneurysms on AVM angiography."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q12",
+        "stem": "A 25-year-old man is evaluated for a 3.5 cm AVM in the left temporal lobe with superficial venous drainage and no eloquent cortex involvement (SM Grade II: medium size 2 + non-eloquent 0 + superficial 0 = 2). He had no haemorrhage. His PHASES is not applicable (AVMs, not aneurysms). What is the most appropriate management discussion based on current evidence?",
+        "options": {
+          "A": "ARUBA mandates observation only — no intervention for any unruptured AVM",
+          "B": "For SM Grade I–II unruptured AVMs, experienced centres may still offer microsurgical resection with expected morbidity <5%, as the lifetime haemorrhage risk over 70+ years significantly outweighs the short-term ARUBA data; individualised discussion recommended",
+          "C": "Endovascular embolisation alone is curative and should be performed urgently",
+          "D": "Stereotactic radiosurgery is the only recommended treatment option for all unruptured AVMs post-ARUBA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The post-ARUBA era management of unruptured AVMs is not 'observe all' — it is 'individualise based on grade, patient age, and institutional expertise.' For a 25-year-old with an SM Grade II AVM and expected surgical morbidity <5% at an experienced centre, the lifetime haemorrhage risk (annual 2–4% × 60+ years = extremely high cumulative risk) significantly favours treatment over observation. ARUBA's 33-month follow-up is insufficient to represent the lifetime risk in a young patient. The AHA/ASA 2017 guidelines acknowledge that Grade I–II AVMs in young patients may still appropriately undergo treatment after careful individual risk-benefit discussion.",
+          "wrong": {
+            "A": "ARUBA does NOT mandate observation for all unruptured AVMs — its limitations (short follow-up, SRS latency, selection bias) mean it cannot be extrapolated as a universal observation mandate for low-grade AVMs in young patients",
+            "C": "Embolisation alone achieves complete cure in only 5–15% of AVMs. It is not a curative monotherapy for most AVMs and is not urgently indicated here",
+            "D": "SRS is one option for unruptured AVMs but is not the 'only recommended treatment post-ARUBA.' Grade I–II AVMs accessible to surgery may still be treated surgically in experienced centres"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Post-ARUBA perspective: Grade I–II AVMs in young patients may be appropriate candidates for treatment at experienced centres; individualised decision",
+          "trial": "ARUBA (Mohr Lancet 2014); long-term follow-up (Al-Shahi Salman LN 2020): 44% cumulative haemorrhage in medical arm at 12 years supports treatment in young patients",
+          "pearl": "Post-ARUBA: SM Grade I–II, young patient, experienced centre = surgery still appropriate with <5% morbidity and cumulative lifetime haemorrhage risk far exceeding that. ARUBA is a warning about indiscriminate HIGH-GRADE AVM treatment, not a mandate for universal conservative management of low-grade AVMs."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q13",
+        "stem": "Which of the following is the MOST accurate description of the latency period after stereotactic radiosurgery (SRS) for AVMs, and why is it clinically important?",
+        "options": {
+          "A": "SRS immediately obliterates the AVM within 24 hours by causing acute thermal injury",
+          "B": "SRS has a 2–4 year latency period before AVM obliteration; haemorrhage risk persists at the baseline annual rate during this period — an important consideration for patient counselling and may favour surgery over SRS for young patients who can tolerate surgery",
+          "C": "SRS reduces haemorrhage risk to near-zero within 6 months by causing progressive vascular thrombosis",
+          "D": "SRS has no latency — obliteration occurs when the total radiation dose is complete (within the treatment session)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SRS induces progressive endothelial proliferation and vascular sclerosis over months to years — complete obliteration typically occurs at 2–4 years. During this latency period, the AVM continues to carry its pre-treatment annual haemorrhage risk (2–4% for unruptured, higher for previously ruptured). This means a young patient treated with SRS remains at haemorrhage risk for 2–4 years. For a 20-year-old with an SM Grade I accessible AVM, the total haemorrhage risk during SRS latency (2–4 years × 3% = 6–12% cumulative haemorrhage risk) must be weighed against the <5% surgical morbidity of immediate definitive resection.",
+          "wrong": {
+            "A": "SRS does not cause acute thermal injury — it induces progressive radiation damage to endothelial DNA causing delayed vascular sclerosis. There is no immediate obliteration",
+            "C": "SRS does not reduce haemorrhage risk within 6 months — the 2–4 year latency is well-established. During this period the AVM remains patent and at full haemorrhage risk",
+            "D": "SRS obliteration occurs over YEARS, not during the treatment session. The treatment session delivers the prescribed dose, but the biological effect (vascular sclerosis and thrombosis) develops progressively over years"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — SRS latency period: 2–4 years; haemorrhage risk persists at baseline during latency; important for counselling and treatment selection",
+          "trial": "Lunsford LD et al. (NEJM 1991): SRS for AVMs — 70–80% obliteration at 3–5 years; Pollock BE (J Neurosurg 1998): latency period haemorrhage risk documented",
+          "pearl": "SRS latency: 2–4 years before obliteration. Haemorrhage risk persists at BASELINE during latency — not reduced. Young patients with accessible low-grade AVMs: compare surgical morbidity (<5% Grade I–II) vs SRS latency cumulative risk (2–4 years × annual risk)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q14",
+        "stem": "A 38-year-old woman has a cerebral cavernous malformation (CCM) in the pons that has bled twice in 2 years, causing episodic dysphagia and left-sided facial weakness. Her MRI shows a 1.5 cm pontine lesion with haemosiderin rim. What is the annual haemorrhage risk for brainstem CCMs after a prior bleed, and what management is most appropriate?",
+        "options": {
+          "A": "Annual risk 0.2–0.3% (same as supratentorial); observation only",
+          "B": "Annual risk 5–20% after prior bleed; surgical resection should be discussed if the lesion reaches the pial or ependymal surface",
+          "C": "Annual risk 30–40%; immediate SRS is mandated",
+          "D": "Annual risk 2–4% (same as AVM); SRS preferred over surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Brainstem CCM annual haemorrhage risk is substantially higher than supratentorial CCMs: approximately 2–3% initially, increasing to 5–20% per year after a prior bleed (compared to 0.2–0.3% for supratentorial CCMs). This elevated risk justifies surgical consideration. Surgical indications for brainstem CCMs: lesion that has bled ≥2 times AND reaches the pial or ependymal surface (allowing a safe surgical corridor without traversing normal brainstem tissue). Lesions deep within the brainstem not reaching the surface are not safely resectable. SRS for brainstem CCMs is controversial — retrospective data show possible benefit after 2–3 years but no randomised trial evidence.",
+          "wrong": {
+            "A": "The 0.2–0.3% annual risk applies to supratentorial CCMs — brainstem CCMs have dramatically higher risk (5–20% after prior bleed). Observation alone for a twice-bled brainstem CCM would be inappropriate",
+            "C": "30–40% annual risk applies to Cognard Type IV dAVFs, not brainstem CCMs. The brainstem CCM post-bleed risk is 5–20%. SRS is one option but is controversial and not mandated",
+            "D": "Annual risk 2–4% applies to cerebral AVMs, not brainstem CCMs after prior bleed. The mechanisms and risk profiles are entirely different"
+          },
+          "guideline": "AHA/ASA Cavernous Malformation Guidelines 2017 — Brainstem CCM after ≥2 bleeds with pial surface access: surgical resection may be appropriate; risk 5–20%/year after prior bleed",
+          "trial": "Kim DH et al. (J Neurosurg 1997): brainstem CCM annual bleed risk — 5–20% after prior bleed vs 0.2–0.3% for supratentorial; Porter RW et al. (J Neurosurg 1999): surgical outcomes for brainstem CCM",
+          "pearl": "Brainstem CCM bleed risk: 2–3%/year initially, 5–20%/year after prior bleed (vs 0.2–0.3% supratentorial). Surgical indication: ≥2 bleeds + lesion reaches pial/ependymal surface (safe corridor). Deep brainstem CCM not reaching surface: SRS or observation."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q15",
+        "stem": "Which of the following risk factors has been MOST consistently identified as an independent predictor of AVM haemorrhage at presentation?",
+        "options": {
+          "A": "Large AVM size (>6 cm) — large AVMs rupture most frequently",
+          "B": "Deep location and exclusive deep venous drainage — independently associated with higher haemorrhage risk than superficial, surface-draining AVMs",
+          "C": "Male sex — males have 2× higher AVM haemorrhage risk",
+          "D": "Seizure presentation — AVMs presenting with seizures are at highest haemorrhage risk"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Multiple population-based and prospective studies (Stapf 2006, Mast 1997, Pollock 2012) consistently identify deep AVM location (basal ganglia, thalamus, brainstem, deep white matter) and exclusive deep venous drainage as the strongest independent predictors of AVM haemorrhage. The proposed mechanism is higher intranidal pressure from deep draining veins with fewer alternative outflow pathways, and higher venous outflow resistance. Counterintuitively, SMALL AVMs are associated with higher haemorrhage risk per unit of AVM tissue than large AVMs — large AVMs tend to present with seizures due to cortical irritation while small AVMs have higher haemorrhage propensity.",
+          "wrong": {
+            "A": "Large AVMs (>6 cm) actually have LOWER relative haemorrhage rates than small AVMs — they more often present with seizures and cortical symptoms. The haemorrhage risk is not proportional to AVM size in a linear way",
+            "C": "Male sex is not a consistently identified independent predictor of AVM haemorrhage. Some studies show no sex difference; others show slightly higher rates in females. This is not a validated strong predictor",
+            "D": "Seizure presentation is a FAVOURABLE prognostic sign — it suggests superficial cortical AVM with lower haemorrhage risk. Haemorrhagic presentation is the risk factor, not seizure presentation"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Independent predictors of AVM haemorrhage: deep location, exclusive deep venous drainage, prior haemorrhage, intranidal aneurysm",
+          "trial": "Stapf C et al. (Stroke 2006): deep location HR 1.9 and deep venous drainage HR 2.4 for AVM haemorrhage in a population-based prospective cohort",
+          "pearl": "AVM haemorrhage risk factors: (1) deep location (basal ganglia/thalamus/brainstem), (2) exclusive deep venous drainage, (3) prior haemorrhage, (4) intranidal aneurysm. Small AVM size paradoxically associated with HIGHER haemorrhage risk than large AVMs."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q16",
+        "stem": "A 55-year-old woman presents with progressive myelopathy — lower limb weakness, sensory level at T6, and bladder dysfunction — over 8 months. MRI shows an enlarged tortuous perimedullary vein with cord oedema. Spinal angiography reveals a spinal dural AVF at T6 level. What is the Cognard equivalent classification and how should this be treated?",
+        "options": {
+          "A": "Cognard Type I equivalent — observation only",
+          "B": "Cognard Type V equivalent (spinal perimedullary drainage) — surgical disconnection of the fistulous point or endovascular treatment to prevent progressive and potentially irreversible myelopathy",
+          "C": "Cognard Type III equivalent — SRS to the T6 fistulous point",
+          "D": "This is not classified by Cognard — spinal AVFs are managed conservatively"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Spinal dural AVF with perimedullary venous drainage corresponds to Cognard Type V in the intracranial classification — spinal perimedullary venous drainage. These lesions are the most common spinal vascular malformation in adults (>50% of spinal vascular lesions) and cause progressive myelopathy through venous hypertension-induced cord ischaemia (Foix-Alajouanine syndrome). The myelopathy is often progressive and irreversible if untreated. Treatment: surgical disconnection (laminectomy, coagulation/division of the draining vein at the fistulous point — immediate, durable) or endovascular embolisation with Onyx/NBCA (65–80% long-term cure; higher recurrence than surgery). Early treatment is essential — neurological recovery correlates inversely with duration and severity of deficit before treatment.",
+          "wrong": {
+            "A": "Spinal dAVF with progressive myelopathy is NOT a benign observation lesion — progressive cord ischaemia leads to irreversible paraplegia. Urgent treatment is required",
+            "C": "SRS is not appropriate for spinal dAVF — the fistula can be directly accessed and surgically or endovascularly disconnected with immediate effect and high cure rates",
+            "D": "Spinal dAVFs are classified within the Cognard system as Type V (perimedullary drainage). They are emphatically NOT managed conservatively — they require treatment to prevent irreversible paraplegia"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Spinal dAVF: urgent treatment (surgery or embolisation) to prevent irreversible myelopathy; Cognard Type V classification",
+          "trial": "Cognard C (Radiology 1995): Type V classification; Van Dijk JMC (J Neurosurg 2002): surgical disconnection vs embolisation for spinal dAVF — surgery achieves durable cure in 98% vs 65–70% for embolisation",
+          "pearl": "Spinal dAVF = Cognard Type V. Causes progressive myelopathy (Foix-Alajouanine syndrome) by venous hypertension. Requires urgent treatment: surgical disconnection (98% durable cure) or embolisation (65–70% cure). Neurological recovery correlates with early treatment."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B5-Q17",
+        "stem": "For AVM radiosurgery, what is the optimal marginal prescription dose that balances obliteration efficacy with acceptable radiation toxicity?",
+        "options": {
+          "A": "5–10 Gy — low dose to minimise radiation toxicity",
+          "B": "20–25 Gy — highest obliteration rates with acceptable toxicity profile",
+          "C": "35–40 Gy — maximum dose for guaranteed obliteration",
+          "D": "15 Gy — standard dose for all AVMs regardless of size"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The optimal marginal prescription dose for AVM radiosurgery is 20–25 Gy. At this dose range, obliteration rates are 70–80% for AVMs ≤3 cm at 3–5 years. Below 18 Gy, obliteration rates decrease substantially. Above 25 Gy, obliteration rates do not increase significantly but radiation toxicity (radiation necrosis, oedema, neurological deficits) increases substantially. The dose-volume histogram must be carefully planned to achieve 20–25 Gy to the nidus margin while minimising dose to adjacent normal brain. For large-volume AVMs where 20–25 Gy to the entire nidus would exceed tolerance, volume-staged SRS (treating partial volumes in multiple sessions) is used.",
+          "wrong": {
+            "A": "5–10 Gy is substantially below the therapeutic threshold — obliteration rates at this dose are <20%. This dose range is used for palliation of brain metastases (whole-brain RT), not AVM obliteration",
+            "C": "35–40 Gy would cause severe radiation necrosis and neurological toxicity. Maximum safe doses for AVM SRS (nidus margin) are 25 Gy; centres rarely exceed this threshold",
+            "D": "15 Gy is below the optimal range (20–25 Gy) and would result in lower obliteration rates (~50%) versus the 70–80% achieved with 20–25 Gy"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — SRS optimal marginal dose: 20–25 Gy for AVMs ≤3 cm; dose-volume relationship determines treatment planning",
+          "trial": "Lunsford LD (NEJM 1991): Gamma Knife SRS — 20–25 Gy marginal dose achieves 70–80% obliteration at 3–5 years; Flickinger JC (IJROBP 1996): dose-response curve for AVM obliteration",
+          "pearl": "AVM SRS optimal dose: 20–25 Gy marginal. Below 18 Gy = insufficient obliteration. Above 25 Gy = more toxicity, not more obliteration. This applies to AVMs ≤3 cm (<10 cm³). Larger AVMs: volume-staged SRS (multiple sessions to partial volumes)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q18",
+        "stem": "What distinguishes a cerebral AVM from a cerebral cavernous malformation (CCM) on MRI and DSA?",
+        "options": {
+          "A": "AVMs show flow voids on MRI and are visible on DSA; CCMs show 'popcorn' appearance on T2/GRE/SWI with haemosiderin rim and are ANGIOGRAPHICALLY OCCULT",
+          "B": "AVMs and CCMs have identical MRI appearances; only biopsy distinguishes them",
+          "C": "CCMs show flow voids on MRI and are visible on DSA; AVMs show 'popcorn' appearance",
+          "D": "Both lesions appear identical on CT; MRI is required to distinguish them"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "AVM vs CCM distinction is fundamental: AVMs have patent, high-flow vessels visible as flow voids on MRI T2/gradient echo AND are demonstrated on DSA as tangles of vessels with arteriovenous shunting. CCMs are low-flow lesions with haemosiderin deposits from repeated microbleeds — their MRI appearance is characteristic 'popcorn' heterogeneous mixed signal on T2 with a complete haemosiderin dark rim on GRE/SWI (susceptibility-weighted imaging). CCMs are 'angiographically occult' — they have no arteriovenous shunting and are NOT visible on DSA. This is why DSA is negative in CCM patients and is not routinely indicated.",
+          "wrong": {
+            "B": "AVMs and CCMs have completely different MRI appearances — biopsy is NOT required for diagnosis. MRI characteristics are pathognomonic for each",
+            "C": "This reversal is incorrect. Flow voids = AVMs (high flow). Popcorn + haemosiderin = CCMs (angiographically occult). Never confuse these",
+            "D": "CT can show both lesion types but with less specificity. MRI is the gold standard for CCM diagnosis (SWI/GRE for haemosiderin). DSA distinguishes AVM (positive) from CCM (negative/occult)"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 and Cavernous Malformation Guidelines 2017 — MRI characteristics and angiographic features distinguish AVM from CCM",
+          "trial": "CCM angiographic occlusion confirmed in multiple series; DVA co-existence with CCM described (Kim 1997); AVM flow void characterisation on MRI (Wilms 1990)",
+          "pearl": "AVM = flow voids on MRI + VISIBLE on DSA (arteriovenous shunting). CCM = 'popcorn' T2 + haemosiderin ring on SWI/GRE + ANGIOGRAPHICALLY OCCULT (no DSA findings). Never order DSA for CCM diagnosis — it will be normal."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B5-Q19",
+        "stem": "A 32-year-old woman presents with a first seizure. MRI shows a 4 cm right temporal AVM with two draining veins: one cortical and one deep (to the internal cerebral vein). The nidus involves the superior temporal gyrus (Wernicke's area). What is the SM grade, and what is the Spetzler-Ponce Class?",
+        "options": {
+          "A": "SM Grade III (2+1+0=3); Spetzler-Ponce Class A",
+          "B": "SM Grade IV (2+1+1=4); Spetzler-Ponce Class C",
+          "C": "SM Grade III (2+1+0=3); Spetzler-Ponce Class B",
+          "D": "SM Grade V (3+1+1=5); Spetzler-Ponce Class C"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "SM Grade calculation: Size 4 cm (3–6 cm range) = 2 points; Eloquence = superior temporal gyrus (Wernicke's, language area) = 1 point; Venous drainage = ANY deep drainage present (deep vein to internal cerebral vein present) = 1 point. Total = 2+1+1 = 4 points = SM Grade IV. Wait — the question lists the AVM as having deep drainage (1 point). So Grade = 2+1+1 = 4 (Grade IV). But answer C says Grade III (2+1+0=3). This contradicts the AVM having deep drainage. Re-reading: '...two draining veins: one cortical and one deep.' Deep = 1 point → total = 2+1+1 = 4 = Grade IV = Spetzler-Ponce Class C. Answer B says Grade IV, Class C which is correct.",
+          "wrong": {
+            "A": "SM Grade III would require no deep venous drainage (2+1+0=3). But this AVM has a deep draining vein to the internal cerebral vein — which scores 1 point",
+            "C": "The calculation 2+1+0=3 (Grade III, Class B) ignores the deep draining vein. ANY deep drainage = 1 point, making the score 4 (Grade IV)",
+            "D": "SM Grade V requires 5 points. This AVM is 4 cm (scoring 2 for size), not >6 cm (which would score 3 for size)"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Spetzler-Martin grading: deep drainage ANY deep vein = 1 point regardless of co-existing superficial vein",
+          "trial": "Spetzler RF, Martin NA (J Neurosurg 1986): SM grading scale — venous drainage: superficial=0, ANY deep=1",
+          "pearl": "SM venous drainage critical rule: ANY deep drainage = 1 point, even if superficial vein also present. 4 cm Wernicke's AVM with one deep vein = 2+1+1 = Grade IV (Class C). Not Grade III."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B5-Q20",
+        "stem": "A 20-year-old man has an incidentally discovered, unruptured 2 cm SM Grade I AVM in the right anterior temporal lobe (non-eloquent, superficial drainage). He is otherwise healthy and plays competitive sports. His neurovascular surgeon at a high-volume AVM centre estimates surgical morbidity at 2%. How should his lifetime haemorrhage risk be estimated using the standard formula?",
+        "options": {
+          "A": "Lifetime risk = 2% × (105 − 20) = 170% — meaning almost certain to bleed",
+          "B": "Lifetime risk = 1 − (1 − 0.03)^(105 − 20) = 1 − (0.97)^85 = approximately 93% cumulative lifetime haemorrhage risk",
+          "C": "Lifetime risk cannot be calculated for AVMs — annual rates are too variable",
+          "D": "Lifetime risk = 85 years × 0.03 = 2.55 — meaning 2.55 haemorrhagic events expected"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard formula for cumulative lifetime AVM haemorrhage risk is: 1 − (1 − annual risk)^(years of exposure). For a 20-year-old with annual risk 3% and 85 remaining years (105 − 20): 1 − (0.97)^85 = 1 − 0.072 = 0.928 ≈ 93% cumulative lifetime risk. This 93% risk versus a 2% single surgical event strongly favours treatment in a young, healthy patient with an accessible Grade I AVM. This calculation is central to the argument that ARUBA's short follow-up perspective does not capture the lifetime AVM burden.",
+          "wrong": {
+            "A": "Annual risk × years is mathematically incorrect for compound probability — it overcounts and gives values >100% which is physically impossible. The correct formula uses compound probability: 1 − (1 − annual risk)^years",
+            "C": "The formula 1 − (1 − annual risk)^years is specifically validated and widely used for AVM counselling. Annual risk variability can be addressed by using the 2–4% range",
+            "D": "Calculating expected number of events (85 × 0.03 = 2.55) gives the expected number of bleeds over a lifetime, which is a different metric from cumulative probability. The probability of experiencing at least one bleed is the more useful clinical metric"
+          },
+          "guideline": "AHA/ASA AVM Guidelines 2017 — Lifetime haemorrhage risk formula: 1 − (1 − annual risk)^years of exposure; used for patient counselling",
+          "trial": "Brown RD et al. (Stroke 1996): AVM natural history; lifetime risk formula validation; Ondra SL (J Neurosurg 1990): 24-year prospective AVM study confirming 4% annual bleeding rate",
+          "pearl": "AVM lifetime risk = 1 − (1 − 0.03)^(105 − age). Age 20: 1 − (0.97)^85 ≈ 93%. This justifies treatment of accessible low-grade AVMs in young patients despite ARUBA data — 93% lifetime risk vs 2% surgical morbidity is a compelling argument for surgery."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

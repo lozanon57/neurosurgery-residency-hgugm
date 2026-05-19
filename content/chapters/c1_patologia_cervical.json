@@ -1,0 +1,627 @@
+{
+  "id": "C1",
+  "title": "Cervical Spine Pathology",
+  "subtitle": "Block C — Cervical Myelopathy, Radiculopathy, and Surgical Approaches",
+  "block": "C",
+  "block_name": "Spinal Neurosurgery",
+  "level": "R2-3",
+  "reading_time_min": 42,
+  "guidelines_version": "AOSpine Clinical Practice Guidelines 2017 · CNS/AANS Cervical Spondylotic Myelopathy Guidelines 2017 · EANS Spine Guidelines 2022",
+  "textbook_refs": [
+    "Riew KD et al. AOSpine Clinical Practice Guidelines for Cervical Spondylotic Myelopathy. Global Spine J 2017",
+    "Fehlings MG et al. Efficacy and Safety of Surgical Decompression in Patients with Cervical Spondylotic Myelopathy (AOSpine North America). J Bone Joint Surg 2013",
+    "Yoshimatsu H et al. Conservative Treatment of Cervical Spondylotic Myelopathy. Spine 2001",
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)"
+  ],
+  "learning_objectives": [
+    "Classify cervical myelopathy severity using the modified Japanese Orthopaedic Association (mJOA) scale and identify surgical candidates",
+    "Differentiate between anterior (ACDF, ACCF) and posterior (laminectomy, laminoplasty, laminectomy + fusion) surgical approaches based on pathology, alignment, and number of levels",
+    "Apply the AOSpine Myelopathy Research Network clinical practice guidelines for timing and surgical decision-making in cervical spondylotic myelopathy (CSM)",
+    "Recognise the clinical presentation and imaging features of cervical cord central cord syndrome and manage appropriately",
+    "Identify the relevant anatomy for C5 palsy, adjacent segment disease, and post-laminectomy kyphosis as complications of cervical spine surgery",
+    "Manage acute traumatic cervical fractures using the AOSpine Subaxial Classification System and the Denis classification for odontoid fractures"
+  ],
+  "sections": [
+    {
+      "id": "C1-S1",
+      "title": "Cervical Spondylotic Myelopathy — Diagnosis and Classification",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cervical spondylotic myelopathy (CSM) is the most common cause of spinal cord dysfunction in adults over 55 years worldwide. The pathophysiology involves progressive compressive injury of the cervical spinal cord from degenerative changes: disc herniation, uncovertebral joint hypertrophy, facet joint hypertrophy, ligamentum flavum buckling, and ossification of the posterior longitudinal ligament (OPLL). The natural history is variable: approximately one-third of patients remain stable, one-third improve spontaneously, and one-third deteriorate over time. However, neurological deterioration is unpredictable and can occur suddenly, justifying early surgical evaluation in symptomatic patients. Clinical presentation includes: upper extremity symptoms (clumsiness, loss of fine motor function, hand intrinsic muscle wasting, Lhermitte phenomenon — electric shock sensation down the spine with neck flexion), lower extremity symptoms (spastic gait, balance difficulty, scissor gait, hyperreflexia, Babinski sign, clonus), and bladder/bowel dysfunction (usually late). The **modified Japanese Orthopaedic Association (mJOA) scale** is the standard outcome measure: 18-point scale encompassing upper extremity motor function (0–5), lower extremity motor function (0–7), upper extremity sensory function (0–3), and lower extremity and trunk sensory function (0–3). Severity classification: mJOA 15–18 = mild; 12–14 = moderate; <12 = severe CSM. Hoffman's sign (thumb/index flexion with flicking of the middle finger) and Lhermitte phenomenon are key clinical signs of cervical myelopathy."
+        },
+        {
+          "type": "table",
+          "title": "mJOA Scale — Cervical Myelopathy Severity",
+          "headers": ["Domain", "Maximum Points", "Severity Classification"],
+          "rows": [
+            ["Upper extremity motor function (writing, chopsticks)", "5", "mJOA 15–18 = Mild CSM"],
+            ["Lower extremity motor function (gait, stairs)", "7", "mJOA 12–14 = Moderate CSM"],
+            ["Upper extremity sensory function", "3", "mJOA <12 = Severe CSM"],
+            ["Lower extremity/trunk sensory function", "3", "Total maximum = 18 points"],
+            ["Total", "18", "Surgery indicated for moderate-severe (mJOA ≤14)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Hoffman's Sign and Cervical Myelopathy",
+          "content": "Hoffman's sign is elicited by flicking the tip of the middle finger — a positive sign is thumb and index finger flexion. It is a sign of corticospinal tract dysfunction (upper motor neuron). Sensitivity 58%, specificity 78% for cervical myelopathy. Bilaterally positive Hoffman's sign in a patient with gait instability and hand clumsiness warrants urgent cervical MRI to exclude significant cord compression."
+        }
+      ]
+    },
+    {
+      "id": "C1-S2",
+      "title": "Imaging and AOSpine Surgical Decision Guidelines",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "MRI is the primary imaging modality for CSM: T2 signal hyperintensity within the cord at the compression level indicates myelopathic change (sensitivity for clinical myelopathy 65–75%). T1 hypointensity at the same level indicates more severe, potentially irreversible injury. Dynamic MRI (flexion-extension) evaluates cord compression with neck movement. CT myelography is used when MRI is contraindicated (pacemaker, claustrophobia) or when bony anatomy assessment is critical (OPLL extent, foraminal stenosis). **AOSpine Clinical Practice Guidelines (Fehlings 2017)**: (1) Mild CSM (mJOA 15–18): structured rehabilitation for 3–6 months; surgery if deterioration or if lifestyle significantly affected; (2) Moderate CSM (mJOA 12–14): surgical decompression recommended — surgery provides greater functional improvement than nonsurgical management in moderate CSM; (3) Severe CSM (mJOA <12): urgent surgical decompression recommended. The evidence base: **AOSpine North America** (Fehlings, J Bone Joint Surg 2013) prospective multicentre cohort — 279 patients undergoing surgical decompression for CSM — 87% achieved meaningful clinical improvement (≥1 mJOA point) at 12 months. **OPLL (Ossification of the Posterior Longitudinal Ligament)**: common in East Asian populations, can cause severe CSM — surgical decompression is required but carries higher risk of post-operative C5 palsy and dural tear from OPLL adherence to dura."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — MRI T2 Cord Signal Does NOT Preclude Surgery",
+          "content": "T2 cord signal hyperintensity on MRI indicates spinal cord injury but does NOT preclude surgical decompression. Even patients with long-standing cord signal change can improve significantly after decompression. T1 hypointensity at the same level (suggesting myelomalacia/necrosis) is associated with less post-operative improvement, but this is not an absolute contraindication to surgery. Never advise a symptomatic myelopathy patient to 'avoid surgery because of cord signal' without proper neurosurgical evaluation."
+        }
+      ]
+    },
+    {
+      "id": "C1-S3",
+      "title": "Anterior Surgical Approaches: ACDF and ACCF",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Anterior cervical discectomy and fusion (ACDF)** is the standard anterior approach for 1–3 level cervical pathology. Via a right-sided (or left-sided) retropharyngeal dissection, the disc space is accessed, the disc and posterior osteophytes are removed, and a cage (PEEK or titanium) with bone graft is implanted, followed by anterior cervical plate fixation. ACDF provides excellent decompression of ventral cord/nerve root compression and restoration of disc height and segmental lordosis. Complication rates: dysphagia (30% early, <5% persistent), recurrent laryngeal nerve palsy (left-sided approaches — higher risk), Horner syndrome (sympathetic chain on the longus colli), C5 palsy (deltoid weakness, 2–5%, mechanism: root tethering during decompression). **Anterior cervical corpectomy and fusion (ACCF)** is used when the compression is primarily at the posterior vertebral body level (OPLL behind the vertebral body, multilevel disc disease with a critical retrovertebral component). One or more vertebral bodies are removed, and a long cage is placed spanning the corpectomy defect with anterior plating. ACCF carries higher pseudarthrosis rates (10–15% for 3-level corpectomy vs 2–5% for ACDF) and higher surgical risk than ACDF. **Motion preservation**: cervical disc arthroplasty (CDA) is an alternative to ACDF for single or two-level degenerative disc disease in the absence of significant instability or OPLL — preserves segmental motion and reduces adjacent segment disease (ASD) incidence, though long-term superiority over ACDF remains debated."
+        },
+        {
+          "type": "table",
+          "title": "Anterior vs Posterior Cervical Surgery — Indications and Selection",
+          "headers": ["Approach", "Best Indication", "Advantages", "Disadvantages/Risks"],
+          "rows": [
+            ["ACDF (1–3 levels)", "Ventral compression, disc herniation, kyphosis", "Direct decompression, restores lordosis", "Dysphagia, RLN palsy, pseudarthrosis, ASD"],
+            ["ACCF (corpectomy)", "OPLL, multi-level retrovertebral compression", "Wide anterior decompression", "High pseudarthrosis rate, longer recovery"],
+            ["CDA (arthroplasty)", "Single/double-level DDD, no instability/OPLL", "Motion preservation, less ASD", "Contraindicated: instability, OPLL, facet arthrosis"],
+            ["Laminectomy alone", "Lordotic alignment, multi-level stenosis (>3 levels)", "Posterior decompression", "Risk of post-laminectomy kyphosis"],
+            ["Laminoplasty", "Multilevel OPLL, CSM in lordotic spine, ≥3 levels", "Preserves posterior elements, no fusion", "Limited in kyphotic spine; less decompression of ventral lesions"],
+            ["Laminectomy + fusion", "Multilevel stenosis + instability or kyphosis risk", "Stable decompression", "Fusion morbidity, adjacent segment stress"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1-S4",
+      "title": "Posterior Cervical Surgery: Laminoplasty and Laminectomy-Fusion",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cervical laminoplasty** (Hirabayashi open-door, or French door/bilateral open-door technique) expands the cervical spinal canal by hinging the laminae and holding them open with spacers, preserving the posterior elements without fusion. The cord decompresses as it moves posteriorly into the enlarged canal. **Key indications for laminoplasty over ACDF/corpectomy**: (1) multilevel CSM (≥3 levels) with a lordotic or neutral cervical alignment; (2) multilevel OPLL in lordosis (cord floats posteriorly after laminoplasty); (3) congenital cervical stenosis. **Critical contraindication for laminoplasty**: **cervical kyphosis** — if the cervical spine is kyphotic, the spinal cord is draped over the apex of the kyphosis and will NOT migrate posteriorly after posterior decompression. Posterior surgery in kyphosis can worsen cord compression paradoxically. Laminoplasty should only be performed in neutral or lordotic alignment. **Laminectomy + fusion** combines complete lamina removal with posterior instrumented fusion (pedicle screws or lateral mass screws + rods). Indications: multilevel stenosis + cervical instability (spondylolisthesis, rheumatoid atlantoaxial subluxation), failed laminoplasty, post-traumatic kyphosis. **Adjacent segment disease (ASD)** is a recognised long-term complication of cervical fusion — accelerated degeneration at levels adjacent to a fused segment, requiring reoperation in 6–16% of ACDF patients at 10 years. **C5 palsy** (deltoid weakness, shoulder abduction deficit) occurs in 2–7% of posterior cervical decompression cases and 2–5% of ACDF — mechanism involves tethering and traction of the C5 nerve root as it shortens following cord posterior migration. Usually resolves spontaneously within 3–6 months in 85–90% of cases."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Choosing Posterior Approach: The Alignment Principle",
+          "content": "The fundamental selection rule for posterior cervical surgery: confirm LORDOTIC alignment before choosing laminoplasty. If the cervical sagittal profile is kyphotic, posterior decompression alone is insufficient — the cord cannot migrate posteriorly and tension on the cord increases. For kyphotic CSM, anterior correction (ACDF/ACCF with restoration of lordosis) is required first, or posterior laminectomy + fusion with lordotic correction is performed. Never perform laminoplasty alone on a kyphotic cervical spine."
+        }
+      ]
+    },
+    {
+      "id": "C1-S5",
+      "title": "Cervical Radiculopathy — Soft vs Hard Disc, Foraminal Stenosis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cervical radiculopathy** presents with dermatomal arm pain, paresthesiae, and weakness following the distribution of a compressed nerve root. The most common levels affected are C5-6 (C6 radiculopathy — thumb and index finger paresthesiae, biceps weakness, reduced biceps reflex) and C6-7 (C7 radiculopathy — middle finger paresthesiae, triceps weakness, reduced triceps reflex). **Natural history**: 80–90% of isolated cervical radiculopathy resolves with conservative management (NSAIDs, physiotherapy, cervical traction) within 4–6 weeks. Surgery is indicated for: failure of conservative management after 6–12 weeks, progressive neurological deficit, intractable pain, or acute large disc herniation with myelopathy. **Soft disc herniation** (acute disc hernia, typically in younger patients <50 years) is best treated with ACDF (anterior approach decompresses the herniated disc directly). **Hard disc** (osteophytic foraminal stenosis, hypertrophied uncovertebral joint, spondylotic foraminal stenosis) may be treated anteriorly (ACDF with uncovertebral resection) or posteriorly (posterior foraminotomy — keyhole approach). **Posterior foraminotomy** (keyhole foraminotomy) is a minimally invasive posterior approach to decompress the lateral recess and neural foramen from behind — excellent for lateral disc herniation or foraminal stenosis without central canal involvement, preserving motion (no fusion required)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Cervical Radiculopathy Levels and Clinical Signs",
+          "content": "C5 root (C4-5 disc): deltoid weakness, shoulder abduction deficit, reduced biceps reflex. C6 root (C5-6 disc): biceps weakness, thumb/index paresthesiae, reduced biceps and brachioradialis reflex. C7 root (C6-7 disc): triceps weakness, middle finger paresthesiae, reduced triceps reflex. C8 root (C7-T1 disc): intrinsic hand muscle weakness (ring/little finger), reduced finger flexors. The disc level affected is one level ABOVE the root number (e.g., C5-6 disc compresses C6 root)."
+        }
+      ]
+    },
+    {
+      "id": "C1-S6",
+      "title": "Central Cord Syndrome and Acute Cervical Cord Injury",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Central cord syndrome (CCS)** is the most common incomplete spinal cord injury, accounting for 50% of all incomplete cervical SCI. It occurs predominantly in elderly patients with pre-existing cervical spondylosis following a **hyperextension mechanism** (e.g., fall onto the face, rear-end motor vehicle collision) — even without fracture. The pathophysiology involves compression of the central cord, which contains fibres for upper extremity function (medially located in the corticospinal tract) disproportionate to lower extremity fibres (laterally located). **Classic presentation**: disproportionately greater upper extremity weakness than lower extremity weakness (hands worse than arms, arms worse than legs), bladder dysfunction (urinary retention), and variable sensory deficit. The **ASIA Impairment Scale** (AIS) classifies spinal cord injury: A=complete (no motor/sensory below lesion), B=sensory only below, C=more than half motor below grade 3, D=more than half motor grade 3 or better, E=normal. CCS is typically AIS D. **Surgical timing**: historically controversial, but the **AOSpine timing study** (Fehlings 2012) demonstrated that surgery within 24 hours of injury for incomplete cervical SCI is associated with significantly better neurological recovery at 6 months compared to delayed surgery (>24 hours): OR 2.8 for AIS grade improvement. Current AOSpine guidelines (2017) recommend early decompression (within 24 hours) for acute cervical SCI — Class I evidence for incomplete injuries, weaker but supportive for complete injuries."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — CCS in Elderly Patients Without Fracture",
+          "content": "A 70-year-old man falls and strikes his face. He has weak hands bilaterally (can barely grip), walks with assistance, and has urinary retention. X-ray and CT cervical spine show no fracture. This is classic central cord syndrome from hyperextension injury on a spondylotic cervical spine. MRI should be performed urgently — it will show cord contusion/haemorrhage and underlying multilevel spondylosis. Surgical decompression should be considered within 24 hours based on AOSpine guidelines."
+        }
+      ]
+    },
+    {
+      "id": "C1-S7",
+      "title": "Odontoid Fractures and Atlantoaxial Instability",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Odontoid (dens) fractures** are classified by the **Anderson-D'Alonzo system**: Type I (avulsion of odontoid tip, stable, conservative treatment); Type II (fracture at base of dens — junction with C2 body, HIGH nonunion risk, often requires surgery); Type III (fracture extends into C2 body, generally fuses with collar/halo immobilisation). **Type II odontoid fractures** have a nonunion rate of 20–40% with conservative management alone, rising to 70–80% in patients >50 years or with displacement >5 mm. Surgical options for Type II: (1) anterior odontoid screw fixation (single or dual screw, preserves atlantoaxial rotation — ideal for fresh non-comminuted fractures with intact posterior ligaments); (2) posterior C1-C2 fusion (Harms technique: C1 lateral mass + C2 pedicle screws with rod — sacrifices C1-C2 rotation, but highly reliable fusion — indicated for comminuted fractures, anterior approach failure, or significant displacement). **Rheumatoid atlantoaxial subluxation (AAS)**: rheumatoid arthritis destroys the transverse ligament and C1-C2 facet joints, causing anterior atlantoaxial subluxation — the atlanto-dens interval (ADI) on lateral X-ray or CT. Normal ADI: adults ≤3 mm (≤5 mm in children). ADI >3.5 mm = ligamentous injury; >10 mm = risk of cord compression. Posterior C1-C2 fusion (Harms or Gallie/Brooks wiring) is indicated for symptomatic AAS or cervical cord compression from C1-C2 instability."
+        },
+        {
+          "type": "table",
+          "title": "Anderson-D'Alonzo Odontoid Fracture Classification and Management",
+          "headers": ["Type", "Description", "Nonunion Risk", "Treatment"],
+          "rows": [
+            ["Type I", "Avulsion of odontoid tip (rare)", "Very low", "Cervical collar 6–12 weeks"],
+            ["Type II", "Fracture at dens-body junction (MOST COMMON)", "20–40% (up to 80% if >50 yo or displaced >5 mm)", "Surgery: odontoid screw OR posterior C1-C2 fusion"],
+            ["Type III", "Fracture through C2 body", "Low", "Halo vest or rigid collar 8–12 weeks"],
+            ["Type IIA", "Comminuted Type II (Grauer modification)", "Very high", "Posterior C1-C2 fusion preferred (not odontoid screw)"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of cervical spine pathology with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "C1-Q1",
+        "stem": "A 62-year-old man presents with 8 months of progressive difficulty writing, clumsy hands, and unsteady gait. Examination shows bilateral hyperreflexia, positive Hoffmann sign bilaterally, and a wide-based spastic gait. mJOA score is 13. MRI shows multilevel cervical stenosis with cord compression from C3 to C6 and T2 cord signal change at C4-5. What does the mJOA score indicate and what is the appropriate management?",
+        "options": {
+          "A": "mJOA 13 = mild CSM; conservative management for 12 months before considering surgery",
+          "B": "mJOA 13 = moderate CSM; surgical decompression is recommended",
+          "C": "mJOA 13 = severe CSM; emergency surgical decompression required within 24 hours",
+          "D": "mJOA 13 = moderate CSM; T2 cord signal change is a contraindication to surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "mJOA 12–14 = moderate CSM. AOSpine Clinical Practice Guidelines (2017) recommend surgical decompression for moderate CSM — surgery provides greater functional improvement than nonsurgical management in this severity group. The AOSpine North America prospective study (Fehlings, J Bone Joint Surg 2013) showed 87% of patients achieved clinically meaningful improvement after surgery. T2 cord signal change does NOT preclude surgery.",
+          "wrong": {
+            "A": "mJOA 13 is MODERATE (12–14), not mild (15–18). Waiting 12 months for moderate CSM with progressive symptoms is inappropriate — neurological deterioration may become irreversible",
+            "C": "mJOA 13 is moderate, not severe. Severe CSM is mJOA <12. Urgent same-day decompression is indicated for acute cord injury/myelopathic crisis, not for chronic progressive moderate CSM",
+            "D": "T2 cord signal change is NOT a contraindication to surgery — it indicates existing cord injury but does not predict inability to improve. Even patients with cord signal change show significant improvement after decompression"
+          },
+          "guideline": "AOSpine Clinical Practice Guidelines for CSM (Fehlings 2017) — Moderate CSM (mJOA 12–14): surgical decompression recommended",
+          "trial": "AOSpine North America (Fehlings J Bone Joint Surg 2013): 279 CSM patients — 87% meaningful improvement at 12 months; moderate CSM gained most from surgery",
+          "pearl": "mJOA: mild=15–18, moderate=12–14, severe=<12. AOSpine: surgical decompression recommended for MODERATE and SEVERE CSM. T2 cord signal change ≠ contraindication to surgery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q2",
+        "stem": "A 58-year-old woman with mJOA 12 cervical spondylotic myelopathy is found to have neutral-to-kyphotic cervical alignment on lateral X-ray and MRI, with three-level compression from C4 to C7. Which surgical approach is MOST appropriate?",
+        "options": {
+          "A": "Cervical laminoplasty alone — optimal for multilevel disease",
+          "B": "Anterior cervical discectomy and fusion (ACDF) or anterior cervical corpectomy with fusion to restore lordosis, or posterior laminectomy + fusion with lordotic correction",
+          "C": "Posterior laminoplasty alone — alignment is not a contraindication",
+          "D": "Conservative management for 6 months — multilevel disease is not a surgical indication"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The fundamental principle for posterior cervical surgery selection: laminoplasty requires a lordotic cervical spine. In a kyphotic cervical spine, the cord is draped over the apex of the kyphosis — posterior decompression does not allow the cord to migrate posteriorly, and the cord may remain compressed or worsen. Options for kyphotic multilevel CSM: (1) anterior approach with lordosis restoration (ACDF/ACCF), or (2) posterior laminectomy + fusion with posterior instrumentation achieving lordotic correction (pedicle screws or lateral mass screws at multiple levels with lordotic rod contouring).",
+          "wrong": {
+            "A": "Laminoplasty alone is CONTRAINDICATED in a kyphotic cervical spine — the critical selection criterion for laminoplasty is a lordotic or neutral alignment",
+            "C": "Kyphotic alignment IS a contraindication to laminoplasty alone. This answer is incorrect",
+            "D": "Severe CSM (mJOA 12) warrants surgical treatment, not 6 more months of conservative management. mJOA ≤12 = severe, and surgical decompression is recommended by AOSpine guidelines"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Posterior laminoplasty contraindicated in kyphotic alignment; anterior approach or posterior laminectomy+fusion with lordotic correction required",
+          "trial": "Fehlings MG et al. (J Bone Joint Surg 2013): alignment-dependent surgical selection; kyphosis and laminoplasty outcomes: Suda K (Spine 2003) — kyphosis >13° predicts poor laminoplasty outcome",
+          "pearl": "LAMINOPLASTY = LORDOSIS required. Kyphotic cervical spine = anterior approach (ACDF/ACCF) or posterior laminectomy+fusion with lordotic correction. NEVER laminoplasty alone in kyphosis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q3",
+        "stem": "A 45-year-old man develops acute right arm pain radiating to the thumb and index finger with weakness of the biceps (4/5) following 2 days of neck pain. MRI shows a right C5-6 soft disc herniation with C6 root compression. He has no myelopathy. What is the FIRST-LINE management?",
+        "options": {
+          "A": "Emergency ACDF at C5-6 to prevent permanent biceps paralysis",
+          "B": "6–12 weeks of conservative management (NSAIDs, cervical physiotherapy, consider cervical epidural steroid injection); surgery if no improvement or progressive deficit",
+          "C": "Cervical laminoplasty covering C4 to C7",
+          "D": "Posterior foraminotomy at C5-6 as it preserves motion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Isolated cervical radiculopathy from C5-6 soft disc herniation in a 45-year-old without myelopathy has an excellent natural history — 80–90% resolve with conservative management within 4–6 weeks. First-line: NSAIDs, physiotherapy, and consideration of cervical epidural steroid injection for resistant cases. Surgery is indicated if: (1) failure after 6–12 weeks, (2) progressive neurological deficit, (3) intractable pain, or (4) biceps weakness progresses to <3/5 or complete paralysis.",
+          "wrong": {
+            "A": "Emergency ACDF is not indicated for a first presentation of radiculopathy with partial (4/5) biceps weakness without myelopathy. The natural history is excellent with conservative treatment",
+            "C": "Laminoplasty is for multilevel cervical myelopathy in a lordotic spine — completely inappropriate for single-level radiculopathy without myelopathy",
+            "D": "Posterior foraminotomy is an excellent surgical option but is not first-line — conservative management comes first. Surgery is reserved for failed conservative treatment"
+          },
+          "guideline": "AOSpine CSM/Radiculopathy Guidelines 2017 — Cervical radiculopathy without myelopathy: conservative management 6–12 weeks first; surgery for failure or progressive deficit",
+          "trial": "Persson LCG et al. (Spine 1997): cervical radiculopathy randomised to surgery vs conservative — no difference at 12 months; surgery faster symptom resolution but equivalent final outcomes; Radhakrishnan K (Brain 1994): 80–90% natural history resolution",
+          "pearl": "Isolated cervical radiculopathy (no myelopathy) = conservative treatment first (6–12 weeks). Surgery indicated: failed conservative treatment, progressive deficit, intractable pain. Biceps 4/5 alone with 2 days of symptoms = conservative management, not emergency surgery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q4",
+        "stem": "A 74-year-old man with known cervical spondylosis falls while stepping off a kerb, striking his chin. He presents with bilateral hand weakness (grip 3/5 bilaterally) worse than leg weakness (4/5 bilateral hip flexors), urinary retention requiring catheterisation, and preserved perineal sensation. Cervical CT shows no fracture. What is the diagnosis and appropriate management?",
+        "options": {
+          "A": "Complete spinal cord injury (ASIA A) — palliative care and bladder management",
+          "B": "Central cord syndrome (ASIA C or D) from hyperextension injury; urgent MRI and early surgical decompression within 24 hours should be considered",
+          "C": "Brown-Séquard syndrome — half-cord injury from fracture dislocation",
+          "D": "Anterior cord syndrome — anterior spinal artery occlusion from cervical flexion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Classic central cord syndrome (CCS): elderly patient with spondylosis, hyperextension mechanism (chin strike), disproportionate upper extremity weakness > lower extremity, urinary retention, preserved some sensory function. This is the most common incomplete cervical SCI. ASIA C or D (incomplete). Management: urgent MRI to confirm cord injury and underlying compression, then early surgical decompression within 24 hours based on AOSpine timing data (Fehlings 2012 — surgery within 24h associated with OR 2.8 for neurological improvement).",
+          "wrong": {
+            "A": "ASIA A (complete SCI) requires complete loss of motor AND sensory function below the injury level. This patient has preserved perineal sensation and some leg function — this is an incomplete injury. Palliative care is inappropriate",
+            "C": "Brown-Séquard syndrome presents with ipsilateral motor loss and contralateral pain/temperature loss (cord hemisection). This patient has bilateral symmetric deficits — not Brown-Séquard",
+            "D": "Anterior cord syndrome (anterior spinal artery occlusion) presents with preserved posterior column function (vibration and proprioception) but loss of motor and pain/temperature below the lesion. Urinary retention can occur. However, the mechanism (hyperextension, elderly spondylosis patient) and pattern (hands worse than legs) are characteristic of CCS, not anterior cord syndrome"
+          },
+          "guideline": "AOSpine Cervical SCI Guidelines 2017 — Early decompression within 24 hours recommended for incomplete cervical SCI (Class I evidence for functional improvement)",
+          "trial": "Fehlings MG et al. AOSpine timing study (Neurosurgery 2012): surgery within 24h vs >24h for cervical SCI — OR 2.8 for AIS grade improvement with early surgery",
+          "pearl": "Central cord syndrome: hands worse than legs + elderly + hyperextension (no fracture needed) + urinary retention. Most common incomplete SCI. Early surgery (<24h) improves outcomes (OR 2.8 for AIS improvement). Always get MRI urgently."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q5",
+        "stem": "An odontoid fracture classification is crucial for management. A 65-year-old man is in a motor vehicle accident and presents with neck pain. CT shows a fracture through the base of the dens at its junction with the C2 body, with 4 mm anterior displacement. What is the Anderson-D'Alonzo type, and what is the recommended management?",
+        "options": {
+          "A": "Type I fracture — cervical collar for 6 weeks",
+          "B": "Type II fracture — surgical fixation (anterior odontoid screw or posterior C1-C2 fusion) given high nonunion risk in a patient >50 years with >5 mm displacement",
+          "C": "Type III fracture — halo vest immobilisation for 12 weeks",
+          "D": "Type II fracture — conservative management with hard collar; surgical risks outweigh benefits"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Type II odontoid fracture (fracture at the dens-body junction) with 4 mm displacement in a 65-year-old. Nonunion risk: age >50 years and displacement >4–5 mm are both independent risk factors for nonunion (overall risk 20–40%, up to 70–80% in elderly with displacement). Surgical treatment is recommended. Options: anterior odontoid screw (preserves C1-C2 rotation, requires non-comminuted fracture with intact transverse ligament) or posterior C1-C2 fusion (Harms technique, sacrifices rotation but highly reliable). Given age >50 and displacement, most surgeons would recommend posterior C1-C2 fusion.",
+          "wrong": {
+            "A": "Type I is a tip avulsion fracture — very rare, stable, treated with cervical collar. This fracture is at the dens-body junction = Type II",
+            "C": "Type III fractures extend into the C2 body and are generally treated conservatively with halo or rigid collar. This fracture is at the dens-body junction = Type II, not Type III",
+            "D": "Conservative management for a Type II fracture in a 65-year-old with 4 mm displacement carries 70–80% nonunion risk — this is NOT appropriate. The surgical risks of C1-C2 fusion in an otherwise healthy 65-year-old are considerably lower than the risk of nonunion and chronic instability"
+          },
+          "guideline": "AOSpine Odontoid Fracture Guidelines — Type II with age >50 or displacement >4 mm: surgical fixation recommended due to high nonunion risk",
+          "trial": "Grauer JN et al. (Spine 2005): Type II odontoid fractures in elderly — nonunion 60–80% with conservative treatment; Apfelbaum RI (J Neurosurg 2000): anterior odontoid screw series",
+          "pearl": "Odontoid Types: I=tip avulsion (rare, collar), II=dens-body junction (high nonunion risk — SURGERY), III=C2 body extension (halo/collar). Type II nonunion risk: 20–40% overall, 70–80% if age >50 or displacement >5 mm. Surgical options: odontoid screw (preserves rotation) or C1-C2 fusion (more reliable)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q6",
+        "stem": "Following a two-level anterior cervical discectomy and fusion (ACDF) at C5-6 and C6-7, a 48-year-old patient complains the next morning of new right shoulder pain and inability to abduct the right shoulder against resistance (deltoid weakness 2/5) despite having no preoperative shoulder weakness. Right biceps reflex is reduced. What is this complication and what is the prognosis?",
+        "options": {
+          "A": "C6 radiculopathy from screw malposition — urgent CT and screw revision required",
+          "B": "C5 palsy — post-decompression nerve root dysfunction; usually resolves spontaneously within 3–6 months in 85–90% of cases; conservative management with physiotherapy",
+          "C": "Horner syndrome from sympathetic chain injury — permanent complication requiring specialist review",
+          "D": "Vertebral artery injury — urgent CT angiography required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "C5 palsy is a well-recognised complication of both anterior and posterior cervical decompression, occurring in 2–7% of cases. It presents as new post-operative deltoid weakness (C5 root — shoulder abduction), with or without C5 dermatomal sensory loss. The mechanism is tethering of the C5 nerve root as it shortens following cord decompression and posterior cord migration. Biceps reflex reduction is consistent (C5 also contributes to biceps reflex). Prognosis: 85–90% recover completely within 3–6 months with conservative management (physiotherapy, shoulder protection). Surgical revision is NOT indicated for C5 palsy in the absence of imaging evidence of root compression or haematoma.",
+          "wrong": {
+            "A": "Screw malposition causing C6 radiculopathy would affect the middle finger (C7 dermatomal distribution) or biceps (C6), not specifically deltoid-dominant weakness. C5 palsy specifically affects deltoid and supraspinatus (shoulder abduction)",
+            "C": "Horner syndrome (ptosis, miosis, anhidrosis) results from injury to the cervical sympathetic chain during anterior approach surgery — a different clinical picture from the isolated deltoid weakness described",
+            "D": "Vertebral artery injury causes stroke, not isolated C5 root deficit. It would present with signs of posterior circulation ischaemia (dizziness, ataxia, diplopia, contralateral motor deficit)"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — C5 palsy: recognised complication of cervical decompression; conservative management; 85–90% resolve within 6 months",
+          "trial": "Nassr A et al. (J Bone Joint Surg 2012): C5 palsy after cervical surgery — 2–7% incidence; conservative management with 85–90% resolution; Bydon M (Spine 2014): prospective multicenter C5 palsy outcomes",
+          "pearl": "C5 palsy after cervical decompression: new post-operative deltoid weakness (shoulder abduction), possibly biceps reflex reduction. Mechanism: root tethering from cord posterior migration. 85–90% resolve within 3–6 months. NO surgery needed — physiotherapy only."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q7",
+        "stem": "A 55-year-old woman with rheumatoid arthritis of 20 years has developed progressive neck pain, occipital headache, and now gait instability. Lateral cervical X-ray in flexion shows an atlanto-dens interval (ADI) of 8 mm. She has bilateral hand weakness. What is the diagnosis and treatment?",
+        "options": {
+          "A": "Normal ADI variant — no treatment required for rheumatoid cervical disease",
+          "B": "Atlantoaxial subluxation from rheumatoid destruction of the transverse ligament — posterior C1-C2 fusion indicated for symptomatic instability with cord compression",
+          "C": "Degenerative cervical spondylosis — ACDF at C3-4",
+          "D": "ADI 8 mm is only concerning in children — in adults any ADI is normal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Normal adult ADI: ≤3 mm (children ≤5 mm). ADI >3.5 mm indicates transverse ligament injury or insufficiency. ADI 8 mm = severe atlantoaxial instability from rheumatoid transverse ligament destruction. This patient has myelopathy (gait instability, bilateral hand weakness). Posterior C1-C2 fusion (Harms technique: C1 lateral mass screws + C2 pedicle screws) is the standard surgical treatment. The Wackenheim line and posterior atlanto-dens interval (PADI) <14 mm is also a predictor of spinal cord compromise requiring surgical stabilisation.",
+          "wrong": {
+            "A": "ADI 8 mm is grossly abnormal (normal ≤3 mm) — this is severe atlantoaxial instability. 'No treatment' in a patient with myelopathy would be negligent",
+            "C": "The pathology is at C1-C2 (atlantoaxial level), not C3-4. ACDF at C3-4 would not address the C1-C2 instability causing cord compression",
+            "D": "Adult normal ADI is ≤3 mm. ADI 8 mm in an adult is severely abnormal. The claim that any ADI is normal in adults is factually incorrect"
+          },
+          "guideline": "AOSpine/EANS — Rheumatoid AAS: ADI >3.5 mm = ligamentous failure; PADI <14 mm = cord compression risk; posterior C1-C2 fusion for symptomatic AAS with myelopathy",
+          "trial": "Boden SD (Spine 1994): PADI and neurological prognosis in rheumatoid AAS; Harms J, Melcher RP (Spine 2001): C1 lateral mass + C2 pedicle screw technique for atlantoaxial fusion",
+          "pearl": "Normal adult ADI: ≤3 mm. ADI >3.5 mm = ligamentous injury. ADI >10 mm = high cord compression risk. Rheumatoid AAS with myelopathy → posterior C1-C2 fusion (Harms technique). PADI <14 mm is an additional indicator of cord compromise."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q8",
+        "stem": "For a 50-year-old woman with moderate CSM (mJOA 13) from a three-level compression (C3-4, C4-5, C5-6) in a lordotic cervical spine, without significant kyphosis, without instability, and with primarily posterior compression from ligamentum flavum hypertrophy and facet joint hypertrophy: which surgical approach is MOST appropriate?",
+        "options": {
+          "A": "Three-level ACDF — provides direct anterior decompression",
+          "B": "Cervical laminoplasty (C3-C6) — appropriate for multilevel posterior compression in a lordotic spine, preserving motion without fusion",
+          "C": "Laminectomy alone without fusion — standard for multilevel disease",
+          "D": "Single-level ACDF at the most compressed level only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This scenario precisely describes the ideal indication for cervical laminoplasty: multilevel CSM (3 levels), lordotic cervical alignment, posterior compression (ligamentum flavum, facet joint), and no instability. Laminoplasty expands the canal, allows posterior cord migration in the lordotic spine, preserves the posterior column, and avoids fusion. Three-level ACDF has higher pseudarthrosis rates and morbidity. Laminectomy alone (without fusion) risks post-laminectomy kyphosis over time.",
+          "wrong": {
+            "A": "Three-level ACDF is technically feasible but carries higher pseudarthrosis rates (10–15%) and is generally reserved for ventral compression (disc herniation, OPLL). This patient has primarily posterior compression — a laminoplasty or posterior approach is more efficient",
+            "C": "Laminectomy alone without fusion has been largely abandoned due to the high rate of post-laminectomy kyphosis (cervical kyphosis developing after posterior element removal without stabilisation). Laminoplasty or laminectomy+fusion is preferred",
+            "D": "Single-level ACDF at the most compressed level is inadequate when three levels are symptomatic — it would leave residual cord compression at adjacent levels"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Multilevel CSM (≥3 levels) in lordotic spine with predominantly posterior compression: laminoplasty is the appropriate surgical approach",
+          "trial": "Hirabayashi K (1979): laminoplasty technique; Fehlings MG (J Bone Joint Surg 2013): multilevel decompression approaches comparison — laminoplasty equivalent efficacy to ACDF for multilevel CSM in lordotic spine",
+          "pearl": "Ideal laminoplasty indication: multilevel (≥3 levels) CSM + LORDOTIC alignment + predominantly POSTERIOR compression (ligamentum flavum, facet joints). NOT for: kyphosis, ventral-dominant compression, instability."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q9",
+        "stem": "What are the classic clinical features that distinguish ANTERIOR cord syndrome from CENTRAL cord syndrome?",
+        "options": {
+          "A": "Anterior cord: hands worse than legs; central cord: legs worse than hands",
+          "B": "Anterior cord: complete motor and pain/temperature loss below injury level, WITH PRESERVED posterior column function (vibration, proprioception, light touch); central cord: hands worse than legs with urinary retention",
+          "C": "Anterior cord: preserved motor function with sensory loss; central cord: complete motor and sensory loss",
+          "D": "Anterior cord and central cord are clinically identical — only MRI distinguishes them"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Anterior cord syndrome: caused by anterior spinal artery ischaemia or direct anterior cord contusion. Anterior spinal cord contains: (1) corticospinal tracts (motor), (2) spinothalamic tracts (pain/temperature). Posterior columns (dorsal columns — vibration, proprioception, fine touch) are supplied by posterior spinal arteries and are typically SPARED. Clinical: complete motor loss + complete pain/temperature loss below lesion + PRESERVED vibration and proprioception. Central cord syndrome: disproportionate upper extremity weakness (hands > arms > legs), urinary dysfunction. The posterior column preservation in anterior cord syndrome is the distinguishing feature.",
+          "wrong": {
+            "A": "This reverses the descriptions — hands worse than legs is CENTRAL cord syndrome, not anterior cord syndrome",
+            "C": "Anterior cord syndrome does NOT preserve motor function — it causes complete motor paralysis below the lesion. Posterior cord syndrome (rare) preserves motor function",
+            "D": "The clinical presentations are distinctly different based on the distribution of cord injury — clinical examination distinguishes the syndromes"
+          },
+          "guideline": "EANS/AOSpine — Spinal cord injury syndromes: clinical classification guides prognosis and management",
+          "trial": "ASIA Impairment Scale and incomplete SCI classification; Schneider RC (1954): central cord syndrome original description; Roth EJ (Arch Phys Med Rehab 1991): anterior cord syndrome prognosis",
+          "pearl": "Anterior cord syndrome = motor loss + pain/temperature loss + PRESERVED posterior column (vibration, proprioception). Mechanism: anterior spinal artery. Central cord = hands worse than legs + urinary retention. Brown-Séquard = ipsilateral motor loss + contralateral pain/temperature loss."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q10",
+        "stem": "A 53-year-old woman underwent single-level ACDF at C4-5 seven years ago for radiculopathy. She now presents with new arm pain, weakness, and imaging showing severe spondylosis at C3-4 (the level immediately above the previous fusion). What is this phenomenon?",
+        "options": {
+          "A": "Pseudarthrosis at the C4-5 fusion level — revision of previous fusion required",
+          "B": "Adjacent segment disease (ASD) — accelerated degeneration at the level(s) adjacent to a prior cervical fusion",
+          "C": "Recurrent disc herniation at the same level — re-exploration of C4-5 required",
+          "D": "Cervical myelopathy from multilevel disease unrelated to the prior fusion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Adjacent segment disease (ASD) is the development of symptomatic degenerative pathology at vertebral levels immediately adjacent to a prior fusion. After ACDF fusion at C4-5, increased motion and stress is transferred to adjacent unfused segments (C3-4 above and C5-6 below). ASD incidence: approximately 6–16% require reoperation within 10 years of ACDF. The pathophysiology is accelerated mechanical degeneration from altered biomechanics at the adjacent level. Cervical disc arthroplasty (motion preservation) was developed partly to reduce ASD rates — though long-term superiority remains debated.",
+          "wrong": {
+            "A": "Pseudarthrosis (non-union of the fusion) would present at the C4-5 level with recurrent or persistent neck pain and movement at the fusion level on flexion-extension views — not new pathology at C3-4",
+            "C": "Recurrent herniation at C4-5 could occur (pseudarthrosis with disc recurrence) but is a different pathology. New C3-4 disease 7 years after C4-5 fusion = adjacent segment disease",
+            "D": "While multilevel degenerative disease can exist independently, the development of pathology specifically at the level adjacent to a prior fusion at 7 years is the definition of adjacent segment disease"
+          },
+          "guideline": "AOSpine CSM Guidelines — Adjacent segment disease: recognised long-term complication of cervical fusion; requires reoperation in 6–16% at 10 years",
+          "trial": "Goffin J et al. (Spine 2004): ASD after ACDF — 6% reoperation rate at 10 years; Hilibrand AS (J Bone Joint Surg 1999): symptomatic ASD in 2.9% per year after ACDF",
+          "pearl": "Adjacent segment disease: symptomatic degeneration at levels ADJACENT to prior cervical fusion. 6–16% reoperation at 10 years. Accelerated by biomechanical stress transfer. CDA (arthroplasty) developed to reduce ASD by preserving motion — evidence shows reduced radiological ASD, debated for clinical ASD."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q11",
+        "stem": "A 40-year-old woman presents with progressive myelopathy (mJOA 10) from ossification of the posterior longitudinal ligament (OPLL) extending from C3 to C6. CT shows the OPLL occupying 50% of the canal diameter. The cervical alignment is lordotic. What is the most appropriate surgical approach, and what specific complication is elevated in OPLL surgery?",
+        "options": {
+          "A": "ACDF at all affected levels — OPLL is always an anterior approach indication",
+          "B": "Cervical laminoplasty (C3-C6) is appropriate given lordotic alignment; specific complication risk is intraoperative CSF leak from OPLL-dural adhesion during anterior approach",
+          "C": "Conservative management — OPLL responds to physiotherapy",
+          "D": "Posterior foraminotomy at each level — OPLL is a foraminal problem"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Multilevel cervical OPLL in a lordotic spine is a classic indication for cervical laminoplasty. The posterior approach allows cord decompression by posterior migration without directly manipulating the OPLL, avoiding the high risk of dural tear and CSF leak from OPLL-dural adhesion during anterior surgery. OPLL can fuse to the dura (dural ossification in 4–20% of OPLL), and attempting ACDF/corpectomy in this situation carries very high CSF leak rates. Laminoplasty avoids direct OPLL manipulation. The specific elevated risk during ANTERIOR OPLL surgery is **intraoperative dural tear** due to ossification adherence to the dura mater.",
+          "wrong": {
+            "A": "OPLL does not always require anterior surgery — multilevel OPLL with lordotic alignment is preferentially treated posteriorly (laminoplasty) to avoid the high risk of dural tear during OPLL resection anteriorly",
+            "C": "mJOA 10 = severe CSM. Conservative management is inappropriate for severe myelopathy from any cause including OPLL",
+            "D": "Posterior foraminotomy addresses nerve root compression in the foramen — OPLL causes central canal stenosis and myelopathy, not foraminal radiculopathy"
+          },
+          "guideline": "AOSpine CSM/OPLL Guidelines 2017 — Multilevel OPLL in lordotic spine: posterior laminoplasty preferred; anterior OPLL resection has high dural tear risk",
+          "trial": "Fehlings MG et al. (J Neurosurg Spine 2010): OPLL surgical outcomes; dural adherence and CSF leak risk in anterior OPLL surgery documented in multiple series",
+          "pearl": "Multilevel OPLL + lordotic spine = LAMINOPLASTY (posterior). Avoid anterior surgery for OPLL because OPLL may fuse to dura — dural tear and CSF leak risk is very high. If anterior surgery required for OPLL, plan for possible dural tear and CSF repair."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q12",
+        "stem": "Lhermitte phenomenon (Lhermitte sign) is a classic feature of cervical myelopathy. What does it describe and what is its pathophysiology?",
+        "options": {
+          "A": "A positive Babinski sign elicited by neck flexion — upper motor neuron sign",
+          "B": "An electric shock-like sensation running down the spine and into the limbs upon neck flexion — indicating dorsal column (posterior funiculus) irritation from cord compression or demyelination",
+          "C": "Neck flexion causing immediate loss of consciousness from vertebrobasilar compression",
+          "D": "Pain radiating into the arm upon neck compression — indicates C-fibre nerve root irritation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Lhermitte phenomenon describes a brief electric shock-like paresthesia radiating down the spine and extremities with neck flexion. It is caused by mechanical irritation of the demyelinated or compressed dorsal columns (posterior funiculus) in the cervical cord during stretch upon flexion. It is NOT specific to cervical spondylosis — it also occurs in multiple sclerosis (a key MS symptom), transverse myelitis, and after cervical radiation. In the context of cervical spondylosis with myelopathy, it indicates dorsal column involvement.",
+          "wrong": {
+            "A": "Babinski sign is elicited by plantar stimulation, not neck flexion. Lhermitte is a sensory phenomenon, not a pathological plantar reflex",
+            "C": "Loss of consciousness from neck flexion suggests vertebrobasilar insufficiency or arrhythmia — not Lhermitte. Lhermitte is a brief paresthesia, not syncope",
+            "D": "Radicular arm pain from neck compression is Spurling's sign — a different test. Lhermitte is a myelopathic sign (dorsal column), not a radicular sign"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Lhermitte sign as a clinical indicator of cervical myelopathy; indicates dorsal column involvement",
+          "trial": "Al-Arfaj A (CMAJ 2003): Lhermitte sign in MS vs cervical spondylosis; Yoss RE (Proc Staff Meet Mayo Clin 1957): cervical spondylotic myelopathy clinical signs",
+          "pearl": "Lhermitte sign = electric shock down spine and limbs with neck flexion = dorsal column (posterior funiculus) irritation. Causes: cervical spondylosis, multiple sclerosis, radiation myelopathy. NOT specific to cervical spondylosis — MS is another key cause."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q13",
+        "stem": "A 35-year-old woman has a right C6 radiculopathy from a C5-6 soft disc herniation. Her symptoms have persisted for 10 weeks despite NSAIDs and physiotherapy. She has right biceps weakness (4/5) and reduced right biceps reflex. She does not want a fusion surgery. What is an appropriate minimally invasive surgical option that preserves cervical motion?",
+        "options": {
+          "A": "Right posterior foraminotomy at C5-6 (keyhole approach) — decompresses the C6 nerve root from behind without fusion",
+          "B": "Anterior cervical discectomy and fusion (ACDF) at C5-6 — the only option for C6 radiculopathy",
+          "C": "Cervical laminoplasty C4-C7 — standard treatment for all cervical radiculopathy",
+          "D": "Lumbar epidural steroid injection — cervical and lumbar injections are interchangeable"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Posterior cervical foraminotomy (keyhole foraminotomy) via a minimally invasive tubular retractor approach decompresses the lateral recess and neural foramen at C5-6 from a posterior approach, relieving C6 root compression without requiring anterior surgery or fusion. It is particularly well-suited for lateral or posterolateral disc herniation causing radiculopathy, and for foraminal stenosis from uncovertebral joint osteophytes. It preserves C5-6 motion. Success rates: 90–95% relief of radicular pain in carefully selected patients. Not suitable for central cord compression or significant midline disc herniation.",
+          "wrong": {
+            "B": "ACDF is an excellent option but requires fusion and is not the only option. For a patient specifically requesting motion preservation, posterior foraminotomy is the appropriate alternative",
+            "C": "Laminoplasty is for multilevel myelopathy, not single-level radiculopathy. It is completely inappropriate for isolated C6 radiculopathy",
+            "D": "Lumbar epidural injections treat lumbar pathology — they have no effect on cervical radiculopathy. Cervical epidural or transforaminal steroid injections are the injection option for cervical radiculopathy"
+          },
+          "guideline": "AOSpine Radiculopathy Guidelines — Posterior foraminotomy: appropriate for lateral/foraminal cervical radiculopathy in patients wanting motion preservation; ACDF equivalent outcomes",
+          "trial": "Ruetten S et al. (Spine 2008): full-endoscopic posterior foraminotomy vs ACDF — equivalent outcomes at 2 years; no fusion required",
+          "pearl": "Posterior cervical foraminotomy = motion-preserving alternative to ACDF for lateral/foraminal disc herniation causing radiculopathy. No fusion. 90–95% radicular pain relief. Contraindicated for central canal stenosis or myelopathy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q14",
+        "stem": "A 70-year-old woman with osteoporosis sustains a C2 fracture in a low-velocity fall. CT shows a Type III odontoid fracture (fracture extending into the C2 body). There is minimal displacement (<2 mm). She is neurologically intact and has no medical contraindications to halo immobilisation. What is the most appropriate management?",
+        "options": {
+          "A": "Emergency C1-C2 fusion — all odontoid fractures require surgery",
+          "B": "Rigid cervical collar for 6–8 weeks — Type III fractures have good healing rates with external immobilisation",
+          "C": "Type III fractures should never be treated conservatively — all require anterior odontoid screw",
+          "D": "Observation without immobilisation — Type III fractures are stable by definition"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Type III odontoid fractures (extending into the C2 body) have favourable natural history with conservative management due to the large cancellous bone surface area available for healing. Fusion rates with halo vest or rigid collar (8–12 weeks): 85–90%. In this patient with minimal displacement (<2 mm), no neurological deficit, and no significant instability, rigid cervical collar for 6–8 weeks (longer if elderly/osteoporosis) is appropriate. Surgery (posterior C1-C2 fusion) is reserved for Type III fractures with significant displacement (>5 mm), comminution, failure of conservative treatment, or patient inability to tolerate external fixation.",
+          "wrong": {
+            "A": "All odontoid fractures do NOT require surgery. Type III with minimal displacement has excellent conservative outcomes (85–90% fusion with collar). Surgery is reserved for specific higher-risk features",
+            "C": "Type III fractures do have good conservative outcomes — anterior odontoid screw is not appropriate for Type III (the screw is designed for Type II). Type III is treated with external immobilisation",
+            "D": "Type III fractures are not treated without immobilisation — even though they heal well, external immobilisation (collar) is required to promote fusion and prevent displacement"
+          },
+          "guideline": "AOSpine Subaxial/Upper Cervical Spine Guidelines — Type III odontoid: conservative management with halo or rigid collar; surgery for displacement >5 mm, comminution, or failed conservative treatment",
+          "trial": "Anderson LD, D'Alonzo RT (J Bone Joint Surg 1974): odontoid fracture classification and outcomes; Grauer JN (Spine 2005): Type III conservative healing rates 85–90%",
+          "pearl": "Odontoid fracture management: Type I = collar, Type II = surgery (if >50 yo, displacement >4–5 mm, or comminuted), Type III = rigid collar (85–90% union). Conservative treatment for Type III is first-line in most cases."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q15",
+        "stem": "A 45-year-old man has undergone multilevel ACDF (C3-4, C4-5, C5-6, C6-7) for myeloradiculopathy. Post-operatively, he reports new left shoulder and upper arm pain and weakness (deltoid 3/5, biceps 4/5, left biceps reflex absent). CT and MRI show no haematoma, no hardware malposition, and adequate canal decompression. What is the most likely diagnosis and what is the prognosis?",
+        "options": {
+          "A": "Postoperative C5 palsy — spontaneous resolution expected in 85–90% within 3–6 months",
+          "B": "Vertebral artery injury — urgent DSA required",
+          "C": "Postoperative haematoma — emergency return to theatre",
+          "D": "Pseudarthrosis at C4-5 — repeat fusion required"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "This is C5 palsy: new post-operative deltoid and biceps weakness (C5 distribution) after multilevel ACDF decompression. CT and MRI exclude hardware malposition or haematoma. Diagnosis of exclusion: C5 palsy from nerve root tethering as the cord decompresses posteriorly. The absent left biceps reflex (C5-6 contribution) is consistent. Prognosis: 85–90% recover fully within 3–6 months with conservative management (physiotherapy, shoulder protection, passive ROM exercises). The mechanism of C5 palsy is controversial — likely includes cord root tethering, foraminal compromise from vertebral height restoration, and local haemorrhage.",
+          "wrong": {
+            "B": "Vertebral artery injury causes posterior circulation stroke symptoms (vertigo, diplopia, ataxia, contralateral limb deficits) — not isolated C5 distribution upper extremity weakness with preserved lower extremity function",
+            "C": "Haematoma causing neurological deficit would show on MRI and CT, and would typically cause myelopathic bilateral deficits rather than isolated unilateral C5 root deficit",
+            "D": "Pseudarthrosis is a long-term complication (months to years post-operatively) characterised by persistent neck pain and movement at the fusion level — not acute post-operative C5 root motor deficit"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — C5 palsy: recognised complication of multilevel ACDF; conservative management; 85–90% resolution within 6 months",
+          "trial": "Nassr A (J Bone Joint Surg 2012): C5 palsy incidence and prognosis; Bydon M (Spine 2014): multicentre C5 palsy outcomes — 85–90% full recovery within 6 months",
+          "pearl": "C5 palsy after multilevel ACDF: new deltoid ± biceps weakness post-decompression. Exclude haematoma/hardware malposition with imaging. If imaging normal → C5 palsy, manage conservatively. 85–90% recovery within 3–6 months."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q16",
+        "stem": "In anterior cervical discectomy and fusion (ACDF) via a right-sided approach, which important cranial nerve is at risk during the lateral deep dissection, and what deficit does its injury cause?",
+        "options": {
+          "A": "Vagus nerve — causing bradycardia and hypotension",
+          "B": "Recurrent laryngeal nerve (RLN) — causing ipsilateral vocal cord paralysis with hoarseness and aspiration risk",
+          "C": "Phrenic nerve — causing ipsilateral diaphragm paralysis",
+          "D": "Hypoglossal nerve — causing ipsilateral tongue deviation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The recurrent laryngeal nerve (RLN) is the cranial nerve most at risk during ACDF. On the right side, the RLN loops around the subclavian artery before ascending in the tracheoesophageal groove. It runs immediately adjacent to the lateral border of the thyroid gland and tracheoesophageal groove. RLN injury causes ipsilateral vocal cord paralysis — presenting as hoarseness, weak cough, and aspiration risk. Many surgeons prefer LEFT-sided ACDF approach as the left RLN has a longer, more protected course (looping around the aortic arch and ascending more medially in the tracheoesophageal groove), though this is debated.",
+          "wrong": {
+            "A": "The vagus nerve runs within the carotid sheath (alongside the common carotid artery and internal jugular vein) — direct injury is possible but less common than RLN injury with correct surgical retraction",
+            "C": "The phrenic nerve (C3-5) runs on the anterior surface of the scalenus anterior muscle — it can be injured during lateral dissection or retraction but is less commonly the focus of RLN risk discussion",
+            "D": "The hypoglossal nerve (XII) runs superiorly in the neck near the hyoid bone — it is relevant during high cervical exposure (C1-C2 anterior approach) but not during standard ACDF (C3-C7)"
+          },
+          "guideline": "AOSpine ACDF Technical Guidelines — RLN is the primary cranial nerve at risk; left-sided approach may reduce RLN injury risk; careful medial retraction of trachea and oesophagus reduces risk",
+          "trial": "Netterville JL (Ann Otol Rhinol Laryngol 1996): RLN injury in ACDF — 1–11% hoarseness; left vs right approach debate",
+          "pearl": "ACDF cranial nerve at risk: RLN (recurrent laryngeal nerve) → vocal cord paralysis (hoarseness, aspiration). Right RLN loops around subclavian artery (shorter, more lateral). Left RLN loops around aortic arch (more medial, deeper in tracheoesophageal groove). Horner syndrome from sympathetic chain injury is the other important complication."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q17",
+        "stem": "A 60-year-old man undergoes cervical laminectomy from C3 to C6 without fusion for multilevel CSM. Over the next 2 years, he develops progressive neck pain, worsening myelopathy, and lateral X-ray shows a kyphotic cervical deformity at C4-5. What is this complication and how should it be managed?",
+        "options": {
+          "A": "Post-laminectomy kyphosis — requires anterior corpectomy with lordotic reconstruction or posterior revision laminectomy-fusion with lordotic correction",
+          "B": "Adjacent segment disease — ACDF at C2-C3 required",
+          "C": "This is a normal post-operative change — no treatment needed",
+          "D": "Post-laminectomy pseudarthrosis — revision decompression only"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Post-laminectomy kyphosis is a recognised long-term complication of multilevel cervical laminectomy WITHOUT fusion (incidence 6–20% in adults, higher in children). After removing the posterior tension band (ligamentum nuchae, facet joint capsules, supraspinous/interspinous ligaments, laminae), the cervical spine loses posterior tension band support and the anterior vertebral bodies bear the full axial load, tending toward kyphotic collapse. This worsens cord compression (cord drapes over kyphotic apex). Management: anterior reconstruction with lordotic ACDF/ACCF to restore lordosis, or posterior revision with instrumented fusion (lateral mass/pedicle screws) with lordotic rod contouring. This is why laminoplasty (which preserves posterior elements) or laminectomy+fusion is preferred over laminectomy alone.",
+          "wrong": {
+            "B": "Adjacent segment disease affects levels adjacent to a fusion — this patient has no prior fusion. The problem is kyphosis from posterior element removal",
+            "C": "Progressive kyphotic deformity with worsening myelopathy is NOT a normal post-operative finding — it requires treatment",
+            "D": "Pseudarthrosis applies to fusion sites — no fusion was performed in this case. The complication is kyphotic deformity from laminectomy"
+          },
+          "guideline": "AOSpine CSM Guidelines 2017 — Laminectomy alone without fusion increases risk of post-laminectomy kyphosis; laminoplasty or laminectomy+fusion preferred for multilevel decompression",
+          "trial": "Guigui P (Spine 1998): post-laminectomy kyphosis incidence and management; Kaptain GJ (J Neurosurg Spine 2000): post-laminectomy kyphosis — 6–20% incidence without fusion",
+          "pearl": "Post-laminectomy kyphosis: complication of multilevel laminectomy WITHOUT fusion. Incidence 6–20%. Prevention: use laminoplasty (preserves posterior column) or laminectomy+fusion. Treatment: anterior reconstruction (ACDF/ACCF with lordotic correction) or posterior fusion."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q18",
+        "stem": "A 48-year-old woman has a C6 dermatomal distribution. Which of the following correctly describes the C6 dermatomal territory and its associated reflex?",
+        "options": {
+          "A": "C6: ring finger and little finger paresthesiae; reduced triceps reflex",
+          "B": "C6: thumb, index finger, and lateral forearm paresthesiae; reduced biceps and brachioradialis reflex",
+          "C": "C6: middle finger and dorsal hand paresthesiae; reduced triceps reflex",
+          "D": "C6: entire palm and volar wrist; reduced finger flexor reflex"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "C6 dermatomal territory: thumb, index finger, and lateral forearm (the thumb/index finger territory is the key distinguishing feature). C6 supplies the biceps (elbow flexion) and brachioradialis — the biceps and brachioradialis reflexes are reduced with C6 root injury. C5-6 is the most commonly affected cervical disc level in degenerative disease.",
+          "wrong": {
+            "A": "Ring and little finger with triceps reflex = C8 root distribution (C7-T1 disc level). C6 does not affect the ring/little fingers",
+            "C": "Middle finger with dorsal hand = C7 root distribution (C6-7 disc level). C7 root injury reduces the triceps reflex (not biceps). Middle finger = C7",
+            "D": "The entire palm and volar wrist is the median nerve distribution (C6, C7, C8, T1 via median nerve) — not the specific C6 dermatome, which is thumb/index/lateral forearm"
+          },
+          "guideline": "AOSpine/EANS — Cervical dermatome reference: C5=lateral arm, C6=thumb/index/lateral forearm, C7=middle finger, C8=ring/little finger",
+          "trial": "Standard neurological examination references; Aids to the Examination of the Peripheral Nervous System (Medical Research Council 1976)",
+          "pearl": "Cervical dermatomal mnemonics: C5=shoulder (deltoid), C6=THUMB (biceps/brachioradialis reflex), C7=MIDDLE finger (triceps reflex), C8=LITTLE finger (finger flexors). Disc level = one above root number: C6 root = C5-6 disc."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q19",
+        "stem": "A 68-year-old woman develops new neck pain and inability to flex the neck 3 days after a fluoroscopically guided cervical epidural steroid injection for cervical radiculopathy. She has a temperature of 38.8°C, elevated CRP, and WBC 14,000/µL. MRI shows T2 signal change in the C3-C5 disc space and vertebral body oedema. What is the diagnosis and management?",
+        "options": {
+          "A": "Cervical muscle spasm from needle trauma — NSAIDs and physiotherapy",
+          "B": "Cervical spondylodiscitis (epidural abscess or vertebral osteomyelitis) — urgent neurosurgical evaluation, empirical antibiotic therapy, and consideration of surgical debridement",
+          "C": "Steroid-induced myopathy — discontinue steroids and observe",
+          "D": "CRPS (complex regional pain syndrome) from injection trauma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-procedural fever, elevated inflammatory markers, neck stiffness, and MRI showing disc space T2 signal change with vertebral oedema following an invasive spinal procedure constitutes spinal spondylodiscitis (infectious discitis ± vertebral osteomyelitis) until proven otherwise. This is a recognised rare complication of epidural steroid injection. Management: (1) neurosurgical and infectious disease consultation; (2) MRI with gadolinium (gold standard — shows disc enhancement, endplate erosion, and epidural extension); (3) CT-guided biopsy for culture before antibiotics if haemodynamically stable; (4) empirical IV antibiotics (usually 6–8 weeks total); (5) surgical debridement and stabilisation if epidural abscess causing neurological compromise or failed medical management.",
+          "wrong": {
+            "A": "New fever, elevated inflammatory markers, and MRI disc signal change 3 days after a procedural intervention is NOT muscle spasm — this is infection until proven otherwise",
+            "C": "Steroid myopathy is a chronic complication (weeks to months) of systemic corticosteroid use — not an acute post-injection presentation with fever and MRI changes",
+            "D": "CRPS does not cause disc space MRI signal changes, fever, or elevated inflammatory markers"
+          },
+          "guideline": "EANS/NASS — Post-procedural spinal infection: urgent MRI evaluation; antibiotic therapy minimum 6 weeks; surgery for neurological compromise or failed medical therapy",
+          "trial": "Reeves RK (Reg Anesth Pain Med 2000): infection after epidural steroid injection case series; Deyo RA (NEJM 2001): spinal procedures and infection risk",
+          "pearl": "Post-procedure fever + neck pain + elevated CRP + MRI disc signal change = SPONDYLODISCITIS until proven otherwise. Treat urgently: blood cultures, MRI gadolinium, CT-guided biopsy if stable, then empirical IV antibiotics. Surgery for epidural abscess with neurological deficit."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q20",
+        "stem": "Cervical disc arthroplasty (CDA) is proposed as a motion-preserving alternative to ACDF. What is the PRIMARY proposed advantage of CDA over ACDF, and what is its main contraindication?",
+        "options": {
+          "A": "Advantage: immediate pain relief; contraindication: osteoporosis",
+          "B": "Advantage: preservation of segmental motion to reduce adjacent segment disease (ASD); main contraindication: significant instability, OPLL, or facet joint arthrosis",
+          "C": "Advantage: better fusion rates than ACDF; contraindication: age <45 years",
+          "D": "Advantage: applicable to myelopathy of any severity; contraindication: previous laminoplasty"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cervical disc arthroplasty preserves segmental motion at the treated level, theoretically reducing the increased stress transferred to adjacent segments that causes adjacent segment disease (ASD). Multiple RCTs (BRYAN disc trial, ProDisc-C trial, Prestige ST trial) show CDA achieves at least equivalent outcomes to ACDF at 2–7 years with lower ASD requiring reoperation. The main contraindication: any condition requiring FUSION — instability (traumatic or ligamentous), OPLL (where the prosthesis cannot be placed due to ossified PLL), facet joint arthrosis (limits motion benefit), severe osteoporosis, and active infection.",
+          "wrong": {
+            "A": "Osteoporosis is a relative contraindication but not the PRIMARY contraindication. Instability and OPLL are more absolute contraindications to CDA",
+            "C": "CDA does NOT achieve fusion rates (it is designed NOT to fuse). Younger age actually favours CDA (more years to benefit from motion preservation)",
+            "D": "CDA is appropriate for radiculopathy and mild myelopathy — it is not universally applicable to myelopathy of any severity. Severe myelopathy requiring aggressive decompression (ACCF) is not a CDA indication"
+          },
+          "guideline": "AOSpine CDA Guidelines — CDA: motion preservation reduces ASD; contraindications include instability, OPLL, facet arthrosis, osteoporosis, active infection",
+          "trial": "Murrey D et al. BRYAN disc trial (Spine J 2009): CDA vs ACDF — equivalent outcomes, lower ASD reoperation with CDA at 7 years; Janssen ME ProDisc-C trial (J Neurosurg Spine 2015)",
+          "pearl": "CDA advantage: motion preservation → reduced ASD (lower reoperation rate for adjacent segment disease). Contraindications: instability, OPLL, facet arthrosis, osteoporosis, active infection. CDA = motion preservation. ACDF = fusion. Choose based on stability and bone quality."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

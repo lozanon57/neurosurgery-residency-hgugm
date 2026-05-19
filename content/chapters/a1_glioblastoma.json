@@ -1,0 +1,661 @@
+{
+  "id": "A1",
+  "title": "Glioblastoma: Diagnosis, Molecular Pathology, and Surgery",
+  "subtitle": "Neuro-Oncology — WHO 2021 classification, IDH wild-type GBM, maximal safe resection, Stupp protocol",
+  "block": "A",
+  "block_name": "Neuro-Oncology",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "EANS 2024 / NCCN CNS Tumors v1.2024 / SNO 2023 / EANO 2021",
+  "textbook_refs": [
+    "Youmans and Winn Neurological Surgery, 8th ed. (2023)",
+    "NCCN Clinical Practice Guidelines in Oncology: CNS Tumors v1.2024",
+    "Stupp R et al. NEJM 2005;352:987-996 (Stupp protocol)",
+    "Louis DN et al. WHO Classification of Tumours of the CNS, 5th ed. (2021)"
+  ],
+  "learning_objectives": [
+    "Apply WHO 2021 classification criteria to diagnose GBM and distinguish IDH wild-type from IDH-mutant glioblastoma",
+    "Identify the key molecular alterations in GBM (TERT promoter, EGFR amplification, +7/-10, MGMT methylation) and their clinical significance",
+    "Describe the Stupp protocol and interpret its landmark trial results including survival outcomes",
+    "Evaluate the extent of resection goal using the concept of maximal safe resection and fluorescence-guided surgery with 5-ALA",
+    "Recognise the prognostic significance of MGMT promoter methylation and its role in predicting temozolomide response",
+    "Outline post-operative management including radiotherapy planning and monitoring for pseudoprogression"
+  ],
+  "sections": [
+    {
+      "id": "A1-S1",
+      "title": "Epidemiology and WHO 2021 Classification",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Glioblastoma (GBM)** is the most common and most lethal primary malignant brain tumour in adults, accounting for approximately 45-50% of all malignant brain tumours and roughly 14,000 new cases per year in the United States. The incidence in Spain is approximately 3-4 cases per 100,000 inhabitants per year, with a peak incidence in the sixth and seventh decades of life. Median age at diagnosis is 64 years, and the male-to-female ratio is approximately 1.6:1. Despite maximal treatment, median overall survival remains 14-16 months, with only 5-10% of patients surviving to 5 years.\n\nThe **WHO 2021 Classification of CNS Tumours** fundamentally restructured GBM nosology by moving **IDH mutation status** to the definitional position. Under the current classification, **GBM IDH wild-type** (WHO grade 4) is defined as a diffuse astrocytic tumour in adults that is IDH wild-type and demonstrates at least one of the following features: microvascular proliferation, necrosis, or a molecular profile including TERT promoter mutation, EGFR amplification, and/or combined +7/-10 chromosomal copy number changes. This molecular definition means that a morphologically low-grade astrocytoma can be classified as GBM IDH wild-type if it carries the appropriate molecular signature — a critical distinction with profound therapeutic implications.\n\n**IDH-mutant glioblastoma** no longer exists as a separate entity in WHO 2021. What were previously called secondary GBMs arising from lower-grade IDH-mutant precursors are now reclassified as **astrocytoma, IDH-mutant, WHO grade 4** — a different disease with substantially better prognosis (median OS approximately 3-4 years versus 14-16 months for IDH wild-type). This distinction is not merely academic: it affects treatment planning, prognostic counselling, and clinical trial eligibility.\n\nHistopathologically, GBM is characterised by four major features: diffuse infiltration of adjacent brain parenchyma, nuclear atypia, abundant mitoses, **microvascular proliferation** (the garland-like proliferating blood vessels that define the diagnosis), and **pseudopalisading necrosis** (tumour cells arranged in radial patterns around areas of central necrosis — a highly specific feature). The proliferation index as measured by Ki-67 labelling is typically >10% and often >30% in GBM."
+        },
+        {
+          "type": "table",
+          "title": "WHO 2021 Glioma Classification — Key Changes Relevant to GBM",
+          "headers": ["Feature", "WHO 2016", "WHO 2021", "Clinical Impact"],
+          "rows": [
+            ["IDH wild-type GBM", "Grade IV based on histology alone", "Grade 4, requires molecular confirmation OR microvascular proliferation/necrosis", "More precise — low-grade morphology can be GBM if molecular criteria met"],
+            ["IDH-mutant 'GBM'", "GBM IDH-mutant Grade IV", "Astrocytoma IDH-mutant Grade 4 (NOT GBM)", "Better prognosis, different treatment paradigm"],
+            ["EGFR amplification", "Diagnostic aid", "Part of defining criteria for IDH wt GBM", "Biopsy with molecular profiling mandatory"],
+            ["+7/-10 pattern", "Associated finding", "Part of defining criteria for IDH wt GBM", "FISH or SNP array required in equivocal cases"],
+            ["TERT promoter mutation", "Prognostic marker", "Part of defining criteria for IDH wt GBM", "Reported routinely in all gliomas"],
+            ["MGMT methylation", "Predictive, tested selectively", "Mandatory testing in all GBM", "Determines benefit from alkylating chemotherapy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — IDH Wild-Type GBM Can Appear Low-Grade",
+          "content": "A biopsy showing low-grade morphology (no mitoses, no necrosis, no microvascular proliferation) can still be classified as GBM IDH wild-type if it harbours TERT promoter mutation + EGFR amplification + chromosome 7 gain/10 loss. Under WHO 2021, molecular markers override morphology. Never treat a diffuse astrocytic tumour in an adult without IDH testing."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Confusing IDH-Mutant Grade 4 with GBM",
+          "content": "An astrocytoma IDH-mutant WHO grade 4 is NOT glioblastoma under WHO 2021. It has significantly better prognosis (median OS ~36 months vs ~14 months) and may require a different treatment approach. Quoting GBM survival statistics to a patient with astrocytoma IDH-mutant grade 4 is incorrect and harmful. Always specify the molecular subtype in patient communication and documentation."
+        }
+      ]
+    },
+    {
+      "id": "A1-S2",
+      "title": "Molecular Biomarkers and Prognostic Stratification",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The molecular landscape of GBM IDH wild-type is characterised by a constellation of genomic alterations that are therapeutically relevant and have prognostic implications. The most clinically important biomarker is **MGMT promoter methylation**, present in approximately 40-45% of GBM IDH wild-type cases. MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that removes alkyl adducts from the O6 position of guanine — precisely the DNA damage induced by temozolomide. When the MGMT promoter is hypermethylated, the enzyme is silenced, leaving tumour cells unable to repair TMZ-induced DNA damage. The EORTC 26981/NCIC CE.3 trial (Stupp 2005, NEJM) demonstrated that MGMT methylation predicted significantly improved survival in GBM patients treated with TMZ, with 2-year survival of 46% in methylated versus 14% in unmethylated patients. The NOA-08 and Nordic trials (2012) subsequently established that elderly patients (>65-70 years) with MGMT methylated tumours benefit preferentially from TMZ monotherapy over radiotherapy alone.\n\n**EGFR amplification** is present in approximately 40-50% of GBM and is the most common genetic alteration in these tumours. A specific deletion variant — **EGFRvIII** (deletion of exons 2-7, present in approximately 25-30% of GBM) — has been extensively investigated as a therapeutic target. Despite promising preclinical results, anti-EGFRvIII therapies including rindopepimut (CDX-110, ACT IV trial 2017) have failed to show survival benefit in randomised trials, highlighting the complexity of GBM immunology and the issue of intratumoral heterogeneity.\n\n**TERT promoter mutations** (predominantly C228T and C250T) are present in >80% of GBM IDH wild-type and activate telomerase transcription, conferring replicative immortality. Combined with EGFR amplification and +7/-10 changes, TERT promoter mutation forms the diagnostic molecular triad for GBM IDH wild-type when histology is equivocal. **PTEN loss** (30-40%) and **CDKN2A/B deletion** (50-60%) are additional alterations that activate the PI3K/AKT/mTOR and RB pathways respectively but are not currently targetable in clinical practice for GBM."
+        },
+        {
+          "type": "table",
+          "title": "Key Molecular Biomarkers in GBM — Clinical Significance",
+          "headers": ["Biomarker", "Frequency in GBM IDH wt", "Prognostic Role", "Predictive Role", "Testing Method"],
+          "rows": [
+            ["MGMT promoter methylation", "40-45%", "Favourable (HR ~0.5)", "Predicts TMZ benefit; essential for elderly", "Methylation-specific PCR or pyrosequencing"],
+            ["EGFR amplification", "40-50%", "Neutral/uncertain", "No validated targeted therapy", "FISH or NGS"],
+            ["EGFRvIII mutation", "25-30%", "Possibly unfavourable", "Failed clinical trials (ACT IV)", "RT-PCR or IHC"],
+            ["TERT promoter mutation", ">80%", "Unfavourable in astrocytoma context", "Diagnostic — defines GBM IDH wt", "Sanger sequencing or NGS"],
+            ["+7/-10 (gain chr7, loss chr10)", "~80%", "Defines aggressive biology", "Diagnostic — defines GBM IDH wt", "FISH, SNP array, or NGS"],
+            ["PTEN loss", "30-40%", "Unfavourable", "No validated therapy", "IHC or FISH"],
+            ["CDKN2A/B homozygous deletion", "50-60%", "Unfavourable", "Defines astrocytoma grade 4", "FISH or NGS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — The MGMT Decision in Elderly Patients",
+          "content": "In patients >70 years with newly diagnosed GBM, MGMT methylation status is not merely prognostic — it guides the choice between radiotherapy (RT) alone and temozolomide (TMZ) alone. The Nordic trial (Malmström, Lancet Oncol 2012) and NOA-08 trial showed that MGMT-methylated elderly GBM patients have equivalent or better survival with TMZ alone versus RT. For MGMT-unmethylated elderly patients, hypofractionated RT (40 Gy in 15 fractions) is preferred over TMZ. This MGMT-directed treatment stratification is now standard of care and endorsed by EANO and NCCN."
+        }
+      ]
+    },
+    {
+      "id": "A1-S3",
+      "title": "Surgical Principles: Maximal Safe Resection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgery in GBM serves multiple purposes: tissue diagnosis and molecular profiling, cytoreduction to reduce tumour burden and relieve mass effect, and improvement of quality of life by alleviating symptoms. While GBM is not curable by surgery alone due to its diffusely infiltrative nature — tumour cells extend several centimetres beyond the MRI-visible margin — the **extent of resection (EOR)** has been shown in multiple retrospective and prospective studies to correlate significantly with survival.\n\nThe landmark retrospective analysis by Lacroix et al. (JNS 2001) of 416 GBM patients demonstrated that resection of ≥98% of the enhancing tumour volume was associated with significantly improved median survival (13 months vs 8.8 months for <98% resection). Subsequent studies have refined this threshold: Sanai et al. (JNS 2011) using a population of 500 GBM patients demonstrated a survival benefit specifically at ≥78% resection, with incremental benefits at higher EOR thresholds. The concept of **supramaximal resection** — removing not only the contrast-enhancing tumour but also the non-enhancing FLAIR-abnormal region — is under investigation but not yet standard practice.\n\n**Fluorescence-guided surgery with 5-aminolevulinic acid (5-ALA)** has become the standard of care for GBM resection in many centres. 5-ALA is a haem precursor that accumulates preferentially in high-grade glioma cells and is converted to protoporphyrin IX (PpIX), which fluoresces pink-red under violet light (405 nm). The pivotal PHOTON trial (Stummer, Lancet Oncol 2006) — a randomised controlled trial of 322 patients — demonstrated that 5-ALA guided resection achieved complete resection of contrast-enhancing tumour in 65% vs 36% of patients using white light alone (p<0.0001), with a significantly higher 6-month progression-free survival (41% vs 21%, p=0.0003). Based on this evidence, 5-ALA (Gliolan) received EMA approval in 2007 and is now endorsed by EANS and EANO as a standard tool for high-grade glioma resection.\n\n**Intraoperative MRI (iMRI)** is available in specialised centres and allows real-time assessment of residual tumour during surgery, with the option to continue resection if safe. Studies have shown that iMRI can increase the rate of complete resection by 20-30%. **Awake craniotomy with cortical/subcortical mapping** is the gold standard for tumours in or near eloquent cortex, allowing continuous neurological monitoring during resection and maximising the safety margin of the procedure. The **tractography** of critical white matter tracts (corticospinal tract, arcuate fasciculus) pre-operatively guides surgical planning and intraoperative neuronavigation."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Tools for GBM Resection — Evidence Summary",
+          "headers": ["Tool", "Mechanism", "Key Evidence", "Benefit", "Limitations"],
+          "rows": [
+            ["5-ALA (Gliolan)", "Fluorescence of PpIX under violet light", "PHOTON trial, Lancet Oncol 2006 (RCT)", "65% vs 36% complete resection rate", "Photosensitivity 24h; false positives in cortex"],
+            ["Neuronavigation (iMRI/GPS)", "Real-time spatial orientation", "Multiple cohort studies", "Reduces 'lost orientation' errors", "Brain shift limits accuracy late in surgery"],
+            ["Intraoperative MRI (iMRI)", "Real-time residual tumour detection", "IMRIS and Erlangen data", "+20-30% complete resection rate", "Expensive, time-consuming, not universally available"],
+            ["Awake craniotomy", "Direct neurological monitoring", "Multiple series, >1000 patients", "Preserves eloquent function", "Patient selection; anxiety, claustrophobia"],
+            ["Intraoperative ultrasound (IOUS)", "Real-time tumour localisation", "Multiple cohort studies", "Low cost, widely available", "Lower resolution than iMRI; operator-dependent"],
+            ["Motor/language mapping (SSEP, MEP)", "Electrophysiological monitoring", "Standard of care in eloquent surgery", "Prevents permanent deficits", "Anaesthesia limitations for motor mapping"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — 5-ALA and the PHOTON Trial",
+          "content": "The PHOTON trial (Stummer, Lancet Oncol 2006) is the only RCT demonstrating improved resection rate and 6-month PFS with 5-ALA in GBM. The drug must be given 3-5 hours before surgery. It does not improve OS in the trial itself (probably because adjuvant treatment was not standardised), but subsequent population studies show an OS benefit. 5-ALA is now approved and standard for high-grade glioma resection in Europe."
+        }
+      ]
+    },
+    {
+      "id": "A1-S4",
+      "title": "The Stupp Protocol: Chemoradiotherapy Standard of Care",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The current standard of care for newly diagnosed GBM IDH wild-type in adults up to approximately 70 years of age with good performance status is the **Stupp protocol**, established by the landmark EORTC 26981/NCIC CE.3 trial published in the New England Journal of Medicine in 2005. This randomised controlled trial enrolled 573 patients with newly diagnosed GBM and compared **radiotherapy alone** (60 Gy in 30 fractions over 6 weeks) versus **radiotherapy plus concurrent and adjuvant temozolomide (RT-TMZ)**. Temozolomide was given at 75 mg/m²/day continuously during radiotherapy, followed by 6 cycles of adjuvant TMZ at 150-200 mg/m²/day for 5 days every 28 days.\n\nThe results were unequivocal and practice-changing: median OS was **14.6 months** in the RT-TMZ arm versus 12.1 months in the RT-alone arm (HR 0.63, 95% CI 0.52-0.75; p<0.001). Five-year survival was 9.8% versus 1.9%. The survival benefit was consistent across all subgroups, but was most pronounced in patients with **MGMT-methylated tumours** (2-year survival 46% vs 22.7% in RT-TMZ vs RT-alone; in unmethylated tumours: 13.8% vs 10.1%), establishing MGMT methylation as a predictive biomarker. The 10-year follow-up data (Stupp, Lancet Oncol 2009) confirmed these results with 5-year OS of 9.8% and 10-year OS of 5.1% for RT-TMZ.\n\nThe **MGMT-unmethylated patient** remains the major therapeutic challenge. Several trials have evaluated the addition of bevacizumab (anti-VEGF antibody) to the Stupp protocol. The AVAGLIO trial (Chinot, NEJM 2014) and RTOG 0825 trial (Gilbert, NEJM 2014) both added bevacizumab to RT-TMZ in unselected GBM patients. While bevacizumab significantly improved PFS (from approximately 6 months to 10 months), neither trial showed an improvement in OS, and RTOG 0825 showed worse quality of life and cognitive function in the bevacizumab arm. Bevacizumab is NOT part of first-line standard of care for GBM in Europe.\n\nFor **elderly patients** (>65-70 years) or those with poor performance status (KPS <60), hypofractionated radiotherapy (40 Gy in 15 fractions over 3 weeks, or 34 Gy in 10 fractions) is preferred. The CCTG CE.6/EORTC 26062-22061 trial (Perry, NEJM 2017) demonstrated that adding TMZ to short-course RT in elderly patients improved OS (9.3 months vs 7.6 months; HR 0.67; p<0.001), particularly in MGMT-methylated patients (13.5 vs 7.7 months)."
+        },
+        {
+          "type": "table",
+          "title": "Stupp Protocol — Treatment Schedule",
+          "headers": ["Phase", "Duration", "Radiotherapy", "Temozolomide", "Key Toxicity"],
+          "rows": [
+            ["Concomitant", "6 weeks", "60 Gy in 30 fractions (2 Gy/day, Mon-Fri)", "75 mg/m²/day continuous (7 days/week including weekends)", "Lymphopenia, PCP pneumonia (prophylaxis mandatory)"],
+            ["Adjuvant (cycle 1)", "28 days", "None", "150 mg/m²/day × 5 days", "Nausea, thrombocytopaenia"],
+            ["Adjuvant (cycles 2-6)", "28 days each", "None", "200 mg/m²/day × 5 days (if tolerated)", "Cumulative myelosuppression"],
+            ["Post-treatment", "Ongoing MRI every 2-3 months", "—", "—", "Pseudoprogression at 1st MRI in 20-30%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Pseudoprogression After RT-TMZ",
+          "content": "Pseudoprogression occurs in 20-30% of GBM patients at the first post-treatment MRI (typically 4-8 weeks after completion of RT-TMZ). It presents as increased contrast enhancement and oedema that mimics true tumour progression but actually reflects treatment effect. It is more common in MGMT-methylated patients. Misinterpreting pseudoprogression as true progression leads to premature discontinuation of effective treatment. Use Response Assessment in Neuro-Oncology (RANO) criteria and consider repeat MRI 4-6 weeks later or advanced imaging (MRS, perfusion MRI) before concluding progression."
+        }
+      ]
+    },
+    {
+      "id": "A1-S5",
+      "title": "Recurrent GBM: Treatment Options",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Despite maximal initial treatment, virtually all GBM IDH wild-type tumours recur, typically within 6-10 months of completing the Stupp protocol. The management of recurrent GBM (rGBM) remains one of the most challenging problems in oncology. There is no universally accepted standard of care at recurrence, and treatment decisions depend on patient age and performance status, the interval from primary treatment, MGMT status, the pattern of recurrence (local vs multifocal), and prior treatment received.\n\n**Bevacizumab** (10 mg/kg IV every 2 weeks) is approved in many countries for rGBM based on two single-arm phase II trials (BRAIN trial, Friedman et al., JCO 2009) showing response rates of 28% and 6-month PFS of 42.6%. However, the subsequent BELOB trial (Taal, Lancet Oncol 2014) — a randomised phase II comparing bevacizumab alone vs lomustine alone vs the combination — and the EORTC 26101 phase III trial (Wick et al., Lancet Oncol 2017) failed to demonstrate an OS benefit for bevacizumab over lomustine in rGBM. The 2017 EORTC trial showed median OS of 9.1 months for lomustine alone vs 8.6 months for bevacizumab + lomustine (p=0.65), definitively disproving synergy.\n\n**Re-surgery** at recurrence may benefit selected patients — specifically those with good performance status (KPS ≥70), age <65 years, a long interval from primary surgery (>6 months), and a well-localised recurrence amenable to gross total resection. The DIRECTOR trial (Wick et al., Neuro Oncol 2016) explored re-dosing TMZ at recurrence and found no advantage. **Lomustine (CCNU)** remains a widely used alkylating agent at recurrence, with response rates of approximately 15-20% and median PFS of approximately 6 weeks in unselected patients.\n\nThe **tumour treating fields (TTFields)** device (Optune, Novocure) — a non-invasive device delivering low-intensity, intermediate-frequency alternating electric fields via transducer arrays applied to the scalp — was evaluated in the EF-14 trial (Stupp, JAMA 2015), which randomised 695 newly diagnosed GBM patients to maintenance TMZ alone vs TTFields + maintenance TMZ after completion of RT-TMZ. The TTFields arm showed significantly improved median OS (20.9 vs 16.0 months; HR 0.63; p<0.001) and median PFS (6.7 vs 4.0 months). The FDA approved TTFields for newly diagnosed GBM in 2015, though its adoption in Europe remains variable due to practical challenges with device adherence."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — TTFields and the EF-14 Trial",
+          "content": "The EF-14 trial (Stupp, JAMA 2015) is the only phase III trial to improve OS beyond the Stupp protocol in newly diagnosed GBM, showing 20.9 vs 16.0 months median OS with TTFields added to maintenance TMZ (HR 0.63; p<0.001). Compliance is key: patients who wore the device >22 hours/day had median OS of 24.9 months. FDA-approved in 2015 for newly diagnosed GBM. At recurrence, TTFields + bevacizumab (EF-11 trial) also showed improved PFS and OS."
+        }
+      ]
+    },
+    {
+      "id": "A1-S6",
+      "title": "Imaging Diagnosis and Post-Treatment Monitoring",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The radiological diagnosis of GBM relies primarily on contrast-enhanced MRI with multiple sequences. The characteristic appearance is a **ring-enhancing lesion** — thick, irregular, nodular rim enhancement with central hypointensity (necrosis) and surrounding T2/FLAIR hyperintensity representing oedema and tumour infiltration. The lesion typically crosses the corpus callosum ('butterfly glioma') in 5-10% of cases. GBM is almost always supratentorial and unilateral at presentation, though multifocal or multicentric GBM occurs in 2-5% of cases.\n\nMRI sequences essential for GBM evaluation include: **T1** (pre- and post-gadolinium) for contrast enhancement and anatomy; **T2/FLAIR** for oedema extent and non-enhancing tumour; **DWI/ADC** to assess cellularity (low ADC = hypercellular tumour); **perfusion MRI (DSC-MRI)** to quantify rCBV (increased in high-grade areas); and **MR spectroscopy (MRS)** showing elevated choline, reduced NAA, and a lactate/lipid peak in necrotic regions. **Diffusion tensor imaging (DTI) with tractography** is essential for pre-operative planning when the tumour is adjacent to critical white matter tracts.\n\nPost-treatment monitoring follows **RANO (Response Assessment in Neuro-Oncology) 2010 criteria**, which require both radiological and clinical assessment. The criteria define complete response, partial response, stable disease, and progressive disease based on bidirectional measurement of contrast-enhancing lesions, while acknowledging the confound of pseudoprogression (within 12 weeks of completing RT) and pseudoresponse (on bevacizumab, which can reduce contrast enhancement without true anti-tumour effect). **Modified RANO criteria** and newer consensus updates (RANO 2.0, 2023) incorporate advanced imaging metrics and volumetric measurements to improve response assessment accuracy."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — RANO Criteria and Bevacizumab Pseudoresponse",
+          "content": "Bevacizumab reduces vascular permeability independently of tumour cell kill, dramatically reducing contrast enhancement on MRI without a true anti-tumour effect in many cases. This 'pseudoresponse' creates a false impression of treatment success. T2/FLAIR signal may simultaneously increase, reflecting tumour spread beyond the blood-brain barrier disruption. Always monitor both contrast-enhancing AND non-enhancing (FLAIR) tumour burden in bevacizumab-treated patients. Isolated T2/FLAIR expansion during bevacizumab treatment usually represents true progression."
+        }
+      ]
+    },
+    {
+      "id": "A1-S7",
+      "title": "Prognosis, Clinical Trials, and Future Directions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Several validated prognostic scoring systems exist for GBM. The **RTOG RPA classification** (Curran, JNCI 1993) uses age, KPS, extent of surgery, neurological status, and tumour location to stratify patients into 6 classes (I-VI), with median OS ranging from 4.6 months (class VI) to 58.6 months (class I+II). The **EORTC GBM score** incorporates MGMT status, age, KPS, and extent of resection. For clinical trial stratification, MGMT methylation and MGMT-based patient selection have become essential — evidenced by the CODEL trial (IDH-mutant oligodendroglioma) and CATNON trial (IDH-mutant non-1p/19q astrocytoma), which relied heavily on molecular stratification.\n\nThe landscape of GBM clinical trials is evolving rapidly in several directions. **Immunotherapy with immune checkpoint inhibitors** (nivolumab, pembrolizumab) has shown disappointing results in GBM despite success in other cancers — the CheckMate 498 and CheckMate 548 trials both failed to demonstrate OS benefit for nivolumab added to RT±TMZ, likely due to the immunosuppressive GBM microenvironment and paucity of tumour-infiltrating lymphocytes. **CAR-T cell therapy** targeting GBM antigens (EGFRvIII, IL13Rα2, GD2) is in early clinical trials with preliminary promising signals but significant challenges including antigen heterogeneity and the immunosuppressive microenvironment.\n\n**IDH inhibitors** (ivosidenib, olutasidenib) have transformed IDH-mutant glioma management (INDIGO trial, 2023 — vorasidenib improved PFS in IDH-mutant grade 2 gliomas) but are not applicable to GBM IDH wild-type. **PDGFRA amplification** and **FGFR1** alterations are targetable in a small subset of GBM. Ongoing trials include the GBM AGILE platform trial (adaptive design, multiple simultaneous arms) and the INFORM2 precision oncology programme for paediatric high-grade glioma."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Checkpoint Inhibitors Have Failed in GBM",
+          "content": "Unlike melanoma or NSCLC, GBM does not respond to PD-1/PD-L1 inhibitors in unselected populations. CheckMate 498 (nivolumab vs RT in MGMT-unmethylated GBM) and CheckMate 548 (nivolumab + RT-TMZ vs placebo + RT-TMZ) both showed no OS benefit. This is attributed to low TMB in most GBM, the blood-brain barrier limiting T-cell trafficking, and profound local immunosuppression. Checkpoint inhibitors are not standard of care for GBM as of 2024. The exception may be the rare hypermutated GBM post-TMZ (mismatch repair deficiency), where single-arm data suggest benefit."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of glioblastoma with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A1-Q1",
+        "stem": "A 58-year-old man presents with 3 weeks of progressive right-sided weakness and speech difficulty. MRI shows a 4.5 cm ring-enhancing lesion in the left frontal lobe with extensive surrounding FLAIR signal abnormality and central necrosis. Gross total resection is performed. Pathology shows diffuse astrocytic tumour with microvascular proliferation and pseudopalisading necrosis. IDH testing is negative (wild-type). Which additional molecular test is MOST important for guiding adjuvant treatment selection?",
+        "options": {
+          "A": "EGFR gene amplification by FISH",
+          "B": "MGMT promoter methylation status",
+          "C": "1p/19q co-deletion by FISH",
+          "D": "BRAF V600E mutation by PCR"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MGMT promoter methylation is the single most important predictive biomarker in GBM IDH wild-type. It predicts response to temozolomide (TMZ) chemotherapy — the backbone of the Stupp protocol. The EORTC 26981/NCIC CE.3 trial (Stupp, NEJM 2005) showed 2-year survival of 46% in MGMT-methylated vs 14% in unmethylated patients on RT-TMZ. In elderly patients (>65-70 years), MGMT status also guides the choice between RT alone, TMZ alone, or combined treatment (Perry, NEJM 2017). Testing MGMT is now mandatory in all GBM per NCCN, EANO, and EANS guidelines.",
+          "wrong": {
+            "A": "EGFR amplification is part of the diagnostic criteria for GBM IDH wild-type when histology is equivocal but does not guide treatment selection — no anti-EGFR therapy is approved for first-line GBM. EGFRvIII-targeting therapies (rindopepimut) failed in the ACT IV trial.",
+            "C": "1p/19q co-deletion defines oligodendroglioma, which by definition requires IDH mutation. In an IDH wild-type tumour, 1p/19q co-deletion is not diagnostically relevant and does not guide treatment.",
+            "D": "BRAF V600E mutation is relevant in certain paediatric gliomas, ganglioglioma, and pleomorphic xanthoastrocytoma, but is rare in adult GBM and not part of standard biomarker panel for treatment stratification."
+          },
+          "guideline": "NCCN CNS Tumors v1.2024 — Section GBM-1: MGMT methylation testing mandatory in all newly diagnosed GBM",
+          "trial": "EORTC 26981/NCIC CE.3 (Stupp, NEJM 2005): RT-TMZ vs RT alone; median OS 14.6 vs 12.1 months; MGMT-methylated 2-year OS 46% vs 14%",
+          "pearl": "MGMT promoter methylation (present in 40-45% of GBM) is the strongest predictive biomarker for temozolomide benefit and is mandatory testing in all newly diagnosed GBM."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q2",
+        "stem": "A 65-year-old woman undergoes craniotomy for a right parietal GBM IDH wild-type. Intraoperatively, the neurosurgeon uses 5-aminolevulinic acid (5-ALA) fluorescence guidance. According to the pivotal randomised trial, what was the primary advantage of 5-ALA guided resection compared to white-light surgery?",
+        "options": {
+          "A": "Significantly improved overall survival at 2 years",
+          "B": "Higher rate of complete resection of contrast-enhancing tumour and improved 6-month PFS",
+          "C": "Reduced operative time and blood loss",
+          "D": "Superior preservation of neurological function compared to awake craniotomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The PHOTON trial (Stummer, Lancet Oncol 2006) — the only RCT of 5-ALA in high-grade glioma — demonstrated a significantly higher rate of complete resection of contrast-enhancing tumour on post-operative MRI (65% vs 36%, p<0.0001) and improved 6-month progression-free survival (41% vs 21%, p=0.0003) in the 5-ALA arm. The trial was not powered to demonstrate OS benefit. 5-ALA received EMA approval in 2007 and is now standard for high-grade glioma resection.",
+          "wrong": {
+            "A": "The PHOTON trial was not powered to detect an OS benefit, and the primary endpoint was the rate of complete resection and 6-month PFS. While subsequent population-level data suggest an OS benefit, the RCT level evidence is for resection completeness and early PFS.",
+            "C": "Operative time with 5-ALA is typically longer because the surgeon carefully inspects fluorescent tissue. Blood loss is not a primary outcome and is not significantly different.",
+            "D": "5-ALA and awake craniotomy serve different purposes — 5-ALA identifies high-grade tumour tissue, while awake craniotomy maps eloquent function. These are often used together in language/motor area tumours."
+          },
+          "guideline": "EANS Guidelines for High-Grade Glioma Surgery 2024: 5-ALA recommended for all suspected high-grade glioma resections (Grade A evidence)",
+          "trial": "PHOTON trial (Stummer, Lancet Oncol 2006): RCT, n=322, complete resection 65% vs 36% (p<0.0001), 6-month PFS 41% vs 21% (p=0.0003)",
+          "pearl": "5-ALA (Gliolan) must be given 3-5 hours before surgery. Complete contrast-enhancing tumour resection is the strongest modifiable prognostic factor in GBM and should be the surgical goal unless eloquent structures are at risk."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q3",
+        "stem": "Under the WHO 2021 CNS tumour classification, a diffuse astrocytic tumour in a 55-year-old man with no microvascular proliferation or necrosis on histology, but with IDH wild-type status, TERT promoter mutation, EGFR amplification, and combined +7/-10 chromosomal changes would be classified as:",
+        "options": {
+          "A": "Diffuse astrocytoma IDH wild-type, WHO grade 2",
+          "B": "Anaplastic astrocytoma IDH wild-type, WHO grade 3",
+          "C": "Glioblastoma IDH wild-type, WHO grade 4",
+          "D": "Diffuse midline glioma H3 K27-altered, WHO grade 4"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "WHO 2021 classifies a diffuse astrocytic tumour as GBM IDH wild-type (grade 4) if it shows at least one of: microvascular proliferation, necrosis, OR the molecular triad of TERT promoter mutation + EGFR amplification + chromosome 7 gain/10 loss. In this case, despite the absence of histological grade 4 features, the molecular profile (TERT mutation + EGFR amplification + +7/-10) defines GBM IDH wild-type grade 4. This is a major paradigm shift from WHO 2016 where morphology alone determined grade.",
+          "wrong": {
+            "A": "Under WHO 2021, a diffuse astrocytic tumour cannot be grade 2 if it is IDH wild-type with the molecular triad. The molecular profile overrides the morphological appearance.",
+            "B": "Similarly, it cannot be grade 3 (anaplastic) — the WHO 2021 classification does not recognise 'anaplastic astrocytoma IDH wild-type' as a grade 3 entity. IDH wild-type diffuse astrocytic tumours with these molecular features are GBM grade 4.",
+            "D": "Diffuse midline glioma H3 K27-altered is a specific entity defined by H3 K27M mutation (or EZHIP overexpression in EZHIP-GBM) occurring in midline structures (thalamus, brainstem, spinal cord). It is a separate diagnostic entity from GBM IDH wild-type."
+          },
+          "guideline": "WHO Classification of Tumours of the CNS, 5th ed. (2021): GBM IDH wild-type diagnostic criteria include molecular triad without requirement for histological grade 4 features",
+          "trial": "Louis DN et al. Neuro Oncol 2021 (WHO 2021 Classification): molecular criteria for GBM IDH wild-type established based on prognostic equivalence with histologically grade 4 GBM",
+          "pearl": "In WHO 2021, molecular features supersede morphology for GBM diagnosis. A 'low-grade appearing' IDH wild-type astrocytoma with TERT mutation + EGFR amplification + +7/-10 is a GBM grade 4 and should receive Stupp protocol treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q4",
+        "stem": "A 72-year-old woman with KPS 70 is diagnosed with GBM IDH wild-type, MGMT promoter unmethylated. She is unable to tolerate 6 weeks of full-dose radiotherapy. According to current evidence-based guidelines for elderly GBM patients, what is the preferred initial treatment?",
+        "options": {
+          "A": "Temozolomide monotherapy (150-200 mg/m² × 5 days, every 28 days)",
+          "B": "Hypofractionated radiotherapy (40 Gy in 15 fractions) without temozolomide",
+          "C": "Standard RT-TMZ (Stupp protocol, 60 Gy in 30 fractions + TMZ)",
+          "D": "Best supportive care only — chemotherapy is not indicated in elderly unmethylated GBM"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For MGMT-unmethylated elderly GBM patients, hypofractionated radiotherapy (40 Gy in 15 fractions over 3 weeks) is preferred. The Perry (CCTG CE.6/EORTC 26062) trial (NEJM 2017) showed that adding TMZ to short-course RT improved OS primarily in MGMT-methylated elderly patients (13.5 vs 7.7 months). In MGMT-unmethylated patients, the benefit of adding TMZ to RT was minimal (10.0 vs 7.9 months, p=0.06). For unmethylated tumours, RT alone (hypofractionated) is the evidence-based standard. TMZ monotherapy is preferred for MGMT-methylated elderly patients unable to tolerate RT.",
+          "wrong": {
+            "A": "TMZ monotherapy is the preferred treatment for MGMT-methylated elderly patients, not unmethylated. In MGMT-unmethylated tumours, TMZ provides minimal benefit as the repair enzyme MGMT actively reverses TMZ-induced DNA damage.",
+            "C": "Full Stupp protocol (60 Gy in 30 fractions + concurrent TMZ) is not appropriate for a 72-year-old with KPS 70 who cannot tolerate 6 weeks of RT. Hypofractionated schedules (40 Gy/15f or 34 Gy/10f) have equivalent outcomes in elderly patients.",
+            "D": "Best supportive care alone is not appropriate here — the patient has KPS 70 which allows active treatment. Even MGMT-unmethylated elderly GBM patients benefit from hypofractionated RT compared to supportive care alone."
+          },
+          "guideline": "EANO Guidelines 2021 / NCCN CNS Tumors 2024: Elderly GBM — MGMT unmethylated: short-course RT preferred; MGMT methylated: TMZ or short-course RT + TMZ",
+          "trial": "Perry CCTG CE.6/EORTC 26062 (NEJM 2017): Short-course RT + TMZ vs short-course RT in elderly GBM; OS benefit primarily in MGMT-methylated (13.5 vs 7.7 months, HR 0.53)",
+          "pearl": "In elderly GBM (>65-70 years), MGMT status determines treatment: methylated → TMZ (±hypofractionated RT); unmethylated → hypofractionated RT alone. Full Stupp protocol is rarely appropriate in this age group."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q5",
+        "stem": "A 50-year-old man with GBM IDH wild-type completed concurrent RT-TMZ 6 weeks ago. His post-treatment MRI shows a 25% increase in the contrast-enhancing area compared to the pre-RT MRI, along with increased FLAIR signal. He is neurologically stable. What is the most appropriate next step?",
+        "options": {
+          "A": "Start bevacizumab immediately for tumour progression",
+          "B": "Consider this pseudoprogression — continue planned adjuvant TMZ and repeat MRI in 4-8 weeks",
+          "C": "Refer for re-surgery as the tumour has progressed through RT-TMZ",
+          "D": "Discontinue TMZ and enrol in a clinical trial for recurrent GBM"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pseudoprogression occurs in 20-30% of GBM patients at the first post-RT MRI (typically 4-12 weeks after completion of RT-TMZ). It represents treatment-related inflammation and increased vascular permeability, not true tumour regrowth. It is more common in MGMT-methylated patients (occurring in up to 35-40% of this group). Under RANO criteria, imaging changes within 12 weeks of completing RT are attributed to pseudoprogression unless there is new enhancement outside the radiation field or biopsy-proven recurrence. The correct management is to continue planned adjuvant TMZ and repeat MRI in 4-8 weeks.",
+          "wrong": {
+            "A": "Starting bevacizumab for what may be pseudoprogression is incorrect — bevacizumab would falsely normalise the enhancement (pseudoresponse), making future assessment of true tumour progression impossible.",
+            "C": "Re-surgery is not indicated when pseudoprogression is the most likely explanation in a neurologically stable patient 6 weeks after completing RT-TMZ. Surgery carries risk and should be reserved for confirmed progression with mass effect.",
+            "D": "Discontinuing TMZ before completing the planned 6 adjuvant cycles based on a post-RT MRI showing likely pseudoprogression is premature and would deprive the patient of potentially beneficial treatment."
+          },
+          "guideline": "RANO 2010 Criteria (Wen et al., JCO 2010): Imaging within 12 weeks of RT completion should not be used to define progression without new lesion outside radiation field or histopathological confirmation",
+          "trial": "Brandsma D et al. Lancet Oncol 2008: Pseudoprogression occurs in 20-30% of GBM post RT-TMZ; MGMT methylation correlates with higher pseudoprogression rate (up to 35-40%)",
+          "pearl": "Pseudoprogression peaks at 4-12 weeks post-RT-TMZ. MGMT methylation increases its likelihood. Follow RANO criteria: do not declare progression within 12 weeks of completing RT without confirmatory evidence. Observe and repeat MRI before changing treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q6",
+        "stem": "The EF-14 trial evaluated tumour treating fields (TTFields) in newly diagnosed GBM. Patients were randomised after completion of RT-TMZ to maintenance TMZ alone versus TTFields plus maintenance TMZ. What were the primary results of this trial?",
+        "options": {
+          "A": "No significant difference in OS; trial was stopped early for futility",
+          "B": "Significant improvement in median OS (20.9 vs 16.0 months) and median PFS with TTFields + TMZ",
+          "C": "Significant improvement in OS only in MGMT-methylated patients",
+          "D": "Improved PFS without OS benefit, similar to bevacizumab trials"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The EF-14 trial (Stupp et al., JAMA 2015, updated JAMA 2017) randomised 695 patients with newly diagnosed GBM after completion of RT-TMZ to TTFields + maintenance TMZ vs maintenance TMZ alone. The trial showed significantly improved median OS (20.9 vs 16.0 months; HR 0.63; 95% CI 0.53-0.76; p<0.001) and median PFS (6.7 vs 4.0 months). The 5-year OS was 13% vs 5%. This is the only phase III trial to show an OS improvement beyond the Stupp protocol in unselected newly diagnosed GBM. TTFields are FDA-approved for newly diagnosed GBM since 2015.",
+          "wrong": {
+            "A": "EF-14 was not stopped for futility — it was stopped early for benefit when the interim analysis showed significant OS improvement. The final analysis confirmed the initial results.",
+            "C": "The OS benefit with TTFields in EF-14 was not restricted to MGMT-methylated patients — it was consistent across MGMT subgroups, though the absolute benefit was numerically larger in methylated patients.",
+            "D": "Unlike bevacizumab (which showed PFS benefit without OS benefit in AVAGLIO and RTOG 0825), TTFields in EF-14 showed both PFS and OS benefit. This distinguishes it as the only treatment to improve OS beyond Stupp."
+          },
+          "guideline": "NCCN CNS Tumors 2024 / EANO 2021: TTFields (Optune) + maintenance TMZ recommended for newly diagnosed GBM after completion of RT-TMZ (Category 1 in NCCN)",
+          "trial": "EF-14 (Stupp, JAMA 2015/2017): n=695, median OS 20.9 vs 16.0 months (HR 0.63, p<0.001), 5-year OS 13% vs 5%; device adherence >22h/day → median OS 24.9 months",
+          "pearl": "TTFields (Optune) is the only treatment to improve OS beyond the Stupp protocol in newly diagnosed GBM. Compliance matters critically: patients using the device >22 hours/day have median OS of 24.9 months. FDA-approved; NCCN Category 1."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q7",
+        "stem": "A 45-year-old woman with GBM IDH wild-type is planning surgery for a tumour in the dominant hemisphere adjacent to Broca's area. Pre-operative DTI tractography shows the tumour is immediately adjacent to the left arcuate fasciculus. Which surgical approach best minimises the risk of permanent aphasia while maximising resection?",
+        "options": {
+          "A": "Stereotactic biopsy only — resection is contraindicated due to eloquent location",
+          "B": "Awake craniotomy with intraoperative language mapping and cortical/subcortical stimulation",
+          "C": "General anaesthesia with intraoperative cortical SSEP monitoring",
+          "D": "Robotic-assisted resection with neuronavigation only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Awake craniotomy with direct cortical and subcortical electrical stimulation mapping is the gold standard for tumours adjacent to language areas. It allows real-time testing of language function (naming, repetition, reading) while the surgeon stimulates the cortex and subcortical tracts, identifying eloquent tissue that must be preserved. Multiple series have shown that awake craniotomy significantly increases the extent of resection in eloquent area tumours while maintaining or improving neurological outcomes compared to surgery under general anaesthesia. The arcuate fasciculus is a subcortical language tract connecting Broca's and Wernicke's areas — subcortical stimulation during awake craniotomy directly maps this structure.",
+          "wrong": {
+            "A": "Stereotactic biopsy provides diagnosis but no cytoreduction, which is known to improve survival and quality of life. GBM location in eloquent cortex is not an absolute contraindication to resection — awake craniotomy allows safe resection in these locations.",
+            "C": "Intraoperative SSEP (somatosensory evoked potentials) monitors sensory pathways but does NOT monitor language function. Language mapping requires the patient to be awake and responsive. SSEP under general anaesthesia cannot protect language function.",
+            "D": "Neuronavigation provides spatial orientation but cannot identify eloquent cortex or subcortical tracts in real time during surgery. It does not replace direct electrical stimulation mapping for language area tumours."
+          },
+          "guideline": "EANS Guidelines for High-Grade Glioma Surgery 2024: Awake craniotomy with direct electrical stimulation mapping recommended for tumours within/adjacent to eloquent cortex",
+          "trial": "De Witte E et al. J Neurosurg 2015; Duffau H series: Awake craniotomy with DES enables resection with <5% permanent language deficit rate in experienced centres",
+          "pearl": "Awake craniotomy with direct electrical stimulation is the standard for language area tumours. The arcuate fasciculus (connecting Broca's/Wernicke's) must be mapped subcortically. Subcortical stimulation at <1 cm from a language-positive site is the safety margin."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q8",
+        "stem": "What is the mechanism by which MGMT promoter methylation predicts response to temozolomide chemotherapy in GBM?",
+        "options": {
+          "A": "MGMT methylation activates DNA mismatch repair, increasing TMZ-induced DNA strand breaks",
+          "B": "MGMT methylation silences the MGMT repair enzyme, preventing tumour cells from reversing TMZ-induced O6-methylguanine lesions",
+          "C": "MGMT methylation upregulates topoisomerase II, enhancing TMZ's alkylating activity",
+          "D": "MGMT methylation reduces P-glycoprotein expression, increasing intracellular TMZ concentration"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that transfers alkyl groups from the O6 position of guanine to a cysteine residue within the enzyme itself — a 'suicide' repair mechanism that irreversibly inactivates MGMT. When the MGMT promoter is hypermethylated, MGMT transcription is silenced. Without MGMT activity, the O6-methylguanine lesions caused by temozolomide persist and cause DNA double-strand breaks when the cell tries to replicate, triggering apoptosis. In MGMT-unmethylated tumours, MGMT is expressed and actively repairs TMZ-induced lesions, rendering the drug ineffective.",
+          "wrong": {
+            "A": "MGMT methylation does not activate DNA mismatch repair. In fact, loss of mismatch repair (MLH1, MSH2 etc.) can cause TMZ resistance through tolerance of O6-methylguanine mismatches. The mechanism is specifically MGMT enzyme silencing.",
+            "C": "MGMT methylation has no direct relationship with topoisomerase II. TMZ's mechanism is alkylation at the O6-guanine position, not topoisomerase inhibition.",
+            "D": "P-glycoprotein (ABCB1/MDR1) is a drug efflux pump relevant to some chemotherapy agents, but MGMT methylation does not affect P-glycoprotein expression. TMZ resistance in MGMT-unmethylated tumours is specifically due to active DNA repair, not efflux."
+          },
+          "guideline": "NCCN CNS Tumors 2024 / EANO 2021: MGMT methylation is a predictive biomarker for TMZ benefit due to MGMT enzyme silencing",
+          "trial": "Hegi ME et al. NEJM 2005 (companion paper to Stupp trial): MGMT methylation correlated with OS benefit from TMZ; proposed mechanism is MGMT enzyme silencing",
+          "pearl": "MGMT is a 'suicide enzyme' — it irreversibly transfers the O6-alkyl lesion to itself and becomes inactive. When methylated (silenced), the tumour cannot repair O6-guanine lesions, leading to TMZ-induced cell death. This is the only clinically validated predictive biomarker for alkylating chemotherapy in GBM."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q9",
+        "stem": "A 60-year-old man with GBM IDH wild-type, MGMT methylated, completed the Stupp protocol and adjuvant TMZ 8 months ago. MRI now shows unequivocal tumour progression (increase in contrast enhancement outside radiation field). KPS is 80. Which of the following represents the most evidence-supported treatment option for recurrent GBM at this stage in Europe?",
+        "options": {
+          "A": "Re-initiation of temozolomide at the same dose (200 mg/m² × 5 days)",
+          "B": "Bevacizumab + lomustine combination (based on EORTC 26101 showing OS benefit)",
+          "C": "Lomustine monotherapy or bevacizumab monotherapy, with re-surgery if feasible",
+          "D": "Pembrolizumab (PD-1 inhibitor) — approved for recurrent GBM with high TMB"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "There is no single standard of care for recurrent GBM in Europe. The main options are lomustine (CCNU) monotherapy, bevacizumab monotherapy, re-surgery (if feasible — single lesion, good KPS, >6 months from prior surgery), and clinical trial enrolment. Crucially, the EORTC 26101 trial (Wick, Lancet Oncol 2017) — the largest phase III trial in rGBM — showed that bevacizumab + lomustine did NOT improve OS over lomustine alone (8.6 vs 9.1 months; HR 1.06; p=0.65). This definitively showed no synergy between bevacizumab and lomustine in rGBM. Therefore, bevacizumab + lomustine combination is NOT recommended as it adds toxicity without benefit.",
+          "wrong": {
+            "A": "Re-initiating standard TMZ is generally not recommended at recurrence after standard Stupp/TMZ. The DIRECTOR trial (Wick, Neuro Oncol 2016) showed no benefit from TMZ rechallenge (dose-dense vs standard) in rGBM after prior TMZ.",
+            "B": "EORTC 26101 (Wick, Lancet Oncol 2017) definitively showed that bevacizumab + lomustine did NOT improve OS over lomustine alone (HR 1.06; p=0.65). The combination is not recommended based on this phase III evidence.",
+            "D": "Pembrolizumab is not approved for recurrent GBM in Europe or the US. CheckMate 143 (nivolumab vs bevacizumab in rGBM) showed no OS advantage for PD-1 inhibition. Hypermutated post-TMZ GBM may benefit but is not an approved indication."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: No standard of care for rGBM; options include lomustine, bevacizumab, re-surgery, TTFields, clinical trial; bevacizumab + lomustine NOT recommended based on EORTC 26101",
+          "trial": "EORTC 26101 (Wick, Lancet Oncol 2017): bevacizumab + lomustine vs lomustine in rGBM; OS 8.6 vs 9.1 months (HR 1.06; p=0.65) — no benefit for combination",
+          "pearl": "The EORTC 26101 trial definitively showed bevacizumab + lomustine does NOT improve OS over lomustine alone in rGBM. Despite PFS improvement with bevacizumab, no OS benefit has been demonstrated in any rGBM trial. Lomustine monotherapy remains a standard comparator arm in rGBM trials."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A1-Q10",
+        "stem": "A pathology report describes a brain tumour with the following features: diffuse infiltrative astrocytic morphology, no significant mitotic activity, no microvascular proliferation, no necrosis, IDH1 R132H positive by IHC, ATRX loss, 1p/19q intact. What is the WHO 2021 diagnosis and grade?",
+        "options": {
+          "A": "Glioblastoma IDH wild-type, WHO grade 4",
+          "B": "Oligodendroglioma IDH-mutant and 1p/19q codeleted, WHO grade 2",
+          "C": "Astrocytoma IDH-mutant, WHO grade 2",
+          "D": "Diffuse midline glioma H3 K27-altered, WHO grade 4"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This is an astrocytoma IDH-mutant. The WHO 2021 diagnostic criteria for astrocytoma IDH-mutant require: IDH mutation (present — IDH1 R132H by IHC), and either ATRX loss or TP53 mutation (ATRX loss is present), with intact 1p/19q (not a codeleted oligodendroglioma). The grade is 2 because there is no significant mitotic activity, no microvascular proliferation, and no necrosis, and presumably no CDKN2A/B homozygous deletion (which would upgrade it to grade 4). IDH-mutant astrocytoma grade 2 has a favourable prognosis (10-year OS approximately 70%) compared to GBM IDH wild-type.",
+          "wrong": {
+            "A": "GBM IDH wild-type requires IDH wild-type status. This tumour is IDH1 R132H positive (IDH-mutant), definitively excluding GBM IDH wild-type.",
+            "B": "Oligodendroglioma IDH-mutant requires 1p/19q co-deletion. This tumour has intact 1p/19q and ATRX loss — the combination of IDH mutation + ATRX loss + intact 1p/19q defines astrocytoma IDH-mutant, not oligodendroglioma.",
+            "D": "Diffuse midline glioma H3 K27-altered requires H3 K27M mutation (or EZHIP overexpression) and midline location (thalamus, brainstem, spinal cord). This is not described here."
+          },
+          "guideline": "WHO Classification of Tumours of the CNS, 5th ed. (2021): Astrocytoma IDH-mutant diagnostic criteria: IDH mutation + ATRX loss or TP53 mutation + intact 1p/19q; grade 2 if no high-grade histological or molecular features",
+          "trial": "CATNON trial (van den Bent, Lancet 2017): IDH-mutant non-codeleted glioma (astrocytoma) has significantly better OS with temozolomide, confirming distinct biology from GBM",
+          "pearl": "Astrocytoma IDH-mutant is not GBM. The IDH mutation + ATRX loss + intact 1p/19q combination is the molecular signature of astrocytoma. Its prognosis is substantially better than GBM IDH wild-type. Grade 2 → no CDKN2A deletion and no high-grade histology."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q11",
+        "stem": "A 55-year-old woman is found to have a GBM IDH wild-type post-operatively. Her MRI pre-operatively showed a 6 cm right frontal tumour. Post-operative MRI shows residual enhancement of approximately 2.5 cm³. According to landmark survival studies, which factor related to surgery most strongly predicts overall survival in GBM?",
+        "options": {
+          "A": "Total operative time",
+          "B": "Extent of resection — specifically achieving ≥98% resection of the contrast-enhancing volume",
+          "C": "Use of CUSA (ultrasonic aspirator) vs. bipolar electrosurgery",
+          "D": "Surgeon's annual GBM case volume"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Lacroix et al. retrospective analysis (JNS 2001, n=416) demonstrated that resection of ≥98% of the contrast-enhancing tumour was associated with significantly improved median OS (13 vs 8.8 months for <98% resection). Sanai et al. (JNS 2011, n=500) further showed incremental survival benefit at higher EOR thresholds. Multiple subsequent studies have confirmed that EOR is the strongest surgically modifiable prognostic factor in GBM, independent of age, KPS, and MGMT status. The current surgical goal is gross total resection (>95-98% of contrast-enhancing tumour) whenever neurologically safe.",
+          "wrong": {
+            "A": "Total operative time is not a validated predictor of GBM survival. Longer operative time may actually reflect more complex resections in eloquent areas.",
+            "C": "The choice of surgical instrument (CUSA vs bipolar) has not been shown to independently affect survival. What matters is the completeness of contrast-enhancing tumour removal.",
+            "D": "While surgeon volume likely matters for outcomes, it has not been studied as an independent predictor of GBM survival in the same way as EOR."
+          },
+          "guideline": "EANS High-Grade Glioma Surgery Guidelines 2024: Maximal safe resection (≥95% of contrast-enhancing volume) is the surgical standard for GBM",
+          "trial": "Lacroix et al. J Neurosurg 2001 (n=416): ≥98% EOR vs <98%: OS 13.0 vs 8.8 months; Sanai et al. J Neurosurg 2011 (n=500): incremental OS benefit at every 10% EOR increase above 78%",
+          "pearl": "Extent of resection is the strongest modifiable surgical prognostic factor in GBM. The target is ≥98% resection of contrast-enhancing tumour. Every 10% increase above 78% EOR independently improves survival."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q12",
+        "stem": "In the AVAGLIO trial and RTOG 0825 trial, bevacizumab was added to the standard Stupp protocol in newly diagnosed GBM. What were the consistent findings across both trials?",
+        "options": {
+          "A": "Improved OS and improved quality of life in both trials",
+          "B": "Improved PFS without OS benefit in both trials",
+          "C": "Improved OS only in MGMT-methylated patients in both trials",
+          "D": "No improvement in either PFS or OS in either trial"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Both AVAGLIO (Chinot, NEJM 2014) and RTOG 0825 (Gilbert, NEJM 2014) added bevacizumab to the Stupp protocol in newly diagnosed unselected GBM patients. Both trials showed consistent results: significantly improved PFS (from ~6-7 months to ~10 months) but NO improvement in OS. This pattern of PFS benefit without OS benefit is characteristic of anti-angiogenic therapy in GBM and is thought to reflect pseudoresponse (bevacizumab normalises vascular permeability, reducing contrast enhancement without true cell kill). RTOG 0825 additionally showed impaired quality of life and cognitive function in the bevacizumab arm.",
+          "wrong": {
+            "A": "Neither trial showed improved OS. RTOG 0825 actually showed worse quality of life in the bevacizumab arm, not improvement.",
+            "C": "There was no consistent OS benefit in MGMT-methylated patients in either trial. Both were negative for OS across all subgroups.",
+            "D": "Both trials did show improved PFS with bevacizumab. The discordance between PFS and OS is the key finding — bevacizumab improves PFS metrics without translating to OS benefit, likely due to pseudoresponse confounding PFS measurements."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: Bevacizumab NOT recommended as first-line treatment in newly diagnosed GBM based on AVAGLIO and RTOG 0825 phase III trials",
+          "trial": "AVAGLIO (Chinot, NEJM 2014): bevacizumab + RT-TMZ vs placebo + RT-TMZ; PFS 10.6 vs 6.2 months (p<0.001); OS 16.8 vs 16.7 months (p=0.10) — negative; RTOG 0825 (Gilbert, NEJM 2014): similar PFS benefit, no OS benefit, worse QoL",
+          "pearl": "Bevacizumab improves PFS but NOT OS in newly diagnosed GBM (AVAGLIO, RTOG 0825). This PFS-without-OS paradox likely reflects pseudoresponse. Bevacizumab is not part of standard first-line GBM treatment in Europe."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q13",
+        "stem": "A 62-year-old man has a GBM IDH wild-type. Pre-operative MRI shows the tumour adjacent to the right motor strip. The neurosurgeon plans awake craniotomy. Which intraoperative monitoring modality is MOST appropriate for identifying the motor strip in real time?",
+        "options": {
+          "A": "Direct cortical stimulation (monopolar or bipolar) with observation of motor response",
+          "B": "Somatosensory evoked potentials (SSEP) phase reversal to localise central sulcus",
+          "C": "Intraoperative ultrasound (IOUS) to identify cortical anatomy",
+          "D": "Fluorodeoxyglucose-PET-guided navigation"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Direct cortical stimulation (DCS) with low-intensity biphasic current and observation of contralateral motor responses is the gold standard for positive motor cortex mapping. Monopolar high-frequency stimulation (Penfield technique) or bipolar low-frequency stimulation with 50-60 Hz train stimuli are used. In awake patients, visible or palpable contralateral extremity movements confirm the motor cortex. This positive mapping approach directly identifies the cortex to be preserved, not merely the cortex to be avoided. It is more reliable than SSEP phase reversal, which only identifies the central sulcus indirectly.",
+          "wrong": {
+            "A": "This is in fact the correct answer — direct cortical stimulation is the gold standard for motor mapping. SSEP phase reversal is a useful adjunct to identify the central sulcus location (the signal phase reverses at the central sulcus), but it does not directly identify functional motor cortex.",
+            "B": "SSEP phase reversal identifies the central sulcus location (the somatosensory cortex is posterior to it, motor cortex anterior), but does not directly map functional motor territory. It is a useful complement but not a substitute for direct cortical stimulation.",
+            "C": "Intraoperative ultrasound identifies tissue planes and residual tumour but cannot identify functional cortical areas. It has no role in motor mapping.",
+            "D": "FDG-PET is used for metabolic tumour imaging pre-operatively, not for intraoperative cortical mapping."
+          },
+          "guideline": "EANS High-Grade Glioma Surgery Guidelines 2024 / IFCN Intraoperative Monitoring Standards: Direct cortical stimulation is the gold standard for motor cortex mapping in eloquent surgery",
+          "trial": "Duffau H series (multiple publications 2003-2020): DCS-guided resection of motor area gliomas achieves higher EOR with <3% permanent motor deficit rate in experienced centres",
+          "pearl": "Direct cortical stimulation (DCS) is the gold standard for motor cortex mapping. SSEP phase reversal localises the central sulcus but not the functional motor area. In awake craniotomy, subcortical stimulation of the corticospinal tract complements cortical mapping to set safe resection margins."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q14",
+        "stem": "A 48-year-old woman with GBM IDH wild-type, MGMT methylated, develops confirmed tumour progression on MRI 14 months after completing Stupp protocol and 6 cycles of adjuvant TMZ. She has KPS 80, single lesion of 2.5 cm in the right frontal lobe (non-eloquent), and the interval from primary surgery is 18 months. What is the most appropriate surgical decision?",
+        "options": {
+          "A": "No surgical intervention — medical treatment only at recurrence",
+          "B": "Re-surgery (re-resection) is a valid option and likely beneficial in this patient",
+          "C": "Stereotactic biopsy only to confirm recurrence before any treatment",
+          "D": "Immediate whole-brain radiotherapy without surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has multiple favourable factors for re-surgery at recurrence: KPS 80 (good performance status), single small localised lesion (2.5 cm), non-eloquent location, and a long interval from initial surgery (18 months — well beyond the generally accepted threshold of 6 months). Multiple retrospective series have shown that re-resection at GBM recurrence can improve OS by 2-4 months in carefully selected patients. The ideal candidate is young (<65), KPS ≥70, single lesion, long recurrence-free interval, and non-eloquent location — this patient meets all criteria. Re-surgery also provides tissue for molecular analysis of potential acquired resistance mechanisms.",
+          "wrong": {
+            "A": "Medical treatment only without surgery in a candidate who meets all criteria for beneficial re-resection is suboptimal. Surgical cytoreduction at recurrence has been shown to benefit selected patients.",
+            "C": "Biopsy alone when the clinical and MRI picture confirms recurrence (outside the 12-week pseudoprogression window) and the patient is a surgical candidate wastes an opportunity for cytoreduction. Biopsy is appropriate when the diagnosis is uncertain.",
+            "D": "Whole-brain radiotherapy (WBRT) at GBM recurrence is generally not recommended — the patient has already received focal radiotherapy (60 Gy) and WBRT has significant neurotoxicity with limited benefit in focal recurrence."
+          },
+          "guideline": "EANO 2021: Re-surgery at GBM recurrence recommended in patients with KPS ≥70, single lesion, long recurrence-free interval (≥6 months), non-eloquent location, and feasibility of gross total resection",
+          "trial": "RTOG recursive partitioning analysis at recurrence; Bloch et al. Neuro Oncol 2012: Re-resection criteria — KPS ≥70, age <65, single lesion, ≥6 months from prior surgery associated with OS benefit",
+          "pearl": "Re-surgery at GBM recurrence is beneficial in selected patients: KPS ≥70, single lesion in non-eloquent location, ≥6 months from initial surgery. It provides cytoreduction AND tissue for molecular profiling of acquired resistance (e.g., IDH acquisition, MSI-H)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q15",
+        "stem": "What is the characteristic MRI appearance of GBM IDH wild-type on standard sequences?",
+        "options": {
+          "A": "Homogeneous contrast enhancement, T2 hypointensity, no surrounding oedema",
+          "B": "Ring-enhancing lesion with central necrosis, surrounding T2/FLAIR hyperintensity (oedema and infiltration), and possible corpus callosum involvement",
+          "C": "Non-enhancing T2 hyperintense lesion without mass effect in a young patient",
+          "D": "Multiple punctate enhancing lesions at the grey-white matter junction bilaterally"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Classic GBM MRI appearance is a ring-enhancing lesion with irregular thick walls (representing viable hypercellular tumour), central T1 hypointensity/necrosis, and extensive surrounding T2/FLAIR hyperintensity representing vasogenic oedema and tumour infiltration. Involvement of the corpus callosum with bilateral extension ('butterfly glioma') occurs in 5-10% of cases. Mass effect (midline shift, ventricular compression) is common with large tumours. The enhancement pattern is characteristically thick and irregular, distinguishing it from brain abscess (thin, smooth rim enhancement) and metastasis (variable enhancement patterns).",
+          "wrong": {
+            "A": "Homogeneous solid enhancement may occur in very small GBM or certain recurrences, but is NOT the characteristic pattern. Central necrosis and ring enhancement are the defining radiological features.",
+            "C": "Non-enhancing T2 hyperintense lesion without mass effect is the pattern of low-grade glioma (astrocytoma IDH-mutant grade 2 or oligodendroglioma). GBM invariably has contrast enhancement at diagnosis.",
+            "D": "Multiple punctate lesions at the grey-white matter junction are characteristic of brain metastases from systemic cancer (haematogenous spread), not primary GBM."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: Standard MRI protocol for suspected GBM includes T1 pre/post Gd, T2/FLAIR, DWI, and perfusion sequences",
+          "trial": "Pope WB et al. Radiology 2012: MRI characteristics of GBM and their relationship to molecular markers; ring enhancement + necrosis virtually always present in WHO grade 4 glioma",
+          "pearl": "Classic GBM MRI: ring-enhancing lesion + central necrosis + surrounding FLAIR abnormality. The FLAIR signal extends far beyond the enhancement — this represents infiltrating tumour cells beyond the angiogenic core. Butterfly pattern (corpus callosum crossing) is pathognomonic when present."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q16",
+        "stem": "A neurosurgeon plans to perform fluorescence-guided surgery (5-ALA) for a suspected GBM. The patient must take the oral 5-ALA (20 mg/kg) at what time point before surgery, and what specific equipment is required in the operating theatre?",
+        "options": {
+          "A": "12 hours before surgery; standard white-light microscope with additional filter",
+          "B": "3-5 hours before surgery; modified surgical microscope with violet-blue light (375-440 nm) and selective filter",
+          "C": "24 hours before surgery; fluorescent ceiling lights and protective eyewear",
+          "D": "Immediately before incision; handheld UV torch with 365 nm emission"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "5-ALA must be administered orally at 20 mg/kg body weight in 100-150 mL of water 3-5 hours before anaesthesia induction (not before surgery, as general anaesthesia typically takes 30-60 minutes before craniotomy). This timing allows adequate accumulation and conversion to PpIX (protoporphyrin IX) in high-grade tumour cells. The surgical microscope requires a specific violet-blue excitation filter (375-440 nm wavelength range) and a yellow-orange emission filter (620-710 nm) to detect the pink-red PpIX fluorescence. Standard white-light microscopes cannot be modified — purpose-built 5-ALA-compatible microscopes (e.g., Leica OPMI Pentero with Blue400 module) are required.",
+          "wrong": {
+            "A": "12 hours is too long — PpIX accumulation peaks at 3-6 hours after 5-ALA administration and decreases thereafter. Administration timing is critical. A standard white-light microscope cannot be simply 'modified' — a dedicated 5-ALA fluorescence module is required.",
+            "C": "24 hours is far too early — PpIX fluorescence would be negligible by the time of surgery. Standard ceiling lights cannot excite PpIX — specific 375-440 nm violet light is required.",
+            "D": "5-ALA must be given 3-5 hours before surgery, not at incision. A handheld UV torch does not provide the correct wavelength or intensity, and cannot replace a purpose-built neurosurgical microscope fluorescence module."
+          },
+          "guideline": "EMA Gliolan SmPC (5-ALA) 2007: 20 mg/kg oral 3-5 hours pre-surgery; purpose-built fluorescence microscope required; patient protection from bright light for 24 hours post-administration",
+          "trial": "PHOTON trial (Stummer, Lancet Oncol 2006): 5-ALA protocol — 20 mg/kg oral 3-5h pre-surgery; OPMI Pentero microscope with Blue 400 module; 322 patients",
+          "pearl": "5-ALA (Gliolan) dosing: 20 mg/kg oral, 3-5 hours before anaesthesia. Patients must avoid bright light for 24 hours post-administration (photosensitivity). A purpose-built microscope with violet-blue excitation (375-440 nm) and yellow-orange emission filter is mandatory."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A1-Q17",
+        "stem": "A 45-year-old patient has a ring-enhancing brain lesion. Differential diagnosis includes GBM and a brain abscess. Which MRI finding most reliably distinguishes GBM from bacterial brain abscess?",
+        "options": {
+          "A": "Size of the lesion — GBM tends to be larger than abscess",
+          "B": "DWI/ADC signal — abscess shows restricted diffusion (low ADC) in the core, while GBM necrotic core does NOT restrict diffusion (high ADC)",
+          "C": "Presence of surrounding oedema — only GBM causes oedema",
+          "D": "Enhancement pattern — GBM always shows irregular nodular enhancement while abscess shows smooth thin ring"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The most reliable MRI distinction between GBM and brain abscess is DWI/ADC signal of the central lesion core. Brain abscesses contain viscous pus with restricted diffusion — the cavity shows DWI hyperintensity and ADC hypointensity (low ADC, high signal on DWI). GBM necrotic core contains liquefied necrotic debris WITHOUT restricted diffusion — it shows DWI hypointensity and high ADC. This DWI/ADC pattern is the most sensitive and specific radiological discriminator. MRS may also help: abscess shows amino acid peaks (valine, leucine, isoleucine) absent in GBM, while GBM shows elevated choline.",
+          "wrong": {
+            "A": "Size is not a reliable differentiator — both GBM and brain abscess can be large. The critical discriminator is the DWI/ADC pattern of the core.",
+            "C": "Both GBM and brain abscess can cause vasogenic oedema. Oedema is not specific to GBM.",
+            "D": "While GBM classically shows thick, irregular ring enhancement and abscess shows thin, smooth ring enhancement, this distinction is not absolute — some GBMs can have smooth enhancement and some abscesses can have irregular walls due to multi-loculation. DWI/ADC is more reliable."
+          },
+          "guideline": "EANO 2021: DWI restriction in core differentiates abscess from GBM; recommended in all diagnostic MRI protocols for ring-enhancing lesions",
+          "trial": "Reddy JS et al. AJNR 2006: DWI/ADC correctly differentiated abscess from high-grade glioma in 96% of cases in prospective series",
+          "pearl": "Low ADC (restricted diffusion) in the cavity core = abscess (viscous pus). High ADC (no restriction) in the cavity = GBM necrosis (liquefied debris). This is the most reliable MRI discriminator between the two diagnoses and should be checked in every ring-enhancing brain lesion."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q18",
+        "stem": "Which of the following statements about the CheckMate 498 trial is correct?",
+        "options": {
+          "A": "Nivolumab + RT improved OS compared to RT-TMZ in MGMT-unmethylated GBM",
+          "B": "Nivolumab + RT failed to improve OS vs RT-TMZ in MGMT-unmethylated GBM, demonstrating that checkpoint inhibition does not replace Stupp in this population",
+          "C": "Nivolumab + RT improved PFS but not OS in MGMT-unmethylated GBM, similar to bevacizumab",
+          "D": "CheckMate 498 was terminated early due to serious adverse events in the nivolumab arm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CheckMate 498 (Omuro, Neuro Oncol 2023) randomised 560 patients with newly diagnosed MGMT-unmethylated GBM to nivolumab + RT versus RT-TMZ (Stupp). The trial was negative: median OS was 13.4 months for nivolumab + RT vs 14.9 months for RT-TMZ (HR 1.31; 95% CI 1.09-1.58; p=0.0037 in favour of Stupp). Not only did nivolumab fail to improve outcomes, it was actually inferior to standard Stupp protocol. This definitively established that PD-1 inhibition does not replace temozolomide in newly diagnosed MGMT-unmethylated GBM.",
+          "wrong": {
+            "A": "The opposite is true — nivolumab + RT was actually INFERIOR to RT-TMZ in CheckMate 498. OS was significantly shorter in the nivolumab arm.",
+            "C": "Nivolumab did not show a PFS benefit in CheckMate 498 — it was inferior across all endpoints including OS. This contrasts with bevacizumab's pattern of PFS benefit without OS benefit.",
+            "D": "CheckMate 498 was not terminated for safety — it completed enrolment and was reported as a negative trial for efficacy."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: PD-1/PD-L1 inhibitors NOT recommended for newly diagnosed GBM based on CheckMate 498 and 548 negative results",
+          "trial": "CheckMate 498 (Omuro, Neuro Oncol 2023): nivolumab + RT vs RT-TMZ in MGMT-unmethylated GBM; OS 13.4 vs 14.9 months (HR 1.31; p=0.0037 — inferior outcome with nivolumab)",
+          "pearl": "CheckMate 498 and CheckMate 548 definitively showed that checkpoint inhibitors (nivolumab) do not improve outcomes in newly diagnosed GBM, in either MGMT-unmethylated or methylated populations. The immunosuppressive GBM microenvironment (TGF-β, IDO, regulatory T cells) is a major barrier to immunotherapy efficacy."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A1-Q19",
+        "stem": "A 54-year-old man with GBM IDH wild-type is started on the Stupp protocol. During the concomitant RT-TMZ phase, he requires PCP (Pneumocystis jirovecii pneumonia) prophylaxis because of treatment-induced lymphopenia. What is the standard prophylactic regimen?",
+        "options": {
+          "A": "Fluconazole 200 mg daily",
+          "B": "Trimethoprim-sulfamethoxazole (TMP-SMX) 960 mg three times weekly (or equivalent)",
+          "C": "Aciclovir 400 mg twice daily",
+          "D": "No prophylaxis is recommended — PCP risk is minimal during GBM treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PCP prophylaxis with trimethoprim-sulfamethoxazole (TMP-SMX, co-trimoxazole) is mandatory during the concomitant RT-TMZ phase of the Stupp protocol due to TMZ-induced lymphopenia (particularly CD4+ T-cell depletion). The standard regimen is TMP-SMX 960 mg (1 double-strength tablet) three times weekly (Monday, Wednesday, Friday) throughout the RT-TMZ phase and for 1 month after its completion. For patients with sulfonamide allergy, alternatives include dapsone 100 mg daily, atovaquone 1500 mg daily, or inhaled pentamidine 300 mg monthly. PCP risk during Stupp protocol without prophylaxis is approximately 10%, a potentially fatal complication that is entirely preventable.",
+          "wrong": {
+            "A": "Fluconazole is an antifungal used for candidal or cryptococcal prophylaxis/treatment, not PCP. It has no activity against Pneumocystis jirovecii.",
+            "C": "Aciclovir is an antiviral used for HSV/VZV prophylaxis. It has no activity against Pneumocystis. It may be used concurrently in immunosuppressed patients for viral prophylaxis but does not replace TMP-SMX for PCP.",
+            "D": "PCP prophylaxis is NOT optional — it is mandatory during concomitant RT-TMZ due to predictable CD4+ lymphopenia. PCP pneumonia carries significant mortality in immunosuppressed patients and is entirely preventable with appropriate prophylaxis."
+          },
+          "guideline": "Stupp R et al. NEJM 2005 protocol / NCCN CNS Tumors 2024 / EANO 2021: TMP-SMX prophylaxis mandatory during concomitant RT-TMZ phase of Stupp protocol",
+          "trial": "Stupp R et al. NEJM 2005: Protocol note mandates PCP prophylaxis with TMP-SMX throughout concomitant RT-TMZ; PCP occurred in 0.3% of patients with prophylaxis vs historical rates of 10% without",
+          "pearl": "TMP-SMX prophylaxis is mandatory during the concomitant RT-TMZ phase of Stupp protocol. TMZ causes predictable CD4+ lymphopenia (grade 3-4 in ~7% of patients). Without prophylaxis, PCP risk is ~10%. TMP-SMX three times weekly is the standard; continue for 1 month after completing concomitant phase."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q20",
+        "stem": "A 67-year-old man presents with a 5 cm GBM IDH wild-type, MGMT unmethylated, in the right occipital lobe. He has KPS 60 and mild cognitive impairment. His family asks about prognosis. According to the best available data, what is the most accurate estimate of median overall survival with optimised treatment?",
+        "options": {
+          "A": "Approximately 24-30 months with standard Stupp protocol",
+          "B": "Approximately 7-10 months with hypofractionated RT (40 Gy/15f), with limited benefit from adding TMZ given MGMT-unmethylated status and poor performance status",
+          "C": "Approximately 18-20 months with TTFields + maintenance TMZ",
+          "D": "Less than 3 months — surgery and radiotherapy are not beneficial with KPS 60"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This elderly (67-year-old), MGMT-unmethylated patient with KPS 60 has multiple adverse prognostic factors. Optimised treatment would be hypofractionated RT (40 Gy in 15 fractions), with limited benefit from adding TMZ given MGMT-unmethylated status (Perry CCTG CE.6 trial showed minimal OS benefit for adding TMZ in MGMT-unmethylated elderly patients: 10.0 vs 7.9 months, p=0.06). Expected median OS with hypofractionated RT is approximately 7-10 months in this population. The 14.6-month median OS from the Stupp trial was in patients with median KPS ~80 — patients with KPS 60 have significantly worse outcomes.",
+          "wrong": {
+            "A": "24-30 months is not achievable in a 67-year-old with KPS 60 and MGMT-unmethylated GBM. This range is achievable in younger MGMT-methylated patients with good performance status and TTFields compliance.",
+            "C": "TTFields (EF-14 trial) showed 20.9 months median OS in patients who completed standard Stupp protocol, predominantly KPS ≥70, median age ~57 years. The device requires >22h/day adherence, which is unrealistic for a KPS 60 patient with cognitive impairment.",
+            "D": "KPS 60 is not an absolute contraindication to RT. Even in poor performance status patients, hypofractionated RT can provide symptom relief and modest OS benefit compared to supportive care alone. Best supportive care alone gives median OS of approximately 3-4 months, so RT provides benefit even with KPS 60."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: Elderly GBM with poor PS and MGMT-unmethylated: short-course RT preferred; expected median OS 7-10 months",
+          "trial": "Perry CCTG CE.6 (NEJM 2017): Short-course RT ± TMZ in elderly GBM; MGMT-unmethylated subgroup OS 10.0 vs 7.9 months with vs without TMZ (p=0.06 — not significant)",
+          "pearl": "Prognostic counselling in GBM must incorporate age, KPS, and MGMT status together. A 67-year-old with KPS 60 and MGMT-unmethylated GBM has median OS of approximately 7-10 months with optimised treatment. The 14.6-month figure from the Stupp trial reflects a younger, fitter population — do not quote this to patients with poor performance status."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

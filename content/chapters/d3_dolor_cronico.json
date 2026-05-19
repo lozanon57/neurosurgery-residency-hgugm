@@ -1,0 +1,654 @@
+{
+  "id": "D3",
+  "title": "Neurosurgical Management of Chronic Pain",
+  "subtitle": "Block D — Functional Neurosurgery: Spinal Cord Stimulation, Intrathecal Drug Delivery, Ablative Procedures",
+  "block": "D",
+  "block_name": "Functional Neurosurgery",
+  "level": "R3-4",
+  "reading_time_min": 38,
+  "guidelines_version": "IASP Pain Taxonomy 2020 · NICE NG59 Low Back Pain 2016 · NICE TA159 SCS 2008 · ISAS Guidelines 2020",
+  "textbook_refs": [
+    "Kumar K et al. Spinal Cord Stimulation versus Conventional Medical Management for Neuropathic Pain. Pain 2007;132:179-188 (PROCESS trial)",
+    "North RB et al. Spinal-Cord Stimulation versus Repeated Lumbosacral Spine Surgery for Chronic Pain. NEJM 2005;353:666-668",
+    "Raslan AM. Percutaneous computed tomography-guided radiofrequency ablation of upper cervical spinal cord pain-conducting tracts. Neurosurgery 2008;62:226-233",
+    "Deer TR et al. Comprehensive Consensus Based Guidelines on Intrathecal Drug Delivery Systems. Neuromodulation 2017;20:96-132"
+  ],
+  "learning_objectives": [
+    "Classify chronic pain by mechanism (nociceptive, neuropathic, nociplastic) and apply this to treatment selection",
+    "Identify appropriate candidates for spinal cord stimulation (SCS) and describe the mechanism of paresthesia-based and subperception (HF-SCS, burst) stimulation",
+    "Apply the PROCESS trial evidence base for SCS in failed back surgery syndrome (FBSS) and complex regional pain syndrome (CRPS)",
+    "Describe the indications and technique for intrathecal drug delivery (IDDS) for chronic cancer and non-cancer pain",
+    "Identify the neurosurgical ablative procedures for pain (cordotomy, cingulotomy, rhizotomy) and their specific indications",
+    "Recognise the role of patient selection, psychological screening, and multidisciplinary teams in neurosurgical pain management"
+  ],
+  "sections": [
+    {
+      "id": "D3-S1",
+      "title": "Classification of Chronic Pain and Neurosurgical Indications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Chronic pain is defined as pain persisting beyond the expected healing period (typically >3 months) or associated with a chronic disease process. The IASP 2020 taxonomy classifies pain by mechanism into three categories: **nociceptive pain** (arising from actual or threatened tissue damage, activating nociceptors — e.g., somatic: arthritis, bone fracture; visceral: organ pain); **neuropathic pain** (caused by a lesion or disease of the somatosensory nervous system — e.g., post-herpetic neuralgia, diabetic neuropathy, FBSS, CRPS, phantom limb pain); and **nociplastic pain** (altered nociception without clear tissue or neural damage — e.g., fibromyalgia, irritable bowel syndrome, widespread chronic pain). This classification is clinically important because neurosurgical interventions — spinal cord stimulation, IDDS, ablative procedures — are primarily indicated for **neuropathic pain** and selected **nociceptive** (cancer) pain syndromes. Nociplastic pain does not have a structural target for surgery and is managed primarily through rehabilitation, psychology, and pharmacology.\n\nNeurosurgical pain interventions can be classified as **neuromodulatory** (reversible — spinal cord stimulation, DBS, intrathecal drug delivery, transcranial stimulation) or **ablative/destructive** (permanent — cordotomy, cingulotomy, dorsal root entry zone [DREZ] lesioning, rhizotomy). The general principle is to attempt reversible neuromodulation before irreversible ablation. Patient selection involves: chronicity (>6 months of treatment failure), mechanism (neuropathic or selected nociceptive), psychological fitness (absence of untreated depression, psychosis, addiction), and technical feasibility (site of pain accessible to the chosen intervention).\n\nThe **psychosocial evaluation** is mandatory before any implantable pain device: structured psychological interview, validated instruments (Minnesota Multiphasic Personality Inventory — MMPI; Pain Catastrophising Scale — PCS; Depression screen — PHQ-9; health-related QoL — SF-36). Predictors of poor outcome: untreated major depression, somatisation disorder, current opioid abuse, secondary gain (legal or disability pending), multiple previous pain surgeries, and poor support systems. **Waddell signs** (≥3) predict poor surgical outcome for any pain procedure. The multidisciplinary pain team (neurosurgeon, pain physician, psychologist, physiotherapist) evaluates candidates before device implantation."
+        },
+        {
+          "type": "table",
+          "title": "Pain Classification and Neurosurgical Treatment Matching",
+          "headers": ["Pain Type", "Mechanism", "Examples", "Preferred Neurosurgical Approach"],
+          "rows": [
+            ["Neuropathic", "Somatosensory system lesion/disease", "FBSS, CRPS, PHN, diabetic neuropathy, phantom limb", "SCS (primary); IDDS; DRG stimulation"],
+            ["Nociceptive — somatic", "Tissue damage activating nociceptors", "Cancer bone metastasis, arthritis", "Ablative (cordotomy for cancer); radiofrequency denervation"],
+            ["Nociceptive — visceral", "Visceral nociceptor activation", "Cancer visceral pain, chronic pancreatitis", "Celiac plexus block/neurolysis; IDDS (ziconotide/opioid)"],
+            ["Cancer pain (all types)", "Often mixed nociceptive + neuropathic", "Metastatic pain, post-mastectomy, pelvic cancer", "IDDS (opioid ± adjuvant); cordotomy for refractory unilateral"],
+            ["Nociplastic", "Altered nociception, no clear lesion", "Fibromyalgia, IBS, widespread pain", "Rehabilitation, psychology — NOT surgical"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Psychological Screening is Mandatory Before Implantation",
+          "content": "All SCS and IDDS candidates require formal psychological evaluation. Contraindications to device implantation: untreated major depression (PHQ-9 ≥15); active suicidality; untreated psychosis; active substance abuse (including opioid abuse); active secondary gain (pending litigation, disability claim directly relating to pain area); somatisation disorder. These factors predict poor outcomes and device removal rather than pain relief. Proceed with implantation only after psychological clearance."
+        }
+      ]
+    },
+    {
+      "id": "D3-S2",
+      "title": "Spinal Cord Stimulation: Mechanisms and Indications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Spinal cord stimulation (SCS)** delivers electrical stimulation to the dorsal columns of the spinal cord via epidurally placed electrode leads, generating paresthesiae (tingling) in the painful dermatomes. The traditional mechanism is based on the **gate control theory (Melzack and Wall, 1965)**: stimulation of large-diameter Aβ fibres in the dorsal columns activates inhibitory interneurons in the substantia gelatinosa (spinal dorsal horn, lamina II), which presynaptically inhibit nociceptive C-fibre and Aδ-fibre signals — 'closing the gate' to pain transmission. Additional mechanisms include: inhibition of wide dynamic range (WDR) neurons in the dorsal horn; release of inhibitory neurotransmitters (GABA, glycine, serotonin) in the dorsal horn; and supraspinal modulation through descending inhibitory pathways.\n\nModern SCS paradigms include: (1) **Conventional (paresthesia-based) SCS** — the patient must feel paresthesiae overlapping the pain area (frequency 40-100 Hz, pulse width 200-400 μs); (2) **High-frequency SCS (HF-SCS, 10 kHz)** (Nevro SCS, FDA-approved 2015): 10,000 Hz stimulation produces NO paresthesiae (sub-perception), yet achieves equivalent or superior pain relief compared with conventional SCS for back pain specifically — the SENZA-RCT (Kapural et al. Anesthesiology 2015) showed HF10-SCS superior to conventional SCS for back pain; (3) **Burst stimulation** (Abbott Proclaim DRG): patterned bursts of 500 Hz superimposed on 40 Hz — provides paresthesia-free stimulation with equivalence to conventional SCS and potential emotional/affective pain dimension modulation through medial thalamus/anterior cingulate pathways; (4) **Dorsal root ganglion (DRG) stimulation** — lead placed in the epidural foramen targeting the DRG directly; highly specific dermatomal coverage; FDA-approved for CRPS and focal neuropathic pain; superior for foot pain, inguinal pain, and CRPS compared with conventional SCS.\n\nFor SCS implantation, a **trial phase** (7-10 days with percutaneous trial leads) is mandatory — patients are implanted with permanent devices only if the trial achieves ≥50% pain reduction. The permanent system consists of a pulse generator (IPG — rechargeable or non-rechargeable) implanted subcutaneously (typically infraclavicular or flank), connected via extension leads to the spinal electrode."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Gate Control Theory and Its Limits",
+          "content": "The gate control theory (Melzack and Wall, Science 1965) postulates that stimulation of non-nociceptive large-diameter (Aβ) fibres activates spinal inhibitory interneurons, reducing C-fibre pain transmission. This explains paresthesia-based SCS. However, HF10-SCS and burst SCS produce equivalent or better analgesia WITHOUT paresthesiae — proving that additional mechanisms (supraspinal, glial, neurochemical) contribute beyond the simple gate model. The gate theory remains a conceptual foundation but does not fully explain modern SCS efficacy."
+        }
+      ]
+    },
+    {
+      "id": "D3-S3",
+      "title": "Evidence Base for SCS: PROCESS Trial and FBSS",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The strongest evidence for SCS is in **failed back surgery syndrome (FBSS)** and **complex regional pain syndrome (CRPS)**. FBSS describes persistent or recurrent leg pain and/or back pain after technically adequate lumbar spine surgery — affecting approximately 10-15% of patients undergoing lumbar surgery and representing a major cause of chronic neuropathic pain and disability.\n\nThe **PROCESS trial (Kumar et al. Pain 2007)** was the landmark RCT of SCS for FBSS: 100 patients with FBSS (predominant leg pain, previous lumbar surgery) randomised to SCS plus conservative medical management (CMM) vs CMM alone. At 6 months: **SCS group — 48% achieved ≥50% leg pain relief vs 9% in CMM group (P<0.0001)**; at 24 months: 37% SCS vs 2% CMM (P<0.0001). Crossover was permitted — 32 patients crossed to SCS at 6 months, confirming patient preference. VAS leg pain: SCS -50% vs CMM -4%. Quality of life (EQ-5D): significantly better in SCS group. **NICE TA159 (2008)** recommends SCS for FBSS based on PROCESS: SCS is cost-effective at a cost per QALY gained of approximately £19,000 (below the £20,000 NICE threshold).\n\nThe **North RCT (NEJM 2005)** compared SCS to repeat lumbar surgery for FBSS: SCS achieved ≥50% pain relief in 47% vs 12% with repeated surgery (P=0.02); fewer complications; lower medication use. This trial established that SCS should precede repeat surgery for FBSS — repeat surgery is rarely justified when SCS has not been tried.\n\n**CRPS (Complex Regional Pain Syndrome)** Types I (no nerve injury) and II (with nerve injury) are other primary indications. The Dutch CRPS trial (Kemler et al. NEJM 2000): 54 CRPS patients randomised to SCS + PT vs PT alone — SCS group: 39% ≥50% pain relief at 6 months vs 0% PT alone (P<0.001). At 2 years: maintained. This RCT provided Level I evidence for SCS in CRPS.\n\nOther established SCS indications: **refractory angina pectoris** (Karolinska protocol — SCS reduces angina episodes and improves exercise tolerance via spinal inhibition of cardiac afferents); **peripheral vascular disease/critical limb ischaemia** (SCS induces vasodilation and increases microvascular flow, delaying amputation)."
+        },
+        {
+          "type": "table",
+          "title": "Evidence Base for Spinal Cord Stimulation",
+          "headers": ["Indication", "Key Trial", "Primary Outcome", "Evidence Level"],
+          "rows": [
+            ["FBSS (predominantly leg pain)", "PROCESS (Kumar, Pain 2007)", "48% SCS vs 9% CMM achieved ≥50% leg pain relief at 6 months", "Level I (RCT)"],
+            ["FBSS vs repeat surgery", "North (NEJM 2005)", "47% SCS vs 12% repeat surgery ≥50% relief (P=0.02)", "Level I (RCT)"],
+            ["CRPS Type I/II", "Kemler (NEJM 2000)", "39% SCS vs 0% PT alone ≥50% relief at 6 months", "Level I (RCT)"],
+            ["Refractory angina", "Mannheimer (Lancet 1999)", "Equivalent to CABG for angina frequency; non-inferior", "Level I (RCT)"],
+            ["Painful diabetic neuropathy", "Slangen (Diabetes Care 2014)", "59% SCS responders vs 7% CMM at 6 months", "Level I (RCT)"],
+            ["High-frequency SCS (10 kHz) vs conventional", "SENZA-RCT (Kapural, Anesthesiology 2015)", "HF10 superior for back pain (84% vs 44% responders)", "Level I (RCT)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "SCS Candidacy for FBSS — Patient Selection",
+          "content": "Ideal FBSS candidate for SCS: (1) predominant LEG pain (>50% leg pain component — back-dominant FBSS responds less well); (2) neuropathic pain quality (burning, shooting, allodynia); (3) failed adequate conservative management ≥6 months (physiotherapy, medications, epidural injections); (4) no untreated depression or substance abuse; (5) no active spinal instability requiring further surgery; (6) positive SCS trial (≥50% relief with temporary percutaneous leads). Back-dominant FBSS with minimal leg pain has lower SCS response rates — consider HF10-SCS which has demonstrated better back pain outcomes than conventional paresthesia-based SCS."
+        }
+      ]
+    },
+    {
+      "id": "D3-S4",
+      "title": "Intrathecal Drug Delivery Systems",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Intrathecal drug delivery systems (IDDS)** deliver medications directly into the intrathecal space (CSF) via an implanted catheter connected to a subcutaneous programmable pump. The rationale: intrathecal delivery achieves pharmacological effect at the spinal cord dorsal horn with 300-1000× lower drug doses than systemic administration, reducing systemic side effects (sedation, constipation, immunosuppression with opioids) while maximising local analgesic effect. This is particularly valuable for cancer pain and for patients with severe side effects from oral or parenteral opioids.\n\nThe **intrathecal analgesic ladder** (Deer et al. Neuromodulation 2017 Polyanalgesic Consensus Conference, PACC) defines first-line agents: **Tier 1**: morphine (FDA-approved) and ziconotide (Prialt, N-type voltage-gated calcium channel blocker, FDA-approved for severe chronic pain). Ziconotide is unique — it is NOT an opioid and can be used in opioid-tolerant patients or those with opioid side effects; narrow therapeutic window (neuropsychiatric side effects: confusion, memory impairment, visual disturbances at too-high doses — requires slow titration). **Tier 2**: hydromorphone (more potent than morphine, similar profile), fentanyl (for opioid-tolerant patients), morphine + bupivacaine (local anaesthetic synergy). **Tier 3**: bupivacaine alone, clonidine (alpha-2 agonist, adjuvant). Baclofen (GABA-B agonist) is used intrathecally specifically for **spasticity** (not pain), and is separately FDA-approved via an IDDS for spastic cerebral palsy, multiple sclerosis, and spinal cord injury spasticity.\n\n**Patient selection for IDDS**: (1) cancer pain — inadequate analgesia or intolerable side effects despite oral/parenteral opioids; life expectancy >3 months (to justify implantation); (2) non-cancer pain — failed multiple conservative and interventional strategies including SCS trial; chronic refractory pain (FBSS, CRPS, failed SCS, ischaemic pain); (3) positive intrathecal trial (direct injection or trial catheter demonstrating ≥50% pain relief). **Smith et al. RCT (JAMA 2002)**: 202 cancer pain patients randomised to IDDS vs comprehensive medical management (CMM) — IDDS group had significantly better pain control (clinical success 85% vs 71%, P=0.05), less toxicity, and survival advantage at 6 months (53.9% vs 37.2% survival) — though the survival advantage may reflect reduced opioid toxicity rather than direct effect."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Intrathecal Baclofen Withdrawal — Life-Threatening Emergency",
+          "content": "Abrupt withdrawal of intrathecal baclofen (from pump failure, catheter displacement, or medication error) causes a life-threatening withdrawal syndrome: severe hyperthermia (>40°C), tachycardia, seizures, rhabdomyolysis, multi-organ failure, and death within 24-48 hours. Any patient with an intrathecal baclofen pump presenting with fever, rigidity, seizures, or altered consciousness requires immediate evaluation — check pump function, catheter integrity, and residual drug. Treat with oral or intravenous baclofen, benzodiazepines for spasticity and seizures, and ICU admission. Do NOT delay treatment to confirm pump malfunction."
+        }
+      ]
+    },
+    {
+      "id": "D3-S5",
+      "title": "Ablative Procedures: Cordotomy, DREZ, and Rhizotomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Ablative (destructive) neurosurgical procedures for pain are generally reserved for patients with severe refractory pain, particularly cancer pain with limited life expectancy, where the irreversibility of the procedure is acceptable. The principle is to interrupt pain transmission pathways at a point proximal to the pain generator but distal to consciousness.\n\n**Percutaneous cordotomy** targets the **spinothalamic tract (STT)** in the anterolateral quadrant of the spinal cord, producing contralateral loss of pain and temperature below the lesion. It is performed via a C1-C2 level anterolateral percutaneous radiofrequency approach (Spencer technique): a radiofrequency electrode is introduced through the C1-C2 disc space under fluoroscopic guidance and positioned in the STT. The electrode position is confirmed by electrical stimulation (concordant paraesthesiae in the pain distribution); a lesion is then created with radiofrequency heat. Cordotomy provides excellent pain relief in 80-90% of patients immediately post-procedure and is particularly effective for **unilateral cancer pain** (chest wall, lung, brachial plexus invasion, pelvic cancer on one side) — however, bilateral cordotomy at high cervical levels risks **Ondine's curse** (loss of automatic ventilatory drive during sleep — the anterolateral cord also contains the reticulospinal pathway mediating sleep-related breathing). Repeat cordotomy for contralateral pain is possible on the same side or opposite side with caution. Duration of effect: 6-12 months (STT fibres may regenerate).\n\n**Dorsal Root Entry Zone (DREZ) lesioning** addresses the DREZ region (where dorsal root fibres enter the spinal cord and synapse in the substantia gelatinosa laminae I-V). Radiofrequency lesions are made in the DREZ at multiple levels, destroying the peripheral pain input transmission zone. Indications: **brachial plexus avulsion pain** (most established indication — pain following motorcycle accident with C5-T1 avulsion; 75-80% significant relief at 12 months) and **post-spinal cord injury pain** (dysesthetic pain below level). DREZ creates ipsilateral analgesia and temperature loss in the affected dermatomes with preservation of motor function (ventral horn preserved).\n\n**Radiofrequency rhizotomy** — targeted destruction of individual dorsal root ganglia or root fascicles for radicular pain. **Cervical medial branch rhizotomy** (facet joint denervation) for facetogenic cervical spondylosis pain. **Trigeminal percutaneous rhizotomy** is addressed in the next chapter (D4). **Cingulotomy** (radiofrequency or radiosurgery lesion of the anterior cingulate cortex) modulates the affective/emotional dimension of pain — reduces pain suffering and suffering without affecting sensory pain intensity. Used for cancer pain with significant psychological distress component, or in intractable chronic pain in carefully selected patients."
+        },
+        {
+          "type": "table",
+          "title": "Ablative Neurosurgical Procedures for Pain",
+          "headers": ["Procedure", "Target", "Best Indication", "Expected Relief", "Key Risk"],
+          "rows": [
+            ["Percutaneous cordotomy", "Spinothalamic tract at C1-C2", "Unilateral cancer pain (mesothelioma, lung, Pancoast)", "80-90% immediate; 60% at 12 months", "Bilateral: Ondine's curse; leg weakness; bowel/bladder (if bilateral)"],
+            ["DREZ lesioning", "Dorsal root entry zone", "Brachial plexus avulsion; post-SCI dysesthesia", "75-80% at 12 months for avulsion", "Ipsilateral leg weakness (posterior column proximity)"],
+            ["Radiofrequency rhizotomy", "Dorsal root ganglion / medial branch", "Facetogenic pain; radicular pain", "60-80% for facet; 40-60% radicular", "Motor nerve involvement if ventral root inadvertently lesioned"],
+            ["Cingulotomy", "Anterior cingulate cortex", "Cancer pain (affective component); chronic refractory", "Reduces pain-related suffering; minimal sensory change", "Rare: cognitive change, personality change"],
+            ["Celiac plexus neurolysis", "Celiac plexus at T12-L1 level", "Pancreatic cancer pain, upper abdominal cancer", "70-90% at 1-3 months", "Orthostatic hypotension, diarrhoea, rare paraplegia"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Brachial Plexus Avulsion — DREZ Is the Gold Standard",
+          "content": "Brachial plexus avulsion injury (classically from motorcycle accidents — C5-T1 deafferentation) causes severe, constant, burning dysesthetic pain in the deafferented arm. This deafferentation pain is NOT amenable to SCS (no peripheral nerve input to stimulate) and responds poorly to opioids. DREZ lesioning of C4-T2 levels provides >75% significant relief at 12 months — the best pain outcome of any procedure for this refractory condition. The mechanism: DREZ destroys the hyperactive dorsal horn neurons that fire spontaneously after deafferentation (deafferentation hyperalgesia)."
+        }
+      ]
+    },
+    {
+      "id": "D3-S6",
+      "title": "High-Frequency SCS and Dorsal Root Ganglion Stimulation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**High-Frequency SCS at 10 kHz (HF10-SCS)** represents a major advance in SCS technology. Traditional paresthesia-based SCS requires the patient to feel paresthesiae overlapping the pain area — this demands careful electrode positioning to achieve overlap, is posture-dependent (paresthesiae intensity changes with body position), and some patients find paresthesiae uncomfortable. HF10-SCS operates at 10,000 Hz (vs 40-100 Hz conventional) with very short pulse widths — at these parameters, no paresthesiae are generated (sub-threshold for sensory neuron activation but above threshold for dorsal horn modulation through mechanisms that are not fully understood, potentially involving dorsal horn glial modulation and descending pathway activation). The **SENZA-RCT (Kapural et al. Anesthesiology 2015)**: 198 FBSS patients randomised to HF10-SCS vs conventional SCS. Primary outcome: HF10-SCS superior for BACK pain (84% responders vs 44% conventional, P<0.001); equivalent for leg pain (79% vs 75%). This established HF10-SCS as preferred for back-dominant FBSS.\n\n**Dorsal Root Ganglion (DRG) stimulation** targets the DRG within the neural foramen — the DRG contains the cell bodies of primary afferent sensory neurons and is a key locus of peripheral sensitisation. DRG stimulation provides highly selective dermatomal coverage with less current spread to areas outside the pain distribution, allowing treatment of difficult anatomical locations: foot pain (L5-S1 DRG — poorly covered by conventional epidural SCS), groin/inguinal pain (L1-L2 DRG), chest wall pain, and **CRPS Type I** with foot involvement. The ACCURATE trial (Deer et al. JAMA Neurology 2017): 152 CRPS patients randomised to DRG stimulation vs SCS — DRG superior at 3 months (81.2% success vs 55.7%, P<0.001) and 12 months (74.2% vs 53.0%); DRG also associated with fewer positional paresthesia changes and less side-effects outside the pain area. DRG stimulation is now FDA-approved for CRPS and focal neuropathic pain."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Choosing the SCS Modality",
+          "content": "Conventional SCS: established evidence, FBSS with leg predominance, CRPS. HF10-SCS: FBSS with back pain component (back AND leg); paresthesia-intolerant patients; SENZA-RCT showing superiority for back pain. Burst SCS: theoretical advantage for affective/emotional pain dimension; paresthesia-free; no superior evidence over HF10 currently. DRG stimulation: focal neuropathic pain, CRPS with foot/leg/groin distribution, post-surgical neuropathic pain in difficult anatomical zones. In practice, most modern centres offer HF10 or burst as default options, reserving DRG for specific anatomical indications."
+        }
+      ]
+    },
+    {
+      "id": "D3-S7",
+      "title": "Complications and Long-Term Outcomes of Implantable Pain Devices",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Complications of spinal cord stimulation and IDDS can be classified as surgical, hardware-related, and biological. **SCS complications**: Lead migration — the most common hardware problem (13-23% of implanted patients in major series), causing loss of paresthesia coverage and efficacy; detected by reduced or altered paresthesia distribution; managed by fluoroscopic repositioning or replacement. Infection — 3-5% of implanted sites; superficial infections treated with antibiotics; deep infections require device explantation (cannot leave infected hardware in epidural space — risk of epidural abscess and meningitis). Dural puncture during lead placement — 0.3-1%; causes post-dural puncture headache; manage with blood patch if conservative treatment fails. Lead fracture — 1-3% per year.\n\n**IDDS complications**: Granuloma formation at catheter tip — a fibrotic inflammatory mass developing at the catheter orifice in the intrathecal space; incidence ~3% of long-term IDDS patients; more common with morphine (less with hydromorphone) and with high concentrations; causes progressive increasing dose requirements and worsening pain despite dose escalation — paradoxical pain worsening should prompt catheter tip MRI. Infection (meningitis, pocket infection) — 2-4%; requires urgent device explantation. Pump malfunction — rare but serious; untreated pump failure = opioid or baclofen withdrawal (potentially life-threatening). Programming errors (incorrect drug, dose calculation errors) — cause opioid overdose or underdosing; strict protocols for refills.\n\n**Long-term SCS outcomes**: Initial responder rates (≥50% relief at trial) are maintained in 60-70% of patients at 2 years; at 5 years, 50-60% remain responders. Habituation (progressive reduction in efficacy despite continued stimulation) affects ~20-30% of long-term SCS patients — managed by reprogramming, changing stimulation paradigm (conventional to burst/HF), or lead repositioning. The PROCESS trial 24-month data showed 37% responders — demonstrating sustained (though diminished) benefit over time. When SCS efficacy is lost and medical management is optimised, intrathecal drug delivery can be the next escalation step."
+        },
+        {
+          "type": "table",
+          "title": "SCS and IDDS Complications",
+          "headers": ["Complication", "Device", "Incidence", "Management"],
+          "rows": [
+            ["Lead migration", "SCS", "13-23%", "Fluoroscopic repositioning; replace lead"],
+            ["Infection (hardware)", "SCS/IDDS", "3-5%", "Antibiotics; explantation if deep infection"],
+            ["Dural puncture", "SCS", "0.3-1%", "Conservative; blood patch for persistent headache"],
+            ["Catheter tip granuloma", "IDDS", "~3%", "MRI catheter tip; taper dose; change drug; surgical removal if neurological deficit"],
+            ["Intrathecal baclofen withdrawal", "IDDS (baclofen)", "Device failure-dependent", "EMERGENCY: oral/IV baclofen, benzodiazepines, ICU"],
+            ["Opioid overdose (programming error)", "IDDS", "Rare", "Naloxone; return to ICU; strict refill protocols"],
+            ["IPG battery depletion", "SCS/IDDS", "2-7 years (non-rechargeable)", "Elective IPG exchange"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "IDDS Catheter Tip Granuloma — Red Flag",
+          "content": "A patient with a stable IDDS who requires progressively higher opioid doses to maintain analgesia, OR who has paradoxical worsening of pain despite dose escalation, should be immediately evaluated for intrathecal catheter tip granuloma. MRI with gadolinium of the catheter tip region shows an enhancing mass at the tip. Management: drug dose reduction or change to hydromorphone/ziconotide (lower granuloma risk); surgical removal only if neurological deficit present. Granuloma formation is the most serious IDDS-specific complication and should not be confused with opioid tolerance."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of neurosurgical pain management with 20 board-style questions covering SCS evidence, IDDS, ablative procedures, patient selection, and key trial data.",
+    "questions": [
+      {
+        "id": "D3-Q1",
+        "stem": "The PROCESS trial (Kumar et al. Pain 2007) is the landmark RCT for spinal cord stimulation in failed back surgery syndrome. What was the primary finding at 6 months?",
+        "options": {
+          "A": "SCS and conservative medical management (CMM) had equivalent pain relief at 6 months",
+          "B": "48% of SCS patients vs 9% of CMM patients achieved ≥50% leg pain relief (P<0.0001)",
+          "C": "SCS achieved complete pain relief in 80% of FBSS patients vs 10% CMM",
+          "D": "CMM with opioids was superior to SCS for back pain but SCS was better for leg pain"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PROCESS trial (Kumar et al. Pain 2007): 100 patients with FBSS randomised to SCS + CMM vs CMM alone. Primary outcome at 6 months: 48% of SCS patients achieved ≥50% VAS leg pain reduction vs 9% of CMM patients (P<0.0001). VAS leg pain: SCS group -50% vs CMM group -4%. Quality of life (EQ-5D) significantly better in SCS group. This established SCS as the evidence-based treatment for FBSS with predominant leg pain, and led to NICE TA159 recommendation.",
+          "wrong": {
+            "A": "The trial results were clearly NOT equivalent — the P-value was <0.0001, indicating highly significant superiority of SCS. Equivalence would require a non-inferiority trial design.",
+            "C": "80% complete relief overstates the result. The threshold was ≥50% relief (a clinically meaningful outcome), achieved by 48% of SCS patients — not 80%, and not 'complete' relief.",
+            "D": "CMM did NOT outperform SCS for back pain in PROCESS. The trial showed SCS superior for leg pain (the primary outcome). SCS also had better outcomes than CMM for back pain as a secondary outcome, though the effect was smaller for back pain than for leg pain."
+          },
+          "guideline": "NICE TA159 (2008): SCS recommended for FBSS based on PROCESS — cost-effective at ~£19,000/QALY, below the NICE £20,000 threshold. AAN SCS Guidelines: Level I evidence for SCS in FBSS.",
+          "trial": "Kumar K et al. Spinal cord stimulation versus conventional medical management for neuropathic pain: a multicentre randomised controlled trial in patients with failed back surgery syndrome. Pain 2007;132:179-188: primary outcome 48% SCS vs 9% CMM at 6 months (P<0.0001). 24-month follow-up: 37% SCS maintained responder status.",
+          "pearl": "PROCESS trial: SCS vs CMM for FBSS. Key number: 48% SCS vs 9% CMM achieved ≥50% leg pain relief at 6 months (P<0.0001). NICE TA159 recommends SCS for FBSS. Trial supports SCS as first-line surgical option for FBSS with predominant leg pain.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D3-Q2",
+        "stem": "A 55-year-old woman with FBSS has predominantly lower back pain (70% back, 30% leg). Conventional paresthesia-based SCS trial failed to achieve ≥50% relief at 7 days — she found the required paresthesiae uncomfortable. What is the next most appropriate SCS-based option?",
+        "options": {
+          "A": "Repeat conventional SCS trial with higher amplitude to ensure adequate paresthesia coverage",
+          "B": "High-frequency 10 kHz SCS (HF10-SCS) trial — superior for back pain and paresthesia-free",
+          "C": "Dorsal root ganglion (DRG) stimulation — best option for back-dominant FBSS",
+          "D": "SCS is contraindicated after trial failure — proceed directly to intrathecal drug delivery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "HF10-SCS (Nevro SCS, 10,000 Hz, sub-perception = no paresthesiae) is the preferred option for this patient for two reasons: (1) she has back-dominant FBSS — SENZA-RCT demonstrated HF10-SCS superior to conventional SCS specifically for back pain (84% vs 44% responders, P<0.001); (2) she found conventional paresthesiae uncomfortable — HF10-SCS is completely paresthesia-free. The failed conventional trial does not preclude a different SCS modality trial.",
+          "wrong": {
+            "A": "Repeating conventional SCS at higher amplitude addresses amplitude but not the fundamental issues: (1) she finds paresthesiae uncomfortable — higher amplitude would intensify, not eliminate paresthesiae; (2) back-dominant FBSS responds less well to paresthesia-based SCS. Neither issue is addressed by amplitude increase.",
+            "C": "DRG stimulation is best for FOCAL neuropathic pain (foot pain, inguinal pain, CRPS with distal distribution) — not for diffuse back-dominant FBSS. The back is not optimally targeted by DRG leads which provide dermatomal (root-level) rather than axial coverage.",
+            "D": "A failed conventional SCS trial does not automatically preclude other SCS modalities. Failure with one paradigm (paresthesia-based) is not a predictor of failure with a fundamentally different modality (HF10). IDDS would be the next step after failure of ALL SCS modalities, not after one type."
+          },
+          "guideline": "NICE TA159 updated: HF10-SCS included as an option for FBSS. AAN SCS Guidelines: consider different stimulation paradigms if one fails before declaring SCS failure.",
+          "trial": "Kapural L et al. Novel 10-kHz High-frequency Therapy (HF10 Therapy) Is Superior to Traditional Low-frequency Spinal Cord Stimulation for the Treatment of Chronic Back and Leg Pain (SENZA-RCT). Anesthesiology 2015;123:851-860: 198 FBSS patients; HF10 vs conventional SCS; back pain: 84% vs 44% responders (P<0.001); leg pain: 79% vs 75% (NS).",
+          "pearl": "HF10-SCS (10 kHz, Nevro): (1) paresthesia-FREE; (2) superior for BACK pain in FBSS vs conventional SCS (SENZA-RCT). Indications for HF10 over conventional: back-dominant FBSS, paresthesia intolerance, difficulty achieving paresthesia overlap. The absence of paresthesiae also means no positional programming changes are needed.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q3",
+        "stem": "Which patient with FBSS is the BEST candidate for spinal cord stimulation?",
+        "options": {
+          "A": "Patient with predominantly axial back pain (80% back, 20% leg), Waddell signs ≥3, active opioid dependence, and pending disability litigation",
+          "B": "Patient with predominantly leg pain (70% leg, 30% back), neuropathic quality (burning, allodynia), failed 3 conservative treatments, psychologically cleared, positive SCS trial (60% relief)",
+          "C": "Patient with FBSS and severe dementia requiring caregiver for all device management tasks",
+          "D": "Patient with FBSS and untreated major depression (PHQ-9 = 18) who requests SCS before any psychiatric treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient meets all criteria for excellent SCS candidacy: (1) predominantly leg pain (SCS more effective for leg than back); (2) neuropathic pain quality (SCS targets neuropathic mechanisms); (3) failed adequate conservative treatment; (4) psychological clearance (essential); (5) positive SCS trial (≥50% relief = 60% — confirms responsiveness and predicts long-term benefit). This patient represents the ideal FBSS SCS candidate.",
+          "wrong": {
+            "A": "Multiple contraindications: predominantly back pain (SCS less effective); Waddell signs ≥3 (predicts poor surgical outcome); active opioid dependence (requires management before device implantation); pending litigation (secondary gain — predicts poor outcome). This patient should not receive SCS until each of these factors is addressed.",
+            "C": "Dementia sufficient to require caregivers for all device management is a relative contraindication to SCS — the patient must be able to participate in programming adjustments, report side effects, and understand device use. Severe dementia prevents adequate device management.",
+            "D": "Untreated major depression (PHQ-9 = 18) is a contraindication to device implantation. Depression predicts poor SCS outcome and must be treated and monitored before surgery. Proceeding with SCS in active uncontrolled depression is inappropriate."
+          },
+          "guideline": "IASP/ISAS SCS Patient Selection Guidelines (2020): ideal candidate — neuropathic pain with leg component, failed conservative treatments, psychological clearance, positive trial. Contraindications: untreated psychiatric illness, active substance abuse, ≥3 Waddell signs, secondary gain.",
+          "trial": "North RB et al. Spinal cord stimulation for chronic, intractable pain: experience over two decades. Neurosurgery 1993;32:384-395: multivariate analysis of SCS outcome predictors — positive trial (≥50% relief) was the single strongest predictor of long-term success; psychological factors (secondary gain, active litigation, untreated depression) were the strongest predictors of failure.",
+          "pearl": "SCS ideal candidate: predominantly LEG pain + neuropathic quality + failed conservative management + psychologically cleared + POSITIVE TRIAL (≥50% relief). Red flags for poor outcome: back-dominant pain, Waddell signs ≥3, untreated depression, active litigation/disability, opioid dependence.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D3-Q4",
+        "stem": "Ziconotide (Prialt) is a Tier 1 intrathecal analgesic in the Polyanalgesic Consensus Conference (PACC) ladder. What is its mechanism of action and main limitation?",
+        "options": {
+          "A": "Mu-opioid receptor agonist — tolerance develops rapidly within weeks",
+          "B": "N-type voltage-gated calcium channel blocker — narrow therapeutic window with neuropsychiatric side effects requiring slow titration",
+          "C": "GABA-B agonist — indicated for spasticity, not pain",
+          "D": "NMDA receptor antagonist — causes cognitive impairment in all patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ziconotide (Prialt) is derived from the cone snail toxin (omega-conotoxin MVIIA) and blocks N-type voltage-gated calcium channels (Cav2.2) at the presynaptic terminals of primary afferent nociceptors in the spinal dorsal horn, preventing calcium-dependent neurotransmitter (substance P, glutamate) release from C-fibre and Aδ-fibre terminals. It is NOT an opioid — therefore, no opioid tolerance, no respiratory depression, and no opioid withdrawal. Its main limitation is the narrow therapeutic window: neuropsychiatric side effects (confusion, memory impairment, visual disturbances, hallucinations, dizziness) occur at doses slightly above therapeutic — requiring very slow titration (start at ≤0.5 μg/day, increase by ≤0.5 μg/day every 1-2 weeks). Abrupt discontinuation does NOT cause withdrawal (non-opioid mechanism).",
+          "wrong": {
+            "A": "Ziconotide is NOT a mu-opioid receptor agonist — it acts on calcium channels. Tolerance does not develop with ziconotide (another advantage over opioids). Morphine is the mu-opioid receptor agonist in the PACC Tier 1.",
+            "C": "GABA-B agonist = baclofen. Intrathecal baclofen is used for SPASTICITY (cerebral palsy, MS, SCI), not primarily for pain. Ziconotide is the non-opioid analgesic, not baclofen.",
+            "D": "NMDA receptor antagonism (ketamine) does cause cognitive impairment, but ziconotide acts on N-type calcium channels, not NMDA receptors. Cognitive side effects with ziconotide are dose-dependent and resolve with dose reduction — they do not occur in all patients at therapeutic doses."
+          },
+          "guideline": "Deer TR et al. PACC Guidelines (Neuromodulation 2017): Tier 1 intrathecal agents — morphine (opioid) and ziconotide (non-opioid calcium channel blocker). Ziconotide FDA-approved for severe chronic pain. Titration protocol: start ≤0.5 μg/day, increase ≤0.5 μg/day/1-2 weeks to effect or maximum 19.2 μg/day.",
+          "trial": "Rauck RL et al. Intrathecal ziconotide in the treatment of refractory pain in patients with cancer or AIDS. J Support Oncol 2006;4:395-402: ziconotide vs placebo for cancer/AIDS pain — 56% of ziconotide patients had clinically meaningful improvement vs 25% placebo at 5-7 days. Establishes ziconotide efficacy for cancer-related neuropathic pain.",
+          "pearl": "Ziconotide: N-type calcium channel blocker (NOT opioid); no tolerance; no dependence; no respiratory depression. Main limitation: narrow therapeutic window — neuropsychiatric side effects (confusion, hallucinations) at supra-therapeutic doses. Titrate SLOWLY. Non-opioid mechanism makes it valuable for opioid-intolerant or opioid-tolerant patients. Tier 1 PACC alongside morphine.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q5",
+        "stem": "A 45-year-old motorcyclist suffered a C5-T1 brachial plexus avulsion in an RTA. He has severe constant burning pain in the deafferented arm rated 9/10 VAS, unresponsive to opioids, gabapentin, and amitriptyline. Spinal cord stimulation trial was unsuccessful. What is the most appropriate neurosurgical intervention?",
+        "options": {
+          "A": "Intrathecal drug delivery with morphine — systemic opioids have failed but intrathecal doses are more effective",
+          "B": "Dorsal root entry zone (DREZ) lesioning at C4-T2 levels",
+          "C": "Anterior cordotomy at C1-C2 for contralateral arm pain",
+          "D": "Repeat SCS trial with higher stimulation frequencies at T1 level"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Brachial plexus avulsion pain is the classic indication for DREZ lesioning. In avulsion, dorsal roots are torn from the cord — deafferentation causes hyperactivity of dorsal horn neurons (which fire spontaneously without input), generating burning dysesthetic pain. SCS cannot treat this because there is no peripheral nerve input to activate via dorsal column stimulation. DREZ lesioning destroys the hyperactive dorsal horn neurons at laminae I-V of the DREZ at C4-T2 levels, eliminating the source of spontaneous firing. Results: 75-80% significant pain relief at 12 months — the best outcome of any intervention for this devastating pain syndrome.",
+          "wrong": {
+            "A": "Intrathecal opioids have limited efficacy for deafferentation/neuropathic pain, particularly when systemic opioids have failed — the mechanism is similar (opioid receptor mediated). IDDS would provide modest incremental benefit but is not the appropriate choice for the severe refractory avulsion pain which has a specific surgical target (DREZ).",
+            "C": "Cordotomy destroys the spinothalamic tract, providing contralateral pain and temperature loss. For brachial plexus avulsion, the pain is ipsilateral — cordotomy would need to be done on the CONTRALATERAL (opposite) side. However, this is not the first-line treatment for avulsion pain, and DREZ provides better results with longer durability for avulsion than cordotomy.",
+            "D": "SCS trial was unsuccessful — repeating with the same approach will not change the fundamental reason for failure: SCS requires peripheral afferent input to activate the dorsal columns. In avulsion (complete deafferentation), there are NO peripheral afferent fibres to stimulate — SCS cannot work regardless of frequency or amplitude."
+          },
+          "guideline": "IASP Pain Surgery Guidelines (2020): DREZ lesioning is the gold-standard intervention for brachial plexus avulsion pain; C4-T2 levels; 75-80% significant relief at 12 months. SCS fails in avulsion due to lack of peripheral input.",
+          "trial": "Sindou MP et al. DREZ microsurgery for pain related to spinal cord and/or cauda equina injuries. Pain 1986;24:129-148: DREZ in avulsion pain — 75% long-term significant relief at 3 years. Confirmed by Thomas DGT et al. Brain 1994;117:149-155: 79% marked/complete relief in avulsion cohort.",
+          "pearl": "Brachial plexus avulsion pain: DREZ lesioning is gold standard. Mechanism: avulsion → dorsal horn hyperactivity (no peripheral input to inhibit) → DREZ destroys hyperactive neurons. SCS fails (no peripheral input). Results: 75-80% significant relief. Key indication: complete C5-T1 avulsion after motorcycle accident = classic exam scenario.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q6",
+        "stem": "Percutaneous cordotomy is most appropriate for which patient?",
+        "options": {
+          "A": "A 40-year-old with bilateral chronic low back pain and FBSS",
+          "B": "A 68-year-old with stage IV mesothelioma causing unilateral right chest wall pain rated 9/10, refractory to systemic opioids",
+          "C": "A 55-year-old with bilateral CRPS Type I of both lower extremities",
+          "D": "A 72-year-old with bilateral pancreatic cancer pain"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Percutaneous cordotomy is specifically indicated for UNILATERAL cancer pain — it destroys the contralateral STT (spinothalamic tract) producing contralateral analgesia/temperature loss. Mesothelioma with right chest wall pain is the paradigmatic indication: (1) unilateral pain; (2) severe refractory cancer pain; (3) limited life expectancy (acceptable for irreversible procedure); (4) right-sided pain treated by LEFT cordotomy (contralateral STT). Efficacy: 80-90% immediate relief, 60% at 12 months — adequate for cancer pain palliation.",
+          "wrong": {
+            "A": "FBSS with bilateral chronic low back pain is NOT an indication for cordotomy — cordotomy is a destructive ablative procedure reserved for refractory cancer pain; bilateral cordotomy at high cervical levels carries risk of Ondine's curse. FBSS is treated with SCS or IDDS.",
+            "C": "Bilateral CRPS is not appropriate for cordotomy — cordotomy is unilateral and would only address one side. CRPS is treated with SCS (DRG stimulation, conventional, or HF10). Cordotomy for benign chronic pain is rarely justified given the risk-benefit profile.",
+            "D": "Bilateral pancreatic cancer pain is not ideal for cordotomy alone — bilateral cordotomy at cervical level risks Ondine's curse (loss of automatic breathing drive). For bilateral upper abdominal cancer pain, celiac plexus neurolysis or IDDS is preferred."
+          },
+          "guideline": "IASP Pain Surgery Guidelines (2020): percutaneous cordotomy indicated for unilateral cancer pain in the upper or lower body; preferred for mesothelioma (Pancoast/chest wall), pelvic cancer, limb sarcoma with unilateral distribution.",
+          "trial": "Raslan AM. Percutaneous CT-guided radiofrequency ablation of upper cervical pain-conducting tracts. Neurosurgery 2008;62:226-233: cordotomy in cancer pain — 80-90% immediate relief; 60% at 6 months; most effective for mesothelioma and lung cancer chest wall pain.",
+          "pearl": "Cordotomy indication: UNILATERAL cancer pain, refractory to systemic treatment, limited life expectancy. Technique: C1-C2 anterolateral percutaneous RF — creates contralateral STT lesion. BILATERAL cordotomy at high cervical = ONDINE'S CURSE (loss of automatic ventilation). Best indications: mesothelioma, Pancoast tumour, unilateral pelvic cancer.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q7",
+        "stem": "A patient with an implanted intrathecal baclofen pump for spasticity from MS is brought to the emergency department with temperature 40.2°C, severe muscle rigidity, diaphoresis, and confusion. Pump telemetry shows battery failure. What is the immediate management?",
+        "options": {
+          "A": "Dantrolene sodium IV for suspected neuroleptic malignant syndrome",
+          "B": "Emergency lumbar puncture and spinal fluid analysis for infection",
+          "C": "Oral or IV baclofen, benzodiazepines, ICU admission, and urgent pump refill/replacement",
+          "D": "Supportive care with cooling blankets — baclofen withdrawal is self-limiting"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This presentation — hyperthermia (40.2°C), muscle rigidity, diaphoresis, confusion, and confirmed pump failure — is intrathecal baclofen withdrawal syndrome, a life-threatening emergency. Treatment requires: (1) oral baclofen (highest tolerated dose immediately) and/or IV diazepam/lorazepam to manage spasticity and seizures; (2) ICU admission for haemodynamic and temperature monitoring; (3) urgent neurosurgery/pump team consultation for emergency pump replacement or catheter repair; (4) cyproheptadine has been used in refractory cases (serotonin antagonist). The drug effects may partially mitigate the withdrawal. Without treatment, multi-organ failure and death occur within 24-48 hours.",
+          "wrong": {
+            "A": "Dantrolene is for neuroleptic malignant syndrome (NMS) or malignant hyperthermia — both caused by dopamine receptor blockade or volatile anaesthetic triggering, respectively. The context here (ITB pump failure) clearly points to baclofen withdrawal. Dantrolene does not address the GABA-B receptor deficiency.",
+            "B": "Lumbar puncture might be considered if meningitis is suspected, but the confirmed pump failure provides the diagnosis. Delay for LP when baclofen withdrawal is confirmed would waste critical time. LP is not the immediate management priority.",
+            "D": "Intrathecal baclofen withdrawal is NOT self-limiting — it is fatal if untreated. This cannot be managed supportively with cooling blankets alone. Immediate pharmacological replacement of baclofen activity and ICU management is essential."
+          },
+          "guideline": "Deer TR et al. PACC Guidelines (Neuromodulation 2017): intrathecal baclofen withdrawal = EMERGENCY. All IDDS centres must have emergency management protocols; patients must carry identification cards; emergency staff must be aware of the withdrawal syndrome.",
+          "trial": "Coffey RJ et al. Abrupt withdrawal from intrathecal baclofen: recognition and management of a potentially life-threatening syndrome. Arch Phys Med Rehab 2002;83:735-741: review of 27 ITB withdrawal cases — untreated withdrawal: mortality ~3-14%; treated with oral baclofen + benzodiazepines: survival in all cases. Hyperthermia is the main mortality driver (rhabdomyolysis, organ failure).",
+          "pearl": "ITB withdrawal emergency: hyperthermia + rigidity + diaphoresis + confusion + pump failure = baclofen withdrawal EMERGENCY. Treatment: oral/IV baclofen + benzodiazepines + ICU. Fatal within 24-48h without treatment. All patients with ITB pumps must carry emergency card with withdrawal management instructions.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q8",
+        "stem": "The North NEJM 2005 trial compared spinal cord stimulation to repeated lumbar spine surgery for chronic pain after failed back surgery. What was the primary finding?",
+        "options": {
+          "A": "Repeat surgery superior to SCS for leg pain at 2 years",
+          "B": "SCS achieved ≥50% pain relief in 47% vs 12% with repeat surgery (P=0.02), with fewer complications",
+          "C": "Both treatments were equivalent — patient preference should guide the decision",
+          "D": "Repeat surgery was preferred because SCS hardware complications exceeded surgical complications"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "North RB et al. (NEJM 2005): 50 patients with recurrent radicular pain after lumbar surgery randomised to SCS vs repeated lumbar surgery. Primary outcome ≥50% pain relief: SCS = 47% vs repeat surgery = 12% (P=0.02). Additional advantages of SCS: fewer complications, less medication use, and 5 of 14 patients in the repeat surgery group eventually crossed over to SCS (preferring it). This trial established that SCS should be tried BEFORE repeat lumbar surgery for recurrent post-operative radicular pain — repeat surgery in this setting has poor results and should not precede SCS.",
+          "wrong": {
+            "A": "Repeat surgery did NOT outperform SCS — the reverse was true. Repeat surgery achieved only 12% ≥50% relief vs 47% for SCS.",
+            "C": "The results were NOT equivalent — the difference was statistically significant (P=0.02) with a large absolute difference (47% vs 12%). Treatment equivalence would require a non-inferiority design and overlapping confidence intervals.",
+            "D": "SCS complications did not exceed surgical complications in the North trial. Surgery had higher perioperative complication rates; SCS hardware complications are manageable and did not offset the pain relief superiority."
+          },
+          "guideline": "NICE TA159 (2008): North trial supports SCS before repeat surgery for FBSS. AAN SCS Guidelines: SCS should precede repeat lumbar surgery for recurrent radiculopathy in FBSS — Level I evidence.",
+          "trial": "North RB et al. Spinal-Cord Stimulation versus Repeated Lumbosacral Spine Surgery for Chronic Pain: A Randomized, Controlled Trial. NEJM 2005;353:666-668: SCS 47% vs repeat surgery 12% ≥50% relief; P=0.02. Crossover allowed — 5/14 repeat surgery patients crossed to SCS.",
+          "pearl": "North trial (NEJM 2005): SCS 47% vs repeat surgery 12% ≥50% relief for FBSS (P=0.02). SCS should PRECEDE repeat surgery for FBSS. Repeat lumbar surgery in FBSS has only 12% success rate — proceed to SCS first. This trial and PROCESS together form the Level I evidence foundation for SCS in FBSS.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D3-Q9",
+        "stem": "DRG (dorsal root ganglion) stimulation has been shown superior to conventional SCS in the ACCURATE trial. For which pain condition and distribution is DRG stimulation particularly advantageous?",
+        "options": {
+          "A": "Bilateral diffuse low back pain — DRG provides broader coverage than epidural electrodes",
+          "B": "Focal neuropathic pain with distal extremity involvement (foot pain, CRPS with foot distribution, inguinal pain)",
+          "C": "Central neuropathic pain from spinal cord injury — DRG modulates central sensitisation",
+          "D": "Cancer-related visceral pain — DRG blocks nociceptive input from visceral organs"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "DRG stimulation provides highly selective dermatomal coverage directly at the level of the DRG in the neural foramen. This selectivity is particularly advantageous for: (1) FOOT pain (L5-S1 DRG — conventional epidural SCS struggles to achieve paresthesia coverage of the foot without also stimulating the leg, and positional changes affect foot coverage); (2) CRPS with distal foot/ankle distribution; (3) inguinal/groin pain (L1-L2 DRG); (4) post-surgical focal neuropathic pain in specific dermatomes. The ACCURATE trial showed DRG superior to conventional SCS for CRPS (81% vs 56% success rate, P<0.001).",
+          "wrong": {
+            "A": "DRG stimulation provides DERMATOMAL (root-specific) coverage — it does NOT provide broad diffuse back coverage. For bilateral diffuse back pain, HF10-SCS or burst SCS with lumbar epidural electrodes provides better broad axial coverage than single DRG levels.",
+            "C": "Central neuropathic pain from SCI has no intact peripheral DRG to stimulate at or below the injury level — DRG stimulation is not effective for deafferentation central pain. DREZ lesioning or supraspinal neuromodulation would be considered.",
+            "D": "DRG stimulation modulates the somatic DRG somatosensory afferents — it does not specifically block visceral nociception. Celiac plexus neurolysis or splanchnic nerve blocks are used for visceral cancer pain."
+          },
+          "guideline": "AAN SCS Guidelines (2018): DRG stimulation FDA-approved for CRPS and focal neuropathic pain; preferred when precise dermatomal coverage of distal extremity, inguinal, or focal pain is required.",
+          "trial": "Deer TR et al. Dorsal Root Ganglion Stimulation Yielded Higher Treatment Success Rate for Complex Regional Pain Syndrome and Causalgia at 3 and 12 Months (ACCURATE). JAMA Neurology 2017;74:935-942: n=152, CRPS; DRG 81.2% vs SCS 55.7% success at 3 months (P<0.001); 74.2% vs 53.0% at 12 months; fewer positional paresthesia changes with DRG.",
+          "pearl": "DRG stimulation advantages: precise dermatomal coverage, fewer positional paresthesia changes, stable paresthesia regardless of posture. Best for: foot/ankle CRPS, inguinal pain, post-surgical focal neuropathic pain. ACCURATE trial: DRG 81% vs SCS 56% success for CRPS (P<0.001). Not ideal for diffuse back pain or central/deafferentation pain.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q10",
+        "stem": "The gate control theory (Melzack and Wall, 1965) is the historical mechanism for paresthesia-based SCS. Which finding CHALLENGES this theory as the sole explanation for SCS analgesia?",
+        "options": {
+          "A": "SCS works better for leg pain than back pain — the gate is more active in the lumbar cord",
+          "B": "High-frequency 10 kHz SCS and burst SCS produce equivalent or superior pain relief WITHOUT producing paresthesiae",
+          "C": "SCS is ineffective for deafferentation pain — gate cannot close without peripheral input",
+          "D": "SCS does not work for bilateral pain — the gate only operates unilaterally"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The gate control theory requires that large-diameter Aβ fibre stimulation (felt as paresthesiae) activates inhibitory interneurons in the dorsal horn to 'close the gate' on nociceptive C-fibre input. If paresthesiae are the essential mechanism, then sub-perception stimulation (where patients feel NO paresthesiae) should not work. However, HF10-SCS (10,000 Hz, no paresthesiae) and burst SCS (patterned stimulation without paresthesiae) achieve equivalent or superior pain relief compared with paresthesia-based SCS. This demonstrates that additional mechanisms — dorsal horn glial modulation, supraspinal effects, descending inhibitory pathway activation, neurochemical changes — contribute significantly beyond the simple gate model.",
+          "wrong": {
+            "A": "Leg pain responding better than back pain is consistent with the gate theory (leg pain has more accurate paresthesia overlap in the lumbar cord). This does not challenge the gate theory.",
+            "C": "SCS ineffectiveness for deafferentation pain is actually CONSISTENT with the gate theory — without peripheral Aβ input (gate requires peripheral activation), the gate cannot be stimulated. This supports, not challenges, the gate theory.",
+            "D": "SCS can work for bilateral pain — bilateral epidural electrode placement or wide-field paresthesia coverage is used. Bilaterality does not challenge the gate theory."
+          },
+          "guideline": "NICE TA159 and AAN SCS Guidelines: multiple SCS mechanisms are recognised — gate control (paresthesia-based), supraspinal modulation, neurochemical, glial. Clinical evidence from sub-perception SCS (HF10, burst) demonstrating efficacy without paresthesiae has expanded the mechanistic framework.",
+          "trial": "Kapural L et al. SENZA-RCT (Anesthesiology 2015): HF10-SCS superior for back pain without paresthesiae; Deer TR et al. (JAMA Neurology 2017): burst SCS equivalent to conventional without paresthesiae. Both challenge the exclusive role of gate control/paresthesia mechanism.",
+          "pearl": "Gate control theory CHALLENGED by: sub-perception SCS (HF10, burst) achieving equivalent/superior analgesia WITHOUT paresthesiae. If gate control were the only mechanism, no paresthesiae = no analgesia. This implies additional mechanisms: dorsal horn glial modulation (astrocyte GABA release), supraspinal effects on descending inhibitory pathways, neuroplastic changes. Gate theory remains valid but incomplete.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D3-Q11",
+        "stem": "An IDDS patient with cancer pain requires a pump refill. The pharmacist notes the pump has been filled with hydromorphone 10 mg/mL but the prescription requires 10 mg/mL concentration in a total volume of 20 mL. The pharmacy fills the pump with 2 mg/mL concentration × 100 mL. What type of error has occurred and what is the immediate risk?",
+        "options": {
+          "A": "The volume is 5× too large — the pump will overflow when the reservoir is overfilled",
+          "B": "A drug concentration error (10× too dilute) — the patient will receive 10× less drug per programmed dose, causing inadequate pain control",
+          "C": "A drug concentration error (10× too concentrated) — the patient will receive 10× higher drug per programmed dose, causing opioid overdose and respiratory depression",
+          "D": "The error has no clinical consequence — IDDS delivers by volume and the same total dose will be delivered"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The required concentration is 10 mg/mL but the pharmacy dispensed 2 mg/mL — the pump is now filled with 5× less concentrated drug than required. The IDDS pump is programmed to deliver a specific VOLUME per hour (e.g., 0.1 mL/hour), not a specific dose by weight. The dose delivered = concentration × volume flow rate. With 2 mg/mL concentration instead of 10 mg/mL, at the same programmed flow rate, the patient receives 5× less drug per hour than intended, causing inadequate pain control and possible acute pain crisis / opioid withdrawal symptoms.",
+          "wrong": {
+            "A": "Overfilling the reservoir is a separate safety concern but the question describes a concentration error. Modern IDDS pumps have maximum reservoir volumes (typically 20-40 mL for implantable pumps), and the 100 mL volume error suggests a calculation or dispensing error separate from reservoir overflow.",
+            "C": "The error described is 2 mg/mL dispensed instead of 10 mg/mL — this is 5× LESS concentrated (underdose), not more concentrated. An overdose would occur if the concentration were higher than programmed.",
+            "D": "IDDS delivers by VOLUME (mL/hour or mL/day) — not by absolute drug amount independent of concentration. The programmed flow rate is fixed; changing concentration changes the dose delivered. This answer is fundamentally incorrect about how IDDS works."
+          },
+          "guideline": "Deer TR et al. PACC Guidelines (Neuromodulation 2017): strict refill protocols mandatory — two-pharmacist verification of concentration and volume; documentation of drug name, concentration, volume, lot number; nurse verification at time of fill; programmed parameters must be verified against dispensed drug. Double-check protocol prevents concentration errors.",
+          "trial": "Anderson VC, Burchiel KJ. A prospective study of long-term intrathecal morphine in the management of chronic nonmalignant pain. Neurosurgery 1999;44:289-301: medication errors including concentration errors cited as a significant adverse event source in IDDS management — strict double-verification protocols significantly reduce error rates.",
+          "pearl": "IDDS safety principle: drug delivery = CONCENTRATION × FLOW RATE. Any change in concentration affects delivered dose even if flow rate is unchanged. Concentration errors are dangerous (both directions): too concentrated = overdose; too dilute = inadequate analgesia and possible withdrawal. Mandatory double-check at every refill: verify drug name, concentration, total volume, and programme settings.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D3-Q12",
+        "stem": "Which of the following is a recognised indication for intrathecal drug delivery with BACLOFEN (as opposed to opioid-based IDDS)?",
+        "options": {
+          "A": "Failed back surgery syndrome with persistent leg pain",
+          "B": "Spastic cerebral palsy with severe lower extremity spasticity refractory to oral baclofen",
+          "C": "Phantom limb pain after traumatic amputation",
+          "D": "Cancer pain with inadequate response to oral opioids"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intrathecal baclofen (ITB) is specifically indicated for SPASTICITY — not pain. The FDA-approved indications for ITB via IDDS are: (1) severe spasticity in cerebral palsy, multiple sclerosis, spinal cord injury, or other spastic conditions; (2) spasms causing functional impairment or pain. Oral baclofen may be inadequate due to poor CNS penetration and systemic side effects (sedation) at doses needed for spasticity control. Intrathecal delivery achieves effective spinal cord concentrations at 1/100th of the oral dose. For cerebral palsy with severe lower extremity spasticity, ITB reduces spasticity (Ashworth scale), improves hygiene, positioning, and quality of life.",
+          "wrong": {
+            "A": "FBSS with leg pain is an indication for SCS or opioid IDDS — not baclofen IDDS. Baclofen addresses spasticity and muscle hypertonicity but is not indicated for neuropathic radicular leg pain from FBSS.",
+            "C": "Phantom limb pain is treated with SCS, opioid IDDS, ketamine, or tricyclics — not baclofen. Phantom limb pain is a central neuropathic pain syndrome, not a spasticity syndrome.",
+            "D": "Cancer pain is an indication for OPIOID IDDS (morphine, hydromorphone, fentanyl) or ziconotide — not baclofen. Baclofen addresses tone and spasms, not nociceptive or neuropathic cancer pain."
+          },
+          "guideline": "Deer TR et al. PACC Guidelines (2017): intrathecal baclofen is Tier 1 for SPASTICITY (not on the analgesia ladder). Indicated for spasticity in CP, MS, SCI when oral medications fail or cause unacceptable side effects.",
+          "trial": "Penn RD, Kroin JS. Long-term intrathecal baclofen infusion for treatment of spasticity. J Neurosurg 1987;66:181-185 — original clinical trial of ITB for spasticity in MS and SCI; 80% of patients showed significant improvement in Ashworth spasticity scale; FDA approval followed in 1992.",
+          "pearl": "ITB (intrathecal baclofen) = SPASTICITY only (cerebral palsy, MS, SCI). NOT an analgesic for pain conditions. IDDS for pain uses opioids (morphine, hydromorphone) or ziconotide. Key ITB emergency: WITHDRAWAL (hyperthermia, rigidity, seizures, multi-organ failure) = life-threatening if pump fails without immediate treatment.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D3-Q13",
+        "stem": "A 50-year-old woman with CRPS Type I of the right foot has been treated with conventional paresthesia-based SCS for 3 years with initial 70% relief. Over the past 6 months, relief has progressively diminished to <20%. Device testing confirms the electrode is functioning normally. What is the most likely explanation and management?",
+        "options": {
+          "A": "Lead fracture — replace electrode",
+          "B": "SCS habituation — reprogram to a different stimulation paradigm (burst or HF10) or reposition electrode",
+          "C": "CRPS has spontaneously resolved — the device is no longer needed and should be explanted",
+          "D": "Psychological factors — commence cognitive behavioural therapy and discontinue SCS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Progressive loss of SCS efficacy in a functioning device over months/years = habituation (also called tolerance). This occurs in approximately 20-30% of long-term SCS patients and results from adaptation of the dorsal horn circuit to continuous stimulation. Management: change stimulation paradigm (switch from conventional paresthesia to burst or HF10-SCS), which uses a different mechanism and may overcome habituation to the first modality; alternatively, reposition the electrode to a slightly different dorsal column location; or cycle stimulation (on-off cycling to reduce adaptation). DRG stimulation is an excellent alternative for CRPS foot pain if convention SCS is habituating.",
+          "wrong": {
+            "A": "Lead fracture would cause an ACUTE complete loss of stimulation/paresthesia — typically sudden onset. Gradual progressive loss over 6 months is not consistent with hardware fracture. Device testing confirms functioning normally — ruling out hardware failure.",
+            "C": "CRPS does not spontaneously resolve after 3 years of SCS — the patient is relapsing, not recovering. CRPS natural history is typically chronic and persistent; a return of pain during SCS suggests habituation or disease progression, not resolution.",
+            "D": "Psychological factors can contribute to CRPS management, but the clinical scenario describes a previously well-controlled patient whose SCS efficacy has diminished — this is a hardware/programming issue (habituation), not a new psychological development. CBT may complement SCS but is not the primary intervention for declining SCS efficacy."
+          },
+          "guideline": "ISAS SCS Long-Term Management Guidelines (2020): habituation (tolerance) to SCS is a recognised long-term complication; strategies — change stimulation paradigm, reprogram cycling, reposition electrode, add other modalities. Estimated 20-30% of SCS patients experience habituation at 3-5 years.",
+          "trial": "Kumar K et al. Prospective 5-year follow-up study of patients treated with spinal cord stimulation for chronic pain syndrome. Neuromodulation 2006;9:80-86: habituation to SCS occurs in ~20-25% at 5 years; paradigm change (when available) or lead repositioning restores efficacy in 60-70% of habituated patients.",
+          "pearl": "SCS habituation (tolerance): gradual progressive loss of efficacy in a functioning device = adapt to chronic stimulation. Management: CHANGE PARADIGM (conventional → burst or HF10), reposition electrode, or DRG stimulation. Paradigm change restores efficacy in ~60-70% of habituated patients. Distinct from lead fracture (acute complete loss) or infection (fever/wound changes).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q14",
+        "stem": "The Smith RCT (JAMA 2002) compared intrathecal drug delivery systems (IDDS) to comprehensive medical management (CMM) for cancer pain. What additional finding beyond pain control was reported?",
+        "options": {
+          "A": "IDDS provided inferior pain control but significantly better quality of life due to reduced hospital admissions",
+          "B": "IDDS achieved better pain control AND a survival advantage at 6 months (53.9% vs 37.2% survival)",
+          "C": "Both groups had identical pain control and survival — IDDS was recommended for economic reasons only",
+          "D": "IDDS caused higher opioid-related mortality than systemic opioids"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Smith TJ et al. (JAMA 2002) randomised 202 cancer pain patients to IDDS vs CMM. Primary outcome: clinical success (≥20% reduction in pain score OR ≥20% reduction in toxicity with maintained pain control) — IDDS 84.5% vs CMM 70.8% (P=0.05). Unexpected finding: survival at 6 months: IDDS 53.9% vs CMM 37.2% (P=0.06, trending toward significance; statistically significant in the per-protocol analysis). The survival advantage was hypothesised to result from: reduced opioid toxicity (lower systemic opioid doses reducing immunosuppression, respiratory complications) and improved functional status enabling patients to maintain nutrition and activity.",
+          "wrong": {
+            "A": "IDDS provided BETTER pain control than CMM (84.5% vs 70.8% success) — not inferior. Hospital admission data did show fewer admissions in the IDDS group.",
+            "C": "The groups were NOT identical — IDDS showed significantly better pain control (P=0.05) and trending survival advantage.",
+            "D": "IDDS did NOT cause higher opioid-related mortality — the reverse was true (trending toward better survival). Intrathecal delivery uses 100-300× lower opioid doses than systemic, reducing systemic toxicity."
+          },
+          "guideline": "PACC Guidelines (Deer 2017): Smith trial Level I evidence for IDDS in cancer pain; IDDS recommended when systemic opioids fail or cause intolerable side effects. Survival advantage data cited as supporting aggressive pain management.",
+          "trial": "Smith TJ et al. Randomized Clinical Trial of an Implantable Drug Delivery System Compared With Comprehensive Medical Management for Refractory Cancer Pain. J Clin Oncol 2002;20:4040-4049: IDDS 84.5% vs CMM 70.8% success (P=0.05); toxicity significantly lower; survival: IDDS 53.9% vs CMM 37.2% at 6 months.",
+          "pearl": "Smith RCT (JAMA 2002): IDDS superior to CMM for cancer pain control (84.5% vs 70.8%, P=0.05) PLUS unexpected survival advantage (53.9% vs 37.2%). Hypothesis: reduced systemic opioid doses → less immunosuppression, fewer respiratory complications → improved survival. This Level I RCT is the evidence foundation for IDDS in cancer pain management.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q15",
+        "stem": "Ondine's curse is a risk associated with which neurosurgical pain procedure, and what physiological pathway is disrupted?",
+        "options": {
+          "A": "DREZ lesioning — disrupts autonomic control of breathing at C2",
+          "B": "Bilateral high cervical cordotomy — disrupts the reticulospinal pathway mediating automatic ventilatory drive during sleep",
+          "C": "Bilateral VIM thalamotomy — disrupts the supplementary motor area's contribution to breathing",
+          "D": "Corpus callosotomy — disrupts interhemispheric synchrony of respiratory motor neurons"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ondine's curse (congenital central hypoventilation syndrome) refers to loss of automatic (involuntary) ventilatory drive during sleep, with preserved voluntary breathing when awake. In the acquired (iatrogenic) context, bilateral high cervical cordotomy can produce this complication because the anterolateral cord at C1-C2 contains not only the spinothalamic tract but also the reticulospinal pathway mediating automatic (chemoreceptor-driven) breathing control. Bilateral cordotomy lesions disrupt this pathway on both sides — voluntary breathing (controlled by corticospinal tract) is preserved but sleep-related automatic breathing (chemoreceptor CO2 drive transmitted via reticulospinal fibres) is lost. The patient breathes normally when awake and concentrating on breathing but stops breathing during sleep.",
+          "wrong": {
+            "A": "DREZ lesioning targets the dorsal root entry zone in the cervical or lumbar spinal cord — it does NOT involve the anterolateral cord reticulospinal pathway responsible for automatic ventilation. DREZ complications are segmental motor deficits, not respiratory.",
+            "C": "Bilateral VIM thalamotomy (now replaced by MRgFUS) can cause bilateral motor complications (ataxia, dysarthria) but does not specifically cause Ondine's curse. The thalamus is not the site of automatic breathing control.",
+            "D": "Corpus callosotomy disconnects interhemispheric connections — it does not affect brainstem respiratory control. Respiratory complications are not associated with callosotomy."
+          },
+          "guideline": "IASP Pain Surgery Guidelines (2020): bilateral high cervical cordotomy carries risk of Ondine's curse — limit to unilateral procedure; staged bilateral procedures at different levels if required; post-operative sleep monitoring (polysomnography).",
+          "trial": "Mullan S et al. Percutaneous high cervical cordotomy for intractable cancer pain. JAMA 1965;193:590-595 — original description of percutaneous cordotomy technique; Ondine's curse first described as a complication in patients undergoing bilateral high cervical lesioning.",
+          "pearl": "Ondine's curse from bilateral cordotomy: automatic breathing (reticulospinal, involuntary CO2-driven) is lost; voluntary breathing is preserved. Patient breathes normally awake but apnoeas during sleep. Risk with BILATERAL high cervical cordotomy — avoid or use polysomnography monitoring if bilateral is needed. Staged procedures at different levels reduce risk.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q16",
+        "stem": "A 58-year-old woman is evaluated for SCS implantation for CRPS Type I of the left foot. She has a history of depression treated with escitalopram for 2 years (currently stable, PHQ-9 = 6). She has excellent social support, no secondary gain, and a positive SCS trial achieving 65% relief. Is her depression a contraindication to SCS implantation?",
+        "options": {
+          "A": "Yes — any history of depression is an absolute contraindication to SCS",
+          "B": "No — stable, adequately treated depression (PHQ-9 = 6) is NOT a contraindication; implantation can proceed",
+          "C": "Yes — antidepressant medications reduce SCS effectiveness through serotonin-mediated mechanisms",
+          "D": "No — she should discontinue antidepressants before SCS to avoid device interaction"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Stable, adequately treated depression is NOT a contraindication to SCS. The relevant psychological contraindication is UNTREATED or UNCONTROLLED active depression (PHQ-9 ≥15 indicating moderate-to-severe depression), particularly with suicidality. This patient has mild residual depression (PHQ-9 = 6, indicating mild range) with stable treatment, excellent social support, no secondary gain, and a positive trial. She is an appropriate SCS candidate. In fact, SCS often improves mood as a positive side effect — successful pain relief reduces the psychological burden of chronic pain.",
+          "wrong": {
+            "A": "History of depression is NOT an absolute contraindication. Active, severe, untreated depression is a contraindication. Stable treated depression — with adequate monitoring — is compatible with SCS candidacy.",
+            "C": "SSRIs do not reduce SCS effectiveness through any established pharmacological mechanism. Serotonin reuptake inhibition does not interfere with dorsal column Aβ stimulation or gate control. This statement is not supported by evidence.",
+            "D": "Discontinuing antidepressants before SCS would be harmful (risk of depression relapse, discontinuation syndrome) and is not indicated. Escitalopram has no device interaction with SCS hardware."
+          },
+          "guideline": "ISAS SCS Patient Selection Guidelines (2020): psychological clearance required; contraindications — UNTREATED depression (PHQ-9 ≥15), active psychosis, suicidality, active substance abuse. Stable treated depression with good function is NOT a contraindication.",
+          "trial": "Taylor RS et al. Predictors of outcome after SCS in 159 FBSS patients. Pain 2006;120:145-149: depression pre-operatively predicted lower SCS outcome when severe and untreated; mild-moderate treated depression did not predict poor outcome; SCS itself reduced depression scores by 30-40% as a secondary outcome.",
+          "pearl": "SCS psychological contraindications: UNTREATED depression (PHQ-9 ≥15), active suicidality, active psychosis, active substance abuse, secondary gain (litigation/disability). STABLE TREATED depression (PHQ-9 <10 on medication) = NOT a contraindication. Distinguish: active severe uncontrolled = contraindication; stable adequately treated = proceed with appropriate monitoring.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q17",
+        "stem": "Cingulotomy (anterior cingulate cortex lesion) for chronic pain reduces which specific dimension of the pain experience?",
+        "options": {
+          "A": "The sensory-discriminative dimension — reduces the intensity and location perception of pain",
+          "B": "The affective-motivational dimension — reduces the suffering and emotional distress associated with pain without affecting sensory intensity",
+          "C": "The cognitive-evaluative dimension — eliminates pain catastrophising and negative pain cognitions",
+          "D": "The autonomic dimension — reduces tachycardia and diaphoresis associated with pain episodes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cingulotomy (lesion of the anterior cingulate cortex, particularly area 24) selectively reduces the AFFECTIVE-MOTIVATIONAL dimension of pain — the emotional suffering, distress, and unpleasantness associated with pain — without significantly affecting the sensory-discriminative dimension (the patient still perceives pain in location and intensity). This dissociation is based on the concept that pain has at least two dimensions: 'sensory' (where is it, how intense — processed by S1/S2 via spinothalamic-thalamo-cortical pathways) and 'affective' (how unpleasant, how distressing — processed by the anterior cingulate cortex and limbic system). Cingulotomy is appropriate for patients where the suffering component dominates, particularly cancer pain with significant psychological distress.",
+          "wrong": {
+            "A": "The sensory-discriminative dimension is processed in S1/S2 cortex via the thalamus — cingulotomy does NOT significantly reduce pain intensity or spatial localization. The patient still knows where and how much it hurts after cingulotomy.",
+            "C": "Cognitive-evaluative dimension modification is the domain of CBT (cognitive behavioural therapy) — not surgical cingulotomy. Cingulotomy does not specifically target pain catastrophising through a cognitive mechanism.",
+            "D": "Autonomic responses to pain are mediated by hypothalamic-brainstem pathways — cingulotomy does not primarily affect autonomic pain responses (although the cingulate has some autonomic connections, this is not the primary dimension affected)."
+          },
+          "guideline": "IASP Pain Surgery Guidelines: cingulotomy — selected indication for cancer pain with significant affective/suffering component; also for chronic intractable benign pain in carefully selected patients. Melzack R, Casey KL (1968): multidimensional model of pain — sensory-discriminative, affective-motivational, cognitive-evaluative dimensions.",
+          "trial": "Hassenbusch SJ et al. Cingulotomy for cancer pain. Neurosurgery 1990;27:268-274: cingulotomy in 11 cancer pain patients — significant reduction in pain-related suffering and emotional distress (visual analogue scales for 'painfulness') while maintaining pain intensity scores; functional improvement in 8/11 patients.",
+          "pearl": "Cingulotomy targets the AFFECTIVE dimension of pain (suffering, distress) without reducing sensory intensity. Patient after cingulotomy: 'I still feel the pain but it doesn't bother me as much.' Compare with cordotomy: reduces sensory intensity. Use cingulotomy when psychological distress and suffering dominate; use cordotomy when sensory intensity is the primary problem.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D3-Q18",
+        "stem": "An IDDS catheter tip MRI in a patient with increasing pain despite opioid dose escalation shows an enhancing mass at the catheter tip. What is the most appropriate immediate management?",
+        "options": {
+          "A": "Increase opioid dose further — the mass is likely post-surgical granulation tissue with no clinical significance",
+          "B": "Reduce intrathecal drug concentration and/or switch to hydromorphone or ziconotide; surgical removal only if neurological deficit develops",
+          "C": "Perform emergency laminectomy to remove the intrathecal mass",
+          "D": "Stop the pump completely and convert to systemic opioids permanently"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intrathecal catheter tip granuloma (fibrous inflammatory mass at the catheter orifice in the intrathecal space) is the management: (1) REDUCE drug concentration or SWITCH to lower-granuloma-risk drug (hydromorphone or ziconotide — less granuloma risk than morphine); (2) if switching drug is insufficient and mass is growing, surgical catheter removal with re-implantation at a different level; (3) surgical laminectomy only if neurological deficit (cord compression from granuloma) develops — a rare but serious complication. Progressive dose escalation is the WRONG response — paradoxical pain worsening despite dose escalation is the hallmark presentation that should trigger suspicion for granuloma.",
+          "wrong": {
+            "A": "Increasing opioid dose when granuloma is confirmed is dangerous — paradoxical pain worsening from granuloma is NOT treated with higher doses. Higher concentrations of morphine INCREASE granuloma formation risk and may worsen the mass.",
+            "C": "Emergency laminectomy is reserved for neurological deficit from cord compression — this patient has pain increase, not neurological deficit. The standard management of granuloma without cord compromise is drug management ± catheter revision, not emergency open surgery.",
+            "D": "Stopping the pump completely without tapering intrathecal opioid could cause acute withdrawal syndrome (sweating, cramping, anxiety, hypertension, tachycardia). Conversion to systemic opioids must be gradual, and the reason for stopping (granuloma) should first be addressed by less invasive means."
+          },
+          "guideline": "Deer TR et al. PACC Guidelines (Neuromodulation 2017): catheter tip granuloma management — reduce concentration, switch to lower-granuloma-risk drug (hydromorphone, ziconotide); reimplant catheter at different level if persistent; surgery if neurological deficit.",
+          "trial": "Deer TR et al. Intrathecal catheter granuloma associated with high-concentration morphine. Neuromodulation 2012;15:529-535: systematic review — granuloma risk significantly reduced with hydromorphone (5× lower risk) and ziconotide vs morphine; concentration reduction most effective management strategy; surgical removal reserved for neurological deficit.",
+          "pearl": "Catheter tip granuloma: paradoxical pain WORSENING despite dose escalation = suspect granuloma. Diagnosis: MRI with gadolinium — enhancing mass at catheter tip. Management: REDUCE concentration, SWITCH drug (hydromorphone/ziconotide lower risk), reimplant at different level. Surgery only for neurological deficit. Never escalate dose — counterproductive and dangerous.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D3-Q19",
+        "stem": "The Kemler NEJM 2000 trial established SCS evidence for CRPS. What was the primary finding, and which SCS modality was used?",
+        "options": {
+          "A": "SCS achieved 80% complete pain relief in CRPS vs 50% with physiotherapy alone using HF10-SCS",
+          "B": "SCS plus physiotherapy achieved 39% ≥50% pain relief vs 0% physiotherapy alone at 6 months, using conventional paresthesia-based SCS",
+          "C": "DRG stimulation was superior to conventional SCS for CRPS in the Kemler trial",
+          "D": "SCS achieved equivalent results to spinal blocks for CRPS at 2-year follow-up"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Kemler MA et al. (NEJM 2000): 54 CRPS Type I patients randomised to SCS + physiotherapy vs physiotherapy alone. Primary outcome: ≥50% pain relief at 6 months. Results: SCS + PT group 39% achieved ≥50% relief vs 0% PT alone (P<0.001). VAS pain: SCS group -2.4 cm vs PT group +0.2 cm improvement. This used CONVENTIONAL paresthesia-based SCS — not HF10 or DRG stimulation, which were not available at the time. The Kemler trial provided Level I evidence for SCS in CRPS. 2-year follow-up maintained significance. DRG stimulation superiority for CRPS came from the ACCURATE trial (2017), a subsequent study.",
+          "wrong": {
+            "A": "80% complete pain relief overstates the Kemler results. The threshold was ≥50% relief, achieved by 39% — not 80% or 'complete' relief. HF10-SCS was not used in Kemler 2000.",
+            "C": "DRG stimulation superiority for CRPS was demonstrated in the ACCURATE trial (Deer 2017 JAMA Neurology) — a different trial from Kemler. The Kemler trial used conventional paresthesia-based SCS.",
+            "D": "Spinal blocks were not compared in the Kemler trial — it compared SCS + PT vs PT alone."
+          },
+          "guideline": "AAN SCS Guidelines: Kemler NEJM 2000 = Level I evidence for SCS in CRPS Type I. NICE TA159: SCS recommended for CRPS based partly on Kemler trial. ACCURATE trial (2017): DRG superior to conventional SCS for CRPS (81% vs 56% success, P<0.001).",
+          "trial": "Kemler MA et al. Spinal Cord Stimulation in Patients with Chronic Reflex Sympathetic Dystrophy. NEJM 2000;343:618-624: n=54 CRPS Type I; SCS+PT 39% vs PT 0% ≥50% relief at 6 months (P<0.001). Conventional paresthesia-based SCS. Foundation evidence for SCS in CRPS.",
+          "pearl": "Kemler NEJM 2000: SCS for CRPS Type I. Conventional SCS + PT = 39% vs PT alone = 0% ≥50% relief (P<0.001). Level I evidence. Compare with ACCURATE 2017: DRG stimulation 81% vs conventional SCS 56% for CRPS. Current practice: DRG stimulation is preferred for CRPS (especially foot/distal) based on ACCURATE; conventional SCS remains valid alternative.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D3-Q20",
+        "stem": "A 38-year-old man with chronic neuropathic low back pain is assessed for SCS. He describes the pain as burning, shooting, and associated with allodynia to light touch in the L4-L5 distribution. He scores 9/10 on VAS, has failed 3 adequate drug trials (gabapentin, duloxetine, amitriptyline), failed physiotherapy, and undergone 2 epidural steroid injections without sustained benefit. He has a stable job, no secondary gain, no psychiatric diagnoses, and no substance use history. Psychological evaluation recommends him as a candidate. He undergoes a 7-day percutaneous SCS trial achieving 55% pain relief. What is the appropriate next step?",
+        "options": {
+          "A": "Declare the trial a failure — 55% is below the 60% threshold for permanent implantation",
+          "B": "Proceed to permanent SCS implantation — ≥50% relief during trial is the threshold for permanent system",
+          "C": "Extend the trial for a further 3 weeks to confirm sustained efficacy before permanent implantation",
+          "D": "Refer to pain psychology for 6 months of CBT before committing to permanent implantation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard threshold for proceeding to permanent SCS implantation after a trial is ≥50% pain relief during the trial period. This patient achieved 55% relief — above the threshold. Combined with his excellent candidacy profile (failed 3 drug trials, no secondary gain, psychologically cleared, neuropathic pain quality), proceeding to permanent implantation is appropriate. The trial period (7-10 days) is adequate to confirm SCS response — there is no clinical rationale for extending the trial.",
+          "wrong": {
+            "A": "60% is not the standard threshold. The established ≥50% threshold (from PROCESS trial criteria and consensus guidelines) is the internationally accepted standard for proceeding to permanent implantation. 55% exceeds this threshold.",
+            "C": "Extending the trial beyond 7-10 days is not standard practice and increases infection risk (percutaneous trial leads are not sterile for prolonged periods). The 7-10 day standard trial period is designed to assess initial response — longer trials do not reliably predict long-term outcomes better than the standard duration.",
+            "D": "This patient has already been psychologically evaluated and cleared. CBT is complementary to SCS but is NOT a prerequisite for implantation when the patient is already cleared. Requiring 6 months of CBT before implantation without clinical indication would unnecessarily delay treatment."
+          },
+          "guideline": "NICE TA159 and ISAS SCS Guidelines: permanent implantation threshold = ≥50% pain relief during trial + positive psychosocial assessment. 7-10 day trial period is standard; no recommendation to extend beyond 14 days.",
+          "trial": "Kumar K et al. PROCESS trial (Pain 2007): trial threshold ≥50% was used to select patients for randomisation/implantation — this threshold validated as clinically meaningful and predictive of long-term benefit. North RB (NEJM 2005): same ≥50% trial threshold used for permanent implantation decisions.",
+          "pearl": "SCS trial threshold for permanent implantation: ≥50% pain relief (NOT 60%). 7-10 day standard trial period. Proceed to permanent if: ≥50% relief + psychological clearance + concordant neuropathic pain + failed conservative treatments. 55% relief = proceed. Do NOT delay for arbitrary extended trial or unnecessary CBT if already cleared.",
+          "difficulty": 1
+        }
+      }
+    ]
+  }
+}

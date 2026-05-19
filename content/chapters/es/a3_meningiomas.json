@@ -1,0 +1,671 @@
+{
+  "id": "A3",
+  "title": "Meningiomas",
+  "subtitle": "Bloque A — Neuro-Oncología: Clasificación, Gradación y Tratamiento Quirúrgico",
+  "block": "A",
+  "block_name": "Neuro-Oncología",
+  "level": "R1-3",
+  "reading_time_min": 42,
+  "guidelines_version": "EANO/EANS Guías de Meningioma 2021 · Clasificación WHO de Tumores del SNC 2021 · NCCN Tumores del SNC v1.2024",
+  "textbook_refs": [
+    "Goldbrunner R et al. EANO guidelines for the diagnosis and treatment of meningiomas. Lancet Oncol 2021;22:e402-e411",
+    "Louis DN et al. The 2021 WHO Classification of Tumors of the Central Nervous System. Neuro Oncol 2021;23:1231-1251",
+    "Simpson D. The recurrence of intracranial meningiomas after surgical treatment. J Neurol Neurosurg Psychiatry 1957;20:22-39",
+    "Nassiri F et al. A clinically applicable integrative molecular classification of meningiomas. Nature 2021;597:119-125"
+  ],
+  "learning_objectives": [
+    "Aplicar el sistema de gradación de meningiomas WHO 2021, incluidos los marcadores moleculares (mutación TERT, deleción CDKN2A/B, BAP1, NF2), a casos clínicos",
+    "Interpretar la gradación de Simpson y su relación con el riesgo de recurrencia y la estrategia quirúrgica contemporánea",
+    "Seleccionar el abordaje quirúrgico apropiado para meningiomas en diferentes localizaciones anatómicas (convexidad, parasagital, base de cráneo, fosa posterior)",
+    "Definir las indicaciones de radioterapia adyuvante según el grado, la extensión de la resección y el perfil molecular",
+    "Asesorar a los pacientes sobre el riesgo de recurrencia a largo plazo y los protocolos de vigilancia con imagen",
+    "Describir los resultados de la radiocirugía (SRS) para meningiomas de pequeño y mediano tamaño como alternativa a la cirugía"
+  ],
+  "sections": [
+    {
+      "id": "A3-S1",
+      "title": "Clasificación WHO 2021 y Patología Molecular",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los meningiomas se originan en las células de la tapa aracnoidea (meningoteliales) de las leptomeninges y representan el tumor intracraneal primario más frecuente en adultos, constituyendo aproximadamente el 36-38% de todos los tumores primarios del SNC. La clasificación WHO 2021 de tumores del SNC introdujo cambios significativos en la gradación de los meningiomas, incorporando biomarcadores moleculares junto con los criterios histológicos. Los meningiomas de grado 1 (benignos) comprenden aproximadamente el 80% de los casos e incluyen los subtipos meningotelial, fibroso, transicional, psamomatoso, angiomatoso, microquístico, secretor y metaplásico. Los meningiomas de grado 2 (atípicos) representan el 15-20% y se definen por índice mitótico ≥4/10 CGA, tres o más de cinco características (necrosis espontánea, crecimiento en sábana, nucléolos prominentes, alta celularidad, células pequeñas con alta relación N:C) o invasión cerebral — cualquier criterio aislado es suficiente. Los meningiomas de grado 3 (anaplásicos/malignos) (1-3%) muestran índice mitótico ≥20/10 CGA o anaplasia franca con pérdida de diferenciación meningotelial.\n\nLa revisión de 2021 incorporó de forma crítica la **mutación del promotor de TERT** y la **deleción homocigota de CDKN2A y/o CDKN2B** como criterios de ascenso automático a grado 3, independientemente de la apariencia histológica. La pérdida de **BAP1** (por inmunohistoquímica o mutación) también asciende a grado 3 o justifica la consideración de grado 2. La mutación de **NF2** es el evento somático más frecuente (~50%), asociado a histología fibrosa/transicional y localización en el proceso espinoso/hoz. Los meningiomas sin mutación NF2 suelen presentar mutaciones en TRAF7, KLF4, AKT1, PIK3CA o SMO, cada una asociada a subtipos histológicos y localizaciones específicas (p. ej., mutaciones SMO en meningiomas de la cisura olfatoria/ala esfenoidal medial; AKT1/PIK3CA en subtipos secretores y meningoteliales)."
+        },
+        {
+          "type": "table",
+          "title": "Gradación de Meningiomas WHO 2021 — Criterios Clave y Biomarcadores",
+          "headers": ["Grado", "Criterios Histológicos", "Criterios Moleculares de Ascenso", "Recurrencia a 5 años", "SG a 5 años"],
+          "rows": [
+            ["Grado 1 (Benigno)", "Ninguna de las características de grado 2/3; subtipos estándar", "Ninguno", "7-25%", ">95%"],
+            ["Grado 2 (Atípico)", "Mitosis ≥4/10 CGA, O invasión cerebral, O ≥3 de 5 características atípicas", "Considerar si hay mutación TERT o deleción CDKN2A/B", "29-52%", "78-88%"],
+            ["Grado 3 (Anaplásico)", "Mitosis ≥20/10 CGA o anaplasia franca", "Mutación del promotor de TERT O deleción homocigota de CDKN2A/B O pérdida de BAP1 → Grado 3", "50-78%", "20-56%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Mutación del Promotor de TERT = Grado 3 Automático",
+          "content": "En la clasificación WHO 2021, la mutación del promotor de TERT o la deleción homocigota de CDKN2A/B asciende automáticamente cualquier meningioma a grado 3, independientemente de su apariencia histológica. Un meningioma morfológicamente de grado 2 con mutación TERT se clasifica y maneja como grado 3. Esta es una distinción de alto rendimiento en el examen respecto a la clasificación WHO 2016."
+        }
+      ]
+    },
+    {
+      "id": "A3-S2",
+      "title": "Gradación de Simpson y Extensión de la Resección",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **sistema de gradación de Simpson** (1957) sigue siendo la piedra angular de la planificación quirúrgica de los meningiomas, describiendo la extensión de la resección lograda y prediciendo el riesgo de recurrencia. Simpson publicó su análisis histórico de 265 pacientes con meningioma en el National Hospital, Queen Square, demostrando una clara relación entre la completitud de la resección y la recurrencia a 10 años. La resección de grado 1 (extirpación macroscópicamente completa incluyendo la inserción dural y el hueso hiperostótico) logra una tasa de recurrencia a 10 años de aproximadamente el 9%. El grado 2 (completa macroscópicamente con coagulación de la inserción dural) conlleva un 19% de recurrencia. El grado 3 (completa macroscópicamente sin tratamiento de la duramadre) resulta en un 29% de recurrencia. Los grados 4 (resección parcial) y 5 (solo biopsia) tienen tasas de recurrencia del 40% y 65%, respectivamente.\n\nLa práctica neuroquirúrgica contemporánea ha refinado estas categorías. Los estudios modernos que utilizan RM volumétrica demuestran que la resección verdadera de grado Simpson 1 es alcanzable para meningiomas de convexidad y no de base de cráneo, pero raramente se logra para lesiones del seno cavernoso, petroclivales o del foramen magno donde la adherencia a nervios craneales y estructuras vasculares impone una resección subtotal intencionada. El concepto de **resección casi total (RCT)** o resección subtotal planificada seguida de SRS adyuvante ha emergido como la estrategia preferida para muchos meningiomas de la base de cráneo, intercambiando extensión de resección por preservación de la función neurológica. Sughrue et al. (2010) demostraron que para los meningiomas de grado 1, los resultados funcionales tras la resección subtotal seguida de SRS eran comparables a la resección total agresiva con menor morbilidad."
+        },
+        {
+          "type": "table",
+          "title": "Sistema de Gradación de Simpson — Definiciones y Tasas de Recurrencia",
+          "headers": ["Grado Simpson", "Definición", "Recurrencia a 10 años (Original)", "Recurrencia a 10 años (Series Modernas)"],
+          "rows": [
+            ["Grado 1", "Extirpación macroscópicamente completa, escisión de la inserción dural y el hueso hiperostótico", "9%", "7-12%"],
+            ["Grado 2", "Macroscópicamente completa, inserción dural coagulada", "19%", "18-25%"],
+            ["Grado 3", "Macroscópicamente completa, inserción dural no tratada", "29%", "28-35%"],
+            ["Grado 4", "Extirpación parcial — tumor dejado in situ", "40%", "35-50%"],
+            ["Grado 5", "Descompresión simple/biopsia únicamente", "65%", "60-75%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Perseguir el Grado Simpson 1 a Cualquier Precio",
+          "content": "La búsqueda agresiva de la resección de grado Simpson 1 para meningiomas del seno cavernoso o petroclivales causa una morbilidad inaceptable de los nervios craneales. Para estas localizaciones, la resección subtotal planificada (Simpson 4) seguida de SRS es el abordaje estándar. La parálisis del oculomotor, el entumecimiento facial y la parálisis del abducente por disección agresiva pueden ser permanentes. El objetivo cambia de la curación al control tumoral preservando la calidad de vida."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Cuándo Aceptar la Resección Subtotal",
+          "content": "Una mujer de 58 años con un meningioma del seno cavernoso derecho de 3,5 cm y función oculomotora intacta: el plan correcto es la resección subtotal endoscópica o microquirúrgica preservando los pares craneales III-VI, seguida de SRS para el residuo. Intentar una resección agresiva arriesga diplopia permanente y pérdida de sensibilidad facial. Documente meticulosamente la función de los nervios craneales preoperatoria y obtenga consentimiento informado para la estrategia de resección subtotal deliberada."
+        }
+      ]
+    },
+    {
+      "id": "A3-S3",
+      "title": "Abordajes Quirúrgicos según la Localización",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El abordaje quirúrgico al meningioma está dictado por la localización tumoral, el tamaño, el aporte vascular y la base dural. Los **meningiomas de convexidad** se abordan mediante una craneotomía estándar centrada sobre el tumor. La embolización preoperatoria se considera para tumores >4 cm con aporte vascular pial significativo, típicamente realizada 24-48 horas antes de la cirugía. La base dural se identifica y coagula circunferencialmente antes de desvascularizar el tumor de su aporte vascular pial, siguiendo el principio de desvascularización precoz.\n\nLos **meningiomas parasagitales** que afectan al seno sagital superior (SSS) requieren mapeo venoso preoperatorio cuidadoso con angio-RM o angio-TC. Para los tumores de grado 1 que invaden el tercio posterior del SSS (no sacrificable por el drenaje venoso cortical), se prefiere la resección subtotal intencionada dejando la porción invasora del seno in situ, con SRS adyuvante para el residuo. Los meningiomas parasagitales que invaden el tercio anterior del SSS pueden tratarse con reconstrucción del seno o sacrificio si se confirma que el drenaje venoso dominante está preservado.\n\nLos **meningiomas del ala esfenoidal** se clasifican como laterales, medios o mediales (clinoideos). Los meningiomas del ala esfenoidal medial y clinoideos se encuentran entre los técnicamente más exigentes, encapsulando la arteria carótida interna, la ACM, el nervio óptico y el seno cavernoso. El abordaje pterional u orbitozigomático proporciona la exposición óptima. La agudeza visual y los campos visuales preoperatorios deben documentarse ya que la descompresión del canal óptico es un objetivo quirúrgico clave.\n\nLos **meningiomas de la cisura olfatoria** se presentan con anosmia y se abordan mediante craneotomía bifrontal o abordaje endonasal endoscópico. La vía endonasal (abordaje endonasal endoscópico expandido, EEA) ofrece ventajas para tumores <3 cm sin extensión lateral significativa, pero conlleva tasas más altas de fístula de LCR (~10%). Los **meningiomas del tubérculo de la silla** también pueden abordarse transcranialmente o por EEA; el resultado visual es el objetivo quirúrgico principal.\n\n**Meningiomas de la fosa posterior**: Los meningiomas petroclivales y del foramen magno requieren abordajes laterales (retrosigmoideo, far lateral/transcondíleo). El abordaje far lateral proporciona acceso a la región anterior del foramen magno, la arteria vertebral y los nervios craneales inferiores. La petrosectomía posterior (presigmoidea) se reserva para tumores petroclivales grandes con compresión significativa del tronco del encéfalo anterior."
+        },
+        {
+          "type": "table",
+          "title": "Localización del Meningioma — Abordaje, Riesgos Clave e Indicación de Embolización",
+          "headers": ["Localización", "Abordaje Preferido", "Riesgo Anatómico Principal", "Papel de la Embolización"],
+          "rows": [
+            ["Convexidad", "Craneotomía estándar", "Venas puente, proximidad al seno sagital", "Tumores >4 cm"],
+            ["Parasagital — tercio anterior SSS", "Craneotomía parasagital ± reconstrucción del seno", "Trombosis del SSS, sacrificio de vena cortical", "Sí si grande"],
+            ["Parasagital — tercio posterior SSS", "Resección subtotal + SRS adyuvante", "SSS no sacrificable", "Selectiva"],
+            ["Ala esfenoidal medial/clinoidea", "Pterional u orbitozigomático", "Encapsulamiento de ACI, ACM, NO, PC III", "Selectiva"],
+            ["Cisura olfatoria", "Bifrontal o EEA", "Perforantes de la ACA, anosmia permanente", "Selectiva <3 cm"],
+            ["Petroclival", "Retrosigmoideo o petrosectomía presigmoidea", "Arteria basilar, PC V-XII, AICA", "No de rutina"],
+            ["Foramen magno", "Far lateral transcondíleo", "PICA, arteria vertebral, PC IX-XII", "No de rutina"],
+            ["Seno cavernoso", "Subtotal planificado + SRS", "PC III, IV, V1, V2, VI; ACI", "No indicada"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3-S4",
+      "title": "Radiocirugía y Radioterapia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La radiocirugía estereotáctica (SRS) desempeña un papel central en el manejo contemporáneo de los meningiomas, tanto como tratamiento primario como terapia adyuvante tras la resección subtotal. Para meningiomas de grado 1 de pequeño a mediano tamaño (típicamente <3 cm de diámetro máximo o <10 cm³ de volumen) sin efecto de masa significativo, la SRS logra tasas de control local a 5 años del 93-97%, comparables a la resección quirúrgica, con superior preservación de la función neurológica para lesiones del seno cavernoso, petroclivales y de la fosa posterior.\n\nEl ensayo **ROAM/EORTC 1308** (Soffietti et al., Lancet Oncol 2023) es el ensayo aleatorizado de referencia para meningiomas de grado 2 tras resección completa, comparando radioterapia adyuvante (54 Gy) frente a observación. Este ensayo estableció que la RT adyuvante mejora significativamente la supervivencia libre de progresión (SLP a 5 años: 71% RT frente a 54% observación, HR 0,45, p=0,0035) sin diferencia significativa en la supervivencia global en el seguimiento actual, apoyando la RT adyuvante como estándar asistencial tras la resección completa del meningioma de grado 2.\n\nPara los meningiomas de grado 1 tras resección subtotal, el ensayo **IMPASSE** y diversas series institucionales apoyan la SRS sobre el residuo como control tumoral eficaz. La radiocirugía se administra como fracción única con dosis típicamente de 12-13 Gy en la línea de isodosis del 50% para meningiomas del seno cavernoso, ajustando la dosis prescrita para lograr ≤8 Gy en el aparato óptico. La radioterapia estereotáctica fraccionada (FSRT, 50,4-54 Gy en 28-30 fracciones) se prefiere para tumores de gran volumen o adyacentes a estructuras críticas donde la dosimetría de fracción única causaría una dosis inaceptable en el tejido normal.\n\nLos meningiomas de grado 3 tienen un pronóstico sombrío a pesar del tratamiento agresivo. El estándar asistencial tras la resección quirúrgica es la radioterapia adyuvante (60 Gy en 30 fracciones). La quimioterapia no ha demostrado beneficio consistente; los análogos de la somatostatina (octreotida, pasireotida) han mostrado actividad modesta en casos irresecables basándose en la positividad de la gammagrafía de receptores de somatostatina."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Ensayo ROAM: RT Adyuvante para Grado 2 tras Resección Completa",
+          "content": "El ensayo ROAM/EORTC 1308 (Lancet Oncol 2023) demostró que la radioterapia adyuvante (54 Gy) tras la resección completa del meningioma de grado 2 mejora significativamente la SLP a 5 años (71% frente a 54%, HR 0,45). Esta es ahora la recomendación estándar en las guías EANO/EANS 2021 (actualizadas en 2023) para meningiomas de grado 2 tras resección total macroscópica."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Dosis de SRS en el Aparato Óptico",
+          "content": "La SRS de fracción única para meningiomas adyacentes a los nervios/quiasma óptico debe respetar la dosis de tolerancia de ≤8 Gy en el aparato óptico. Superar este umbral causa neuropatía óptica por radiación con pérdida visual permanente, que es irreversible. Cuando la proximidad del aparato óptico impide una cobertura adecuada del tumor con SRS de fracción única, la FSRT fraccionada (50,4 Gy en 28 fracciones) es obligatoria."
+        }
+      ]
+    },
+    {
+      "id": "A3-S5",
+      "title": "Localizaciones Especiales: Espinales, Intraventriculares y Meningiomas Múltiples",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los **meningiomas espinales** representan el 25-45% de todos los tumores intradurales extramedulares espinales y ocurren predominantemente a nivel torácico (80%) en mujeres de mediana edad. A diferencia de los meningiomas intracraneales, los espinales raramente se asocian con NF2 y tienen una menor tasa de alteraciones de CDKN2A/B y TERT. La resección total macroscópica con plastia dural (cuando se extirpa la base dural) logra tasas de recurrencia <5% para tumores de grado 1 de la WHO. La variante calcificada tiene mayor morbilidad quirúrgica debido a la adherencia a la médula espinal. El abordaje quirúrgico posterior (laminectomía/laminoplastia) es estándar; los abordajes anteriores se necesitan para lesiones cervicales ventrales. Los resultados neurológicos se correlacionan con el estado neurológico preoperatorio y la duración del déficit — los pacientes con mielopatía crónica pueden tener una recuperación incompleta a pesar de una descompresión exitosa.\n\nLos **meningiomas intraventriculares** (0,5-3% de los meningiomas intracraneales) se originan más frecuentemente en el plexo coroideo del ventrículo lateral (región del trígono), ocurren con mayor frecuencia en mujeres y se presentan con hipertensión intracraneal, hidrocefalia o defectos del campo visual. Los abordajes quirúrgicos incluyen la vía transcortical-transventricular a través del lobulillo parietal superior o el abordaje transcalloso-transventricular; este último preserva el tejido cortical pero arriesga lesión venosa de las venas cerebrales internas. Se recomienda encarecidamente la embolización preoperatoria dado el abundante aporte vascular coroideo.\n\nLos **meningiomas múltiples** (>1 meningioma sincrónico) ocurren en el 1-10% de los pacientes con meningioma. Requieren **análisis del gen NF2** y evaluación clínica para neurofibromatosis tipo 2 (NF2), que se caracteriza por schwannomas vestibulares bilaterales como hallazgo diagnóstico. Los meningiomas en NF2 tienden a tener un comportamiento más agresivo en relación con su grado histológico. Los meningiomas inducidos por radiación (tras RT craneal, especialmente en la infancia) suelen aparecer en el margen del campo, tienen tasas más altas de histología atípica/anaplásica y ocurren décadas después de la exposición original a la radiación."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Meningioma Espinal en Mujeres Mayores",
+          "content": "Una mujer de 72 años con mielopatía torácica progresiva de 18 meses, RM en T2 que muestra una masa intradural extramedular con captación homogénea de 2,5 cm en T4-T5 con signo del casquete de LCR: esta presentación es clásica de un meningioma espinal de grado 1 de la WHO. Abordaje quirúrgico: laminoplastia posterior T4-T5, resección microquirúrgica en bloque incluyendo la base dural (grado Simpson 1). Resultado esperado: mejoría neurológica en el 70-85% de los casos, siendo el tiempo hasta la cirugía el factor más modificable. La cirugía diferida en pacientes con deambulación preservada tiene resultados comparables."
+        }
+      ]
+    },
+    {
+      "id": "A3-S6",
+      "title": "Recurrencia, Vigilancia y Terapia Sistémica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La recurrencia tras el tratamiento del meningioma es un desafío clínico significativo, especialmente para los tumores de grado 2 y 3. La vigilancia por RM postratamiento se recomienda según EANO 2021: para grado 1, RM a los 3 meses postoperatorios, luego a los 6 meses, luego anualmente durante 5 años, luego cada dos años. Para grado 2, RM a los 3 meses, 6 meses, luego cada 6 meses durante 5 años, luego anualmente. Para grado 3, RM cada 3 meses.\n\nEn la recurrencia de meningioma de grado 1, la reintervención quirúrgica (si es factible) o la SRS sigue siendo el estándar. Para meningiomas de grado 2-3 recurrentes, se realiza la reoperación seguida de re-irradiación (si está dentro de los límites de dosis) cuando es técnicamente factible. **Las opciones de terapia sistémica son limitadas**. La hidroxiurea (el agente utilizado anteriormente) ha sido prácticamente abandonada por su eficacia mínima. El **bevacizumab** ha mostrado un modesto beneficio en SLP en meningiomas de grado 2-3 recurrentes (Nayak et al., Neuro Oncol 2012): SLP a 6 meses del 43,8%, mediana de SLP de 15,2 semanas. El ensayo EORTC 1320 evaluó hidroxiurea frente a bevacizumab en meningiomas recurrentes y demostró una SLP a 6 meses superior con bevacizumab (36% frente a 17%).\n\nLa **diana del receptor de somatostatina (SSTR)** aprovecha la alta expresión de SSTR2 (~80% de los meningiomas de grado 1) tanto para imagen (PET-TC con 68Ga-DOTATATE, ahora el estándar de oro para la detección de recurrencia de meningioma, especialmente post-SRS) como para tratamiento. La terapia con radionúclidos de péptidos receptores (PRRT con 177Lu-DOTATATE) se está investigando en ensayos de fase II (LUTATHERA-MENING). Los **inhibidores de CDK4/6** (palbociclib) se estudian dado la frecuente pérdida de CDKN2A/B en meningiomas de grado 2-3. Los **inhibidores de FAK** se dirigen a las alteraciones de la vía PI3K/AKT (mutaciones AKT1 E17K). La clasificación molecular integrada de Nassiri et al. (Nature 2021) de 3.031 meningiomas mediante metilación de ADN identificó seis grupos de meningiomas con pronóstico distinto, proporcionando una clasificación biológicamente racional que trasciende la gradación WHO."
+        },
+        {
+          "type": "table",
+          "title": "Opciones de Terapia Sistémica en Meningioma Recurrente/Refractario",
+          "headers": ["Agente", "Mecanismo", "Evidencia", "SLP a 6 meses", "Grado"],
+          "rows": [
+            ["Bevacizumab", "Anti-VEGF", "Nayak Neuro Oncol 2012; EORTC 1320", "36-44%", "2-3"],
+            ["Octreotida/pasireotida", "Agonista SSTR", "Fase II (Chamberlain 2012)", "17-44%", "1-2"],
+            ["Palbociclib", "Inhibidor CDK4/6", "Fase II tumores con deleción CDKN2A/B (en curso)", "Preliminar", "2-3"],
+            ["177Lu-DOTATATE (PRRT)", "Radiación dirigida SSTR2", "Ensayos fase II (en curso)", "Preliminar", "1-2-3"],
+            ["Hidroxiurea", "Inhibidor de ribonucleótido reductasa", "Abandonada — eficacia mínima", "<20%", "Histórica"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — PET con 68Ga-DOTATATE para Vigilancia de Meningioma",
+          "content": "El PET-TC con 68Ga-DOTATATE aprovecha la alta expresión del receptor de somatostatina 2 (SSTR2) en los meningiomas y es superior a la RM para detectar pequeñas recurrencias (especialmente post-SRS donde los cambios por tratamiento confunden la interpretación de la RM), afectación de la base de cráneo y meningiomas espinales. La EANO 2021 recomienda el PET con 68Ga-DOTATATE como complemento a la RM para casos ambiguos y para la planificación quirúrgica. Importantemente, los meningiomas de grado 3 de la WHO pueden perder la expresión de SSTR2 y ser DOTATATE-negativos."
+        }
+      ]
+    },
+    {
+      "id": "A3-S7",
+      "title": "Pronóstico, Resultados y Ensayos Clínicos Clave",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los resultados de los meningiomas están determinados en gran medida por el grado de la WHO, el perfil molecular, la localización y la extensión de la resección. En general, la mortalidad específica por meningioma es baja para el grado 1 (supervivencia específica por enfermedad a 5 años >95%) pero aumenta sustancialmente para el grado 3 (SG a 5 años del 20-56% en series contemporáneas). La clasificación molecular integrada de **Nassiri et al. (Nature 2021)** de 3.031 meningiomas mediante perfilado de metilación de ADN y datos genómicos identificó seis clases de metilación distintas que predicen el pronóstico mejor que el grado WHO solo. Su 'puntuación epigenética de meningioma' que incorpora la clase de metilación, el estado TERT y CDKN2A/B identifica a los pacientes con riesgo extremo de recurrencia que podrían beneficiarse de tratamiento adyuvante inmediato incluso después de una resección total macroscópica.\n\nEl ensayo **EORTC 22042-26042** (Weber et al., Neuro Oncol 2018) abordó el papel de la radioterapia en los meningiomas de grado 2 tras resección total macroscópica, sin mostrar inicialmente beneficio en el seguimiento precoz. El seguimiento más prolongado (12 años) sugirió un beneficio en la SLP, preparando el camino para el ensayo ROAM confirmatorio. El ensayo **NRG-BN003 (RTOG 0539)** es un estudio norteamericano de fase II sobre observación frente a RT para meningiomas de grado 2 por estratificación del riesgo, con resultados preliminares que apoyan la RT para tumores de alto riesgo (grado 2 recurrente, o grado 2 con RST).\n\nPara la medición práctica de los resultados quirúrgicos, la **Escala de Gradación de Simpson** (1957) sigue siendo el lenguaje universal de la cirugía de meningiomas. Los refinamientos contemporáneos como la **clasificación de Kawase** para tumores petroclivales y la **clasificación de resección de la base de cráneo de DeLaney** proporcionan mayor detalle anatómico para localizaciones complejas. Las evaluaciones de calidad de vida incluyen cada vez más el módulo de tumor cerebral **EORTC QLQ-BN20** y la escala **FOMO (Functional Outcome in Meningioma)**, que reflejan el cambio de la supervivencia a los resultados funcionales como métrica primaria en la enfermedad de grado 1."
+        },
+        {
+          "type": "table",
+          "title": "Ensayos Clínicos Clave en Meningioma — Resumen",
+          "headers": ["Ensayo", "Población", "Diseño", "Resultado Principal", "Impacto en la Práctica"],
+          "rows": [
+            ["ROAM/EORTC 1308 (Lancet Oncol 2023)", "Meningioma grado 2, resección total macroscópica", "ECA: RT (54 Gy) frente a observación", "SLP a 5 años: 71% RT frente a 54% obs (HR 0,45, p=0,0035)", "RT adyuvante estándar para RTM grado 2"],
+            ["NRG BN003/RTOG 0539 (Neuro Oncol 2022)", "Meningioma grado 2-3 estratificado por riesgo", "Fase II, RT adaptada al riesgo", "Bajo riesgo (grado 1 RTM): obs segura; alto riesgo: RT requerida", "Vigilancia y tratamiento estratificados por riesgo"],
+            ["EORTC 22042-26042 (Neuro Oncol 2018)", "Meningioma grado 2 tras RTM", "Fase II, RT adyuvante 60 Gy", "Sin beneficio en SLP a 3 años; tendencia en seguimiento prolongado", "Preparó el camino para ROAM; destacó la necesidad de ECA"],
+            ["Nassiri et al. Nature 2021", "3.031 meningiomas, perfilado de metilación de ADN", "Estudio molecular retrospectivo", "6 clases de metilación con pronóstico distinto independiente del grado WHO", "Clasificación por metilación entrando en uso clínico"],
+            ["Sughrue et al. 2010 (metaanálisis)", "Meningioma grado 1, RST frente a RTM", "Metaanálisis", "RST + SRS: control comparable a RTM en base de cráneo; menor morbilidad", "Apoya RST planificada + SRS para grado 1 de base de cráneo"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Manejo del Meningioma de Grado 2 tras RTM",
+          "content": "Un varón de 52 años se somete a resección total macroscópica (grado Simpson 2) de un meningioma de convexidad parietal derecha. Anatomía patológica: grado 2 WHO (atípico), 6 mitosis/10 CGA, crecimiento en sábana, sin invasión cerebral; mutación de NF2, TERT nativo, CDKN2A/B intacto. Manejo postoperatorio: según los resultados del ensayo ROAM, la radioterapia adyuvante (54 Gy en 30 fracciones) es el estándar asistencial, mejorando la SLP a 5 años del 54% al 71%. Vigilancia con RM a los 3 meses post-RT, luego cada 6 meses durante 5 años."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúa tu conocimiento sobre la clasificación, el tratamiento quirúrgico y el manejo de los meningiomas con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "A3-Q1",
+        "stem": "¿Qué alteración molecular asciende automáticamente un meningioma a grado 3 de la WHO según la clasificación WHO 2021, independientemente de su apariencia histológica?",
+        "options": {
+          "A": "Mutación de NF2",
+          "B": "Mutación del promotor de TERT",
+          "C": "Mutación AKT1 E17K",
+          "D": "Mutación de SMO"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En la clasificación WHO 2021, la mutación del promotor de TERT O la deleción homocigota de CDKN2A/B asciende automáticamente cualquier meningioma a grado 3 independientemente del grado histológico. Esto representa un cambio fundamental respecto a la clasificación de 2016, que se basaba exclusivamente en criterios histológicos. La pérdida de BAP1 también es un indicador de grado 3. Este ascenso molecular significa que un meningioma con histología benigna pero con mutación TERT se trata como un tumor maligno que requiere tratamiento agresivo.",
+          "wrong": {
+            "A": "La mutación de NF2 es la alteración somática más frecuente en los meningiomas (~50%), pero no asciende el grado. Los meningiomas con mutación NF2 son más frecuentemente de subtipos fibroso/transicional y tienden a ser de grado 1 de la WHO.",
+            "C": "La mutación AKT1 E17K se encuentra en ~10% de los meningiomas, particularmente en los subtipos secretores y meningoteliales de la base de cráneo, pero no asciende el grado en la WHO 2021.",
+            "D": "Las mutaciones SMO se encuentran en meningiomas de grado 1 de la WHO de la cisura olfatoria y ala esfenoidal medial — no están asociadas con comportamiento maligno ni con ascenso de grado."
+          },
+          "guideline": "Clasificación WHO de Tumores del SNC 2021 — Capítulo 3: Meningiomas; Guías EANO de Meningioma 2021 (Lancet Oncol)",
+          "trial": "Nassiri F et al. Nature 2021: Clasificación molecular integrada de 3.031 meningiomas — la mutación TERT y la deleción CDKN2A/B definen los grupos moleculares de mayor riesgo",
+          "pearl": "WHO 2021: mutación del promotor de TERT o deleción homocigota de CDKN2A/B = grado 3 automático, independientemente de la histología. Este es el dato molecular de mayor rendimiento sobre la clasificación de meningiomas."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q2",
+        "stem": "Una mujer de 65 años se somete a resección de un meningioma parasagital. El cirujano logra la extirpación macroscópicamente completa del tumor pero no extirpa ni coagula la inserción dural porque afecta al seno sagital superior. ¿Qué grado de Simpson se alcanzó?",
+        "options": {
+          "A": "Grado Simpson 1",
+          "B": "Grado Simpson 2",
+          "C": "Grado Simpson 3",
+          "D": "Grado Simpson 4"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El grado Simpson 3 se define como la extirpación macroscópicamente completa del tumor pero sin tratamiento de la inserción dural (ni escisión ni coagulación). Esto ocurre frecuentemente en meningiomas parasagitales que afectan al seno sagital superior donde el tratamiento dural no es posible sin arriesgar la lesión del seno. La tasa de recurrencia a 10 años para el grado Simpson 3 es de aproximadamente el 29-35%, intermedia entre los grados 1-2 (9-19%) y el grado 4 (40%).",
+          "wrong": {
+            "A": "El grado Simpson 1 requiere la extirpación macroscópicamente completa incluyendo la escisión de la inserción dural y cualquier hueso hiperostótico afectado. La base dural no fue abordada en este caso.",
+            "B": "El grado Simpson 2 requiere la extirpación macroscópicamente completa con coagulación (pero no escisión) de la inserción dural. En este caso, no se aplicó ningún tratamiento a la inserción dural.",
+            "D": "El grado Simpson 4 describe únicamente la extirpación parcial del tumor (dejando tumor in situ). En este caso se logró la extirpación macroscópicamente completa del tumor."
+          },
+          "guideline": "Simpson D. J Neurol Neurosurg Psychiatry 1957 — artículo original de gradación; Guías EANO de Meningioma 2021",
+          "trial": "Simpson D (1957): Estudio original de 265 meningiomas en Queen Square demostrando que el grado 3 logra el 29% de recurrencia a 10 años frente al 9% del grado 1",
+          "pearl": "Grado Simpson 3 = resección total macroscópica pero sin tratamiento dural = 29-35% de recurrencia a 10 años. Este es el escenario más frecuente para los meningiomas parasagitales que invaden el SSS."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q3",
+        "stem": "Una mujer de 48 años tiene un meningioma del seno cavernoso de 2,8 cm con función de los nervios craneales intacta (PC III, IV, V1, V2, VI todos íntegros). Está asintomática y la lesión se detectó de forma incidental. ¿Cuál es el manejo inicial más apropiado?",
+        "options": {
+          "A": "Resección quirúrgica urgente mediante abordaje transpetrosal",
+          "B": "Radioterapia estereotáctica fraccionada (FSRT, 50,4 Gy en 28 fracciones)",
+          "C": "Radiocirugía estereotáctica (SRS, 12-13 Gy fracción única)",
+          "D": "Observación con RM en 6-12 meses"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Para un meningioma del seno cavernoso descubierto incidentalmente en una mujer asintomática de 48 años con función de los nervios craneales intacta, la observación es el enfoque recomendado según las guías EANO 2021. Aproximadamente el 30-50% de los meningiomas incidentales no muestran crecimiento durante 3-5 años de seguimiento. La RM inicial a los 6-12 meses evalúa la tasa de crecimiento, que orienta la planificación del tratamiento. Si se confirma crecimiento o aparecen síntomas, la SRS (para tumores <3 cm) o la resección subtotal planificada seguida de SRS resultan apropiadas. La intervención inmediata arriesga una parálisis iatrógena de los nervios craneales.",
+          "wrong": {
+            "A": "La resección quirúrgica urgente no está indicada para un meningioma del seno cavernoso asintomático, descubierto incidentalmente con función de los PC intacta. La cirugía transpetrosal conlleva un riesgo del 30-50% de déficit nuevo o agravado de los nervios craneales para lesiones del seno cavernoso.",
+            "B": "La FSRT es el tratamiento adecuado para los meningiomas del seno cavernoso sintomáticos o en crecimiento, pero no es de primera línea para una lesión asintomática incidental que no ha demostrado crecimiento.",
+            "C": "La SRS es el tratamiento preferido cuando se decide intervenir, pero la intervención es prematura antes de establecer el comportamiento de crecimiento. Las guías EANO actuales recomiendan observación inicial para los meningiomas asintomáticos."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 (Lancet Oncol 22:e402) — Recomendación 1: observar meningiomas de grado 1 incidentales inicialmente, intervenir si hay crecimiento o síntomas",
+          "trial": "Oya S et al. J Neurosurg 2011: Historia natural de meningiomas no tratados — 63% estables a 5 años, 37% con crecimiento; la tasa de crecimiento predice la necesidad de intervención",
+          "pearl": "Meningioma del seno cavernoso asintomático incidental con función de los PC intacta: observar primero. Intervenir (con SRS) solo cuando se confirme crecimiento o aparezcan síntomas. La morbilidad de los PC en la cirugía la hace inapropiada para la enfermedad del seno cavernoso asintomática."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q4",
+        "stem": "Un varón de 55 años se somete a resección total macroscópica (grado Simpson 1) de un meningioma de convexidad parietal derecha. La anatomía patológica revela grado 2 de la WHO (meningioma atípico) con 5 mitosis/10 CGA y necrosis espontánea focal. Mutación de NF2 presente; TERT nativo; CDKN2A/B intacto. ¿Cuál es la recomendación estándar actual para el tratamiento adyuvante?",
+        "options": {
+          "A": "Observación con vigilancia por RM; tratar solo en la recurrencia",
+          "B": "Radioterapia adyuvante, 54 Gy en 30 fracciones",
+          "C": "Quimioterapia con temozolomida 150-200 mg/m² los días 1-5 cada 28 días",
+          "D": "Radiocirugía estereotáctica adyuvante (SRS) en la cavidad quirúrgica, 15 Gy fracción única"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo ROAM/EORTC 1308 (Lancet Oncol 2023) es la evidencia aleatorizada definitiva que apoya la radioterapia adyuvante tras la resección total macroscópica del meningioma de grado 2. El ensayo aleatorizó a 182 pacientes a RT (54 Gy en 30 fracciones) frente a observación tras RTM del meningioma de grado 2 de la WHO y demostró una SLP a 5 años del 71% con RT frente al 54% con observación (HR 0,45, p=0,0035). Las recomendaciones actualizadas EANO/EANS 2021 apoyan ahora la RT adyuvante tras RTM del meningioma de grado 2 como estándar asistencial.",
+          "wrong": {
+            "A": "La observación tras RTM del meningioma de grado 2 ya no se recomienda como atención estándar tras los resultados del ensayo ROAM. La diferencia en la SLP a 5 años (71% RT frente a 54% obs) apoya firmemente la RT adyuvante.",
+            "C": "La temozolomida no tiene ningún papel establecido en el manejo del meningioma de grado 2. Múltiples ensayos de fase II (incluido el EORTC 26111) no mostraron beneficio de la TMZ en meningiomas, incluidos los de grado 2-3.",
+            "D": "La SRS en una cavidad quirúrgica tras RTM para un meningioma de grado 2 no es el estándar asistencial. La SRS es apropiada para pequeños tumores residuales (post-RST) pero no como tratamiento equivalente a la RT fraccionada tras la resección total macroscópica."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 (recomendación actualizada post-ROAM 2023) — RT adyuvante recomendada tras RTM del meningioma de grado 2",
+          "trial": "ROAM/EORTC 1308 (Soffietti et al., Lancet Oncol 2023): 182 pacientes, meningioma de grado 2 tras RTM, ECA RT 54 Gy frente a observación — SLP a 5 años 71% frente a 54%, HR 0,45, p=0,0035",
+          "pearl": "El ensayo ROAM (Lancet Oncol 2023) es el ECA clave: la RT adyuvante de 54 Gy tras RTM del meningioma de grado 2 mejora la SLP a 5 años del 54% al 71%. Esto cambió la práctica de 'observar tras RTM' a 'irradiar tras RTM' para la enfermedad de grado 2."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q5",
+        "stem": "¿Con qué localización de meningioma se asocian más frecuentemente las mutaciones del gen SMO (Smoothened)?",
+        "options": {
+          "A": "Meningiomas parasagitales/de la hoz",
+          "B": "Meningiomas de convexidad",
+          "C": "Meningiomas de la cisura olfatoria y ala esfenoidal medial",
+          "D": "Meningiomas de la fosa posterior (petroclivales)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Las mutaciones de SMO son características de los meningiomas de la cisura olfatoria y del ala esfenoidal medial/clinoidea. Estas mutaciones activan la vía de señalización Hedgehog y se asocian con el subtipo meningotelial y el comportamiento de grado 1 de la WHO. Esta correlación anatómica-molecular se estableció en múltiples estudios genómicos y está ahora incorporada en la discusión de la clasificación WHO 2021. Las mutaciones de SMO son mutuamente excluyentes con las mutaciones de NF2 y definen un subgrupo molecular distinto de meningiomas sin mutación de NF2.",
+          "wrong": {
+            "A": "Los meningiomas parasagitales y de la hoz se asocian más frecuentemente con mutaciones de NF2 y tienden a tener histología fibrosa o transicional. Las mutaciones de SMO raramente se encuentran en esta localización.",
+            "B": "Los meningiomas de convexidad muestran una mezcla de alteraciones moleculares incluidas NF2, TRAF7 y otras. Las mutaciones de SMO son infrecuentes en las localizaciones de convexidad.",
+            "D": "Los meningiomas petroclivales muestran heterogeneidad molecular sin una fuerte asociación con mutaciones de SMO. A menudo presentan mutación NF2 o perfiles moleculares complejos asociados con comportamiento de mayor grado."
+          },
+          "guideline": "Clasificación WHO del SNC 2021 — Sección de meningiomas: correlaciones anatómico-moleculares; datos moleculares complementarios de las guías EANO 2021",
+          "trial": "Clark VE et al. Science 2013: Secuenciación dirigida de meningiomas estableciendo la asociación de la mutación SMO con la localización en la cisura olfatoria; confirmado en Brastianos et al. Nat Genet 2013",
+          "pearl": "Mutación SMO = meningioma de cisura olfatoria/ala esfenoidal medial, subtipo meningotelial, grado 1 de la WHO. Los meningiomas sin NF2 se dividen por mutaciones basadas en localización: AKT1/PIK3CA (base de cráneo), SMO (olfatoria/esfenoidal medial), TRAF7+KLF4 (tipo secretor)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q6",
+        "stem": "Una mujer de 70 años presenta 2 años de dificultad progresiva para caminar y la RM de columna torácica revela una masa intradural extramedular de 2,2 cm en T3-T4 con captación homogénea y signo del casquete de LCR. Presenta mielopatía moderada (grado motor 4/5 en ambas piernas, leve pérdida de propiocepción). ¿Cuál es el tratamiento definitivo?",
+        "options": {
+          "A": "Radioterapia corporal estereotáctica (SBRT) 24 Gy en 3 fracciones",
+          "B": "Laminectomía/laminoplastia posterior con resección microquirúrgica",
+          "C": "Corticoides y observación durante 3 meses",
+          "D": "Bevacizumab sistémico 10 mg/kg cada 2 semanas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta presentación es clásica de un meningioma espinal — intradural extramedular, nivel torácico, captación homogénea, signo del casquete de LCR, mujer de mediana edad/mayor con mielopatía progresiva. La resección quirúrgica mediante laminectomía/laminoplastia posterior con resección microquirúrgica en bloque (incluyendo la base dural cuando es factible) es el tratamiento definitivo. Los resultados neurológicos se correlacionan fuertemente con el estado neurológico preoperatorio y la duración del déficit. Con mielopatía moderada y deambulación preservada, los resultados quirúrgicos son generalmente excelentes. La resección total macroscópica logra una tasa de recurrencia <5% para los meningiomas espinales de grado 1 de la WHO.",
+          "wrong": {
+            "A": "La SBRT se utiliza para las metástasis espinales y algunos tumores espinales primarios, pero no es el tratamiento definitivo para los meningiomas espinales accesibles que causan mielopatía progresiva. La cirugía proporciona diagnóstico histológico definitivo, descompresión inmediata y alta probabilidad de curación con RTM.",
+            "C": "La observación con corticoides es inapropiada para la mielopatía progresiva causada por un tumor espinal quirúrgicamente resecable. El retraso en la descompresión arriesga un déficit neurológico permanente.",
+            "D": "El bevacizumab se utiliza en meningiomas intracraneales recurrentes/refractarios y no tiene ningún papel en el tratamiento primario de los meningiomas espinales."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 — Sección de meningiomas espinales: cirugía recomendada para todos los meningiomas espinales sintomáticos",
+          "trial": "Westphal M et al. (metaanálisis, Neurosurgery 2021): Resultados quirúrgicos de meningioma espinal — 87% de mejoría neurológica post-RTM; recurrencia <5% a 10 años para grado 1 WHO con RTM",
+          "pearl": "Meningioma espinal: nivel torácico (80%), mujeres, signo del casquete de LCR en RM, mielopatía progresiva. La resección microquirúrgica posterior logra >95% de resección total macroscópica con <5% de recurrencia. La duración y gravedad de la mielopatía preoperatoria predicen la recuperación neurológica."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q7",
+        "stem": "Un varón de 62 años tiene un meningioma de convexidad temporal derecha (3,8 cm). Se realiza embolización preoperatoria 36 horas antes de la craneotomía. Intraoperatoriamente, tras la craneotomía y antes de la exposición tumoral, el cirujano debe primero:",
+        "options": {
+          "A": "Descomprimir internamente el tumor de inmediato para reducir el volumen",
+          "B": "Identificar y coagular/extirpar la inserción dural circunferencialmente alrededor de la base tumoral",
+          "C": "Disecar primero la interfaz pial-tumoral para liberar la superficie cortical",
+          "D": "Abrir la cápsula tumoral y realizar una descompresión interna en fragmentos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El principio quirúrgico fundamental para la resección de meningiomas es la desvascularización precoz — identificar y coagular la base dural circunferencialmente ANTES de la manipulación tumoral. Los meningiomas derivan su aporte vascular principal de las arterias durales (arteria meníngea media, ramas meníngeas accesorias). Cortar este aporte desde el inicio reduce drásticamente el sangrado intraoperatorio, permite una descompresión interna más segura y facilita la disección aracnoidal. Este principio fue formalizado por Cushing y Eisenhardt y sigue siendo la piedra angular de la cirugía moderna de meningiomas.",
+          "wrong": {
+            "A": "La descompresión interna inmediata antes de la desvascularización dural arriesga una hemorragia masiva del aporte arterial intacto del tumor. La descompresión interna es apropiada pero solo DESPUÉS del tratamiento circunferencial de la base dural.",
+            "C": "La disección de la interfaz pial-tumoral antes de la desvascularización dural es técnicamente difícil con un tumor muy vascular bajo presión arterial. La disección pial debe seguir a la descompresión interna tras la desvascularización.",
+            "D": "La descompresión en fragmentos antes del tratamiento de la base dural conduce a un sangrado significativo y mala visualización. Los pasos secuenciales — desvascularizar → descomprimir → disecar circunferencialmente — son el orden correcto."
+          },
+          "guideline": "Guías Quirúrgicas de Meningioma EANS 2020 — Sección de técnica operatoria: principio de desvascularización primero; NCCN Tumores del SNC v1.2024",
+          "trial": "Cushing H y Eisenhardt L. Meningiomas (1938): Descripción original de la técnica de desvascularización precoz y su impacto en la pérdida de sangre intraoperatoria y la mortalidad; sigue siendo un principio neuroquirúrgico fundamental",
+          "pearl": "Secuencia de cirugía de meningioma: (1) coagulación/escisión circunferencial de la base dural (desvascularización), (2) descompresión interna, (3) disección de la cápsula del cerebro. La desvascularización precoz es el principio técnico más importante."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q8",
+        "stem": "Una mujer de 45 años con NF2 (schwannomas vestibulares bilaterales confirmados) presenta 3 meningiomas intracraneales incidentales adicionales en la RM de vigilancia. En la biopsia son de grado 1 de la WHO. En comparación con los meningiomas esporádicos de grado 1, los meningiomas asociados a NF2 tienen cuál de las siguientes características:",
+        "options": {
+          "A": "Menor tasa de recurrencia tras resección total macroscópica",
+          "B": "Comportamiento más agresivo en relación con el grado histológico",
+          "C": "Mayor tasa de respuesta a bevacizumab",
+          "D": "Asociación específica con mutaciones del promotor de TERT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los meningiomas asociados a NF2, a pesar de aparecer frecuentemente como grado 1 de la WHO histológicamente, tienden a comportarse de forma más agresiva que los meningiomas esporádicos de grado 1. Tienen tasas de recurrencia más altas tras la resección y mayor tendencia hacia múltiples tumores sincrónicos. Esto probablemente está relacionado con la inestabilidad genómica subyacente por la pérdida bialélica de NF2, que predispone a mutaciones somáticas adicionales. Los pacientes con NF2 requieren una vigilancia más intensa (RM cada 1-2 años de por vida) y un manejo multidisciplinar que integre el tratamiento del schwannoma vestibular, el meningioma y el ependimoma.",
+          "wrong": {
+            "A": "Los meningiomas asociados a NF2 tienen tasas de recurrencia más altas, no más bajas, tras RTM en comparación con los meningiomas esporádicos de grado 1, atribuido a la predisposición germinal NF2 subyacente y el potencial de desarrollo de nuevos tumores.",
+            "C": "El bevacizumab se ha estudiado en los schwannomas vestibulares asociados a NF2 (mostrando preservación auditiva en algunos pacientes) pero no específicamente para los meningiomas, y no hay evidencia de una respuesta mejorada específica en los meningiomas asociados a NF2.",
+            "D": "Las mutaciones del promotor de TERT se asocian con meningiomas esporádicos de grado 3 y los subtipos más agresivos. Los meningiomas asociados a NF2 se caracterizan por la pérdida de la vía NF2/merlina, no por mutaciones TERT."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 — Sección de meningiomas asociados a NF2; Evans DGR. Nat Rev Neurol 2009: Manejo de la enfermedad NF2",
+          "trial": "Mehta GU et al. Neurosurgery 2014: Los meningiomas asociados a NF2 recurren con mayor frecuencia tras RTM que sus homólogos esporádicos; recomiendan protocolos de vigilancia intensificada",
+          "pearl": "Meningiomas asociados a NF2 = comportamiento más agresivo de lo que implica el grado histológico, mayor recurrencia, múltiples tumores sincrónicos, requieren vigilancia de por vida. La mutación germinal de NF2 predispone al desarrollo continuo de nuevos tumores independientemente de la recurrencia local."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q9",
+        "stem": "Para la radiocirugía estereotáctica (SRS) de fracción única de un meningioma del seno cavernoso, ¿cuál es la dosis máxima tolerada en el aparato óptico (nervios ópticos y quiasma) para evitar la neuropatía óptica por radiación?",
+        "options": {
+          "A": "≤5 Gy",
+          "B": "≤8 Gy",
+          "C": "≤12 Gy",
+          "D": "≤15 Gy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La tolerancia del aparato óptico para la radiocirugía de fracción única es ≤8 Gy. Las dosis que superan este umbral conllevan un riesgo significativamente mayor de neuropatía óptica inducida por radiación (NOIR), una complicación devastadora que causa pérdida visual irreversible. Esta restricción de dosis está universalmente aceptada en las guías y la práctica de la radiocirugía. Cuando la dosis en el margen tumoral requerida para el control tumoral (típicamente 12-14 Gy para los meningiomas) no puede administrarse manteniendo el aparato óptico ≤8 Gy, debe utilizarse la radioterapia estereotáctica fraccionada (FSRT) en lugar de la SRS de fracción única.",
+          "wrong": {
+            "A": "5 Gy es un límite excesivamente conservador que restringiría innecesariamente el tratamiento tumoral efectivo. El límite aceptado de fracción única es ≤8 Gy, no ≤5 Gy.",
+            "C": "12 Gy en el aparato óptico en una fracción única resultaría en una tasa inaceptablemente alta de neuropatía óptica por radiación (>10%). Esta es la DOSIS PRESCRITA en el meningioma, no la tolerancia del nervio óptico.",
+            "D": "15 Gy en el aparato óptico en una fracción única está muy por encima de los límites seguros y se esperaría que causara neuropatía óptica por radiación en la mayoría de los pacientes."
+          },
+          "guideline": "ISRS (Sociedad Internacional de Radiocirugía Estereotáctica) — Restricciones de dosis para estructuras críticas; AAPM Grupo de Trabajo 101; Guías EANO de Meningioma 2021 — Sección de radiocirugía",
+          "trial": "Tishler RB et al. Int J Radiat Oncol Biol Phys 1993: Estableció la tolerancia del aparato óptico ≤8 Gy para SRS de fracción única; Leber KA et al. J Neurosurg 1998: Riesgo de NOIR <10% a ≤8 Gy, aumentando bruscamente por encima del umbral",
+          "pearl": "Restricciones de dosis críticas: aparato óptico ≤8 Gy fracción única (SRS). Superar esto = riesgo de NOIR. Tronco del encéfalo ≤12 Gy; cóclea ≤4 Gy para preservación auditiva. Cuando la geometría tumor-aparato óptico impide una SRS segura, usar FSRT 50,4 Gy/28 fracciones."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q10",
+        "stem": "Una mujer de 58 años se somete a resección subtotal de un gran meningioma petroclival derecho (3,5 × 4,2 × 3,8 cm). El tumor residual (1,2 cm³) permanece adherido a la arteria basilar. Histología: grado 1 de la WHO. Tres meses postoperatoriamente, la RM muestra residuo estable. ¿Cuál es el siguiente paso más apropiado?",
+        "options": {
+          "A": "Reoperación inmediata para resección completa",
+          "B": "Radiocirugía estereotáctica (SRS) sobre el tumor residual, 12-13 Gy",
+          "C": "Radioterapia fraccionada (54 Gy/30 fracciones) sobre todo el lecho quirúrgico",
+          "D": "Observación continuada; tratar solo si hay crecimiento posterior"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para el residuo de meningioma de grado 1 tras resección subtotal planificada, la SRS sobre el residuo es el abordaje estándar avalado por la EANO 2021 y apoyado por múltiples series. La tasa de control local a 5 años con SRS para los residuos de meningioma de grado 1 de la WHO es del 93-97%. La SRS de fracción única (12-13 Gy) a los 3 meses postoperatorios, una vez que el lecho quirúrgico se ha estabilizado, es el momento apropiado. Este enfoque — RST planificada seguida de SRS — está expresamente recomendado para los meningiomas petroclivales y del seno cavernoso donde la resección agresiva conlleva alta morbilidad de los nervios craneales.",
+          "wrong": {
+            "A": "La reoperación para la resección completa del meningioma petroclival adherido a la arteria basilar conlleva un riesgo prohibitivo de ictus isquémico, lesión de la arteria basilar y parálisis de los nervios craneales inferiores. El enfoque de RST planificada + SRS evita esto.",
+            "C": "La RT fraccionada sobre todo el lecho quirúrgico es apropiada para los meningiomas de grado 2-3, no de grado 1. Para el grado 1 de la WHO con pequeño residuo, la SRS dirigida es superior a la RT fraccionada de todo el lecho ya que administra una dosis biológicamente efectiva mayor al residuo con menor dosis integral.",
+            "D": "La observación continuada sola es apropiada para residuos verdaderamente incidentales pequeños en pacientes ancianos o con comorbilidades médicas significativas. Sin embargo, para una paciente de 58 años con RST planificada y tumor residual identificado, la SRS es el manejo proactivo estándar."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 — Recomendación 4: SRS recomendada para el residuo de grado 1 tras resección subtotal (tumor ≤3 cm, distancia adecuada del aparato óptico)",
+          "trial": "Sughrue ME et al. Neurosurgery 2010: Metaanálisis RST+SRS frente a RTM para meningiomas de base de cráneo — control comparable a 5 años (93% RST+SRS frente a 95% RTM), significativamente menor morbilidad de nervios craneales con RST+SRS",
+          "pearl": "RST planificada + SRS para meningioma de grado 1 WHO petroclival/seno cavernoso: control local comparable a RTM (93-97% a 5 años) con menor morbilidad de nervios craneales. SRS a 12-13 Gy sobre el residuo tumoral ≤3 cm es el estándar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q11",
+        "stem": "¿Cuál de los siguientes hallazgos en la RM preoperatoria se asocia más fuertemente con la dificultad para lograr la resección completa de un meningioma y el mayor riesgo de lesión arterial intraoperatoria?",
+        "options": {
+          "A": "Patrón de captación homogénea",
+          "B": "Ausencia de edema peritumoral",
+          "C": "Encapsulamiento de las principales arterias cerebrales (ACI, ACM, arteria basilar) demostrado en angio-RM/angio-TC",
+          "D": "Signo de la cola dural"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El encapsulamiento de las principales arterias cerebrales — especialmente la arteria carótida interna, la arteria cerebral media o la arteria basilar — es el predictor más importante de dificultad quirúrgica, resección incompleta y riesgo de lesión arterial intraoperatoria. Cuando las arterias están encapsuladas en lugar de simplemente desplazadas, los planos de disección aracnoidal pueden estar ausentes, haciendo que la extirpación completa del tumor sea peligrosa o imposible. La angio-TC o la angio-RM preoperatorias son obligatorias para los meningiomas de la base de cráneo, proceso clinoideo, región petroclival y seno cavernoso para definir la anatomía vascular.",
+          "wrong": {
+            "A": "La captación homogénea es un rasgo benigno que sugiere vascularización tumoral uniforme y típicamente corresponde a un meningioma de grado 1 de la WHO. Se asocia con mejores resultados quirúrgicos, no peores.",
+            "B": "La ausencia de edema peritumoral se asocia en realidad con planos aracnoidales más definidos y típicamente una disección quirúrgica más fácil del parénquima cerebral. El edema significativo sugiere invasión cerebral o adherencia pial blanda.",
+            "D": "El signo de la cola dural es un rasgo común de RM de los meningiomas que representa engrosamiento dural reactivo o extensión tumoral a lo largo de la duramadre. Aunque útil para el diagnóstico, no predice específicamente la dificultad quirúrgica en cuanto a lesión arterial."
+          },
+          "guideline": "Guías de Cirugía de Base de Cráneo EANS 2020 — Planificación preoperatoria para meningioma; NCCN Tumores del SNC v1.2024 — Recomendaciones de planificación quirúrgica",
+          "trial": "Colli BO et al. Arq Neuropsiquiatr 2006: Encapsulamiento arterial como predictor primario de resección incompleta en la serie de meningioma petroclival; Sekhar LN et al. Neurosurgery 2001: Lesión arterial mayor en meningioma de base de cráneo — tasa 3-7% cuando las arterias están encapsuladas",
+          "pearl": "Encapsulamiento arterial = el escenario quirúrgico más peligroso para el meningioma. La angio-TC/angio-RM preoperatoria es obligatoria para los meningiomas clinoideos, petroclivales y del seno cavernoso. Cuando las arterias están encapsuladas, planificar RST intencional + SRS adyuvante en lugar de arriesgar una lesión arterial catastrófica."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q12",
+        "stem": "Un patólogo informa una muestra de meningioma como: 'Áreas de crecimiento en sábana, nucléolos prominentes y necrosis espontánea, con 3 mitosis por 10 CGA. Invasión cerebral presente.' Análisis molecular: NF2 mutado, TERT nativo, CDKN2A/B intactos. ¿Qué grado WHO 2021 debe asignarse?",
+        "options": {
+          "A": "Grado 1 de la WHO",
+          "B": "Grado 2 de la WHO — basado solo en la invasión cerebral",
+          "C": "Grado 2 de la WHO — basado en características histológicas atípicas (cumpliendo ≥3 de 5 criterios)",
+          "D": "Grado 3 de la WHO — basado en el índice mitótico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En la WHO 2021, la invasión cerebral SOLA es suficiente para ascender cualquier meningioma a grado 2, independientemente del recuento mitótico u otras características histológicas. Este tumor también cumple los criterios histológicos atípicos (crecimiento en sábana + nucléolos prominentes + necrosis espontánea = 3 de 5 características, más invasión cerebral), pero el punto didáctico crítico es que la invasión cerebral sola es un criterio único suficiente para el grado 2. Con TERT nativo y CDKN2A/B intactos, no hay ascenso molecular a grado 3.",
+          "wrong": {
+            "A": "El grado 1 de la WHO es incorrecto. Está presente la invasión cerebral, que es un criterio independiente para el grado 2 en la WHO 2021. Además, están presentes 3 características histológicas atípicas.",
+            "C": "Aunque el tumor cumple los criterios de grado 2 a través de ≥3 características atípicas (crecimiento en sábana, nucléolos prominentes, necrosis espontánea), la respuesta B es más específica porque identifica correctamente la invasión cerebral como el criterio único suficiente (que es el punto didáctico de mayor rendimiento).",
+            "D": "El grado 3 de la WHO requiere un índice mitótico ≥20/10 CGA o anaplasia franca, O mutación TERT/deleción CDKN2A/B. Con 3 mitosis/10 CGA y marcadores moleculares nativos, no se cumplen los criterios de grado 3."
+          },
+          "guideline": "Clasificación WHO de Tumores del SNC 2021 — Criterios de gradación del meningioma: invasión cerebral = suficiente para grado 2; mitosis ≥4/10 CGA o ≥3 de 5 características atípicas = grado 2",
+          "trial": "Nanda A et al. J Neurosurg 2004: Los meningiomas de grado 1 con invasión cerebral tienen recurrencia similar a los atípicos (grado 2), apoyando la incorporación de la invasión cerebral como criterio de grado 2 en clasificaciones posteriores de la WHO",
+          "pearl": "Invasión cerebral sola = grado 2 de la WHO, independientemente del recuento mitótico. Esto difiere de la clasificación WHO 2007. En la WHO 2021, el grado 2 puede diagnosticarse por: (1) mitosis ≥4/10 CGA, O (2) invasión cerebral, O (3) ≥3 de 5 características histológicas atípicas — cualquier criterio único es suficiente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q13",
+        "stem": "Un varón de 68 años con meningioma conocido del seno cavernoso derecho lleva 3 años en vigilancia. Un PET-TC reciente con 68Ga-DOTATATE muestra intensa captación de SSTR2 en la lesión conocida y revela una nueva lesión de 8 mm en la convexidad temporal derecha con captación idéntica del trazador que no se observó en la RM previa. ¿Qué demuestra MÁS IMPORTANTEMENTE el hallazgo del PET con 68Ga-DOTATATE en este contexto?",
+        "options": {
+          "A": "La lesión temporal es una metástasis cerebral que requiere estudio oncológico sistémico",
+          "B": "El PET con 68Ga-DOTATATE es más sensible que la RM para detectar meningiomas pequeños",
+          "C": "La intensa captación de SSTR2 confirma la transformación a grado 3 de la WHO",
+          "D": "El hallazgo indica necesidad de resección quirúrgica inmediata de ambas lesiones"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El PET-TC con 68Ga-DOTATATE aprovecha la alta expresión de SSTR2 en la mayoría de los meningiomas (80-90% de los tumores de grado 1) y es superior a la RM convencional para detectar meningiomas pequeños (<1 cm), particularmente en la base de cráneo y la tabla interna del cráneo donde los artefactos de RM del hueso adyacente pueden enmascarar lesiones pequeñas. Múltiples series han demostrado que el PET con 68Ga-DOTATATE detecta un 20-30% más de meningiomas que la RM sola, particularmente lesiones <1 cm. Este escenario ilustra esta ventaja diagnóstica — el PET revela una lesión de 8 mm invisible en la RM, consistente con un segundo meningioma pequeño.",
+          "wrong": {
+            "A": "Las lesiones avidas de SSTR2 son características de los meningiomas, no de las metástasis cerebrales. La mayoría de las metástasis cerebrales son SSTR2-negativas y no mostrarían captación en el PET con DOTATATE. En un paciente con meningioma conocido, una nueva lesión de convexidad temporal avida de DOTATATE es más consistente con un segundo meningioma.",
+            "C": "La expresión de SSTR2 es en realidad MÁS ALTA en los meningiomas de grado 1 de la WHO y puede disminuir con grados más altos. Los meningiomas de grado 3 pueden ser DOTATATE-negativos. La alta captación de SSTR2 no indica transformación maligna.",
+            "D": "Un meningioma asintomático de 8 mm descubierto incidentalmente no requiere resección quirúrgica inmediata. El manejo sería observación con RM ± seguimiento con PET con 68Ga-DOTATATE, interviniendo solo si hay crecimiento o aparecen síntomas."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 — Sección de imagen: PET con 68Ga-DOTATATE superior a RM para meningiomas pequeños, vigilancia post-SRS y enfermedad de la base de cráneo",
+          "trial": "Afshar-Oromieh A et al. Eur J Nucl Med Mol Imaging 2015: PET con 68Ga-DOTATATE frente a RM en meningioma — el PET detectó un 25% de lesiones adicionales no vistas en RM, particularmente lesiones de base de cráneo y convexidad pequeñas",
+          "pearl": "PET con 68Ga-DOTATATE > RM para detectar meningiomas pequeños (<1 cm), lesiones de base de cráneo y recurrencia post-SRS donde los cambios por tratamiento confunden la RM. SSTR2 es más alto en grado 1 (no en grado 3). El PET con DOTATATE también se utiliza para la selección de pacientes para PRRT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q14",
+        "stem": "Una mujer de 55 años tiene un meningioma de la cisura olfatoria de 4,5 cm que causa anosmia y leve síndrome frontal. Se está planificando la cirugía. ¿Cuál es la consideración quirúrgica MÁS IMPORTANTE para esta localización específica?",
+        "options": {
+          "A": "El complejo de la arteria comunicante anterior está en riesgo de lesión durante la disección tumoral",
+          "B": "Se espera que la anosmia bilateral se recupere tras la descompresión",
+          "C": "La embolización preoperatoria está contraindicada para los meningiomas de la cisura olfatoria",
+          "D": "El abordaje endonasal endoscópico (EEA) es el único abordaje seguro para tumores >4 cm"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El complejo de la arteria comunicante anterior (ACoA), incluidas las perforantes de A2 y la arteria recurrente de Heubner, es la estructura vascular crítica en riesgo durante la cirugía de meningiomas de la cisura olfatoria. Estos tumores desplazan la ACA/ACoA superiormente y posteriormente, y los vasos perforantes que irrigan los ganglios basales y la comisura anterior pueden lesionarse durante la desvascularización tumoral o la disección de la cápsula. La lesión del complejo de la ACoA puede resultar en infarto de los ganglios basales y las estructuras adyacentes, causando déficits neurológicos graves incluidos cambios de personalidad, deterioro de la memoria y hemiparesia.",
+          "wrong": {
+            "A": "Esta es la respuesta correcta — el complejo de la ACoA es el riesgo vascular principal en la cirugía de meningiomas de la cisura olfatoria.",
+            "B": "La anosmia preoperatoria por meningioma de la cisura olfatoria es típicamente causada por la compresión/destrucción de los bulbos y tractos olfatorios. La anosmia es permanente en la gran mayoría de los pacientes; la recuperación tras la cirugía es rara y no debe prometerse a los pacientes.",
+            "C": "La embolización preoperatoria no está contraindicada para los meningiomas de la cisura olfatoria. Las arterias etmoidales (ramas de la arteria oftálmica) irrigan estos tumores y pueden embolizarse selectivamente, aunque esto conlleva riesgo de embolización de la arteria retiniana.",
+            "D": "El abordaje endonasal endoscópico (EEA) es una opción para los meningiomas de la cisura olfatoria, particularmente los <3 cm sin extensión lateral más allá de la lámina cribosa. Para tumores >4 cm con extensión lateral, la craneotomía bifrontal transcraneal proporciona una mejor exposición lateral y control de la ACA. El EEA no es el 'único abordaje seguro' para los tumores grandes."
+          },
+          "guideline": "Guías de Cirugía de Base de Cráneo Anterior EANS 2020; NCCN Tumores del SNC v1.2024",
+          "trial": "Hassler W et al. Neurosurgery 1990: Serie quirúrgica de meningioma de la cisura olfatoria estableciendo la lesión de las perforantes de la ACA como causa principal de morbilidad neurológica postoperatoria; Obeid F et al. Acta Neurochir 2004: 62% de anosmia permanente post-resección",
+          "pearl": "Meningioma de la cisura olfatoria: riesgo vascular principal = complejo de la ACoA/perforantes de A2. La anosmia es permanente post-resección (62-100%). EEA adecuado para <3 cm sin extensión lateral; craneotomía bifrontal para tumores grandes. Informar a los pacientes: la anosmia no mejorará tras la cirugía."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q15",
+        "stem": "Un varón de 42 años es evaluado por cefaleas. La RM muestra un meningioma del seno cavernoso derecho de 1,5 cm de grado 1 de la WHO con tamaño estable en imágenes seriadas durante 2 años. No tiene déficits de nervios craneales. Según las guías EANO 2021, ¿cuál es el tratamiento más apropiado?",
+        "options": {
+          "A": "Cirugía mediante abordaje transpetrosal",
+          "B": "Radiocirugía estereotáctica (SRS) 12-14 Gy ahora, sin más demora",
+          "C": "Vigilancia activa continuada con RM anual; intervenir si crecimiento >3 mm/año o aparecen síntomas",
+          "D": "Radioterapia estereotáctica fraccionada (FSRT) 50,4 Gy en 28 fracciones ahora"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Para un meningioma del seno cavernoso pequeño (1,5 cm), asintomático, de grado 1 de la WHO que muestra estabilidad en imágenes seriadas durante 2 años en un varón de 42 años sin déficits de nervios craneales, la vigilancia activa con RM anual es el manejo más apropiado según la EANO 2021. Aproximadamente el 30-50% de los meningiomas no muestran crecimiento durante años de seguimiento. Cuando se ha demostrado estabilidad durante 2 años, el riesgo de crecimiento rápido que requiera intervención urgente es bajo. La SRS o la FSRT se reservan para tumores en crecimiento o que causan síntomas. La intervención inmediata en una lesión pequeña estable y asintomática expondría al paciente a riesgos del tratamiento sin beneficio establecido.",
+          "wrong": {
+            "A": "La resección quirúrgica de un meningioma del seno cavernoso de 1,5 cm en un varón asintomático de 42 años conlleva un riesgo del 30-50% de déficit nuevo de los nervios craneales (PC III, IV, V, VI) y no está indicada para la enfermedad asintomática estable.",
+            "B": "La SRS es apropiada cuando se decide intervenir, pero tratar un meningioma del seno cavernoso de 1,5 cm asintomático y estable durante 2 años no está actualmente avalado como estándar asistencial en la EANO 2021. El período de observación debe continuar.",
+            "D": "La FSRT se reserva para tumores más grandes (>3 cm) o los adyacentes al aparato óptico donde no se pueden cumplir las restricciones de dosis de la SRS. Para una lesión de 1,5 cm sin afectación óptica y con estabilidad demostrada, la FSRT no tiene indicación actualmente."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 (Lancet Oncol 22:e402) — Recomendación 1: vigilancia activa para meningiomas de grado 1 asintomáticos; tratar cuando se confirme crecimiento o aparezcan síntomas",
+          "trial": "Oya S et al. J Neurosurg 2011: Estudio de historia natural de meningiomas no tratados — tasa de crecimiento <3 mm/año predice bajo riesgo; Nakasu S et al. Neurosurgery 2011: 63% sin crecimiento a 5 años",
+          "pearl": "EANO 2021: Para el meningioma del seno cavernoso de grado 1 asintomático con estabilidad demostrada, continuar la observación. Intervenir (SRS) solo cuando haya crecimiento >3 mm/año, nuevos síntomas o preferencia del paciente tras toma de decisiones compartida."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q16",
+        "stem": "Una mujer de 38 años se somete a craneotomía frontoparietal izquierda por un meningioma parasagital. El tumor ocluye completamente el tercio posterior del seno sagital superior. Intraoperatoriamente, ¿cuál es la estrategia de manejo MÁS SEGURA para el segmento del SSS posterior ocluido?",
+        "options": {
+          "A": "Resecar el segmento del SSS ocluido junto con el tumor para lograr resección grado Simpson 1",
+          "B": "Intentar la reconstrucción del SSS con injerto venoso",
+          "C": "Dejar la porción invasora del SSS in situ (resección subtotal intencionada); planificar SRS adyuvante para el residuo",
+          "D": "Clipar temporalmente el SSS, resecar el segmento y retirar el clip para restablecer el flujo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El tercio posterior del seno sagital superior NO PUEDE SACRIFICARSE debido al drenaje venoso cortical crítico — las venas corticales de drenaje de la corteza motora primaria, la corteza sensitiva y el lóbulo occipital desembocan en este segmento posterior del SSS. El sacrificio del SSS posterior causa una infartación venosa catastrófica, resultando en déficits motores/sensitivos bilaterales de las extremidades inferiores y ceguera cortical. La resección subtotal intencionada dejando el tumor invasor del SSS in situ, seguida de SRS adyuvante, es el enfoque correcto y universalmente recomendado para la afectación del SSS posterior. Esto logra un control local adecuado a largo plazo con preservación de la función neurológica.",
+          "wrong": {
+            "A": "Resecar el SSS posterior causaría una infartación venosa catastrófica de la corteza motora y los lóbulos occipitales bilateralmente. El tercio posterior del SSS es universalmente no sacrificable. Esta respuesta resultaría en déficits neurológicos permanentes graves.",
+            "B": "La reconstrucción del SSS con injerto venoso es técnicamente factible para el tercio medio en centros especializados, pero no es apropiada para el tercio posterior debido al patrón de drenaje de las venas corticales — las venas corticales que desembocan en este segmento no pueden redirigirse.",
+            "D": "El clipaje temporal del SSS causa hipertensión venosa inmediata y edema cortical. El clipaje breve puede tolerarse en el SSS anterior, pero no es seguro en el tercio posterior donde las venas corticales elocuentes drenan directamente."
+          },
+          "guideline": "Guías EANS de Meningioma Parasagital 2019; EANO 2021 — Afectación del SSS posterior: RST intencional + SRS adyuvante es el estándar; tercio posterior del SSS no sacrificable",
+          "trial": "Sindou M et al. Neurosurgery 2006: Serie de resección del SSS en meningioma parasagital — el sacrificio del SSS posterior se asoció con déficits bilaterales catastróficos; RST intencional + RT logra control equivalente a largo plazo sin nuevos déficits",
+          "pearl": "Tercio posterior del SSS = NO SACRIFICABLE. La resección causa infartación de la corteza motora y visual bilateral. Para la invasión del SSS posterior: RST intencional + SRS adyuvante = estrategia segura con control equivalente a largo plazo. El tercio medio del SSS a veces puede reconstruirse; el tercio anterior puede sacrificarse con seguridad."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A3-Q17",
+        "stem": "Un varón de 60 años tuvo resección total macroscópica (grado Simpson 2) de un meningioma del ala esfenoidal derecha hace 8 años. La histología en ese momento fue grado 1 de la WHO. Ahora se presenta con crisis epilépticas de nueva aparición y la RM muestra una masa de 3,2 cm con captación y edema perilesional en el lugar quirúrgico. ¿Cuál es el paso MÁS IMPORTANTE en la evaluación de esta recurrencia?",
+        "options": {
+          "A": "Prescribir levetiracetam 1.000 mg dos veces al día y repetir la RM en 6 meses",
+          "B": "Realizar reintervención para diagnóstico tisular — debe excluirse la transformación a mayor grado",
+          "C": "Proceder directamente a SRS 12 Gy sin reevaluación histológica",
+          "D": "Iniciar dexametasona 4 mg cuatro veces al día y derivar para evaluación de quimioterapia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La recurrencia tardía (8 años tras RTM) de un meningioma previamente de grado 1 de la WHO que se presenta con masa sintomática y edema requiere reintervención para diagnóstico tisular, ya que debe excluirse la transformación maligna a grado 2 o grado 3. Los meningiomas de grado 1 de la WHO pueden sufrir progresión de grado, adquiriendo mutaciones del promotor TERT, deleciones de CDKN2A/B u otras alteraciones de alto grado a lo largo del tiempo. El comportamiento clínico (recurrencia rápida sintomática, edema significativo) es atípico para el grado 1 y plantea la sospecha de transformación de grado. Las decisiones de tratamiento (dosis de RT adyuvante, consideración de terapia sistémica) dependen críticamente del nuevo grado patológico y el perfil molecular.",
+          "wrong": {
+            "A": "La observación con tratamiento antiepiléptico solo es inapropiada para una recurrencia sintomática con captación de 3,2 cm que causa nuevas crisis. Esta masa requiere manejo definitivo y diagnóstico histológico.",
+            "C": "Proceder directamente a la SRS sin reevaluación tisular perdería la transformación de grado, que requeriría un manejo diferente (dosis de RT más altas, posible terapia sistémica, vigilancia más estrecha). La transformación de grado es clínicamente importante y no puede asumirse.",
+            "D": "La dexametasona es apropiada para el control sintomático del edema peritumoral, pero no es un tratamiento definitivo. La derivación para quimioterapia sin confirmación histológica y gradación es prematura."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 — Sección de meningioma recurrente: rebiopsia/reintervención recomendada para las recurrencias tardías para excluir transformación maligna; la transformación de grado afecta significativamente al manejo",
+          "trial": "Maillo A et al. Acta Neuropathol 2007: Transformación maligna en meningiomas de grado 1 — ocurre en ~3% a lo largo de 10 años, asociada con la adquisición de mutación TERT, deleción CDKN2A/B y alteraciones de la vía p53; Aghi MK et al. J Neuropathol Exp Neurol 2009",
+          "pearl": "Recurrencia tardía de meningioma con comportamiento atípico (edema, crecimiento rápido, nuevos síntomas): reintervenir siempre para la reevaluación del grado histológico. El grado 1 de la WHO puede transformarse a grado 2-3 con los años, adquiriendo mutaciones TERT o deleciones CDKN2A/B. El nuevo perfil molecular cambia el manejo por completo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A3-Q18",
+        "stem": "¿Cuál de las siguientes afirmaciones describe correctamente la clasificación basada en metilación de ADN de meningiomas de Nassiri et al. (Nature 2021) y su significado clínico?",
+        "options": {
+          "A": "Confirmó que los meningiomas de grado 1 de la WHO nunca recurrirán independientemente del perfil molecular",
+          "B": "Identificó seis clases de metilación que predicen la recurrencia y la supervivencia con mayor precisión que el grado WHO solo, con las clases 'hipermitótica' y 'con deleción de CDKN2A/B' con el peor pronóstico",
+          "C": "Mostró que los meningiomas con mutación TERT responden bien a la quimioterapia con temozolomida",
+          "D": "Demostró que todos los meningiomas de grado 2 de la WHO tienen el mismo pronóstico y deben recibir tratamiento idéntico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El estudio histórico de Nassiri et al. (Nature 2021) analizó 3.031 meningiomas mediante perfilado de metilación del ADN en todo el genoma e identificó seis clases de metilación: merlina-intacto benigno 1 (MB1), merlina-intacto benigno 2 (MB2), hipermetabólico (HM), rico en inmunidad (IE), hipermitótico (HMit) y con deleción de CDKN2A/B (CD). Las clases hipermitótica y con deleción de CDKN2A/B tuvieron el peor pronóstico independientemente del grado WHO, mientras que los tumores benigno merlina-intacto tuvieron excelentes resultados. Importantemente, el 6-7% de los meningiomas de grado 1 de la WHO cayeron en clases de metilación de alto riesgo, y algunos meningiomas de grado 2 de la WHO tenían perfiles de metilación benignos.",
+          "wrong": {
+            "A": "Los meningiomas de grado 1 de la WHO sí recurren — las tasas varían del 7-35% a lo largo de 10 años dependiendo de la extensión de la resección. El estudio de Nassiri identificó específicamente un subconjunto de tumores de grado 1 con perfiles moleculares de alto riesgo (deleción de CDKN2A/B) que recurren a tasas típicas del grado 3.",
+            "C": "El estudio de Nassiri no abordó la respuesta a la temozolomida. La temozolomida tiene actividad mínima en los meningiomas y no forma parte del tratamiento estándar. No se ha validado ningún marcador molecular de respuesta a TMZ en el meningioma.",
+            "D": "El estudio de Nassiri demostró lo CONTRARIO — que los meningiomas de grado 2 de la WHO son heterogéneos, con algunos cayendo en clases de metilación benignas (mejor pronóstico) y otros en clases hipermitóticas o con deleción de CDKN2A/B (resultados equivalentes al grado 3). No se apoya el tratamiento idéntico para todos los tumores de grado 2."
+          },
+          "guideline": "Clasificación WHO de Tumores del SNC 2021 — Reconoce el perfilado por metilación como herramienta pronóstica emergente; EANO 2021 — Recomienda el perfilado por metilación en centros con capacidad para meningiomas de grado 2-3",
+          "trial": "Nassiri F et al. Nature 2021: 3.031 meningiomas, perfilado de metilación de ADN — 6 clases de metilación; clases CD (deleción CDKN2A/B) y HMit (hipermitótica): SG a 10 años <40% frente a >90% para la clase MB1; la clase de metilación supera al grado WHO en el análisis multivariante",
+          "pearl": "Nassiri Nature 2021: 6 clases de metilación en meningioma. Las clases con deleción de CDKN2A/B e hipermitótica = peor pronóstico (SG a 10 años <40%) independientemente del grado WHO. El perfilado por metilación identifica tumores de grado 1 de alto riesgo (6-7%) que necesitan manejo agresivo. Este es el futuro de la pronósticación de meningiomas."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A3-Q19",
+        "stem": "Una mujer de 52 años se somete a resección microquirúrgica de un meningioma clinoideo anterior derecho (4,2 cm). El proceso clinoideo anterior se taladra extraduralmente y el tumor se encuentra encapsulando la arteria carótida interna (ACI) derecha a nivel del clinoideo. ¿Cuál es la investigación preoperatoria MÁS CRÍTICA para la planificación quirúrgica en este caso específico?",
+        "options": {
+          "A": "EEG para evaluar la irritación cortical por el meningioma",
+          "B": "Test de oclusión con balón (BOT) de la ACI derecha para evaluar la circulación cerebral colateral",
+          "C": "Gammagrafía de receptores de somatostatina (PET con 68Ga-DOTATATE)",
+          "D": "Punción lumbar para citología del LCR para excluir diseminación leptomeníngea"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para los meningiomas clinoideos que encapsulan la ACI, un test de oclusión con balón (BOT) es una planificación preoperatoria crítica cuando existe cualquier posibilidad de que la ACI deba sacrificarse o esté en alto riesgo de lesión. El BOT evalúa si el paciente puede tolerar el sacrificio de la ACI occluyendo temporalmente la arteria bajo neuro-monitorización con gammagrafía de perfusión con xenón-TC o SPECT simultánea. Si el BOT se tolera bien y el sacrificio de la ACI se vuelve necesario intraoperatoriamente, puede realizarse con seguridad. Si el BOT fracasa (déficit clínico o deterioro de la perfusión), debe organizarse un bypass EC-IC de alto flujo antes de la cirugía. Este es un paso preoperatorio que puede salvar la vida para los tumores que encapsulan la ACI.",
+          "wrong": {
+            "A": "El EEG no es una investigación preoperatoria crítica para un meningioma clinoideo. Aunque los tumores pueden causar irritación cortical, los hallazgos del EEG no alterarían significativamente la planificación quirúrgica de un meningioma que no presenta las crisis como síntoma principal.",
+            "C": "El PET con 68Ga-DOTATATE es útil para los casos de diagnóstico difícil y la vigilancia post-tratamiento, pero no añade información crítica para la planificación quirúrgica más allá de lo que proporcionan la RM con contraste y la angio-TC para un meningioma histológicamente confirmado.",
+            "D": "La diseminación leptomeníngea del meningioma es extremadamente rara para los meningiomas clinoideos de grado 1 de la WHO. La citología del LCR no forma parte de la evaluación preoperatoria estándar del meningioma."
+          },
+          "guideline": "Guías de Cirugía de Base de Cráneo EANS 2020 — Evaluación preoperatoria para meningiomas que encapsulan la ACI: BOT obligatorio cuando existe posibilidad de sacrificio de la ACI; NCCN Tumores del SNC v1.2024",
+          "trial": "Sekhar LN et al. Neurosurgery 2001: Lesión mayor de la carótida en meningioma clinoideo — tasa del 5,2%; el BOT predijo la tolerancia al sacrificio de la ACI en el 85% de los casos donde ocurrió la lesión; el bypass EC-IC previno el ictus en los pacientes con BOT fallido",
+          "pearl": "Meningioma clinoideo que encapsula la ACI: el BOT es obligatorio en la planificación preoperatoria cuando existe riesgo de sacrificio de la ACI. BOT fallido = organizar bypass EC-IC primero. La clinoidectomía anterior extradural es el paso técnico clave que expone la ACI, reduciendo el sangrado y permitiendo la aplicación segura del clip."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A3-Q20",
+        "stem": "Un varón de 45 años con meningioma de grado 3 de la WHO (anaplásico, mutación del promotor de TERT, deleción homocigota de CDKN2A/B) se somete a resección total macroscópica. ¿Cuál es la dosis de radiación adyuvante postoperatoria recomendada?",
+        "options": {
+          "A": "45 Gy en 25 fracciones",
+          "B": "54 Gy en 30 fracciones",
+          "C": "60 Gy en 30 fracciones",
+          "D": "SRS de fracción única 15 Gy en la cavidad quirúrgica"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los meningiomas de grado 3 de la WHO (anaplásicos) se manejan con tratamiento agresivo: resección total macroscópica seguida de radioterapia adyuvante fraccionada a 60 Gy en 30 fracciones. Esta es la dosis más alta en el espectro de RT para meningiomas, reflejando el comportamiento maligno de estos tumores. Las guías EANO 2021 y NCCN Tumores del SNC v1.2024 recomiendan 60 Gy para la enfermedad de grado 3. A pesar del tratamiento agresivo, el pronóstico sigue siendo sombrío (SG a 5 años del 20-56%), siendo la mutación TERT y la deleción CDKN2A/B el perfil molecular de mayor riesgo.",
+          "wrong": {
+            "A": "45 Gy en 25 fracciones es insuficiente para el meningioma de grado 3. Esta dosis es más apropiada para los tumores benignos del SNC de bajo riesgo o contextos de irradiación craneal profiláctica. El meningioma de grado 3 requiere RT con escalada de dosis.",
+            "B": "54 Gy en 30 fracciones es la dosis adyuvante recomendada para el meningioma de grado 2 (según el ensayo ROAM). La enfermedad de grado 3 requiere 60 Gy — los 6 Gy adicionales de escalada de dosis reflejan el mayor grado y el peor pronóstico.",
+            "D": "La SRS de fracción única no es apropiada como tratamiento adyuvante para un meningioma de grado 3 con una gran cavidad quirúrgica. La SRS se utiliza para pequeños tumores residuales en la enfermedad de grado 1. El grado 3 requiere RT fraccionada de campo amplio a 60 Gy."
+          },
+          "guideline": "Guías EANO de Meningioma 2021 — Meningioma de grado 3: RT adyuvante de 60 Gy en 30 fracciones recomendada tras RTM; NCCN Tumores del SNC v1.2024 — Meningioma anaplásico: 60 Gy estándar",
+          "trial": "Komotar RJ et al. J Neurooncol 2012: Revisión sistemática de los resultados del tratamiento del meningioma de grado 3 — la RT adyuvante de 60 Gy se asoció con una SLP superior frente a dosis más bajas en el análisis multivariante; Hardesty DA et al. World Neurosurg 2014: SG a 5 años del 37% con 60 Gy frente al 21% con <54 Gy",
+          "pearl": "Dosis de RT por grado de meningioma: Grado 1 (residuo post-RST) → SRS 12-13 Gy; Grado 2 (post-RTM) → 54 Gy/30 fr (ensayo ROAM); Grado 3 (post-RTM o RST) → 60 Gy/30 fr. El aumento de dosis con el grado refleja la mayor agresividad. La mutación TERT + deleción CDKN2A/B = peor pronóstico a pesar del tratamiento máximo."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

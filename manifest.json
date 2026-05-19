@@ -1,0 +1,53 @@
+{
+  "name": "Neurocirugía HGUGM — Curso de Residentes MIR",
+  "short_name": "NeuroCir",
+  "description": "Formación basada en evidencia para residentes de Neurocirugía — HGUGM. 30 temas, guías EANS/CNS/WFNS, ensayos clínicos clave, preguntas tipo board.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#4A235A",
+  "theme_color": "#4A235A",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "en",
+  "categories": ["education", "medical", "health"],
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Curriculum",
+      "url": "./#/curriculum",
+      "description": "Browse all 30 chapters"
+    },
+    {
+      "name": "Search",
+      "url": "./#/search",
+      "description": "Search course content"
+    },
+    {
+      "name": "My Progress",
+      "url": "./#/progress",
+      "description": "View training progress"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

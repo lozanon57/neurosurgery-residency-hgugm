@@ -1,0 +1,665 @@
+{
+  "id": "D1",
+  "title": "Epilepsy Surgery",
+  "subtitle": "Block D — Functional Neurosurgery: Pre-surgical Evaluation, Resective and Disconnective Procedures, Neuromodulation",
+  "block": "D",
+  "block_name": "Functional Neurosurgery",
+  "level": "R3-4",
+  "reading_time_min": 43,
+  "guidelines_version": "ILAE Classification 2017 · AAN/AES Epilepsy Surgery Guidelines 2020 · NICE NG217 Epilepsy 2022",
+  "textbook_refs": [
+    "Engel J Jr et al. Surgery for Epilepsy. NEJM 2008;358:2391-2400",
+    "Wiebe S et al. A Randomized, Controlled Trial of Surgery for Temporal-Lobe Epilepsy. NEJM 2001;345:311-318",
+    "Engel J Jr et al. Outcome after Epilepsy Surgery. Epilepsia 2003;44(Suppl 7):55-57 (Engel classification)",
+    "Lüders HO et al. ILAE Commission on Diagnostic Methods. Report on the Definition of the Epileptogenic Zone. 2006"
+  ],
+  "learning_objectives": [
+    "Define the epileptogenic zone and its constituent zones, and explain how the pre-surgical evaluation attempts to localise them",
+    "Describe the components of the standard pre-surgical epilepsy evaluation (phase I non-invasive and phase II invasive monitoring)",
+    "Apply the Engel and ILAE outcome classification systems to rate post-surgical seizure outcomes",
+    "Explain the rationale, surgical technique, and expected outcomes for anterior temporal lobectomy (ATL) and selective amygdalohippocampectomy (SAH) for MTLE",
+    "Identify the indications for corpus callosotomy, hemispherectomy, and multiple subpial transection (MST)",
+    "Describe the mechanism and evidence base for vagus nerve stimulation (VNS) and responsive neurostimulation (RNS) as adjunctive neuromodulatory treatments"
+  ],
+  "sections": [
+    {
+      "id": "D1-S1",
+      "title": "The Epileptogenic Zone and Pre-surgical Evaluation Concept",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Epilepsy surgery aims to resect, disconnect, or neuromodulate the brain tissue responsible for seizure generation to achieve seizure freedom or significant seizure reduction. The theoretical framework underlying pre-surgical evaluation is the concept of the **epileptogenic zone (EZ)** — defined by Lüders as the minimum amount of cortex that must be resected to produce seizure freedom. Since the EZ cannot be directly measured (it is defined by its elimination), pre-surgical evaluation triangulates its location using multiple indirect markers: the **irritative zone** (cortex generating interictal epileptiform discharges, seen on EEG); the **ictal onset zone** (cortex where seizures begin, measured by ictal EEG recordings); the **symptomatogenic zone** (cortex whose activation produces the clinical seizure semiology); the **epileptogenic lesion** (structural abnormality identified on MRI — FCD, hippocampal sclerosis, tumour, etc.); the **functional deficit zone** (cortex showing hypometabolism on PET or hypoperfusion on ictal SPECT); and the **eloquent cortex** (cortex essential for language, motor, sensory, visual function — must be avoided).\n\nThe pre-surgical evaluation is conceptually divided into **Phase I (non-invasive)** and **Phase II (invasive)** investigations. Phase I includes: scalp video-EEG monitoring (ictal onset characterisation, seizure semiology analysis); high-resolution 3T MRI epilepsy protocol (1 mm isotropic MPRAGE, FLAIR, coronal hippocampal sequence for hippocampal sclerosis); FDG-PET (hypometabolism in ictal onset zone); neuropsychological assessment (lateralisation of verbal and non-verbal memory function, predicted post-operative cognitive risk); and functional MRI (fMRI) for language and memory lateralisation.\n\nPhase II (invasive monitoring) is performed when Phase I data are insufficient or discordant — typically in the 30-40% of patients who are MRI-negative, when seizure onset is unclear, or when seizure onset zone is near eloquent cortex. Phase II options include: **stereoelectroencephalography (SEEG)** — multiple depth electrodes implanted stereotactically, targeting both cortical and deep structures (hippocampus, insula, orbitofrontal cortex, cingulate); **subdural grid/strip electrodes** — larger coverage of cortical surface, enabling cortical mapping via electrical stimulation; **intracranial EEG recording** from both options defines the ictal onset zone and guides resection boundaries."
+        },
+        {
+          "type": "table",
+          "title": "Components of the Epileptogenic Zone Concept",
+          "headers": ["Zone", "Definition", "Measured By", "Surgical Implication"],
+          "rows": [
+            ["Irritative zone", "Cortex generating interictal discharges", "Scalp/intracranial EEG (interictal)", "Must be included or acknowledged in resection"],
+            ["Ictal onset zone", "Cortex where seizures originate", "Ictal scalp/intracranial EEG", "Core surgical target — must be resected"],
+            ["Symptomatogenic zone", "Cortex activated to produce symptoms", "Seizure semiology analysis", "Helps localise onset; not always the EZ itself"],
+            ["Epileptogenic lesion", "Structural abnormality on MRI", "MRI 3T epilepsy protocol", "Most powerful predictor of surgical success"],
+            ["Functional deficit zone", "Cortex with decreased metabolism/perfusion", "FDG-PET, SPECT, fMRI", "Localises EZ; does not require exclusion"],
+            ["Eloquent cortex", "Cortex essential for critical function", "fMRI, intraop cortical mapping, WADA", "Must be preserved — defines safe resection margin"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "MRI-Positive vs MRI-Negative Epilepsy Surgery",
+          "content": "The presence of a structural lesion on MRI (hippocampal sclerosis, FCD, cavernoma, low-grade tumour) is the single strongest predictor of favourable surgical outcome. MRI-positive patients with MTLE achieve seizure freedom in 60-80% (anterior temporal lobectomy). MRI-negative patients — where the cortex appears structurally normal — achieve seizure freedom in only 40-50%, and require Phase II invasive monitoring in virtually all cases. FDG-PET and high-density EEG source imaging add localising value in MRI-negative cases."
+        }
+      ]
+    },
+    {
+      "id": "D1-S2",
+      "title": "Mesial Temporal Lobe Epilepsy and Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Mesial temporal lobe epilepsy (MTLE)** is the most common surgically remediable epilepsy syndrome and accounts for approximately 60-70% of epilepsy surgery cases at dedicated centres. The classic cause is **hippocampal sclerosis (HS)** — neuronal loss and gliosis affecting the CA1 (Sommer sector, most vulnerable), CA3, CA4, and dentate gyrus regions of the hippocampus, with relative sparing of CA2. HS is identifiable on MRI as hippocampal atrophy (loss of normal hippocampal volume) with increased T2/FLAIR signal and loss of internal architecture on coronal sequences. The aetiology of HS is debated — an initial precipitating injury (prolonged febrile convulsion in childhood, status epilepticus, head trauma) may trigger a cytotoxic cascade leading to CA1 neuronal loss over years.\n\nThe clinical syndrome of MTLE typically includes: **aura** (epigastric rising sensation — most characteristic of mesial temporal origin; déjà vu; olfactory hallucinations); **complex partial seizure** (motionless staring, automatisms — oral: lip smacking, chewing, swallowing; manual: hand fumbling, repetitive motions; ipsilateral posturing of arm and dystonic posturing of contralateral arm); **post-ictal confusion** (typically 1-15 minutes — longer than in frontal lobe seizures); and **secondary generalisation** (tonic-clonic). Secondary generalisation typically propagates first to the ipsilateral temporal lobe then bilaterally via the corpus callosum.\n\nThe **Wada test (intracarotid sodium amobarbital test, IAT)** was the gold standard for pre-surgical language and memory lateralisation: sodium amobarbital injected into the internal carotid artery temporarily anaesthetises the ipsilateral hemisphere. Language lateralisation (left vs right hemisphere dominant): if injection into the dominant hemisphere causes aphasia, language is lateralised. Memory asymmetry: if the side planned for resection can 'pass' the memory test (the contralateral hemisphere can carry memory function), surgery is safe regarding memory. Wada testing is increasingly replaced by **fMRI language lateralisation** (IFG/Broca's area activation in a verbal fluency task) and **fMRI-based memory lateralisation** (hippocampal activation during encoding paradigms). However, Wada remains the gold standard at many centres for pre-MTLE surgery assessment of memory risk."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — MRI-Visible Hippocampal Sclerosis",
+          "content": "The ideal surgical candidate for anterior temporal lobectomy: (1) seizures with mesial temporal semiology (epigastric aura, automatisms, post-ictal confusion); (2) EEG showing ipsilateral anterior temporal ictal onset (F7/F8 or AT1/AT2 electrodes); (3) MRI showing unilateral hippocampal atrophy with T2 hyperintensity (hippocampal sclerosis); (4) FDG-PET showing ipsilateral temporal hypometabolism; (5) neuropsychology showing ipsilateral verbal/non-verbal memory deficit. Concordance of all five modalities (electro-clinical-imaging concordance) = highest chance of seizure freedom (75-85% Engel I at 2 years with ATL)."
+        }
+      ]
+    },
+    {
+      "id": "D1-S3",
+      "title": "Surgical Procedures: ATL, SAH, and Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Anterior Temporal Lobectomy (ATL)** has been the standard surgical procedure for MTLE for over 60 years, refined by Falconer (1950s) and Engel (1970s-1980s). The procedure involves resection of 3-4 cm of the non-dominant anterior temporal neocortex (4-4.5 cm dominant) along with the amygdala, hippocampal head/body (2-3 cm), parahippocampal gyrus, and entorhinal cortex. The boundaries are anatomically defined by the temporal horn of the lateral ventricle (medial wall) and the boundaries of the middle temporal gyrus. The **Wieser modification** or **Spencer modification** defines the precise resection limits to minimise risk to: the Meyer's loop of the optic radiation (anterior to the temporal horn — risk of superior quadrantanopia 'pie in the sky' defect, occurring in up to 50-75% if the full temporal lobe is resected); the dominant hemisphere language cortex (particularly the superior temporal gyrus); and the posterior cerebral artery branches.\n\nThe landmark evidence for epilepsy surgery is the **RCT of surgery vs medical management** (Wiebe et al., NEJM 2001). This trial randomised 80 patients with MTLE to ATL versus continued medical therapy. At 1 year: **surgery = 58% seizure-free (Engel I) vs medical therapy = 8%** (P<0.001). Quality of life improved significantly in the surgical group. There was no significant difference in cognitive decline between groups. This remains the only randomised trial of epilepsy surgery and established the evidence base for surgical treatment of drug-resistant MTLE.\n\n**Selective Amygdalohippocampectomy (SAH)**, developed by Wieser and Yaşargil, aims to remove the epileptogenic mesial structures (amygdala + hippocampus + parahippocampal gyrus) while preserving the temporal neocortex — potentially reducing neuropsychological morbidity (verbal memory, naming). SAH approaches include: **transsylvian** (through the Sylvian fissure), **subtemporal**, **transcortical** (through the middle temporal gyrus), and more recently **endoscopic** (increasingly used). Seizure outcomes of SAH are equivalent to ATL for MTLE at 2 years in most series (~60-75% Engel I), though some studies suggest slightly lower seizure freedom rates, potentially because neocortical components of the EZ may not be resected.\n\n**Engel Outcome Classification**: Class I = seizure free (A=completely; B=non-disabling simple partial only; C=some seizures but seizure-free >2 years; D=seizure-free >1 year; sub-classes). Class II = worthwhile improvement (>90% reduction). Class III = worthwhile improvement (>50% reduction). Class IV = no worthwhile improvement. **ILAE 2001 Classification**: 1=seizure-free; 2-4=graded reduction."
+        },
+        {
+          "type": "table",
+          "title": "Wiebe RCT (NEJM 2001) — Surgery vs Medical Management for MTLE",
+          "headers": ["Outcome", "Surgery Group", "Medical Group", "P value"],
+          "rows": [
+            ["Seizure-free (Engel I) at 1 year", "58%", "8%", "<0.001"],
+            ["Seizure reduction >90%", "75%", "19%", "<0.001"],
+            ["Freedom from generalized tonic-clonic", "90%", "46%", "<0.001"],
+            ["QoL improvement (QOLIE-89)", "Significant improvement", "No improvement", "<0.05"],
+            ["Cognitive decline", "No difference", "No difference", "NS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Visual Field Defect After Temporal Lobectomy",
+          "content": "Meyer's loop (anterior radiation of the optic tract, swinging into the temporal lobe) lies anterior to the temporal horn and is at risk during ATL. Superior quadrantanopia ('pie in the sky' visual field defect — loss of superior contralateral visual field) occurs in 50-75% of patients after ATL if the full loop is resected. Modern neuronavigation and DTI tractography of the optic radiation can guide preservation. Patients must be counselled pre-operatively about this risk — a superior quadrantanopia can affect driving eligibility."
+        }
+      ]
+    },
+    {
+      "id": "D1-S4",
+      "title": "Corpus Callosotomy, Hemispherectomy, and MST",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Corpus Callosotomy** is a palliative disconnective procedure that sections the corpus callosum to prevent bilateral synchronisation of epileptiform discharges, primarily targeting **atonic (drop attack)** and **tonic-clonic** seizures. It does not cure epilepsy — the ictal onset zone remains intact — but prevents the rapid spread of discharges to the contralateral hemisphere via callosal connections, reducing drop attacks by 50-75% in Lennox-Gastaut syndrome (LGS) and other generalised epilepsy syndromes. **Anterior two-thirds callosotomy** (body and genu) is performed first; **total callosotomy** adds the splenium for refractory cases. Risks: the **disconnection syndrome** (acute: mutism, left arm apraxia, alien hand — transient, resolving within weeks); **left leg paresis** (supplementary motor area involvement during midline dissection). The complete disconnection syndrome after total callosotomy includes: left-hand ideomotor apraxia (cannot follow verbal commands with left hand), alexia without agraphia in some cases, and intermanual conflict.",
+          "content": "**Corpus Callosotomy** is a palliative disconnective procedure for generalised epilepsy with drop attacks. **Hemispherectomy** (anatomical or functional) is indicated for catastrophic hemispheric epilepsy syndromes where one hemisphere is extensively damaged or dysplastic and the other is functionally normal: Rasmussen encephalitis (progressive unilateral encephalitis, anti-GluR3/anti-NMDAR antibodies), Sturge-Weber syndrome (unilateral leptomeningeal angiomatosis with cortical calcification), hemimegalencephaly, large perinatal ischaemic infarct, or extensive hemispheric FCD. Prerequisites: (1) seizures originating exclusively from one hemisphere; (2) contralateral hemisphere is functionally intact (particularly: motor, language — if dominant hemisphere resected, must be documented to have transferred to contralateral side); (3) hemiplegia or significant motor deficit already present. **Functional hemispherectomy** (anatomical preservation with complete disconnection) replaces anatomical hemispherectomy to reduce the risk of superficial cerebral haemosiderosis (the Rasmussen complication). Seizure freedom rates: 65-85% Engel I at 2 years. **Multiple Subpial Transection (MST)** is a technique for epileptogenic cortex within eloquent cortex that cannot be resected: horizontal cuts through cortical layers at 5 mm intervals disrupt horizontal epileptic propagation while preserving vertical corticocortical fibres essential for function (motor, language). Used for Landau-Kleffner syndrome (acquired epileptic aphasia) and focal epilepsy with seizure onset in primary motor or language cortex. Results are modest (~50-60% worthwhile reduction) but preserve function."
+        },
+        {
+          "type": "table",
+          "title": "Disconnective and Palliative Epilepsy Surgery — Indications and Outcomes",
+          "headers": ["Procedure", "Indications", "Target Seizure Type", "Seizure Outcome"],
+          "rows": [
+            ["Corpus callosotomy (anterior 2/3)", "LGS, generalised epilepsy, drop attacks", "Atonic (drop attacks), tonic-clonic", "50-75% reduction in drop attacks; not curative"],
+            ["Functional hemispherectomy", "Rasmussen encephalitis, Sturge-Weber, hemimegalencephaly, large perinatal infarct", "All seizure types (hemispheric)", "65-85% Engel I at 2 years"],
+            ["Multiple subpial transection (MST)", "Epileptogenic cortex within eloquent cortex", "Focal aware/unaware seizures", "~50-60% worthwhile reduction; preserves function"],
+            ["Laser interstitial thermal therapy (LITT)", "MTLE (MRI-guided minimally invasive amygdalohippocampectomy)", "Focal aware/unaware from mesial temporal", "~60-70% Engel I (slightly less than ATL)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Rasmussen Encephalitis — Surgical Timing",
+          "content": "Rasmussen encephalitis is a progressive inflammatory hemispheric disorder causing intractable focal epilepsy, progressive hemiparesis, and cognitive decline. It is caused by T-cell mediated cytotoxic injury (autoantibody role debated). Functional hemispherectomy is the definitive treatment — surgery should not be unduly delayed because progressive neurological deterioration continues with medical management. The 'wait and see' approach risks greater functional deficit; earlier surgery (before complete hemiplegia) may paradoxically preserve better motor outcome by halting the ongoing inflammatory cascade."
+        }
+      ]
+    },
+    {
+      "id": "D1-S5",
+      "title": "Vagus Nerve Stimulation and Responsive Neurostimulation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Vagus Nerve Stimulation (VNS)** is an adjunctive neuromodulatory treatment for drug-resistant epilepsy in patients who are not candidates for resective surgery or have failed it. The device consists of a subcutaneously implanted pulse generator (left infraclavicular) with a helical electrode wrapped around the left vagus nerve in the neck. Left vagus nerve is preferred because right-sided stimulation carries greater risk of cardiac bradyarrhythmia (vagal afferents to the sinoatrial node are predominantly right-sided). The stimulation frequency is typically 30 Hz, pulse width 500 μs, ON time 30 seconds/OFF time 5 minutes. The anti-seizure mechanism involves: vagal afferent stimulation → nucleus tractus solitarius → locus coeruleus (noradrenaline) → diffuse cortical desynchronisation. A patient-controlled magnet can trigger additional stimulation during an aura.\n\nEfficacy of VNS from landmark trials and meta-analyses: approximately **50% of patients achieve >50% seizure reduction** (responder rate) with long-term VNS; approximately **5-10% achieve seizure freedom**. VNS is superior to medical management alone but substantially less effective than resective surgery. It is indicated for any drug-resistant epilepsy type where surgery is not appropriate, including Lennox-Gastaut syndrome, where it reduces drop attacks by 42-55% (EO3/E05 trials). Main side effects: voice alteration/hoarseness (most common — ~63%), cough, throat discomfort, dyspnoea during stimulation; depression improvement is a positive side effect (VNS is FDA-approved for treatment-resistant depression). The vagus nerve contains both afferent and efferent fibres — selective afferent stimulation is being developed.\n\n**Responsive Neurostimulation (RNS, NeuroPace system)** is a closed-loop neuromodulation system that continuously records EEG from depth or cortical strip electrodes implanted at the seizure onset zone, detects epileptiform patterns using embedded algorithms, and delivers a brief stimulation burst (100-200 Hz, 1-2 mA, <100 ms) to interrupt the seizure before clinical manifestation. The RNS system was approved by the FDA in 2013 based on the pivotal trial (RNS Pivotal Trial, Morrell 2011) showing a 37.9% seizure reduction at 1 year vs 17.3% in sham group (P=0.012). Long-term data show progressive improvement: median seizure reduction 44% at 2 years, 60% at 6 years — unlike VNS (plateau after 1-2 years), RNS efficacy continues to improve, consistent with a neuroplasticity-mediated mechanism. Ideal candidates: bilateral MTLE (cannot safely resect both hippocampi), eloquent cortex onset zone, or previously failed resection."
+        },
+        {
+          "type": "table",
+          "title": "Neuromodulation Options for Drug-Resistant Epilepsy",
+          "headers": ["Device", "Mechanism", "Responder Rate (>50% reduction)", "Seizure Freedom", "Best Indication"],
+          "rows": [
+            ["VNS", "Open-loop vagal afferent stimulation → cortical desynchronisation", "~50%", "5-10%", "Any drug-resistant epilepsy; Lennox-Gastaut; not surgical candidate"],
+            ["RNS (NeuroPace)", "Closed-loop: detect ictal → stimulate onset zone", "~60% at 6 years", "~15% at 6 years", "Bilateral MTLE; eloquent cortex onset; failed resection"],
+            ["DBS (anterior thalamus — SANTE trial)", "Open-loop anterior thalamic nucleus stimulation", "~40% at 2 years; 68% at 7 years", "~15% at 7 years", "Focal epilepsy, not candidate for resection; MTLE"],
+            ["LITT (thermal ablation)", "Laser-induced thermal ablation of epileptogenic zone (MTLE)", "~60-70% Engel I", "~60-70% Engel I", "MTLE, FCD (MRI-guided minimally invasive)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — RNS for Bilateral MTLE",
+          "content": "A 35-year-old with bilateral hippocampal sclerosis and bilateral ictal onset on scalp EEG cannot undergo unilateral ATL safely (resecting both hippocampi causes Korsakoff-type amnesia). RNS with bilateral hippocampal depth electrodes provides a non-destructive, reversible neuromodulation option. The device records from and stimulates both mesial temporal regions simultaneously. At 6 years, ~60% of bilateral MTLE patients achieve >50% seizure reduction with RNS — making it the preferred neuromodulation option for bilateral MTLE after demonstration of bilateral onset."
+        }
+      ]
+    },
+    {
+      "id": "D1-S6",
+      "title": "Focal Cortical Dysplasia and MRI-Negative Epilepsy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Focal Cortical Dysplasia (FCD)** is the most common cause of drug-resistant focal epilepsy and the most common surgically treated epilepsy in children. The ILAE Classification (Blümcke 2011) defines three types: **FCD Type I** (isolated, architectural dysplasia — abnormal cortical layering, radial or tangential): mildest form, often temporal, may be MRI-invisible; **FCD Type II** (isolated, with dysmorphic neurons and/or balloon cells): most epileptogenic, most common surgical subtype, typically extratemporal (frontal), characterised by the 'transmantle sign' on FLAIR MRI (abnormal signal extending radially from the cortex to the ventricle); **FCD Type III** (associated with a principal lesion — hippocampal sclerosis + FCD = Type IIIa; FCD adjacent to tumour = IIIb; FCD adjacent to vascular malformation = IIIc; FCD adjacent to other lesion = IIId).\n\nFCD is frequently MRI-invisible, particularly FCD Type I and some Type II lesions — accounting for the majority of MRI-negative focal epilepsy cases. Advanced MRI post-processing techniques improve detection: morphometric analysis programs (MAP, MRISTAT), automated detection pipelines using machine learning (MELD project — multi-site AI-based FCD detection), surface rendering and cortical thickness analysis. **FDG-PET** typically shows focal hypometabolism overlying FCD. **18F-fluoroethyl-tyrosine (FET-PET)** and **11C-flumazenil PET** can identify FCD through GABA receptor density changes. High-density EEG source imaging and ictal SPECT with SISCOM (subtraction ictal SPECT co-registered to MRI) add further localising value.\n\nSurgical outcomes for FCD depend heavily on lesion type, visibility, and completeness of resection. **Complete resection of visible FCD Type II**: 60-80% Engel I at 2 years. **MRI-negative FCD**: 40-50% Engel I — significantly lower. The key predictor of surgical success is complete resection guided by concordant EEG (ictal onset zone fully resected). Incomplete resection due to proximity to eloquent cortex is the most common cause of surgical failure in FCD surgery."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "FCD Type II — Transmantle Sign",
+          "content": "FCD Type IIb (with balloon cells) is characterised on MRI by the 'transmantle sign': a funnel-shaped T2/FLAIR hyperintensity extending radially from the cortex through the white matter to the lateral ventricle wall. This represents the arrested migration pathway of dysplastic cells from the germinal matrix. The transmantle sign is pathognomonic of FCD Type II and, when identified, strongly supports surgical candidacy with expectation of good outcome (60-80% Engel I) after complete resection."
+        }
+      ]
+    },
+    {
+      "id": "D1-S7",
+      "title": "Complications, Cognitive Outcomes, and Candidacy Criteria",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Epilepsy surgery carries a risk of neurological deficit that must be weighed against the potential for seizure freedom. The major risks of **anterior temporal lobectomy** include: superior quadrantanopia (50-75% with full temporal lobe resection — visual field testing mandatory pre- and post-operatively); verbal memory decline (particularly after dominant hemisphere ATL — 30-40% of patients have measurable verbal memory decline at 1 year, though often within normal limits); naming difficulties (anomia — more pronounced after dominant temporal resection); and post-operative mood disorder (depression in 15-25% in the early post-operative period, improved with successful seizure control at 1 year).\n\n**Hemispherectomy** risks in children: hydrocephalus requiring VP shunt (25-30%); superficial cerebral haemosiderosis (haemosiderin deposition from repeated micro-bleeds — the complication that drove development of functional hemispherectomy — now substantially reduced); motor decline (worsening of pre-existing hemiparesis — expected, but should not produce NEW complete hemiplegia if the motor cortex was already dysfunctional). Hemispheric transfer of language function occurs in young children before hemispherectomy, enabling language recovery after dominant hemisphere removal — this does NOT occur in adults or older children.\n\nThe concept of **surgical candidacy** involves a multidisciplinary epilepsy surgery team decision considering: duration of drug-resistant epilepsy (two adequate drug trials at therapeutic doses = drug-resistant per ILAE 2010 definition); expected benefit from surgery (localised EZ, MRI positive, concordant data); expected risk of surgery (proximity to eloquent cortex, bilateral temporal disease, medical comorbidities); patient and family expectations; and quality of life impact of continued seizures. The **opportunity cost of delayed referral** is increasingly recognised — each year of drug-resistant seizures increases risk of SUDEP (Sudden Unexpected Death in Epilepsy), injury, cognitive decline, and psychosocial impairment. Early referral to an epilepsy surgery centre after two drug failures is recommended by NICE NG217 (2022)."
+        },
+        {
+          "type": "table",
+          "title": "Expected Risks of Common Epilepsy Surgery Procedures",
+          "headers": ["Procedure", "Major Risk", "Incidence", "Management"],
+          "rows": [
+            ["ATL (dominant)", "Verbal memory decline", "30-40% measurable decline", "Pre-op memory lateralisation (Wada/fMRI); select patients at risk"],
+            ["ATL (either side)", "Superior quadrantanopia", "50-75% with full temporal resection", "Counsel pre-op; DTI Meyer's loop; not a disability if driver counselled"],
+            ["ATL (dominant)", "Anomia/naming decline", "15-30%", "Cortical mapping of naming sites; modified resection boundaries"],
+            ["Corpus callosotomy", "Acute disconnection syndrome", "Common, usually transient", "Mutism/apraxia resolves in weeks; total callosotomy has higher rate"],
+            ["Functional hemispherectomy", "Hydrocephalus", "25-30%", "VP shunt placement"],
+            ["SEEG implantation", "Haemorrhage / infection", "~1-2% per electrode", "CT post-implant; prophylactic antibiotics"],
+            ["Any intracranial surgery", "Wound infection", "1-3%", "IV antibiotics; re-explore if deep infection"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "ILAE Definition of Drug-Resistant Epilepsy",
+          "content": "ILAE 2010 definition: failure of adequate trials of two tolerated and appropriately chosen antiseizure medications (ASMs), whether as monotherapy or combination, to achieve sustained seizure freedom. NICE NG217 (2022) recommends referral to a tertiary epilepsy centre for surgical evaluation after failure of two ASMs. The common mistake is continuing to add medications indefinitely — the probability of seizure freedom with a third medication is only 4-5% (Kwan and Brodie, NEJM 2000). Early surgical evaluation prevents years of drug-resistant seizures, SUDEP risk, and avoidable morbidity."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of epilepsy surgery with 20 board-style questions covering the epileptogenic zone concept, pre-surgical evaluation, surgical procedures, neuromodulation, and outcome classification.",
+    "questions": [
+      {
+        "id": "D1-Q1",
+        "stem": "A 32-year-old woman has drug-resistant temporal lobe epilepsy since age 12. Her seizures begin with an epigastric aura followed by lip smacking, right hand automatisms, and 3 minutes of post-ictal confusion. EEG shows left anterior temporal ictal onset. MRI demonstrates left hippocampal atrophy with T2 hyperintensity. FDG-PET shows left temporal hypometabolism. Neuropsychology shows a verbal memory deficit. What is the most likely diagnosis and surgical prognosis?",
+        "options": {
+          "A": "Right MTLE — anterior temporal lobectomy achieves 40-50% Engel I",
+          "B": "Left MTLE with hippocampal sclerosis — ATL achieves 60-80% Engel I",
+          "C": "Focal cortical dysplasia Type II — 40-50% seizure-free with resection",
+          "D": "Bilateral MTLE — surgery contraindicated, neuromodulation only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "All features point to left MTLE with hippocampal sclerosis: (1) epigastric aura (mesial temporal origin); (2) ipsilateral automatisms (right hand automatisms from left temporal activation); (3) prolonged post-ictal confusion (MTLE signature); (4) left anterior temporal ictal EEG; (5) left hippocampal atrophy + T2 hyperintensity on MRI; (6) left temporal hypometabolism on PET; (7) verbal memory deficit (dominant left temporal). Full concordance of electro-clinical-imaging data = best surgical candidate. ATL for MRI-positive MTLE achieves 60-80% Engel I (seizure freedom) at 2 years.",
+          "wrong": {
+            "A": "The lateralisation is LEFT (left EEG, left MRI, left PET, verbal memory deficit = dominant hemisphere). Right MTLE would not produce a verbal memory deficit in a right-handed left-dominant person. The prognosis of 40-50% is underestimating MRI-positive MTLE outcomes.",
+            "C": "No MRI features of FCD are described — the MRI shows hippocampal sclerosis (atrophy + T2 signal), not cortical thickening, transmantle sign, or blurring of grey-white junction characteristic of FCD.",
+            "D": "No bilateral disease is described — all data point to unilateral left MTLE. Bilateral MTLE would require bilateral EEG onset, bilateral MRI changes, and bilateral PET hypometabolism."
+          },
+          "guideline": "NICE NG217 (2022): patients with drug-resistant focal epilepsy and concordant MRI lesion should be referred for surgical evaluation. AAN/AES 2020 Guidelines: anterior temporal lobectomy is established treatment for drug-resistant MTLE — Level A evidence.",
+          "trial": "Wiebe S et al. A Randomized, Controlled Trial of Surgery for Temporal-Lobe Epilepsy. NEJM 2001;345:311-318: 58% ATL seizure-free vs 8% medical at 1 year. Long-term data (McIntosh 2004): 63% seizure-free at 5 years for MRI-positive MTLE.",
+          "pearl": "Ideal MTLE-HS surgical candidate: (1) epigastric aura + automatisms + post-ictal confusion (semiology); (2) anterior temporal ictal EEG; (3) hippocampal sclerosis on MRI; (4) temporal hypometabolism on PET; (5) ipsilateral memory deficit on neuropsychology. Full concordance = 70-85% Engel I with ATL. MRI-positive MTLE is the strongest indication for epilepsy surgery.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D1-Q2",
+        "stem": "The Wiebe NEJM 2001 RCT of surgery vs medical management for temporal lobe epilepsy is the only randomised trial of epilepsy surgery. What was the seizure-freedom rate in the SURGICAL group at 1 year?",
+        "options": {
+          "A": "8%",
+          "B": "35%",
+          "C": "58%",
+          "D": "80%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Wiebe et al. (NEJM 2001): at 1 year, 58% of the surgery group were free of seizures impairing awareness (Engel Class I), compared with 8% in the medical management group (P<0.001). This result established the superiority of surgery over continued medical management for drug-resistant temporal lobe epilepsy with a clear structural lesion. The trial enrolled 80 patients with MTLE from a Canadian centre.",
+          "wrong": {
+            "A": "8% was the MEDICAL management group seizure-freedom rate — the control arm result, not the surgical group.",
+            "B": "35% is not a result from this trial. The surgical group achieved 58% seizure freedom.",
+            "D": "80% overstates the surgical outcome. While some selected subgroups (young patients, full concordance, 3T MRI era) achieve 75-85% freedom, the Wiebe trial (2001, older era) reported 58%."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): Wiebe 2001 cited as Level I evidence — ATL achieves 58% seizure freedom vs 8% medical at 1 year. Surgery is recommended for drug-resistant MTLE after evaluation confirming resectable EZ.",
+          "trial": "Wiebe S et al. A Randomized, Controlled Trial of Surgery for Temporal-Lobe Epilepsy. NEJM 2001;345:311-318 — the landmark trial. Primary outcome: seizure freedom at 1 year. Surgery = 58%, medical = 8%, P<0.001. QoL significantly better in surgical group.",
+          "pearl": "Wiebe NEJM 2001 numbers: Surgery 58% seizure-free vs Medical 8% at 1 year. This is the most important epilepsy surgery RCT result. Memorise: 58% surgical, 8% medical, P<0.001, n=80, 1-year follow-up.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D1-Q3",
+        "stem": "According to the ILAE 2010 definition, drug-resistant epilepsy is defined as failure of how many adequate antiseizure medication (ASM) trials?",
+        "options": {
+          "A": "Failure of one ASM at any dose",
+          "B": "Failure of two adequate trials of appropriately chosen and tolerated ASMs",
+          "C": "Failure of three or more ASMs at maximum tolerated doses",
+          "D": "Failure of four ASMs plus one combination regimen"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ILAE 2010 definition of drug-resistant epilepsy: 'failure of adequate trials of two tolerated, appropriately chosen and used antiseizure drug schedules (whether as monotherapies or in combination) to achieve sustained seizure freedom.' The two-drug threshold is clinically important because the probability of achieving seizure freedom with a third ASM is only ~4-5% (Kwan and Brodie NEJM 2000), establishing the diminishing returns of additional medications and the rationale for early surgical referral after two failures.",
+          "wrong": {
+            "A": "One ASM failure does not define drug-resistance. A first medication may fail due to side effects or inadequate dosing rather than true pharmacoresistance. Two adequate trials establish the pattern.",
+            "C": "Three or more ASM failures is NOT the ILAE definition — this over-extends the threshold and causes unnecessary delay in surgical referral. After two failures, >50% of patients are unlikely to achieve freedom with further medications.",
+            "D": "Four ASMs is an excessive threshold. By this point, years of drug-resistant seizures have accumulated significant morbidity. NICE NG217 and ILAE guidelines recommend referral after TWO failures."
+          },
+          "guideline": "ILAE Definition of Drug-Resistant Epilepsy (Kwan et al. Epilepsia 2010;51:1069-1077): two adequate ASM trials without sustained seizure freedom = drug-resistant. NICE NG217 (2022): refer to specialised epilepsy centre after two drug failures.",
+          "trial": "Kwan P, Brodie MJ. Early identification of refractory epilepsy. NEJM 2000;342:314-319: prospective cohort of 470 patients — 47% seizure-free on first ASM; 13% seizure-free with second; 1% with third; further medications yielded <4% additional freedom. Established diminishing returns principle.",
+          "pearl": "ILAE drug-resistant epilepsy = failure of TWO adequate ASM trials. After 2 failures: probability of freedom with 3rd drug ~4-5%. Refer for epilepsy surgery evaluation after 2 failures. Delays in referral = years of avoidable seizures, SUDEP risk, cognitive decline, and psychosocial morbidity.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D1-Q4",
+        "stem": "During pre-surgical evaluation, the 'Zone of Partial Preservation' in the ILAE epileptogenic zone framework most correctly describes:",
+        "options": {
+          "A": "The cortex showing preserved function on neuropsychological testing adjacent to the proposed resection",
+          "B": "The minimum cortex that must be resected to achieve seizure freedom",
+          "C": "The cortex generating interictal epileptiform discharges — the irritative zone",
+          "D": "The epileptogenic zone — defined as the minimum cortex that must be removed to produce seizure freedom"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "The epileptogenic zone (EZ), as defined by Lüders, is 'the minimum amount of cortex that must be resected to produce seizure freedom.' This is the theoretical construct that epilepsy surgery aims to remove. Critically, the EZ cannot be directly measured in vivo — it is only defined in retrospect by its successful removal. The entire pre-surgical evaluation is a convergent process to estimate the location and extent of the EZ using indirect markers (irritative zone, ictal onset zone, symptomatogenic zone, lesion zone, functional deficit zone). The question specifically asks about the 'minimum cortex that must be resected' = the definition of the EZ.",
+          "wrong": {
+            "A": "This describes the 'eloquent cortex' zone — cortex with preserved function that must be preserved during surgery. The eloquent cortex is a safety boundary, not the epileptogenic zone.",
+            "B": "This is actually a partial restatement of the correct answer. The full correct answer (D) is the epileptogenic zone definition. 'Zone of Partial Preservation' is not the correct term for the minimum resection concept.",
+            "C": "This is the IRRITATIVE zone definition — cortex generating interictal spikes on EEG. The EZ is broader than the irritative zone in most cases (the EZ must also include the ictal onset zone and the lesion)."
+          },
+          "guideline": "ILAE Commission on Diagnostic Methods (Lüders HO et al. 2006): conceptual framework of epileptogenic zone and constituent zones. Fundamental to pre-surgical epilepsy evaluation — all investigations aim to define the EZ.",
+          "trial": "Engel J Jr et al. Surgery for Epilepsy. NEJM 2008;358:2391-2400: review article establishing that complete resection of the EZ (as estimated by convergent data) is the key determinant of surgical success — seizure freedom rates correlate with estimated completeness of EZ resection.",
+          "pearl": "Epileptogenic zone (EZ) = minimum cortex to resect for seizure freedom (Lüders definition). EZ cannot be directly measured — only confirmed by its successful removal. Pre-surgical evaluation uses 6 zones to triangulate EZ location: irritative, ictal onset, symptomatogenic, lesion, functional deficit, eloquent cortex zones.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q5",
+        "stem": "A 28-year-old patient with drug-resistant epilepsy is evaluated for surgery. Scalp EEG shows bilateral temporal ictal onset (alternating, no clear lateralisation). MRI shows bilateral hippocampal T2 signal change (left > right). Wada test confirms bilateral memory representation. What is the MOST appropriate surgical/neuromodulatory option?",
+        "options": {
+          "A": "Left anterior temporal lobectomy — dominant side harbours the more active EZ",
+          "B": "Bilateral anterior temporal lobectomies in a staged fashion",
+          "C": "Responsive neurostimulation (RNS) with bilateral hippocampal depth electrodes",
+          "D": "Vagus nerve stimulation (VNS) — most effective for bilateral MTLE"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Bilateral MTLE with bilateral ictal onset and bilateral memory function demonstrated on Wada test is a contraindication to bilateral temporal lobectomy (would cause severe anterograde amnesia — Korsakoff-type) and is a relative contraindication to unilateral ATL alone (50% risk of contralateral seizure onset predominance post-operatively). RNS with bilateral hippocampal depth electrodes is the preferred approach: it simultaneously records from and stimulates both mesial temporal regions, provides closed-loop detection and termination of bilateral seizures, and does not destroy hippocampal tissue. The RNS pivotal trial included bilateral MTLE as a primary indication.",
+          "wrong": {
+            "A": "Unilateral ATL in true bilateral MTLE (equal bilateral onset) risks leaving the majority of seizures arising from the contralateral untreated side. Additionally, resecting a dominant side hippocampus with bilateral memory function causes significant memory decline — acceptable for unilateral disease but not when both hippocampi are contributing to memory storage.",
+            "B": "Staged bilateral ATL would cause Korsakoff-type severe anterograde amnesia — bilateral hippocampal resection eliminates new memory formation. This is absolutely contraindicated. The famous case of H.M. (bilateral hippocampectomy for epilepsy) demonstrated this catastrophic complication.",
+            "D": "VNS is an open-loop neuromodulation that provides ~50% responder rate — significantly less effective than RNS for bilateral MTLE (~60% responder rate at 6 years with RNS). VNS does not have closed-loop detection capability and is not the preferred neuromodulation option when the specific seizure onset zone (bilateral hippocampi) can be directly targeted by RNS."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): bilateral MTLE is a primary indication for RNS. RNS approved for bilateral seizure onset zones where resection is not appropriate. Bilateral hippocampal resection is absolutely contraindicated.",
+          "trial": "Morrell MJ. Responsive cortical stimulation for the treatment of medically intractable partial epilepsy. Neurology 2011;77:1295-1304: RNS pivotal trial — 37.9% vs 17.3% seizure reduction (P=0.012) at 1 year. Long-term: 60% median reduction at 6 years; bilateral MTLE subgroup showed equal efficacy.",
+          "pearl": "Bilateral MTLE management: bilateral ATL = ABSOLUTELY CONTRAINDICATED (bilateral hippocampectomy = Korsakoff amnesia). RNS with bilateral hippocampal electrodes = preferred option — closed-loop, non-destructive, ~60% responder at 6 years. Unilateral ATL on the more active side may be considered when one side clearly predominates.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q6",
+        "stem": "Which FCD type is characterised by the 'transmantle sign' on MRI, and what does this sign represent pathologically?",
+        "options": {
+          "A": "FCD Type I — heterotopic neurons scattered in deep white matter",
+          "B": "FCD Type IIb — funnel-shaped FLAIR hyperintensity from cortex to ventricle, representing arrested migration pathway of balloon cells",
+          "C": "FCD Type IIIa — hippocampal sclerosis-associated FCD with subtle cortical signal",
+          "D": "FCD Type I — architectural dysplasia with radial cortical column disorganisation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The transmantle sign is pathognomonic of FCD Type IIb (FCD with balloon cells). On T2/FLAIR MRI, it appears as a funnel-shaped or cone-shaped hyperintensity extending radially from the dysplastic cortical surface through the subcortical white matter to the lateral ventricular wall. Pathologically, this reflects the radial migration pathway of dysplastic cells from the germinal matrix (periventricular zone) that arrested at an abnormal cortical location. The dysmorphic neurons and balloon cells (large cells with glassy cytoplasm, abundant intermediate filaments) are found both in the cortex and along this transmantle extent. The sign is highly specific for FCD IIb and its identification on MRI strongly supports surgical candidacy.",
+          "wrong": {
+            "A": "FCD Type I involves architectural dysplasia (abnormal cortical lamination in radial and/or tangential patterns) without dysmorphic neurons or balloon cells. It is typically MRI-invisible and does not produce a transmantle sign. Heterotopic neurons in white matter can be a feature of Type I but is not the defining imaging characteristic.",
+            "C": "FCD Type IIIa is the combination of hippocampal sclerosis (Type IIIa = HS + FCD). It is typically seen in MTLE and the FCD component is adjacent to the hippocampus in the temporal neocortex — it does not produce a transmantle sign.",
+            "D": "FCD Type I produces radial column disorganisation microscopically but is NOT visible on MRI — it is typically MRI-invisible. The transmantle sign is specific to Type IIb, not Type I."
+          },
+          "guideline": "ILAE FCD Classification (Blümcke I et al. Epilepsia 2011;52:158-174): FCD Type IIb pathological criteria — dysmorphic neurons + balloon cells; MRI transmantle sign specific to Type IIb. NCCN/NICE: FCD IIb = strongest surgical candidate among FCD types.",
+          "trial": "Adler S et al. Novel surface area and volumetric metrics for FCD. Epilepsia 2017: transmantle sign on MRI associated with FCD Type IIb in 85% of cases where identified; surgical outcome with transmantle sign — 73% Engel I at 2 years after complete resection.",
+          "pearl": "FCD Type IIb + transmantle sign: funnel-shaped T2/FLAIR from cortex to ventricle = arrested migration pathway of balloon cells. This sign is pathognomonic of FCD IIb. Identification improves surgical candidacy and outcome prediction. Complete resection → 70-80% Engel I. MRI-negative FCD (no transmantle sign, no visible lesion) = much worse surgical outcome (~40-50%).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q7",
+        "stem": "A patient with Lennox-Gastaut syndrome has multiple weekly drop attacks (atonic seizures) causing injury despite multiple ASMs and a VNS trial. What surgical procedure specifically targets these drop attacks, and what is the expected reduction rate?",
+        "options": {
+          "A": "Anterior temporal lobectomy — drop attacks arise from mesial temporal onset",
+          "B": "Corpus callosotomy (anterior two-thirds) — 50-75% reduction in drop attacks by preventing bilateral synchronisation",
+          "C": "Functional hemispherectomy — only complete hemisphere disconnection eliminates atonic seizures",
+          "D": "Multiple subpial transection — disrupts horizontal propagation of generalised discharges"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Corpus callosotomy is the established surgical procedure for atonic (drop attack) and tonic-clonic seizures in generalised epilepsy syndromes like Lennox-Gastaut. The callosal section prevents rapid bilateral synchronisation of epileptiform discharges via the corpus callosum, reducing the ability of the discharge to recruit the bilateral corticospinal tracts simultaneously (which causes the sudden loss of bilateral tone = atonic seizure). Anterior two-thirds callosotomy reduces drop attacks by 50-75% in LGS. It is NOT curative — the ictal onset zone remains — but provides meaningful functional benefit in severely disabled patients.",
+          "wrong": {
+            "A": "ATL is indicated for unilateral focal mesial temporal epilepsy — not for generalised epilepsy syndromes with diffuse onset. LGS is a generalised syndrome; ATL would not address atonic seizures.",
+            "C": "Hemispherectomy is indicated for UNILATERAL hemispheric epilepsy — not for LGS with generalised bilateral onset. LGS patients do not have a single damaged hemisphere to disconnect; their seizures arise from diffuse bilateral networks.",
+            "D": "Multiple subpial transection is indicated for focal onset epilepsy within eloquent cortex — not for generalised syndromes. It would be ineffective for the diffuse network generating LGS drop attacks."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): corpus callosotomy is established treatment for LGS with drop attacks after failure of ASMs; 50-75% drop attack reduction expected. Palliative intent — not curative.",
+          "trial": "Lancman ME et al. Corpus callosotomy: outcome analysis and review. Seizure 1997;6:95-101: meta-analysis of callosotomy for LGS and other generalised epilepsy syndromes — drop attack reduction >50% in 67% of patients; complete cessation in 35%; tonic-clonic reduction in 70%.",
+          "pearl": "Corpus callosotomy targets: DROP ATTACKS (atonic) and tonic-clonic seizures in generalised epilepsy (LGS). Mechanism: prevents bilateral callosal synchronisation. NOT curative — EZ intact. Anterior 2/3 first (genu + body); add splenium for refractory drop attacks. Drop attack reduction: 50-75%. Key complication: acute disconnection syndrome (transient mutism, left arm apraxia).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q8",
+        "stem": "VNS is implanted on the LEFT vagus nerve. What is the primary reason for avoiding RIGHT-sided vagal stimulation?",
+        "options": {
+          "A": "Right vagus nerve innervation of the carotid sinus causes dangerous hypotension",
+          "B": "Right vagal cardiac efferents predominantly innervate the sinoatrial node — right-sided stimulation risks bradycardia and asystole",
+          "C": "Right-sided VNS is technically impossible due to jugular vein proximity",
+          "D": "Right vagal afferents do not project to the nucleus tractus solitarius — anti-seizure effect would be absent"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The right vagus nerve preferentially supplies the sinoatrial (SA) node via right cardiac vagal branches — its efferent fibres regulate heart rate more directly than the left vagus (which has more influence on AV node conduction). Stimulation of the right vagus carries significant risk of sinoatrial arrest, bradycardia, and asystole from direct SA node inhibition. The LEFT vagus is preferred for VNS because its cardiac efferent projections predominantly target the atrioventricular (AV) node, and clinically significant bradyarrhythmia is less common with left-sided stimulation (though cardiac monitoring is still recommended at implantation).",
+          "wrong": {
+            "A": "Carotid sinus innervation involves the glossopharyngeal nerve (CN IX), not the vagus (CN X). Vagal stimulation does not directly stimulate the carotid sinus. This is anatomically incorrect.",
+            "C": "Right-sided VNS implantation is technically feasible — the right vagus nerve is accessible in the neck. The reason for avoiding it is the cardiac risk, not anatomical impossibility.",
+            "D": "Both right and left vagal afferents project to the nucleus tractus solitarius (NTS) — the NTS is the primary relay for vagal afferent input and the anti-seizure pathway (NTS → locus coeruleus → cortical desynchronisation). Right-sided VNS would have an anti-seizure effect but carries unacceptable cardiac risk."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020) — VNS: left vagus nerve stimulation is standard; right-sided contraindicated due to cardiac SA node risk. Cardiac screening (ECG, Holter) recommended pre-implant. Intraoperative heart rate monitoring mandatory during electrode testing.",
+          "trial": "The Vagus Nerve Stimulation Study Group E03 Trial (Handforth A. Neurology 1998;51:48-55): VNS efficacy and safety established with left-sided implantation; cardiac monitoring protocol prevented serious arrhythmias in all patients; right-sided stimulation excluded from the trial design for safety reasons.",
+          "pearl": "VNS is ALWAYS left-sided: right vagus → SA node → bradycardia/asystole risk. Left vagus → AV node → safer cardiac profile. Anti-seizure mechanism: left vagal afferents → NTS → locus coeruleus (noradrenaline) → cortical desynchronisation. Magnet = patient-triggered additional stimulation during aura.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q9",
+        "stem": "Rasmussen encephalitis affects a 7-year-old child with progressive right-sided focal motor epilepsy (epilepsia partialis continua), right hemiparesis, and cognitive decline. Which surgical procedure is indicated, and what is the key prerequisite regarding the contralateral hemisphere?",
+        "options": {
+          "A": "Anterior temporal lobectomy — the temporal lobe contains the epileptogenic focus",
+          "B": "Corpus callosotomy — prevents bilateral spread of epileptic activity",
+          "C": "Functional hemispherectomy — requires documentation that language has transferred to the contralateral (right) hemisphere",
+          "D": "Vagus nerve stimulation — functional hemispherectomy is contraindicated in children"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Functional hemispherectomy is the definitive treatment for Rasmussen encephalitis affecting one hemisphere. The key prerequisite for dominant hemisphere (typically left) hemispherectomy in a child is documentation that language function has transferred to the contralateral right hemisphere. In young children with progressive hemispheric disease, neuroplasticity allows language transfer to the undamaged hemisphere — this must be confirmed by fMRI language lateralisation (Broca's area activation in right hemisphere) and/or Wada test before removing the dominant side. Hemispherectomy without confirmed language transfer in a left-dominant child would result in permanent aphasia.",
+          "wrong": {
+            "A": "Rasmussen encephalitis is a progressive hemispheric disorder affecting the entire left hemisphere — not a focal temporal lesion. ATL alone is insufficient and does not address the progressive hemispheric inflammation.",
+            "B": "Corpus callosotomy is a palliative procedure for bilateral/generalised epilepsy with drop attacks. Rasmussen encephalitis is unilateral and hemisphere-specific — callosotomy would not halt the progressive hemispheric destruction or control the focal motor seizures adequately.",
+            "D": "Functional hemispherectomy is the first-line surgical treatment for Rasmussen encephalitis in children — it is not contraindicated. VNS would provide modest seizure reduction (~50% responder rate) but would not halt the progressive neurological decline from ongoing inflammation."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): Rasmussen encephalitis — functional hemispherectomy recommended after documentation of hemispheric language transfer (fMRI or Wada); do not delay excessively as progressive deterioration continues with medical management.",
+          "trial": "Bien CG et al. Surgical outcome in Rasmussen encephalitis. Epilepsia 2013;54:1220-1231: functional hemispherectomy in Rasmussen — 82% seizure-free at 2 years; best outcomes with early surgery before complete hemiplegia; language preserved in all patients with pre-operative documentation of right hemisphere language transfer.",
+          "pearl": "Rasmussen encephalitis: progressive unilateral hemispheric epilepsy + hemiparesis + cognitive decline. Treatment: functional hemispherectomy. Key prerequisite: document language transfer to contralateral hemisphere (fMRI or Wada) before dominant hemisphere resection in a child. Young children (<8 years) often complete language transfer before surgery; older children may require longer pre-surgical assessment.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q10",
+        "stem": "A patient undergoes anterior temporal lobectomy for left MTLE. Post-operative visual field testing reveals loss of the right superior quadrant (right superior quadrantanopia). Which anatomical structure was injured, and what is the clinical significance?",
+        "options": {
+          "A": "Right optic tract — the left hemisphere controls contralateral visual fields",
+          "B": "Meyer's loop of the left optic radiation — anterior loop swings into the temporal lobe and is at risk during ATL",
+          "C": "Left lateral geniculate nucleus — temporal lobe surgery always damages the LGN",
+          "D": "Left occipital cortex — posterior extension of temporal resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Meyer's loop is the anterior portion of the optic radiation from the lateral geniculate nucleus, which swings anteriorly into the temporal lobe (around the temporal horn of the lateral ventricle) before coursing posteriorly to the visual cortex. This loop carries fibres from the inferior retina (representing the superior visual field). During ATL, Meyer's loop is at risk — resection of the anterior temporal lobe medial to the temporal horn can injure this loop, causing a contralateral superior quadrantanopia ('pie in the sky' defect). For LEFT ATL: Meyer's loop injury = RIGHT superior quadrantanopia. This occurs in 50-75% of patients undergoing full ATL and is the most common visual complication.",
+          "wrong": {
+            "A": "The right optic tract carries fibres from the nasal left retina and temporal right retina — its injury produces a left homonymous hemianopia, not a superior quadrantanopia. The left ATL does not access the right optic tract.",
+            "C": "The lateral geniculate nucleus is in the posterior thalamus — it is not typically damaged during ATL unless extremely posterior resection is performed. Meyer's loop (anterior radiation), not the LGN itself, is the vulnerable structure.",
+            "D": "Posterior extension into the occipital cortex would cause a complete contralateral homonymous hemianopia (visual cortex), not a superior quadrantanopia. The partial field loss (superior only) specifically indicates Meyer's loop injury at the anterior temporal lobe, not posterior occipital damage."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): pre-operative visual field testing mandatory; Meyer's loop risk counselling required. DTI tractography of the optic radiation during surgical planning reduces Meyer's loop injury rate. Post-ATL visual field testing required before driving licence evaluation.",
+          "trial": "Nilsson D et al. Meyer's loop tractography and visual field deficits after temporal lobe resection. Neurology 2007;68:1295-1298: DTI-guided Meyer's loop preservation reduced superior quadrantanopia from 75% to 42% in prospective series — DTI is now standard for surgical planning of ATL at most centres.",
+          "pearl": "Meyer's loop: anterior optic radiation loop in temporal lobe (around temporal horn). ATL injury → contralateral SUPERIOR quadrantanopia ('pie in the sky'). Left ATL → right superior quadrant loss. Occurs in 50-75% without DTI guidance; reduced to ~40-50% with DTI-guided resection. Counsel patients pre-operatively — affects driving eligibility.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q11",
+        "stem": "The Engel outcome classification for epilepsy surgery grades surgical results from Class I to IV. A patient who is not completely seizure-free but has only rare disabling seizures and has had a worthwhile improvement in quality of life since surgery falls into which Engel class?",
+        "options": {
+          "A": "Engel Class I — seizure-free",
+          "B": "Engel Class II — worthwhile improvement (>90% reduction in disabling seizures)",
+          "C": "Engel Class III — worthwhile improvement (>50% reduction)",
+          "D": "Engel Class IV — no worthwhile improvement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Engel Class II describes patients who are not seizure-free but have experienced a 'worthwhile improvement' — defined as greater than 90% reduction in disabling seizures. Class II subclassifications: IIA = almost seizure-free; IIB = >90% reduction in disabling seizures, worthwhile improvement; IIC = worthwhile improvement but residual seizures; IID = worthwhile improvement but pattern of seizure-free days changed. The patient described has 'only rare disabling seizures' and a worthwhile QoL improvement — this is Engel Class II.",
+          "wrong": {
+            "A": "Engel Class I = completely seizure-free (IA) or nearly seizure-free with only non-disabling simple partial seizures (IB) or seizure-free periods of >1-2 years with relapses (IC/ID). The patient has residual rare disabling seizures — not completely seizure-free.",
+            "C": "Engel Class III = worthwhile improvement but >50% reduction (not ≥90%). Class III is for patients with meaningful but less complete improvement. The patient described has a 'worthwhile improvement' with 'only rare' seizures, suggesting >90% reduction = Class II, not III.",
+            "D": "Engel Class IV = no worthwhile improvement (either no reduction or worsening). The patient clearly has worthwhile improvement — Class IV does not apply."
+          },
+          "guideline": "Engel J Jr et al. Outcome after Epilepsy Surgery. Epilepsia 2003;44(Suppl 7):55-57 — Engel classification source. The ILAE 2001 outcome classification is also used (Class 1=seizure-free; Class 2-4=graded reduction). Most epilepsy surgery literature uses Engel classification for outcome reporting.",
+          "trial": "Engel J Jr. Surgical Treatment of the Epilepsies (2nd ed, 1993): Class I = seizure free; Class II = rare seizures, worthwhile improvement; Class III = worthwhile improvement ≥50%; Class IV = no worthwhile improvement. International standard for epilepsy surgery outcome reporting.",
+          "pearl": "Engel Classification: I = seizure-free; II = worthwhile improvement (>90% reduction); III = worthwhile improvement (>50% reduction); IV = no worthwhile improvement. Most publications report 'Engel Class I' outcomes (seizure freedom). The threshold for 'success' in most trials is Engel I or II.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D1-Q12",
+        "stem": "A 10-year-old girl has drug-resistant epilepsy with seizure onset in the dominant (left) primary motor cortex (hand area). MRI shows a small region of suspected FCD at the hand area. Removing this region would cause permanent right hand weakness. Which surgical technique might allow treatment of this epileptogenic cortex while preserving motor function?",
+        "options": {
+          "A": "Anterior temporal lobectomy — appropriate for any focal epilepsy regardless of location",
+          "B": "Multiple subpial transection (MST) — disrupts horizontal epileptic propagation while preserving vertical corticocortical fibres",
+          "C": "Corpus callosotomy — prevents spread from motor cortex to contralateral hemisphere",
+          "D": "Responsive neurostimulation — ideal only for mesial temporal onset"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Multiple subpial transection (MST) was developed by Morrell specifically for epileptogenic cortex within eloquent cortex that cannot be safely resected. In MST, a small blunt hook is inserted into the pia and horizontal cuts are made through the cortical grey matter at 5 mm intervals, perpendicular to the cortical surface. This disrupts the horizontal intracortical connections through which ictal discharge propagates across the cortex, while preserving the vertical (radial) fibres between cortical layers and the underlying subcortical projections — which include the corticospinal tracts. Result: seizure propagation interrupted while motor (vertical pathway) function preserved. For primary motor cortex epilepsy in eloquent cortex, MST is the classic indication.",
+          "wrong": {
+            "A": "ATL is a temporal lobe procedure — entirely inappropriate for motor cortex epilepsy. Applying ATL to a frontal motor cortex lesion would not address the epileptogenic zone and would produce temporal lobe deficits unnecessarily.",
+            "C": "Corpus callosotomy prevents bilateral synchronisation — it does not address the focal epileptogenic zone in the motor cortex. It might reduce secondary generalisation but would not prevent focal motor seizures arising from the hand area.",
+            "D": "RNS is an excellent option for eloquent cortex onset zones and would be reasonable for this patient. However, MST is the specific technique developed for eloquent cortex resection — it directly addresses the tissue while preserving function, which is more targeted than neuromodulation. RNS is not 'ideal only for mesial temporal onset' — that statement is incorrect; RNS is FDA-approved for focal epilepsy of any location."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): MST is indicated for epileptogenic cortex within eloquent areas where resection would cause unacceptable deficits. Landau-Kleffner syndrome and primary motor cortex epilepsy are the classic indications.",
+          "trial": "Morrell F et al. Multiple subpial transection: a new approach to the surgical treatment of focal epilepsy. J Neurosurg 1989;70:231-239 — original description of MST technique and rationale. Outcome: ~50-60% of patients achieve worthwhile improvement (Engel II or better); motor function preserved in majority with correct technique.",
+          "pearl": "MST (Multiple Subpial Transection): horizontal cuts at 5 mm intervals through grey matter. DISRUPTS horizontal propagation (ictal spread). PRESERVES vertical fibres (motor, language output). Indicated for: eloquent cortex epilepsy (primary motor, language areas). Classic case: Landau-Kleffner syndrome (acquired epileptic aphasia in children — MST of auditory association cortex).",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D1-Q13",
+        "stem": "STEREOELECTROENCEPHALOGRAPHY (SEEG) vs SUBDURAL GRID monitoring — which statement best describes the KEY ADVANTAGE of SEEG over subdural grids in pre-surgical evaluation?",
+        "options": {
+          "A": "SEEG provides better coverage of the lateral neocortical convexity than subdural grids",
+          "B": "SEEG accesses deep structures (hippocampus, insula, orbitofrontal cortex, cingulate) that subdural grids cannot reach, with lower surgical morbidity",
+          "C": "SEEG allows direct cortical stimulation for mapping that subdural grids cannot perform",
+          "D": "SEEG is preferred for all MRI-positive cases due to superior detection sensitivity"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The key advantage of SEEG over subdural grids is its ability to record from deep brain structures inaccessible to surface electrodes: hippocampus, insula (buried within the Sylvian fissure), orbitofrontal cortex, cingulate gyrus, and other mesial structures. SEEG involves stereotactic implantation of multiple depth electrodes (5-18 electrodes typically) under neuronavigation and frame-based or robot-assisted stereotaxy, with very low surgical morbidity (haemorrhage ~1-2% per electrode, infection <1%). Subdural grids cover the cortical surface extensively but cannot access these deep structures. For complex MRI-negative cases or cases with suspected deep onset zones (insular epilepsy, mesial frontal), SEEG is the preferred modality.",
+          "wrong": {
+            "A": "This is WRONG — the statement is REVERSED. Subdural grids provide better coverage of the lateral neocortical convexity (broad cortical surface coverage is the main advantage of grids). SEEG provides targeted depth coverage but limited lateral neocortical surface coverage.",
+            "C": "Both SEEG AND subdural grids can perform electrical cortical stimulation for eloquent cortex mapping. This is not a differentiating advantage of SEEG. Subdural grids may provide more flexible stimulation across the cortical surface due to higher electrode density.",
+            "D": "SEEG is particularly valuable for MRI-NEGATIVE cases where the seizure onset zone is in a deep or complex location. For standard MRI-positive mesial temporal cases with concordant Phase I data, Phase II monitoring may not be needed at all — this statement is incorrect."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): SEEG is preferred for evaluating deep onset zones (insular, mesial frontal, deep temporal) and bilateral evaluation without large craniotomy. Subdural grids preferred when broad neocortical surface mapping is required for eloquent cortex localisation.",
+          "trial": "Gonzalez-Martinez J et al. Stereoelectroencephalography in the difficult to localize refractory focal epilepsy. J Neurosurg 2016;125:585-596: SEEG in 100 consecutive patients — seizure onset identified in 82%; surgical resection offered to 72%; 60% Engel I at 2 years; electrode haemorrhage 0.8%.",
+          "pearl": "SEEG vs Subdural grids: SEEG = access to DEEP structures (hippocampus, insula, OFC, cingulate) + lower morbidity + bilateral evaluation possible. Subdural grids = broad LATERAL neocortical coverage + high-density stimulation mapping. Choose SEEG for: deep/bilateral/insular/mesial frontal/MRI-negative cases. Choose grids for: extensive neocortical mapping required for language/motor.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D1-Q14",
+        "stem": "Hippocampal sclerosis (HS) characteristically affects which regions of the hippocampus with GREATEST neuronal loss, and what is the histological term for the most vulnerable zone?",
+        "options": {
+          "A": "CA2 subfield — the most vulnerable zone is also called the 'resistant sector'",
+          "B": "CA1 subfield (Sommer sector) — most vulnerable to excitotoxic injury; plus CA3, CA4, and dentate gyrus; CA2 relatively spared",
+          "C": "Subiculum — the entorhinal-hippocampal gateway is most affected",
+          "D": "CA3 subfield — the mossy fibre pathway is the primary site of excitotoxic injury"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hippocampal sclerosis involves preferential neuronal loss in CA1 (the 'Sommer sector' — historically noted as the most vulnerable region by Sommer in 1880), CA3, CA4 (end folium), and the dentate gyrus granule cells. CA2 is relatively preserved — it is sometimes called the 'resistant sector' or 'Spielmeyer resistant sector.' The pattern of selective CA1 vulnerability reflects its higher susceptibility to glutamate excitotoxicity (higher NMDA receptor density, lower calcium-binding protein expression) compared with CA2. The dentate gyrus granule cell loss and mossy fibre sprouting (aberrant recurrent excitatory circuits) contribute to the epileptic circuit.",
+          "wrong": {
+            "A": "CA2 is actually the RESISTANT (relatively spared) sector in hippocampal sclerosis — not the most vulnerable. Calling it 'most vulnerable' is the opposite of the correct answer.",
+            "C": "The subiculum is involved in HS but is not the most severely affected region. The Sommer sector (CA1) is the classically most vulnerable. The subiculum provides important output pathways but is considered more 'resistant' than CA1.",
+            "D": "CA3 is involved in HS (significant neuronal loss) but CA1 is the classically most vulnerable region — the 'Sommer sector.' CA3 loss contributes to the sclerosis pattern but is not the primary or most prominent zone of vulnerability."
+          },
+          "guideline": "ILAE FCD and HS Classification (Blümcke 2013): HS Type 1 = CA1 + CA4 predominant; HS Type 2 = CA1 predominant; HS Type 3 = CA4 predominant. All involve CA1 as a core affected region.",
+          "trial": "Sommer W (1880): original histological description of the 'Sommer sector' (CA1) as the most vulnerable zone to epileptic injury. Modern immunohistochemistry studies (Blümcke 2007): confirmed CA1 as primary site of NeuN-positive neuronal loss in >90% of HS cases.",
+          "pearl": "Hippocampal sclerosis: MOST VULNERABLE = CA1 (Sommer sector). RESISTANT = CA2 (Spielmeyer resistant sector). Also affected: CA3, CA4, dentate gyrus. MRI correlate: hippocampal atrophy + T2 signal (gliosis replacing lost neurons). This selective vulnerability underpins why MTLE develops after initial precipitating injury (febrile convulsion, SE).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q15",
+        "stem": "The RNS (Responsive Neurostimulation) system demonstrates a pattern of progressively improving seizure reduction over time, unlike VNS which plateaus. At the 6-year follow-up from the long-term RNS study, what is the approximate median seizure reduction?",
+        "options": {
+          "A": "20-25% seizure reduction at 6 years",
+          "B": "40-44% seizure reduction at 6 years",
+          "C": "60% seizure reduction at 6 years",
+          "D": "85-90% seizure reduction at 6 years"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The NeuroPace RNS long-term follow-up data (Nair DR et al. 2020, Epilepsia) show: median seizure reduction at 1 year = 44%; at 2 years = 44%; at 3 years = 53%; at 6 years = 60%. The progressive improvement is one of the most distinctive features of RNS compared with VNS (which plateaus at ~50% at 1-2 years). The mechanism for this progressive improvement is hypothesised to involve long-term depression (LTD) of synaptic connections in the ictal onset zone from repeated closed-loop stimulation — a neuroplasticity-mediated effect. At 6 years, approximately 29% of patients are seizure-free on a rolling 90-day basis, and 15% are overall seizure-free.",
+          "wrong": {
+            "A": "20-25% represents the sham-controlled arm of the RNS pivotal trial at 1 year. The long-term 6-year median is substantially higher (60%).",
+            "B": "40-44% represents the 1-2 year median seizure reduction for RNS. The 6-year figure is higher due to progressive improvement — the correct answer is 60% at 6 years.",
+            "D": "85-90% is not reported in the RNS long-term data. This would overestimate outcomes. The 60% median at 6 years with approximately 15-29% seizure freedom represents the actual long-term efficacy."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): RNS achieves improving outcomes over time; 6-year data show ~60% median seizure reduction. Recommend consideration for bilateral MTLE, eloquent cortex onset, failed resection.",
+          "trial": "Nair DR et al. Nine-year prospective efficacy and safety of brain-responsive neurostimulation for focal epilepsy. Neurology 2020;95:e1244-e1256: RNS 9-year data: median reduction 75% at 9 years; seizure freedom (rolling 90-day) 35% at 9 years. 6-year interim: ~60% median reduction. Progressive improvement continues beyond 6 years.",
+          "pearl": "RNS long-term progression: 44% at 1-2 years → 53% at 3 years → 60% at 6 years → 75% at 9 years. Unlike VNS (plateaus at 50%), RNS continues to improve over years — hypothesised mechanism: long-term synaptic depression from repeated closed-loop stimulation (neuroplasticity). This progressive improvement is a key differentiator and important exam fact.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D1-Q16",
+        "stem": "The Wada test (intracarotid sodium amobarbital test) is performed pre-operatively for left MTLE. When amobarbital is injected into the LEFT internal carotid artery, the patient becomes aphasic. What does this finding indicate?",
+        "options": {
+          "A": "The right hemisphere is dominant for language — the planned left ATL will not cause aphasia",
+          "B": "The left hemisphere is dominant for language — left ATL carries significant aphasia risk if too posterior",
+          "C": "Language is bilateral — the patient can tolerate left hemisphere surgery without significant language loss",
+          "D": "The test has failed — aphasic response indicates the amobarbital did not adequately anaesthetise the left hemisphere"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Wada test interpretation: injection of amobarbital into the LEFT internal carotid anaesthetises the left hemisphere. If the patient becomes APHASIC during left hemisphere anaesthesia, this demonstrates that language is LATERALISED TO THE LEFT hemisphere (the anaesthetised side is the language-dominant side). For left ATL, this means the language cortex (superior temporal gyrus, Broca's area) is in the hemisphere being operated on — the surgeon must preserve the posterior superior temporal gyrus and modify the posterior extent of the temporal resection to avoid language areas. The finding does NOT contraindicate left ATL but requires careful resection planning (posterior limit of 3.5-4 cm in dominant temporal lobe, not 4.5-5 cm as in non-dominant).",
+          "wrong": {
+            "A": "If the right hemisphere were dominant for language, injection into the LEFT ICA (anaesthetising left hemisphere) would NOT cause aphasia — the intact right hemisphere would maintain language. The APHASIA from left injection confirms LEFT hemisphere dominance, not right.",
+            "C": "Bilateral language would manifest as PARTIAL recovery from aphasia during left injection and also partial aphasia during right injection. Complete aphasia from left injection indicates left lateralisation, not bilateral representation.",
+            "D": "Aphasia during left hemisphere Wada testing is the EXPECTED and desired positive test result — it confirms left language lateralisation. Failure of anaesthesia would be indicated by absence of any hemisphere-specific effects (no hemiplegia, no aphasia, no consciousness change)."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): Wada test for language lateralisation — left injection aphasia = left hemisphere dominant. Dominant hemisphere ATL: restrict posterior resection to 3.5-4 cm from temporal tip; preserve posterior superior temporal gyrus. fMRI increasingly replaces Wada for language lateralisation.",
+          "trial": "Loring DW et al. Wada memory testing and hippocampal volume measurements in the prediction of memory change following temporal lobectomy. Neurology 1995;45:1383-1388: Wada memory lateralisation combined with MRI hippocampal volume = best predictors of post-operative memory outcome; left Wada memory failure = high risk of verbal memory decline after left ATL.",
+          "pearl": "Wada test: inject amobarbital ipsilateral to planned surgery. Aphasia during injection = language on that side = dominant hemisphere. Left injection aphasia = left dominant. Consequence for ATL: preserve posterior superior temporal gyrus; limit posterior resection to 3.5 cm (dominant) vs 4-4.5 cm (non-dominant). fMRI now preferred for language lateralisation at many centres.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q17",
+        "stem": "A 6-year-old child with right hemimegalencephaly and catastrophic epilepsy (>20 focal seizures/day, developmental regression, left hemiplegia since birth) is evaluated for hemispherectomy. The right hemisphere is enlarged and dysplastic on MRI. Pre-operative language assessment shows language representation in the LEFT hemisphere. The child has left hemiplegia. What is the expected post-operative outcome?",
+        "options": {
+          "A": "New permanent right hemiplegia and aphasia — the surgery removes the hemisphere controlling the left side",
+          "B": "Seizure freedom in 65-85% and no NEW neurological deficit — pre-existing hemiplegia will persist but not worsen, language preserved",
+          "C": "Surgery contraindicated — hemimegalencephaly cannot be treated surgically in children under 10",
+          "D": "Bilateral hemispherectomy is required — unilateral hemispherectomy will not control seizures from the contralateral side"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This child is an ideal hemispherectomy candidate: (1) right hemisphere is dysplastic/epileptogenic — entire hemisphere is the seizure source; (2) left hemiplegia is pre-existing (the right hemisphere motor cortex is already dysfunctional — removing it will NOT cause NEW hemiplegia); (3) language is in the LEFT hemisphere (preserved after removing the right side); (4) catastrophic epilepsy with developmental regression — the risk-benefit ratio strongly favours surgery. Expected outcome: 65-85% seizure freedom (Engel I) with functional hemispherectomy; pre-existing left hemiplegia persists (not worsened); language intact (left hemisphere preserved); developmental trajectory often improves after seizure elimination.",
+          "wrong": {
+            "A": "A new right hemiplegia would only occur if the LEFT hemisphere's motor cortex (controlling right side) were damaged — it is not touched during RIGHT hemispherectomy. The right hemisphere already controls the left side (already hemiplegic). The right hemispherectomy removes the dysplastic, non-functional right hemisphere that is generating seizures — it does NOT damage the functional left hemisphere.",
+            "C": "Hemimegalencephaly is one of the strongest indications for early hemispherectomy in children — age is not a contraindication. Younger age generally correlates with better neuroplasticity and developmental potential post-operatively.",
+            "D": "Bilateral hemispherectomy is never indicated — it would produce a persistent vegetative state. Only the dysplastic, epileptogenic hemisphere is removed."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): hemimegalencephaly is a primary indication for functional hemispherectomy; prerequisites — unilateral hemispheric epilepsy, contralateral hemisphere functional, pre-existing motor deficit acceptable as surgery will not worsen it.",
+          "trial": "Jonas R et al. Functional hemispherectomy for Rasmussen syndrome, hemimegalencephaly, and other hemispheric disorders. Epilepsia 2004;45:1274-1280: seizure freedom in 65-85% at 2 years; no new motor deficits when pre-existing hemiparesis present; developmental improvement in majority after seizure control.",
+          "pearl": "Hemispherectomy prerequisites: (1) seizure onset limited to one hemisphere; (2) contralateral hemisphere functional (normal or compensated); (3) ideally pre-existing contralateral (to be removed hemisphere) motor deficit — not introducing new deficit. Expected: 65-85% seizure-free, no new deficits beyond pre-existing hemiplegia. Best outcomes: early surgery, before severe developmental regression.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D1-Q18",
+        "stem": "Which scalp EEG electrode positions are closest to the ANTERIOR TEMPORAL LOBE and most sensitive for detecting temporal lobe seizure onset?",
+        "options": {
+          "A": "F7/F8 (inferior frontal) and AT1/AT2 (sphenoidal electrodes)",
+          "B": "C3/C4 (central) and P3/P4 (parietal)",
+          "C": "O1/O2 (occipital) and T5/T6 (posterior temporal)",
+          "D": "Fp1/Fp2 (frontopolar) and F3/F4 (mid-frontal)"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "F7 (left) and F8 (right) in the international 10-20 system are positioned over the inferior frontal/anterior temporal region and are the standard 10-20 electrodes closest to the anterior temporal lobe. However, because scalp electrodes are some distance from mesial temporal structures, **sphenoidal electrodes (AT1/AT2)** or **foramen ovale electrodes** are placed closer to the mesial temporal lobe to improve sensitivity for temporal lobe ictal onset, particularly for mesial temporal seizures that may not propagate to surface electrodes until well into the seizure. AT1/AT2 electrodes inserted near the base of the skull via the infratemporal fossa provide direct coverage of the anterior mesial temporal lobe.",
+          "wrong": {
+            "B": "C3/C4 and P3/P4 are central and parietal electrodes — they are positioned over the rolandic motor strip and parietal lobes. They are far from the anterior temporal lobe and would not detect early mesial temporal ictal onset.",
+            "C": "O1/O2 and T5/T6 are occipital and posterior temporal electrodes — the opposite end of the temporal lobe from the mesial temporal structures. They detect posterior temporal and occipital activity, not anterior mesial temporal seizure onset.",
+            "D": "Fp1/Fp2 are frontopolar and F3/F4 are mid-frontal electrodes. While they detect frontal lobe activity, they are not the electrodes closest to or most sensitive for anterior temporal mesial onset."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): scalp video-EEG monitoring with standard 10-20 system plus additional anterior temporal (AT1/AT2) or sphenoidal electrodes for suspected MTLE. Sphenoidal electrodes increase mesial temporal ictal onset detection sensitivity by 25-30% compared with standard 10-20 alone.",
+          "trial": "Sharbrough FW et al. Anterotemporal and deep electrode placement. Epilepsia 1993;34 Suppl 2:S33-37: comparison of 10-20 alone vs 10-20 + sphenoidal/AT electrodes — sphenoidal electrodes significantly improved ictal onset localisation for mesial temporal seizures; detected ictal onset earlier (mean 8 seconds earlier vs surface onset).",
+          "pearl": "Scalp EEG for temporal lobe epilepsy: F7/F8 = closest standard 10-20 electrodes to anterior temporal. AT1/AT2 (or sphenoidal electrodes) = special electrodes placed inferior-medially for better mesial temporal coverage. Standard 10-20 misses early mesial temporal onset in ~30% of MTLE — sphenoidal/AT electrodes are added at most dedicated epilepsy centres.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D1-Q19",
+        "stem": "Laser Interstitial Thermal Therapy (LITT) for MTLE is an MRI-guided minimally invasive ablation technique. Compared with open anterior temporal lobectomy (ATL), what is its main ADVANTAGE and main DISADVANTAGE?",
+        "options": {
+          "A": "Advantage: superior seizure-free rate (90%); Disadvantage: higher cognitive morbidity",
+          "B": "Advantage: minimally invasive (small incision, stereotactic approach, faster recovery); Disadvantage: slightly lower seizure-free rate (~60-70% vs ~70-75% for ATL)",
+          "C": "Advantage: no general anaesthesia required; Disadvantage: requires bilateral hippocampal ablation",
+          "D": "Advantage: real-time MRI monitoring ensures complete ablation; Disadvantage: contraindicated if hippocampal sclerosis is present"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "LITT for MTLE uses a stereotactically placed laser fibre inserted through a small skull access port directly into the hippocampus/amygdala under MRI guidance. Real-time MRI thermometry monitors the ablation extent. Advantages: minimally invasive (1-2 cm incision vs full craniotomy), reduced hospital stay (1-2 days vs 3-5 days), faster return to activity, reduced blood loss. Disadvantage: slightly lower seizure-free rate at 2 years (~60-70% Engel I) compared with open ATL (~70-75%), likely because LITT may not achieve as complete resection of the full mesial temporal extent compared with open surgery. LITT also cannot address neocortical components of the EZ.",
+          "wrong": {
+            "A": "LITT does NOT have a superior seizure-free rate — it has slightly LOWER rates (~60-70%) vs ATL (~70-75%). The statement of 90% seizure-free is not supported by evidence for either technique.",
+            "C": "LITT does require general anaesthesia or at minimum deep sedation for stereotactic implantation. It is not performed awake. Bilateral hippocampal ablation is contraindicated (would cause amnesia) — LITT is strictly unilateral.",
+            "D": "LITT is NOT contraindicated in hippocampal sclerosis — it is actually the primary indication, used to ablate the sclerotic hippocampus. Hippocampal sclerosis is the most common indication for LITT in MTLE."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): LITT is an established minimally invasive option for MTLE; seizure outcomes slightly inferior to open ATL; appropriate for patients preferring minimally invasive approach or with medical comorbidities limiting open surgery.",
+          "trial": "Drane DL et al. Better object recognition and naming outcome with MRI-guided stereotactic laser amygdalohippocampotomy for temporal lobe epilepsy. Epilepsia 2015;56:101-113: LITT vs ATL — LITT superior cognitive outcomes (naming, verbal memory) but lower seizure freedom (58% vs 78% Engel I at 1 year). Key trade-off: better cognitive profile but lower seizure freedom rate.",
+          "pearl": "LITT vs ATL for MTLE: LITT = minimally invasive + better cognitive outcomes (naming, memory) + shorter recovery. ATL = better seizure freedom (~75% vs ~65% Engel I). Clinical decision: patient preference for minimally invasive + cognitive preservation → LITT; maximum seizure freedom priority → ATL. LITT cannot address neocortical EZ components.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D1-Q20",
+        "stem": "A pre-surgical epilepsy evaluation team presents a case with discordant data: ictal scalp EEG shows RIGHT anterior temporal onset; FDG-PET shows LEFT temporal hypometabolism; MRI is normal; neuropsychology shows bilateral memory impairment. The team recommends Phase II invasive monitoring. What is the rationale for proceeding to invasive monitoring in this case?",
+        "options": {
+          "A": "Invasive monitoring is always required for MRI-positive cases before any surgical decision",
+          "B": "Phase I data are discordant across modalities — invasive monitoring is required to definitively localise the ictal onset zone before resection can be planned",
+          "C": "The MRI finding of hippocampal sclerosis requires SEEG confirmation of ictal onset",
+          "D": "Neuropsychology is the only reliable lateralising test and bilateral impairment means no surgery is possible"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The key indication for Phase II invasive monitoring is DISCORDANT or INSUFFICIENT Phase I data. In this case: EEG lateralises RIGHT but PET lateralises LEFT — this fundamental disagreement between electrophysiological and functional imaging modalities means it is UNSAFE to proceed to surgery without resolving the lateralisation ambiguity. Operating on the wrong side would be catastrophic. Invasive monitoring (SEEG or subdural) will provide direct intracranial recording from multiple sites to resolve the discordance and identify the true ictal onset zone. Additionally, the MRI-negative status makes surgical planning even more dependent on precise EEG localisation.",
+          "wrong": {
+            "A": "Invasive monitoring is NOT always required for MRI-positive cases. A patient with concordant Phase I data (EEG, MRI, PET, and neuropsychology all pointing to the same side and region) can often proceed directly to surgery without Phase II monitoring. Phase II is required for discordant or ambiguous cases.",
+            "C": "The MRI in this case is described as NORMAL (no hippocampal sclerosis mentioned — the case is MRI-negative). This is an additional reason for invasive monitoring in MRI-negative cases, but the primary driver here is the EEG-PET discordance.",
+            "D": "Bilateral neuropsychological impairment may reflect bilateral dysfunction or dominant hemisphere impairment affecting bilateral memory networks — it does not independently determine operability. The lateralisation discordance (EEG vs PET) is the decisive factor driving Phase II monitoring."
+          },
+          "guideline": "AAN/AES Epilepsy Surgery Guidelines (2020): Phase II invasive monitoring indicated when: (1) discordant Phase I data; (2) MRI-negative with uncertain ictal onset zone; (3) seizure onset near eloquent cortex requiring mapping; (4) prior resection with recurrent seizures. Not required for concordant MRI-positive MTLE.",
+          "trial": "Spencer SS et al. Predictors of outcome after temporal lobectomy for refractory complex partial seizures — a multivariate analysis. Neurology 1993;43:2123-2130: concordance of EEG-MRI-PET-neuropsychology predicts outcome — discordant cases have significantly lower seizure freedom (45%) vs fully concordant (75%). Discordant cases require invasive evaluation.",
+          "pearl": "Phase II invasive monitoring indication = discordant or insufficient Phase I data. Key triggers: EEG-MRI discordance; MRI-negative; EEG-PET lateralisation mismatch; onset zone in/near eloquent cortex. Proceeding to surgery with discordant Phase I data risks operating on the wrong side — invasive monitoring resolves lateralisation and localisation ambiguity.",
+          "difficulty": 2
+        }
+      }
+    ]
+  }
+}

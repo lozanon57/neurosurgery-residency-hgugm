@@ -1,0 +1,654 @@
+{
+  "id": "E3",
+  "title": "Peripheral Nerve Surgery",
+  "subtitle": "Block E — Skull Base and Peripheral Neurosurgery",
+  "block": "E",
+  "block_name": "Skull Base and Peripheral Neurosurgery",
+  "level": "R2-4",
+  "reading_time_min": 40,
+  "guidelines_version": "AAOS 2016 · ASSH 2020 · AANS/CNS Peripheral Nerve 2015",
+  "textbook_refs": [
+    "Mackinnon SE & Dellon AL. Surgery of the Peripheral Nerve. Thieme (1988) — classic reference",
+    "Kim DH et al. Nerve Injuries. Elsevier (2008)",
+    "Kline DG & Hudson AR. Nerve Injuries. W.B. Saunders (1995)",
+    "Seddon HJ. Three types of nerve injury. Brain 1943;66(4):237-288 — original classification",
+    "Sunderland S. Nerve Injuries and Their Repair. Churchill Livingstone (1991)"
+  ],
+  "learning_objectives": [
+    "Apply the Seddon and Sunderland classifications of peripheral nerve injury to predict prognosis and guide management",
+    "Describe nerve regeneration physiology including Wallerian degeneration, axon regrowth rate, and clinical factors affecting recovery",
+    "Identify the clinical presentation, Tinel's sign progression, and surgical indications for the most common peripheral nerve entrapment syndromes",
+    "Outline the timing, techniques, and expected outcomes of nerve repair (primary repair, nerve grafting, nerve transfer) and nerve decompression surgery",
+    "Describe the electrodiagnostic criteria for carpal tunnel syndrome, cubital tunnel syndrome, and ulnar tunnel syndrome",
+    "Identify the indications and technique for carpal tunnel release (open vs endoscopic), cubital tunnel decompression, and common peroneal nerve decompression",
+    "Outline the evaluation and management of brachial plexus injuries including preganglionic versus postganglionic distinction"
+  ],
+  "sections": [
+    {
+      "id": "E3-S1",
+      "title": "Classification of Nerve Injuries",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Peripheral nerve injury classification** provides the framework for predicting prognosis and planning treatment. Two systems are used: **Seddon (1943)** with three grades and **Sunderland (1951)** with five grades — the latter provides finer prognostic discrimination.\n\n**Seddon Classification:**\n- **Neuropraxia** (Sunderland 1): Temporary conduction block from focal demyelination or ischaemia, without axonal disruption. The axon and endoneurial tube are intact. Recovery is complete within days to weeks. This is the mechanism of 'Saturday night palsy' (radial nerve compression) and tourniquet paralysis.\n- **Axonotmesis** (Sunderland 2-4): Axonal disruption with Wallerian degeneration distal to injury. The endoneurial tube is intact in Sunderland 2 (guiding axon regeneration — best axonotmesis prognosis), while perineurium is disrupted in Sunderland 3, and epineurium in Sunderland 4. Recovery occurs by axon regeneration at approximately 1-3 mm/day.\n- **Neurotmesis** (Sunderland 5): Complete nerve transection. All layers disrupted. No spontaneous recovery. Surgical reconstruction mandatory.\n\n**Sunderland 5-Grade System:**\n- Grade 1 = Neuropraxia\n- Grade 2 = Axonotmesis, endoneurium intact\n- Grade 3 = Axonotmesis, endoneurium disrupted, perineurium intact\n- Grade 4 = Axonotmesis, perineurium disrupted, epineurium intact (neuroma-in-continuity)\n- Grade 5 = Complete transection (neurotmesis)"
+        },
+        {
+          "type": "text",
+          "content": "**Nerve regeneration physiology:** Following axonotmesis or neurotmesis, **Wallerian degeneration** occurs distal to the injury site — the distal axon fragment degenerates over 2-5 days, myelin is phagocytosed by Schwann cells and macrophages (1-3 weeks), and the distal endoneurial tubes (Büngner bands) are cleared to form a pathway for axon regrowth. **Axon regeneration** proceeds at approximately **1-3 mm/day** (average 1 mm/day in humans; faster in young patients, children, and distal injuries). The recovery timeline can be estimated from the distance between the injury site and the target muscle/sensory receptor using the formula: recovery time = (distance in mm / 1 mm per day).\n\n**Tinel's sign** — an electric tingling sensation elicited by gentle percussion over a regenerating nerve — indicates the advancing front of regenerating axons. A **progressive** (advancing) Tinel's sign indicates successful axon regeneration and favours non-operative management. A **stationary** Tinel's sign suggests regeneration arrest (neuroma-in-continuity or scar formation) and may indicate surgical exploration. The rate of Tinel advancement (approximately 1-3 mm/day) correlates with axonal regeneration speed.\n\n**Electrodiagnostic studies (EMG/NCS)** are invaluable for injury characterisation and monitoring: (1) **Nerve conduction studies (NCS):** Assess conduction velocity and amplitude. In neuropraxia, conduction block is demonstrated (reduced amplitude proximal to injury, normal distal). In axonotmesis/neurotmesis, no distal response after 7-10 days (time for Wallerian degeneration). (2) **Needle EMG:** Denervation potentials (fibrillations, positive sharp waves) at 2-3 weeks indicate axonal injury. Reinnervation potentials (nascent MUPs, polyphasic units) appear before clinical recovery and confirm active regeneration. EMG is most informative 3-4 weeks after injury."
+        },
+        {
+          "type": "table",
+          "title": "Seddon-Sunderland Classification Comparison",
+          "headers": ["Seddon", "Sunderland", "Structure Disrupted", "Spontaneous Recovery", "Management"],
+          "rows": [
+            ["Neuropraxia", "Grade 1", "None (focal demyelination/ischaemia)", "Complete, days-weeks", "Conservative — time"],
+            ["Axonotmesis", "Grade 2", "Axon only (endo/peri/epineurium intact)", "Complete, weeks-months (1mm/day)", "Conservative; monitor with NCS/EMG"],
+            ["Axonotmesis", "Grade 3", "Axon + endoneurium (perineurium intact)", "Incomplete — misdirection possible", "Monitor; explore if no progress 3-4 months"],
+            ["Axonotmesis", "Grade 4 (neuroma)", "Axon + endoneurium + perineurium (epineurium intact)", "No functional recovery expected", "Surgical — resection/graft"],
+            ["Neurotmesis", "Grade 5", "Complete transection", "None", "Immediate/early surgical repair or graft"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Axon Regeneration Rate",
+          "content": "Axon regeneration proceeds at 1-3 mm/day (average 1 mm/day in clinical practice). Use this to calculate expected recovery timeline: a radial nerve injury at the spiral groove (30 cm from the wrist extensors) will take approximately 90-120 days (3-4 months) before wrist extension begins to return, even with perfect surgical repair. Failure to recover at the expected rate should prompt EMG/NCS re-evaluation and surgical exploration."
+        }
+      ]
+    },
+    {
+      "id": "E3-S2",
+      "title": "Surgical Principles: Repair, Grafting, and Transfer",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Nerve repair timing** significantly influences outcomes. **Primary repair** (within 72 hours of clean laceration) achieves the best results when the wound is clean, the patient is stable, and there is no significant tissue loss. **Delayed primary repair** (within 3 weeks) is performed when wound conditions are suboptimal initially. **Secondary repair** (weeks to months) is required when injury is discovered late, when initial conservative management fails, or after wound healing is complete. After 12-18 months, motor end plates undergo irreversible fibrosis and reinnervation becomes less likely — **this defines the surgical window for nerve reconstruction**.\n\n**Primary neurorrhaphy (direct repair):** Epineurial repair using 8-0 or 9-0 monofilament nylon sutures under the operating microscope. Grouped fascicular repair (perineural repair) may be used for selective fascicular injuries. The repair must be **tension-free** — tension across a repair results in scar tissue proliferation and poor axon regeneration. If tension is present, nerve grafting is required rather than primary repair.\n\n**Nerve grafting:** When nerve defects > 2-3 cm (tension-free repair not possible), interposition grafting with a sacrificed sensory nerve is required. The **sural nerve** (calf, posterior lateral aspect) is the most commonly used donor graft — provides multiple fascicles, up to 40 cm length, sensory donor with acceptable defect (foot numbness). Other donors: medial cutaneous nerve of the forearm, great auricular nerve (for facial), lateral femoral cutaneous nerve. Graft results are inferior to primary repair — regenerating axons cross two repair sites. For gaps > 5 cm, nerve transfer may be superior.\n\n**Nerve transfer (neurotisation):** A redundant motor nerve (donor) is transferred to reinnervate a denervated muscle (recipient) by direct end-to-end or end-to-side anastomosis. The key principle: donor nerve must be EXPENDABLE (its sacrifice causes minimal functional deficit). Examples: intercostal nerve to musculocutaneous nerve (biceps reinnervation in brachial plexus injury), thoracodorsal nerve to long thoracic nerve (serratus anterior), spinal accessory nerve to suprascapular nerve (shoulder abduction). Nerve transfers bypass long regeneration distances, providing faster recovery closer to the target."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Missing the Surgical Window",
+          "content": "Peripheral nerve reconstruction must be performed within 12-18 months of injury (ideally within 6-9 months) for motor reinnervation to succeed. After 18 months, motor end plate fibrosis renders reinnervation impossible. A patient presenting 2 years after a complete radial nerve injury will NOT benefit from nerve repair for motor recovery. Sensory reconstruction remains possible for longer. Always establish injury date before planning surgery and counsel patients regarding realistic expectations."
+        }
+      ]
+    },
+    {
+      "id": "E3-S3",
+      "title": "Carpal Tunnel Syndrome",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Carpal tunnel syndrome (CTS)** is the most common peripheral nerve entrapment — affecting approximately 3-5% of the general population, with female-to-male ratio 3:1. It results from compression of the **median nerve** within the rigid carpal tunnel (bounded by carpal bones posteriorly and the transverse carpal ligament/flexor retinaculum anteriorly). Common predisposing conditions: pregnancy, diabetes mellitus, hypothyroidism, rheumatoid arthritis, obesity, repetitive hand use.\n\n**Clinical presentation:** Classic symptoms are nocturnal paraesthesiae (tingling, numbness, burning) in the **median nerve distribution** (thumb, index, middle, and radial half of ring finger — NOT little finger) that wake patients at night and are relieved by shaking the hand ('flick sign'). Daytime symptoms with sustained wrist flexion/extension (driving, typing). Advanced CTS: thenar muscle wasting (abductor pollicis brevis — APB, most vulnerable; opponens pollicis) causing weakness of pinch and opposition; constant numbness without position-dependence.\n\n**Clinical tests:** **Phalen's test** (sustained wrist flexion 60 seconds → paraesthesiae, sensitivity 75%, specificity 47%); **Tinel's sign** over carpal tunnel (paraesthesiae radiating to fingers on percussion, sensitivity 60%, specificity 67%); **Durkan test** (carpal compression test — direct pressure on tunnel, highest sensitivity 87%). **Katz hand diagram** — self-reported symptom mapping — is highly specific for diagnosis.\n\n**Electrodiagnostic criteria (AANEM):** Definitive diagnosis requires NCS showing: (1) prolonged median distal sensory latency > 3.5 ms (standard — measuring from wrist to digit II); (2) prolonged median motor distal latency > 4.4 ms to APB; (3) slowed median sensory conduction velocity < 50 m/s across the wrist. EMG is added for moderate-severe cases — fibrillations in APB indicate axonal loss and chronic denervation."
+        },
+        {
+          "type": "table",
+          "title": "CTS Severity Classification (Modified AANEM/Bland)",
+          "headers": ["Severity", "Symptoms", "Sensory NCS", "Motor NCS", "EMG APB", "Management"],
+          "rows": [
+            ["Mild", "Intermittent paraesthesiae; no constant numbness; no weakness", "Abnormal latency only", "Normal", "Normal", "Conservative: wrist splint, steroid injection"],
+            ["Moderate", "Frequent/constant paraesthesiae; impaired sensation; minimal thenar weakness", "Absent or very slow", "Borderline/slow", "Minor denervation", "Surgery preferred if conservative fails 3-6 months"],
+            ["Severe", "Constant numbness; thenar wasting; weakness of opposition", "Absent", "Markedly prolonged/absent", "Active denervation + reduced MUPs", "Surgical release — urgent; irreversible damage risk"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — CTS Territory: Not the Whole Hand",
+          "content": "Median nerve distribution in the hand includes the thumb, index, middle, and radial half of the ring finger. The little finger and ulnar half of the ring finger are supplied by the ulnar nerve — symptoms in the little finger are NOT from CTS. A patient with all five finger paraesthesiae has combined median + ulnar entrapment or cervical radiculopathy (C8/T1), not simple CTS. This geographic distinction is a reliable examination differentiator."
+        },
+        {
+          "type": "text",
+          "content": "**Treatment of CTS:** Conservative management is appropriate for mild-moderate CTS without constant numbness or thenar atrophy: neutral-position **wrist splint** worn nocturnally (proven effective in RCTs for symptom relief); **corticosteroid injection** into the carpal tunnel (methylprednisolone 40 mg + lidocaine — 70-80% short-term relief, 22% sustained at 1 year in INSTIL trial). **Surgical carpal tunnel release (CTR)** is indicated for: moderate-severe CTS (constant symptoms, thenar atrophy), failure of conservative management at 6-12 weeks, or patient preference. CTR is one of the most effective and low-risk surgical procedures in all of medicine — NNT approximately 2 for significant symptom improvement.\n\n**Open vs endoscopic CTR:** Both achieve equivalent outcomes. **Open CTR (OCTR)** uses a 2-3 cm palmar incision with direct visualisation of the transverse carpal ligament (TCL) division; lower equipment cost; risk of pillar pain (23-28% vs 4-12% endoscopic). **Endoscopic CTR (ECTR, Agee one-portal technique):** Single 1 cm incision at the wrist crease, trocar-mounted camera visualises the TCL from below; less pillar pain, faster return to work (mean 2 weeks vs 4 weeks open); marginally higher early complication risk from nerve/vessel injury (0.3% vs 0.1%) — learning curve dependent. The landmark **AAOS CTS guideline (2016)** gives ECTR and OCTR Level A evidence of equivalence at 12 months."
+        }
+      ]
+    },
+    {
+      "id": "E3-S4",
+      "title": "Cubital Tunnel Syndrome and Ulnar Nerve Entrapment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cubital tunnel syndrome** is the second most common peripheral nerve entrapment, caused by ulnar nerve compression at the medial elbow. The ulnar nerve passes posterior to the medial epicondyle through the **cubital tunnel** (osseofibrous tunnel bounded by the medial epicondyle anteriorly, olecranon posteriorly, and Osborne's ligament/arcuate ligament superiorly). The nerve is subject to stretch (up to 15% elongation with elbow flexion) and direct compression in this location.\n\n**Clinical presentation:** Medial forearm and hand paraesthesiae/numbness in **ulnar nerve distribution** (little finger, ulnar half of ring finger, hypothenar eminence, ulnar dorsum of hand). Advanced cases: **intrinsic hand weakness** — weak ring/little finger pinch and grip, impaired finger abduction/adduction (interossei), wasting of first dorsal interosseous (FDI) and hypothenar muscles. **Froment's sign** (flexion of thumb IP joint substituting adductor pollicis weakness during key pinch) and **Wartenberg's sign** (little finger abduction at rest from unopposed EDM) are classical signs. **Claw hand deformity** (ulnar clawing) — ring and little finger hyperextension at MCPs, flexion at IPs — is from lumbricals-interossei imbalance. Note the 'ulnar paradox': claw is more pronounced with distal injuries (intrinsics intact above injury level, affected below) than proximal.\n\n**McGowan classification** of cubital tunnel syndrome: Grade 1 = subjective symptoms only, no weakness/wasting; Grade 2 = mild weakness/wasting; Grade 3 = severe weakness/wasting with sensory loss.\n\n**Electrodiagnostics:** Slowed ulnar nerve conduction velocity across the elbow (< 50 m/s, or > 10 m/s drop from distal segment); reduced CMAP amplitude of FDI or hypothenar muscles; denervation on needle EMG in ulnar-innervated hand intrinsics (FDI, hypothenar); first dorsal interosseous is the most sensitive EMG target."
+        },
+        {
+          "type": "text",
+          "content": "**Management of cubital tunnel syndrome:** Conservative management (Grade 1): **elbow pad** to prevent prolonged elbow flexion (especially at night), **elbow extension splint** at night, avoidance of direct elbow pressure. Conservative success rate: 50-60% for mild disease at 3-6 months. Surgical management is indicated for Grade 2-3 disease, or persistent Grade 1 after 3-6 months conservative treatment.\n\n**Surgical options:** (1) **In situ decompression** — release of Osborne's ligament and cubital tunnel roof without nerve transposition; simple, low morbidity, preferred for mild-moderate disease. (2) **Medial epicondylectomy** — removal of the medial epicondyle, reducing tension on the nerve and eliminating the posterior compression point; effective but risks medial collateral ligament injury. (3) **Anterior transposition** — moving the ulnar nerve from its groove anterior to the medial epicondyle into the anterior compartment (subcutaneous, intramuscular, or submuscular); preferred for recurrent disease, valgus deformity, or when in situ decompression fails. The **AAOS CTS/cubital comparative guidelines** confirm no clear superiority among techniques for mild-moderate disease; in situ decompression is preferred for primary Grade 1-2 based on evidence of equivalent outcomes with lower morbidity.\n\n**Ulnar tunnel syndrome (Guyon's canal):** Ulnar nerve compression at the wrist in Guyon's canal — much less common than cubital tunnel. Distinguish by: motor-only deficits (Zone I: hypothenar + interossei + AdP), sensory-only (Zone II: dorsal and palmar ulnar), or mixed deficits based on anatomical zone of compression. Common causes: ganglion cyst (most common), hook of hamate fracture, ulnar artery thrombosis (hypothenar hammer syndrome). Treatment: surgical decompression of Guyon's canal; hook of hamate excision if fractured."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Ulnar Clawing and the Ulnar Paradox",
+          "content": "Ulnar claw hand (ring and little finger hyperextension at MCPs, flexion at IPs) is more pronounced with DISTAL ulnar nerve injuries than proximal ones — this is the 'ulnar paradox.' Reason: with proximal injury, FDP (forearm muscle — proximal to lesion) is also denervated, reducing IP flexion and making claw less obvious. With distal injury, FDP is intact (innervated above the wrist), driving IP flexion while interossei are absent, maximising the claw deformity. The more distal the injury, the more striking the claw."
+        }
+      ]
+    },
+    {
+      "id": "E3-S5",
+      "title": "Common Peroneal Nerve Entrapment and Lower Limb Entrapments",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Common peroneal (fibular) nerve entrapment** at the fibular neck is the most common lower limb nerve entrapment and the most common peripheral nerve injury in the lower extremity. The CPN wraps around the fibular head/neck with limited mobility, making it vulnerable to external compression, stretch, and traction injury. Risk factors: prolonged leg crossing, plaster casts (external compression), sudden weight loss (loss of perineurial fat padding), knee surgery, and valgus knee injury.\n\n**Clinical presentation:** **Foot drop** (inability to dorsiflex the foot — weakness of tibialis anterior, extensor digitorum longus/brevis) is the presenting finding; **toe extension weakness** (extensor digitorum and hallucis longus); **foot eversion weakness** (peroneus longus/brevis — superficial peroneal branch); **sensory loss** over the anterolateral leg and dorsum of foot (deep peroneal branch: first web space; superficial peroneal branch: lateral dorsal foot). **Steppage gait** (exaggerated hip flexion to clear the foot). The **posterior tibial nerve** (tibialis posterior/flexors/intrinsics) is NOT affected — plantar flexion and inversion are preserved, distinguishing CPN palsy from L4/L5 radiculopathy where tibialis posterior may be involved.\n\n**Electrodiagnostics:** NCS: reduced or absent CMAP from extensor digitorum brevis (EDB) and tibialis anterior on CPN stimulation; slowed or absent sensory NCS superficial peroneal nerve. EMG: denervation in tibialis anterior, peroneus longus, EDB; preserved EMG in tibialis posterior and gastrocnemius (rules out tibial nerve and S1 involvement); preserved short head biceps femoris (differentiates from sciatic nerve injury at thigh).\n\n**Management:** Conservative: remove compression cause; ankle-foot orthosis (AFO) for functional mobility; physiotherapy. Most iatrogenic or positional CPN palsies (neuropraxia) recover within weeks-months with removal of the causative factor. **Surgical decompression** of the fibular tunnel is indicated for incomplete recovery after 3-6 months of conservative management; the fibular tunnel is formed by the peroneus longus muscle origin — releasing this fibrous band decompresses the nerve. **Neurolysis** (intraneural and extraneural) may be performed for severe injuries. The landmark **Kim DH et al. (2003, Neurosurgery)** series of 318 CPN injuries described outcomes by injury type — traction injuries have the worst prognosis."
+        },
+        {
+          "type": "table",
+          "title": "Common Lower Limb Nerve Entrapments",
+          "headers": ["Syndrome", "Nerve", "Location", "Key Symptoms", "Electrodiagnostic Finding"],
+          "rows": [
+            ["Lateral femoral cutaneous nerve (LFCN) meralgia paraesthetica", "LFCN (pure sensory, L2-3)", "Inguinal ligament", "Anterolateral thigh burning/numbness; no weakness", "Slowed LFCN sensory — EMG normal"],
+            ["Piriformis syndrome (controversial)", "Sciatic nerve", "Piriformis muscle", "Buttock pain + sciatic radiation; pain with hip external rotation", "Variable — sciatic NCS/EMG changes"],
+            ["Tarsal tunnel syndrome", "Tibial nerve (posterior)", "Tarsal tunnel behind medial malleolus", "Plantar foot burning/tingling; worsens with standing", "Prolonged tibial motor/sensory distal latency"],
+            ["Interdigital (Morton's) neuroma", "Common digital nerve (plantar)", "3rd-4th web space (most common)", "Burning/electric pain in toes on walking; 'pebble in shoe'", "May be normal; ultrasound diagnostic"],
+            ["Common peroneal nerve", "CPN at fibular neck", "Fibular head/tunnel", "Foot drop + dorsal foot numbness", "Reduced CPN CMAP/latency across fibular head"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E3-S6",
+      "title": "Brachial Plexus Injuries",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Brachial plexus anatomy** for injury localisation: The brachial plexus is formed from the ventral rami of C5-T1 with contributions from C4 (upper trunk) and T2. It is organised into: **Roots (C5-T1)** → **Trunks** (upper C5/C6, middle C7, lower C8/T1) → **Divisions** (each trunk divides into anterior and posterior) → **Cords** (lateral, posterior, medial) → **Terminal branches** (musculocutaneous, axillary, radial, median, ulnar).\n\n**Critical anatomical distinction — Preganglionic vs Postganglionic:**\n- **Preganglionic injury** (nerve root avulsion, proximal to the dorsal root ganglion): Most severe, non-reconstructable with conventional nerve repair. The anterior horn cell body is disconnected but the sensory neuron cell body (DRG) remains intact — therefore **distal sensory NCS are preserved** despite clinical anaesthesia (pathognomonic of root avulsion). MRI shows empty nerve root sleeves/meningoceles. Ipsilateral Horner syndrome (C8/T1 avulsion — sympathetic trunk disruption: ptosis, miosis, anhidrosis). Denervation of rhomboids (dorsal scapular nerve, C5 — exits before plexus formation) and serratus anterior (long thoracic nerve, C5/C6/C7) indicates root avulsion.\n- **Postganglionic injury** (injury distal to DRG): Potentially reconstructable. Sensory NCS are abnormal. MRI shows nerve continuity disruption, haematoma, neuroma formation.\n\n**Common patterns:** High-energy mechanism (motorcycle accident) in young men predominates. **Upper trunk (Erb's palsy, C5/C6):** Shoulder abduction/external rotation weakness (deltoid, supraspinatus), elbow flexion weakness (biceps), waiter's tip position (arm internally rotated, adducted, elbow extended). Classic mechanism: traction on ipsilateral neck/shoulder. **Lower trunk (C8/T1, Klumpke's palsy):** Hand intrinsic weakness (interossei, hypothenar, thenar) with Horner syndrome (T1 sympathetic); grasp weakness; classic mechanism: arm/shoulder traction upward (difficult delivery)."
+        },
+        {
+          "type": "text",
+          "content": "**Management of brachial plexus injuries:** Immediate assessment: MRI of the cervical spine and brachial plexus, CT myelography (if MRI non-diagnostic for root avulsion), electrodiagnostics (baseline at 3-4 weeks — Wallerian degeneration complete), clinical examination mapping.\n\n**Surgical timing:** Penetrating injuries with nerve transection — **immediate** primary repair within 72 hours. Closed traction injuries — **observe for 3-4 months** (some recover spontaneously — Sunderland 1-2 injuries). If no clinical recovery by 3-4 months and no advancing Tinel's sign, surgical exploration is indicated. For complete plexus avulsion in young patients — **early nerve transfer surgery within 3-6 months** (before motor end plate fibrosis).\n\n**Priority targets for reconstruction** (in order): (1) Elbow flexion (musculocutaneous nerve — biceps) — most critical for function; (2) Shoulder abduction (axillary nerve — deltoid); (3) Shoulder external rotation (suprascapular nerve — supraspinatus/infraspinatus); (4) Hand function (last priority, poorest outcomes from long regeneration distances). **Intercostal nerve to musculocutaneous nerve transfer** (Nagano technique) is the most reliable reconstruction for elbow flexion in complete plexus avulsions — 3 intercostal nerves provide approximately 60-80% of patients with useful elbow flexion (MRC ≥ 3). **Contralateral C7 transfer** provides motor fibers for more complex reconstructions in total plexus avulsion."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Preganglionic Injury: Preserved Sensory NCS Despite Anaesthesia",
+          "content": "In preganglionic brachial plexus injury (root avulsion), the dorsal root ganglion (DRG) and its distal axon are anatomically intact despite the patient having complete clinical anaesthesia in that territory. Therefore, sensory NCS from the affected digits will show NORMAL (or near-normal) amplitudes even though the patient feels nothing. This paradoxical finding (absent sensation + preserved distal NCS) is the electrodiagnostic signature of root avulsion and indicates a non-reconstructable preganglionic injury."
+        }
+      ]
+    },
+    {
+      "id": "E3-S7",
+      "title": "Thoracic Outlet Syndrome and Radial Nerve Entrapment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Thoracic outlet syndrome (TOS)** encompasses three subtypes based on the structure compressed between the first rib and clavicle/scalene muscles: (1) **Neurogenic TOS** (95% of cases): Compression of the lower brachial plexus (C8/T1) between the anterior and middle scalene muscles or between the clavicle and first rib. Presents with medial arm/hand paraesthesiae (ulnar distribution), hand weakness, thenar/hypothenar wasting. Classic sign: **Adson's manoeuvre** (cervical extension + ipsilateral rotation + deep breath → reduces pulse/paraesthesiae). Wasting of the abductor pollicis brevis (APB) with 'true neurogenic TOS' — the Roos/Gilliatt-Sumner syndrome — is pathognomonic. (2) **Vascular TOS** (5%): Subclavian artery (arterial — upper extremity ischaemia, thrombosis) or subclavian vein (venous — Paget-Schroetter syndrome, effort thrombosis, arm swelling) compression. (3) **Disputed/symptomatic TOS**: controversial diagnosis without objective findings.\n\nTreatment: **Conservative** — scalene stretching, posture training, physical therapy (first 3-6 months). **Surgical decompression** — first rib resection (transaxillary or supraclavicular approach) with scalenectomy for neurogenic TOS failing conservative management. Cervical rib excision if present. Arterial TOS may require arterial reconstruction.\n\n**Radial nerve entrapment:** (1) **Radial tunnel syndrome** at the lateral elbow — compression of the posterior interosseous nerve (PIN, deep branch of radial nerve) between the two heads of supinator (arcade of Frohse). Presents with **lateral elbow pain** exacerbated by resisted forearm supination and wrist extension, without significant motor deficit (distinguishes from PIN palsy). Tender point 3-4 cm distal to lateral epicondyle. Treatment: conservative initially; decompression of arcade of Frohse if refractory. (2) **PIN palsy** (posterior interosseous nerve palsy): Weakness of wrist extension (brachioradialis and ECRL preserved as they arise proximal to the spiral groove), finger/thumb extension, radial deviation with wrist extension; no sensory loss (PIN is purely motor). Causes: lipoma at radial tunnel, arcade of Frohse compression, humeral fracture, rheumatoid nodule. (3) **Saturday night palsy**: Radial nerve compression at the spiral groove (humerus), causing wrist drop + finger extension weakness + first dorsal web space numbness; brachioradialis preserved (if injury distal to spiral groove). Most recover spontaneously — neuropraxia in majority."
+        },
+        {
+          "type": "table",
+          "title": "Radial Nerve Injury Level Localisation",
+          "headers": ["Injury Level", "Preserved Function", "Lost Function", "Sensory Loss"],
+          "rows": [
+            ["Posterior cord/axilla", "None", "Triceps + wrist/finger extension + supination", "Posterior arm, posterior forearm, radial dorsum hand"],
+            ["Spiral groove (humerus)", "Triceps (preserved — exits proximal)", "Wrist drop + finger extension + brachioradialis", "First dorsal web space"],
+            ["Radial tunnel (PIN)", "Brachioradialis + ECRL (radial wrist extension preserved)", "Finger/thumb extension, ulnar wrist extension", "None (PIN = pure motor)"],
+            ["Superficial sensory branch only", "All motor function", "None", "First dorsal web space numbness only"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of peripheral nerve surgery with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "E3-Q1",
+        "stem": "A 35-year-old construction worker sustains a deep laceration to the medial aspect of the right forearm. He is taken immediately to the operating room. Exploration reveals a complete transection of the ulnar nerve. The wound is clean with no contamination. What is the most appropriate management of the nerve?",
+        "options": {
+          "A": "Tag both ends with sutures and plan delayed repair in 3-4 weeks after wound healing",
+          "B": "Primary epineurial repair under the operating microscope during the same procedure",
+          "C": "Sural nerve graft interposition immediately",
+          "D": "Close the wound and observe for spontaneous recovery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A clean, sharp nerve transection (Sunderland Grade 5/Seddon neurotmesis) in a healthy patient with a clean wound is best treated with immediate primary epineurial neurorrhaphy at the time of initial surgery. Primary repair achieves the best outcomes because: (1) nerve ends are fresh and identifiable, (2) no retraction scar has formed, (3) no proximal neuroma has developed. Primary repair requires: tension-free coaptation (if tension present, graft is needed), microsurgical technique, 8-0 or 9-0 nylon sutures, operating microscope.",
+          "wrong": {
+            "A": "Delayed repair at 3-4 weeks allows scar formation at the nerve ends requiring resection, potentially creating a gap requiring grafting. Delayed repair is only appropriate when the wound is contaminated or the patient is unstable.",
+            "C": "Sural nerve graft is required when a tension-free primary repair is impossible (gap > 2-3 cm after freshening the nerve ends). For a clean transection without significant tissue loss, primary repair should be attempted first.",
+            "D": "A complete Sunderland Grade 5 (neurotmesis) injury has NO potential for spontaneous recovery — all layers are disrupted. Observation is not appropriate for complete nerve transection."
+          },
+          "guideline": "AANS/CNS Peripheral Nerve Injury Guidelines 2015 — timing of repair: primary repair within 72h for clean lacerations; contaminated wounds = delayed primary; avulsion/traction = 3-4 months observation",
+          "trial": "Kline DG & Hudson AR. Nerve Injuries 1995 — primary repair for clean transections: superior outcomes vs delayed repair (earlier series); Seddon 1943 classification: neurotmesis requires surgical repair",
+          "pearl": "Clean nerve transection = primary microsurgical repair at the time of initial surgery. Tension-free epineurial suture under the operating microscope achieves the best outcomes. Delayed repair is for contaminated wounds only. Traction/blast injuries are different — observe 3-4 months first."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E3-Q2",
+        "stem": "Following a Sunderland Grade 2 axonotmesis injury to the radial nerve at the spiral groove, at what rate do regenerating axons advance, and how is this clinically assessed?",
+        "options": {
+          "A": "1-3 mm/day; assessed by advancing Tinel's sign",
+          "B": "1-3 cm/day; assessed by serial MRI",
+          "C": "1-3 mm/week; assessed by nerve conduction studies",
+          "D": "1-3 cm/week; assessed by EMG fibrillation density"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Peripheral axon regeneration proceeds at approximately 1-3 mm/day (average 1 mm/day in clinical practice). The clinical assessment is the advancing Tinel's sign — percussion over the nerve distal to the injury site at the leading edge of regenerating axons produces tingling (paraesthesiae). The examiner should record the Tinel's sign location at each visit and confirm it is advancing distally. For a radial nerve injury at the spiral groove (~30 cm from the wrist extensors), complete motor recovery can be expected in approximately 90-120 days if regeneration proceeds at 1 mm/day.",
+          "wrong": {
+            "B": "1-3 cm/day would be 10-30x the actual rate. MRI is not used for monitoring axon regeneration in clinical practice — it can show nerve morphology but not advancing axons.",
+            "C": "1-3 mm/week is 7x too slow. NCS are used to document recovery (reappearance of CMAP) but are not the primary clinical tool for monitoring advancing regeneration.",
+            "D": "1-3 cm/week is incorrect. EMG fibrillation density decreases as reinnervation occurs but does not reflect the advancement of regenerating axons specifically."
+          },
+          "guideline": "AANS/CNS Peripheral Nerve Guidelines 2015 — nerve regeneration: 1-3 mm/day; Tinel's sign advancement as primary clinical monitor; failure to advance = surgical exploration at 3-4 months",
+          "trial": "Seddon HJ. Three types of nerve injury. Brain 1943;66(4):237-288: original characterisation of axon regeneration rates; 1-4 mm/day in experimental models; 1-2 mm/day clinical human",
+          "pearl": "Axon regeneration rate = 1-3 mm/day (memorise: 1 mm/day). Advancing Tinel's sign = regeneration is occurring. Stationary Tinel's sign = regeneration arrested (explore surgically if > 3-4 months without advancement). Calculate expected recovery time = distance from injury to target muscle ÷ 1 mm/day."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E3-Q3",
+        "stem": "A 45-year-old woman reports bilateral nocturnal hand tingling, worse on the right. She wakes at night shaking her hands. The tingling is in the thumb, index, and middle fingers. She has normal thenar bulk and no weakness. Nerve conduction shows right median distal sensory latency 4.2 ms (normal < 3.5 ms) and median motor distal latency 5.1 ms (normal < 4.4 ms). Which is the correct diagnosis and classification?",
+        "options": {
+          "A": "Bilateral cervical radiculopathy (C6)",
+          "B": "Right moderate carpal tunnel syndrome",
+          "C": "Right cubital tunnel syndrome",
+          "D": "Bilateral thoracic outlet syndrome"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The presentation is classic for carpal tunnel syndrome: nocturnal paraesthesiae in median nerve territory (thumb, index, middle fingers — NOT ring or little fingers), the 'flick sign' (shaking hands relieves symptoms), normal thenar bulk (not severe). The NCS shows prolonged median sensory distal latency (4.2 ms > 3.5 ms normal) and prolonged median motor distal latency (5.1 ms > 4.4 ms normal) — meeting electrodiagnostic criteria for CTS. Based on symptoms (intermittent, no constant numbness, no thenar wasting) and NCS findings, this is moderate CTS.",
+          "wrong": {
+            "A": "C6 radiculopathy would cause symptoms in the same finger distribution but would also show biceps weakness, reflex asymmetry, possible neck pain, and NCS would show normal median DML (cervical radiculopathy does not prolong median DML at the wrist).",
+            "C": "Cubital tunnel syndrome (ulnar nerve) causes symptoms in the ring and little fingers and hypothenar area — NOT the thumb, index, middle distribution. The NCS shows slowing across the elbow, not wrist.",
+            "D": "Thoracic outlet syndrome neurogenic type causes medial arm and hand symptoms (ulnar distribution, C8/T1) with APB wasting — not the median-distribution bilateral hand paraesthesiae pattern described."
+          },
+          "guideline": "AAOS CTS Clinical Practice Guideline 2016 — diagnosis: NCS mandatory for surgical planning; diagnostic criteria: median sensory latency > 3.5 ms or median motor DL > 4.4 ms",
+          "trial": "Bland JD. The relationship of electrophysiological grade of median nerve compression to clinical presentation. J Hand Surg 2000;25B(5):474-479: CTS severity classification; severity correlates with symptoms, thenar wasting, and NCS grades",
+          "pearl": "CTS electrodiagnostic criteria: median sensory DL > 3.5 ms (wrist-to-digit II) OR median motor DL > 4.4 ms (wrist-to-APB). Both are prolonged here = moderate CTS. First-line management for moderate CTS without constant numbness or thenar wasting = wrist splint + steroid injection trial before surgery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E3-Q4",
+        "stem": "A 50-year-old man with longstanding right cubital tunnel syndrome (McGowan Grade 3 — severe muscle wasting, constant numbness) is planned for surgical decompression. Which surgical technique is MOST appropriate for this severe presentation?",
+        "options": {
+          "A": "Simple in situ decompression (release of Osborne's ligament only)",
+          "B": "Anterior submuscular transposition of the ulnar nerve",
+          "C": "Medial epicondylectomy alone",
+          "D": "No surgery — Grade 3 disease has irreversible changes and surgery is futile"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For severe cubital tunnel syndrome (McGowan Grade 3) with significant muscle wasting and constant numbness, anterior submuscular transposition is the preferred technique. This moves the ulnar nerve anterior to the medial epicondyle (into the flexor-pronator muscle bed), permanently eliminating the stretching mechanism that occurs with elbow flexion and the direct compression from Osborne's ligament. Submuscular transposition provides the greatest nerve decompression and is preferred for severe, recurrent, or post-traumatic cases. While Grade 3 disease may have some permanent residual deficit, surgery can prevent further deterioration and may achieve partial recovery.",
+          "wrong": {
+            "A": "Simple in situ decompression is appropriate for Grade 1-2 disease but is generally considered insufficient for severe Grade 3 cubital tunnel syndrome with significant nerve scarring and subluxation. It does not address the stretching mechanism.",
+            "C": "Medial epicondylectomy alone removes the posterior bony prominence but does not fully address nerve tethering and is typically less preferred for severe disease than transposition.",
+            "D": "Surgery is NOT futile for Grade 3 cubital tunnel syndrome. Even with established intrinsic wasting, surgical decompression prevents further deterioration and may improve pain, sensory symptoms, and partially recover motor function."
+          },
+          "guideline": "AAOS Cubital Tunnel Syndrome Guidelines 2014 — Grade 3: anterior transposition preferred; in situ decompression insufficient for severe disease",
+          "trial": "Zlowodzki M et al. Anterior transposition compared with simple decompression for treatment of cubital tunnel syndrome. J Bone Joint Surg Am 2007;89(12):2591-2607: meta-analysis; no significant difference in outcomes for mild-moderate disease; transposition preferred for severe disease and recurrence",
+          "pearl": "Cubital tunnel syndrome surgical selection: Grade 1-2 = in situ decompression (simple, effective, low morbidity). Grade 3 or recurrent = anterior transposition (submuscular preferred for most severe). Grade 3 is not futile — surgery prevents further deterioration and may improve symptoms."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q5",
+        "stem": "A 28-year-old motorcyclist sustains a right-sided brachial plexus traction injury in a high-speed collision. Examination shows: complete right arm paralysis, right Horner syndrome, and normal NCS from the right median and ulnar nerves. EMG shows denervation in the right serratus anterior and rhomboids. What does this pattern indicate?",
+        "options": {
+          "A": "Postganglionic injury — reconstructable with nerve grafting",
+          "B": "Complete root avulsion (preganglionic) of C5-T1 — non-reconstructable with conventional repair",
+          "C": "Posterior cord injury at the axilla",
+          "D": "Subclavian artery thrombosis causing ischaemic plexopathy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This clinical picture is diagnostic of complete cervical root avulsion (preganglionic injury): (1) Normal sensory NCS despite complete clinical anaesthesia — the DRG is intact distal to the avulsion, preserving the sensory axon peripheral segment, producing this paradoxical finding; (2) Ipsilateral Horner syndrome (ptosis, miosis, anhidrosis) — indicates T1 root avulsion disrupting the sympathetic trunk; (3) Denervation of serratus anterior (long thoracic nerve C5/C6/C7 — exits before the plexus) and rhomboids (dorsal scapular nerve C5 — exits very proximally) — indicates avulsion at or proximal to these nerve origins. Complete root avulsion cannot be repaired by conventional neurorrhaphy or grafting (no proximal stump) — nerve transfer (intercostal to musculocutaneous, contralateral C7) is the only reconstruction option.",
+          "wrong": {
+            "A": "Postganglionic injury would show abnormal/absent sensory NCS (the DRG axon is damaged) and would not show Horner syndrome from isolated postganglionic injury. Preserved sensory NCS is the key differentiator for preganglionic.",
+            "C": "Posterior cord injury at the axilla would affect radial/axillary nerve territory (shoulder, posterior arm) — not cause complete arm paralysis, and would not affect serratus/rhomboids (which arise at the root level, proximal to cords).",
+            "D": "Subclavian artery thrombosis causes limb ischaemia (absent pulses, colour change, pain) — not isolated neurological deficits with normal vascular examination."
+          },
+          "guideline": "AANS/CNS Brachial Plexus Injury Guidelines 2015 — preganglionic vs postganglionic: preserved sensory NCS + Horner + serratus/rhomboid denervation = root avulsion; nerve transfer surgery required",
+          "trial": "Nagano A. Treatment of brachial plexus injury. J Orthop Sci 1998;3(2):71-80: intercostal nerve to musculocutaneous transfer for elbow flexion after total root avulsion; 60-80% achieve MRC ≥ 3 elbow flexion; establishes standard reconstruction strategy",
+          "pearl": "Root avulsion (preganglionic) signs: (1) preserved distal sensory NCS despite anaesthesia, (2) Horner syndrome (C8/T1), (3) serratus anterior/rhomboid denervation (proximal exits). These together confirm non-reconstructable avulsion requiring nerve transfer. Postganglionic injury has absent sensory NCS and no Horner."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E3-Q6",
+        "stem": "A 40-year-old woman has right-sided foot drop. Examination shows weakness of dorsiflexion and toe extension, weak foot eversion, normal plantar flexion and inversion. There is numbness over the first dorsal web space and lateral dorsum of foot. NCS shows reduced CPN CMAP at EDB with slowing across the fibular head. What is the diagnosis and initial management?",
+        "options": {
+          "A": "L4 radiculopathy — cervical spine MRI required",
+          "B": "Right common peroneal nerve entrapment at fibular head — conservative management and remove pressure",
+          "C": "Right tibial nerve entrapment at tarsal tunnel",
+          "D": "Right sciatic nerve injury — surgery immediately"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Common peroneal nerve entrapment at the fibular head: foot drop + toe/foot eversion weakness (superficial peroneal branch) + first web space and lateral dorsal foot numbness (deep + superficial peroneal) + normal plantar flexion/inversion (tibial nerve preserved) + NCS slowing across fibular head = diagnostic of CPN entrapment at the fibular head. Initial management: remove causative factor (leg crossing, cast, external compression), ankle-foot orthosis for functional walking, physiotherapy. Conservative management succeeds in the majority of neuropraxic CPN palsies.",
+          "wrong": {
+            "A": "L4 radiculopathy causes foot drop but also involves tibialis posterior (inversion weakness, which is preserved here), knee extension weakness (quadriceps — L4), knee reflex change, and NCS would not show slowing specifically at the fibular head.",
+            "C": "Tarsal tunnel syndrome (tibial nerve at the medial malleolus) causes plantar foot burning and intrinsic foot weakness — NOT foot drop. Dorsiflexion (CPN-innervated) would be normal.",
+            "D": "Sciatic nerve injury at the thigh would affect both the peroneal and tibial divisions — tibialis posterior and gastrocnemius would also be denervated (here they are preserved). No indication for immediate surgery without a 3-4 month trial of conservative management."
+          },
+          "guideline": "AAOS/ASSH Peripheral Nerve Guidelines 2015 — CPN entrapment: conservative management first (remove compression, AFO, physio); surgical decompression at fibular tunnel if no recovery at 3-6 months",
+          "trial": "Kim DH et al. Common peroneal nerve palsy: a report of 318 operations. Neurosurgery 2003;53(6):1421-1428: largest CPN series; conservative management for neuropraxia; surgical decompression for fibular tunnel entrapment; recovery predictors by injury type",
+          "pearl": "CPN palsy localisation: foot drop + toe/eversion weakness + dorsal foot numbness + NCS slowing at fibular head + PRESERVED plantar flexion/inversion = CPN at fibular head (not sciatic, not L4 radiculopathy). Conservative treatment first; AFO for functional walking. Surgical decompression if no improvement at 3-6 months."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q7",
+        "stem": "A 33-year-old woman has right median nerve CTS and is offered open or endoscopic carpal tunnel release. She asks about the main advantage of endoscopic CTR over open CTR. Which is the most accurate statement?",
+        "options": {
+          "A": "Endoscopic CTR has significantly better long-term outcomes than open CTR",
+          "B": "Endoscopic CTR has lower risk of incomplete TCL division",
+          "C": "Endoscopic CTR is associated with less pillar pain and faster return to work",
+          "D": "Endoscopic CTR is safer and should always be preferred"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The primary advantages of endoscopic CTR over open CTR are less pillar pain (thenar/hypothenar eminence pain at the palm — 4-12% endoscopic vs 23-28% open) and faster return to work (mean 2 weeks vs 4 weeks with open). Long-term outcomes at 12 months are equivalent between the two approaches. Endoscopic has a slightly higher early complication rate (nerve/vessel injury 0.3% vs 0.1%) but these are rare. The AAOS 2016 guideline gives both approaches Level A evidence of equivalence for long-term outcomes.",
+          "wrong": {
+            "A": "Long-term outcomes at 12 months are EQUIVALENT between open and endoscopic CTR — no significant difference in recurrence, symptom relief, or hand strength. The advantage is short-term (faster recovery, less pillar pain).",
+            "B": "The risk of incomplete TCL division is actually slightly HIGHER with endoscopic CTR due to the limited field of view — this is one of the technique-specific risks requiring operator experience.",
+            "D": "Endoscopic CTR is not universally 'safer' — it has a marginally higher early complication rate in some series (vessel/nerve injury from limited visualisation). It should be offered based on surgeon expertise, patient preference, and occupational needs."
+          },
+          "guideline": "AAOS CTS Clinical Practice Guideline 2016 — Level A: both open and endoscopic CTR achieve equivalent symptom relief and functional outcomes at 12 months; endoscopic advantage: less pillar pain, faster return to work",
+          "trial": "Thoma A et al. A systematic review of reviews comparing the effectiveness of endoscopic and open CTR. Plast Reconstr Surg 2004;113(4):1184-1191: pooled analysis: endoscopic CTR shorter return to work by ~8 days; equivalent 12-month outcomes; marginal higher early complication rate with endoscopic",
+          "pearl": "Endoscopic vs open CTR: equivalent long-term outcomes (12 months). Endoscopic advantages: less pillar pain, faster return to work (~2 vs 4 weeks). Open advantage: lower early complication rate, no special equipment, complete visualisation. Both are appropriate — choice based on surgeon expertise and patient needs."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q8",
+        "stem": "A sural nerve graft is harvested for repair of a 6 cm median nerve defect in the forearm. Which sensory deficit will the patient experience from the donor site?",
+        "options": {
+          "A": "Plantar foot numbness",
+          "B": "Lateral foot and fifth toe numbness",
+          "C": "Entire dorsum of foot numbness",
+          "D": "No sensory deficit — sural nerve is a purely motor nerve"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The sural nerve is a pure sensory nerve formed by the medial sural cutaneous nerve (branch of the tibial nerve) with a contribution from the lateral sural cutaneous nerve (branch of the CPN). Its sensory territory is the posterior lower leg, lateral ankle, lateral foot, and fifth toe. Patients experience numbness in this territory after sural nerve harvest — this is the acceptable donor site morbidity. The sural nerve is the most commonly used donor for nerve grafting due to its length (up to 40 cm), multiple fascicles, superficial location, and relatively minor donor deficit.",
+          "wrong": {
+            "A": "Plantar foot sensation is supplied by the plantar branches of the tibial nerve (medial and lateral plantar nerves), not the sural nerve.",
+            "C": "Dorsum of foot sensation is supplied by the superficial peroneal nerve and deep peroneal nerve (first web space) — not the sural nerve.",
+            "D": "The sural nerve is purely sensory — this statement is partly correct in that sural nerve harvest does not cause motor deficit, but it does cause sensory deficit (lateral foot/fifth toe)."
+          },
+          "guideline": "AANS/CNS Peripheral Nerve Surgery 2015 — sural nerve graft: standard sensory nerve for peripheral nerve reconstruction; lateral foot/fifth toe numbness as donor morbidity; up to 40 cm harvestable",
+          "trial": "Mackinnon SE & Hudson AR. Use of the sural nerve as a peripheral nerve graft. Neurosurgery 1985;16(5):600-604: sural nerve anatomy, harvest technique, donor morbidity; lateral foot/5th toe numbness; recovery of partial sensation over 12-18 months in most",
+          "pearl": "Sural nerve graft donor site deficit: lateral foot and fifth toe numbness. This is the 'price' of sural nerve harvest — inform patients preoperatively. Most patients tolerate this well. Up to 40 cm of graft can be obtained from a single sural nerve."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q9",
+        "stem": "A 42-year-old secretary has right CTS confirmed by NCS. She reports moderate symptoms (intermittent paraesthesiae, no constant numbness, no thenar wasting). She asks if she can avoid surgery. What is the most appropriate initial conservative treatment with the highest level of evidence?",
+        "options": {
+          "A": "NSAIDs and vitamin B6 supplementation for 12 weeks",
+          "B": "Neutral wrist splint worn nocturnally",
+          "C": "Hand therapy strengthening exercises",
+          "D": "Topical diclofenac gel applied to wrist twice daily"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Neutral-position wrist splinting (worn nocturnally) is the first-line conservative treatment for mild-moderate CTS with the highest level of evidence (Level A, AAOS 2016). By maintaining the wrist in a neutral position during sleep, splinting prevents the extreme wrist flexion or extension that increases carpal tunnel pressure. Multiple RCTs demonstrate significant symptom improvement compared to no treatment. Nocturnal splinting is appropriate for mild-moderate CTS without thenar atrophy or constant numbness.",
+          "wrong": {
+            "A": "NSAIDs have weak evidence for CTS symptom relief (temporary at best). Vitamin B6 (pyridoxine) has no proven efficacy for CTS in properly controlled trials and is not recommended by AAOS guidelines.",
+            "C": "Strengthening exercises have no evidence base for CTS treatment — they may worsen symptoms by increasing tendon pressure within the carpal tunnel.",
+            "D": "Topical diclofenac has no established evidence for CTS and is not recommended in guidelines."
+          },
+          "guideline": "AAOS CTS Clinical Practice Guideline 2016 — conservative treatment: wrist splinting and corticosteroid injection (local) = Level A evidence; NSAID/vitamin B6 = insufficient evidence",
+          "trial": "Page MJ et al. Splinting for carpal tunnel syndrome. Cochrane Database Syst Rev 2012;7:CD010003: night splinting effective for symptom relief vs no treatment; optimal splint position = neutral wrist; improvement maintained at 6 weeks in most patients",
+          "pearl": "CTS first-line conservative treatment: neutral wrist splint (nocturnal) = Level A evidence. Corticosteroid injection into the carpal tunnel (methylprednisolone 40 mg) = Level A for short-term relief (70-80% improve; 22% sustained at 1 year). NSAIDs and vitamins = insufficient evidence. Reserve surgery for moderate-severe disease or conservative failure at 6-12 weeks."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E3-Q10",
+        "stem": "A 55-year-old man develops wrist drop and finger extension weakness after awakening from sleep with his arm draped over the back of a chair. The triceps are preserved, and the brachioradialis is slightly weak. Sensation is decreased over the first dorsal web space but not the posterior arm. Which nerve injury location is most consistent?",
+        "options": {
+          "A": "Axillary nerve injury",
+          "B": "Radial nerve injury at the spiral groove of the humerus",
+          "C": "Posterior interosseous nerve (PIN) injury at the radial tunnel",
+          "D": "Radial nerve injury at the axilla (posterior cord)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Radial nerve compression at the spiral groove of the humerus (Saturday night palsy) causes: wrist drop (extensor carpi radialis weakness) + finger extension weakness + first dorsal web space sensory loss. Key distinguishing feature: TRICEPS PRESERVED (triceps branches exit proximal to the spiral groove) and BRACHIORADIALIS slightly weak (brachioradialis branch exits just at/below the spiral groove). This localises the injury to the spiral groove. Sleeping with arm compressed over a chair (or bench/partner's head — hence 'honeymoon palsy') is the classic mechanism for spiral groove neuropraxia.",
+          "wrong": {
+            "A": "Axillary nerve injury causes deltoid weakness and lateral shoulder sensory loss (badge area) — not wrist drop or finger extension weakness. The axillary nerve supplies deltoid and teres minor only.",
+            "C": "PIN injury at the radial tunnel causes finger/thumb extension weakness and radial deviation on wrist extension, but brachioradialis and ECRL (which exit proximal to the radial tunnel) are PRESERVED — no sensory loss (PIN is pure motor). First dorsal web space sensory is not lost with pure PIN palsy.",
+            "D": "Posterior cord/axilla injury involves the radial nerve proximal to the triceps branch — causing triceps weakness in addition to wrist drop. Here triceps are preserved, excluding axillary level injury."
+          },
+          "guideline": "AANS/CNS Peripheral Nerve 2015 — radial nerve at spiral groove: 'Saturday night palsy'; triceps preserved; brachioradialis slightly affected; first web space sensory; most = neuropraxia; observe 3-4 months",
+          "trial": "Packer JW et al. Radial nerve palsy from compression due to sleep. J Bone Joint Surg 1972;54A(6):1177-1183: Saturday night palsy series; neuropraxia in majority; spontaneous recovery 70-90%; surgical exploration for persistent palsy > 3-4 months",
+          "pearl": "Radial nerve spiral groove injury (Saturday night palsy): wrist drop + finger extension weakness + first web space numbness + PRESERVED triceps + slightly weak brachioradialis. Triceps preservation localises injury to spiral groove (triceps exits proximal). Most are neuropraxia — observe 3-4 months before surgical exploration."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q11",
+        "stem": "A 38-year-old woman has numbness and burning in the anterolateral right thigh for 3 months, worse on standing or walking, without weakness, normal knee reflex, and normal spine MRI. NCS shows reduced lateral femoral cutaneous nerve (LFCN) amplitude. Which diagnosis fits this presentation?",
+        "options": {
+          "A": "L3 femoral nerve entrapment",
+          "B": "Meralgia paraesthetica (LFCN entrapment at the inguinal ligament)",
+          "C": "Proximal sciatic nerve compression",
+          "D": "Hip joint osteoarthritis referred pain"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Meralgia paraesthetica is entrapment of the lateral femoral cutaneous nerve (a pure sensory nerve, L2-3) at the inguinal ligament. Classic features: burning/numbness confined to the anterolateral thigh (LFCN territory), worsening with prolonged standing/walking, no weakness (pure sensory nerve), normal knee reflex (femoral nerve intact), and reduced LFCN NCS amplitude confirming the diagnosis. Common risk factors include obesity, tight belts/clothing, pregnancy, and weight gain. The absence of any motor deficit and the pure anterolateral thigh distribution confirm LFCN (not femoral nerve L2-4, which would cause quad weakness and reflex loss).",
+          "wrong": {
+            "A": "L3 femoral nerve entrapment would cause knee extension weakness (quadriceps), absent or reduced knee reflex, and sensation change over the anterior thigh AND medial leg. LFCN entrapment has none of these features.",
+            "C": "Sciatic nerve compression would cause posterior thigh and leg symptoms with weakness — not isolated anterolateral thigh numbness.",
+            "D": "Hip osteoarthritis pain is groin/anterior thigh aching, worse with weight-bearing and hip rotation — does not cause the burning paraesthesiae pattern of nerve entrapment."
+          },
+          "guideline": "AAOS Peripheral Nerve 2015 — meralgia paraesthetica: LFCN at inguinal ligament; pure sensory; conservative management first (weight loss, loose clothing); injection/decompression if refractory",
+          "trial": "van Slobbe AM et al. Incidence rates and determinants in meralgia paresthetica in general practice. J Neurol 2004;251(3):294-297: incidence 4.3/10,000; BMI, belt-wearing, repetitive hip flexion as risk factors; majority resolve with conservative management",
+          "pearl": "Meralgia paraesthetica = LFCN entrapment at inguinal ligament = anterolateral thigh burning/numbness without weakness. The key point: LFCN is pure sensory (no motor), so no weakness differentiates it from femoral (quad weakness) and L3 radiculopathy (reflex change + quad weakness). Conservative management (weight loss, loose clothes) is effective in 85% within 3 months."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q12",
+        "stem": "A 55-year-old man has severe right cubital tunnel syndrome (McGowan Grade 3) with marked first dorsal interosseous (FDI) wasting and constant ring/little finger numbness. Electrodiagnostics show absent ulnar motor response and severe axonal loss on EMG. Despite this severe picture, surgical decompression is still offered. What is the realistic goal of surgery in this situation?",
+        "options": {
+          "A": "Complete recovery of intrinsic function and full sensory restoration",
+          "B": "Prevention of further neurological deterioration and potential partial sensory improvement",
+          "C": "Surgery is futile — refer to occupational therapy only",
+          "D": "Immediate improvement in motor function within 4-6 weeks"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In Grade 3 cubital tunnel syndrome with established intrinsic muscle wasting and severe axonal loss, surgical decompression can halt the progressive deterioration and may achieve partial sensory improvement (sensory recovery occurs before motor in reinnervation). Full motor recovery is unlikely when severe muscle wasting is established, as motor end plates undergo fibrosis if denervated for extended periods. However, surgery prevents further deterioration, stabilises the neurological picture, may reduce pain and paraesthesiae, and allows any remaining viable motor units to recover. Patients must be counselled that motor recovery is uncertain but symptom stability and sensory improvement are realistic goals.",
+          "wrong": {
+            "A": "Complete recovery is unrealistic with Grade 3 disease and established muscle wasting — some motor end plate fibrosis is likely irreversible. Counselling patients for complete recovery would be misleading.",
+            "C": "Surgery is not futile — preventing further deterioration and improving sensory symptoms are meaningful goals. Referral to occupational therapy alone abandons the chance to stabilise progression.",
+            "D": "Motor improvement within 4-6 weeks after surgery for severe axonal loss is not realistic — reinnervation (if it occurs) takes months, governed by 1 mm/day regeneration rate."
+          },
+          "guideline": "AAOS Cubital Tunnel Syndrome Guidelines 2014 — Grade 3: surgical decompression recommended; goal = halt progression; partial recovery possible; motor end plate viability determines extent of motor recovery",
+          "trial": "Bartels RH et al. Decompression or anterior transposition of the ulnar nerve: systematic review. Eur Spine J 2011;20(7):1145-1151: surgical outcomes in Grade 3 cubital tunnel: progression halted in 90%; motor recovery in 50%; sensory improvement in 75%; better outcomes with earlier surgery",
+          "pearl": "Severe cubital tunnel syndrome (Grade 3) surgery goals: (1) prevent further deterioration (primary goal), (2) partial sensory improvement likely, (3) motor recovery uncertain (depends on motor end plate viability). Always counsel patients realistically — do not promise complete recovery for Grade 3 disease with established wasting."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q13",
+        "stem": "Which nerve transfer is most commonly used to restore elbow flexion (biceps function) in a patient with complete brachial plexus root avulsion (C5-T1)?",
+        "options": {
+          "A": "Phrenic nerve to musculocutaneous nerve",
+          "B": "Intercostal nerves (T3-T5) to musculocutaneous nerve",
+          "C": "Spinal accessory nerve to musculocutaneous nerve",
+          "D": "Radial nerve to musculocutaneous nerve"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intercostal nerve (T3-T5) to musculocutaneous nerve transfer (Nagano technique) is the most commonly used reconstruction for elbow flexion in complete brachial plexus root avulsion. Three or four intercostal nerves (motor rami) are harvested and coapted directly end-to-end to the musculocutaneous nerve (biceps branch). The intercostal nerves are 'expendable' — their sacrifice causes minimal morbidity. Results: 60-80% of patients achieve MRC grade ≥ 3 elbow flexion at 18-24 months. Patients must be trained to 'breathe to flex' as the intercostal motor pattern must be cortically re-mapped.",
+          "wrong": {
+            "A": "Phrenic nerve to musculocutaneous transfer is used in some centres but is controversial because hemidiaphragm paralysis causes reduced respiratory reserve — relatively contraindicated in patients with respiratory compromise. Not the most common choice.",
+            "C": "Spinal accessory nerve to suprascapular nerve is a standard transfer for shoulder abduction/external rotation restoration (supraspinatus/infraspinatus), not elbow flexion restoration.",
+            "D": "Radial nerve to musculocutaneous nerve transfer is used only in partial plexus injuries where the radial nerve function can be sacrificed (e.g., posterior cord injury) — not applicable in complete avulsion where all cords are unavailable."
+          },
+          "guideline": "AANS/CNS Brachial Plexus Guidelines 2015 — elbow flexion reconstruction: intercostal nerve transfer (T3-T5 to musculocutaneous) = standard for complete avulsion; priority reconstruction target",
+          "trial": "Nagano A. Treatment of brachial plexus injury. J Orthop Sci 1998;3(2):71-80: intercostal-musculocutaneous transfer; 60-80% MRC ≥ 3 elbow flexion at 18-24 months; 3-4 intercostal nerves required; landmark technique paper",
+          "pearl": "Complete brachial plexus avulsion reconstruction priority: elbow flexion first (most functionally critical). Standard technique: 3-4 intercostal nerves (T3-T5) to musculocutaneous nerve. 60-80% achieve useful elbow flexion. Patients must learn to breathe to contract biceps. Spinal accessory to suprascapular = shoulder abduction. Both are performed in the same operative session."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q14",
+        "stem": "An EMG performed 4 weeks after a peripheral nerve injury shows fibrillation potentials and positive sharp waves in the denervated muscles. What does this indicate?",
+        "options": {
+          "A": "Neuropraxia with temporary conduction block — recovery expected in days",
+          "B": "Axonal injury (axonotmesis or neurotmesis) with Wallerian degeneration",
+          "C": "Myopathy — primary muscle disease",
+          "D": "Upper motor neuron lesion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Fibrillation potentials and positive sharp waves are spontaneous single muscle fibre discharges indicating denervation — they appear 2-3 weeks after axonal injury when Wallerian degeneration is complete and the neuromuscular junction loses acetylcholine input. They indicate axonal disruption (Sunderland Grade 2-5, Seddon axonotmesis or neurotmesis). In neuropraxia (Sunderland Grade 1), the axon is intact and no Wallerian degeneration occurs — therefore fibrillations are ABSENT in neuropraxia. The presence of fibrillations at 4 weeks confirms axonal injury rather than simple conduction block.",
+          "wrong": {
+            "A": "Neuropraxia does NOT produce fibrillations on EMG — the axon is intact so no Wallerian degeneration occurs. Fibrillations specifically indicate axonal disruption.",
+            "C": "Fibrillations can occur in primary myopathies (e.g., inflammatory myopathies) but in the context of a nerve injury, they indicate denervation. Myopathic EMG would show short-duration polyphasic MUPs with early recruitment — the clinical context is key.",
+            "D": "Upper motor neuron lesions cause increased tone and spasticity but do NOT cause fibrillation potentials — UMN lesions leave the peripheral neuromuscular junction intact. Fibrillations are a sign of peripheral axonal injury only."
+          },
+          "guideline": "AANEM EMG Nerve Injury Guidelines 2012 — denervation potentials: fibrillations + PSW appear 2-3 weeks post-axonal injury; indicate axonotmesis or neurotmesis; absent in neuropraxia",
+          "trial": "Seddon HJ 1943 — original characterisation of neuropraxia vs axonotmesis vs neurotmesis; later confirmed by EMG studies; fibrillations absent in neuropraxia = intact axon; present in axonotmesis/neurotmesis = axon disrupted",
+          "pearl": "Fibrillations + positive sharp waves on EMG = axonal injury (Sunderland Grade 2-5). They appear 2-3 weeks after axonal injury and indicate Wallerian degeneration. ABSENT in neuropraxia (Sunderland Grade 1) because the axon is intact. Fibrillations are the EMG gold standard for distinguishing axonal injury from conduction block."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q15",
+        "stem": "A 52-year-old man with right cubital tunnel syndrome reports that his ring and little finger numbness is worse when he sits with his elbow flexed on a desk for prolonged periods. Which specific provocative test is most sensitive and specific for cubital tunnel syndrome?",
+        "options": {
+          "A": "Phalen's test (sustained wrist flexion)",
+          "B": "Elbow flexion test with pressure at the cubital tunnel",
+          "C": "Adson's manoeuvre",
+          "D": "Froment's sign"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The combined elbow flexion test with direct pressure over the cubital tunnel (Cozen's combination test) is the most sensitive and specific provocative test for cubital tunnel syndrome, with sensitivity 91% and specificity 97% when both manoeuvres are combined. The elbow flexion component increases intraneural pressure by 7x; adding direct pressure over the cubital tunnel further compresses the nerve. Elbow flexion alone (without pressure) has sensitivity 75%, specificity 99%; Tinel's at the cubital tunnel has sensitivity 62%, specificity 57%.",
+          "wrong": {
+            "A": "Phalen's test (sustained wrist flexion) is a provocative test for CARPAL TUNNEL syndrome (median nerve) — not cubital tunnel syndrome (ulnar nerve at elbow).",
+            "C": "Adson's manoeuvre tests for thoracic outlet syndrome (neurovascular compression at the scalene triangle) — not cubital tunnel syndrome.",
+            "D": "Froment's sign demonstrates adductor pollicis weakness (substitute IP thumb flexion during key pinch) — it is a confirmatory sign of established ulnar nerve palsy, not a provocative test for cubital tunnel diagnosis."
+          },
+          "guideline": "AAOS Cubital Tunnel Syndrome 2014 — provocative testing: combined elbow flexion + cubital tunnel pressure most sensitive; Tinel's at elbow also recommended; Phalen's tests CTS not CuTS",
+          "trial": "Novak CB et al. Provocative testing for cubital tunnel syndrome. J Hand Surg 1994;19A(5):817-820: elbow flexion test alone sensitivity 75%; combined with compression sensitivity 91%, specificity 97%; most reliable provocative test",
+          "pearl": "Cubital tunnel provocative test: elbow flexion + direct pressure at the cubital tunnel = highest sensitivity (91%) and specificity (97%). Phalen's = CTS (wrist flexion = median nerve at wrist). Don't confuse these — Phalen's tests the wrist, the elbow flexion test tests the elbow. Keep anatomical level consistent with the test."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q16",
+        "stem": "An 18-year-old woman sustains a complete brachial plexus injury in a motor vehicle accident. MRI at 4 weeks shows pseudomeningoceles at C5-T1 with empty nerve root sleeves. Which is the maximum time window for nerve reconstruction that allows the best chance of meaningful motor recovery?",
+        "options": {
+          "A": "3-4 years post-injury",
+          "B": "18-24 months post-injury",
+          "C": "6-9 months post-injury (ideally within 12-18 months maximum)",
+          "D": "24-36 months post-injury"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For peripheral nerve reconstruction to achieve motor recovery, surgery must be performed before irreversible motor end plate fibrosis occurs. Motor end plate fibrosis typically begins at 12-18 months post-denervation and is essentially complete by 24 months. Therefore, the optimal surgical window is within 6-9 months (for complete avulsion — earlier = better), with 12-18 months as the outer limit for meaningful motor reinnervation. For sensory recovery, the window is longer (sensory end organs are more resistant to fibrosis). In brachial plexus avulsion confirmed by MRI pseudomeningoceles, nerve transfer surgery should be performed within 3-6 months ideally.",
+          "wrong": {
+            "A": "3-4 years post-injury is far beyond the surgical window for motor reconstruction. Motor end plates are irreversibly fibrotic by 18-24 months — surgery at 3-4 years cannot achieve motor reinnervation.",
+            "B": "18-24 months is at or beyond the outer limit of the surgical window. While some motor recovery may be achievable up to 18 months, best results are achieved much earlier (6-9 months). Waiting to 18-24 months significantly reduces the chance of functional motor recovery.",
+            "D": "24-36 months: motor end plates are irreversibly fibrotic. Surgery is futile for motor recovery at this stage (though tendon transfers can restore function)."
+          },
+          "guideline": "AANS/CNS Brachial Plexus Guidelines 2015 — reconstruction timing: best results within 3-6 months for complete avulsion; motor end plate viability critical factor; 18 months = outer limit for motor reconstruction",
+          "trial": "Nagano A 1998 — brachial plexus reconstruction outcomes; surgery within 6 months: MRC ≥ 3 in 70-80%; surgery at 12-18 months: MRC ≥ 3 in 40-50%; surgery after 18 months: MRC < 3 in majority",
+          "pearl": "Nerve reconstruction surgical window: motor reinnervation possible up to 12-18 months (outer limit). OPTIMAL: 3-6 months post-injury. After 18-24 months, motor end plate fibrosis is irreversible and nerve surgery cannot restore motor function — tendon transfers are the remaining option."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E3-Q17",
+        "stem": "A 65-year-old woman has severe bilateral CTS confirmed by NCS (bilaterally absent median sensory responses, APB denervation on EMG). She undergoes right open CTR. Intraoperatively, after dividing the transverse carpal ligament, the surgeon finds the thenar branch of the median nerve is trapped within the ligament itself (transligamentous course — 5% of population). What is the appropriate intraoperative action?",
+        "options": {
+          "A": "Stop the decompression — the variant anatomy makes surgery too dangerous",
+          "B": "Carefully identify and protect the thenar branch, completing the TCL division without damaging it",
+          "C": "Divide the thenar branch to complete the decompression",
+          "D": "Convert to endoscopic CTR to visualise the anatomy better"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The median nerve thenar branch has multiple anatomical variants — the most common is the transligamentous course (passing through the transverse carpal ligament — 5%) and subligamentous course (5%). These variants place the thenar branch at risk during CTR. When encountered, the correct action is careful identification and protection of the thenar branch while completing the TCL division. The TCL can be divided partially, releasing the tunnel adequately while preserving the thenar branch by working around it. Damaging the thenar branch causes permanent thenar weakness (opposition palsy) — one of the most serious CTR complications.",
+          "wrong": {
+            "A": "Stopping the decompression abandons the patient's treatment — with careful microsurgical technique, the thenar branch can be identified and protected. Abandoning is not appropriate.",
+            "C": "Dividing the thenar branch causes permanent thenar weakness (opposition and abduction loss) — this is an iatrogenic injury that must be avoided.",
+            "D": "Converting to endoscopic CTR mid-open procedure is not appropriate — the issue here is anatomical variant identification, which requires direct visualisation, not an endoscopic approach."
+          },
+          "guideline": "AAOS CTS Surgical Guidelines 2016 — thenar branch anatomy variants: transligamentous and subligamentous courses at risk during CTR; careful identification mandatory; thenar branch injury = malpractice risk",
+          "trial": "Meals RA & Shaner M. Variations in digital sensory patterns: a study of the ulnar nerve at the wrist. J Hand Surg 1983;8(4):411-414; Lanz U. Anatomical variations of the median nerve in the carpal tunnel. J Hand Surg 1977;2(1):44-53: thenar branch variants; transligamentous 5%, subligamentous 5%; anomalous origin variants",
+          "pearl": "Thenar branch variant anatomy (transligamentous or subligamentous course) is present in approximately 10% of patients. During CTR, always visualise the thenar branch before completing the distal TCL division. Thenar branch injury is the most serious CTR complication — permanent loss of thumb opposition/abduction. Open CTR allows better visualisation of these variants than endoscopic."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E3-Q18",
+        "stem": "A 47-year-old man presents with ring and little finger numbness at rest and a positive Froment sign. His first dorsal interosseous is wasted. Where is the most likely site of his ulnar nerve pathology?",
+        "options": {
+          "A": "Ulnar tunnel (Guyon's canal) at the wrist",
+          "B": "Cubital tunnel at the medial elbow",
+          "C": "Thoracic outlet (lower trunk C8/T1)",
+          "D": "C8 cervical radiculopathy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The combination of ring/little finger numbness + hypothenar and FDI wasting + positive Froment sign indicates ulnar nerve pathology affecting both sensory and motor fibres. The cubital tunnel (medial elbow) is the most common site of ulnar nerve entrapment and produces complete ulnar nerve deficit affecting both sensory and motor functions (dorsal sensory branch to hand exits above the wrist — so dorsal hand sensation is lost with cubital but not wrist entrapment). Distinguishing cubital from Guyon's canal: cubital tunnel involves dorsal hand numbness (dorsal cutaneous ulnar nerve exits 5-7 cm proximal to the wrist); Guyon's canal spares dorsal hand sensation.",
+          "wrong": {
+            "A": "Guyon's canal (wrist) entrapment spares the dorsal ulnar sensory territory (exits above the wrist). If dorsal hand and little finger sensory loss are both present, the lesion is at the cubital tunnel, not the wrist.",
+            "C": "Thoracic outlet lower trunk compression (C8/T1) would additionally cause median nerve territory motor deficits (APB — thenar wasting) because C8/T1 contribute to both median and ulnar motor fibres. Isolated ulnar motor/sensory deficit without median involvement localises to the ulnar nerve specifically.",
+            "D": "C8 radiculopathy from cervical disk disease would show dermatomal sensory loss (ring/little finger) + myotomal weakness (hand intrinsics) but also some radial side (triceps weakness — C7-8 overlap) and would not show Froment sign as a selective ulnar palsy finding."
+          },
+          "guideline": "AAOS Cubital Tunnel Guidelines 2014 — localisation: dorsal ulnar hand sensory loss + ring/little finger numbness + intrinsic wasting = cubital tunnel; Guyon's canal spares dorsal hand",
+          "trial": "McGowan AJ. Results of transposition of the ulnar nerve for traumatic ulnar neuritis. J Bone Joint Surg 1950;32B(3):293-301: McGowan classification; cubital tunnel = most common ulnar nerve entrapment; distinguishing cubital from Guyon's by sensory territory",
+          "pearl": "Ulnar nerve entrapment localisation: cubital tunnel = ring/little finger + dorsal ulnar hand + intrinsic wasting. Guyon's canal = ring/little finger only, dorsal hand SPARED (dorsal cutaneous branch exits 5-7 cm proximal to wrist). The dorsal hand sensory territory is the key distinguishing feature between cubital and wrist entrapment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E3-Q19",
+        "stem": "A 22-year-old man had a complete radial nerve injury at the spiral groove 5 months ago with no recovery. He is scheduled for surgical exploration. Intraoperatively, a 4 cm neuroma-in-continuity is found at the spiral groove. Electrical stimulation proximal to the neuroma elicits a trace distal response at 0.8 mA in extensor carpi radialis longus only. What is the appropriate surgical management?",
+        "options": {
+          "A": "Resect the neuroma and repair with primary neurorrhaphy",
+          "B": "External neurolysis only — preserve the neuroma-in-continuity",
+          "C": "Resect the neuroma and repair with sural nerve graft",
+          "D": "Leave the neuroma — the trace response indicates partial recovery"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A neuroma-in-continuity (NIC) with a 4 cm lesion and no clinically useful recovery at 5 months requires intraoperative electrical testing to determine management. The trace response only in ECRL (the most proximal radial nerve muscle — exits just below the spiral groove) at 0.8 mA indicates minimal residual axonal crossing, insufficient for functional recovery of the remaining radial nerve territory. The correct management is neuroma resection and sural nerve graft reconstruction. External neurolysis alone is appropriate when NAP (nerve action potential) testing shows sufficient axon crossing to expect useful recovery — the trace response here does not meet this criterion for a 4 cm NIC.",
+          "wrong": {
+            "A": "Primary neurorrhaphy of a 4 cm gap after neuroma resection would be under significant tension — tension repair results in poor axon regeneration. Sural nerve graft is required for defects > 2-3 cm.",
+            "B": "External neurolysis alone (leaving the NIC) is appropriate when intraoperative NAP testing shows sufficient axon crossing. A trace response only in the most proximal muscle at high threshold does not indicate sufficient regeneration potential.",
+            "D": "Leaving a neuroma with trace response in only the most proximal muscle at 5 months without any clinical improvement would result in ongoing poor recovery. The trace response threshold and limited distribution do not predict satisfactory spontaneous recovery for the full radial nerve territory."
+          },
+          "guideline": "AANS/CNS Peripheral Nerve Injury 2015 — neuroma-in-continuity management: intraoperative NAP testing determines resection vs neurolysis; trace/low-amplitude response only = resect and graft; meaningful NAP crossing = neurolysis",
+          "trial": "Kline DG & Hudson AR. Nerve Injuries 1995 — NIC management algorithm: NAP threshold and amplitude criteria; radial nerve at spiral groove; neuroma resection + graft for inadequate NAP; outcomes superior to expectant management in this scenario",
+          "pearl": "Neuroma-in-continuity intraoperative decision: NAP crosses the neuroma with sufficient amplitude = external neurolysis; trace response only = resect and graft. For a 4 cm NIC with no clinical recovery at 5 months, trace ECRL response alone indicates insufficient regeneration — resect and graft with sural nerve. Graft length > 2-3 cm always requires donor nerve."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E3-Q20",
+        "stem": "A patient with a corticosteroid injection into the carpal tunnel experiences complete relief of CTS symptoms for 14 months but then has a recurrence. NCS confirms moderate recurrent CTS. Which is the most appropriate next step?",
+        "options": {
+          "A": "Repeat corticosteroid injection — multiple injections have no harm",
+          "B": "Surgical carpal tunnel release",
+          "C": "Plasma-rich platelet (PRP) injection",
+          "D": "Continue wrist splinting indefinitely"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Recurrence of CTS after a 14-month symptom-free period following corticosteroid injection indicates that the structural compression is not permanently resolved by injection alone. At this point, surgical carpal tunnel release is the definitive treatment. The AAOS 2016 guideline recommends surgical release for moderate-severe CTS and for patients whose symptoms recur after conservative treatment including steroid injection. CTR achieves long-term symptom relief in > 90% of patients and is the only curative treatment.",
+          "wrong": {
+            "A": "Multiple corticosteroid injections have diminishing returns and potential risks (tendon rupture, infection, skin atrophy). AAOS guidelines recommend limiting to 1-2 injections before surgical referral for recurrent CTS. Repeated injections also delay definitive surgical treatment.",
+            "C": "PRP injection has no established evidence for CTS treatment and is not recommended in any major guideline. It is an experimental treatment not currently supported by RCT evidence for CTS.",
+            "D": "Wrist splinting treats symptoms temporarily but does not address the structural cause of carpal tunnel compression. In recurrent moderate CTS after failed conservative measures, indefinite splinting is not the appropriate definitive management."
+          },
+          "guideline": "AAOS CTS Guidelines 2016 — recurrent CTS after injection: surgical CTR recommended; Level A evidence for CTR in moderate-severe CTS; steroid injection: 1-2 injections maximum before surgical referral for recurrent disease",
+          "trial": "Hui ACF et al. A randomised controlled trial of surgery vs steroid injection for CTS. Ann Rheum Dis 2005;64(9):1332-1336: surgery vs injection RCT: surgery significantly superior at 20-week and 12-month follow-up for symptom control (P<0.001); injection appropriate first-line, surgery for recurrence",
+          "pearl": "After steroid injection for CTS with recurrence: surgery (CTR) is the next step. Repeated injections have diminishing returns and delay definitive treatment. CTR provides long-term relief in >90% and is the definitive cure for CTS. AAOS recommends surgery for moderate-severe disease and for injection failures."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

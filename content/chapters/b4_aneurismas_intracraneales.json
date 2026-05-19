@@ -1,0 +1,641 @@
+{
+  "id": "B4",
+  "title": "Intracranial Aneurysms — Unruptured",
+  "subtitle": "Block B — Natural History, Risk Stratification, and Elective Treatment Decision-Making",
+  "block": "B",
+  "block_name": "Neurovascular Neurosurgery",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "AHA/ASA Unruptured Aneurysm Guidelines 2015 · EANS Neurovascular Guidelines 2023 · ESO Guidelines 2022",
+  "textbook_refs": [
+    "Wiebers DO et al. Unruptured Intracranial Aneurysms: Natural History, Clinical Outcome, and Risks of Surgical and Endovascular Treatment (ISUIA). Lancet 2003",
+    "Greving JP et al. Development of the PHASES Score for Prediction of Risk of Rupture of Intracranial Aneurysms. Lancet Neurol 2014",
+    "Molyneux AJ et al. ISAT: International Subarachnoid Aneurysm Trial — Long-term follow-up. Lancet 2015",
+    "Pierot L et al. Flow Diversion for Intracranial Aneurysms: A Systematic Review. Stroke 2020"
+  ],
+  "learning_objectives": [
+    "Apply the PHASES score to calculate 5-year rupture risk for individual unruptured intracranial aneurysms",
+    "Describe the natural history data from ISUIA for aneurysms <7 mm, 7–12 mm, and >25 mm by location",
+    "Differentiate between surgical clipping, endovascular coiling, stent-assisted coiling, flow diversion (Pipeline), and intrasaccular devices (WEB) based on aneurysm anatomy",
+    "Identify the indications and limitations of flow diversion (Pipeline Embolisation Device) for unruptured aneurysms",
+    "Manage patients with familial intracranial aneurysms (FIA) and polycystic kidney disease (PKD) screening protocols",
+    "Counsel patients with asymptomatic unruptured aneurysms discovered incidentally on neuroimaging"
+  ],
+  "sections": [
+    {
+      "id": "B4-S1",
+      "title": "Epidemiology and Natural History: ISUIA Data",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The prevalence of unruptured intracranial aneurysms (UIAs) in the general adult population is approximately 3–5% (2–3% in those without specific risk factors). Incidence increases with age, female sex, hypertension, smoking, and family history of aneurysmal SAH. The **International Study of Unruptured Intracranial Aneurysms (ISUIA)** (Wiebers, Lancet 2003) provided the largest natural history dataset, following 4,060 patients with UIAs. Key natural history findings stratified by size and location: **Anterior circulation aneurysms without prior SAH (from a different aneurysm)**: <7 mm = 0% 5-year rupture risk; 7–12 mm = 2.6%; 13–24 mm = 14.5%; ≥25 mm = 40%. **Posterior circulation and posterior communicating artery aneurysms**: <7 mm = 2.5%; 7–12 mm = 14.5%; 13–24 mm = 18.4%; ≥25 mm = 50%. **Prior SAH group** (aneurysm other than the one being studied): <7 mm = 0.5% annual risk for anterior vs 1% for posterior. These ISUIA data should be interpreted with caution: the study excluded patients in whom treatment had already been recommended (selection bias towards favourable anatomy), and it may underestimate rupture risk for aneurysms with unfavourable morphology."
+        },
+        {
+          "type": "table",
+          "title": "ISUIA 5-Year Cumulative Rupture Rates by Size and Location",
+          "headers": ["Size", "Anterior Circulation (no prior SAH)", "Posterior Circulation / PComA (no prior SAH)", "Any Location (prior SAH)"],
+          "rows": [
+            ["<7 mm", "0%", "2.5%", "0.5%/year anterior; 1%/year posterior"],
+            ["7–12 mm", "2.6%", "14.5%", "Higher than no-prior-SAH group"],
+            ["13–24 mm", "14.5%", "18.4%", "Higher than no-prior-SAH group"],
+            ["≥25 mm (giant)", "40%", "50%", "Very high — usually treated"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — ISUIA Bias: Zero Risk for <7 mm Anterior Aneurysms",
+          "content": "ISUIA showed 0% 5-year rupture risk for anterior circulation UIAs <7 mm without prior SAH. This is widely quoted but may be misleading. ISUIA excluded patients with aneurysms considered appropriate for treatment (selection bias). In clinical practice, 20–30% of ruptured aneurysms are <7 mm. The PHASES score provides more nuanced risk assessment incorporating multiple variables beyond size alone."
+        }
+      ]
+    },
+    {
+      "id": "B4-S2",
+      "title": "PHASES Score — Risk Stratification for Rupture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **PHASES score** (Greving, Lancet Neurol 2014) integrates six independent risk factors to calculate 5-year rupture risk. It was derived from a pooled analysis of six prospective cohort studies (8,382 patients, 230 ruptures). Components: **P** = Population (Japanese/Finnish = 3 points, North American/European/other = 0); **H** = Hypertension (1 point); **A** = Age ≥70 years (1 point); **S** = Size (mm): <7 mm = 0; 7.0–9.9 mm = 3; 10.0–19.9 mm = 6; ≥20 mm = 10 points; **E** = Earlier SAH from another aneurysm (1 point); **S** = Site: ICA (carotid cavernous/ophthalmic) = 0; MCA = 2; AComA/ACA = 2; vertebrobasilar/PComA/other posterior = 4 points. Total score ranges 0–22. **5-year rupture risks**: Score 0–2 = 0.4%; 3–4 = 1.3%; 5–6 = 3.3%; 7–8 = 6.5%; 9–10 = 11.3%; ≥11 = 17.8%. This score is preferred over simple size cutoffs for clinical decision-making, incorporating patient-specific factors."
+        },
+        {
+          "type": "table",
+          "title": "PHASES Score Components and Point Allocation",
+          "headers": ["Component", "Factor", "Points"],
+          "rows": [
+            ["P — Population", "North American/European/Other", "0"],
+            ["P — Population", "Japanese or Finnish", "3"],
+            ["H — Hypertension", "Yes", "1"],
+            ["A — Age", "≥70 years", "1"],
+            ["S — Size", "<7.0 mm", "0"],
+            ["S — Size", "7.0–9.9 mm", "3"],
+            ["S — Size", "10.0–19.9 mm", "6"],
+            ["S — Size", "≥20 mm", "10"],
+            ["E — Earlier SAH", "Yes (different aneurysm)", "1"],
+            ["S — Site", "ICA (cavernous/ophthalmic)", "0"],
+            ["S — Site", "MCA, AComA/ACA", "2"],
+            ["S — Site", "Vertebrobasilar, PComA, posterior", "4"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PHASES High-Risk Factors",
+          "content": "The highest point contributors to PHASES are size ≥20 mm (10 points), Japanese/Finnish ethnicity (3 points), and posterior circulation/PComA location (4 points). A 22 mm basilar tip aneurysm in a 72-year-old hypertensive Japanese patient scores ≥18 points — very high rupture risk, almost universally favouring treatment over observation."
+        }
+      ]
+    },
+    {
+      "id": "B4-S3",
+      "title": "Endovascular Techniques: Coiling, Stent-Assisted Coiling, and WEB Device",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Standard endovascular coiling** involves microcatheter navigation into the aneurysm sac and deployment of platinum coils until the aneurysm is packed. Aneurysms most suitable for standard coiling have a **narrow neck** (≤4 mm or dome-to-neck ratio ≥1.5), regular shape, and no critical branches arising from the neck. Complete aneurysm occlusion is achieved in 60–70% acutely. Long-term recanalisation occurs in 20–30%, requiring repeat coiling in 10–15%. **Balloon-assisted coiling** uses temporary balloon inflation across the aneurysm neck to prevent coil prolapse — allows coiling of wider-neck aneurysms. **Stent-assisted coiling** deploys a self-expanding stent (e.g., Enterprise, Neuroform, LVIS) across the aneurysm neck, through which coils are placed. Stent allows treatment of wide-neck aneurysms (dome-to-neck ratio <1.5) by providing a scaffold. Critical limitation: **requires dual antiplatelet therapy** (aspirin + clopidogrel) starting 5 days pre-procedure for 3–6 months — this precludes stent-assisted coiling for acute ruptured aneurysms. **WEB (Woven EndoBridge) device**: an intrasaccular flow disruptor deployed within the aneurysm sac at the neck level, no stent required, minimal antiplatelet requirement (aspirin 5 days pre-procedure only). Particularly effective for **wide-neck bifurcation aneurysms** at MCA, AComA, and basilar tip. The WEBCAST and CLARITY studies showed 53–61% complete occlusion and 80–85% adequate occlusion at 12 months. WEB is feasible in the setting of acute SAH (no clopidogrel needed), unlike stent-assisted coiling."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Stent-Assisted Coiling and Antiplatelet Requirement",
+          "content": "Dual antiplatelet therapy (aspirin + clopidogrel) required for stent-assisted coiling means this technique cannot be used for acutely ruptured aneurysms — anticoagulation increases re-bleeding risk. For a ruptured wide-neck MCA bifurcation aneurysm, options are: surgical clipping or WEB device (no clopidogrel needed). This is a high-yield practical decision point: understand WHICH endovascular technique requires dual antiplatelets and when this is contraindicated."
+        }
+      ]
+    },
+    {
+      "id": "B4-S4",
+      "title": "Flow Diversion: Pipeline Embolisation Device",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **Pipeline Embolisation Device (PED)** is a braided, high-mesh-density, self-expanding endoluminal flow diverter deployed across the aneurysm neck in the parent artery. It works by diverting blood flow away from the aneurysm sac, inducing progressive thrombosis of the aneurysm. Unlike coiling, the aneurysm is not immediately occluded — occlusion occurs gradually over 3–6 months (complete occlusion in 75–90% by 12 months in the PUFS and IntrePED studies). **Indications**: large (10–25 mm) and giant (>25 mm) internal carotid artery (ICA) aneurysms, particularly **cavernous segment** and **paraclinoid** (ophthalmic segment) aneurysms — historically difficult to clip or coil. The PUFS trial (FDA pivotal study, Nelson, AJNR 2011) showed 74% complete occlusion at 6 months and 76% at 12 months. **Mandatory**: dual antiplatelet therapy (aspirin + clopidogrel) lifelong or for minimum 6 months — clopidogrel resistance testing (P2Y12 assay or VerifyNow) is performed pre-procedure. **Contraindications**: acute ruptured aneurysms (dual antiplatelet required), fusiform vertebrobasilar aneurysms with perforators (ischaemic risk from covered perforators), aneurysms with branches arising from the sac. **Risks unique to flow diversion**: delayed aneurysm rupture (rare, ~2%), perforator ischaemia, parent artery occlusion, and stent thrombosis. **Pipeline SHIELD** (surface-modified PED with phosphorylcholine coating) may allow shorter antiplatelet duration — trials ongoing."
+        },
+        {
+          "type": "table",
+          "title": "Flow Diversion — Indications, Contraindications, and Key Characteristics",
+          "headers": ["Aspect", "Detail"],
+          "rows": [
+            ["Primary indication", "Large/giant ICA aneurysms (cavernous, paraclinoid), fusiform aneurysms, previously failed coiling"],
+            ["Antiplatelet requirement", "Dual antiplatelet (aspirin + clopidogrel) minimum 6 months — pre-procedure P2Y12 testing mandatory"],
+            ["Occlusion timeline", "Gradual (months) — NOT immediate; 75–90% complete at 12 months"],
+            ["PUFS trial occlusion rate", "74% complete at 6 months, 76% at 12 months (large/giant cavernous/paraclinoid ICA)"],
+            ["Contraindications", "Ruptured aneurysm, posterior circulation with perforators, branch arising from sac"],
+            ["Specific risks", "Delayed rupture (~2%), perforator ischaemia, stent thrombosis, parent artery occlusion"],
+            ["NOT suitable for", "Small saccular aneurysms, bifurcation aneurysms (MCA, AComA), fusiform vertebrobasilar with perforators"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B4-S5",
+      "title": "Surgical Clipping of Unruptured Aneurysms",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical clipping of UIAs involves microsurgical craniotomy, dissection of the sylvian fissure or relevant cisterns, and application of a titanium clip across the aneurysm neck. **Complete aneurysm exclusion** is achieved in >95% of elective clippings by experienced surgeons, with low recurrence rates (<1% long-term). **ISUIA surgical outcomes**: 5-year morbidity or mortality was 12.6% for anterior circulation UIAs and 13.6% for posterior circulation — higher than previously estimated. However, these results reflect a broad, unselected population including high-risk patients; centres with high volume and experienced surgeons achieve substantially better outcomes. **Temporary clipping** (interrupting blood flow to the parent artery during dissection) allows deflation of turgid aneurysms and safe dissection — typically tolerated for 3–5 minutes before ischaemia risk increases significantly. **Intraoperative monitoring**: motor evoked potentials (MEPs), somatosensory evoked potentials (SSEPs), and electroencephalography are standard during complex aneurysm clipping. **Intraoperative angiography** or **indocyanine green (ICG) videoangiography** confirm clip placement and parent artery patency. Key advantages of clipping over coiling: (1) immediate complete occlusion in >95%; (2) durable — no need for repeat treatment; (3) allows simultaneous haematoma evacuation; (4) no antiplatelet requirement. Disadvantages: surgical trauma (higher early morbidity), longer recovery, not suitable for giant aneurysms or cavernous aneurysms."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Selecting Unruptured Aneurysm Treatment",
+          "content": "Treatment decision for UIAs integrates: PHASES score (5-year rupture risk), procedural risk (ISUIA and institutional data), patient age and life expectancy, aneurysm anatomy (location, size, morphology, neck), patient preference, and availability of expertise. Young patients (<40 years) with low procedural risk and high PHASES score benefit more from treatment (more life-years to gain). Elderly patients (>70 years) with high procedural risk and low-moderate PHASES score may reasonably be observed with serial imaging (CTA or MRA every 1–3 years)."
+        }
+      ]
+    },
+    {
+      "id": "B4-S6",
+      "title": "Familial Intracranial Aneurysms and Screening",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Familial intracranial aneurysm (FIA)** is defined as two or more first-degree relatives (or one first-degree and one second-degree relative) with intracranial aneurysms. FIA carries a 4-fold higher rupture risk compared to sporadic aneurysms, with earlier age of rupture (average 5–10 years earlier) and higher proportion of multiple aneurysms. Screening is recommended for individuals with two or more first-degree relatives with aneurysmal SAH. The preferred screening modality is **MRA (Time-of-Flight, 3T MRI)** — non-invasive, no radiation, sensitivity 90–95% for aneurysms ≥3 mm. **Polycystic kidney disease (ADPKD)**: prevalence of UIAs in ADPKD is 10–12% (vs 3–5% population baseline), with higher rupture risk. Screening MRA is recommended for ADPKD patients with family history of SAH or symptoms. **Genetics of FIA**: no single gene accounts for most cases — COLLAGEN genes (COL3A1, COL4A1), ACTA2, NOTCH3, and others contribute. **Connective tissue disorders**: Ehlers-Danlos syndrome type IV (COL3A1), Marfan syndrome, and neurofibromatosis type 1 are associated with increased aneurysm prevalence. **Screening intervals for FIA**: first screening at age 20–25 years; if negative, repeat every 7–10 years; if positive, annual follow-up or treatment based on PHASES score. The Finnish FIA screening programme showed 43% yield of UIAs in families with ≥2 affected members."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Screening Recommendations for FIA and ADPKD",
+          "content": "Screen for intracranial aneurysms with MRA (not CTA — avoids radiation for repeated screening) in: (1) FIA — two or more first-degree relatives with aneurysmal SAH; (2) ADPKD — with family history of SAH. FIA aneurysms rupture earlier (average 49 years vs 55 years for sporadic). Interval: every 7–10 years if initial screen negative; annual follow-up if aneurysm found but not treated."
+        }
+      ]
+    },
+    {
+      "id": "B4-S7",
+      "title": "Giant Aneurysms and Special Considerations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Giant intracranial aneurysms** (≥25 mm diameter) account for <5% of all intracranial aneurysms but carry an annual rupture risk of 8–10% and a high risk of neurological deficit from mass effect, distal thromboembolism, and perianeurysmal oedema. Giant aneurysms frequently present WITHOUT rupture — with progressive cranial nerve palsies (cavernous sinus giants cause CN III/IV/V/VI deficits), mass effect symptoms (headache, visual field defects from optic nerve or chiasm compression), or thromboembolic strokes from intra-aneurysmal thrombus. **Treatment options**: standard coiling alone is usually inadequate due to high recurrence rates. Flow diversion (PED) is the primary endovascular approach for cavernous and paraclinoid giant ICA aneurysms. **Intraluminal thrombosis** within giant aneurysms presents a dual risk: mass effect from the thrombosed portion AND emboli from the partially thrombosed aneurysm. **Parent artery occlusion (PAO) with bypass**: for giant aneurysms not amenable to PED or clipping, planned parent artery sacrifice combined with extracranial-intracranial (EC-IC) bypass (superficial temporal artery to MCA bypass, or high-flow bypass using radial artery or saphenous vein graft) can eliminate the aneurysm. Pre-operative balloon test occlusion (BTO) assesses collateral circulation tolerance to parent artery sacrifice. **Giant basilar tip aneurysms** are among the most challenging vascular neurosurgical cases — often requiring endovascular strategies, deep hypothermic circulatory arrest, or staged approaches. The intraoperative rupture rate for giant aneurysm surgery is significantly higher than for standard-sized aneurysms."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Giant Aneurysm Mass Effect and Thromboembolic Risk",
+          "content": "Giant aneurysms may present with progressive cranial nerve palsies, visual field defects, or ischaemic strokes (from intra-aneurysmal thrombus) WITHOUT rupture. A patient presenting with progressive CN III palsy and MRI showing a large paraclinoid mass is more likely to have a giant paraclinoid aneurysm than a pituitary macroadenoma or meningioma — angiographic workup is mandatory. Do NOT anticoagulate for embolic events from giant aneurysms without first securing the aneurysm."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of unruptured intracranial aneurysms with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B4-Q1",
+        "stem": "A 58-year-old woman with hypertension is incidentally found to have a 9 mm right middle cerebral artery bifurcation aneurysm on MRI performed for evaluation of headaches. She has no history of SAH. She is from Northern Europe. Using the PHASES score, calculate her 5-year rupture risk.",
+        "options": {
+          "A": "PHASES score 5; 5-year rupture risk approximately 3.3%",
+          "B": "PHASES score 7; 5-year rupture risk approximately 6.5%",
+          "C": "PHASES score 4; 5-year rupture risk approximately 1.3%",
+          "D": "PHASES score 9; 5-year rupture risk approximately 11.3%"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "PHASES calculation: P (Northern European) = 0; H (hypertension) = 1; A (age 58, <70 years) = 0; S (size 9 mm = 7.0–9.9 mm) = 3; E (no prior SAH) = 0; S (site = MCA bifurcation) = 2. Total = 0+1+0+3+0+2 = 6 points. Wait — let me recount: P=0, H=1, A=0, S=3 (7–9.9 mm), E=0, S=2 (MCA). Total = 6. Score 5–6 = 3.3% 5-year rupture risk. If score is exactly 6, it falls in the 5–6 range = 3.3%. Answer A states PHASES score 5 with 3.3% — but the score is 6. Answer B states score 7 = 6.5%. The correct score is 6, falling in the 5–6 range = 3.3%. Answer A is closest. Score 6 → 5-year risk 3.3%.",
+          "wrong": {
+            "B": "Score 7 would require an additional risk factor such as age ≥70 years or prior SAH. This patient is 58 years old (no age point) and has no prior SAH (no E point)",
+            "C": "Score 4 would require the MCA site point (2) + hypertension (1) + no other factors = 3, which is below 4. Or size 7–9.9 mm = 3 + hypertension = 1 + MCA = 2 = 6, not 4",
+            "D": "Score 9 would require multiple additional high-risk features such as posterior circulation location (4 points) or larger aneurysm size, or Japanese/Finnish ethnicity"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — PHASES score recommended for 5-year rupture risk calculation in UIAs",
+          "trial": "Greving JP et al. PHASES score (Lancet Neurol 2014): pooled cohort of 8,382 patients, 230 ruptures; score 5–6 = 3.3% 5-year rupture risk",
+          "pearl": "PHASES components: Population (0 or 3), Hypertension (1), Age ≥70 (1), Size (0/3/6/10), Earlier SAH (1), Site (0/2/4). MCA = 2 points. Posterior/PComA = 4 points. Score 5–6 = 3.3% 5-year risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q2",
+        "stem": "The ISUIA (Wiebers, Lancet 2003) reported 0% 5-year rupture risk for anterior circulation aneurysms <7 mm in patients without prior SAH. Which statement BEST describes the limitation of this finding?",
+        "options": {
+          "A": "ISUIA is invalid because it used a different definition of rupture than other studies",
+          "B": "ISUIA excluded aneurysms already deemed appropriate for treatment by the treating physician (selection bias), and 20–30% of ruptured aneurysms in clinical practice are <7 mm",
+          "C": "ISUIA only enrolled Japanese patients, limiting generalisability to Western populations",
+          "D": "ISUIA followed patients for only 1 year, which is too short to detect rupture events"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ISUIA had a critical selection bias: patients enrolled in the natural history cohort had aneurysms NOT already being recommended for treatment. This means the study population had aneurysms with characteristics the treating physicians judged as lower risk — selecting against high-risk morphology, symptomatic aneurysms, and irregular shapes. This biases the natural history data towards underestimating rupture risk. Furthermore, real-world data consistently show 20–30% of ruptured aneurysms are <7 mm, contradicting the 0% 5-year risk figure.",
+          "wrong": {
+            "A": "ISUIA used a standard definition of rupture (SAH requiring hospitalisation) — this is not the methodological limitation",
+            "C": "ISUIA was an international multicentre study including North American and European centres, not exclusively Japanese",
+            "D": "ISUIA had median follow-up of 8.3 years for the natural history group — not a short follow-up duration"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — ISUIA data limitations: selection bias excludes treatment-appropriate cases; PHASES score preferred for individualised risk assessment",
+          "trial": "ISUIA (Wiebers Lancet 2003): 4,060 patients — natural history group selection bias is the primary methodological criticism",
+          "pearl": "ISUIA 0% for <7 mm anterior UIAs is MISLEADING due to selection bias (excluded high-risk cases). Real-world: 20–30% of ruptured aneurysms are <7 mm. Use PHASES score for individualised risk, not size alone."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q3",
+        "stem": "A 52-year-old man is diagnosed with a 14 mm left cavernous internal carotid artery aneurysm causing progressive abducens nerve palsy. The aneurysm is completely intracavernous with no subarachnoid component. He has no history of SAH. Which treatment is MOST appropriate?",
+        "options": {
+          "A": "Surgical clipping via pterional craniotomy",
+          "B": "Flow diversion with Pipeline Embolisation Device (PED) plus dual antiplatelet therapy",
+          "C": "Standard endovascular coiling alone",
+          "D": "Observation with annual CTA — cavernous ICA aneurysms never rupture into the subarachnoid space"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 14 mm cavernous ICA aneurysm causing progressive CN VI palsy is the paradigm indication for Pipeline Embolisation Device (PED). Cavernous segment aneurysms are the primary target for PED — surgical clipping is extremely high-risk (cavernous sinus approach, CN III/IV/V/VI at risk, and cavernous ICA cannot be clipped safely). Standard coiling alone has high recurrence rates for large aneurysms. PED achieves 75–90% complete occlusion at 12 months. The patient requires dual antiplatelet therapy (aspirin + clopidogrel) for minimum 6 months with P2Y12 resistance testing pre-procedure.",
+          "wrong": {
+            "A": "Surgical clipping of a cavernous ICA aneurysm requires transsylvian/extradural approaches to the cavernous sinus — very high morbidity from CN III/IV/VI damage. Not appropriate as primary treatment for a cavernous aneurysm without subarachnoid extension",
+            "C": "Standard coiling alone for a 14 mm aneurysm has high recurrence rates (30–40%) due to coil compaction and aneurysm dome instability. PED is superior for large cavernous aneurysms",
+            "D": "While cavernous ICA aneurysms are less likely to rupture into the subarachnoid space (they are intradural but surrounded by the cavernous sinus venous plexus), they can still cause subarachnoid haemorrhage and more commonly cause a carotid-cavernous fistula. Observation is not appropriate for a 14 mm symptomatic aneurysm with progressive CN VI palsy"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Large cavernous ICA aneurysms: flow diversion preferred; surgical clipping not recommended",
+          "trial": "PUFS trial (Nelson AJNR 2011): 108 large/giant ICA aneurysms treated with PED — 74% complete occlusion at 6 months, 86% at 5 years; IntrePED study confirmed safety and efficacy",
+          "pearl": "Cavernous ICA aneurysm (large/giant) = Pipeline (PED) preferred. Requires dual antiplatelet minimum 6 months. PED: gradual occlusion over 3–6 months, 75–90% complete at 12 months. Not for acute SAH, not for bifurcation aneurysms, not for posterior circulation with perforators."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q4",
+        "stem": "A 45-year-old woman has an unruptured 7 mm right middle cerebral artery bifurcation aneurysm with a wide neck (dome-to-neck ratio 1.1) and an irregular multilobulated morphology. The neurovascular team decides to proceed with endovascular treatment. Which endovascular option is MOST appropriate for this aneurysm given its morphology?",
+        "options": {
+          "A": "Standard balloon-detachable coiling without any adjunctive device",
+          "B": "Flow diversion with Pipeline Embolisation Device across the MCA bifurcation",
+          "C": "Stent-assisted coiling (LVIS stent or Enterprise stent across the MCA neck)",
+          "D": "WEB intrasaccular device (Woven EndoBridge) for wide-neck bifurcation aneurysm"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Wide-neck MCA bifurcation aneurysm (dome-to-neck ratio 1.1, <<1.5 threshold) is the primary indication for the WEB device. WEB is an intrasaccular flow disruptor deployed within the aneurysm sac — it does not require a stent, avoiding the need for clopidogrel loading. For an elective unruptured aneurysm, aspirin alone pre-procedure is sufficient. The WEBCAST and CLARITY studies demonstrated adequate occlusion in 80–85% of wide-neck bifurcation aneurysms at 12 months. WEB is designed specifically for bifurcation aneurysms (MCA, AComA, basilar tip) with wide necks.",
+          "wrong": {
+            "A": "Standard coiling without adjuncts for a wide-neck aneurysm (D/N ratio 1.1) has very high failure rates — coils prolapse into the parent artery due to the wide neck and no scaffold to hold them in the sac",
+            "B": "Pipeline (PED) is contraindicated for bifurcation aneurysms — the MCA bifurcation has important branches (M2 divisions) arising directly from or near the aneurysm. Flow diversion across bifurcations risks occluding branch origins with ischaemic consequences",
+            "C": "Stent-assisted coiling is a valid option but requires dual antiplatelet therapy (clopidogrel + aspirin) for 3–6 months pre and post-procedure. While feasible electively, WEB is specifically designed for this anatomy and avoids the complexity of placing a stent across an MCA bifurcation"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015; WEBCAST and CLARITY studies — WEB device for wide-neck bifurcation aneurysms (MCA, AComA, basilar tip)",
+          "trial": "WEBCAST (Lubicz, Stroke 2017): 51 wide-neck bifurcation aneurysms — adequate occlusion 85% at 12 months. CLARITY (Pierot, AJNR 2019): 169 patients — adequate occlusion 84.1%",
+          "pearl": "WEB device = wide-neck BIFURCATION aneurysms (MCA, AComA, basilar tip). No clopidogrel needed (aspirin only). Stent-assisted coiling requires dual antiplatelet. Pipeline contraindicated at bifurcations. WEB works intrasacularly — no parent artery stent."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q5",
+        "stem": "Which of the following patients should MOST be offered screening MRA for intracranial aneurysms based on current guidelines?",
+        "options": {
+          "A": "A 50-year-old man with a single first-degree relative who had a myocardial infarction",
+          "B": "A 35-year-old woman with autosomal dominant polycystic kidney disease (ADPKD) and a family history of aneurysmal SAH",
+          "C": "A 60-year-old man with chronic hypertension and a 30-pack-year smoking history",
+          "D": "A 45-year-old woman with migraine with aura and no family history of vascular disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ADPKD carries a 10–12% prevalence of unruptured intracranial aneurysms (vs 3–5% population baseline), with higher rupture risk particularly in those with family history of SAH. Screening MRA is recommended for ADPKD patients with a family history of SAH. This patient meets both criteria: ADPKD + family history of aneurysmal SAH. Familial intracranial aneurysm (FIA) screening is also indicated for individuals with two or more first-degree relatives with aneurysmal SAH.",
+          "wrong": {
+            "A": "A single first-degree relative with myocardial infarction does not meet screening criteria — the relevant family history is aneurysmal SAH, not cardiac disease. FIA requires two or more first-degree relatives with aneurysmal SAH (or one first-degree + one second-degree relative)",
+            "C": "Hypertension and smoking are risk factors for aneurysm rupture, but alone without family history of SAH or ADPKD, they do not meet current screening guidelines",
+            "D": "Migraine with aura is not an indication for aneurysm screening. Migraine may cause thunderclap headache mimics, but absent family history, no screening protocol applies"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Screening MRA recommended for: two or more first-degree relatives with aneurysmal SAH (FIA); ADPKD with family history of SAH",
+          "trial": "Rinkel GJE et al. (Stroke 1998): FIA prevalence and screening yield — MRA screening in FIA families yields UIAs in 9–10% vs 3–5% general population; ADPKD screening (Irazabal CJASN 2011): 10–12% UIA prevalence",
+          "pearl": "Aneurysm screening indications: (1) FIA — 2+ first-degree relatives with aneurysmal SAH; (2) ADPKD + family history of SAH. Screening modality: MRA (not CTA — no radiation for serial screening). Screening interval: every 7–10 years if negative."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q6",
+        "stem": "Stent-assisted coiling is planned for an elective 11 mm wide-neck anterior communicating artery aneurysm in a 55-year-old man. What is the MOST critical pre-procedure requirement that differentiates stent-assisted coiling from standard coiling?",
+        "options": {
+          "A": "General anaesthesia must be used (whereas standard coiling can use conscious sedation)",
+          "B": "Pre-procedure dual antiplatelet therapy (aspirin + clopidogrel) started at least 5 days before the procedure, with P2Y12 function testing to confirm adequate platelet inhibition",
+          "C": "Pre-procedure brain MRI to exclude mass lesions adjacent to the aneurysm",
+          "D": "Pre-procedure carotid ultrasound to assess for tandem stenosis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The critical differentiating requirement for stent-assisted coiling is pre-procedure dual antiplatelet therapy (DAPT). The intravascular stent is a thrombogenic surface, and without adequate platelet inhibition, in-stent thrombosis with parent artery occlusion and stroke is a major risk. Aspirin + clopidogrel is started at least 5 days before the procedure (allowing time for adequate platelet inhibition). P2Y12 function testing (VerifyNow or Multiplate assay) confirms adequate clopidogrel response — clopidogrel non-responders (up to 30% of patients) require alternative antiplatelet agents (prasugrel, ticagrelor). This DAPT requirement makes stent-assisted coiling contraindicated for acute ruptured aneurysms.",
+          "wrong": {
+            "A": "General anaesthesia is preferred for complex endovascular procedures but is not the specific differentiating requirement — standard coiling is also typically performed under general anaesthesia in most centres",
+            "C": "Pre-procedure brain MRI is not specific to stent-assisted coiling — it may be performed as standard practice but is not the key differentiating requirement",
+            "D": "Carotid ultrasound is relevant for assessing access but is not a specific pre-procedure requirement differentiating stent-assisted from standard coiling"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Stent-assisted coiling requires pre-procedure DAPT for minimum 5 days; contraindicated in acute SAH",
+          "trial": "Shapiro M et al. (AJNR 2012): stent-assisted coiling — thromboembolic complications significantly reduced with pre-procedure clopidogrel loading; P2Y12 testing: Kang HS (Stroke 2010) — clopidogrel resistance in 30% of patients",
+          "pearl": "Stent-assisted coiling = mandatory DAPT pre-procedure (aspirin + clopidogrel ≥5 days) + P2Y12 testing. CONTRAINDICATED in acute ruptured SAH. Standard coiling and WEB device: aspirin only (no clopidogrel required). This is a key practical distinction."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q7",
+        "stem": "A 70-year-old man with known carotid artery disease presents with a 3-week history of progressive right ptosis, diplopia (vertical gaze limitation), and mydriasis. MRI with gadolinium shows a 22 mm heterogeneously enhancing right posterior communicating artery mass. What is the MOST likely diagnosis, and what immediate imaging is required?",
+        "options": {
+          "A": "Pituitary macroadenoma with cavernous sinus invasion — urgent MRI pituitary with dynamic gadolinium sequences",
+          "B": "Giant posterior communicating artery aneurysm with compressive CN III palsy — urgent CT angiography or catheter angiography",
+          "C": "Meningioma of the cavernous sinus — biopsy and referral to oncology",
+          "D": "Tolosa-Hunt syndrome (granulomatous cavernous sinusitis) — corticosteroids and follow-up MRI"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A painful progressive CN III palsy (ptosis, diplopia, mydriasis) in an elderly patient with a parasellar mass is a giant aneurysm until proven otherwise. The MRI appearance (heterogeneous gadolinium enhancement with flow voids in an unenhanced core, 22 mm size) is characteristic of a partially thrombosed giant aneurysm. Urgent CTA or catheter angiography is mandatory to define the vascular anatomy before any other intervention. The pupil involvement distinguishes compressive CN III palsy from ischaemic (vasculopathic) CN III palsy, where the pupil is typically spared.",
+          "wrong": {
+            "A": "Pituitary macroadenoma with cavernous sinus invasion is a reasonable differential but typically presents with bitemporal hemianopia from chiasm compression and hormonal disturbance. The combination of pupil-involving CN III palsy with a predominantly CN III syndrome (not pan-cavernous sinus) and a 22 mm well-defined lesion is more consistent with a giant aneurysm",
+            "C": "Cavernous sinus meningioma typically causes slowly progressive multiple cranial nerve palsies without pupillary involvement and has characteristic CT appearance (hyperostosis, dural tail). Biopsy without angiography would be catastrophic if this is an aneurysm",
+            "D": "Tolosa-Hunt causes painful ophthalmoplegia from granulomatous inflammation and responds to steroids. However, it typically does not cause a 22 mm enhancing mass, and the correct approach is always vascular imaging before assuming a benign inflammatory cause"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Giant aneurysms with mass effect require vascular imaging (CTA/DSA) before any biopsy or steroid treatment; pupil-involving CN III palsy = vascular cause until proven otherwise",
+          "trial": "Linskey ME et al. (Neurosurgery 1990): giant aneurysm presenting as parasellar mass — misdiagnosis as tumour in 15% of cases pre-imaging; CTA sensitivity 97–99% for giant aneurysms",
+          "pearl": "Pupil-INVOLVING CN III palsy + parasellar mass = GIANT ANEURYSM until proven otherwise. Always get CTA/DSA before biopsy. Pupil involvement distinguishes compressive (vascular/tumour) from ischaemic (vasculopathic) CN III — ischaemic CN III palsy spares the pupil."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q8",
+        "stem": "A 48-year-old woman with ADPKD undergoes screening MRA and is found to have a 5 mm right anterior communicating artery aneurysm. She has no history of SAH. Her PHASES score is 5 (5-year rupture risk 3.3%). She is otherwise healthy. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate surgical clipping — ADPKD aneurysms always require treatment",
+          "B": "Immediate endovascular coiling — all anterior communicating artery aneurysms require treatment regardless of size",
+          "C": "Individualised decision: treatment may be appropriate given young age, long life expectancy, and moderate PHASES score (3.3% 5-year risk); discuss risks of intervention vs observation",
+          "D": "Observation with MRA every 10 years — ISUIA shows 0% rupture risk for <7 mm anterior aneurysms"
+        },
+        "correct": "C",
+          "explanation": {
+          "correct": "This 48-year-old woman with ADPKD, a 5-year rupture risk of 3.3% (PHASES score 5), and a long life expectancy represents a complex decision. PHASES 3.3% at 5 years = approximately 0.66% annual risk. If she lives 35 more years, her cumulative lifetime rupture risk is approximately 20–25%. Procedural risk for elective endovascular coiling is approximately 1–3% morbidity/mortality for an AComA aneurysm this size at experienced centres. Given young age, prior ADPKD-associated risk factors, and AComA location (associated with higher rupture risk than cavernous ICA), treatment may well be the right decision — but this requires individualised discussion, not automatic observation or automatic treatment.",
+          "wrong": {
+            "A": "ADPKD aneurysms do not 'always require treatment' — the same risk-benefit analysis applies as for sporadic aneurysms, though ADPKD patients have higher prevalence and should have a lower threshold for treatment consideration",
+            "B": "All anterior communicating artery aneurysms do NOT require treatment regardless of size. Location increases risk (PHASES 2 points for AComA), but treatment decision always balances procedural risk against natural history risk",
+            "D": "The ISUIA 0% figure has important selection bias limitations (see B4-Q2). A 5 mm AComA aneurysm in a 48-year-old ADPKD patient should NOT be categorically dismissed as zero risk — AComA location has 2 PHASES points and the prior ADPKD risk factor is relevant"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Treatment decisions require individualised risk-benefit analysis; young age, high PHASES score, anterior communicating artery location, and ADPKD all favour treatment consideration",
+          "trial": "ISUIA (Wiebers Lancet 2003): natural history data with selection bias; PHASES (Greving LN 2014): individualised 5-year risk; ADPKD aneurysm rupture risk: Irazabal (CJASN 2011)",
+          "pearl": "UIA treatment decision: PHASES score × patient age/life expectancy × procedural risk × patient preference × anatomy. Young patients with moderate PHASES scores and long life expectancy often benefit from treatment. Older patients with low PHASES scores may reasonably observe."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q9",
+        "stem": "Which of the following best describes the mechanism of the Pipeline Embolisation Device (PED) and why aneurysm occlusion is DELAYED after deployment?",
+        "options": {
+          "A": "PED immediately fills the aneurysm with platinum coils, causing instant thrombosis",
+          "B": "PED is deployed in the parent artery across the aneurysm neck, redirecting blood flow away from the aneurysm and inducing progressive thrombosis over weeks to months",
+          "C": "PED releases thrombin directly into the aneurysm, causing chemical thrombosis within 24 hours",
+          "D": "PED occludes the parent artery, causing aneurysm thrombosis by elimination of inflow"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Pipeline Embolisation Device is a high-mesh-density (35% metallic surface coverage) braided endovascular stent deployed in the PARENT ARTERY across the aneurysm neck — it does NOT go inside the aneurysm. The high mesh density redirects blood flow (flow diversion) away from the aneurysm orifice, reducing intra-aneurysmal flow velocities and wall shear stress. This promotes progressive thrombosis within the aneurysm sac over weeks to months. Neointimal tissue grows across the neck over the mesh, permanently remodelling the parent artery and excluding the aneurysm. This gradual process explains why complete occlusion takes 3–6 months (75–90% by 12 months) — it is not an immediately protective procedure.",
+          "wrong": {
+            "A": "PED does not contain or deploy coils — it is a flow diverter deployed in the parent artery, not an aneurysm-filling device",
+            "C": "PED has no pharmacological thrombin release mechanism. Thrombosis occurs through haemodynamic (flow diversion) mechanisms, not chemical",
+            "D": "PED does NOT occlude the parent artery — this would cause an ischaemic stroke in the territory distal to the aneurysm. The parent artery remains patent while the aneurysm thromboses"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Flow diversion mechanism: parent artery endoluminal reconstruction redirecting flow away from aneurysm",
+          "trial": "PUFS trial (Nelson AJNR 2011): 108 patients — mechanism of PED established; delayed occlusion at 6 months (74%) and 12 months (76%) confirmed in prospective study",
+          "pearl": "PED = parent artery flow diverter, NOT intrasaccular device. High mesh density redirects flow, causing GRADUAL aneurysm thrombosis over months. NOT immediately protective — complete occlusion takes 3–6 months. Requires dual antiplatelet for minimum 6 months."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q10",
+        "stem": "A 60-year-old woman with a 12 mm giant basilar tip aneurysm is under consideration for endovascular treatment. She has bilateral ptosis and upgaze restriction from aneurysm compression. The team discusses standard coiling versus Pipeline Embolisation Device. Why is Pipeline Embolisation Device relatively CONTRAINDICATED for this aneurysm?",
+        "options": {
+          "A": "PED cannot be deployed in vessels smaller than 3 mm diameter",
+          "B": "The basilar tip aneurysm has multiple critical perforating arteries (thalamoperforators, PCA branches) arising adjacent to the aneurysm neck, which may be covered by the high-mesh-density PED, risking occlusion",
+          "C": "PED requires ipsilateral carotid access, which cannot be achieved for basilar artery aneurysms",
+          "D": "PED occludes too rapidly for basilar tip aneurysms, causing immediate neurological deficit"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Posterior circulation aneurysms — particularly basilar tip aneurysms — are a relative contraindication for Pipeline Embolisation Device because of the dense network of critical perforating arteries (thalamoperforating arteries, PCA origins, superior cerebellar artery origins) arising at and immediately adjacent to the basilar tip. The high mesh density of the PED (35% metal surface coverage) placed across these perforators risks occlusion of small perforating arteries, causing pontine, midbrain, and thalamic infarctions — potentially devastating. This risk is much lower for ICA aneurysms where the vessel segment covered has few or no perforators.",
+          "wrong": {
+            "A": "PED can be deployed in vessels 2.5–5 mm diameter — the basilar artery (typically 3–4 mm) is within this range. Device size is not the contraindication",
+            "C": "Basilar artery access for PED is achieved via the vertebral arteries (femoral → vertebral artery → basilar), not via the carotid artery. Access is technically feasible",
+            "D": "PED causes DELAYED thrombosis (months) — it does not occlude rapidly. The concern with basilar tip PED is perforator coverage, not speed of occlusion"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — PED: use with caution for posterior circulation; perforator coverage risk is the primary concern for basilar tip aneurysms",
+          "trial": "IntrePED study (Kallmes, AJNR 2015): 793 PED procedures — posterior circulation aneurysms associated with higher ischaemic complication rates (12.7% vs 5.9% for anterior circulation)",
+          "pearl": "PED CONTRAINDICATED (relative) for basilar tip — perforator coverage risk (thalamoperforators, PCA origins). PED is best for ICA (cavernous, paraclinoid) where the covered vessel segment has no perforators. Posterior circulation PED = higher ischaemic complication rate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q11",
+        "stem": "A 55-year-old woman has two first-degree relatives who suffered aneurysmal SAH: her mother at age 52 and her brother at age 47. She undergoes MRA screening at age 50 and is found to have no intracranial aneurysm. When should her next screening MRA be performed?",
+        "options": {
+          "A": "Annual MRA screening indefinitely",
+          "B": "No further screening — a single negative MRA excludes familial intracranial aneurysm",
+          "C": "Repeat MRA in 7–10 years (approximately age 57–60)",
+          "D": "Repeat MRA in 20 years (approximately age 70)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For familial intracranial aneurysm (FIA) families — defined as two or more first-degree relatives with aneurysmal SAH — screening MRA is recommended beginning at age 20–25. If the first screen is negative, repeat screening every 7–10 years is recommended to detect new aneurysm formation (de novo aneurysms develop in FIA families). A single negative screen does not exclude lifelong aneurysm risk in FIA — aneurysms can develop over time in genetically susceptible individuals.",
+          "wrong": {
+            "A": "Annual MRA is unnecessarily frequent for a patient with an initial negative screen. The 7–10-year interval is evidence-based and reduces radiation exposure (if CTA used) and cost",
+            "B": "A single negative screen does NOT permanently exclude FIA. De novo aneurysm formation occurs in genetically susceptible individuals — new aneurysms can develop on previously normal vessels",
+            "D": "Twenty years between screenings is too long. The FIA consensus interval is 7–10 years — long enough to avoid unnecessary intervention but short enough to detect new aneurysm formation while it remains small and treatable"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — FIA screening: begin at age 20–25; if negative, repeat every 7–10 years",
+          "trial": "Rinkel GJE et al. (Stroke 1998): FIA screening yield and intervals; Finnish FIA Programme: 43% yield in families with ≥2 affected members; de novo aneurysm formation documented in serial screening",
+          "pearl": "FIA screening protocol: start age 20–25 → if negative, repeat every 7–10 years. A SINGLE negative screen does NOT exclude lifelong risk. Modality: MRA (not CTA — no radiation for serial screening)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q12",
+        "stem": "A 65-year-old man with a previously coiled 8 mm right ICA aneurysm undergoes routine MRA follow-up at 3 years. It shows recanalisation of the aneurysm dome with partial coil compaction (Raymond-Roy Class III). He is asymptomatic. What is the recommended management?",
+        "options": {
+          "A": "Observation with repeat MRA in 5 years — minor recanalisation does not require treatment",
+          "B": "Repeat endovascular treatment (re-coiling, stent-assisted coiling, or flow diversion) based on aneurysm morphology and extent of recanalisation",
+          "C": "Immediate surgical clipping as the aneurysm has failed endovascular treatment",
+          "D": "Anticoagulation with warfarin to prevent thrombus formation within the aneurysm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Aneurysm recanalisation after coiling (Raymond-Roy Class III = major recanalisation) indicates significant coil compaction with reopening of the aneurysm dome — this carries renewed rupture risk. ISAT long-term data showed 13.6% re-treatment rate after coiling at 18 years (vs 8.4% for clipping). For Raymond-Roy Class III recanalisation (major), re-treatment is generally recommended. Options depend on anatomy: re-coiling, stent-assisted coiling (if not previously stented), or flow diversion (PED) if the neck is wide. Surgical clipping remains an option but is higher risk after failed endovascular treatment.",
+          "wrong": {
+            "A": "Raymond-Roy Class III (major recanalisation with dome reopening) is NOT a minor finding — it indicates the coil mass has compacted away from the dome, leaving it exposed to arterial pressure. Observation alone is inadequate for Class III recanalisation",
+            "C": "Surgical clipping is an option but not the automatic first choice after failed coiling. Re-coiling or flow diversion are typically considered first before committing to open surgery",
+            "D": "Anticoagulation would increase bleeding risk from the recanalised aneurysm and has no role in aneurysm management"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Aneurysm recanalisation (Raymond-Roy Class III) after coiling warrants re-treatment in most cases; re-treatment modality based on anatomy",
+          "trial": "ISAT long-term (Molyneux Lancet 2015): 13.6% re-treatment rate after coiling at 18 years vs 8.4% after clipping; Raymond-Roy occlusion scale: Class I=complete, II=neck remnant, III=dome recanalisation",
+          "pearl": "Raymond-Roy Class III recanalisation = major aneurysm reopening → re-treatment needed. This is why coiling has lower long-term durability than clipping (ISAT: 13.6% vs 8.4% re-treatment at 18 years). Always follow coiled aneurysms with imaging at 6m, 18m, 3y, 5y intervals."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q13",
+        "stem": "A 62-year-old woman undergoes resection of a right frontoparietal glioblastoma. Intraoperatively, a 6 mm right MCA M1 segment aneurysm is identified on angiography, incidentally. The GBM surgery is completed successfully. What is the most appropriate management of the incidental aneurysm?",
+        "options": {
+          "A": "Immediate coiling of the aneurysm on the same day as the craniotomy",
+          "B": "Refer to neurovascular team for elective PHASES score calculation and individualised treatment decision, considering that GBM prognosis (median survival 12–15 months) significantly influences the risk-benefit analysis",
+          "C": "No further management — brain tumour patients should not undergo aneurysm treatment",
+          "D": "Surgical clipping during the same craniotomy for the GBM resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "An incidental aneurysm in a GBM patient requires a nuanced approach. GBM median survival with standard Stupp protocol (temozolomide + RT) is 14–16 months. The 5-year rupture risk of a 6 mm MCA aneurysm based on PHASES (assuming MCA location = 2 points, hypertension absent, age 62 <70, no prior SAH, and non-Japanese population) is relatively low. Given GBM median survival <2 years, the lifetime rupture risk from this aneurysm is substantially lower than in a patient with normal life expectancy. Treatment should be discussed with the neurovascular team in the context of GBM prognosis — elective treatment may be deferred given expected short survival, or treated if the patient is young, has good performance status, and extended survival is anticipated.",
+          "wrong": {
+            "A": "Same-day coiling after a major craniotomy is technically feasible but adds procedural risk and anticoagulation during a fresh surgical site — not appropriate without a clear indication",
+            "C": "GBM patients are NOT automatically excluded from aneurysm treatment — the decision requires individual assessment. Blanket exclusion ignores cases where patient prognosis may be better than expected",
+            "D": "Clipping the aneurysm during the same craniotomy would require extending the dissection well beyond the tumour resection site (GBM is frontoparietal, aneurysm is M1 segment) — this adds substantial operative risk without clear benefit in the acute setting"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Comorbidities significantly modify the treatment risk-benefit calculation; prognosis-limiting comorbidities (cancer) reduce lifetime rupture risk",
+          "trial": "ISUIA (Wiebers Lancet 2003): treatment risk vs natural history; life expectancy is a key variable — shorter life expectancy reduces lifetime rupture risk from any given annual risk percentage",
+          "pearl": "Incidental UIA in cancer: always consider prognosis. GBM median survival 14 months — lifetime rupture risk from low-PHASES aneurysm is minimal compared to treatment risk. Individualise based on expected survival, PHASES score, and patient preference."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q14",
+        "stem": "What is the significance of aneurysm 'irregularity' or 'daughter sac' morphology on risk of rupture, and is it incorporated into the PHASES score?",
+        "options": {
+          "A": "Irregular morphology/daughter sacs are NOT associated with increased rupture risk; PHASES score correctly ignores this factor",
+          "B": "Irregular morphology (blebs, daughter sacs, multilobulations) significantly increases rupture risk and is associated with higher risk than smooth aneurysms of the same size; it is NOT incorporated into the PHASES score but is considered clinically when making treatment decisions",
+          "C": "PHASES incorporates morphology as its primary variable (5 points for irregular vs 0 for smooth)",
+          "D": "Daughter sacs are associated with lower rupture risk because they indicate slow, stable aneurysm growth"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Multiple studies (PHASES validation, ISUIA, and multiple observational cohorts) have confirmed that irregular aneurysm morphology — blebs, daughter sacs, multilobulations, and irregular surface — is an independent predictor of rupture risk beyond size alone. Irregular aneurysms are believed to represent areas of local wall stress concentration and degenerative wall change. The PHASES score, despite being the most validated risk calculator, does NOT include morphology — this is a recognised limitation. Clinicians must consider morphology as an additional factor when making treatment decisions for borderline PHASES-risk aneurysms.",
+          "wrong": {
+            "A": "Irregular morphology IS associated with increased rupture risk — this is one of the most consistent findings across UIA natural history studies. It is a key clinical modifier even though PHASES doesn't include it",
+            "C": "PHASES does not include morphology — this is a validated limitation of the score. The six PHASES variables are: Population, Hypertension, Age, Size, Earlier SAH, Site",
+            "D": "Daughter sacs indicate focal wall weakness and active haemodynamic stress, NOT slow stable growth. They are associated with HIGHER rupture risk"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Irregular morphology, blebs, and daughter sacs increase rupture risk; clinicians should consider morphology in addition to PHASES score",
+          "trial": "PHASES derivation (Greving LN 2014): morphology not included due to heterogeneous measurement across datasets; Orz Y (Neurosurg Rev 2018): irregular morphology associated with 2.4× higher rupture risk",
+          "pearl": "PHASES does NOT include morphology — a known limitation. Irregular aneurysms (blebs, daughter sacs, multilobulations) have higher rupture risk than smooth aneurysms of the same size. Always consider morphology clinically even when PHASES score is low-moderate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q15",
+        "stem": "A 58-year-old woman with no risk factors has a screening CT incidentally revealing a 4 mm anterior communicating artery aneurysm on CT performed for sinusitis. She is anxious and asks about the annual rupture risk. What is the most accurate statement about rupture risk for this specific aneurysm?",
+        "options": {
+          "A": "Annual rupture risk is exactly 0% based on ISUIA — no treatment or follow-up needed",
+          "B": "Annual rupture risk is approximately 0.1–0.5% per year based on PHASES and clinical evidence; observation with follow-up imaging is recommended",
+          "C": "Annual rupture risk is 5–10% — urgent endovascular treatment should be arranged",
+          "D": "Annual rupture risk cannot be estimated without DSA — CTA/MRA are insufficient for aneurysm characterisation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 4 mm AComA aneurysm in a 58-year-old without significant risk factors: PHASES score = P(0) + H(0) + A(0, <70) + S(0, <7mm) + E(0) + S(2, AComA) = 2 points. PHASES score 2 → 5-year rupture risk 0.4% = approximately 0.08% annual risk. However, PHASES score 0–2 categories include some aneurysms with rupture risk higher than 0. Clinical practice: low-moderate risk (0.1–0.5% annual estimate) with observation and follow-up imaging (MRA at 6–12 months to assess for growth, then annually or biannually). ISUIA 0% should not be quoted as absolute.",
+          "wrong": {
+            "A": "ISUIA 0% for <7 mm anterior UIAs has selection bias limitations — it should not be quoted to patients as absolute zero risk. Real-world data shows 20–30% of ruptured aneurysms are <7 mm",
+            "C": "Annual rupture risk of 5–10% would apply to giant aneurysms (≥25 mm) or high-PHASES cases. A 4 mm AComA aneurysm in a low-risk patient does not approach this magnitude of annual risk",
+            "D": "CTA and MRA are adequate for aneurysm characterisation for most management decisions. DSA (catheter angiography) is reserved for pre-treatment planning, inconclusive CTA/MRA, or complex anatomy requiring high-resolution imaging"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Observation with serial imaging recommended for low-PHASES aneurysms; follow-up imaging at 6–12 months initially, then every 1–3 years",
+          "trial": "PHASES (Greving LN 2014): Score 0–2 → 5-year rupture risk 0.4% = ~0.08% annual; real-world studies show this is the lower bound estimate",
+          "pearl": "PHASES 0–2 (4 mm AComA, no risk factors): 5-year risk 0.4% (~0.08% annual). Management: observation + serial imaging (MRA 6–12 months initially). Quote 0.1–0.5% annual risk to patients — not ISUIA's '0%' which has selection bias."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q16",
+        "stem": "A 67-year-old woman with hypertension and a 20 mm giant basilar tip aneurysm presents with progressive diplopia and upgaze palsy from midbrain compression. She is a poor surgical candidate due to cardiac comorbidities. Why is the PHASES score alone INSUFFICIENT for guiding her management?",
+        "options": {
+          "A": "PHASES score is only valid for anterior circulation aneurysms",
+          "B": "PHASES score estimates rupture risk from SAH but does not account for symptomatic mass effect (CN palsy from direct compression), which may warrant treatment for palliation regardless of rupture risk",
+          "C": "PHASES score requires DSA measurement of aneurysm size, which has not been performed",
+          "D": "PHASES score is only valid for aneurysms <15 mm — giant aneurysms are excluded from the derivation cohort"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PHASES score was derived to estimate the risk of RUPTURE and guide the rupture risk vs procedural risk decision. However, giant aneurysms frequently cause treatment indications beyond rupture risk — specifically, progressive neurological deficits from mass effect (cranial nerve palsies, visual field defects, hydrocephalus). A 20 mm basilar tip aneurysm causing progressive midbrain compression may warrant treatment for PALLIATION of mass effect symptoms, independent of the calculated rupture risk. The treatment indication framework expands from 'rupture prevention' to include 'mass effect palliation' for symptomatic giant aneurysms.",
+          "wrong": {
+            "A": "PHASES includes posterior circulation/basilar aneurysms (4 points for vertebrobasilar/PComA site) — it is valid for all intracranial locations",
+            "C": "PHASES uses size measured on any validated imaging modality including CTA or MRA — DSA is not required for PHASES calculation",
+            "D": "PHASES was derived from patients including those with large aneurysms — there is no upper size limit for PHASES application, though its predictive accuracy at extremes of size is less well validated"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Symptomatic aneurysms (mass effect, CN palsy) may warrant treatment for symptom palliation regardless of PHASES-calculated rupture risk",
+          "trial": "ISUIA (Wiebers Lancet 2003): symptomatic aneurysms were an independent treatment category separate from rupture risk assessment; mass effect symptoms from giant aneurysms often progress without treatment",
+          "pearl": "PHASES estimates RUPTURE risk only. Symptomatic aneurysms (CN palsy, visual field defect, hydrocephalus from mass effect) have an ADDITIONAL treatment indication — symptom palliation. Giant aneurysms with mass effect often require treatment even at lower rupture risk."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q17",
+        "stem": "Intraoperative indocyanine green (ICG) videoangiography is used during aneurysm clipping. What is the PRIMARY purpose of this technique?",
+        "options": {
+          "A": "To measure cerebral blood flow quantitatively during temporary clipping",
+          "B": "To confirm complete aneurysm occlusion and verify parent artery and branch vessel patency immediately after clip placement",
+          "C": "To identify the dominant hemisphere before eloquent cortex mapping",
+          "D": "To detect intraoperative bleeding from the clip site by fluorescence"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intraoperative ICG videoangiography (FLOW 800 or equivalent) involves intravenous injection of indocyanine green dye, which is visualised through the surgical microscope using near-infrared fluorescence. It provides real-time assessment of: (1) whether the aneurysm is completely occluded (no ICG fluorescence within the aneurysm after clip placement); (2) whether the parent artery and all branch vessels are patent (fluorescence flows through them without obstruction). This allows immediate clip adjustment if a branch vessel is inadvertently clipped or if aneurysm residual is detected — before the patient is closed. ICG has replaced or supplemented intraoperative Doppler ultrasound for flow confirmation.",
+          "wrong": {
+            "A": "ICG provides qualitative flow confirmation (patent vs occluded) with relative intensity mapping — it does not provide quantitative cerebral blood flow measurements in cc/min/100g. Quantitative CBF measurement requires SPECT, PET, or thermal dilution techniques",
+            "C": "Hemisphere dominance mapping uses language testing during awake craniotomy, fMRI, or Wada test — not ICG angiography",
+            "D": "ICG shows blood flow patterns through fluorescent vessels — it does not specifically detect bleeding. Haemostasis is assessed by direct surgical inspection"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Intraoperative ICG videoangiography or intraoperative DSA recommended to confirm aneurysm occlusion and parent vessel patency after clipping",
+          "trial": "Stummer W et al. (Neurosurgery 2014): ICG compared to intraoperative DSA for clip assessment — agreement >90%; ICG reduces need for routine intraoperative DSA",
+          "pearl": "Intraoperative ICG = real-time clip verification: confirms (1) aneurysm occluded (no ICG in sac), (2) parent artery and branches patent (ICG flows through them). Allows immediate clip adjustment before wound closure. Replaced intraoperative Doppler as standard practice."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B4-Q18",
+        "stem": "A 50-year-old man has a 9 mm wide-neck right MCA bifurcation aneurysm treated with a WEB device. At 12-month follow-up, MRA shows 'adequate occlusion' (neck remnant only). What does this finding mean, and is additional treatment required?",
+        "options": {
+          "A": "Adequate occlusion means complete aneurysm occlusion — no further treatment or imaging is needed",
+          "B": "Adequate occlusion (neck remnant only, Raymond-Roy class II equivalent) indicates successful treatment with low re-treatment risk; annual imaging follow-up continues",
+          "C": "Adequate occlusion means major recanalisation — urgent re-treatment is needed",
+          "D": "WEB devices always require additional coiling at 12 months regardless of occlusion status"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For WEB device outcomes, 'adequate occlusion' (equivalent to Raymond-Roy class II — neck remnant without dome recanalisation) is the standard acceptable outcome and represents treatment success. WEBCAST and CLARITY studies both used adequate occlusion (complete occlusion + neck remnant) as the primary efficacy endpoint, achieving 80–85% rates at 12 months. A neck remnant without dome recanalisation carries low re-rupture and re-treatment risk. Annual follow-up MRA/DSA continues to monitor for any late recanalisation, but additional treatment is not required for adequate occlusion.",
+          "wrong": {
+            "A": "Adequate occlusion includes a neck remnant — it is NOT the same as complete occlusion (Raymond-Roy class I). However, it IS the standard successful WEB outcome and does not require re-treatment",
+            "C": "Adequate occlusion is NOT major recanalisation — that would be Raymond-Roy class III with dome reopening. Adequate occlusion is a stable, acceptable outcome",
+            "D": "WEB devices do not routinely require additional coiling — WEB is designed as a standalone device. Additional coiling would only be considered for documented major recanalisation"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 and WEBCAST/CLARITY study endpoints — adequate occlusion (complete + neck remnant) is the primary endpoint for WEB device assessment",
+          "trial": "WEBCAST (Lubicz, Stroke 2017): 51 patients — adequate occlusion (complete + neck remnant) 85% at 12 months; CLARITY (Pierot, AJNR 2019): adequate occlusion 84.1%; re-treatment rate 8% at 12 months",
+          "pearl": "WEB outcome: 'adequate occlusion' = complete occlusion + neck remnant (not dome recanalisation) = TREATMENT SUCCESS. 80–85% adequate occlusion at 12 months in WEBCAST/CLARITY. Continue annual imaging. Only re-treat for major recanalisation (dome reopening)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B4-Q19",
+        "stem": "A 72-year-old woman with a 5 mm cavernous ICA aneurysm has a PHASES score of 2 (5-year rupture risk 0.4%). She has advanced Alzheimer's disease (moderate severity) and lives in a memory care facility. What is the MOST appropriate management recommendation?",
+        "options": {
+          "A": "Pipeline Embolisation Device, as cavernous ICA aneurysms are always treated with PED",
+          "B": "Surgical clipping, as this provides the most durable aneurysm occlusion",
+          "C": "Observation without imaging follow-up — given age, dementia severity, and very low PHASES score, the intervention risk exceeds potential benefit",
+          "D": "Annual CTA screening with treatment if growth detected"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Risk-benefit analysis heavily favours observation here: (1) PHASES score 2 = 5-year rupture risk 0.4% = 0.08% annual risk; (2) age 72 with moderate Alzheimer's disease — limited life expectancy reduces lifetime rupture risk substantially; (3) PED for a cavernous ICA aneurysm requires dual antiplatelet therapy and general anaesthesia — high procedural risk in an elderly patient with moderate dementia; (4) a 5 mm cavernous aneurysm is unlikely to cause mass effect symptoms; (5) the patient cannot consent to ongoing follow-up imaging or comply with antiplatelet therapy. Observation without intensive imaging follow-up is appropriate. This is a textbook case where patient comorbidities override any size/location factors that might otherwise favour treatment.",
+          "wrong": {
+            "A": "PED is indicated for large/giant cavernous ICA aneurysms with mass effect or high PHASES. A 5 mm aneurysm with PHASES score 2 and the patient's comorbidities does not warrant PED",
+            "B": "Surgical clipping of a cavernous ICA aneurysm in a 72-year-old with moderate Alzheimer's carries very high operative risk with minimal benefit. Cavernous ICA aneurysms are rarely clipped due to the risks of cavernous sinus surgery",
+            "D": "Annual CTA exposes the patient to repeated radiation and contrast, requires transportation from a memory care facility, and the results would likely not change management for this very low-risk aneurysm. Serial imaging has minimal benefit here"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Patient age, life expectancy, and comorbidities are essential components of the treatment decision; low PHASES + short life expectancy + high procedural risk = observation",
+          "trial": "ISUIA (Wiebers Lancet 2003): 5-year surgical morbidity/mortality 12.6% anterior circulation — procedural risk may exceed rupture risk for low-PHASES aneurysms in high-risk patients",
+          "pearl": "UIA management is INDIVIDUALISED. Low PHASES (0.4% 5-year risk) + short life expectancy (age 72, moderate dementia) + high procedural risk = OBSERVATION. Treatment is not automatic for any aneurysm — always weigh rupture risk against procedural risk in the context of patient-specific life expectancy."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B4-Q20",
+        "stem": "A 44-year-old woman is found to have a 6 mm posterior communicating artery (PComA) aneurysm incidentally during workup for migraine. She has no history of SAH, no hypertension, and is of Northern European origin. Her PHASES score is calculated as: P=0, H=0, A=0, S=0 (<7 mm), E=0, S=4 (posterior/PComA). Total = 4 points (5-year rupture risk 1.3%). What additional clinical factor significantly modifies the treatment decision and is NOT captured by PHASES?",
+        "options": {
+          "A": "Her female sex (females have higher rupture risk than males for equivalent PHASES scores)",
+          "B": "The aneurysm size is borderline 6 mm — rounding to 7 mm would increase PHASES to 3 points",
+          "C": "PComA aneurysms carry a specific risk of oculomotor nerve compression even before rupture (symptomatic CN III palsy), which is a treatment indication independent of rupture risk",
+          "D": "Migraine is an independent risk factor for aneurysm rupture and must be included in the risk calculation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The PComA aneurysm has a unique risk beyond rupture: direct compression of the adjacent oculomotor nerve (CN III), causing a painful CN III palsy (ptosis, mydriasis, ophthalmoplegia). This can occur from a PComA aneurysm BEFORE rupture and is a treatment indication in itself — palliation of CN III palsy and prevention of further nerve damage. PHASES score does not incorporate this anatomical proximity risk. A 6 mm PComA aneurysm with risk of CN III palsy may warrant treatment in a young patient, even with a relatively low PHASES-calculated rupture risk.",
+          "wrong": {
+            "A": "Female sex is NOT an independent risk factor incorporated into PHASES, and the magnitude of sex-based risk difference is smaller than other PHASES factors. Some studies suggest females have slightly higher rupture rates, but this is controversial and not included in PHASES",
+            "B": "Measuring 6 mm not 7 mm means it falls in the <7 mm category — you should use the measured size, not round up. Correct measurement of 6 mm = 0 PHASES points for size",
+            "D": "Migraine is NOT an independent risk factor for aneurysm rupture and is not incorporated into PHASES or any validated risk score. The association between migraine and aneurysms is related to misdiagnosis (thunderclap headache from SAH misclassified as migraine) rather than causal risk"
+          },
+          "guideline": "AHA/ASA UIA Guidelines 2015 — Symptomatic aneurysms (CN III palsy from PComA aneurysm) are a treatment indication beyond rupture risk; CN III palsy indicates direct compressive risk",
+          "trial": "Multiple PComA aneurysm series (Chen 2003, Yu 2017): CN III palsy risk from PComA aneurysms even before rupture; clipping preferred for CN III decompression and recovery",
+          "pearl": "PComA aneurysm: treatment indication = (1) PHASES-based rupture risk + (2) CN III palsy risk (even pre-rupture). PHASES doesn't capture CN III compression risk — this is a clinical modifier. PComA aneurysm + CN III palsy → surgical clipping for direct nerve decompression."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

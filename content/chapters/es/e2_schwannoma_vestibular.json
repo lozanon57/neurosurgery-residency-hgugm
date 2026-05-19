@@ -1,0 +1,781 @@
+{
+  "id": "E2",
+  "title": "Schwannoma Vestibular y Otros Tumores de Nervios Craneales",
+  "subtitle": "Bloque E — Base de Cráneo y Nervio Periférico",
+  "block": "E",
+  "block_name": "Base de Cráneo y Nervio Periférico",
+  "level": "R2-4",
+  "reading_time_min": 42,
+  "guidelines_version": "AAO-HNS 2012 · EANO 2020 · British Acoustic Neuroma Association 2018",
+  "textbook_refs": [
+    "Brackmann DE, Shelton C, Arriaga MA. Otologic Surgery. Elsevier Saunders (2016)",
+    "Samii M & Matthies C. Manejo of 1000 vestibular schwannomas. Neurosurgery 1997;40(1):11-21",
+    "Hansasuta A et al. Multisession estereotáctico radiosurgery for vestibular schwannomas. Neurosurgery 2011",
+    "Stangerup SE & Caye-Thomasen P. Epidemiology and natural history of vestibular schwannomas. Otolaryngol Clin North Am 2012;45(2):257-268",
+    "Evans DG. Neurofibromatosis type 2. Eur J Hum Genet 2009;17(3):280-291"
+  ],
+  "learning_objectives": [
+    "Clasificar vestibular schwannomas by size (Koos classification) and audiometric status, and identify the relationship between size and treatment options",
+    "Describir the three surgical approaches to the internal auditory canal and cerebellopontino angle (retrosigmoideo, translaberíntico, middle fossa) with their indications and hearing preservation potential",
+    "Resumir the natural history of sporadic vestibular schwannoma and evidence for initial observation versus treatment",
+    "Aplicar the principles of facial nerve monitoring and preservation during vestibular schwannoma surgery",
+    "Resumir the evidence for Gamma Knife estereotáctico radiosurgery for vestibular schwannoma including tumour control rates, hearing preservation, and facial nerve outcomes",
+    "Identificar the diagnostic criteria and management principles for NF2-associated bilateral vestibular schwannomas",
+    "Describir the management of other CPA tumours including facial nerve schwannomas and jugular foramen paragangliomas"
+  ],
+  "sections": [
+    {
+      "id": "E2-S1",
+      "title": "Epidemiología, Patología e Historia Natural",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Vestibular schwannomas (VS)** — also historically termed acoustic neuromas, though this is a misnomer as they arise from células de Schwann of the vestibular nerve, not acoustic nerve — are the most common cerebellopontino angle tumours (accounting for approximately 70-80% of CPA masses). The annual incidence is approximately 1-2 per 100,000 population, with detection rates increasing due to widespread MRI availability. They account for 6-8% of all intracranial tumours. VS arise from the **célula de Schwann-oligodendrocito junction** (Redlich-Obersteiner zone) of CN VIII, typically at the **glial-célula de Schwann transitional zone** located at the nerve's emergence from the tronco encefálico.\n\n**Pathology:** VS are WHO Grado 1 tumours arising from células de Schwann of the vestibular (rarely cochlear) portion of CN VIII. Histologically, they contain two patterns: **Antoni A** (compact spindle cells with nuclei arranged in palisades — Verocay bodies) and **Antoni B** (loose, myxoid stroma with scattered stellate cells). The NF2 gene (chromosome 22q12) mutation is present in virtually all VS — in sporadic cases as a somatic mutation (one allele), and in NF2 syndrome as a germline mutation with loss of the remaining allele (two-hit model). Sporadic VS are almost always unilateral; bilateral VS is pathognomonic for NF2.\n\n**Epidemiology:** Sporadic VS affects adults (peak incidence 5th-6th decade), with no sex predilection. **NF2** (autosomal dominant, chromosome 22q12, merlin protein) affects 1 in 33,000 individuals, with bilateral VS as the diagnostic hallmark (Manchester criteria: bilateral VS is sufficient; or unilateral VS + first-degree relative with NF2; or any two NF2-related tumours). NF2 typically presents younger (median age 18-24 years) and the bilateral VS are often larger and more aggressive than sporadic VS."
+        },
+        {
+          "type": "text",
+          "content": "**Natural history of sporadic VS:** Several large prospective and retrospective cohort studies have characterised growth patterns. The Copenhagen series (Stangerup, Caye-Thomasen) of 1,818 patients showed that approximately **45% of sporadic VS never grow** over a period of observation (mean 4-5 years); approximately **45% grow slowly** (< 2 mm/year); and only **10-15% grow rapidly** (> 2-3 mm/year). Interestingly, tumours that show an initial period of non-growth may subsequently grow after years of stability — making indefinite surveillance necessary.\n\nHearing deterioration, the most disabling symptom of VS, is a natural process that may occur independently of tumour growth. This is critical for management decisions: some patients lose serviceable hearing without significant tumour enlargement, while others maintain useful hearing with tumour growth. **Serviceable hearing** se define como class A or B on the **Gardner-Robertson (GR) scale** (50/50 rule: pure-tone average ≤50 dB, speech discrimination ≥50%). **House-Brackmann (HB) scale** grades facial nerve function from HB I (normal) to HB VI (complete palsy) — the gold standard for documenting and communicating facial nerve outcomes post-surgically."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación de Koos del Schwannoma Vestibular",
+          "headers": [
+            "Koos Grado",
+            "Tamaño/Localización del Tumor",
+            "Clinical Características",
+            "Manejo Implications"
+          ],
+          "rows": [
+            [
+              "Koos I",
+              "Intracanalicular (confined to IAC)",
+              "Hearing loss, tinnitus; no CPA extension",
+              "Observation, SRS, or hearing-preserving surgery (MFA)"
+            ],
+            [
+              "Koos II",
+              "Small CPA extension ≤2 cm, no tronco encefálico contact",
+              "As above; may have mild imbalance",
+              "Observation, SRS, or surgery"
+            ],
+            [
+              "Koos III",
+              "CPA tumour, tronco encefálico contact but no displacement",
+              "Imbalance, progressive CN involvement",
+              "SRS or surgery; hearing preservation less likely"
+            ],
+            [
+              "Koos IV",
+              ">3 cm, tronco encefálico displacement, trigeminal/facial involvement",
+              "Brainstem compression, CN V/VII deficits, headache",
+              "Surgery primary; SRS for small Koos IV; observation not appropriate"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Los VS Bilaterales son Patognomónicos de NF2",
+          "content": "Bilateral vestibular schwannomas (bilateral acoustic neuromas) are pathognomonic for neurofibromatosis type 2 (NF2). A young patient with bilateral sensorineural hearing loss and bilateral CPA masses should be tested for NF2 gene mutation (chromosome 22q12) and screened for associated tumours (meningiomas, ependymomas, peripheral schwannomas). NF2 is autosomal dominant — family screening is indicated."
+        }
+      ]
+    },
+    {
+      "id": "E2-S2",
+      "title": "Presentación Clínica y Estudio Diagnóstico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Clinical presentation** of VS is dominated by progressive, unilateral sensorineural hearing loss (SNHL) — the presenting symptom in 90-95% of patients. The SNHL is typically gradual and asymmetric; sudden SNHL occurs in approximately 10% of VS patients and may be the initial presentation. **Unilateral tinnitus** is present in 70-80%. **Vestibular symptoms** (imbalance, vertigo) are paradoxically less severe than expected from the VS location because the slow progressive damage allows central vestibular compensation. Acute rotational vertigo (like BPPV) is uncommon; rather, patients experience chronic imbalance.\n\n**Facial nerve involvement** at presentation is uncommon (< 5%) despite CN VII running in the same narrow bony canal (IAC) as CN VIII — the facial nerve adapts to tumour pressure through stretch. Paradoxically, VS patients rarely present with facial palsy, making its presence at diagnosis a red flag for alternative diagnosis (e.g., facial nerve schwannoma, malignant CPA tumour). Larger VS (Koos III-IV) may present with trigeminal symptoms (CN V — facial numbness, corneal reflex loss), raised intracranial pressure (headache, papilloedema from hydrocephalus), and cerebeloso signs.\n\n**Diagnostic workup:** High-resolution **gadolinium-enhanced MRI** (T1 with gadolinium + T2 3D-CISS/FIESTA) es el estándar de referencia, showing: intense homogeneous or heterogeneous enhancement (heterogeneous in large tumours with cysts); T2 hyperintensity (vs meningioma); 'ice cream cone' appearance with intracanalicular component; widening of the IAC porus. **Audiological assessment:** pure-tone audiometry and speech discrimination scoring (GR grade), auditory tronco encefálico response (ABR — prolonged I-III wave interval), tympanometry (normal — excludes middle ear pathology). Otoacoustic emissions assess cochlear hair cell function. **Vestibular testing:** caloric testing (reduced response on affected side — specific but not required for diagnosis)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Facial Nerve Schwannoma Mimicking VS",
+          "content": "Facial nerve schwannoma (FNS) arises from CN VII and can present identically to VS on imaging. Red flags favouring FNS over VS: facial weakness or spasm at presentation (rare in VS), tumour extending into the geniculate ganglion fossa or along the intratemporal facial nerve course on MRI, intratemporal facial nerve involvement on MRI. Misdiagnosis leads to wrong surgical approach. Always trace the facial nerve course on high-resolution temporal bone CT and MRI before CPA surgery."
+        }
+      ]
+    },
+    {
+      "id": "E2-S3",
+      "title": "Manejo Options: Observation, Surgery, and Radiosurgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Manejo options** for VS include active surveillance, estereotáctico radiosurgery (SRS), and microsurgical resection. The optimal choice depends on tumour size (Koos grade), hearing status, patient age and comorbidities, symptoms, growth rate, and patient preference. No single approach is universally superior — individualised multidisciplinary discussion (neurosurgery, neurotology/ENT, radiation oncology) is essential.\n\n**Active surveillance** is the first-line management for small to medium-sized VS (Koos I-II) in patients with serviceable hearing and few or no significant symptoms. The rationale is that 45-60% of tumours never grow or grow very slowly, and intervention carries risks. Protocol: gadolinium MRI at 3 months post-diagnosis (to confirm stability), then annually for 3-5 years, then biannually if stable. Surveillance es apropiado for: tumours < 2-2.5 cm (Koos I-II), asymptomatic or minimally symptomatic, serviceable hearing, older patients (> 70 years), and patients with significant medical comorbidities. Growth-triggered treatment (SRS or surgery) is initiated when: > 2-3 mm growth per year, new symptom development, or patient preference change.\n\n**The management choice triangle:**\n- Small VS (Koos I-II), good hearing: observation first → SRS for growth → hearing-preserving surgery if young and eligible\n- Medium VS (Koos II-III), hearing already poor: SRS or surgery; hearing-preserving intent abandoned\n- Large VS (Koos III-IV): surgery primary; SRS as primary for Koos III if tronco encefálico not significantly compressed\n- Very large VS (> 4 cm): surgery essential for tronco encefálico decompression; SRS alone insufficient"
+        },
+        {
+          "type": "table",
+          "title": "AAO-HNS Hearing Classification (Gardner-Robertson based)",
+          "headers": [
+            "Class",
+            "Pure-Tone Average",
+            "Speech Discrimination",
+            "Clinical Significance"
+          ],
+          "rows": [
+            [
+              "Class A",
+              "≤30 dB",
+              "≥70%",
+              "Excellent hearing — hearing preservation surgery worthwhile"
+            ],
+            [
+              "Class B",
+              "31-50 dB",
+              "50-69%",
+              "Serviceable hearing — hearing preservation attempt reasonable"
+            ],
+            [
+              "Class C",
+              "51-90 dB",
+              "≤49%",
+              "Non-serviceable hearing — hearing preservation not the goal"
+            ],
+            [
+              "Class D",
+              ">90 dB",
+              "Any",
+              "Non-serviceable — hearing preservation not the goal"
+            ],
+            [
+              "Class E",
+              "Total deafness",
+              "0%",
+              "No hearing — translaberíntico approach acceptable"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — The 'Wait and Scan' Approach",
+          "content": "The landmark randomised trial VESTIBULAR SCHWANNOMA — RCTS (EANO review 2020) supports 'wait and scan' as the initial management for most small-medium VS. The Copenhagen natural history data showed 45% never grow, 45% grow slowly, and only 10-15% grow rapidly. For a 65-year-old patient with Koos II VS and serviceable hearing, observation avoids all treatment risks while providing adequate safety through regular MRI monitoring."
+        }
+      ]
+    },
+    {
+      "id": "E2-S4",
+      "title": "Surgical Approaches",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Three main surgical approaches are used for VS resection, each with distinct anatomical corridors and hearing/facial nerve implications:\n\n**Retrosigmoid (suboccipital) approach:** Posterior fossa craneotomía behind the sigmoid sinus, providing access to the CPA cistern and lateral IAC. **Hearing preservation is possible** (cochlear nerve identified and preserved from the IAC lateral end using a diamond drill — the fundus of the IAC is opened); the main limitation is drilling of the posterior IAC wall risks perilymph fistula. Advantages: wide CPA exposure suitable for all tumour sizes; can access the entire IAC from posterior. Disadvantages: lateral IAC fundus may have blind spot; post-operative headache from the occipital musculature and fístula de LCR risk (mastoid air cells may be opened requiring waxing). Best for: large CPA tumours (Koos III-IV), small tumours with preserved hearing (hearing preservation intent), or when facial nerve monitoring is the primary concern.\n\n**Translabyrinthine approach (TLA):** Mastoidectomy and labyrinthectomy (removing semicircular canals and vestibule, sacrificing the cochlea), providing a lateral-to-medial corridor directly to the IAC without brain retraction. **Hearing is always sacrificed** (cochlea and vestibule removed). Advantages: excellent facial nerve identification at its lateral IAC exit (the fundus is identified early, reducing facial nerve risk); no cerebeloso retraction; shortest route to the IAC fundus. Disadvantages: permanent complete ipsilateral deafness; limited CPA exposure for very large tumours (> 3.5 cm). Best for: non-serviceable hearing (AAO Class C/D/E), medium-large VS (Koos II-III), when facial nerve anatomy needs to be identified early.\n\n**Middle cranial fossa (MCF/MFA) approach:** Temporal craneotomía above the IAC, accessing the superior face of the petrous bone and opening the IAC roof. Provides the best hearing preservation rates. Advantages: direct access to the cochlear nerve without posterior fossa entry; lowest fístula de LCR rate. Disadvantages: limited CPA exposure (tumours extending > 1 cm into CPA cistern not accessible); temporal lobe retraction; limited to Koos I-II tumours; technically demanding. Best for: intracanalicular or small CPA tumours (Koos I-II) with serviceable hearing in patients < 65 years."
+        },
+        {
+          "type": "table",
+          "title": "Comparison of Surgical Approaches for Vestibular Schwannoma",
+          "headers": [
+            "Approach",
+            "Hearing Preservation",
+            "Tumour Size Indicación",
+            "Facial Nerve Risk",
+            "CSF Leak Risk"
+          ],
+          "rows": [
+            [
+              "Retrosigmoid",
+              "Possible (40-60% for small VS)",
+              "All sizes — especially Koos II-IV",
+              "Intermediate",
+              "2-5% (mastoid cells)"
+            ],
+            [
+              "Translabyrinthine",
+              "Never (hearing sacrificed)",
+              "Koos II-III primarily",
+              "Lowest (nerve ID at fundus)",
+              "Low (no dura over mastoid)"
+            ],
+            [
+              "Middle cranial fossa",
+              "Best (60-80% for Koos I)",
+              "Koos I-II only",
+              "Intermediate-low",
+              "Lowest"
+            ],
+            [
+              "All approaches",
+              "Depends",
+              "Depends",
+              "HB I-II preserved in >90% at experienced centres",
+              "1-5% overall"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Translabyrinthine for Non-Serviceable Hearing",
+          "content": "The translaberíntico approach is the approach of choice when hearing is already non-serviceable (AAO Class C/D/E) and facial nerve preservation is the primary surgical goal. By identifying the facial nerve at the lateral end of the IAC (fundus) early in the dissection, the TLA provides the lowest facial nerve injury risk among the three approaches. Hearing is always sacrificed in TLA — never offer this approach when hearing preservation is desired."
+        }
+      ]
+    },
+    {
+      "id": "E2-S5",
+      "title": "Gamma Knife Stereotactic Radiosurgery for VS",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Gamma Knife estereotáctico radiosurgery (GKRS)** has become a major treatment modality for VS, particularly for small to medium tumours (Koos I-III). It delivers a single fraction of focused ionising radiation, with the goal of **tumour growth arrest** (not destruction) — VS treated with SRS typically become stable, with true reduction in only a minority. The mechanism is vascular sclerosis and tumour cell death leading to growth inhibition.\n\n**Radiosurgical technique:** The prescription (marginal) dose has evolved from early 14-16 Gy to current standard of **11-13 Gy** to the 50% isodose line. Dose reduction was driven by evidence that doses > 14 Gy significantly increased facial nerve neuropathy and hearing loss rates. At the Pittsburgh experience (Niranjan, Lunsford) and other large centres, marginal dose 12-13 Gy achieves:\n- **5-year tumour control: 95-98%** (tumour growth arrest as primary endpoint)\n- **10-year tumour control: 90-93%**\n- **Facial nerve preservation (HB I-II): > 98%** at marginal doses ≤13 Gy\n- **Hearing preservation at 2 years: 50-60%** (tumours in Koos I with Gardner-Robertson Class A)\n- **Trigeminal sensory preservation: > 95%**\n\nThe seminal Pittsburgh series (Lunsford et al., JAMA 1992) established SRS as a primary treatment modality with results comparable to surgery for tumour control and superior facial nerve preservation rates for small tumours.\n\n**Indicacións for GKRS:** Koos I-III VS with maximum dimension ≤3 cm (brain stem not significantly displaced); non-serviceable or serviceable hearing with patient's preference for radiation over surgery; elderly or medically compromised patients; growing tumour in previously observed patient; NF2 patients (bilateral VS — SRS preferred to preserve hearing as long as possible)."
+        },
+        {
+          "type": "text",
+          "content": "**Resultados and complications of GKRS:** The major advantages of SRS over surgery are: avoidance of general anaesthesia and surgical morbidity, superior facial nerve preservation, excellent hearing preservation for small tumours, and outpatient treatment. Disadvantages: growth continues in ~5% at 5 years; histological confirmation is not obtained; patients must undergo interval MRI surveillance; late complications include occasionally delayed tumour expansion ('pseudo-expansion') at 6-18 months requiring salvage treatment. **Cystic VS** treated with GKRS have higher rates of acute expansion and may require surgical decompression — a relative contraindication for primary SRS.\n\n**SRS vs surgery comparison:** The only randomised trial comparing SRS vs surgery (Myrseth et al., Neurosurgery 2009 — quasi-randomised based on patient/surgeon preference, 35 per arm) showed equivalent tumour control with better hearing preservation and facial nerve outcomes for SRS. Large institutional series consistently show SRS facial nerve preservation > 98% vs surgery 80-90% (experienced centres). Long-term tumour control (5-year) is equivalent between surgical GTR and SRS for Koos I-III tumours.\n\n**Hearing preservation after SRS:** At marginal dose 12-13 Gy, hearing preservation at 2 years is reported as 50-75% for Gardner-Robertson Class A/B hearing. The cochlea dose is a critical determinant — a mean cochlear dose > 4 Gy se asocia con significantly higher hearing loss rates. Sparing the cochlea (keeping mean dose < 4 Gy) during treatment planning is therefore important for hearing preservation."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — SRS for Large VS with Brainstem Compression",
+          "content": "GKRS should NOT be used as primary treatment for large VS (Koos IV, > 3-3.5 cm) with significant tronco encefálico displacement. These tumours require surgical decompression first. SRS for a large tumour with tronco encefálico compression risks post-treatment oedema causing acute neurological deterioration. The correct management is planned surgical debulking followed by SRS for any residual (combined strategy)."
+        }
+      ]
+    },
+    {
+      "id": "E2-S6",
+      "title": "Facial Nerve Preservation and Intraoperative Monitoring",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Facial nerve (CN VII) preservation** is the primary surgical outcome determinant in VS surgery — permanent facial palsy is far more disabling than ipsilateral hearing loss for most patients. The facial nerve runs through the narrow IAC immediately anterior to CN VIII, then enters the fallopian canal. Its relationship to the tumour varies: typically the nerve is splayed over the anterior surface of the tumour in the IAC, then displaced anteriorly or anterosuperiorly in the CPA. In very large tumours, the nerve may be thinned to a few fibres.\n\n**Intraoperative facial nerve monitoring (IONM)** is mandatory for all VS surgeries. Two modalities:\n1. **Continuous free-running EMG (facial EMG):** Records spontaneous activity from orbicularis oris and orbicularis oculi (mentalis for mentalis/platysma). **Neurotonic discharges** (trains of irregular EMG activity) indicate mechanical or thermal nerve irritation — warning the surgeon to pause manipulation. **A-train discharges** (high-frequency regular trains) are particularly ominous and predictive of postoperative palsy.\n2. **Electrically evoked facial nerve action potentials (FENAP):** Bipolar stimulation (0.05-0.3 mA) at the tumour surface and then at the nerve proximal and distal to the tumour identifies nerve location and tests nerve integrity. The **proximal-to-distal stimulation ratio** at closure predicts postoperative HB grade — a preserved compound MAP amplitude and low threshold (< 0.1 mA) at the tronco encefálico predicts HB I-II outcome.\n\n**House-Brackmann (HB) scale** for postoperative facial nerve outcomes:\n- HB I: Normal function\n- HB II: Slight dysfunction (normal symmetry at rest, slight synkinesis)\n- HB III: Moderate dysfunction (obvious asymmetry, but capable of eye closure)\n- HB IV: Moderately severe (asymmetry, incomplete eye closure)\n- HB V: Severe (barely perceptible motion)\n- HB VI: Total palsy\n\nExperienced VS surgeons at high-volume centres achieve HB I-II in approximately **85-93%** of patients at 1 year. Immediate postoperative HB III-IV often improves to HB I-II over 12 months due to neuropraxia recovery."
+        },
+        {
+          "type": "table",
+          "title": "House-Brackmann Facial Nerve Grading Scale",
+          "headers": [
+            "Grado",
+            "Function",
+            "Resting Tone",
+            "Movement",
+            "Clinical Significance"
+          ],
+          "rows": [
+            [
+              "HB I",
+              "Normal",
+              "Normal",
+              "Normal all areas",
+              "No dysfunction"
+            ],
+            [
+              "HB II",
+              "Slight dysfunction",
+              "Normal symmetry",
+              "Forehead—moderate, eye—complete closure, mouth—slight asymmetry",
+              "Mild; acceptable surgical outcome"
+            ],
+            [
+              "HB III",
+              "Moderate dysfunction",
+              "Normal symmetry at rest",
+              "Forehead—slight, eye—complete with effort, mouth—slight weakness",
+              "Notable but not disfiguring"
+            ],
+            [
+              "HB IV",
+              "Moderately severe",
+              "Normal symmetry at rest",
+              "Forehead—none, eye—incomplete closure, mouth—asymmetric",
+              "Significant dysfunction; eye care needed"
+            ],
+            [
+              "HB V",
+              "Severe",
+              "Slight asymmetry at rest",
+              "Forehead—none, eye—incomplete, mouth—slight movement",
+              "Barely perceptible; eye at risk"
+            ],
+            [
+              "HB VI",
+              "Total palsy",
+              "Asymmetry",
+              "No movement",
+              "Complete palsy; requires eye care/tarsorrhaphy"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2-S7",
+      "title": "NF2 and Other CPA Tumours",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Neurofibromatosis type 2 (NF2)** management is fundamentally different from sporadic VS because both cochleas are at risk from tumours or treatment. The primary goals are hearing preservation for as long as possible and avoidance of bilateral deafness. Manejo principles: (1) **Observation** for very small bilateral VS with serviceable hearing; (2) **SRS** preferred over surgery for growing VS while hearing remains serviceable (preserves hearing longer than surgery); (3) **Cochlear implant or auditory tronco encefálico implant (ABI)** planning when hearing is likely to be lost — ABI is placed at the cochlear nucleus during translaberíntico surgery, bypassing the destroyed cochlear nerve; (4) **Bevacizumab** (anti-VEGF antibody) is the only pharmacological treatment with evidence for NF2-related VS — shrinkage in 40% with marginal dose 7.5-10 mg/kg; (5) **Hearing aids** may extend utility of residual hearing. Surgery timing is dictated by tronco encefálico compression risk, with hearing-sparing approaches attempted when possible.\n\n**Facial nerve schwannoma (FNS)** arises from células de Schwann of CN VII anywhere along its intracranial, intratemporal (geniculate, tympanic, mastoid segments), or extratemporal (parotid) course. Presentation: facial weakness (75% of patients — distinguishing from VS where palsy is rare), facial spasm or hemifacial spasm (25%), hearing loss (from middle ear involvement), tinnitus. Manejo is primarily observation for asymptomatic FNS with HB I-II (surgery risks deliberate nerve sacrifice). Intervention is considered when HB ≥ III — surgical options: resection with cable graft (sural or great auricular nerve) or end-to-end anastomosis. GKRS is increasingly used for intracranial FNS with HB I-II to prevent growth without CN VII sacrifice.\n\n**Jugular foramen paraganglioma (glomus jugulare):** Highly vascular tumour arising from paraganglion cells at the jugular foramen. Presents with pulsatile tinnitus, conductive hearing loss, CN IX/X/XI deficits, and 'rising sun sign' (reddish mass behind the tympanic membrane). Hereditary paraganglioma syndromes (SDH mutations — SDHB most malignant). Manejo: observation for elderly/asymptomatic; surgery (infratemporal fossa approach, Tipo A-D Fisch classification); pre-operative embolisation to reduce blood loss; SRS for residual or inoperable disease. Pre-operative biochemical screening for catecholamine excess (rare in head/neck paragangliomas but important)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Bevacizumab for NF2-Related VS",
+          "content": "Bevacizumab (anti-VEGF) is the first pharmacological treatment showing evidence of benefit in NF2-related vestibular schwannomas. In the landmark Plotkin et al. (NEJM 2009) case series (10 patients), bevacizumab produced > 20% volume reduction in 9/10 patients with NF2-related progressive VS, with associated hearing improvement in 4/10. It is now used in NF2 when VS are growing and bilateral — offering temporary growth control while preserving hearing longer than surgery. It is not curative; growth recurs on cessation."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre vestibular schwannoma and CPA tumours with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "E2-Q1",
+        "stem": "A 45-year-old woman presents with a 2-year history of progressive right-sided hearing loss, right-sided tinnitus, and mild imbalance. MRI with gadolinium shows a 1.8 cm right CPA mass with intracanalicular extension ('ice cream cone' appearance), intense homogeneous enhancement, and T2 hyperintensity. Audiometry shows AAO Class B hearing. What is the most likely diagnosis?",
+        "options": {
+          "A": "Right posterior petrous meningioma",
+          "B": "Right vestibular schwannoma",
+          "C": "Right epidermoid cyst",
+          "D": "Right cholesterol granuloma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Vestibular schwannoma characteristically: (1) is centred on the IAC with an intracanalicular component ('ice cream cone' on MRI), (2) is T2 hyperintense relative to brain (vs meningioma — T2 isointense), (3) shows homogeneous or heterogeneous enhancement (small tumours homogeneous), (4) may widen the IAC porus. The clinical presentation — unilateral sensorineural hearing loss, unilateral tinnitus, imbalance — is the classic triad. The absence of bilateral involvement excludes NF2 as a concern.",
+          "wrong": {
+            "A": "Posterior petrous meningioma has a broad dural base, is off-centre from the IAC, T2 isointense to cortex, with dural tail sign, and acute angle with petrous bone — all absent here.",
+            "C": "Epidermoid cyst is T1 hypointense, T2 hyperintense but follows CSF signal, shows restricted diffusion on DWI, and does NOT enhance — enhancement excludes epidermoid.",
+            "D": "Cholesterol granuloma appears T1 hyperintense (haemoglobin breakdown products), T2 hyperintense, without enhancement — a petrous apex lesion, not a CPA mass centred on the IAC."
+          },
+          "guideline": "AAO-HNS VS Guidelines 2012 — diagnostic criteria: gadolinium-enhanced MRI with CISS/FIESTA sequences; intracanalicular component and T2 hyperintensity distinguishing from meningioma",
+          "trial": "Stangerup SE & Caye-Thomasen P. Epidemiology and natural history of vestibular schwannomas. Otolaryngol Clin NA 2012;45:257: clinical and MRI criteria for VS diagnosis; unilateral SNHL + unilateral tinnitus = investigate with MRI",
+          "pearl": "The two most reliable MRI differentiators between VS and CPA meningioma: T2 signal (VS = hyperintense, meningioma = isointense to cortex) and IAC centricity (VS centred on IAC with intracanalicular extension, meningioma off-centre with dural tail). Both enhance with gadolinium."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q2",
+        "stem": "A 58-year-old man has a 1.5 cm right VS (Koos II) on MRI, with AAO Class A hearing. He prefers non-surgical management. GKRS is performed with a marginal dose of 12 Gy to the 50% isodose. What is the expected 5-year tumour control rate?",
+        "options": {
+          "A": "60-70%",
+          "B": "80-85%",
+          "C": "95-98%",
+          "D": "100% — GKRS always controls VS"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Gamma Knife SRS for VS (marginal dose 11-13 Gy) achieves tumour control (growth arrest) in 95-98% of patients at 5 years in large series. This represents the gold standard expectation communicated to patients before treatment. Lunsford et al. (JAMA 1992) established these results and multiple subsequent series confirm them. The definition of 'control' is tumour growth arrest — true regression occurs in only approximately 20-30%, while most treated tumours remain stable in size.",
+          "wrong": {
+            "A": "60-70% would represent unacceptably poor tumour control — this is not the expected outcome with modern SRS dosing.",
+            "B": "80-85% is below the expected range for VS treated with modern GKRS doses (11-13 Gy). This range applied to earlier series using higher doses (14-16 Gy) or to select high-risk cases.",
+            "D": "GKRS controls VS in 95-98% but not 100% — approximately 2-5% of VS will show growth after SRS at 5 years, typically requiring salvage surgery or repeat SRS."
+          },
+          "guideline": "AAO-HNS VS Manejo Guidelines 2012 — SRS outcomes: 5-year tumour control 95-97%; facial nerve preservation >97%; hearing preservation 50-60% at 2 years with marginal dose 12-13 Gy",
+          "trial": "Lunsford LD et al. Stereotactic radiosurgery for acoustic tumours. JAMA 1992;267(13):1829-1833: seminal SRS series; 5-year control 94%; facial nerve preservation 98%; established SRS as primary treatment modality for VS",
+          "pearl": "GKRS for VS (marginal dose 12-13 Gy): 5-year tumour control 95-98%, facial nerve preservation >98%, hearing preservation 50-60% at 2 years for Class A hearing. These are the benchmark numbers to memorise."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q3",
+        "stem": "A 28-year-old woman is found to have bilateral VS on MRI performed for progressive bilateral hearing loss. Her mother also has bilateral hearing loss. Which gene is most likely mutated?",
+        "options": {
+          "A": "NF1 gene (chromosome 17q11)",
+          "B": "NF2 gene (chromosome 22q12)",
+          "C": "PTEN gene (chromosome 10q23)",
+          "D": "VHL gene (chromosome 3p25)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bilateral vestibular schwannomas are pathognomonic for Neurofibromatosis Type 2 (NF2), caused by germline mutations in the NF2 gene on chromosome 22q12. NF2 encodes merlin (schwannomin), a tumour suppressor protein. NF2 follows autosomal dominant inheritance (hence the affected mother), with 50% of cases arising de novo. NF2 is distinct from NF1 (neurofibromatosis type 1 — chromosome 17q11, Lisch nodules, café-au-lait macules, peripheral neurofibromas — does NOT cause bilateral VS).",
+          "wrong": {
+            "A": "NF1 (chromosome 17q11, neurofibromin) causes peripheral neurofibromas, café-au-lait spots, Lisch nodules, and optic gliomas — NOT bilateral VS. This es el más común neurofibromatosis (1 in 3,000) but does not cause bilateral acoustic neuromas.",
+            "C": "PTEN mutations cause Cowden syndrome — macrocephaly, hamartomas, increased cancer risk (thyroid, breast, endometrial) — not bilateral VS.",
+            "D": "VHL (von Hippel-Lindau, chromosome 3p25) causes cerebeloso/spinal haemangioblastomas, clear cell renal cell carcinoma, retinal haemangiomas, and pheochromocytoma — not bilateral VS."
+          },
+          "guideline": "Manchester NF2 Diagnostic Criteria 2019 — bilateral VS sufficient for NF2 diagnosis; or unilateral VS + first-degree relative with NF2; genetic testing NF2 chromosome 22q12 recommended",
+          "trial": "Evans DG et al. Neurofibromatosis type 2. Eur J Hum Genet 2009;17:280-291: NF2 prevalence 1:33,000; 50% de novo; autosomal dominant; bilateral VS in 95% by age 30; systematic review of NF2 manifestations",
+          "pearl": "Bilateral VS = NF2 until proven otherwise. NF1 vs NF2: NF1 causes peripheral neurofibromas and café-au-lait spots (chromosome 17), NF2 causes bilateral VS plus meningiomas plus spinal ependymomas (chromosome 22). Never confuse NF1 and NF2 on the exam."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q4",
+        "stem": "Una mujer de 55 años with a right VS (Koos II, 1.8 cm) elects for microsurgical resection. She has AAO Class B hearing preoperatively. She requests the approach with the BEST chance of hearing preservation. Which approach should be offered?",
+        "options": {
+          "A": "Translabyrinthine approach",
+          "B": "Retrosigmoid approach",
+          "C": "Middle cranial fossa (middle fossa) approach",
+          "D": "Extended middle fossa approach with labyrinthectomy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The middle cranial fossa (MCF/middle fossa) approach provides the best hearing preservation rates because it accesses the IAC from the superior temporal bone surface, allowing direct cochleovestibular nerve identification and tumour removal without the cerebellar retraction of the retrosigmoid approach, and critically without cochlear or labyrinthine destruction. MCF hearing preservation rates are 60-80% for small intracanalicular or small CPA tumours (Koos I-II). However, MCF is limited to tumours with < 1-1.5 cm CPA extension — this 1.8 cm Koos II tumour must be assessed for CPA extension suitability.",
+          "wrong": {
+            "A": "Translabyrinthine approach always sacrifices hearing (the cochlea and labyrinth are removed). This is the worst choice when hearing preservation is the goal.",
+            "B": "Retrosigmoid approach can preserve hearing (achieved in 40-60% for small tumours) but is inferior to MCF for hearing preservation because of posterior IAC drilling near the cochlea. For a 1.8 cm Koos II tumour, retrosigmoideo is a reasonable alternative but hearing preservation rates are lower.",
+            "D": "Extended middle fossa with labyrinthectomy sacrifices hearing intentionally — the opposite of what is desired."
+          },
+          "guideline": "AAO-HNS VS Guidelines 2012 — hearing preservation surgery: MCF approach for Koos I-II with serviceable hearing (Class A/B); retrosigmoideo as alternative; translaberíntico = no hearing preservation",
+          "trial": "Gurgel RK et al. Preservation of serviceable hearing with estereotáctico radiosurgery vs microsurgery. Otol Neurotol 2012;33(3):356-362: MCF approach hearing preservation 60-80% for intracanalicular VS; superior to retrosigmoideo for lateral IAC tumours",
+          "pearl": "Hearing preservation surgical approach: MCF > retrosigmoideo > translaberíntico (none). MCF is limited to Koos I-II tumours. For hearing preservation intent: MCF if tumour < 1.5 cm CPA extension; retrosigmoideo if larger CPA component but still small. Never offer translaberíntico when hearing preservation is the goal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q5",
+        "stem": "During a translaberíntico resection of a right VS, continuous EMG monitoring shows a sudden burst of neurotonic discharges from the right orbicularis oris and mentalis while the surgeon is dissecting the tumour from the facial nerve at the tronco encefálico. What is the appropriate immediate response?",
+        "options": {
+          "A": "Continue dissection — neurotonic discharges are always benign artefact",
+          "B": "Pause manipulation, irrigate with warm saline, and reassess before proceeding",
+          "C": "Increase bipolar coagulation around the area to control haemostasis",
+          "D": "Aplicar topical papaverine to the nerve to prevent vasospasm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Neurotonic discharges (irregular bursts of facial EMG activity) during VS surgery indicate mechanical or thermal irritation of the facial nerve — they are a real-time warning signal that dissection should pause. The correct response is: immediately pause dissection, irrigate the surgical field with warm saline (to cool any thermally irritated tissue), allow the discharges to settle, and reassess the anatomy before proceeding. Continuing dissection through neurotonic discharges risks permanent facial nerve injury. 'A-train' discharges (high-frequency regular trains) are particularly ominous.",
+          "wrong": {
+            "A": "Neurotonic discharges are NOT benign artefact — they are a real neurophysiological warning of mechanical or thermal nerve irritation. Continuing dissection through active neurotonic discharges es el más común cause of preventable post-operative facial palsy.",
+            "C": "Bipolar coagulation near the facial nerve during neurotonic discharges would add thermal injury to mechanical irritation. Heat is one of the most common causes of facial nerve injury during VS surgery.",
+            "D": "Topical papaverine (vasodilator) is used for vessel vasospasm prevention — not indicated for facial nerve EMG activity."
+          },
+          "guideline": "EANS IONM Guidelines 2020 — VS surgery facial nerve monitoring: neurotonic discharges = pause and cool; A-train discharges = high-risk warning; evoked responses at closure predict outcome",
+          "trial": "Kartush JM et al. Intraoperative monitoring of the facial nerve in acoustic tumour surgery. Laryngoscope 1985;95(5):526-530: early description of facial EMG monitoring in VS surgery; neurotonic discharges correlated with postoperative palsy if dissection continued",
+          "pearl": "During VS surgery, neurotonic EMG discharges = STOP and COOL. Do not continue dissection through active neurotonic bursts — pause, irrigate with warm saline, and allow discharges to resolve before proceeding. This discipline is the single most important intraoperative habit for preventing post-operative facial palsy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q6",
+        "stem": "Natural history data from the Copenhagen VS series shows that approximately what percentage of sporadic vestibular schwannomas never grow over a 5-year observation period?",
+        "options": {
+          "A": "10-15%",
+          "B": "25-30%",
+          "C": "45-50%",
+          "D": "70-75%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The Copenhagen vestibular schwannoma study (Stangerup, Caye-Thomasen) — the largest prospective natural history cohort — showed that approximately 45% of sporadic VS never grow over 5 years of observation, 45% grow slowly (< 2 mm/year), and only 10-15% grow rapidly (> 2-3 mm/year). This is the evidence base for 'wait and scan' as the initial management strategy for small-medium VS.",
+          "wrong": {
+            "A": "10-15% is the proportion that grow rapidly — not the proportion that never grow.",
+            "B": "25-30% is too low — approximately double this proportion (45%) remain stable.",
+            "D": "70-75% is too high for completely non-growing tumours. While many tumours remain manageable, a substantial proportion do grow over 5 years (approximately 55%)."
+          },
+          "guideline": "AAO-HNS VS Guidelines 2012 — observation evidence base: Copenhagen natural history data; 45% no growth, 45% slow growth, 10% rapid growth over 5 years",
+          "trial": "Stangerup SE et al. Change in hearing during 'wait and scan' management of patients with vestibular schwannoma. J Laryngol Otol 2008;122(7):673-681: 1818-patient Copenhagen cohort; natural history data; 45% no growth over observation period; basis for observation recommendation",
+          "pearl": "Copenhagen VS natural history: ~45% never grow, ~45% slow growth, ~10% rapid growth. This 45/45/10 distribution is the evidence basis for 'wait and scan' — almost half of observed VS will never require treatment. Sin embargo, hearing may worsen independently of tumour growth, which complicates observation decisions."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q7",
+        "stem": "A 42-year-old woman with NF2 has bilateral VS — right 3.2 cm with non-serviceable hearing (AAO Class D) and left 1.5 cm with serviceable hearing (AAO Class A). The right VS is causing tronco encefálico compression. ¿Cuál es el correcto management plan?",
+        "options": {
+          "A": "Bilateral simultaneous surgical resection to prevent further growth",
+          "B": "Right-sided translaberíntico resection for the symptomatic large VS; SRS for the smaller left VS",
+          "C": "SRS to both sides simultaneously",
+          "D": "Bevacizumab IV alone — surgery contraindicated in NF2"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In NF2 with bilateral VS, the symptomatic side (brainstem compression, Koos IV) requires surgical treatment — translabyrinthine resection is appropriate as hearing on the right is already non-serviceable (Class D), prioritising facial nerve preservation. The left side (1.5 cm, Class A hearing) is treated with SRS to preserve serviceable hearing as long as possible while controlling tumour growth. SRS is preferred over surgery for the left VS because preserving Class A hearing on the 'better side' is the priority in bilateral disease. This combined strategy reflects the NF2 management principle: hearing preservation drives all decisions.",
+          "wrong": {
+            "A": "Bilateral simultaneous surgery would risk bilateral complete deafness — the most devastating outcome in NF2. Sequential approach with hearing preservation prioritised is standard.",
+            "C": "SRS to the right side (Koos IV, tronco encefálico compression) está contraindicado — a large VS with tronco encefálico displacement requires surgical decompression, not SRS alone (risk of post-SRS oedema with mass effect).",
+            "D": "Bevacizumab may have a role in the management of NF2-related VS but is not a substitute for urgent surgical decompression of a symptomatic Koos IV tumour with tronco encefálico compression."
+          },
+          "guideline": "NCCN NF2 Guidelines 2022 — bilateral VS: larger/symptomatic side treated first; hearing preservation drives approach selection for the other side; SRS preferred over surgery for the hearing-preserved side",
+          "trial": "Plotkin SR et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. NEJM 2009;361(4):358-367: bevacizumab for NF2-related VS: 43% hearing improvement; useful for bilateral progressive VS; not a substitute for surgical decompression in tronco encefálico compression",
+          "pearl": "NF2 bilateral VS management: treat the symptomatic/large side first. Hearing preservation on the 'better ear' governs the approach — SRS preferred over surgery for smaller tumours with serviceable hearing in the non-operated ear. Bevacizumab is an adjunct for progressive NF2-related VS."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q8",
+        "stem": "The cochlear mean dose during Gamma Knife SRS for a right VS is 5.8 Gy (exceeding the threshold of 4 Gy). Which post-treatment outcome is most likely to be adversely affected by this elevated cochlear dose?",
+        "options": {
+          "A": "Facial nerve function (House-Brackmann grade)",
+          "B": "Tumour control rate",
+          "C": "Hearing preservation rate",
+          "D": "Risk of trigeminal neuropathy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Mean cochlear dose > 4 Gy during SRS for VS is directly associated with significantly reduced hearing preservation rates at 2 years. The cochlea contains hair cells that are highly radiosensitive — direct cochlear irradiation causes hair cell injury and stria vascularis damage leading to sensorineural hearing loss. The cochlear dose threshold of 4 Gy is now a standard treatment planning constraint for hearing-preserving SRS. At mean cochlear dose > 4 Gy, hearing preservation drops from approximately 70% to 40-50%.",
+          "wrong": {
+            "A": "Facial nerve function is primarily determined by the dose to the facial nerve at the IAC, not specifically the cochlear mean dose. The facial nerve dose constraint is different from the cochlear constraint.",
+            "B": "Tumour control rate is primarily determined by the marginal dose to the tumour — independent of cochlear dose.",
+            "D": "Trigeminal neuropathy risk relates to dose received by the trigeminal nerve/REZ in the CPA — not the cochlear mean dose."
+          },
+          "guideline": "ISRS SRS Guidelines 2018 — VS SRS: cochlear mean dose constraint < 4 Gy for hearing preservation; marginal dose 11-13 Gy; facial nerve maximum dose < 12-14 Gy",
+          "trial": "Massager N et al. Significance of the cochlear dose in predicting hearing preservation following radiosurgery for acoustic neuroma. Int J Radiat Oncol Biol Phys 2006;64(5):1517-1523: cochlear mean dose >4 Gy independently predicts hearing loss after VS SRS; threshold-based dosimetry essential for hearing preservation planning",
+          "pearl": "Cochlear mean dose < 4 Gy is the critical treatment planning constraint for hearing preservation SRS in VS. Above this threshold, hearing preservation rates drop significantly from ~70% to ~40%. Always check cochlear dose before finalising SRS treatment plans for VS — and document it in the treatment record."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q9",
+        "stem": "A 62-year-old man has a 4.5 cm right VS (Koos IV) with significant tronco encefálico compression and ataxia. He undergoes retrosigmoideo craneotomía with near-total resection; 5% of tumour is left attached to the facial nerve tronco encefálico entry. Post-operatively he is HB II. MRI at 6 months shows 3 mm growth of the residual. ¿Cuál es el más apropiado next management?",
+        "options": {
+          "A": "Immediate re-exploration for complete resection",
+          "B": "Gamma Knife SRS to the small facial nerve residual",
+          "C": "Translabyrinthine re-operation to complete resection",
+          "D": "Fractionated radiotherapy 50 Gy to the tumour bed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A small growing residual VS (3 mm growth at 6 months) attached to the facial nerve after near-total resection is the ideal scenario for Gamma Knife SRS. SRS achieves excellent tumour control for small VS residuals while preserving facial nerve function (HB II currently) — re-operative surgery in this location carries very high risk of facial palsy from scarring at the facial nerve. The 'near-total resection + SRS for residual' strategy is now the standard management for large VS where complete resection risks facial nerve sacrifice.",
+          "wrong": {
+            "A": "Immediate re-exploration for the residual attached to the facial nerve carries unacceptably high risk of permanent HB V-VI palsy due to adhesion and scarring from the first surgery. SRS achieves equivalent control with far lower nerve injury risk.",
+            "C": "Translabyrinthine re-operation removes the remaining labyrinth (already done via retrosigmoideo) and does not offer a safer corridor to the tronco encefálico-entry residual. It does not improve on the retrosigmoideo for this specific residual location.",
+            "D": "Fractionated RT to the whole tumour bed is disproportionate for a small 3 mm growing residual. SRS provides precise single-fraction treatment to the defined residual with minimal normal tissue dose."
+          },
+          "guideline": "AAO-HNS VS Guidelines 2012 — near-total resection strategy: intentional residual on facial nerve tronco encefálico entry is acceptable; SRS for growing residual is standard treatment",
+          "trial": "Bloch DC et al. Semidefinitive estereotáctico radiosurgery for VS with near total resection and SRS for residual. Otol Neurotol 2004;25(3):304-311: near-total resection + GKRS for residual: 95% control at 5 years; HB I-II preserved in 92% — superior to complete resection in terms of facial nerve preservation",
+          "pearl": "For large VS, the modern standard is near-total resection (intentionally leaving tumour on the facial nerve entry zone at the tronco encefálico) followed by SRS for any growing residual. This strategy achieves near-equivalent tumour control to GTR with dramatically better facial nerve preservation rates."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q10",
+        "stem": "A patient has a VS treated with GKRS 18 months ago. Follow-up MRI shows apparent 40% volume increase with central hypointensity and peripheral rim enhancement. El paciente is neurologically intact. What does this likely represent?",
+        "options": {
+          "A": "Tumour progression requiring urgent surgery",
+          "B": "Secondary malignancy from radiation",
+          "C": "Pseudo-expansion (transient cystic change) — a benign radiation response",
+          "D": "Abscess formation from radiation-induced immunosuppression"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Pseudo-expansion is a well-recognised phenomenon occurring in 20-30% of VS treated with GKRS, typically appearing 6-24 months post-treatment. It manifests as apparent tumour volume increase with central hypointensity (central necrosis/cystic change) and peripheral rim enhancement. It represents radiation-induced tumour response (central necrosis with surrounding reactive oedema) — NOT true progression. Most pseudo-expansions resolve or stabilise without intervention over 12-24 months. Characteristic features distinguishing from true progression: onset within 24 months, central necrosis/cystic, no symptoms, rim enhancement pattern. Management: continued observation with MRI at 3-6 month intervals.",
+          "wrong": {
+            "A": "True tumour progression typically appears after 24 months, shows solid enhancing growth without central necrosis, and se asocia con clinical symptoms. The described pattern and timing are characteristic of pseudo-expansion, not true progression.",
+            "B": "Radiation-induced secondary malignancy (e.g., sarcoma) occurs with a latency of > 5-10 years after SRS, is exceedingly rare (estimated risk < 0.1%), and presents as a new enhancing mass outside the treated volume — not 18 months after treatment.",
+            "D": "Abscess formation after SRS is not a recognised complication — SRS does not cause immunosuppression and the radiation field is too small to affect systemic immunity."
+          },
+          "guideline": "AAO-HNS VS SRS Guidelines 2012 — pseudo-expansion: expected post-SRS phenomenon in 20-30% at 6-24 months; MRI surveillance; surgery only if progressive neurological deterioration from mass effect",
+          "trial": "Friedman RA et al. Long-term hearing preservation after VS radiosurgery. Otol Neurotol 2011;32(8):1–6; pseudo-expansion described in 20-30% of GKRS-treated VS; characteristic MRI pattern; resolves in 75% without intervention",
+          "pearl": "Post-GKRS pseudo-expansion (at 6-24 months) = central necrosis/cystic change with rim enhancement = benign radiation response, NOT true progression. Do NOT rush to salvage surgery. Continue MRI surveillance at 3-6 months — most resolve spontaneously. True progression occurs > 24 months and shows solid enhancing growth."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q11",
+        "stem": "During a retrosigmoideo craneotomía for a left VS, the drill opening the posterior IAC wall creates a persistent perilymphatic fistula with fístula de LCR from the opened mastoid air cells. What es el más importante surgical action to prevent post-operative complications?",
+        "options": {
+          "A": "Pack the IAC with Surgicel and close — minor leaks resolve spontaneously",
+          "B": "Wax the mastoid air cells with bone wax and obliterate the IAC with fat/muscle graft",
+          "C": "Place a drenaje lumbar for 5 days postoperatively",
+          "D": "Convert immediately to a translaberíntico approach"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Mastoid air cell opening during retrosigmoid craniotomy for VS creates a potential CSF-perilymph communication pathway leading to post-operative CSF rhinorrhoea (via the eustachian tube) and/or otorrhoea (via the middle ear). The standard management is meticulous intraoperative closure: (1) bone wax applied to all visible air cell openings in the posterior cranial fossa floor and IAC; (2) fat graft or muscle graft obliteration of the IAC after tumour removal; (3) watertight dural closure. Failing to address this intraoperatively leads to post-operative CSF leak (occurring in 2-5% of retrosigmoid procedures), meningitis risk, and need for return to theatre.",
+          "wrong": {
+            "A": "Surgicel alone is haemostatic packing and does not provide the waterproof seal needed to prevent fístula de LCRage through mastoid air cells. Minor leaks do not always resolve spontaneously and untreated fístula de LCR risks meningitis.",
+            "C": "Lumbar drain is a post-operative measure for fístula de LCRs that cannot be controlled intraoperatively — it is not a substitute for intraoperative closure of air cells with bone wax and injerto graso.",
+            "D": "Converting to a translaberíntico approach mid-operation is a major escalation that is not required for mastoid air cell opening — the complication is manageable with bone wax and injerto graso obliteration."
+          },
+          "guideline": "EANS VS Surgery Guidelines 2020 — retrosigmoideo approach complications: mastoid air cells opened = bone wax + injerto graso obliteration of IAC mandatory; 2-5% post-operative fístula de LCR rate if not addressed",
+          "trial": "Selesnick SH et al. Postoperative líquido cefalorraquídeo leaks of the posterior cranial fossa: management with drenaje lumbarage. Otolaryngol Head Neck Surg 1996;114(3):444-450: prevention: intraoperative waxing + injerto graso; incidence 2-5% without vs <1% with meticulous air cell closure",
+          "pearl": "Retrosigmoid craneotomía opens mastoid air cells in 30-50% of cases — always check and wax before apertura dural. Fat graft obliteration of the IAC after tumour removal is standard to prevent post-operative fístula de LCR through the eustachian tube. Failure leads to post-operative CSF rhinorrhoea and meningitis risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q12",
+        "stem": "A 50-year-old woman with a right-sided CPA tumour (Koos II, 1.8 cm) is found intraoperatively to have significant right-sided facial weakness (HB IV) at the beginning of facial nerve monitoring — a new finding not present pre-operatively. Pre-operative MRI showed the tumour extending into the geniculate ganglion area on detailed review. What diagnosis was likely missed?",
+        "options": {
+          "A": "Large vestibular schwannoma with acute facial nerve compression",
+          "B": "Facial nerve schwannoma (FNS)",
+          "C": "Bell's palsy coincidentally occurring pre-operatively",
+          "D": "Malignant CPA tumour (e.g., rhabdomyosarcoma)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Facial nerve schwannoma (FNS) can mimic VS on initial MRI review. The key distinguishing features of FNS — often missed on standard review — are: (1) facial weakness at presentation (occurring in 75% of FNS vs < 5% of VS); (2) tumour extending along the course of CN VII into the geniculate ganglion, tympanic segment, or mastoid segment on high-resolution temporal bone MRI/CT; (3) the tumour is NOT centred on the IAC like a VS. The intraoperative finding of early facial palsy not present pre-operatively is a red flag that the facial nerve is the tumour of origin, not CN VIII. FNS requires fundamentally different surgical strategy (preserve the nerve if HB I-II, accept intentional sacrifice only for progressive HB ≥ III).",
+          "wrong": {
+            "A": "A 1.8 cm VS causing sudden acute HB IV palsy pre-operatively without prior documentation is very unlikely — VS rarely cause acute facial palsy regardless of size.",
+            "C": "Bell's palsy occurring coincidentally immediately before VS surgery would be extraordinarily unlikely and should not be accepted as an explanation before FNS is excluded on MRI.",
+            "D": "Malignant CPA tumours are rare and would typically show irregular enhancement, dural invasion, bony destruction, and rapid symptom progression — not a CPA mass resembling VS."
+          },
+          "guideline": "AANS/CNS CPA Tumour Manejo 2019 — facial nerve schwannoma: pre-operative detection by tracing CN VII course on MRI/CT; facial palsy at presentation in 75% of FNS; different surgical strategy from VS",
+          "trial": "Wiggins RH et al. The many faces of facial nerve schwannoma. AJNR 2006;27(3):694-699: FNS misdiagnosed as VS in 15-20% of cases; MRI re-review for geniculate ganglion extension is critical; presenting facial palsy in 75% of FNS vs 3% of VS",
+          "pearl": "Facial nerve schwannoma red flags: (1) facial palsy/weakness at presentation, (2) facial spasm, (3) tumour extending into geniculate ganglion or along intratemporal CN VII course. Always trace the CN VII course on MRI before CPA surgery. FNS requires different management — nerve preservation if HB I-II, not aggressive resection."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q13",
+        "stem": "A 55-year-old man presents with pulsatile tinnitus in his right ear, progressive right-sided conductive hearing loss, and a reddish-blue mass visible behind the tympanic membrane on otoscopy. MRI with gadolinium shows an intensely enhancing mass at the right jugular foramen with extension into the middle ear. CT shows permeative destruction of the jugular foramen walls. What is the most likely diagnosis?",
+        "options": {
+          "A": "Vestibular schwannoma with middle ear extension",
+          "B": "Glomus jugulare paraganglioma",
+          "C": "Cholesteatoma",
+          "D": "Endolymphatic sac tumour"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Glomus jugulare paraganglioma (also called glomus jugulotympanicum when it extends into the middle ear) presents with the classic triad: pulsatile tinnitus, conductive hearing loss (middle ear extension), and a reddish-blue pulsatile mass behind the tympanic membrane ('rising sun sign' on otoscopy). It arises from paraganglion cells at the jugular bulb/jugular foramen. Imaging shows: intensely enhancing vascular mass at the jugular foramen (highly vascular — 'salt and pepper' pattern on T2 from flow voids), permeative bony destruction of the jugular foramen on CT. It may involve CN IX, X, XI (jugular foramen syndrome).",
+          "wrong": {
+            "A": "VS does not extend into the middle ear (it is a posterior fossa/IAC tumour) and does not cause conductive hearing loss. VS causes sensorineural hearing loss.",
+            "C": "Cholesteatoma is a keratinised squamous epithelial cyst causing bony erosion. It does not enhance intensely on MRI and does not have the vascular 'pulsatile reddish mass' appearance. On CT, cholesteatoma causes non-permeative, scalloping bone erosion.",
+            "D": "Endolymphatic sac tumour (ELST) se asocia con VHL syndrome, arises from the endolymphatic sac in the petrous bone, and presents with sensorineural hearing loss — not a pulsatile middle ear mass."
+          },
+          "guideline": "AANS/CNS Jugular Foramen Paraganglioma Manejo 2019 — 'rising sun sign' + pulsatile tinnitus + conductive hearing loss = glomus jugulare; embolisation + surgery ± adjuvant RT",
+          "trial": "Fisch U. Infratemporal fossa approach for glomus tumours. Ann Otol Rhinol Laryngol 1982;91(5):474-479: Fisch classification (A-D) of glomus jugulare; Tipo A (middle ear only) to Tipo D (intracranial extension); surgical approach selection by stage",
+          "pearl": "Glomus jugulare paraganglioma: pulsatile tinnitus + conductive hearing loss + 'rising sun' reddish-blue tympanic membrane mass + intensely enhancing jugular foramen mass on MRI = pathognomonic presentation. Pre-operatively measure 24-hour urine catecholamines (rare secretory tumours) and plan embolisation 24-48h before surgery."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q14",
+        "stem": "A 38-year-old man with NF2 develops new-onset progressive facial weakness (HB III) over 6 months. MRI shows his previously documented right CPA schwannoma has grown from 1.5 cm to 2.2 cm and now extends to the geniculate ganglion. Intraoperatively, the tumour is found to arise from the facial nerve. What is the appropriate surgical strategy?",
+        "options": {
+          "A": "Complete facial nerve sacrifice to achieve GTR — functional outcome is secondary to cure",
+          "B": "Near-total resection with intention to decompress, preserving as much nerve as possible; cable graft if continuity cannot be maintained",
+          "C": "Biopsy only, then Gamma Knife SRS",
+          "D": "Conservative subtotal resection leaving the nerve intact, planning adjuvant radiation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For facial nerve schwannoma with HB III (significant but not complete palsy), the appropriate strategy is maximum safe resection with nerve preservation — and if nerve continuity cannot be maintained (sectioned inadvertently or tumour inseparable), immediate cable graft repair (sural or great auricular nerve) during the same operative session provides the best long-term reinnervation outcome. Planned nerve sacrifice without immediate repair is unacceptable. Post-operative rehabilitation includes eye care and, if needed, facial reanimation procedures (gold weight lid implant, temporalis muscle transfer).",
+          "wrong": {
+            "A": "Deliberate facial nerve sacrifice without reconstruction is not justified even for FNS. Complete palsy (HB VI) is far more disabling than moderate HB III palsy. Reconstrucción should always be planned simultaneously.",
+            "C": "Biopsy only then SRS would leave a growing tumour causing progressive facial palsy without definitive treatment of the nerve-invading component. This understates the problem.",
+            "D": "Subtotal resection leaving tumour and planning radiation is a reasonable option for HB I-II asymptomatic FNS, but for a patient with progressive HB III palsy, surgical decompression with nerve repair is preferred."
+          },
+          "guideline": "AANS/CNS Facial Nerve Schwannoma Guidelines 2019 — surgical management: preservation > repair > transfer in order of priority; immediate cable graft if nerve continuity lost; HB III = surgical decompression indicated",
+          "trial": "McMonagle B et al. Facial nerve schwannoma: the limitations of facial nerve function as a guide to management. Laryngoscope 2008;118(2):263-267: surgery for FNS with HB ≥ III; immediate cable graft repair if nerve sectioned; long-term outcomes HB II-III achievable with repair",
+          "pearl": "Facial nerve schwannoma surgical principle: preserve > repair. For HB I-II FNS, defer surgery (SRS or observation). For HB ≥ III with growth, surgical decompression is indicated. If nerve continuity cannot be maintained, immediate cable graft (sural nerve, great auricular nerve) at the same operation is mandatory — delayed repair yields worse reinervación outcomes."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q15",
+        "stem": "Which GKRS marginal dose is currently recommended for vestibular schwannoma treatment to optimise the balance between tumour control and facial/cochlear nerve preservation?",
+        "options": {
+          "A": "6-8 Gy",
+          "B": "11-13 Gy",
+          "C": "18-20 Gy",
+          "D": "24-25 Gy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The current recommended marginal dose for VS GKRS is 11-13 Gy to the 50% isodose line. This dose range was established through refinement over time — early protocols used 14-16 Gy (higher tumour control but more facial/cochlear complications) and were reduced after evidence that 12-13 Gy achieved equivalent control with significantly lower facial neuropathy (< 2%) and better hearing preservation. Below 11 Gy, tumour control rates decrease significantly. Above 14 Gy, facial nerve and hearing complications increase substantially.",
+          "wrong": {
+            "A": "6-8 Gy es insuficiente for VS tumour control — doses below 11 Gy result in significantly reduced growth arrest rates.",
+            "C": "18-20 Gy would cause excessive radiation-induced cochlear damage, hearing loss in virtually all patients, and increased trigeminal and facial nerve injury rates. These doses are not used for VS.",
+            "D": "24-25 Gy represents a dose used for very radioresistant tumours (e.g., uveal melanoma) — far too high for cranial nerve preservation in VS treatment."
+          },
+          "guideline": "ISRS VS SRS Guidelines 2018 — recommended marginal dose: 11-13 Gy to 50% isodose; cochlear constraint < 4 Gy mean dose; facial nerve maximum < 12-14 Gy",
+          "trial": "Flickinger JC et al. An analysis of dose-response for acoustic neuroma radiosurgery. Int J Radiat Oncol Biol Phys 1996;36(1):47-54: dose-response analysis; 12-13 Gy: optimal balance of control vs CN toxicity; dose reduction from 14-16 Gy to 12-13 Gy era improved facial nerve outcomes without significant loss of control",
+          "pearl": "VS GKRS dose: 11-13 Gy marginal dose to the 50% isodose. Above 14 Gy = excessive facial/cochlear complications. Below 11 Gy = insufficient tumour control. The current sweet spot is 12-13 Gy. This is the most testable dosimetry fact for VS management."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q16",
+        "stem": "Un hombre de 72 años with multiple comorbidities (COPD, heart failure, type 2 DM) is found to have an asymptomatic 2 cm right VS (Koos II) on MRI performed for unrelated reasons. He has right-sided AAO Class C hearing. ¿Cuál es el más apropiado initial management?",
+        "options": {
+          "A": "Surgical resection — all meningiomas and schwannomas should be resected",
+          "B": "Gamma Knife SRS — the tumour needs immediate treatment to prevent growth",
+          "C": "Active surveillance with MRI at 3-6 months then annually",
+          "D": "Biopsy to confirm diagnosis before any management decision"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Active surveillance is the most appropriate initial management for a small (2 cm), asymptomatic VS in a 72-year-old with multiple comorbidities and non-serviceable hearing (Class C). The natural history data shows ~45% of VS never grow. For an elderly patient with comorbidities, the risks of surgery (general anaesthesia, bleeding, facial nerve injury) and even SRS (radiation changes, pseudo-expansion) outweigh the benefit when the tumour is asymptomatic and small. MRI at 3-6 months establishes the growth rate, then annual MRI for stable tumours. Treatment is initiated if growth occurs or symptoms develop.",
+          "wrong": {
+            "A": "Not all VS require surgical resection — especially small, asymptomatic tumours in elderly high-risk patients. Natural history supports observation for most small VS.",
+            "B": "Immediate SRS for an asymptomatic, unconfirmed growing tumour in a 72-year-old with comorbidities is premature. Observation should confirm growth before any intervention.",
+            "D": "Biopsy of a CPA VS is not standard practice — the diagnosis is confidently established by gadolinium MRI. Biopsy adds procedural risk without clinical benefit when imaging is characteristic."
+          },
+          "guideline": "AAO-HNS VS Guidelines 2012 — observation: preferred initial management for small, asymptomatic VS; especially elderly or medically frail patients; MRI protocol: 3-6 months then annually",
+          "trial": "Stangerup SE 2012 — Copenhagen cohort: in patients > 70 years, VS growth rates are lower than younger patients; 'wait and scan' is particularly appropriate; intervention only for growth or symptoms",
+          "pearl": "For asymptomatic, small VS in elderly patients with non-serviceable hearing: active surveillance is the right first step, not immediate treatment. The natural history (45% never grow) and the patient's age and comorbidities together support 'wait and scan.' Implement treatment only when growth or symptoms are documented."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q17",
+        "stem": "Samii's landmark series reported outcomes of 1000 consecutive VS operations. Which facial nerve outcome parameter best defines excellent facial nerve preservation in experienced VS surgery centres?",
+        "options": {
+          "A": "House-Brackmann I-II at 1 year in > 90% of patients with small-medium tumours",
+          "B": "No facial movement (HB VI) in < 50% of patients",
+          "C": "HB I in > 99% of all operated VS regardless of size",
+          "D": "Immediate post-operative HB I in > 80% of Koos IV tumours"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "The benchmark for excellent facial nerve outcome in VS surgery at high-volume experienced centres is House-Brackmann I-II at 1 year in > 90% of patients with small to medium tumours (Koos I-III). Samii's series of 1000 operations at the International Neuroscience Institute demonstrated 94% HB I-II at 1 year for small-medium VS — establishing the reference standard. For very large VS (Koos IV), facial nerve preservation rates are lower (~70-80% HB I-II) due to thinning and displacement of the nerve.",
+          "wrong": {
+            "B": "HB VI (total palsy) in < 50% of patients is an extremely low bar that would represent poor surgical outcomes, not a benchmark of excellence.",
+            "C": "HB I in > 99% regardless of size is unrealistically high — even in the best centres, some patients develop neuropraxia requiring recovery time, and large tumours have higher risks.",
+            "D": "Immediate post-operative HB I in > 80% for Koos IV tumours is unrealistically high — even expert centres accept immediate postoperative neuropraxia (HB III-IV that improves to I-II over months) for large tumours."
+          },
+          "guideline": "AANS/CNS VS Surgery Quality Standards 2019 — outcome benchmark: HB I-II at 12 months in ≥90% of Koos I-III VS as quality indicator for high-volume centres",
+          "trial": "Samii M & Matthies C. Manejo of 1000 vestibular schwannomas (acoustic neuromas): the facial nerve — preservation and restitution of function. Neurosurgery 1997;40(4):684-694: 94% HB I-II at 1 year for small-medium VS; the definitive reference for facial nerve outcomes in VS surgery",
+          "pearl": "The Samii 1000-case series benchmark: >90% HB I-II at 1 year for small-medium VS in experienced hands. For Koos IV: ~75-80% HB I-II. This is the accepted quality indicator for VS surgical programmes. Below 80% HB I-II for Koos I-III suggests inadequate technique or volume."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q18",
+        "stem": "A patient presents 3 years after translaberíntico VS resection with ipsilateral complete deafness. She is now interested in cochlear implant evaluation. Which statement regarding cochlear implantation after VS surgery is most accurate?",
+        "options": {
+          "A": "Cochlear implant always works after translaberíntico VS resection",
+          "B": "Cochlear implant efficacy depends on cochlear nerve integrity; nerve preservation must be documented",
+          "C": "Cochlear implant is always contraindicated after VS surgery",
+          "D": "Cochlear implant is equivalent to auditory tronco encefálico implant (ABI) in this situation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cochlear implantation (CI) after VS surgery can be effective only if the cochlear nerve (CN VIII, cochlear division) is anatomically and functionally preserved. If the cochlear nerve was sacrificed or severely damaged during surgery (common in translabyrinthine resection), CI will fail as there is no viable afferent nerve to stimulate. Cochlear nerve preservation must be documented — electrically evoked auditory brainstem responses (EABR) at the time of CI insertion can help predict benefit. If the cochlear nerve is absent/non-functional, auditory brainstem implant (ABI) directly stimulating the cochlear nucleus is the alternative.",
+          "wrong": {
+            "A": "CI does not always work after translaberíntico VS resection — its success depends entirely on cochlear nerve preservation, which may not be possible after TLA (where the cochlea is removed and nerve is often damaged).",
+            "C": "CI is not universally contraindicated after VS surgery — it can be effective when cochlear nerve integrity is preserved, even after TLA with cochlear reimplantation.",
+            "D": "CI and ABI are not equivalent — CI stimulates spiral ganglion neurons via an intra-cochlear electrode array (requires intact cochlear nerve); ABI stimulates the cochlear nucleus directly at the tronco encefálico (bypasses the cochlear nerve). CI provides better speech understanding than ABI when it works."
+          },
+          "guideline": "British Cochlear Implant Group / AAO-HNS — cochlear implant after VS: cochlear nerve integrity prerequisite; EABR testing during insertion; ABI if cochlear nerve non-functional",
+          "trial": "Rosengren SM et al. Cochlear implantation after vestibular schwannoma surgery. Cochlear Implants International 2011;12(2):93-98: CI after VS surgery: 60-70% open-set speech recognition when cochlear nerve preserved; ABI required if nerve absent; EABR essential for selection",
+          "pearl": "Cochlear implant after VS surgery: only effective if cochlear nerve is intact. Auditory tronco encefálico implant (ABI) is the solution when the cochlear nerve is absent or non-functional — it stimulates the cochlear nucleus directly. In NF2 patients undergoing translaberíntico resection, ABI placement at the cochlear nucleus during the same operation is the standard hearing rehabilitation plan."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q19",
+        "stem": "A 32-year-old woman with NF2 has undergone three prior cranial operations. She is now completely deaf bilaterally. She is being evaluated for hearing rehabilitation. Which device provides the best hearing rehabilitation in a bilaterally deaf NF2 patient without functional cochlear nerves?",
+        "options": {
+          "A": "Bilateral cochlear implants",
+          "B": "Bone-anchored hearing aid (BAHA)",
+          "C": "Auditory tronco encefálico implant (ABI)",
+          "D": "Middle ear implant"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The auditory brainstem implant (ABI) is the appropriate hearing rehabilitation device for a bilaterally deaf NF2 patient with non-functional cochlear nerves. ABI directly stimulates the cochlear nucleus in the dorsal lateral brainstem (bypassing the cochlear nerve entirely), using an electrode array placed in the lateral recess of the fourth ventricle. ABI is the only option when cochlear nerves are absent or non-functional. While ABI provides lower speech understanding than cochlear implants (environmental sounds, some speech discrimination), it restores awareness of sound and dramatically improves quality of life. The ABI is placed during the same operative session as VS removal via the translabyrinthine or retrosigmoid approach.",
+          "wrong": {
+            "A": "Bilateral cochlear implants are not possible without functional cochlear nerves. In this NF2 patient with complete bilateral deafness and multiple prior surgeries, cochlear nerve function is almost certainly absent or severely compromised.",
+            "B": "Bone-anchored hearing aid (BAHA) transmits sound via bone conduction — it requires at least one functioning cochlear nerve and cochlea. It is useful for conductive/mixed hearing loss but cannot help with bilateral sensorineural deafness due to absent cochlear nerves.",
+            "D": "Middle ear implant (e.g., Vibrant Soundbridge) enhances vibrational transmission in the middle ear — requires residual cochlear nerve function and is not applicable to bilateral total deafness from CN VIII destruction."
+          },
+          "guideline": "British Cochlear Implant Group NF2 Guidelines 2019 — ABI: standard hearing rehabilitation for NF2 with bilateral deafness and absent cochlear nerves; placement during final VS surgery; expected outcomes 30-50% open-set sentence recognition",
+          "trial": "Colletti V et al. Auditory tronco encefálico implants. Curr Opin Otolaryngol Head Neck Surg 2012;20(5):349-353: ABI outcomes in NF2: 90% sound awareness, 40-60% speech discrimination without lip reading; superior to no rehabilitation; ABI during VS surgery is standard NF2 practice",
+          "pearl": "Auditory tronco encefálico implant (ABI) is the only hearing rehabilitation option for patients with absent cochlear nerves (NF2, post-VS surgery). ABI stimulates the cochlear nucleus directly at the tronco encefálico. It is placed during the final VS removal operation. Resultados are inferior to cochlear implant but provide meaningful sound awareness and some speech discrimination."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q20",
+        "stem": "A 50-year-old woman with a 2.5 cm right VS (Koos III) and AAO Class C hearing undergoes translaberíntico resection. Post-operatively she has HB IV palsy. At her 6-month follow-up she has spontaneously improved to HB III, but tear production is absent and she has difficulty closing the eye completely. What is the most immediately important management for her eye?",
+        "options": {
+          "A": "Botulinum toxin to the levator palpebrae to induce ptosis and protect the cornea",
+          "B": "Intensive eye lubrication (preservative-free drops hourly + night-time ointment) and consideration of upper eyelid gold weight implant",
+          "C": "Tarsorrhaphy — the only effective means of eye protection",
+          "D": "No treatment required — HB III is mild and does not require eye care"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-VS surgery HB III-IV facial paresis with absent tear production (indicating CN VII supply to the lacrimal gland via chorda tympani/greater petrosal nerve is compromised) and incomplete eye closure creates immediate risk of exposure keratopathy and corneal ulceration. The primary interventions are: intensive lubricating eye drops (preservative-free, hourly during waking hours) + lubricating ointment at night + moisture chamber eye cover during sleep. For HB IV with genuinely incomplete closure, a gold weight upper eyelid implant provides passive blink-assisting closure and is preferred over tarsorrhaphy (which permanently reduces visual field) in the modern era.",
+          "wrong": {
+            "A": "Botulinum toxin to the levator palpebrae (the muscle keeping the eye open) can temporarily induce ptosis as a protective measure, but it is generally reserved when other measures fail and is a temporary measure. It is not the primary standard recommendation.",
+            "C": "Tarsorrhaphy (surgical partial eyelid closure) provides permanent corneal protection but limits visual field and is generally reserved for patients with no hope of facial nerve recovery (HB VI with irreversible palsy). Modern practice prefers reversible options (gold weight) first.",
+            "D": "HB III with incomplete eye closure and absent tear production ABSOLUTELY requires active eye care. Exposure keratopathy leading to corneal ulceration and permanent visual loss is a real risk even with moderate palsy."
+          },
+          "guideline": "AANS/CNS VS Facial Palsy Manejo 2019 — post-operative facial palsy eye care: lubricant drops + ointment for all HB ≥ III; gold weight implant for HB IV-VI; ophthalmology referral; tarsorrhaphy reserved for refractory cases",
+          "trial": "Hohman MH & Bhama PK. Eye care in facial palsy. Facial Plast Surg Clin North Am 2015;23(3):301-307: systematic review of eye care options; gold weight upper lid implant provides effective passive eye closure; lubrication mandatory for all grades of palsy with incomplete eye closure",
+          "pearl": "Any facial palsy with incomplete eye closure (HB ≥ III) requires immediate, intensive eye care — preservative-free drops + ointment + moisture chamber. Ausente tear production (dry eye) and incomplete closure together create corneal ulceration risk. Gold weight eyelid implant es el preferido intervention for HB IV palsy not expected to recover within 3-6 months."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "id": "A6",
+  "title": "Linfoma Primario del SNC",
+  "subtitle": "Block A — Neuro-Oncology: PCNSL Diagnosis, MTX-Based Therapy, and Consolidation",
+  "block": "A",
+  "block_name": "Neuro-Oncology",
+  "level": "R2-4",
+  "reading_time_min": 38,
+  "guidelines_version": "ESMO PCNSL Guidelines 2023 · NCCN CNS Tumors v1.2024 · EANO PCNSL Recommendations 2021",
+  "textbook_refs": [
+    "Ferreri AJM et al. Primary CNS Lymphoma. Lancet 2016;387:1585-1596",
+    "Bromberg JEC et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. Lancet Oncol 2019;20:216-228",
+    "Ghesquieres H et al. Lenalidomide in combination with rituximab in recurrent or refractory primary CNS lymphoma (REVRI LYSA/LOC): a multicentre, single-arm, phase 2 study. Lancet Haematol 2019;6:e344-e353",
+    "Thiel E et al. High-dose methotrexate with or without whole brain radiotherapy for primary CNS lymphoma (G-PCNSL-SG-1). Lancet Oncol 2010;11:1036-1047"
+  ],
+  "learning_objectives": [
+    "Identify the characteristic clinical and radiological features of primary CNS lymphoma (PCNSL) distinguishing it from high-grade glioma and brain metastases",
+    "Describe the essential diagnostic workup including ophthalmological examination, lumbar puncture, vitreous biopsy, and stereotactic biopsy technique",
+    "Outline the evidence base for high-dose methotrexate (HD-MTX) as the cornerstone of PCNSL induction therapy",
+    "Compare consolidation strategies (whole-brain radiotherapy vs high-dose chemotherapy with autologous stem cell transplantation) with respect to efficacy and neurotoxicity",
+    "Apply appropriate management for immunocompromised patients (HIV, post-transplant) with PCNSL",
+    "Describe the role of intravitreal methotrexate for vitreoretinal lymphoma"
+  ],
+  "sections": [
+    {
+      "id": "A6-S1",
+      "title": "Epidemiology, Pathology, and Differential Diagnosis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Primary CNS lymphoma (PCNSL) is a rare but aggressive extranodal non-Hodgkin lymphoma confined to the brain, spinal cord, leptomeninges, eyes, or cranial nerves, without systemic disease. It accounts for approximately 4-6% of all primary brain tumours and 2-3% of all lymphomas. The vast majority (95%) are **diffuse large B-cell lymphoma (DLBCL)** of the non-germinal centre B-cell (non-GCB/ABC subtype), characterised by MYD88 L265P mutation (50-80%) and CD79B mutations (30-70%), which are detectable in CSF cell-free DNA and vitreous fluid, offering a non-invasive diagnostic approach.\n\nPCSNL has a bimodal incidence: immunocompromised patients (HIV, post-solid organ or haematopoietic transplant, congenital immunodeficiency) develop PCNSL at younger ages (median 30-40 years), while immunocompetent patients develop it at a median age of 60-65 years. The incidence in immunocompromised patients has decreased dramatically with effective antiretroviral therapy (ART) for HIV, while the immunocompetent incidence has increased, possibly due to improved detection and an ageing population.\n\n**Pathologically**, PCNSL is characterised by angiocentric growth pattern — tumour cells concentrate around blood vessels in Virchow-Robin spaces, often extending along vascular channels. The blood-brain barrier is variably disrupted; this property exploits opportunities for intrathecal therapy but also limits systemic drug penetration.\n\n**MRI differential diagnosis**: PCNSL appears as iso-to-hypointense on T2/FLAIR (high cellularity restricts water diffusion — markedly restricted on DWI), intensely enhancing, periventricular/corpus callosum location preferred, and typically shows a 'butterfly' pattern crossing the midline when large. This pattern mimics GBM but DWI restriction, absence of necrosis, and location pattern should suggest PCNSL. Other differentials: abscess (ring enhancement, restricted DWI centrally, fever), tumefactive MS (open ring enhancement, no mass effect proportional to size), and GBM (ring enhancement, necrosis, peritumoral oedema disproportionate to size)."
+        },
+        {
+          "type": "table",
+          "title": "MRI Features: PCNSL vs GBM vs Brain Abscess",
+          "headers": ["Feature", "PCNSL", "GBM", "Brain Abscess"],
+          "rows": [
+            ["Enhancement", "Intense, solid, homogeneous", "Ring-enhancing, irregular", "Smooth thin ring"],
+            ["DWI/ADC", "Restricted (markedly low ADC) — solid area", "Mixed (necrosis = high ADC centrally)", "Restricted centrally (pus)"],
+            ["Location", "Periventricular, corpus callosum, basal ganglia", "White matter, frontal/temporal", "Grey-white junction, cortical/subcortical"],
+            ["Necrosis", "Absent (immunocompetent) or ring (HIV)", "Present (central necrosis)", "Central (pus cavity)"],
+            ["Oedema", "Moderate, proportionate", "Extensive finger-like", "Moderate perilesional"],
+            ["T2/FLAIR signal", "Low (high cellularity)", "High (mixed)", "Rim of low T2 (capsule)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PCNSL on MRI: DWI Restriction + Periventricular + Intense Enhancement",
+          "content": "Classic PCNSL MRI: periventricular or corpus callosum location, intense solid homogeneous enhancement, markedly restricted DWI (high cellularity), and absent necrosis in immunocompetent patients. In HIV+ patients, PCNSL may be ring-enhancing (mimicking toxoplasmosis). The MYD88 L265P mutation in CSF cell-free DNA is increasingly used as a near-diagnostic biomarker, avoiding stereotactic biopsy in some cases."
+        }
+      ]
+    },
+    {
+      "id": "A6-S2",
+      "title": "Diagnostic Workup and Staging",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tissue diagnosis of PCNSL requires careful planning to avoid two critical pitfalls: (1) administering corticosteroids before biopsy (which causes dramatic tumour 'melting' and renders the biopsy non-diagnostic in 30-40% of cases), and (2) missing the ophthalmological component (vitreoretinal lymphoma).\n\n**Standard diagnostic workup** (ESMO/EANO recommendations):\n\n1. **MRI brain and spine with gadolinium** — full extent of disease, spine metastases assessment\n2. **Ophthalmological examination with slit-lamp** — vitreoretinal lymphoma in 15-25% of PCNSL; may allow vitreous biopsy for cytology, flow cytometry, and MYD88/CD79B mutation analysis\n3. **Lumbar puncture**: cytology, flow cytometry, protein/glucose, IgH gene rearrangement, and liquid biopsy (MYD88 L265P, CD79B mutation in CSF cell-free DNA — sensitivity 50-60%, specificity >95%)\n4. **Stereotactic biopsy**: the definitive diagnostic procedure. Performed WITHOUT prior dexamethasone whenever possible. Frame-based or frameless neuronavigation-guided, targeting the most accessible, highest-signal component. Core needle preferred over aspiration for histological architecture. Intraoperative frozen section confirms lymphoid tissue.\n5. **Staging**: whole-body PET-CT (or CT chest/abdomen/pelvis) to exclude systemic lymphoma (which changes classification from PCNSL to secondary CNS DLBCL with different management). Bone marrow biopsy if systemic disease suspected. HIV serology. Testicular ultrasound in men >60 years (testicular lymphoma can present as CNS relapse of systemic disease)\n6. **Ophthalmological fluorescein angiography and vitreous biopsy** if slit-lamp examination is abnormal"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Steroids Before Biopsy in PCNSL",
+          "content": "Administering dexamethasone before stereotactic biopsy of PCNSL is the most common and consequential clinical error. Corticosteroids cause rapid tumour lysis in PCNSL (unlike gliomas), producing a 'ghost tumour' on repeat MRI and non-diagnostic necrotic biopsy material in 30-40% of cases. This delays diagnosis and treatment by weeks. Exception: if cerebral herniation is imminent, steroids must be given — but plan to rebiopsy when the tumour recurs after steroid taper. NEVER give steroids 'empirically' for a periventricular lesion before histological diagnosis."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Vitreoretinal Lymphoma as PCNSL Presentation",
+          "content": "A 67-year-old immunocompetent man presents with 3 months of floaters and blurred vision in his left eye. Slit-lamp examination shows vitritis and subretinal yellow deposits. MRI brain reveals a periventricular enhancing lesion. This is vitreoretinal lymphoma (VRL) co-presenting with PCNSL — vitreous biopsy shows CD20+ large B-cells, confirming B-cell lymphoma. VRL is diagnosed in 15-25% of PCNSL patients. It requires intravitreal methotrexate (400 mcg twice weekly x 4 weeks, then weekly x 8 weeks) in addition to systemic HD-MTX therapy."
+        }
+      ]
+    },
+    {
+      "id": "A6-S3",
+      "title": "Induction Therapy: High-Dose Methotrexate",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "High-dose methotrexate (HD-MTX) is the cornerstone of PCNSL treatment, forming the backbone of all effective induction regimens. MTX penetrates the blood-brain barrier when administered at doses ≥3.5 g/m² IV, achieving therapeutic CSF concentrations that exceed those achievable by intrathecal administration. The optimal dose is 3.5-8 g/m², with most contemporary protocols using 3.5 g/m².\n\n**MTX-based combination regimens** have superseded MTX monotherapy. The most widely used regimen is **MATRix** (MTX + cytarabine + thiotepa + rituximab), established by the **IELSG32 trial** (Ferreri et al. Lancet Haematol 2016). IELSG32 was a multicentre phase II randomised trial of 3 induction regimens: (A) MTX + cytarabine, (B) MTX + cytarabine + rituximab, (C) MATRix (MTX + cytarabine + thiotepa + rituximab). The complete response (CR) rate was significantly higher with MATRix: 49% vs 30% (arm A) vs 23% (arm C was arm B not C — arm C=MATRix: 49%). This established MATRix as the preferred induction standard.\n\nThe **HOVON 105/ALLG NHL 24 trial** (Bromberg et al. Lancet Oncol 2019) randomised 200 PCNSL patients to MTX + cytarabine (±BCNU) vs MTX + cytarabine + rituximab. Adding rituximab significantly improved event-free survival (HR 0.60, p=0.013) and 2-year OS (69% vs 52%), confirming the role of rituximab in PCNSL induction.\n\n**MTX administration requirements**: MTX at 3.5 g/m² requires: (1) vigorous IV hydration (alkaline saline, sodium bicarbonate to maintain urinary pH >7), (2) leucovorin (folinic acid) rescue starting 24 hours post-MTX to rescue systemic toxicity while MTX remains active in CSF, (3) MTX level monitoring at 24, 48, 72 hours (target <0.1 µmol/L at 72 hours before stopping leucovorin). Patients with renal impairment (GFR <50 mL/min) cannot receive standard-dose MTX — dose reduction or WBRT-only alternatives are required.\n\n**Intrathecal (IT) MTX**: The role of IT MTX in addition to systemic HD-MTX is controversial. Modern data suggest that IT MTX adds toxicity without significant efficacy advantage when adequate systemic HD-MTX doses are used (≥3.5 g/m²), as systemic HD-MTX already achieves therapeutic CSF concentrations. EANO 2021 does not routinely recommend IT MTX when adequate systemic HD-MTX is given."
+        },
+        {
+          "type": "table",
+          "title": "Key PCNSL Induction Regimens — Evidence Summary",
+          "headers": ["Regimen", "Components", "CR Rate", "Key Trial", "Current Role"],
+          "rows": [
+            ["MTX monotherapy", "MTX 3.5 g/m² q21d", "30-40%", "Multiple phase II", "Elderly/frail patients only"],
+            ["MTX + cytarabine", "MTX 3.5 g/m² + Ara-C 2g/m² x2", "46%", "IELSG32 Arm A", "Historical standard"],
+            ["MTX + Ara-C + rituximab", "MTX + Ara-C + R", "52%", "HOVON 105 (Lancet Oncol 2019)", "Acceptable alternative"],
+            ["MATRix", "MTX + Ara-C + thiotepa + R", "49% CR (80% ORR)", "IELSG32 (Lancet Haematol 2016)", "Current preferred standard"],
+            ["R-MPV (USA)", "R + MTX + procarbazine + vincristine", "60% CR", "DeAngelis (JCO 2002)", "Common US protocol"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A6-S4",
+      "title": "Consolidation: WBRT vs Autologous Stem Cell Transplantation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "After induction with HD-MTX-based therapy, consolidation is essential to maintain remission. Two main consolidation strategies are compared: whole-brain radiotherapy (WBRT) and high-dose chemotherapy followed by autologous stem cell transplantation (HDC-ASCT).\n\n**WBRT as consolidation**: The landmark **G-PCNSL-SG-1 trial** (Thiel et al. Lancet Oncol 2010) compared HD-MTX x8 cycles followed by WBRT (45 Gy) vs HD-MTX alone in PCNSL patients ≥60 years. HD-MTX + WBRT produced higher CR rates but no OS benefit compared to HD-MTX alone. Critically, WBRT caused severe delayed neurotoxicity (dementia, ataxia, urinary incontinence) in 35-40% of long-term survivors >60 years. This trial established that omitting WBRT after HD-MTX preserves cognition without sacrificing OS in elderly patients.\n\nFor **younger patients (<65 years) in CR after induction**, WBRT at reduced dose (23.4 Gy) remains an option with better tolerability, but neurotoxicity remains a concern. The current trend in fit younger patients is to avoid WBRT in favour of HDC-ASCT consolidation.\n\n**HDC-ASCT consolidation**: High-dose thiotepa ± BCNU (carmustine) conditioning followed by autologous SCT achieves excellent CNS drug levels due to thiotepa's excellent BBB penetration. The **IELSG32 part 2** (Ferreri et al. Lancet Haematol 2018) randomised patients in response after MATRix to WBRT (36 Gy) vs HDC-ASCT (thiotepa + BCNU). HDC-ASCT achieved significantly better 2-year PFS (80% vs 69%, p=0.007) and 2-year OS (87% vs 74%). The **PRECIS trial** (Houillier et al. JCO 2019) confirmed HDC-ASCT superiority in younger fit patients.\n\nCurrent **ESMO/EANO 2023 recommendations**: For fit patients ≤65 years: MATRix induction → HDC-ASCT (thiotepa + BCNU conditioning). For patients 65-70 years: MATRix induction → reduced-dose WBRT (23.4 Gy) or HDC-ASCT if fit. For patients >70 years: HD-MTX-based induction (±rituximab) → maintenance rituximab or WBRT if necessary. WBRT is avoided in elderly patients due to neurotoxicity."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — IELSG32 Part 2: HDC-ASCT Superior to WBRT as Consolidation",
+          "content": "IELSG32 part 2 (Ferreri, Lancet Haematol 2018): for patients <65-70 years in response after MATRix — HDC-ASCT (thiotepa+BCNU) vs WBRT (36 Gy): 2-yr PFS 80% vs 69% (p=0.007), 2-yr OS 87% vs 74%. HDC-ASCT is now the preferred consolidation for fit younger patients, replacing WBRT. Thiotepa is the key agent due to its excellent blood-brain barrier penetration."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — WBRT Causes Severe Delayed Neurotoxicity in Elderly",
+          "content": "WBRT as consolidation for PCNSL causes severe delayed leukoencephalopathy and dementia in 35-40% of patients >60 years (G-PCNSL-SG-1 trial). Symptoms: subcortical dementia, ataxia, urinary incontinence — the classic triad mimicking normal pressure hydrocephalus. This is irreversible. For patients >65 years, avoid WBRT as consolidation whenever possible. Rituximab maintenance or observation are preferred non-neurotoxic alternatives."
+        }
+      ]
+    },
+    {
+      "id": "A6-S5",
+      "title": "Relapsed/Refractory PCNSL and Special Populations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PCNSL has a median OS of 12-18 months with standard therapy in population-based studies, reflecting the challenge of relapsed disease (30-50% relapse within 2 years). At relapse, re-challenge with HD-MTX is effective in patients with MTX-sensitive disease (>12 months from last MTX), achieving 2nd CR in 50-70%. However, in MTX-refractory disease (<12 months remission), alternative regimens are needed.\n\n**Relapse treatment options**:\n- **Rituximab + lenalidomide** (REVRI trial, Ghesquières et al. Lancet Haematol 2019): overall response rate 35%, 6-month PFS 42%, manageable toxicity — now a standard option for relapsed/refractory PCNSL\n- **Ibrutinib** (BTK inhibitor): exploits MYD88 L265P and BCR signalling dependence; ORR 75-90% in single-arm studies (Wilson et al. Nat Med 2015), with combination ibrutinib + MTX increasingly studied\n- **Pemetrexed**: active in MTX-refractory disease\n- **Temozolomide ± rituximab**: modest activity as palliative option in elderly patients\n\n**HIV-associated PCNSL**: In HIV+ patients, ART itself improves PCNSL outcomes by reconstituting immune function. PCNSL in HIV is almost exclusively associated with EBV co-infection (EBV-DNA in CSF by PCR). Management: initiate or optimise ART → HD-MTX ± rituximab in patients with adequate CD4 counts; WBRT if fit; best supportive care in severely immunocompromised patients (CD4 <50) where tolerance of HD-MTX is poor. The dramatic decline in HIV-PCNSL since ART is a remarkable treatment success story.\n\n**Post-transplant lymphoproliferative disorder (PTLD)** involving CNS: CNS PTLD is typically EBV-driven in early PTLD. First step: reduce immunosuppression. Anti-CD20 therapy (rituximab) is highly effective in EBV+ PTLD. HD-MTX may be used for refractory cases. CNS PTLD has a more favourable prognosis than de novo PCNSL in immunocompetent hosts when EBV-positive and responding to immunosuppression reduction."
+        },
+        {
+          "type": "table",
+          "title": "Relapsed/Refractory PCNSL Treatment Options",
+          "headers": ["Agent/Regimen", "Mechanism", "ORR", "Key Trial/Reference", "Patient Suitability"],
+          "rows": [
+            ["Re-challenge HD-MTX", "MTX ≥3.5 g/m²", "50-70% (if >12 mo from last MTX)", "Plotkin et al. Neurology 2004", "MTX-sensitive, early relapse >12 mo"],
+            ["Rituximab + lenalidomide", "CD20 + immunomodulatory", "35%", "REVRI (Lancet Haematol 2019)", "MTX-refractory, fit patients"],
+            ["Ibrutinib", "BTK inhibitor (MYD88/BCR pathway)", "75-90%", "Wilson et al. Nat Med 2015", "MYD88 L265P+ PCNSL (most cases)"],
+            ["Pemetrexed", "Antifolate (MTX alternative)", "45%", "Raizer et al. Neuro Oncol 2012", "MTX-refractory"],
+            ["WBRT (salvage)", "Whole-brain RT 36-45 Gy", "50-80% response", "Formal salvage option", "Patients not previously irradiated"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A6-S6",
+      "title": "Neurotoxicity, Vitreoretinal Lymphoma, and Supportive Care",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Delayed neurotoxicity is the dominant long-term morbidity of PCNSL survivors. The syndrome of **chemotherapy/radiation-induced leukoencephalopathy** manifests as progressive cognitive decline, gait disturbance, and urinary incontinence ('leukoencephalopathy triad'), typically developing 12-24 months after WBRT-based consolidation in patients >60 years. MRI shows diffuse white matter hyperintensity on T2/FLAIR and cerebral atrophy. This syndrome is very difficult to treat — ventriculoperitoneal (VP) shunting may provide temporary relief when there is a significant hydrocephalic component, but the underlying leukoencephalopathy is irreversible.\n\n**Prevention of neurotoxicity** is the most effective strategy: (1) avoid WBRT in patients >65 years with complete response to HD-MTX chemotherapy, (2) use reduced-dose WBRT (23.4 Gy vs 45 Gy) if WBRT is unavoidable, (3) prefer HDC-ASCT over WBRT for younger fit patients. The **RTOG 93-10 trial** (DeAngelis et al. JCO 2002) demonstrated that omitting or deferring WBRT after MTX-based chemotherapy resulted in equivalent or better PFS and OS with reduced neurotoxicity.\n\n**Vitreoretinal lymphoma (VRL)** co-occurring with PCNSL requires specific ocular treatment in addition to systemic therapy. Intravitreal methotrexate (400 mcg/0.1 mL) is administered as: 2 injections per week x 4 weeks (induction) → 1 injection per week x 8 weeks (consolidation) → 1 injection monthly (maintenance). This is performed bilaterally if both eyes are involved. Systemic HD-MTX alone does not achieve adequate intraocular drug levels due to the blood-retinal barrier. VRL recurrence in the eye is common and requires re-treatment.\n\n**Prophylactic intrathecal chemotherapy**: The role of IT MTX or IT cytarabine in addition to systemic HD-MTX is debated. ESMO 2023 and EANO 2021 do not routinely recommend IT chemotherapy when adequate systemic HD-MTX doses are given, as systemic penetration is sufficient and IT treatment adds lumbar puncture-related complications without proven benefit."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Recognising WBRT-Induced Neurotoxicity",
+          "content": "A 68-year-old man with PCNSL achieved complete remission 2 years ago with HD-MTX + WBRT (45 Gy). He presents with progressive memory loss, shuffling gait, and urinary incontinence over 6 months. MRI shows diffuse white matter changes and cortical atrophy without tumour recurrence. This is WBRT-induced leukoencephalopathy — not PCNSL recurrence. CSF is normal; PET/DOTATATE negative for lymphoma. Management: exclude recurrence (CSF cytology, liquid biopsy), neurocognitive rehabilitation, consider neuropsychiatric support. If significant hydrocephalus is present, VP shunting may help gait. This complication is why WBRT is now avoided in elderly PCNSL patients."
+        }
+      ]
+    },
+    {
+      "id": "A6-S7",
+      "title": "Prognosis and Prognostic Scores",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PCNSL prognosis has improved substantially with modern HD-MTX-based combination regimens and HDC-ASCT consolidation. Median OS in contemporary fit-patient series exceeds 5 years for patients achieving complete remission. However, population-based data (including elderly and comorbid patients) still show median OS of 12-18 months.\n\nThe **IELSG prognostic score** (Ferreri et al. JCO 2003) is the standard tool for PCNSL prognosis. Five adverse factors (1 point each): age >60, ECOG PS >1, elevated LDH, elevated CSF protein, involvement of deep brain structures (periventricular, basal ganglia, brainstem, cerebellum). Score 0-1 (low risk): 2-year OS 80%. Score 2-3 (intermediate): 2-year OS 48%. Score 4-5 (high risk): 2-year OS 15%.\n\nThe **MSKCC score** (two prognostic factors: age ≥50 and KPS <70) is simpler: class 1 (age <50): median OS 8.5 years; class 2 (age ≥50, KPS ≥70): median OS 3.2 years; class 3 (age ≥50, KPS <70): median OS 1.1 years.\n\n**Molecular prognostic markers**: MYD88 L265P mutation (found in 50-80%) does not independently predict prognosis when controlling for clinical factors. High CSF MYD88/CD79B variant allele frequency (VAF) may correlate with disease burden and treatment response. **CDKN2A deletion** (by FISH or methylation analysis) is an emerging adverse prognostic marker — PCNSL with CDKN2A deletion has shorter PFS and OS than CDKN2A-intact tumours. CD10+ GCB phenotype PCNSL is exceedingly rare and may have different prognosis.\n\n**Monitoring response**: MRI at 3-4 weeks after each induction cycle (typically 2-4 cycles of HD-MTX), using IPCG (International Primary CNS Lymphoma Collaborative Group) criteria: CR = complete radiological resolution + CSF normalisation + ophthalmological normalisation; PR = ≥50% tumour reduction; PD = >25% increase or new lesion."
+        },
+        {
+          "type": "table",
+          "title": "IELSG Prognostic Score for PCNSL",
+          "headers": ["Adverse Factor", "Definition", "Score", "2-Year OS by Total Score"],
+          "rows": [
+            ["Age", ">60 years", "1 point", "Score 0-1: 80%"],
+            ["ECOG PS", ">1 (ECOG 2-4)", "1 point", "Score 2-3: 48%"],
+            ["LDH", "Elevated (>ULN)", "1 point", "Score 4-5: 15%"],
+            ["CSF protein", "Elevated (>0.45 g/L)", "1 point", "—"],
+            ["Deep brain involvement", "Periventricular, BG, brainstem, cerebellum", "1 point", "—"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of primary CNS lymphoma with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A6-Q1",
+        "stem": "A 65-year-old immunocompetent woman presents with subacute confusion and right hemiparesis. MRI shows a 3 cm periventricular enhancing mass with restricted DWI (low ADC), crossing the corpus callosum, with no necrosis. What is the MOST important diagnostic action before stereotactic biopsy?",
+        "options": {
+          "A": "Administer dexamethasone 16 mg/day to reduce oedema before biopsy",
+          "B": "Avoid corticosteroids unless the patient is herniating; proceed to biopsy without steroids",
+          "C": "Perform whole-body PET-CT before biopsy to plan the site",
+          "D": "Perform MR spectroscopy to confirm the diagnosis non-invasively"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The most critical action before stereotactic biopsy for suspected PCNSL is to AVOID corticosteroids unless there is impending cerebral herniation. Corticosteroids cause rapid tumour lysis in PCNSL (unique among brain tumours), destroying up to 30-40% of tumour cells within 24-48 hours, resulting in a 'ghost tumour' on MRI — the tumour appears to melt — and non-diagnostic necrotic biopsy. Proceeding to biopsy immediately without steroids is the correct approach. Only in the case of clinical herniation should steroids be given before biopsy.",
+          "wrong": {
+            "A": "This is the most dangerous action — administering high-dose dexamethasone before biopsy destroys PCNSL tissue and prevents diagnosis. The biopsy will show only necrosis, lymphocytic infiltrate, and gliosis — not diagnostic. This delays treatment by weeks.",
+            "C": "Whole-body PET-CT is important for staging but should not delay stereotactic biopsy when PCNSL is suspected. PET can be performed concurrently or after biopsy confirmation.",
+            "D": "MR spectroscopy may support the diagnosis of PCNSL (high choline, low NAA) but is not diagnostic — tissue diagnosis is required. Proceeding to biopsy without steroids is the correct priority action."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Biopsy: corticosteroids must be avoided before biopsy unless herniation risk; EANO PCNSL Recommendations 2021",
+          "trial": "Balmaceda C et al. Ann Neurol 1995: 'Ghost tumour' phenomenon — dexamethasone administered before biopsy caused >40% non-diagnostic biopsy rate in PCNSL series; established avoidance of steroids as mandatory pre-biopsy principle",
+          "pearl": "PCNSL steroid-sensitive: dexamethasone before biopsy → non-diagnostic in 30-40% (ghost tumour). NEVER give steroids before PCNSL biopsy unless herniation imminent. This is the most high-yield management principle in PCNSL."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q2",
+        "stem": "The IELSG32 trial (Ferreri et al.) established which induction regimen as the preferred standard for fit PCNSL patients?",
+        "options": {
+          "A": "MTX + cytarabine (MA)",
+          "B": "MTX monotherapy",
+          "C": "MATRix (MTX + cytarabine + thiotepa + rituximab)",
+          "D": "R-CHOP (rituximab + cyclophosphamide + doxorubicin + vincristine + prednisolone)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The IELSG32 trial (Ferreri et al. Lancet Haematol 2016) compared three induction regimens in PCNSL. The MATRix arm (MTX + cytarabine + thiotepa + rituximab, Arm C) achieved the highest complete response rate (49% CR) and overall response rate (80%) compared to MA alone (46% CR) and MA + rituximab (52% CR). MATRix is now the preferred induction standard for fit PCNSL patients in European guidelines (ESMO/EANO 2023).",
+          "wrong": {
+            "A": "MTX + cytarabine (MA) is the comparator arm from IELSG32 with 46% CR — an acceptable regimen but inferior to MATRix. It remains an option for patients who cannot receive thiotepa or rituximab.",
+            "B": "MTX monotherapy achieves 30-40% CR and is reserved for elderly/frail patients who cannot tolerate combination therapy.",
+            "D": "R-CHOP is the standard for systemic DLBCL but is NOT appropriate for PCNSL because it does not penetrate the blood-brain barrier effectively. Doxorubicin and vincristine do not achieve therapeutic CNS concentrations. R-CHOP for PCNSL is a critical error."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — MATRix as preferred induction for fit patients based on IELSG32; EANO PCNSL Recommendations 2021",
+          "trial": "Ferreri AJM et al. Lancet Haematol 2016 (IELSG32): 3-arm randomised phase II — MATRix arm C: CR 49%, ORR 80%, superior to MA (46% CR) and MAR (52% CR); established MATRix as preferred PCNSL induction",
+          "pearl": "PCNSL induction standard (fit patients): MATRix = MTX + Ara-C + thiotepa + rituximab. R-CHOP is WRONG for PCNSL (poor BBB penetration). MATRix CR 49%, ORR 80% (IELSG32). Key difference: thiotepa and rituximab added to MA base."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q3",
+        "stem": "The G-PCNSL-SG-1 trial (Thiel et al. Lancet Oncol 2010) demonstrated that whole-brain radiotherapy after HD-MTX in PCNSL patients >60 years:",
+        "options": {
+          "A": "Significantly improved overall survival without increasing neurotoxicity",
+          "B": "Significantly improved overall survival but caused severe delayed neurotoxicity in 35-40%",
+          "C": "Did not improve overall survival and caused severe delayed neurotoxicity in 35-40%",
+          "D": "Reduced neurotoxicity compared to HD-MTX alone while maintaining OS"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "G-PCNSL-SG-1 (Thiel et al. Lancet Oncol 2010) randomised PCNSL patients ≥60 years to HD-MTX x8 cycles + WBRT (45 Gy) vs HD-MTX alone. WBRT did NOT improve overall survival (median OS: 32.4 months WBRT vs 37.1 months HD-MTX alone, NS). However, WBRT caused severe delayed neurotoxicity (dementia, ataxia, incontinence) in 35-40% of long-term survivors — far exceeding the neurotoxic impact of HD-MTX alone. This established that omitting WBRT after MTX-based therapy preserves cognition without sacrificing OS in patients ≥60 years.",
+          "wrong": {
+            "A": "WBRT did NOT improve OS in the G-PCNSL-SG-1 trial — this answer incorrectly states otherwise. The OS was actually slightly better (non-significantly) in the observation arm.",
+            "B": "WBRT caused severe neurotoxicity (correct, 35-40%) but did NOT improve OS — this answer incorrectly states it improved OS.",
+            "D": "WBRT INCREASED neurotoxicity (35-40% severe delayed neurotoxicity) compared to HD-MTX alone. It did not reduce it."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Based on G-PCNSL-SG-1: avoid WBRT as consolidation in patients ≥65 years with complete response to HD-MTX; EANO PCNSL Recommendations 2021",
+          "trial": "Thiel E et al. Lancet Oncol 2010 (G-PCNSL-SG-1): 551 pts ≥60 yr — MTX+WBRT vs MTX alone; OS 32.4 vs 37.1 months (NS); severe neurotoxicity 35-40% WBRT vs 15% MTX alone; established WBRT omission as safe after MTX CR in elderly",
+          "pearl": "G-PCNSL-SG-1 (Lancet Oncol 2010): WBRT after HD-MTX in elderly PCNSL — no OS benefit + 35-40% severe delayed leukoencephalopathy. Result: omit WBRT in patients ≥60-65 years who achieve CR with HD-MTX. This is the single most important trial establishing WBRT avoidance in elderly PCNSL."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q4",
+        "stem": "A 62-year-old man with confirmed PCNSL (DLBCL) achieves complete remission after 4 cycles of MATRix induction. He has ECOG PS 0 and no significant comorbidities. According to IELSG32 part 2 results, which consolidation strategy is preferred?",
+        "options": {
+          "A": "WBRT 45 Gy in 25 fractions",
+          "B": "High-dose chemotherapy (thiotepa + BCNU conditioning) followed by autologous SCT",
+          "C": "Maintenance rituximab 375 mg/m² every 2 months for 2 years",
+          "D": "Observation — no consolidation needed after MATRix CR"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "IELSG32 part 2 (Ferreri et al. Lancet Haematol 2018) randomised patients in response after MATRix to WBRT (36 Gy) vs HDC-ASCT (thiotepa + BCNU conditioning). HDC-ASCT achieved significantly superior 2-year PFS (80% vs 69%, p=0.007) and 2-year OS (87% vs 74%). For fit patients ≤65-70 years in CR after MATRix, HDC-ASCT with thiotepa-based conditioning is the preferred consolidation strategy per ESMO/EANO 2023.",
+          "wrong": {
+            "A": "WBRT 45 Gy as consolidation is associated with severe delayed neurotoxicity, especially at this age (62 years). IELSG32 part 2 demonstrated HDC-ASCT superiority over WBRT. WBRT at this reduced dose (36 Gy tested in trial) is inferior in PFS/OS.",
+            "C": "Maintenance rituximab is an option for older/frailer patients who cannot undergo HDC-ASCT but is not the standard for a fit 62-year-old in CR after MATRix. Rituximab maintenance data in PCNSL are limited.",
+            "D": "Observation without consolidation results in high relapse rates (50-70% within 2 years). Consolidation after induction CR is mandatory for PCNSL — the question is which consolidation to use."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Fit patients ≤65 yr in response after MATRix: HDC-ASCT (thiotepa+BCNU) preferred consolidation; EANO PCNSL 2021",
+          "trial": "Ferreri AJM et al. Lancet Haematol 2018 (IELSG32 part 2): 140 pts after MATRix response — WBRT vs HDC-ASCT; 2-yr PFS 80% ASCT vs 69% WBRT (p=0.007); 2-yr OS 87% vs 74%; established HDC-ASCT as preferred consolidation",
+          "pearl": "IELSG32 part 2: after MATRix, HDC-ASCT (thiotepa+BCNU) > WBRT for consolidation — 2-yr PFS 80% vs 69%, 2-yr OS 87% vs 74%. Thiotepa is the key CNS-penetrant agent in conditioning. Preferred for fit patients ≤65-70 yr. WBRT reserved for elderly/frail who cannot undergo ASCT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q5",
+        "stem": "What is the minimum dose of IV methotrexate required to achieve therapeutic CSF concentrations in primary CNS lymphoma?",
+        "options": {
+          "A": "0.5 g/m²",
+          "B": "1.0 g/m²",
+          "C": "3.5 g/m²",
+          "D": "10 g/m² — the higher the better"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Systemic methotrexate penetrates the blood-brain barrier and achieves therapeutic CSF concentrations only at high doses — specifically ≥3.5 g/m² IV. Below this threshold, CSF MTX concentrations are insufficient for anti-lymphoma activity in the CNS. The standard dose in PCNSL protocols is 3.5 g/m², infused over 4-6 hours with mandatory alkaline hydration and leucovorin rescue. Doses up to 8 g/m² have been used in some protocols without clear additional benefit. This is why MTX must be given at high (not conventional) doses — the MTX doses used for systemic lymphoma (typically 0.5-1 g/m²) are sub-therapeutic for CNS disease.",
+          "wrong": {
+            "A": "0.5 g/m² is a conventional MTX dose used for systemic lymphoma or RA. At this dose, CSF MTX levels are far below therapeutic concentrations for CNS lymphoma. This dose would have no meaningful anti-CNS lymphoma activity.",
+            "B": "1.0 g/m² is still sub-therapeutic for CNS disease. CSF MTX levels at this dose do not reach the concentrations required for anti-lymphoma efficacy in the CNS.",
+            "D": "While higher doses (up to 8 g/m²) have been studied, doses above 3.5 g/m² do not clearly improve outcomes and increase renal toxicity risk. The optimal dose is 3.5-8 g/m² — higher is not simply better."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — HD-MTX ≥3.5 g/m² required for CNS penetration; EANO PCNSL 2021 — MTX dosing and hydration requirements",
+          "trial": "Gabbai AA et al. J Neurooncol 1989: CSF MTX pharmacokinetics after IV MTX — therapeutic CSF concentrations (>1 µmol/L) achieved only at IV doses ≥3.5 g/m²; DeAngelis LM et al. JCO 2002 (MSKCC protocol): 3.5 g/m² MTX as standard dose",
+          "pearl": "HD-MTX for PCNSL: ≥3.5 g/m² IV = minimum dose for therapeutic CSF concentrations. Requires alkaline IV hydration (pH >7) + leucovorin rescue at 24 hr + MTX level monitoring (target <0.1 µmol/L at 72 hr). Renal function critical — GFR <50: MTX dose reduction or avoid."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q6",
+        "stem": "A 72-year-old man is diagnosed with PCNSL (DLBCL). He has ECOG PS 2, mild renal impairment (GFR 45 mL/min), and no caregiver support for intensive regimen administration. He has no visial symptoms. Which treatment approach is most appropriate?",
+        "options": {
+          "A": "Full-dose MATRix (MTX 3.5 g/m² + Ara-C + thiotepa + rituximab) as per standard",
+          "B": "Best supportive care only — PCNSL in elderly patients is uniformly fatal",
+          "C": "Reduced-intensity regimen: MTX 1.5-2.5 g/m² + rituximab, with careful renal monitoring; consider WBRT if response achieved",
+          "D": "R-CHOP as standard lymphoma therapy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For an elderly (72-year-old) PCNSL patient with ECOG PS 2, mild renal impairment (GFR 45 mL/min contraindicates full 3.5 g/m² MTX), and poor support, a reduced-intensity approach is appropriate. Options include: MTX at reduced dose (1.5-2.5 g/m²) with enhanced hydration and careful monitoring + rituximab, followed by WBRT if CR/PR is achieved (WBRT remains an option for elderly patients who cannot tolerate HDC-ASCT, accepting neurotoxicity risk in exchange for disease control). ESMO 2023 endorses individualised dose reduction for patients with renal impairment or poor PS.",
+          "wrong": {
+            "A": "Full-dose MATRix at 3.5 g/m² MTX is contraindicated with GFR 45 mL/min — MTX is renally excreted and accumulates with impaired renal function, causing severe mucositis, myelosuppression, and renal failure. GFR <50 mL/min requires dose reduction.",
+            "B": "Best supportive care alone is not appropriate for a patient with ECOG PS 2 who is otherwise functional. Even reduced-intensity regimens achieve meaningful responses in elderly PCNSL. An MSKCC class 3 patient (OS 1.1 yr) can still derive benefit from adapted therapy.",
+            "D": "R-CHOP is ineffective for PCNSL — it does not achieve therapeutic CNS drug concentrations. This is a critical error in PCNSL management regardless of patient age."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Elderly/frail patients: adapted HD-MTX (dose reduction for renal impairment) + rituximab; avoid full-dose MATRix in GFR <50 mL/min",
+          "trial": "Omuro AM et al. Neuro Oncol 2007: Adapted MTX (1.5 g/m²) + procarbazine + vincristine + WBRT in elderly PCNSL — CR 50%, median OS 14 months; demonstrating feasibility of reduced-intensity approaches",
+          "pearl": "Elderly PCNSL (>70 yr) with renal impairment (GFR <50): reduce MTX dose (1.5-2.5 g/m²). GFR <30: MTX contraindicated. WBRT is an option for elderly patients who achieve response with reduced-intensity chemotherapy. R-CHOP = wrong. MATRix = too toxic."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q7",
+        "stem": "MYD88 L265P mutation is detected in 50-80% of primary CNS lymphomas. What is its principal clinical utility in PCNSL diagnosis?",
+        "options": {
+          "A": "It confirms systemic DLBCL spread requiring systemic therapy change",
+          "B": "It serves as a near-diagnostic liquid biopsy marker in CSF or vitreous, potentially avoiding or complementing stereotactic biopsy",
+          "C": "It identifies patients eligible for ibrutinib as first-line therapy",
+          "D": "It indicates PCNSL with germinal centre B-cell (GCB) origin requiring CHOP-based therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MYD88 L265P mutation detected in CSF cell-free DNA or vitreous fluid is a near-diagnostic biomarker for PCNSL, with specificity >95% and sensitivity 50-60%. It can be used alongside CSF cytology and flow cytometry to confirm PCNSL diagnosis in cases where: (1) biopsy is risky due to lesion location, (2) prior steroids have made biopsy non-diagnostic, or (3) a patient has symptoms suggestive of vitreoretinal lymphoma without accessible brain lesion. While not 100% sensitive (false-negative in ~40%), a positive MYD88 L265P in CSF in the appropriate clinical context is near-diagnostic.",
+          "wrong": {
+            "A": "MYD88 L265P in CSF indicates a PRIMARY CNS lymphoma — it does not indicate systemic spread. Systemic DLBCL with CNS involvement would be classified as 'secondary CNS DLBCL' and managed differently.",
+            "C": "While ibrutinib is active in MYD88-mutated PCNSL (MYD88 activates BCR/NF-κB signalling targeted by BTK inhibition), MYD88 mutation is not a current regulatory requirement for ibrutinib indication — and ibrutinib is not first-line PCNSL therapy. MYD88 testing is primarily for diagnosis, not ibrutinib eligibility.",
+            "D": "MYD88 L265P and CD79B mutations are characteristic of the non-germinal centre B-cell (non-GCB/ABC) subtype — the OPPOSITE of GCB origin. Non-GCB PCNSL is the predominant subtype (95%), and CHOP is inappropriate for PCNSL regardless of subtype."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Liquid biopsy: MYD88 L265P and CD79B in CSF cfDNA: specificity >95%, sensitivity 50-60%; use when tissue diagnosis unavailable",
+          "trial": "Spina V et al. Blood 2011: MYD88 L265P in PCNSL CSF — sensitivity 70%, specificity 96%; Fontanilles M et al. Neuro Oncol 2017: CSF cfDNA MYD88+CD79B dual detection: sensitivity improves to 75%",
+          "pearl": "PCNSL liquid biopsy: MYD88 L265P in CSF = >95% specific, ~60% sensitive. Positive result in appropriate clinical context (periventricular lesion, immunocompetent adult) is near-diagnostic for PCNSL. Use when biopsy is impossible or non-diagnostic. Combined with CD79B improves sensitivity."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q8",
+        "stem": "A 58-year-old HIV-positive man (CD4 count 85 cells/µL, not on ART) presents with multiple periventricular ring-enhancing lesions on MRI. Toxoplasma serology is negative. EBV-DNA in CSF is detected at high level. What is the most likely diagnosis and initial management?",
+        "options": {
+          "A": "Toxoplasmosis — initiate pyrimethamine + sulfadiazine empirically",
+          "B": "PCNSL (EBV-associated) — initiate ART immediately; biopsy if no improvement in 2 weeks",
+          "C": "Progressive multifocal leukoencephalopathy (PML) — no treatment beyond ART",
+          "D": "GBM — perform craniotomy for resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In an HIV+ patient with CD4 <100, ring-enhancing brain lesions with negative toxoplasma serology, and high CSF EBV-DNA — HIV-associated PCNSL is the diagnosis. HIV-PCNSL is almost always EBV-associated (EBV drives lymphoproliferation in the immunocompromised context). Positive CSF EBV-DNA in this setting is near-diagnostic (sensitivity 80%, specificity >95%). The most important initial step is antiretroviral therapy (ART) initiation — reconstituting immune function can cause PCNSL regression in some patients. If no response in 2 weeks, stereotactic biopsy and HD-MTX (if CD4 and renal function permit) or WBRT.",
+          "wrong": {
+            "A": "Toxoplasma serology negative makes toxoplasmosis unlikely (sensitivity >95% in AIDS patients with active toxoplasmosis). While empirical toxoplasmosis treatment may be appropriate when serology is positive or equivocal, negative serology with positive EBV-DNA points to PCNSL. Pyrimethamine + sulfadiazine would be inappropriate here.",
+            "C": "PML causes non-enhancing white matter lesions (JC virus, asymmetric, no mass effect) — not ring-enhancing lesions with mass effect. The clinical picture described is inconsistent with PML.",
+            "D": "GBM in a 58-year-old HIV+ patient with multiple lesions (GBM is typically solitary) and CD4 <100 in the context of AIDS-defining illness — PCNSL is far more likely than GBM. GBM would not explain the AIDS context."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — HIV-PCNSL: ART first; CSF EBV-DNA near-diagnostic; avoid steroids if possible; NCCN CNS Tumors v1.2024",
+          "trial": "Gildas Angele-Amivi et al. Lancet HIV 2016: CSF EBV-DNA in HIV-PCNSL — sensitivity 80%, specificity 97%; ART-mediated immune reconstitution associated with PCNSL response in 30-40% without additional therapy",
+          "pearl": "HIV-PCNSL: ring-enhancing lesions + negative toxo serology + positive CSF EBV-DNA = HIV-PCNSL. ART = first and most important step. EBV-driven, immune reconstitution can cause regression. HD-MTX if fit; WBRT if not. CD4 <50: very limited tolerance for aggressive chemotherapy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q9",
+        "stem": "Which of the following is the correct leucovorin rescue protocol after high-dose methotrexate 3.5 g/m² for PCNSL?",
+        "options": {
+          "A": "Leucovorin 15 mg orally starting 2 hours after MTX infusion ends, every 6 hours for 24 doses",
+          "B": "Leucovorin 15 mg IV every 6 hours starting 24 hours after MTX infusion begins, continued until serum MTX <0.1 µmol/L",
+          "C": "Leucovorin is not needed — systemic toxicity does not occur with MTX at 3.5 g/m²",
+          "D": "Leucovorin 200 mg/m² single dose immediately after MTX infusion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Standard leucovorin rescue after HD-MTX for PCNSL: leucovorin (folinic acid) 15 mg IV every 6 hours, starting 24-36 hours after the START of the MTX infusion (not immediately after, to allow MTX to achieve peak CSF concentrations). Leucovorin is continued until serum MTX falls below 0.1 µmol/L (measured at 24, 48, 72 hours). The 24-hour delay is critical — starting leucovorin too early may antagonise MTX antitumour effect in the CSF before adequate CNS exposure is achieved. Alkaline IV hydration (pH >7) is co-administered throughout to prevent MTX precipitation in renal tubules.",
+          "wrong": {
+            "A": "Starting leucovorin only 2 hours after MTX infusion ends is too early — this would antagonise the therapeutic effect of MTX in the CSF before adequate concentrations are achieved. The standard is 24 hours from the START of infusion.",
+            "C": "Leucovorin rescue is absolutely required after HD-MTX 3.5 g/m² — without it, severe systemic toxicity (mucositis, myelosuppression, renal failure, death) is inevitable. High-dose MTX without leucovorin is a life-threatening error.",
+            "D": "Single-dose leucovorin is inadequate — leucovorin must be continued every 6 hours until MTX clearance is confirmed (<0.1 µmol/L). A single dose immediately after infusion would not protect against prolonged MTX toxicity during clearance."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — HD-MTX administration: leucovorin rescue starting 24-36 hr after MTX infusion start, every 6 hr until MTX <0.1 µmol/L; alkaline hydration mandatory",
+          "trial": "DeAngelis LM et al. J Clin Oncol 2002: MTX 3.5 g/m² protocol — leucovorin rescue 10-25 mg IV q6h starting 24 hr post-infusion until serum MTX <0.1 µmol/L; standard that has been adopted in all subsequent PCNSL trials",
+          "pearl": "HD-MTX protocol: (1) alkaline IV hydration (urine pH >7 before MTX), (2) MTX 3.5 g/m² over 4-6 hr, (3) leucovorin rescue starting 24 hr after infusion START, every 6 hr, (4) continue until MTX <0.1 µmol/L at 72 hr, (5) monitor renal function daily. Any deviation is potentially fatal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q10",
+        "stem": "According to the IELSG prognostic score, a PCNSL patient aged 65, ECOG PS 1, LDH elevated, normal CSF protein, and deep brain involvement (periventricular) scores a total of 3. What is their approximate 2-year overall survival?",
+        "options": {
+          "A": "80%",
+          "B": "48%",
+          "C": "15%",
+          "D": "5%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "IELSG score calculation: age >60 = 1 point; ECOG PS 1 = 0 points (only >1 scores); elevated LDH = 1 point; normal CSF protein = 0 points; deep brain involvement = 1 point. Total = 3 points. Per IELSG score: 0-1 points (low risk) = 2-year OS ~80%; 2-3 points (intermediate) = 2-year OS ~48%; 4-5 points (high risk) = 2-year OS ~15%. Score of 3 falls in the intermediate risk group with approximately 48% 2-year OS.",
+          "wrong": {
+            "A": "80% 2-year OS corresponds to IELSG low risk score (0-1 points). This patient scores 3 — intermediate risk.",
+            "C": "15% 2-year OS corresponds to IELSG high risk (4-5 points). This patient scores 3, not 4-5.",
+            "D": "5% is not part of the IELSG score prognostic categories. The three categories are approximately 80%, 48%, and 15%."
+          },
+          "guideline": "Ferreri AJM et al. JCO 2003: IELSG prognostic score validation in 378 PCNSL patients; ESMO PCNSL 2023 endorses IELSG score for treatment stratification",
+          "trial": "Ferreri AJM et al. J Clin Oncol 2003 (IELSG score): 5 adverse factors — age >60, ECOG PS >1, elevated LDH, elevated CSF protein, deep brain involvement; score 0-1: 2-yr OS 80%; 2-3: 48%; 4-5: 15%",
+          "pearl": "IELSG score 5 factors (1 pt each): age >60, ECOG >1, LDH elevated, CSF protein elevated, deep brain involvement. Score 0-1=80% 2-yr OS; 2-3=48%; 4-5=15%. This is the standard PCNSL prognostic tool."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q11",
+        "stem": "A 69-year-old woman with PCNSL achieves complete remission after HD-MTX + rituximab. She is too frail for HDC-ASCT (ECOG 2, mild cognitive impairment). She received no WBRT. What is the best maintenance strategy to prolong remission?",
+        "options": {
+          "A": "WBRT 45 Gy in 25 fractions",
+          "B": "Temozolomide 200 mg/m² for 5 days every 28 days",
+          "C": "Rituximab 375 mg/m² every 2 months for 2 years",
+          "D": "Intrathecal methotrexate 12 mg monthly"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Rituximab maintenance (375 mg/m² every 2 months for 2 years) is the most evidence-supported maintenance strategy for elderly/frail PCNSL patients who achieve CR after induction and cannot undergo HDC-ASCT. The HOVON 105 trial and supportive phase II data show that rituximab is well-tolerated and associated with improved PFS in patients with PCNSL who cannot undergo intensive consolidation. It avoids the neurotoxicity of WBRT and the morbidity of HDC-ASCT.",
+          "wrong": {
+            "A": "WBRT 45 Gy in a 69-year-old with mild cognitive impairment carries high risk of severe delayed leukoencephalopathy (35-40% in G-PCNSL-SG-1 for patients ≥60 years). Given her existing cognitive impairment, this risk is unacceptable. Rituximab maintenance is safer.",
+            "B": "Temozolomide has modest and inconsistent activity in PCNSL. It is used as a salvage agent in refractory disease but is not established as a maintenance strategy after CR induction.",
+            "D": "Intrathecal MTX monthly as maintenance has limited evidence and requires repeated LP procedures, which are burdensome for a frail 69-year-old. Its role when adequate systemic HD-MTX has been given during induction is not established by phase III data."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Elderly/frail patients achieving CR: rituximab maintenance as alternative to HDC-ASCT or WBRT; EANO PCNSL 2021",
+          "trial": "Bromberg JEC et al. Lancet Oncol 2019 (HOVON 105): Rituximab addition during induction and maintenance improved EFS (HR 0.60, p=0.013); rituximab maintenance 375 mg/m² every 2 months extrapolated to maintenance context",
+          "pearl": "Elderly/frail PCNSL in CR, not eligible for ASCT or WBRT: rituximab maintenance 375 mg/m² every 2 months for 2 years. Evidence from HOVON 105. Alternative: observation with close MRI. WBRT in elderly = 35-40% neurotoxicity. Rituximab = safest consolidation option."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q12",
+        "stem": "Which clinical feature MOST strongly indicates the need to include ophthalmological evaluation (slit-lamp examination) in the PCNSL diagnostic workup?",
+        "options": {
+          "A": "Headache as the presenting symptom",
+          "B": "CSF protein elevation",
+          "C": "Floaters, blurred vision, or photophobia co-existing with neurological symptoms",
+          "D": "Periventricular lesion location on MRI"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Ophthalmological symptoms (floaters, blurred vision, photophobia) co-existing with neurological symptoms or known PCNSL indicate vitreoretinal lymphoma (VRL), which occurs in 15-25% of PCNSL cases. Slit-lamp examination can detect vitritis, subretinal infiltrates, and retinal haemorrhages. If abnormal, vitreous biopsy for cytology, flow cytometry, and MYD88/CD79B liquid biopsy can confirm lymphoma diagnosis — potentially avoiding stereotactic brain biopsy. Slit-lamp examination is recommended in ALL PCNSL patients regardless of ocular symptoms (as VRL can be subclinical), but ocular symptoms make it the highest-priority investigation.",
+          "wrong": {
+            "A": "Headache alone does not specifically indicate VRL or ophthalmological evaluation beyond what is done routinely (fundoscopy for papilloedema). All PCNSL patients should have ophthalmological evaluation, but it is most urgent when ocular symptoms are present.",
+            "B": "CSF protein elevation is a sign of CNS inflammation/tumour but does not specifically indicate the need for ophthalmological evaluation — it indicates LP evaluation is important.",
+            "D": "Periventricular location is the characteristic MRI pattern of PCNSL and should prompt LP and stereotactic biopsy, but does not specifically indicate ocular involvement — all PCNSL patients should have ophthalmological assessment regardless of location."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Ophthalmological examination mandatory in all PCNSL patients; priority in patients with ocular symptoms; VRL in 15-25% of PCNSL",
+          "trial": "Chan CC et al. Ophthalmology 2007: VRL co-existing with PCNSL — 15-25% prevalence; slit-lamp reveals vitritis in 70%, subretinal infiltrates in 50%; vitreous biopsy MYD88 L265P detection sensitivity 75%",
+          "pearl": "Vitreoretinal lymphoma in 15-25% of PCNSL. Slit-lamp examination mandatory in ALL PCNSL patients (VRL can be asymptomatic). Ocular symptoms (floaters, blurred vision) = urgent slit-lamp. VRL requires intravitreal MTX 400 mcg twice weekly in addition to systemic HD-MTX."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q13",
+        "stem": "The REVRI trial (Ghesquières et al. Lancet Haematol 2019) evaluated which combination for relapsed/refractory PCNSL?",
+        "options": {
+          "A": "Ibrutinib + methotrexate",
+          "B": "Rituximab + lenalidomide",
+          "C": "Temozolomide + rituximab",
+          "D": "Pemetrexed + rituximab"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The REVRI trial (Ghesquières et al. Lancet Haematol 2019) evaluated rituximab + lenalidomide in relapsed/refractory PCNSL and PCNSL of the eye. Results: overall response rate 35%, 6-month PFS 42%, median OS 18.3 months. The combination is active and tolerable in this difficult-to-treat population. It is now included in ESMO/EANO guidelines as a treatment option for relapsed/refractory PCNSL.",
+          "wrong": {
+            "A": "Ibrutinib + methotrexate is an investigational combination being studied in relapsed PCNSL but the REVRI trial specifically evaluated rituximab + lenalidomide.",
+            "C": "Temozolomide + rituximab is another option for elderly relapsed PCNSL but was not the combination evaluated in the REVRI trial.",
+            "D": "Pemetrexed + rituximab was not the REVRI combination. Pemetrexed as monotherapy has activity in MTX-refractory PCNSL."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Relapsed PCNSL options: rituximab+lenalidomide (REVRI data), ibrutinib, re-challenge HD-MTX",
+          "trial": "Ghesquières H et al. Lancet Haematol 2019 (REVRI LYSA/LOC): 50 pts relapsed/refractory PCNSL — rituximab 375 mg/m² + lenalidomide 20 mg/day d1-21 q28; ORR 35%, 6-mo PFS 42%, median OS 18.3 months",
+          "pearl": "Relapsed/refractory PCNSL treatment options: (1) Re-challenge HD-MTX (if >12 months from last MTX), (2) rituximab+lenalidomide (REVRI trial, ORR 35%), (3) ibrutinib (ORR 75-90%), (4) WBRT if not previously irradiated. Ibrutinib works via MYD88 L265P/BCR pathway."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q14",
+        "stem": "A 45-year-old renal transplant recipient on tacrolimus, mycophenolate, and low-dose prednisolone develops a new periventricular enhancing brain lesion. CSF EBV-DNA is positive at high levels. What is the initial management priority?",
+        "options": {
+          "A": "Initiate HD-MTX 3.5 g/m² immediately",
+          "B": "Perform stereotactic biopsy before any other intervention",
+          "C": "Reduce immunosuppression (reduce/stop mycophenolate, reduce tacrolimus), initiate rituximab if EBV+ PTLD confirmed",
+          "D": "Initiate whole-brain radiotherapy 30 Gy in 10 fractions"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "In a renal transplant recipient with a CNS lesion and high CSF EBV-DNA, CNS post-transplant lymphoproliferative disorder (PTLD) is the most likely diagnosis. The critical first step is reduction of immunosuppression — reducing or stopping mycophenolate and reducing tacrolimus — which allows immune reconstitution and can cause EBV-PTLD regression in 30-50% of early cases. This must be balanced against rejection risk. Once IS reduction is implemented, rituximab (CD20-targeted) is added if the lesion is confirmed CD20+ PTLD (which accounts for the majority of early PTLD). HD-MTX and WBRT are later steps if IS reduction + rituximab fail.",
+          "wrong": {
+            "A": "HD-MTX is appropriate for EBV-negative PCNSL in immunocompetent patients, but in a transplant recipient, the first step is immunosuppression reduction and rituximab — IS reduction alone can cause EBV-PTLD regression. Starting HD-MTX before IS reduction bypasses the most effective and least toxic first intervention.",
+            "B": "Biopsy is needed for definitive diagnosis if CSF/liquid biopsy is non-diagnostic, but in the context of positive CSF EBV-DNA and a solid organ transplant setting, the PTLD diagnosis is likely. IS reduction can be started based on this high clinical probability while biopsy is arranged.",
+            "D": "WBRT as the initial treatment for CNS PTLD is premature and bypasses IS reduction + rituximab, which are the standard first-line approach. WBRT may be needed for chemotherapy-refractory disease."
+          },
+          "guideline": "ESMO PTLD Guidelines 2021 — CNS PTLD: reduce immunosuppression + rituximab (if EBV+ CD20+ PTLD) as first-line; HD-MTX or WBRT for refractory disease",
+          "trial": "Trappe R et al. Lancet Oncol 2012 (PTLD-1 trial): rituximab + IS reduction for PTLD — CR 25%, OR 52%; 3-yr OS 63%; established sequential rituximab as standard for PTLD; CNS PTLD subgroup followed same approach",
+          "pearl": "CNS PTLD (solid organ transplant + EBV+ CNS lesion): Step 1 = reduce immunosuppression. Step 2 = rituximab if CD20+ EBV+ PTLD. IS reduction alone induces response in 30-50% of early PTLD. HD-MTX and WBRT reserved for IS reduction + rituximab failure."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q15",
+        "stem": "R-CHOP is contraindicated as primary treatment for PCNSL because:",
+        "options": {
+          "A": "Rituximab cannot cross the blood-brain barrier",
+          "B": "Cyclophosphamide, doxorubicin, and vincristine do not achieve therapeutic CSF concentrations",
+          "C": "CHOP regimens cause irreversible optic nerve damage",
+          "D": "PCNSL is a T-cell lymphoma that does not express CD20"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The key reason R-CHOP is ineffective for PCNSL is that cyclophosphamide, doxorubicin (Adriamycin), and vincristine are large molecules with poor lipid solubility that cannot penetrate the blood-brain barrier and achieve therapeutic CNS concentrations. PCNSL requires agents with proven BBB penetration: high-dose methotrexate (3.5 g/m² exploits concentration gradient), cytarabine, thiotepa, and rituximab. Multiple retrospective and prospective series have confirmed R-CHOP is ineffective for PCNSL, with inferior CR rates and OS compared to HD-MTX-based regimens.",
+          "wrong": {
+            "A": "Rituximab does penetrate the blood-brain barrier to some extent (especially when the BBB is disrupted by the tumour) and has demonstrated activity in PCNSL when added to HD-MTX-based regimens (HOVON 105). Rituximab itself is not the reason to avoid R-CHOP — it is the CHOP chemotherapy agents that are the problem.",
+            "C": "CHOP does not cause irreversible optic nerve damage. Vincristine can cause peripheral neuropathy, but this is not the reason to avoid R-CHOP in PCNSL.",
+            "D": "PCNSL is a B-cell lymphoma (DLBCL) expressing CD20 in >95% of cases — not T-cell. CD20 expression is why rituximab is effective in PCNSL."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — R-CHOP explicitly contraindicated for PCNSL; BBB penetration required for efficacy; EANO PCNSL 2021",
+          "trial": "Batchelor T et al. Neuro Oncol 2011: Historical R-CHOP for PCNSL — CR rate 15-20%, median OS 7-10 months; inferior to HD-MTX regimens (CR 40-60%, median OS 18-36 months); BBB impermeability confirmed as primary mechanism of failure",
+          "pearl": "R-CHOP = contraindicated for PCNSL. Reason: cyclophosphamide, doxorubicin, vincristine cannot cross BBB → no CNS drug activity. Must use BBB-penetrant agents: HD-MTX ≥3.5 g/m², cytarabine, thiotepa, rituximab. This is the most fundamental PCNSL treatment principle."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q16",
+        "stem": "A 60-year-old woman with PCNSL in complete remission after MATRix + HDC-ASCT develops progressive memory loss and gait disturbance 18 months later. MRI shows no tumour recurrence but diffuse T2 white matter changes. What is the most likely diagnosis?",
+        "options": {
+          "A": "PCNSL relapse — start salvage HD-MTX",
+          "B": "Treatment-related leukoencephalopathy from chemotherapy/ASCT conditioning",
+          "C": "Normal pressure hydrocephalus — perform VP shunt",
+          "D": "Opportunistic CNS infection post-ASCT — check CSF for JC virus, CMV, EBV"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Diffuse T2 white matter changes with cognitive decline and gait disturbance at 18 months after HDC-ASCT consolidation (which uses thiotepa, a highly neurotoxic conditioning agent) in a patient with confirmed MRI-negative disease is most consistent with treatment-related leukoencephalopathy. Thiotepa-based conditioning causes delayed white matter injury similar to WBRT. Management: exclude PCNSL relapse (CSF cytology/MYD88 cfDNA, PET), then supportive care (cognitive rehabilitation, neuropsychiatric support). Unlike WBRT-induced leukoencephalopathy, thiotepa-induced changes may be less severe but are similarly irreversible.",
+          "wrong": {
+            "A": "PCNSL relapse on MRI would show new enhancing lesions, not diffuse white matter changes without enhancement. The MRI appearance (diffuse T2 changes, no new enhancement) and normal neurological course (progressive cognitive decline vs acute symptom onset) argue against relapse. CSF and liquid biopsy should confirm.",
+            "C": "Normal pressure hydrocephalus (NPH) presents with cognitive decline + gait apraxia + urinary incontinence (Hakim triad) and has characteristic CSF diversion results. While the triad is similar, the context (recent HDC-ASCT, diffuse T2 changes on MRI) points to treatment-related leukoencephalopathy rather than idiopathic NPH.",
+            "D": "Opportunistic infection post-ASCT is important to exclude (JC virus/PML, CMV encephalitis, EBV PTLD) and should be part of the workup (CSF PCR panel). However, PML causes asymmetric non-enhancing white matter lesions (not bilateral diffuse T2 changes), and the context of PCNSL treatment makes treatment-related leukoencephalopathy more likely."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Neurotoxicity monitoring after HDC-ASCT: thiotepa leukoencephalopathy recognised complication; surveillance MRI and neuropsychological assessment recommended",
+          "trial": "Illerhaus G et al. Haematologica 2016: HDC-ASCT in PCNSL — leukoencephalopathy in 15-25% at 2 years; thiotepa-induced white matter changes distinct from WBRT neurotoxicity; cognitive decline most common late toxicity",
+          "pearl": "Treatment-related leukoencephalopathy post-ASCT/WBRT: progressive cognitive decline + white matter T2 changes without enhancement = NOT PCNSL relapse. PCNSL relapse shows new enhancing lesion(s). Always confirm no tumour on MRI and CSF/liquid biopsy before attributing to treatment toxicity."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q17",
+        "stem": "Intravitreal methotrexate for vitreoretinal lymphoma (VRL) is administered at what standard dose?",
+        "options": {
+          "A": "12.5 mg per injection (standard IT MTX dose)",
+          "B": "400 mcg (0.4 mg) per injection",
+          "C": "100 mg/m² per injection",
+          "D": "3.5 g/m² per injection (same as systemic)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intravitreal methotrexate for VRL is administered at 400 mcg (0.4 mg) in 0.1 mL per injection — a much lower dose than systemic (3.5 g/m²) or intrathecal (12.5 mg). The standard schedule is induction (twice weekly x 4 weeks), consolidation (weekly x 8 weeks), and maintenance (monthly). This small volume injection delivers MTX directly into the vitreous cavity to achieve therapeutic intraocular concentrations. The blood-retinal barrier restricts systemic or even systemic high-dose MTX penetration into the vitreous, necessitating intravitreal delivery.",
+          "wrong": {
+            "A": "12.5 mg is the dose for intrathecal MTX (via lumbar puncture or Ommaya reservoir). Intravitreal injection of 12.5 mg would cause catastrophic retinal and optic nerve toxicity.",
+            "C": "100 mg/m² would be appropriate for systemic MTX in some settings but is far too high for intraocular injection — the vitreous volume is approximately 4 mL. Any dose much above 400 mcg/0.1 mL in the vitreous causes severe chemical retinopathy.",
+            "D": "3.5 g/m² is the systemic IV dose for PCNSL — this is impossible to administer intravitreally. The maximum intravitreal volume per injection is 0.1 mL."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — VRL treatment: intravitreal MTX 400 mcg/0.1 mL; standard induction/consolidation/maintenance schedule; NCCN CNS Tumors v1.2024",
+          "trial": "Frenkel S et al. Ophthalmology 2008: Intravitreal MTX 400 mcg for VRL — 100% initial response rate in ocular lymphoma; recurrence 54% at 1 year requiring re-treatment; established 400 mcg as safe and effective dose",
+          "pearl": "Intravitreal MTX for VRL: 400 mcg/0.1 mL per injection (NOT 12.5 mg which is intrathecal). Schedule: twice weekly x4 weeks → weekly x8 weeks → monthly. Blood-retinal barrier prevents systemic HD-MTX from adequately treating VRL → intravitreal route required."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q18",
+        "stem": "A 55-year-old man with PCNSL relapse is found to have the MYD88 L265P mutation. Which oral agent has demonstrated the highest single-agent overall response rate in MYD88-mutated PCNSL relapse?",
+        "options": {
+          "A": "Lenalidomide",
+          "B": "Temozolomide",
+          "C": "Ibrutinib",
+          "D": "Pemetrexed"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Ibrutinib (Bruton's tyrosine kinase inhibitor) achieved an overall response rate of 75-90% in the landmark Wilson et al. (Nat Med 2015) single-arm study of ibrutinib in relapsed/refractory PCNSL. The activity is particularly high in MYD88 L265P-mutated PCNSL because MYD88 L265P activates the BCR-NF-κB signalling pathway through BTK. Ibrutinib 560-840 mg/day achieves therapeutic CSF concentrations and is a highly active oral agent for relapsed PCNSL. However, responses are often not durable (median PFS ~5 months with monotherapy).",
+          "wrong": {
+            "A": "Lenalidomide alone has modest activity in relapsed PCNSL (~25-30% ORR). Its activity is substantially enhanced by the combination with rituximab (REVRI trial ORR 35%), but ibrutinib monotherapy achieves higher ORR than lenalidomide alone.",
+            "B": "Temozolomide has modest and inconsistent activity in PCNSL relapse (<15-20% ORR) and is generally a palliative option for heavily pre-treated elderly patients. It has far lower efficacy than ibrutinib.",
+            "D": "Pemetrexed achieves 45% ORR in MTX-refractory PCNSL (Raizer et al. Neuro Oncol 2012), making it more active than temozolomide but less active than ibrutinib in MYD88-mutated disease."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Relapsed PCNSL: ibrutinib recommended for MYD88-mutated disease; ORR 75-90%; EANO PCNSL 2021",
+          "trial": "Wilson WH et al. Nat Med 2015: Ibrutinib monotherapy 560 mg/day in 20 relapsed/refractory PCNSL — ORR 75% (all MYD88 L265P-mutated); median PFS 4.6 months; CSF ibrutinib concentrations therapeutic; established ibrutinib as highly active CNS-penetrant BTK inhibitor",
+          "pearl": "Ibrutinib for MYD88 L265P PCNSL relapse: ORR 75-90% (highest single-agent ORR in relapsed PCNSL). BTK inhibitor targeting BCR-NF-κB pathway. Oral agent with good CNS penetration. Limitation: responses often not durable (median PFS 4-6 months monotherapy). Combining with HD-MTX under investigation."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q19",
+        "stem": "What is the most common histological subtype of primary CNS lymphoma in immunocompetent adults?",
+        "options": {
+          "A": "Follicular lymphoma",
+          "B": "Diffuse large B-cell lymphoma (DLBCL), non-germinal centre B-cell subtype",
+          "C": "Peripheral T-cell lymphoma",
+          "D": "Marginal zone B-cell lymphoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Approximately 95% of PCNSL in immunocompetent adults are diffuse large B-cell lymphoma (DLBCL) of the non-germinal centre B-cell (non-GCB, also called activated B-cell, ABC) subtype. These are characterised by MYD88 L265P mutation (50-80%), CD79B mutation (30-70%), BCL2 overexpression, and high proliferative index (Ki67 >90%). The non-GCB subtype reflects activation of the NF-κB/STAT3 signalling pathways that promote CNS tropism. GCB-subtype PCNSL is rare (<5%).",
+          "wrong": {
+            "A": "Follicular lymphoma rarely affects the CNS primarily. It is an indolent systemic lymphoma that can secondarily involve the CNS (secondary CNS lymphoma from transformation) but is not a primary CNS lymphoma histotype.",
+            "C": "Primary CNS T-cell lymphoma is very rare (<5% of PCNSL), more common in immunocompromised hosts. The vast majority (95%) of immunocompetent PCNSL is B-cell (DLBCL).",
+            "D": "Marginal zone B-cell lymphoma rarely involves the CNS primarily. When it does, it tends to involve the dura (primary dural lymphoma) rather than brain parenchyma and has a better prognosis."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Pathology: DLBCL non-GCB subtype in 95% of immunocompetent PCNSL; WHO Lymphoma Classification 2022",
+          "trial": "Montesinos-Rongen M et al. Blood 2008: Molecular profiling of PCNSL — 93% DLBCL subtype, ABC/non-GCB in 91% of DLBCL; MYD88 L265P in 79% by sequencing; CD79B mutations in 69%; established non-GCB/ABC as defining molecular subtype",
+          "pearl": "PCNSL histology: 95% DLBCL, non-GCB (ABC) subtype. Molecular: MYD88 L265P (50-80%), CD79B mutation (30-70%), BCL6 rearrangement rare. High Ki67 (>90%). Non-GCB phenotype is why NF-κB pathway inhibitors (ibrutinib) are active. GCB-type PCNSL is rare (<5%)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q20",
+        "stem": "A 63-year-old man with PCNSL achieves complete remission after 4 cycles of MATRix. He is being considered for HDC-ASCT consolidation. Which investigation is the MOST important before proceeding to ASCT?",
+        "options": {
+          "A": "Ophthalmological re-evaluation for VRL recurrence",
+          "B": "Cardiac echo to assess eligibility for thiotepa conditioning",
+          "C": "Whole-body PET-CT and MRI brain to confirm complete remission (no systemic or CNS residual disease)",
+          "D": "Lumbar puncture to measure MTX clearance"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Before proceeding to HDC-ASCT conditioning (thiotepa + BCNU), it is mandatory to confirm complete remission — no residual CNS disease on MRI and no systemic disease on whole-body PET-CT. ASCT conditioning is toxic (thiotepa causes severe mucositis, myelosuppression, neurotoxicity) and should only be offered to patients who are in confirmed CR or very good partial response. Proceeding to ASCT with active disease results in worse outcomes. Re-staging imaging (MRI brain + PET-CT + CSF assessment) is the most critical pre-ASCT evaluation.",
+          "wrong": {
+            "A": "Ophthalmological re-evaluation is important as VRL can persist or relapse even when brain disease responds, but confirming systemic and CNS complete remission by imaging is the highest-priority pre-ASCT investigation.",
+            "B": "Cardiac echo may be relevant for assessing BCNU cardiotoxicity risk but is not the most important pre-ASCT investigation in a standard-risk patient. Re-staging to confirm remission is the critical step before committing to conditioning.",
+            "D": "MTX clearance measurement is relevant during MTX administration (to guide leucovorin dosing) but is not a pre-ASCT evaluation requirement. By the time ASCT consolidation is considered (weeks after completing induction), MTX has been fully cleared."
+          },
+          "guideline": "ESMO PCNSL Guidelines 2023 — Pre-ASCT re-staging: MRI brain + whole-body PET-CT mandatory to confirm CR before conditioning; CSF assessment recommended",
+          "trial": "Ferreri AJM et al. Lancet Haematol 2018 (IELSG32 part 2): Pre-ASCT complete remission status — CR before ASCT associated with superior PFS and OS vs PR; underscores importance of confirming CR before conditioning",
+          "pearl": "Pre-ASCT mandatory: MRI brain + PET-CT to confirm CR. Conditioning (thiotepa+BCNU) in active disease = worse outcomes. Also check: cardiac function (BCNU cardiotoxicity), renal/hepatic function, ophthalmological assessment for VRL, CSF cytology/liquid biopsy. ASCT only for CR/near-CR patients."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "id": "A5",
+  "title": "Tumores Hipofisarios",
+  "subtitle": "Block A — Neuro-Oncology: Pituitary Adenomas, Craniopharyngiomas, and Sellar Pathology",
+  "block": "A",
+  "block_name": "Neuro-Oncology",
+  "level": "R1-3",
+  "reading_time_min": 42,
+  "guidelines_version": "Endocrine Society Pituitary Guidelines 2020 · EANS Transsphenoidal Surgery Guidelines 2019 · NCCN CNS Tumors v1.2024",
+  "textbook_refs": [
+    "Melmed S et al. Acromegaly: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2018;103:1621-1651",
+    "Dekkers OM et al. European Society of Endocrinology Clinical Practice Guideline on Pituitary Tumours. Eur J Endocrinol 2023;189:G1-G42",
+    "Laws ER et al. Transsphenoidal Surgery for Pituitary Adenomas. J Neurosurg 2017;126:1423-1428",
+    "Muller HL et al. Craniopharyngioma. Nat Rev Dis Primers 2019;5:75"
+  ],
+  "learning_objectives": [
+    "Classify pituitary adenomas by size (microadenoma vs macroadenoma) and functional status (secreting vs non-functioning) with their characteristic clinical presentations",
+    "Identify the hormonal assessment required for pre-operative evaluation of pituitary tumours including anterior and posterior pituitary axes",
+    "Describe the indications, surgical approach (endoscopic endonasal vs microscopic), and key anatomical landmarks for transsphenoidal surgery",
+    "Outline post-operative complications of pituitary surgery including diabetes insipidus, CSF leak, hyponatraemia, and pituitary apoplexy",
+    "Apply specific medical treatment options for hormone-secreting adenomas (dopamine agonists for prolactinomas, somatostatin analogues for acromegaly, pasireotide for Cushing disease)",
+    "Differentiate pituitary adenoma from other sellar masses (craniopharyngioma, Rathke cyst, meningioma, germ cell tumour) on clinical and imaging grounds"
+  ],
+  "sections": [
+    {
+      "id": "A5-S1",
+      "title": "Classification and Clinical Presentation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pituitary adenomas represent the most common intracranial neoplasm after gliomas and meningiomas, accounting for 10-15% of all intracranial tumours and approximately 25% of surgical intracranial tumours. Autopsy series demonstrate incidental microadenomas in 10-22% of the general population, and incidentally discovered pituitary lesions ('incidentalomas') represent an increasing proportion of clinical encounters driven by widespread MRI availability.\n\n**Classification by size**: Microadenomas are ≤10 mm in maximum diameter; macroadenomas are >10 mm. Giant adenomas (>40 mm) represent a small subset with highest surgical complexity. Classification by functional status divides adenomas into functioning (hormone-secreting, 60-70%) and non-functioning (NFPA, 30-40%). The WHO 2022 classification of pituitary neuroendocrine tumours (PitNETs) replaced the term 'adenoma' with 'pituitary neuroendocrine tumour' in pathological classification, though 'adenoma' remains in clinical use.\n\n**Functioning adenomas by frequency**: (1) Prolactinomas are the most common (40-45% of all pituitary adenomas), secreting prolactin (PRL) and causing hyperprolactinaemia — amenorrhoea/galactorrhoea in women, sexual dysfunction/gynaecomastia in men. (2) Non-functioning pituitary adenomas (NFPAs, 25-30%) typically present with mass effect (headache, visual field defects, hypopituitarism) rather than hormonal syndrome. (3) Growth hormone-secreting adenomas (10-15%) cause acromegaly (in adults) or gigantism (before epiphyseal fusion). (4) ACTH-secreting adenomas (5-10%) cause Cushing disease. (5) TSH-secreting adenomas (1%) cause central hyperthyroidism. (6) LH/FSH-secreting gonadotrophinomas are typically non-functioning clinically.\n\n**Visual field defects** from pituitary macroadenomas: suprasellar extension compresses the optic chiasm at the mid-chiasmal decussation of inferomedial nasal fibres, producing the characteristic **bitemporal hemianopia** (bi-temporal visual field loss). Chiasmal compression is the primary indication for surgical decompression of non-functioning macroadenomas."
+        },
+        {
+          "type": "table",
+          "title": "Pituitary Adenoma Classification and Clinical Features",
+          "headers": ["Adenoma Type", "Frequency", "Key Hormone", "Clinical Syndrome", "Primary Treatment"],
+          "rows": [
+            ["Prolactinoma", "40-45%", "Prolactin", "Women: amenorrhoea, galactorrhoea, infertility; Men: sexual dysfunction, gynaecomastia", "Dopamine agonist (cabergoline)"],
+            ["Non-functioning (NFPA)", "25-30%", "None (FSH/LH subunits)", "Headache, visual field defects, hypopituitarism, cranial nerve palsy", "Surgery (transsphenoidal)"],
+            ["GH-secreting (Acromegaly)", "10-15%", "GH/IGF-1", "Acral enlargement, coarse facies, arthropathy, sleep apnoea, hypertension, DM", "Surgery (primary); SSA if poor surgical candidate"],
+            ["ACTH-secreting (Cushing)", "5-10%", "ACTH/Cortisol", "Weight gain, striae, bruising, hypertension, osteoporosis, psychiatric symptoms", "Surgery (transsphenoidal); bilateral adrenalectomy if failed"],
+            ["TSH-secreting", "1%", "TSH", "Hyperthyroidism (central): palpitations, weight loss, goitre", "Surgery; SSA pre-operatively to normalise thyroid function"],
+            ["Gonadotrophin-secreting", "5-10%", "FSH/LH", "Usually non-functioning clinically; detected on IHC only", "Surgery if symptomatic from mass effect"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Prolactinoma: Medical Treatment First",
+          "content": "Prolactinomas are the ONLY pituitary adenoma subtype where medical therapy (not surgery) is the first-line treatment. Cabergoline (dopamine D2 agonist) normalises prolactin in 85-90% of patients and reduces tumour size in 70-80%, including large macroadenomas. Surgery is reserved for cabergoline resistance/intolerance, urgent visual compromise, or patient preference. This distinguishes prolactinoma management from all other secreting adenomas where surgery is primary treatment."
+        }
+      ]
+    },
+    {
+      "id": "A5-S2",
+      "title": "Pre-operative Hormonal Evaluation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Comprehensive pre-operative hormonal evaluation is mandatory before pituitary surgery and must precede surgical intervention, as hormonal deficiencies (particularly cortisol insufficiency) can be life-threatening if unrecognised in the perioperative period. The evaluation assesses both pituitary hormone excess (confirming the secreting type) and pituitary hormone deficiency (assessing the extent of hypopituitarism from mass effect on normal pituitary tissue).\n\n**Baseline hormonal assessment**: Serum PRL, IGF-1, cortisol (8 AM), ACTH, GH, TSH, free T4, LH, FSH, testosterone (men), oestradiol (women), and sodium/osmolality for posterior pituitary function. For suspected Cushing disease: 24-hour urinary free cortisol (UFC) x2, late-night salivary cortisol x2, 1 mg overnight dexamethasone suppression test; these must be pathological before considering surgery.\n\n**Key pre-operative considerations by adenoma type**:\n- **ACTH-secreting (Cushing)**: Confirm the diagnosis biochemically before ANY surgery. Inferior petrosal sinus sampling (IPSS) with CRH stimulation confirms pituitary ACTH source (IPSS:peripheral ACTH ratio ≥2 at baseline or ≥3 after CRH stimulation = pituitary source). Perioperative stress-dose hydrocortisone is mandatory.\n- **GH-secreting (Acromegaly)**: Pre-operative octreotide LAR reduces surgical bleeding and cardiac complications; evidence supports reduced surgical morbidity when octreotide is given 3-6 months pre-operatively in selected patients.\n- **TSH-secreting**: Pre-operative anti-thyroid treatment to normalise thyroid function before surgery to prevent thyroid storm.\n- **Hypopituitarism assessment**: ACTH insufficiency (morning cortisol <100 nmol/L or failed short Synacthen test) requires peri-operative hydrocortisone replacement 100 mg IV at induction then 25-50 mg every 8 hours post-operatively. Hypothyroidism (low free T4) requires levothyroxine replacement."
+        },
+        {
+          "type": "table",
+          "title": "Perioperative Hormonal Assessment Protocol for Pituitary Surgery",
+          "headers": ["Axis", "Pre-op Test", "Critical Action if Abnormal", "Post-op Monitoring"],
+          "rows": [
+            ["Adrenal (ACTH)", "8 AM cortisol, ACTH; Short Synacthen if equivocal", "Hydrocortisone 100 mg IV at induction + replacement", "Cortisol day 1, 3 post-op; assess dynamic recovery at 6 weeks"],
+            ["Thyroid (TSH)", "TSH, free T4", "Levothyroxine replacement; TSH-secreting: anti-thyroid drugs", "TSH and free T4 at 6 weeks post-op"],
+            ["Prolactin", "Serum PRL (fasting)", ">2000 mU/L likely prolactinoma — reconsider surgery", "PRL day 1 post-op (low = predictor of cure)"],
+            ["GH/IGF-1", "IGF-1, GH (nadir during OGTT)", "Confirm excess; pre-op octreotide if cardiac comorbidity", "IGF-1 at 3 months; OGTT GH nadir <1 ng/mL = cure"],
+            ["ACTH/Cortisol (Cushing)", "24h UFC x2, LNSC x2, 1mg DST", "Must confirm biochemically before surgery; IPSS if MRI negative", "Cortisol day 1 post-op (<50 nmol/L suggests remission)"],
+            ["Posterior pituitary", "Sodium, serum osmolality, urine osmolality", "Document baseline DI before surgery", "Strict fluid balance, urine output, serum sodium post-op"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Perioperative Adrenal Crisis",
+          "content": "Unrecognised ACTH insufficiency in a patient with a pituitary macroadenoma causes adrenal crisis in the perioperative period (hypotension, nausea, hyponatraemia, shock) — this is a surgical emergency. Always check morning cortisol and institute stress-dose hydrocortisone replacement if cortisol <400 nmol/L or if short Synacthen test fails. Never delay hydrocortisone while awaiting cortisol levels in a haemodynamically unstable patient with known pituitary disease."
+        }
+      ]
+    },
+    {
+      "id": "A5-S3",
+      "title": "Endoscopic Endonasal Transsphenoidal Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Transsphenoidal surgery (TSS) is the definitive treatment for most functioning pituitary adenomas (acromegaly, Cushing disease, TSH-secreting) and for non-functioning macroadenomas causing mass effect (visual compromise, hypopituitarism). The **endoscopic endonasal transsphenoidal approach (EEA)** has largely replaced the traditional microscopic sublabial transsphenoidal approach in high-volume centres, offering superior visualisation of the sella and parasellar regions, reduced nasal morbidity, and no lip incision.\n\n**Anatomical corridors**: The EEA proceeds through the nasal passage, sphenoethmoidal recess, and sphenoid sinus to the anterior sella wall. Key anatomical landmarks include: (1) the superior turbinate (removed for access), (2) the sphenoid ostium, (3) the rostrum of the sphenoid, (4) the sella floor (usually at the level of the floor of the sphenoid sinus), (5) the cavernous sinus laterally (containing the carotid artery), (6) the optic canals and chiasm superiorly, and (7) the diaphragma sellae (limiting supersellar extension of the approach).\n\n**Surgical steps**: After binostril 4-hand technique setup, the sphenoid face is opened and the intersinus septum is removed. The sella floor is drilled or fractured. The dura is opened in a cruciate fashion after confirming the carotid artery positions by Doppler or intraoperative navigation. Tumour is removed systematically in quadrants (inferior, lateral, superior). Intraoperative MRI or ultrasound can confirm extent of resection. After tumour removal, the dural defect is reconstructed using fat graft and/or vascularised nasoseptal flap (Hadad-Bassagasteguy flap) for extended approaches or high-flow CSF leaks.\n\n**Remission criteria**: For **acromegaly**, surgical cure is defined as IGF-1 normalised for age and sex, AND fasting GH <1 ng/mL, AND GH nadir <0.4 ng/mL during OGTT (assessed 3 months post-operatively). Cure rates: 75-90% for microadenomas, 50-70% for macroadenomas. For **Cushing disease**, remission is defined by morning serum cortisol <50 nmol/L (or <1.8 µg/dL) within 7 days of surgery — reflecting complete removal of ACTH-secreting cells and suppression of normal corticotroph function. Cure rates: 70-90% for microadenomas, 50-65% for macroadenomas."
+        },
+        {
+          "type": "table",
+          "title": "Transsphenoidal Surgery Outcomes by Adenoma Type",
+          "headers": ["Adenoma Type", "Surgical Remission Rate (micro)", "Surgical Remission Rate (macro)", "Recurrence Rate (10 yr)", "Adjuvant if Surgery Fails"],
+          "rows": [
+            ["Acromegaly (GH)", "75-90%", "50-70%", "5-10%", "SSA (octreotide LAR, lanreotide); pegvisomant; SRS"],
+            ["Cushing disease (ACTH)", "70-90%", "50-65%", "10-15%", "Pasireotide; bilateral adrenalectomy; SRS"],
+            ["NFPA", "N/A (no hormonal cure)", "Gross total resection 60-80%", "10-20% (5 yr)", "Adjuvant SRS/RT for residual; observation if complete"],
+            ["Prolactinoma (surgical)", "70-85% micro", "30-50% macro", "Cabergoline for residual", "Cabergoline; SRS"],
+            ["Acromegaly — Remission criteria", "IGF-1 normal + GH <1 ng/mL", "GH nadir OGTT <0.4 ng/mL at 3 months", "—", "—"],
+            ["Cushing — Remission criteria", "Cortisol <50 nmol/L day 1-7 post-op", "Requires cortisol replacement post-op", "—", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Cushing Disease Perioperative Cortisol Monitoring",
+          "content": "After TSS for Cushing disease, immediate post-operative cortisol measurements are the primary remission indicator. Day 1-3 cortisol <50 nmol/L (with patient off steroid replacement) indicates surgical cure — the sudden drop reflects removal of ACTH-secreting cells and suppression of the remaining normal corticotrophs by chronic cortisol excess. Patients will require hydrocortisone replacement for 6-12 months post-cure while the HPA axis recovers. Early cortisol measurements (not morning cortisol nadir tests) determine surgical success."
+        }
+      ]
+    },
+    {
+      "id": "A5-S4",
+      "title": "Post-operative Complications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Transsphenoidal surgery has a favourable safety profile in experienced centres, with mortality <0.5% for standard procedures. However, several specific complications require recognition and management.\n\n**Diabetes insipidus (DI)**: The most common post-operative complication (10-30%), caused by damage to the posterior pituitary stalk or posterior pituitary gland during tumour dissection. Characterised by polyuria (urine output >250 mL/hour or >3 L/24 hours), dilute urine (osmolality <300 mOsm/kg), and hypernatraemia. Three patterns: (1) **Transient DI** (most common): resolves within 1-2 weeks; (2) **Triphasic response**: DI → SIADH → DI — the classic 'triphasic' response occurring in 5-10%, caused by initial axonal swelling (DI) → antidiuretic hormone release from damaged neurons dying off (SIADH, days 5-10) → permanent DI if enough posterior pituitary is destroyed. The SIADH phase can cause dangerous hyponatraemia; (3) **Permanent DI**: requires life-long desmopressin (DDAVP). Managed with DDAVP 0.1-0.2 mg orally or 1-4 mcg subcutaneously.\n\n**CSF leak (rhinorrhoea)**: Occurs in 1-5% of standard transsphenoidal cases and up to 10-15% of extended EEA. Characterised by watery nasal discharge; confirmed by glucose testing (CSF glucose >2/3 serum glucose) or beta-2 transferrin assay (gold standard). Minor leaks may seal with lumbar drainage and bed rest; persistent leaks require surgical repair (fat graft, pedicled nasoseptal flap). CSF leaks carry a risk of meningitis.\n\n**Hyponatraemia**: Occurs in 10-20% within 5-14 days post-operatively, caused by SIADH from posterior pituitary manipulation. Presents with nausea, headache, and, if severe (<125 mmol/L), seizures and cerebral oedema. Management: fluid restriction for mild-moderate SIADH; hypertonic saline for symptomatic severe hyponatraemia (<120 mmol/L or symptomatic). Patients should have sodium checked at days 7-10 post-operatively as outpatients.\n\n**Pituitary apoplexy post-operatively**: Rare (1-2%); acute haemorrhage into residual tumour or normal pituitary causes sudden onset headache, visual deterioration, and hormonal crisis. Requires emergency dexamethasone and re-surgery if vision deteriorates.\n\n**Visual deterioration**: New visual deficit after TSS occurs in <1-2% of cases; caused by optic nerve/chiasm traction, haematoma, or vasospasm. Post-operative MRI within 48 hours is standard to assess residual and exclude haematoma."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — The Triphasic Response: Recognising the SIADH Phase",
+          "content": "The triphasic response after pituitary surgery is: Day 1-4: DI (polyuria, hypernatraemia) → Day 5-10: SIADH (hyponatraemia, normal/decreased urine output) → Day 10+: Permanent DI (if significant posterior pituitary destroyed). The most dangerous phase for patients at home is the SIADH phase — hyponatraemia can be severe and cause seizures. All patients discharged after pituitary surgery must have sodium checked at days 7-10. Fluid restriction for SIADH; continue DDAVP cautiously if permanent DI."
+        }
+      ]
+    },
+    {
+      "id": "A5-S5",
+      "title": "Craniopharyngiomas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Craniopharyngiomas are benign (WHO grade 1) epithelial tumours arising from Rathke pouch remnants along the pituitary stalk and hypothalamic region. Despite their benign histology, craniopharyngiomas cause profound morbidity through hypothalamic involvement, pituitary dysfunction, and visual impairment. There are two distinct histological subtypes: **adamantinomatous** (peak incidence bimodal, ages 5-14 and >50; CTNNB1 mutation activating Wnt/β-catenin signalling; calcification and cysts prominent) and **papillary** (peak age 50-70; BRAF V600E mutation in ~95%; solid architecture; seldom calcified).\n\n**Clinical presentation**: The classic triad is bitemporal visual field defects, hypopituitarism (growth hormone deficiency most common in children), and, when the hypothalamus is involved, hypothalamic obesity, diabetes insipidus, and impaired thirst sensation. MRI shows a suprasellar mass with cystic (motor oil-like hyperdense fluid on CT) and solid components, often with calcification (best seen on CT). The hypothalamic grade (degree of hypothalamic involvement) is the most critical prognostic factor for outcomes and guides treatment intensity.\n\n**Treatment philosophy**: Complete surgical resection offers the highest chance of cure (5-year OS >90%) but carries highest hypothalamic morbidity — hypothalamic obesity (BMI >35 in 40-60%), growth hormone deficiency (100%), DI (70-90%), and panhypopituitarism. **Limited surgery + radiotherapy** achieves equivalent long-term tumour control in many series (XRT-based approach) with substantially reduced hypothalamic morbidity. The **KRANIOPHARYNGEOM 2007 trial** demonstrated that hypothalamus-sparing surgery followed by radiotherapy achieves equivalent PFS (10-yr: 74% limited surgery+RT vs 59% radical surgery) with less severe hypothalamic dysfunction. Contemporary management favours limited (hypothalamus-sparing) surgery in cases where the hypothalamus is engaged (Muller grade 2/3), followed by fractionated radiotherapy or proton therapy.\n\n**BRAF V600E papillary craniopharyngiomas**: The discovery of BRAF V600E mutations in nearly all papillary craniopharyngiomas has led to phase II trials of BRAF/MEK inhibition (dabrafenib + trametinib, vemurafenib). Brastianos et al. (NEJM 2016) reported remarkable responses in three patients, with confirmed cystic regression. Phase II trials (BRAF-CRAN) are ongoing and may transform management of papillary craniopharyngioma."
+        },
+        {
+          "type": "table",
+          "title": "Adamantinomatous vs Papillary Craniopharyngioma — Key Differences",
+          "headers": ["Feature", "Adamantinomatous", "Papillary"],
+          "rows": [
+            ["Age peak", "Bimodal: 5-14 yr and >50 yr", "50-70 yr (adults only)"],
+            ["Molecular driver", "CTNNB1 mutation (Wnt pathway)", "BRAF V600E (~95%)"],
+            ["Histology", "Palisading epithelium, 'wet keratin', calcification", "Squamoid pseudopapillae, no calcification"],
+            ["MRI appearance", "Cystic + solid + calcification (CT); T1 hyperintense cysts", "Predominantly solid, rarely cystic"],
+            ["Calcification", "Present in 90% (CT)", "Rare"],
+            ["BRAF-targeted therapy", "Not applicable", "Dabrafenib+trametinib: high response rate"],
+            ["Prognosis", "Higher recurrence, hypothalamic invasion common", "Better prognosis; BRAF therapy transforms management"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Hypothalamic Obesity: The Dominant Morbidity",
+          "content": "Hypothalamic obesity is the most devastating long-term morbidity of craniopharyngioma, occurring in 40-60% of patients after treatment. It is caused by hypothalamic ventromedial nucleus damage (satiety centre) leading to leptin resistance, autonomic dysfunction, and refractory hyperphagia. It is essentially irreversible once established. The degree of hypothalamic involvement (Muller grade) is the primary treatment planning determinant — grade 2-3 hypothalamic involvement mandates conservative (hypothalamus-sparing) surgery to prevent this complication."
+        }
+      ]
+    },
+    {
+      "id": "A5-S6",
+      "title": "Pituitary Apoplexy and Rathke Cyst",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Pituitary apoplexy** is a neurosurgical emergency defined by acute infarction or haemorrhage within a pituitary adenoma. It occurs in 2-7% of adenoma patients and is associated with triggers including anticoagulation, bromocriptine initiation, hypotension, cardiac surgery, or may be spontaneous. Clinical presentation is the classic triad: (1) sudden-onset 'thunderclap' headache (retro-orbital, 'worst headache of life'), (2) visual disturbance (decreased acuity, field defects, CN III/IV/VI palsy from cavernous sinus compression), and (3) acute hypopituitarism — particularly adrenal crisis (hypotension, nausea, confusion). The haemorrhagic component produces a signal change on T1 MRI (hyperintense), which may mimic subarachnoid haemorrhage. Urgent bloods must include cortisol and electrolytes.\n\n**Management of pituitary apoplexy**: Immediate high-dose hydrocortisone (100 mg IV bolus) is mandatory given the high risk of acute adrenal crisis. Ophthalmology assessment for visual acuity and fields. Emergency MRI brain (preferred) or CT (if MRI not immediately available). **Indications for emergency surgery** (within 24-72 hours): deteriorating visual acuity, deteriorating visual fields, reduced consciousness, or clinical deterioration on medical management. Conservative management with close monitoring is appropriate for patients with stable vision, good consciousness, and no evidence of active CSF obstruction.\n\n**Rathke's cleft cyst (RCC)**: RCCs arise from remnants of Rathke's pouch between the adenohypophysis and neurohypophysis, located at the pars intermedia. They are lined by simple cuboidal or columnar epithelium and contain mucoid or serous fluid. On MRI, typically intrasellar with mild suprasellar extension, T2 hyperintense (fluid content), T1 variable. The pathognomonic intracystic nodule (seen in 70%) represents inspissated mucoid material and is a useful MRI discriminator from craniopharyngioma. RCCs are usually incidental but may cause headaches, visual symptoms, or hyperprolactinaemia from stalk compression. Treatment is drainage via TSS if symptomatic — cyst wall is not excised (doing so causes DI and hypopituitarism). Recurrence rate 10-20% at 5 years."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Emergency Management of Pituitary Apoplexy",
+          "content": "A 48-year-old man presents to the emergency department with sudden severe retro-orbital headache 1 hour ago and left CN III palsy (ptosis, mydriasis, exotropia). He had no known pituitary disease but on review of prior MRI has a known 2.5 cm pituitary macroadenoma. Blood pressure 90/60. Step 1: hydrocortisone 100 mg IV IMMEDIATELY (adrenal crisis). Step 2: urgent MRI brain (T1 signal within sella). Step 3: ophthalmology assessment. Step 4: endocrinology consultation. Surgery within 24-72 hours if visual deterioration or CN palsy not improving. CN III palsy from apoplexy has a good recovery prognosis (70-80% resolve after decompression)."
+        }
+      ]
+    },
+    {
+      "id": "A5-S7",
+      "title": "Medical Management of Secreting Adenomas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Medical therapy is the primary treatment for prolactinomas and an important adjunct for acromegaly and Cushing disease when surgery fails or is contraindicated.\n\n**Prolactinoma**: Cabergoline (dopamine D2 agonist, 0.5-3.0 mg/week) normalises prolactin in 85-90% and achieves ≥50% tumour volume reduction in 70-80%. It is superior to bromocriptine (older agent, twice-daily dosing, more side effects). Long-term treatment (≥2 years with normal PRL and significant tumour reduction) allows trial of cabergoline discontinuation in 25% of patients. Echocardiographic monitoring for cardiac valvulopathy (rare at doses <3 mg/week) is recommended for patients on long-term high-dose therapy.\n\n**Acromegaly**: After surgery, approximately 30-40% of patients have persistent GH/IGF-1 excess. **Somatostatin analogues (SSAs)** — octreotide LAR 10-40 mg IM monthly or lanreotide autogel 60-120 mg SC monthly — achieve IGF-1 normalisation in 30-55% of surgical failures. **Pegvisomant** (GH receptor antagonist) is the most effective medical agent, normalising IGF-1 in 90%+ of patients; it does not affect tumour size (GH rises during treatment) and is expensive. **Pasireotide LAR** (multi-receptor SSA) is superior to octreotide for GH/IGF-1 control but causes hyperglycaemia in ~60%.\n\n**Cushing disease**: Medical options are used as bridging therapy before re-operation or radiotherapy, or for inoperable cases. Steroidogenesis inhibitors: **metyrapone** (1-3 g/day in divided doses, inhibits 11-β-hydroxylase) and **ketoconazole** (400-1200 mg/day, multiple enzyme inhibition) are used short-term. **Pasireotide** (SST5 agonist) reduces ACTH and cortisol in 25-40% of Cushing disease patients but causes hyperglycaemia in 70-80%. **Osilodrostat** and **levoketoconazole** are newer FDA-approved steroidogenesis inhibitors. **Bilateral adrenalectomy** is the definitive cure for refractory Cushing disease but requires lifetime corticosteroid replacement and risks Nelson syndrome (ACTH-secreting tumour growth post-adrenalectomy)."
+        },
+        {
+          "type": "table",
+          "title": "Medical Therapy Options for Hormone-Secreting Adenomas",
+          "headers": ["Adenoma Type", "First-line Medical Agent", "Efficacy (PRL/IGF-1/Cortisol Normalisation)", "Key Side Effect", "Second-line Option"],
+          "rows": [
+            ["Prolactinoma", "Cabergoline 0.5-3 mg/week", "85-90% PRL normalisation", "Cardiac valvulopathy at high doses; nausea (mild)", "Bromocriptine; surgery"],
+            ["Acromegaly (post-surgical)", "Octreotide LAR 20-30 mg/month", "30-55% IGF-1 normalisation", "Gallstones (30%), diarrhoea, glucose intolerance", "Pegvisomant (GH receptor antagonist; 90% efficacy); SRS"],
+            ["Cushing disease (bridging)", "Metyrapone 1-3 g/day", "60-70% cortisol normalisation", "Hirsutism, hypertension (mineralocorticoid precursors)", "Ketoconazole; osilodrostat"],
+            ["Cushing disease (long-term)", "Pasireotide LAR 10-40 mg/month", "25-40% cortisol normalisation", "Hyperglycaemia 70-80%", "Bilateral adrenalectomy"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of pituitary tumours with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A5-Q1",
+        "stem": "A 32-year-old woman presents with 8 months of amenorrhoea and galactorrhoea. Serum prolactin is 4200 mU/L. MRI shows a 6 mm pituitary lesion (microadenoma). What is the first-line treatment?",
+        "options": {
+          "A": "Transsphenoidal surgery",
+          "B": "Cabergoline 0.5-1.0 mg twice weekly",
+          "C": "Bromocriptine 2.5 mg three times daily",
+          "D": "Fractionated radiotherapy 50.4 Gy in 28 fractions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cabergoline is the first-line treatment for prolactinoma — prolactinoma is the only pituitary adenoma where medical therapy (not surgery) is the primary treatment. Cabergoline (dopamine D2 agonist) normalises prolactin in 85-90% of patients and reduces tumour size in 70-80%. It is superior to bromocriptine due to once or twice-weekly dosing, better tolerability, and higher efficacy. Surgery is reserved for cabergoline resistance/intolerance or when rapid visual decompression is needed.",
+          "wrong": {
+            "A": "Surgery is not first-line for prolactinoma in the absence of drug resistance/intolerance. Cabergoline achieves comparable tumour control to surgery with less risk in the vast majority of patients.",
+            "C": "Bromocriptine was the original dopamine agonist for prolactinoma but is inferior to cabergoline in efficacy and tolerability. It requires three times daily dosing and has more nausea/vomiting. Cabergoline is the preferred agent.",
+            "D": "Radiotherapy is third-line or adjuvant treatment for prolactinoma refractory to medical therapy and surgery. It is never first-line and would cause hypopituitarism in this young woman."
+          },
+          "guideline": "Endocrine Society Hyperprolactinaemia Clinical Practice Guideline 2011 (updated 2020) — Cabergoline first-line for prolactinoma; ESE Pituitary Tumour Guidelines 2023",
+          "trial": "Webster J et al. NEJM 1994: Cabergoline vs bromocriptine RCT — PRL normalisation 83% cabergoline vs 59% bromocriptine; amenorrhoea resolution 72% vs 52%; established cabergoline superiority",
+          "pearl": "Prolactinoma = medical treatment first (cabergoline). It is the ONLY secreting pituitary adenoma where surgery is NOT first-line. Cabergoline 85-90% PRL normalisation; bromocriptine is inferior but acceptable alternative."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q2",
+        "stem": "A 45-year-old man with a 3.2 cm pituitary macroadenoma undergoes transsphenoidal surgery. Post-operatively on day 2, he develops polyuria (4.5 L urine output in 24 hours), dilute urine (osmolality 120 mOsm/kg), and serum sodium rises to 152 mmol/L. What is the diagnosis and treatment?",
+        "options": {
+          "A": "SIADH; treat with fluid restriction",
+          "B": "Diabetes insipidus; treat with desmopressin (DDAVP) 0.1 mg orally or 1-4 mcg SC",
+          "C": "Cerebral salt wasting; treat with IV normal saline",
+          "D": "Adrenal crisis; treat with hydrocortisone 100 mg IV"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-operative diabetes insipidus (DI) is the most common complication after transsphenoidal pituitary surgery, occurring in 10-30%. It is characterised by polyuria (>3 L/24 hours or >250 mL/hour), dilute urine (osmolality <300 mOsm/kg), and hypernatraemia (serum Na+ rising). This results from posterior pituitary or stalk damage reducing ADH secretion. Treatment is desmopressin (synthetic ADH analogue, DDAVP): 0.1-0.2 mg orally or 1-4 mcg subcutaneously. Most post-operative DI is transient (resolves 1-2 weeks); monitor for the triphasic response.",
+          "wrong": {
+            "A": "SIADH presents with hyponatraemia and concentrated urine — the opposite of this case. This patient has hypernatraemia and dilute urine, consistent with DI. Fluid restriction in DI would worsen hypernatraemia dangerously.",
+            "C": "Cerebral salt wasting presents with hyponatraemia with volume depletion and high urine sodium — the opposite of this presentation. High serum sodium with dilute urine is DI.",
+            "D": "Adrenal crisis presents with hypotension, hyponatraemia (not hypernatraemia), and hypoglycaemia — the opposite electrolyte pattern. While cortisol deficiency is important to address, this electrolyte pattern is DI."
+          },
+          "guideline": "Endocrine Society Post-operative Pituitary Guidelines 2020 — DI management post-TSS: DDAVP if urine output >300 mL/hr or osmolality <200 mOsm/kg; EANS TSS Guidelines 2019",
+          "trial": "Kristof RA et al. J Clin Neurosci 2009: Post-operative DI after TSS — 23% incidence; 80% transient (resolve <1 week); 5% permanent; triphasic response in 3-5%",
+          "pearl": "Post-TSS DI: polyuria >3 L/day + urine osmolality <300 mOsm/kg + hypernatraemia = DI → DDAVP. Watch for triphasic response: DI (days 1-4) → SIADH/hyponatraemia (days 5-10) → permanent DI. Check sodium at days 7-10 in all post-TSS patients."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q3",
+        "stem": "A 38-year-old woman with Cushing disease undergoes transsphenoidal resection. On post-operative day 1, morning cortisol is 28 nmol/L (reference 200-700 nmol/L). She is clinically well. What does this indicate?",
+        "options": {
+          "A": "Adrenal insufficiency requiring emergency hydrocortisone",
+          "B": "Surgical cure of Cushing disease — ACTH-secreting cells removed; normal corticotrophs suppressed",
+          "C": "Surgical failure — cortisol should be higher after successful surgery",
+          "D": "Normal post-operative finding requiring no specific management"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-operative morning cortisol <50 nmol/L (or <1.8 µg/dL) on day 1-7 after TSS for Cushing disease indicates surgical remission. The low cortisol reflects: (1) complete removal of the ACTH-secreting tumour, and (2) suppression of normal corticotroph cells by chronic hypercortisolism — these cells require months to recover. This 'post-operative cortisol nadir' is the most reliable single predictor of surgical cure. The patient does require hydrocortisone replacement to prevent adrenal insufficiency during HPA axis recovery, but this is expected and planned — it is not an emergency.",
+          "wrong": {
+            "A": "While the cortisol is genuinely low (requiring replacement hydrocortisone), this is the expected and desired finding after successful Cushing disease surgery. This is not an emergency adrenal crisis — it is proof of surgical cure. Hydrocortisone replacement is given electively.",
+            "C": "The opposite is true — successful surgery causes cortisol to DROP precipitously in the first days post-operatively. A high post-operative cortisol indicates persistent ACTH secretion and surgical failure.",
+            "D": "This finding IS significant and does require specific management (hydrocortisone replacement); however, it indicates cure, not a complication. Management is routine replacement hydrocortisone 20 mg morning + 10 mg afternoon, tapered over months."
+          },
+          "guideline": "Endocrine Society Cushing Disease Guidelines 2015 — Post-operative cortisol <50 nmol/L = remission criterion; ESE Pituitary Tumour Guidelines 2023",
+          "trial": "Hamrahian AH et al. J Clin Endocrinol Metab 2010: Post-operative cortisol nadir study — morning cortisol <50 nmol/L on day 1-7: sensitivity 95%, specificity 85% for cure of Cushing disease; landmark study establishing the remission criterion",
+          "pearl": "Cushing disease surgical cure criterion: post-op morning cortisol <50 nmol/L (day 1-7). This is the key remission indicator. Requires planned hydrocortisone replacement for months while HPA recovers. High post-op cortisol = failure; very low post-op cortisol = cure."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q4",
+        "stem": "A 55-year-old man presents with progressive headache, bitemporal visual field loss, and bilateral ED. Lab: testosterone low, FSH low, LH low, PRL mildly elevated at 850 mU/L, GH low, cortisol low normal, IGF-1 low, TSH low with low free T4. MRI: 2.8 cm pituitary mass compressing the optic chiasm. What is the most likely diagnosis and immediate priority before surgery?",
+        "options": {
+          "A": "Prolactinoma — treat with cabergoline before considering surgery",
+          "B": "Non-functioning pituitary adenoma with hypopituitarism — start hydrocortisone BEFORE surgery",
+          "C": "Acromegaly — start octreotide LAR before surgery",
+          "D": "Craniopharyngioma — no immediate hormonal replacement needed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This clinical picture is a non-functioning pituitary adenoma (NFPA) with panhypopituitarism, not a prolactinoma. The mildly elevated PRL (850 mU/L) represents 'stalk effect' — compression of the pituitary stalk by the mass reduces dopamine delivery to the lactotrophs, disinhibiting prolactin secretion. True prolactinomas causing visual compromise are typically much larger and have PRL levels >3000-4000 mU/L for a 2.8 cm mass. The most important immediate step is hydrocortisone replacement before surgery — unrecognised cortisol deficiency causes perioperative adrenal crisis. Low cortisol is the priority; levothyroxine should NOT be started before cortisol replacement (it may precipitate crisis by increasing metabolic demand).",
+          "wrong": {
+            "A": "The elevated PRL of 850 mU/L for a 2.8 cm lesion is disproportionately low for a true prolactinoma (which would be expected to have PRL >3000-4000 mU/L for this size). This pattern represents stalk effect. Cabergoline for stalk-effect prolactin would be wrong — it would reduce the stalk compression signal but not treat the NFPA.",
+            "C": "IGF-1 is low (not elevated), excluding acromegaly. The clinical features (ED, bitemporal hemianopia, hypopituitarism) are mass effect from NFPA, not GH excess.",
+            "D": "Craniopharyngioma is possible but MRI features and the adult age with NFPA presentation favour NFPA. Regardless of diagnosis, adrenal insufficiency must be corrected before surgery."
+          },
+          "guideline": "Endocrine Society Hypopituitarism Guidelines 2016 — Hydrocortisone mandatory before pituitary surgery if adrenal insufficiency present; ESE Pituitary Tumour Guidelines 2023",
+          "trial": "Snyder PJ et al. JAMA 1974: Stalk section effect — landmark demonstration that PRL elevation from stalk compression is modest (<3000 mU/L) and represents pharmacological hyperprolactinaemia, distinguishing NFPA from true prolactinoma",
+          "pearl": "Stalk effect: PRL mildly elevated (<3000 mU/L) with a large pituitary mass = NFPA with stalk compression, NOT prolactinoma. True macro-prolactinoma has PRL usually >5000 mU/L for a 2-3 cm mass. Always replace hydrocortisone before pituitary surgery if adrenal insufficiency is present."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q5",
+        "stem": "Which molecular marker is found in approximately 95% of papillary craniopharyngiomas and differentiates this subtype from adamantinomatous craniopharyngioma?",
+        "options": {
+          "A": "CTNNB1 mutation (beta-catenin)",
+          "B": "IDH1 R132H mutation",
+          "C": "BRAF V600E mutation",
+          "D": "NF2 biallelic loss"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "BRAF V600E mutation is found in approximately 95% of papillary craniopharyngiomas and is pathognomonic of this subtype. It distinguishes papillary craniopharyngioma (adult-onset, solid architecture, no calcification, BRAF V600E) from adamantinomatous craniopharyngioma (bimodal age, cystic/solid, calcification, CTNNB1 mutation). This distinction is clinically critical because papillary craniopharyngiomas respond to BRAF/MEK inhibition (dabrafenib + trametinib), opening a new treatment avenue.",
+          "wrong": {
+            "A": "CTNNB1 mutation (activating Wnt/β-catenin pathway) is found in adamantinomatous craniopharyngiomas, not papillary type. These are mutually exclusive drivers of the two subtypes.",
+            "B": "IDH1 R132H mutation is found in diffuse gliomas (astrocytoma IDH-mutant, oligodendroglioma) — it is not related to craniopharyngioma of either subtype.",
+            "D": "NF2 biallelic loss is the most common alteration in meningiomas and vestibular schwannomas, not craniopharyngiomas."
+          },
+          "guideline": "WHO CNS Classification 2021 — Craniopharyngioma section: papillary type defined by BRAF V600E; adamantinomatous by CTNNB1; Muller HL et al. Nat Rev Dis Primers 2019",
+          "trial": "Brastianos PK et al. Nat Genet 2014: BRAF V600E in 95% of papillary craniopharyngiomas by exome sequencing; Brastianos PK et al. NEJM Evidence 2021: Dabrafenib+trametinib in papillary craniopharyngioma — remarkable tumour regression",
+          "pearl": "Papillary craniopharyngioma: BRAF V600E (95%) — adults, solid, no calcification, responds to dabrafenib+trametinib. Adamantinomatous: CTNNB1 mutation — bimodal age, cystic+calcified, no targeted therapy. Molecular testing of craniopharyngioma is now mandatory to guide treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q6",
+        "stem": "A 40-year-old woman presents with sudden onset severe retroorbital headache and left third nerve palsy (ptosis, mydriasis, downward and outward deviation). MRI shows a 2.5 cm pituitary mass with T1 hyperintensity within the sella. Serum cortisol is 60 nmol/L. What is the correct sequence of emergency management?",
+        "options": {
+          "A": "Emergency surgical decompression immediately before any other intervention",
+          "B": "Lumbar puncture to exclude subarachnoid haemorrhage before treating",
+          "C": "Hydrocortisone 100 mg IV bolus immediately, then urgent ophthalmological assessment, MRI confirmation, and neurosurgical evaluation",
+          "D": "Cabergoline 1 mg orally immediately to shrink the presumed prolactinoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Pituitary apoplexy management: (1) FIRST and MOST CRITICAL — hydrocortisone 100 mg IV immediately. Acute adrenal crisis from destroyed ACTH-secreting pituitary is immediately life-threatening. Cortisol of 60 nmol/L confirms adrenal insufficiency. (2) Urgent ophthalmology for visual acuity, colour vision, and formal fields. (3) MRI confirmation of apoplexy. (4) Neurosurgical consultation for decision on surgical decompression timing. Surgery is indicated within 24-72 hours for deteriorating vision. CN III palsy from apoplexy has a good recovery rate (70-80%) with decompression.",
+          "wrong": {
+            "A": "Hydrocortisone must be given BEFORE surgery. Operating without steroid coverage on a patient in adrenal crisis causes cardiovascular collapse intraoperatively. Hydrocortisone is the absolute first step.",
+            "B": "Lumbar puncture for SAH exclusion is not necessary if T1 MRI hyperintensity within the sella confirms pituitary apoplexy. LP may be harmful if there is elevated ICP. CT angiography may be needed to exclude a posterior communicating artery aneurysm causing CN III palsy, but LP is not the first priority.",
+            "D": "Cabergoline is first-line for prolactinoma but not appropriate for acute pituitary apoplexy. Even if this is a prolactinoma that has undergone apoplexy, cabergoline is not the emergency intervention — hydrocortisone is."
+          },
+          "guideline": "UK Pituitary Apoplexy Guidelines 2011 (Rajasekaran et al.) — Hydrocortisone 100 mg IV bolus = mandatory first step; ESE Pituitary Apoplexy Position Statement 2015",
+          "trial": "Rajasekaran S et al. Clin Endocrinol 2011: UK national guidelines for pituitary apoplexy — conservative vs surgical management: surgery within 8 days for visual compromise achieves better visual outcomes than delayed surgery",
+          "pearl": "Pituitary apoplexy = thunderclap headache + CN III palsy + T1 hyperintense pituitary mass. STEP 1: hydrocortisone 100 mg IV (adrenal crisis prevention). STEP 2: ophthalmology. STEP 3: neurosurgery for surgery if vision deteriorates. CN III palsy recovers in 70-80% with decompression."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q7",
+        "stem": "What is the standard remission criterion for surgical cure of acromegaly assessed at 3 months post-operatively?",
+        "options": {
+          "A": "IGF-1 normalisation for age/sex alone",
+          "B": "Random GH <5 ng/mL",
+          "C": "IGF-1 normal for age/sex AND GH nadir during OGTT <0.4 ng/mL",
+          "D": "Post-operative MRI showing complete tumour removal (Simpson grade 1)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The current biochemical remission criteria for acromegaly after surgery (assessed at 3 months) require BOTH: (1) IGF-1 within normal range for age and sex, AND (2) GH nadir <0.4 ng/mL (0.4 µg/L) during a standard 75 g oral glucose tolerance test. Both criteria must be met for remission. The GH nadir during OGTT is the most sensitive suppression test — in acromegaly, autonomous GH secretion prevents normal OGTT-induced suppression. The cut-off has been revised downward from 1 ng/mL to 0.4 ng/mL with more sensitive GH assays.",
+          "wrong": {
+            "A": "IGF-1 normalisation alone is an important component but not sufficient for remission declaration. GH nadir during OGTT must also be confirmed. Some patients have discordant IGF-1 (normal) with unsuppressed GH on OGTT, indicating incomplete cure.",
+            "B": "Random GH <5 ng/mL is an outdated threshold. Modern acromegaly remission requires random GH <1 ng/mL AND GH nadir <0.4 ng/mL on OGTT. GH <5 ng/mL is not an accepted remission criterion.",
+            "D": "Complete radiological resection is a necessary surgical goal but does not define biochemical remission. Even after apparent GTR, residual tumour or hyperplasia may maintain GH/IGF-1 excess. Biochemical criteria define cure, not imaging."
+          },
+          "guideline": "Endocrine Society Acromegaly Clinical Practice Guideline 2018 (Melmed et al.) — Post-operative assessment at 3 months: IGF-1 normal + GH nadir on OGTT <0.4 ng/mL = remission",
+          "trial": "Carmichael JD et al. J Clin Endocrinol Metab 2009: Validation of GH nadir <0.4 ng/mL (sensitive assay) as optimal cut-off — 98% positive predictive value for remission in long-term follow-up; Giustina A et al. Eur J Endocrinol 2020: Updated consensus criteria",
+          "pearl": "Acromegaly cure: IGF-1 normal for age/sex + GH nadir <0.4 ng/mL on OGTT at 3 months post-op. Both criteria required. Old cut-off was <1 ng/mL; modern sensitive assays use <0.4 ng/mL. Microadenoma cure rate 75-90%; macroadenoma 50-70%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q8",
+        "stem": "A 14-year-old boy presents with headache, growth failure, and polyuria/polydipsia. MRI shows a suprasellar cystic mass with T1 hyperintense fluid content and calcification on CT. The most likely diagnosis is:",
+        "options": {
+          "A": "Germinoma",
+          "B": "Adamantinomatous craniopharyngioma",
+          "C": "Rathke's cleft cyst",
+          "D": "Low-grade glioma (pilocytic astrocytoma)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The classic presentation of adamantinomatous craniopharyngioma in a paediatric patient: suprasellar location, cystic/solid mass with T1 hyperintense fluid (cholesterol-rich 'motor oil' fluid), calcification on CT (present in 90% of adamantinomatous type), DI (polyuria/polydipsia from posterior pituitary/stalk involvement), growth failure (GH deficiency — the earliest pituitary axis affected in children), and headache from raised ICP. The bimodal age distribution (5-14 years and >50 years) and this combination of features are pathognomonic. CTNNB1 mutation is the molecular driver.",
+          "wrong": {
+            "A": "Germinoma also occurs in the suprasellar/pineal region in adolescents and can cause DI, but it is typically solid with homogeneous enhancement, not cystic with calcification. Serum/CSF AFP (normal) and beta-HCG (mildly elevated in germinoma) should be checked. Germinoma is very radiosensitive.",
+            "C": "Rathke's cleft cyst is typically intrasellar, smaller, and contains serous or mucoid fluid (not 'motor oil'). It rarely has calcification and does not typically cause growth failure in children. It has an intracystic nodule as a characteristic finding.",
+            "D": "Hypothalamic/chiasmatic pilocytic astrocytoma can cause DI and visual symptoms but is a solid/partially cystic tumour without calcification or T1 hyperintense fluid. It occurs in children but lacks the classic calcified cystic appearance."
+          },
+          "guideline": "Muller HL et al. Nat Rev Dis Primers 2019 — Craniopharyngioma pathology and clinical features; SIOPE/KRANIOPHARYNGEOM guidelines 2019",
+          "trial": "KRANIOPHARYNGEOM 2007 study (Muller et al. Eur J Endocrinol 2010): German prospective registry — adamantinomatous craniopharyngioma epidemiology: GHD at presentation 75%, DI 40-50%, growth failure most common presenting sign in paediatric patients",
+          "pearl": "Adamantinomatous craniopharyngioma: paediatric patient + suprasellar cystic mass + T1 bright fluid + calcification on CT = classic. Growth failure (GHD) + DI = pituitary stalk involvement. Motor oil fluid on T1 = cholesterol-rich cyst content. CTNNB1 mutation."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q9",
+        "stem": "During endoscopic endonasal transsphenoidal surgery for a pituitary macroadenoma, the surgeon inadvertently enters the cavernous sinus medial wall. Which structure is at immediate risk of catastrophic injury?",
+        "options": {
+          "A": "Optic chiasm",
+          "B": "Internal carotid artery (cavernous segment)",
+          "C": "Basilar artery",
+          "D": "Superior sagittal sinus"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The internal carotid artery (ICA) runs within the cavernous sinus, just lateral to the sella. The cavernous ICA is immediately at risk if the surgeon drills or curets beyond the lateral margin of the sella. Carotid injury during TSS is the most feared intraoperative complication — it presents as sudden massive arterial haemorrhage with immediate collapse of the operative field. Management: immediate tight nasal packing + compression, endovascular occlusion, emergent angiography. ICA position should be confirmed by intraoperative Doppler, navigation, or knowledge of preoperative imaging. The ICA cavernous segment is typically 1-2 cm lateral to the midline sella wall.",
+          "wrong": {
+            "A": "The optic chiasm is at risk from superior manipulation during pituitary surgery (particularly when tumour extends suprasellarly and the diaphragma sellae is opened) — not from lateral cavernous sinus entry. Optic chiasm injury causes visual deterioration.",
+            "C": "The basilar artery is not adjacent to the cavernous sinus in the typical transsphenoidal surgical corridor. It lies behind the clivus and is relevant for extended skull base approaches, not standard TSS.",
+            "D": "The superior sagittal sinus is a midline superior sagittal structure in the intracranial compartment — it is completely remote from the sphenoidal/sellar operative field of TSS."
+          },
+          "guideline": "EANS Transsphenoidal Surgery Guidelines 2019 — Carotid artery injury: most feared intraoperative complication; anatomical landmarks to prevent carotid injury",
+          "trial": "Park J et al. J Neurosurg 2016: Carotid artery injury in TSS — incidence 0.4-1.1%; mortality 30-40% without emergency endovascular control; immediate packing and emergent angiography = only management options",
+          "pearl": "Carotid artery injury in TSS = most feared complication; 0.4-1.1% incidence. IMMEDIATE MANAGEMENT: nasal packing + compression + emergent endovascular angiography/occlusion. Confirm ICA position with intraoperative Doppler before lateral dissection. Prevention > treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q10",
+        "stem": "A 58-year-old woman with acromegaly has persistent elevated IGF-1 and GH after transsphenoidal surgery. She declines re-operation. Her GH is suppressed >50% by octreotide LAR but IGF-1 remains elevated. What is the most appropriate next medical escalation?",
+        "options": {
+          "A": "Add cabergoline to octreotide LAR",
+          "B": "Switch from octreotide LAR to pegvisomant (GH receptor antagonist)",
+          "C": "Start tamoxifen as adjuvant anti-hormonal therapy",
+          "D": "Initiate bilateral adrenalectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pegvisomant (GH receptor antagonist) is the most effective medical therapy for acromegaly, normalising IGF-1 in 90%+ of patients. It works downstream of the GH receptor, blocking GH action regardless of GH levels or SSA response. It is used as monotherapy or in combination with SSA for patients who have partial SSA response (IGF-1 still elevated despite octreotide). The combination of SSA + pegvisomant can be more effective than either alone. The patient is receiving octreotide LAR with partial GH suppression — escalation to pegvisomant is the correct next step.",
+          "wrong": {
+            "A": "Adding cabergoline to SSA is a strategy used in some patients (cabergoline has modest anti-acromegaly effects via D2 receptors on GH-secreting cells) but is less effective than switching to pegvisomant. The IGF-1-normalisation rate with octreotide + cabergoline is ~30%, inferior to pegvisomant.",
+            "C": "Tamoxifen has no established role in acromegaly management. Anti-oestrogenic therapy is used in oestrogen-responsive breast and uterine cancers, not pituitary GH-secreting tumours.",
+            "D": "Bilateral adrenalectomy is the treatment for refractory Cushing disease (removing cortisol production), not acromegaly. It has no role in GH excess management."
+          },
+          "guideline": "Endocrine Society Acromegaly Guidelines 2018 — Pegvisomant recommended for patients with inadequate IGF-1 control on SSA; ESE Pituitary Tumour Guidelines 2023",
+          "trial": "Trainer PJ et al. NEJM 2000 (ACROSTUDY): Pegvisomant (GH receptor antagonist) — IGF-1 normalisation 97.2% in phase III trial; Holdaway IM et al. J Clin Endocrinol Metab 2004: Combination octreotide+pegvisomant superior to either alone for resistant cases",
+          "pearl": "Pegvisomant = most effective acromegaly medical therapy (90-97% IGF-1 normalisation). Acts downstream of GH receptor — effective even with high GH levels. Limitation: doesn't reduce tumour size (GH rises during treatment — monitor MRI). Cost is high. Use when SSA inadequate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q11",
+        "stem": "A 29-year-old woman with Cushing disease has a negative pituitary MRI but confirmed pituitary ACTH excess on biochemistry (24h UFC elevated x3, 1mg DST non-suppressed, serum ACTH detectable). What investigation should be performed before proceeding to surgery?",
+        "options": {
+          "A": "FDG-PET scan to identify an occult pituitary microadenoma",
+          "B": "Inferior petrosal sinus sampling (IPSS) with CRH stimulation",
+          "C": "18F-fluorodeoxyglucose PET to identify ectopic ACTH source",
+          "D": "Whole-body CT scan to exclude adrenal Cushing syndrome"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Inferior petrosal sinus sampling (IPSS) is the gold standard test to confirm pituitary ACTH origin when MRI is negative or inconclusive. The petrosal sinuses drain the pituitary, so simultaneous sampling during CRH stimulation creates a central-to-peripheral ACTH gradient. Criteria for pituitary source: IPS:P ratio ≥2 at baseline OR ≥3 after CRH stimulation (100 mcg IV). IPSS also lateralises the tumour (right vs left IPS gradient ≥1.4 post-CRH suggests tumour side) to guide surgical exploration in MRI-negative cases. In MRI-negative Cushing disease, IPSS confirming pituitary source allows the surgeon to perform systematic anterior pituitary exploration.",
+          "wrong": {
+            "A": "FDG-PET has limited utility for ACTH-secreting microadenomas due to their small size and non-specific metabolic activity. 68Ga-DOTATATE PET is sometimes used but IPSS remains the gold standard for lateralisation and source confirmation.",
+            "C": "Ectopic ACTH syndrome (from lung carcinoid, SCLC, thymic tumour) must be excluded biochemically before IPSS. However, with elevated serum ACTH and typical features of Cushing disease (rather than cyclical/paraneoplastic features), ectopic ACTH is less likely. IPSS is the appropriate next step to confirm pituitary source before surgery.",
+            "D": "Whole-body CT is appropriate if adrenal Cushing syndrome is suspected (ACTH-independent — but in this case serum ACTH is detectable, indicating ACTH-dependent disease). Adrenal CT would be abnormal (bilateral adrenal hyperplasia) but would not change the management decision about pituitary surgery."
+          },
+          "guideline": "Endocrine Society Cushing Syndrome Guidelines 2015 — IPSS with CRH mandatory when MRI is negative/inconclusive in ACTH-dependent Cushing syndrome; IPS:P ratio criteria",
+          "trial": "Oldfield EH et al. NEJM 1991: IPSS with CRH in 281 patients — sensitivity 94%, specificity 100% for identifying pituitary source; lateralisation accuracy 78%; established IPSS as gold standard",
+          "pearl": "MRI-negative Cushing disease: perform IPSS with CRH before surgery. IPS:P ratio ≥2 (baseline) or ≥3 (post-CRH) = pituitary source. Lateralisation (R:L ratio ≥1.4 post-CRH) guides surgical side of exploration. IPSS sensitivity 94% — superior to MRI for identifying occult microadenoma."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q12",
+        "stem": "A patient 9 days post-transsphenoidal surgery for pituitary macroadenoma presents to the emergency department with headache, nausea, and confusion. Serum sodium is 118 mmol/L. What is the most likely cause?",
+        "options": {
+          "A": "Diabetes insipidus — treat with desmopressin",
+          "B": "Adrenal crisis — treat with hydrocortisone",
+          "C": "SIADH from posterior pituitary manipulation — treat with fluid restriction",
+          "D": "Bacterial meningitis from CSF leak — treat with antibiotics"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Hyponatraemia developing at days 5-14 post-pituitary surgery is the classic timing for SIADH — the syndrome of inappropriate ADH secretion from posterior pituitary manipulation or the SIADH phase of the triphasic response. At day 9, this is within the window. SIADH causes euvolaemic or mildly hypervolaemic hyponatraemia (concentrated urine despite low serum osmolality). Sodium of 118 mmol/L is severely hyponatraemic and symptomatic (confusion) — treatment is fluid restriction for mild cases; hypertonic saline 1.5-3 mL/kg/hr for symptomatic severe hyponatraemia (target correction ≤8-10 mmol/L per 24 hours to avoid osmotic demyelination syndrome).",
+          "wrong": {
+            "A": "Diabetes insipidus causes hypernatraemia (high serum Na+ with dilute urine), not hyponatraemia. DI typically presents in the first 1-4 days post-operatively.",
+            "B": "Adrenal crisis causes hyponatraemia but is associated with hypotension, hypoglycaemia, and a history of missed steroid doses. Sodium of 118 mmol/L with euvolaemia and the 9-day post-op timing strongly suggests SIADH rather than adrenal crisis. Cortisol should be checked but the primary management is addressing the SIADH.",
+            "D": "While bacterial meningitis is a feared complication of CSF leak (which may cause hyponatraemia indirectly via sick euthyroid syndrome or CNS effects), the most common cause of day 5-14 hyponatraemia post-TSS is SIADH. Fever, meningism, and CSF findings would be needed to diagnose meningitis."
+          },
+          "guideline": "Endocrine Society Post-operative Pituitary Guidelines 2020 — Hyponatraemia post-TSS: SIADH on days 5-14, monitor sodium at days 7-10 post-discharge",
+          "trial": "Zada G et al. Neurosurgery 2007: Post-operative hyponatraemia after TSS — 10-18% incidence; peaks days 5-10; SIADH primary cause; advocates mandatory sodium check at day 7-10 post-discharge",
+          "pearl": "Post-TSS hyponatraemia at days 5-14 = SIADH (triphasic response SIADH phase). Fluid restriction is treatment. Severe (<120 mmol/L) or symptomatic = hypertonic saline. Correct ≤8-10 mmol/L per 24 hours. Check sodium at day 7-10 in ALL post-TSS patients — this complication kills patients who present late."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q13",
+        "stem": "Which of the following is the pathognomonic imaging feature of a Rathke's cleft cyst on MRI that helps distinguish it from craniopharyngioma?",
+        "options": {
+          "A": "Eggshell calcification visible on T2 MRI",
+          "B": "An intracystic nodule (hypointense on T2) within a T2 hyperintense intrasellar cyst",
+          "C": "Bilateral cavernous sinus invasion",
+          "D": "Homogeneous strong gadolinium enhancement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The intracystic nodule is pathognomonic of Rathke's cleft cyst on MRI, seen in approximately 70% of cases. It appears as a hypointense nodule within the otherwise T2 hyperintense fluid content, representing inspissated mucoid material or a mucoid plug. This nodule does NOT enhance with gadolinium (distinguishing it from a solid tumour nodule). RCC is typically intrasellar (sometimes extending to suprasellar), T2 hyperintense, T1 variable, with the intracystic nodule being the key discriminating feature from craniopharyngioma (which has a solid component, ring enhancement, and calcification).",
+          "wrong": {
+            "A": "Eggshell calcification is not a feature of RCC — calcification is characteristic of craniopharyngioma (particularly adamantinomatous type, seen on CT). MRI does not reliably demonstrate calcification.",
+            "C": "Bilateral cavernous sinus invasion is a feature of invasive pituitary macroadenomas, not RCC. RCCs are typically small and confined to the pars intermedia region without invasive behaviour.",
+            "D": "Homogeneous strong enhancement is characteristic of meningiomas and is not a feature of RCC. RCC fluid content does not enhance — only the thin cyst wall may show mild enhancement. Homogeneous enhancement distinguishes meningioma or solid adenoma from RCC."
+          },
+          "guideline": "NCCN CNS Tumors v1.2024 — Sellar mass differential diagnosis; Binning MJ et al. J Neurosurg 2008: Rathke cleft cyst pathology and imaging features",
+          "trial": "Aho CJ et al. J Clin Endocrinol Metab 2005: Rathke cleft cyst series — intracystic nodule present in 68%, T1 variable (mucoid vs serous content), T2 hyperintense, no calcification; treatment drainage without cyst wall excision achieves recurrence rate 10-20% at 5 years",
+          "pearl": "Rathke cleft cyst MRI: intrasellar T2-bright cyst + intracystic non-enhancing hypointense nodule (70%) = pathognomonic. No calcification (distinguishes from craniopharyngioma). T1 variable (mucoid = bright; serous = dark). Treatment: drainage only (no wall excision = DI avoided)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q14",
+        "stem": "Pasireotide (a multi-receptor somatostatin analogue) is used for Cushing disease. What is its most clinically significant adverse effect?",
+        "options": {
+          "A": "Cardiac valve fibrosis",
+          "B": "Hyperglycaemia in 60-80% of patients",
+          "C": "Prolonged QT interval requiring ECG monitoring",
+          "D": "Hypothyroidism requiring levothyroxine supplementation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hyperglycaemia is the most clinically significant adverse effect of pasireotide, occurring in 60-80% of patients in the PASPORT-CUSHINGS trial. This is substantially higher than with other somatostatin analogues (octreotide: 10-20% hyperglycaemia). The mechanism is inhibition of GLP-1 and GIP secretion from intestinal L and K cells (via SST5 receptors), impairing incretin-mediated insulin secretion, combined with reduced insulin secretion from pancreatic beta cells. Many patients require initiation of metformin or GLP-1 receptor agonists. This high rate of hyperglycaemia must be discussed in informed consent before pasireotide.",
+          "wrong": {
+            "A": "Cardiac valve fibrosis is a side effect of cabergoline (dopamine agonists, particularly at high doses) and was associated with historical pergolide use, not somatostatin analogues like pasireotide.",
+            "C": "QT prolongation is a known but uncommon effect of pasireotide, not the most clinically significant adverse effect. Hyperglycaemia (60-80%) is the dominant and most clinically impactful adverse effect requiring routine monitoring and treatment.",
+            "D": "Hypothyroidism is not a recognised significant adverse effect of pasireotide. Thyroid function may change in the context of Cushing disease treatment (cortisol reduction unmasks pre-existing hypothyroidism) but this is not a direct pasireotide effect."
+          },
+          "guideline": "FDA pasireotide prescribing information 2012; Endocrine Society Cushing Disease Guidelines 2015 — Pasireotide adverse effects section",
+          "trial": "Colao A et al. NEJM 2012 (PASPORT-CUSHINGS): 162 pts Cushing disease — pasireotide 600/900 µg SC twice daily vs placebo; UFC normalisation 15-19%; hyperglycaemia in 73% (including new-onset diabetes); established efficacy and hyperglycaemia as primary toxicity",
+          "pearl": "Pasireotide (SST5 agonist) for Cushing disease: UFC normalisation 15-25%, but hyperglycaemia in 60-80% (new DM in many). Mechanism: SST5 inhibits GLP-1/GIP → reduced insulin secretion. Must monitor glucose and often start anti-diabetic therapy. Also used as pre-op pasireotide for acromegaly (superior to octreotide)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q15",
+        "stem": "A 62-year-old man has a 4.5 cm non-functioning pituitary adenoma extending into the right cavernous sinus and reaching the optic chiasm. Vision is intact. He has panhypopituitarism. After trans-sphenoidal surgery, tumour in the cavernous sinus is left in situ (Simpson grade 4 equivalent). What is the recommended adjuvant treatment for the cavernous sinus remnant?",
+        "options": {
+          "A": "Immediate re-operation for complete resection",
+          "B": "Fractionated radiotherapy (45-54 Gy) or stereotactic radiosurgery to the residual",
+          "C": "Cabergoline to shrink the residual",
+          "D": "Observation alone — cavernous sinus NFPAs never progress"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For residual NFPA after surgery (particularly cavernous sinus invasion that cannot be safely resected), fractionated radiotherapy (45-54 Gy in 1.8-2 Gy fractions) or stereotactic radiosurgery (SRS, 12-16 Gy for cavernous sinus disease) is the recommended adjuvant treatment. RT reduces 10-year progression rate from 40-50% (observation) to 10-20%. For cavernous sinus residuals where cranial nerve anatomy prevents aggressive SRS dosing, fractionated FSRT is preferred. NCCN CNS Tumors and European guidelines recommend adjuvant RT for residual macroadenoma after surgery, particularly for cavernous sinus invasion.",
+          "wrong": {
+            "A": "Re-operation for cavernous sinus invasion carries high risk of CN III/IV/V/VI injury and is not recommended when the primary surgery achieved adequate decompression of the optic apparatus. Planned subtotal resection + RT is the correct strategy for cavernous sinus NFPA.",
+            "C": "Cabergoline has no established efficacy for non-functioning pituitary adenomas (which typically express little or no D2 receptor). It is only effective for prolactinomas and some GH-secreting adenomas.",
+            "D": "Cavernous sinus NFPA residuals DO progress — 40-50% at 10 years without treatment. Observation alone is not standard after incomplete resection of an NFPA, particularly in a patient with panhypopituitarism where further growth would cause vision loss."
+          },
+          "guideline": "ESE Pituitary Tumour Guidelines 2023 — Residual NFPA after surgery: adjuvant RT recommended for cavernous sinus invasion; 10-year recurrence 10-20% with RT vs 40-50% without; NCCN CNS Tumors v1.2024",
+          "trial": "Dekkers OM et al. J Clin Endocrinol Metab 2007: Systematic review of NFPA management — RT reduces recurrence from 46% (observation) to 14% at 10 years after incomplete resection; Reddy R et al. Neuro Oncol 2009: SRS for cavernous sinus NFPA — 5-yr control 91%",
+          "pearl": "Residual NFPA after surgery: adjuvant RT (fractionated or SRS) reduces 10-yr recurrence from 40-50% to 10-20%. For cavernous sinus invasion: SRS 12-16 Gy to residual is preferred over fractionated RT if dose constraints to CN are met. RT does not restore lost endocrine function — replace hormones regardless."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q16",
+        "stem": "A 10-year-old girl has recently undergone gross total resection of an adamantinomatous craniopharyngioma. The surgeon achieved hypothalamic involvement (Muller grade 2). Post-operatively she has DI, growth hormone deficiency, central hypothyroidism, central adrenal insufficiency, and severe hyperphagia. Which complication most directly results from ventromedial hypothalamic nucleus damage?",
+        "options": {
+          "A": "Diabetes insipidus",
+          "B": "Central hypothyroidism",
+          "C": "Hypothalamic obesity",
+          "D": "Growth hormone deficiency"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Hypothalamic obesity results specifically from damage to the ventromedial hypothalamic nucleus (VMH), which serves as the satiety centre. VMH destruction causes leptin resistance, impaired autonomic nervous system regulation, and hyperinsulinaemia, resulting in pathological hyperphagia, reduced energy expenditure, and severe obesity that is refractory to dietary intervention. Hypothalamic obesity is the most devastating long-term morbidity of craniopharyngioma and occurs in 40-60% of patients who undergo aggressive hypothalamic manipulation. It is essentially irreversible once established.",
+          "wrong": {
+            "A": "Diabetes insipidus results from damage to the supraoptic and paraventricular nuclei of the hypothalamus and the posterior pituitary/pituitary stalk — not specifically the ventromedial nucleus.",
+            "B": "Central hypothyroidism results from thyrotroph cell damage in the anterior pituitary gland, or from hypothalamic TRH (thyrotropin-releasing hormone) neuron damage — not specifically from the VMH.",
+            "D": "Growth hormone deficiency results from somatotroph cell damage in the anterior pituitary or GHRH neuron damage — not specifically from the VMH satiety centre."
+          },
+          "guideline": "Muller HL et al. Nat Rev Dis Primers 2019 — Craniopharyngioma hypothalamic obesity: VMH damage mechanism; SIOPE Craniopharyngioma Treatment Guidelines 2019",
+          "trial": "Muller HL et al. Eur J Endocrinol 2010 (KRANIOPHARYNGEOM 2007): Hypothalamic involvement grade predicts obesity outcome — grade 2-3 hypothalamic involvement associated with BMI >35 in 40-60% at 5 years; VMH damage most devastating metabolic complication",
+          "pearl": "VMH damage = hypothalamic obesity (hyperphagia, leptin resistance, reduced energy expenditure, hyperinsulinaemia). Irreversible once established. The Muller hypothalamic grade (0-2) is the most important treatment planning factor — grade 2 hypothalamic involvement mandates conservative (hypothalamus-sparing) surgery."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q17",
+        "stem": "The KRANIOPHARYNGEOM 2007 study demonstrated which key finding regarding surgical strategy for craniopharyngioma?",
+        "options": {
+          "A": "Radical surgery achieves superior overall survival compared to limited surgery + radiotherapy",
+          "B": "Hypothalamus-sparing surgery + radiotherapy achieves equivalent 10-year PFS to radical surgery with less hypothalamic dysfunction",
+          "C": "Radiotherapy alone is superior to any surgical intervention for craniopharyngioma",
+          "D": "Complete resection is always achievable and should be the surgical goal regardless of hypothalamic involvement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The KRANIOPHARYNGEOM 2007 prospective study (Muller et al.) demonstrated that hypothalamus-sparing (limited) surgery followed by radiotherapy achieved equivalent 10-year PFS (74% limited surgery+RT vs 59% radical surgery) and substantially less hypothalamic dysfunction (hypothalamic obesity rate lower with limited approach). This trial established the evidence base for the contemporary standard: hypothalamus-sparing surgery + adjuvant radiotherapy for craniopharyngiomas with hypothalamic involvement (Muller grade 2-3), trading completeness of resection for preservation of hypothalamic function.",
+          "wrong": {
+            "A": "The KRANIOPHARYNGEOM 2007 study showed the opposite: radical surgery did NOT achieve superior PFS compared to limited surgery + RT (59% vs 74% at 10 years in favour of limited + RT), while causing significantly more hypothalamic morbidity.",
+            "C": "Radiotherapy alone is not standard for craniopharyngioma — surgery is required for tumour reduction, CSF pathway decompression, and histological diagnosis. RT is the essential adjuvant, not a monotherapy.",
+            "D": "Complete resection regardless of hypothalamic involvement is the old philosophy that caused epidemic hypothalamic obesity in craniopharyngioma survivors. Modern guidelines explicitly recommend AGAINST radical resection when it risks hypothalamic damage."
+          },
+          "guideline": "SIOPE Craniopharyngioma Treatment Guidelines 2019 — Based on KRANIOPHARYNGEOM 2007: hypothalamus-sparing surgery + RT recommended for grade 2-3 hypothalamic involvement",
+          "trial": "Muller HL et al. Eur J Endocrinol 2010 (KRANIOPHARYNGEOM 2007): German prospective registry — limited surgery+RT: 10-yr PFS 74%, hypothalamic obesity 26%; radical surgery: 10-yr PFS 59%, hypothalamic obesity 52%; established limited surgery+RT as superior strategy",
+          "pearl": "KRANIOPHARYNGEOM 2007: limited surgery + RT ≥ radical surgery in 10-yr PFS (74% vs 59%), with LESS hypothalamic obesity. This reversed the traditional radical resection dogma. Muller grade 2-3 hypothalamic involvement: always hypothalamus-sparing approach."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q18",
+        "stem": "A 35-year-old woman with a 1.5 cm microadenoma undergoes transsphenoidal surgery for confirmed Cushing disease. Post-operative day 1 cortisol is 280 nmol/L. How should this result be interpreted?",
+        "options": {
+          "A": "Surgical remission confirmed — cortisol has dropped below the 50 nmol/L threshold",
+          "B": "Surgical failure — cortisol is insufficiently suppressed; plan re-operation or medical therapy",
+          "C": "Cortisol is elevated from surgical stress — reassess at 6 weeks",
+          "D": "Normal post-operative finding — cortisol of 280 nmol/L is always expected after any surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-operative cortisol of 280 nmol/L on day 1 does NOT meet the remission criterion for Cushing disease. Surgical remission requires morning cortisol <50 nmol/L (or <1.8 µg/dL) within the first 1-7 post-operative days. Cortisol of 280 nmol/L indicates persistent ACTH secretion — the ACTH-secreting tumour cells were not fully removed. This represents surgical failure, requiring consideration of: re-operation if a discrete residual is identified, stereotactic radiosurgery, medical therapy (pasireotide, metyrapone, osilodrostat), or bilateral adrenalectomy.",
+          "wrong": {
+            "A": "280 nmol/L is well above the 50 nmol/L remission threshold. This statement incorrectly interprets the result as a drop when in fact it represents persistent cortisol excess from continued ACTH production.",
+            "C": "While surgical stress elevates cortisol in normal patients (cortisol response to major surgery typically peaks at 600-800 nmol/L), in a patient with Cushing disease who achieves surgical cure, the cortisol DROPS dramatically to <50 nmol/L despite surgical stress, because the ACTH-secreting tumour is removed and chronic cortisol excess suppressed normal corticotrophs. A post-op cortisol of 280 nmol/L in this context indicates persistent disease.",
+            "D": "280 nmol/L is NOT a normal post-operative finding after Cushing disease surgery — it indicates that the adenoma was not removed. Normal pituitary surgery patients without Cushing disease would have stress-induced cortisol >400-600 nmol/L acutely."
+          },
+          "guideline": "Endocrine Society Cushing Disease Treatment Guidelines 2015 — Post-op cortisol <50 nmol/L = remission; >140 nmol/L = persistent disease; intermediate (50-140 nmol/L) = uncertain, monitor",
+          "trial": "Hamrahian AH et al. J Clin Endocrinol Metab 2010: Post-operative cortisol nadir validation — cortisol >140 nmol/L on day 1-7 = persistent disease with 95% positive predictive value; established cortisol <50 nmol/L as the optimal remission cut-off",
+          "pearl": "Post-op cortisol after Cushing disease surgery interpretation: <50 nmol/L = remission (requires hydrocortisone replacement). 50-140 nmol/L = uncertain, monitor. >140 nmol/L = persistent disease. Cortisol of 280 nmol/L = surgical failure. Dramatic post-op cortisol drop is the proof of cure."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q19",
+        "stem": "A 48-year-old woman is found to have a 12 mm pituitary incidentaloma on MRI done for headache evaluation. Hormonal evaluation: PRL 600 mU/L (normal range 60-500 mU/L), all other pituitary axes normal. She is post-menopausal. Visual fields are normal. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate cabergoline — this is a prolactinoma",
+          "B": "Transsphenoidal surgery — any pituitary macroadenoma requires surgery",
+          "C": "Repeat MRI in 6 months and repeat hormonal evaluation; the mild PRL elevation likely represents stalk effect from a non-functioning adenoma",
+          "D": "Radiotherapy to prevent growth of this macroadenoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "PRL of 600 mU/L with a 12 mm adenoma represents mild hyperprolactinaemia disproportionately low for a prolactinoma of this size (which would typically produce PRL >2000-3000 mU/L for a 12 mm lesion). This suggests a non-functioning pituitary adenoma with stalk effect — compression of the pituitary stalk reduces dopamine delivery, disinhibiting lactotrophs. In a post-menopausal asymptomatic woman with normal visual fields and all other axes normal, observation with MRI in 6 months is appropriate. If MRI shows no growth, repeat annually for 3-5 years. If PRL is truly from a prolactinoma, cabergoline would normalise it and reduce tumour size.",
+          "wrong": {
+            "A": "Starting cabergoline without distinguishing stalk-effect hyperprolactinaemia from a true microprolactinoma is incorrect. PRL 600 mU/L for a 12 mm lesion is low for prolactinoma. Cabergoline for stalk effect may mask NFPA growth. The distinction requires observation (or macroprolactin testing).",
+            "B": "Not every pituitary macroadenoma requires immediate surgery. Per EANS and Endocrine Society guidelines, surgery is indicated for symptomatic macroadenomas (visual compromise, significant hypopituitarism, rapid growth). An asymptomatic 12 mm adenoma with intact vision can be observed.",
+            "D": "Radiotherapy for an asymptomatic incidental macroadenoma with normal vision and stable appearance is not indicated. RT is reserved for growing or symptomatic residual after surgery."
+          },
+          "guideline": "ESE Pituitary Incidentaloma Guidelines 2023 — Asymptomatic macroadenoma without visual compromise: active surveillance with MRI at 6 months, then annually; ESE stalk effect PRL interpretation",
+          "trial": "Casanueva FF et al. Eur J Endocrinol 2006: Stalk effect: PRL <200 mU/L rarely from stalk compression; PRL 200-3000 mU/L: indeterminate (stalk effect or microprolactinoma); PRL >5000 mU/L: true prolactinoma. Distinguishing factor: tumour size relative to PRL level",
+          "pearl": "Stalk effect PRL: mildly elevated (200-3000 mU/L) disproportionate to tumour size suggests NFPA with stalk compression, not prolactinoma. True prolactinoma: PRL usually >3000-5000 mU/L for a 1.2 cm mass. Observation vs cabergoline trial both reasonable — macroprolactin testing excludes artefactual elevation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q20",
+        "stem": "A 55-year-old man undergoes uncomplicated transsphenoidal surgery for a 2.5 cm ACTH-secreting adenoma (Cushing disease). On post-operative day 3 he notices clear watery discharge from his right nostril. Beta-2 transferrin test returns positive. What is the correct management?",
+        "options": {
+          "A": "Immediate re-operation for surgical closure",
+          "B": "Empirical antibiotics and observation",
+          "C": "Head elevation, fluid restriction, and lumbar drain; surgical repair if not sealed within 48-72 hours",
+          "D": "MRI scan to assess for pituitary haematoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Post-operative CSF leak (rhinorrhoea) occurs in 1-5% of standard TSS cases. Management protocol: (1) immediate lumbar drain (LP drainage at 10-15 mL/hour for 5 days) to reduce CSF pressure and allow spontaneous dural healing, combined with (2) head elevation (30 degrees) and restriction of Valsalva manoeuvres (coughing, nose blowing, straining). If the leak does not seal within 48-72 hours of lumbar drainage, surgical re-exploration with fat graft reconstruction and/or pedicled nasoseptal flap is required. Empirical antibiotics are controversial (no level I evidence for prophylaxis, but often given given meningitis risk). Beta-2 transferrin positive is the gold standard confirmatory test for CSF.",
+          "wrong": {
+            "A": "Immediate re-operation on day 3 for CSF leak is not the first step. Conservative management with lumbar drainage successfully closes 70-80% of post-operative CSF leaks without re-surgery. Re-operation is reserved for leaks that fail lumbar drainage after 48-72 hours.",
+            "B": "Empirical antibiotics alone without CSF diversion is insufficient. Untreated CSF leak risks ascending meningitis. Lumbar drainage is the key intervention for reducing CSF pressure and allowing dural healing.",
+            "D": "MRI to assess for haematoma is appropriate for visual deterioration, new neurological deficit, or haemodynamic instability — not primarily for CSF rhinorrhoea. The beta-2 transferrin positive result already confirms CSF leak; the priority is management, not additional imaging."
+          },
+          "guideline": "EANS Transsphenoidal Surgery Guidelines 2019 — Post-operative CSF leak: lumbar drainage first; surgical repair if not sealed within 48-72 hours; nasoseptal flap for high-flow or persistent leaks",
+          "trial": "Mehta GU et al. J Neurosurg 2016: TSS CSF leak management — lumbar drainage successful in 78% without re-operation; surgical repair required in 22%; nasoseptal flap associated with lower recurrent leak rate vs fat graft alone",
+          "pearl": "Post-TSS CSF rhinorrhoea: confirm with beta-2 transferrin → lumbar drain (10-15 mL/hr) + head elevation + no Valsalva → 48-72 hours observation → surgical repair if not healed. Nasoseptal (Hadad) flap for re-operation or high-flow leaks. Meningitis risk from untreated CSF leak mandates prompt management."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

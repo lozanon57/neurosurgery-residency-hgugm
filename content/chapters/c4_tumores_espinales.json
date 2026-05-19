@@ -1,0 +1,682 @@
+{
+  "id": "C4",
+  "title": "Spinal Tumours",
+  "subtitle": "Block C — Spinal Neurosurgery: Intradural and Extradural Neoplasms, Surgical Approach, Oncological Management",
+  "block": "C",
+  "block_name": "Spinal Neurosurgery",
+  "level": "R3-4",
+  "reading_time_min": 45,
+  "guidelines_version": "NOMS Framework 2016 · AOSpine Tumour Guidelines 2020 · NCCN CNS Cancers 2024",
+  "textbook_refs": [
+    "Sciubba DM et al. Spine Tumors: A Comprehensive Approach (2022)",
+    "Laufer I et al. The NOMS Framework: Approach to the Treatment of Spinal Metastatic Tumors. Oncologist 2013;18:744-751",
+    "Bilsky MH et al. Reliability analysis of the epidural spinal cord compression scale. J Neurosurg Spine 2010;13:324-328",
+    "Fisher CG et al. A Novel Classification System for Spinal Instability in Neoplastic Disease. Spine 2010;35:E1221-1229 (SINS Score)"
+  ],
+  "learning_objectives": [
+    "Classify spinal tumours by anatomical compartment (extradural, intradural extramedullary, intramedullary) and apply differential diagnoses for each",
+    "Apply the NOMS (Neurological-Oncological-Mechanical-Systemic) framework to guide treatment decisions for spinal metastases",
+    "Use the SINS (Spinal Instability Neoplastic Score) to assess spinal instability and surgical indications",
+    "Grade epidural spinal cord compression (ESCC) using the Bilsky classification and apply appropriate treatment thresholds",
+    "Identify the most common intradural extramedullary tumours (meningioma, schwannoma/neurofibroma, myxopapillary ependymoma) and their clinical-radiological features",
+    "Describe en bloc resection versus intralesional surgery concepts and their role in primary versus metastatic spinal tumours"
+  ],
+  "sections": [
+    {
+      "id": "C4-S1",
+      "title": "Classification and Differential Diagnosis by Compartment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Spinal tumours are most usefully classified by their relationship to the dura and spinal cord, which determines the clinical presentation, differential diagnosis, imaging appearance, and surgical approach. The three anatomical compartments are: **extradural** (outside the dura, within the bony spinal column or epidural space), **intradural extramedullary (IDEM)** (inside the dura but external to the spinal cord, within the CSF space), and **intramedullary** (within the substance of the spinal cord itself).\n\n**Extradural tumours** account for approximately 55% of all spinal tumours and are overwhelmingly metastatic in adults. The primary sources, in order of frequency, are: lung, breast, prostate, renal cell carcinoma, and thyroid. Multiple myeloma and lymphoma also present as extradural masses. Primary bony tumours (osteosarcoma, Ewing sarcoma in young patients; chordoma — classically affecting the sacrococcygeal junction and C2; giant cell tumour; aneurysmal bone cyst) account for a smaller fraction. The imaging hallmark of extradural disease is bone involvement on CT with adjacent soft tissue mass, often accompanied by vertebral body collapse or pedicle erosion (the 'winking owl' sign on AP radiograph — unilateral pedicle absence suggesting metastatic destruction).\n\n**Intradural extramedullary tumours** account for approximately 40% and are predominantly benign. Meningiomas (most common IDEM in adults, especially thoracic spine in middle-aged women) appear as dural-based homogeneously enhancing masses displacing the cord. Schwannomas (originating from dorsal sensory nerve roots, may extend through the foramen as a 'dumbbell' or 'hourglass' tumour on axial MRI — classically described as extending through an enlarged neural foramen) and neurofibromas (associated with neurofibromatosis type 1, NF1; multiple lesions pathognomonic) are the other major IDEM entities. Myxopapillary ependymoma, the most common primary spinal cord tumour overall, arises from the conus medullaris or filum terminale and presents as an IDEM mass at the cauda equina level.\n\n**Intramedullary tumours** (5%) arise within the cord substance. Ependymomas are the most common intramedullary tumour in adults; astrocytomas are the most common in children. Haemangioblastomas (associated with VHL syndrome when multiple) appear as cystic lesions with an intensely enhancing mural nodule. Intramedullary metastases are uncommon (typically from lung, breast) but carry a dismal prognosis."
+        },
+        {
+          "type": "table",
+          "title": "Spinal Tumour Classification by Compartment",
+          "headers": ["Compartment", "Frequency", "Common Tumours", "Key Imaging Feature"],
+          "rows": [
+            ["Extradural", "~55%", "Metastases (lung, breast, prostate, renal, thyroid), MM, lymphoma; primary: chordoma (C2/sacrum), osteosarcoma, Ewing, GCT, ABC", "Bone destruction, pedicle erosion, epidural soft tissue mass; vertebral collapse"],
+            ["Intradural extramedullary (IDEM)", "~40%", "Meningioma (adult, thoracic, women); schwannoma/neurofibroma (dorsal root, NF1/NF2 association); myxopapillary ependymoma (conus/filum); nerve sheath tumours", "Cord displaced, intradural CSF-surrounded mass; dumbbell through foramen (schwannoma); dural tail (meningioma)"],
+            ["Intramedullary", "~5%", "Ependymoma (most common adult); astrocytoma (most common child); haemangioblastoma (VHL — cyst + enhancing nodule); intramedullary metastases", "Cord expansion, central T2 hyperintensity, syrinx; cap sign (haemosiderin) in ependymoma"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Cap Sign in Intramedullary Ependymoma",
+          "content": "The 'cap sign' on sagittal T2 MRI — haemosiderin caps (T2 hypointense) at the superior and inferior poles of an intramedullary mass — is highly specific for intramedullary ependymoma. It results from repeated microhaemorrhages at the tumour poles. Astrocytomas and haemangioblastomas do not typically show bilateral polar haemosiderin caps, making this a useful discriminating feature."
+        }
+      ]
+    },
+    {
+      "id": "C4-S2",
+      "title": "Spinal Metastases: NOMS Framework and ESCC Grading",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Spinal metastases represent the most common spinal tumour overall, affecting approximately 40% of all cancer patients during their disease course, and are the most common cause of epidural spinal cord compression (ESCC). The majority involve the vertebral body (haematogenous spread via Batson's plexus — the valveless epidural venous network), with posterior extension causing ESCC. Clinical manifestations range from localised back pain (earliest symptom, weeks to months before neurological compromise) through radiculopathy to progressive myelopathy and paraplegia.\n\nThe **NOMS (Neurological-Oncological-Mechanical-Systemic) Framework** (Laufer et al. 2013, Memorial Sloan Kettering) provides an evidence-based approach to spinal metastasis treatment decisions. The four domains are: **Neurological** — presence and severity of ESCC or myelopathy; **Oncological** — tumour histology and radiosensitivity; **Mechanical instability** — SINS score; **Systemic disease** — overall disease burden, performance status, prognosis.\n\nThe **Bilsky ESCC scale** grades epidural cord compression on axial T2 MRI: **Grade 0** = epidural involvement only (no compression); **Grade 1a** = epidural mass deforming thecal sac but no cord contact; **Grade 1b** = epidural mass contacting cord but no cord deformation; **Grade 1c** = cord deformation present; **Grade 2** = cord compression with visible CSF around cord; **Grade 3** = cord compression with no CSF visible and often cord signal change. Grades 0-1b may be treated with radiation alone in radiologically sensitive tumours; Grade 1c-3 ('high-grade ESCC') typically requires surgery followed by stereotactic body radiation therapy (SBRT) — the **separation surgery** concept.\n\nSeparation surgery — a limited decompressive procedure to create ≥2 mm of circumferential separation between tumour and the spinal cord — allows subsequent high-dose conformal SBRT (typically 24-27 Gy in 2-3 fractions) to achieve durable local control. This strategy avoids complete en bloc resection in a patient population with limited life expectancy, minimising operative morbidity while maximising neural decompression and enabling high-dose radiation to previously compressed cord regions."
+        },
+        {
+          "type": "table",
+          "title": "Bilsky ESCC Classification (Axial T2 MRI)",
+          "headers": ["Grade", "Description", "Treatment Implication"],
+          "rows": [
+            ["0", "Epidural tumour, no thecal sac contact", "Radiation alone (cEBRT or SBRT)"],
+            ["1a", "Epidural mass displaces thecal sac; no cord contact", "Radiation alone if radiosensitive"],
+            ["1b", "Epidural mass contacts cord; no cord deformation", "Radiation alone if radiosensitive; consider surgery if radioresiistant"],
+            ["1c", "Cord deformation present; CSF still visible", "Surgery (separation surgery) + SBRT for radioresistant tumours"],
+            ["2", "Cord compressed; CSF visible around cord", "Surgery (separation surgery) + SBRT"],
+            ["3", "Cord compressed; no CSF visible; often signal change", "Emergency surgery (separation) + SBRT; steroids urgently"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Separation Surgery for Radioresistant Metastases",
+          "content": "A 58-year-old man with metastatic renal cell carcinoma (radioresistant) develops T5 ESCC Grade 2 with progressive leg weakness over 2 weeks. MRI shows tumour compressing the thoracic cord with visible CSF. Management: (1) urgent dexamethasone 10 mg IV bolus + 4 mg every 6 hours to reduce cord oedema; (2) emergency separation surgery (posterior decompressive laminectomy + posterior instrumented stabilisation with pedicle screws above and below); (3) post-operative SBRT to the tumour bed (24 Gy/2 fractions) within 2-4 weeks of wound healing. This combined strategy achieves >80% local control at 12 months versus <30% with conventional radiation alone for radioresistant histology."
+        }
+      ]
+    },
+    {
+      "id": "C4-S3",
+      "title": "SINS Score: Spinal Instability Neoplastic Score",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **SINS (Spinal Instability Neoplastic Score)** was developed by Fisher et al. (2010) through an AOSpine multicentre consensus process and validated prospectively to provide an evidence-based, reproducible assessment of spinal instability in neoplastic disease. Instability in this context is defined as 'loss of spinal integrity as a result of a neoplastic process associated with movement-related pain, symptomatic or progressive deformity, or neural compromise under physiological loads.' The SINS score guides the decision to involve a spinal surgeon — scores 7-18 warrant surgical consultation, while scores 0-6 may be managed non-operatively.\n\nThe SINS comprises six domains scored as follows: (1) **Location** — junctional (C0-C2, C7-T2, T11-L1, L5-S1) = 3; mobile (C3-C6, L2-L4) = 2; semi-rigid (T3-T10) = 1; rigid (S2-S5) = 0; (2) **Pain** — mechanical (worse with movement, better at rest) = 3; occasional non-mechanical = 1; no pain = 0; (3) **Bone lesion quality** — lytic = 2; mixed = 1; blastic = 0; (4) **Radiographic alignment** — subluxation/translation = 4; de novo deformity = 2; normal = 0; (5) **Vertebral body collapse** — >50% collapse = 3; <50% collapse = 2; no collapse with >50% body involvement = 1; no collapse = 0; (6) **Posterolateral element involvement** — bilateral = 3; unilateral = 1; none = 0.\n\nTotal score interpretation: **0-6 = stable** (unlikely to require surgery for instability); **7-12 = indeterminate instability** (surgical consultation recommended); **13-18 = unstable** (surgical stabilisation recommended). The SINS score does not address neurological compromise (handled by ESCC/Bilsky scale) — it specifically quantifies mechanical stability. Junctional regions score highest because they are high-motion zones where loss of structural integrity most readily leads to deformity and cord/nerve root injury."
+        },
+        {
+          "type": "table",
+          "title": "SINS Score — Domains and Point Allocation",
+          "headers": ["Domain", "Finding", "Points"],
+          "rows": [
+            ["Location", "Junctional (C0-C2, C7-T2, T11-L1, L5-S1)", "3"],
+            ["", "Mobile (C3-C6, L2-L4)", "2"],
+            ["", "Semi-rigid (T3-T10)", "1"],
+            ["", "Rigid (S2-S5)", "0"],
+            ["Pain", "Mechanical (movement-related)", "3"],
+            ["", "Occasional non-mechanical", "1"],
+            ["", "None", "0"],
+            ["Bone lesion", "Lytic", "2"],
+            ["", "Mixed lytic-blastic", "1"],
+            ["", "Blastic", "0"],
+            ["Alignment", "Subluxation / translation", "4"],
+            ["", "De novo deformity (kyphosis/scoliosis)", "2"],
+            ["", "Normal alignment", "0"],
+            ["VB collapse", ">50% collapse", "3"],
+            ["", "<50% collapse", "2"],
+            ["", "No collapse but >50% body involved", "1"],
+            ["", "No collapse", "0"],
+            ["Posterolateral involvement", "Bilateral", "3"],
+            ["", "Unilateral", "1"],
+            ["", "None", "0"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "SINS Interpretation — Surgical Consultation Thresholds",
+          "content": "SINS 0-6 = stable, radiation/medical management appropriate. SINS 7-12 = indeterminate, surgical consultation recommended. SINS 13-18 = unstable, surgical stabilisation recommended before or concurrent with radiation. Lytic lesions (SINS 2 for bone quality) at junctional segments (SINS 3 for location) with mechanical pain (SINS 3) quickly accumulate points — even without collapse or posterolateral involvement, a lytic C7-T2 lesion with mechanical pain scores 8 (SINS 3+3+2) triggering surgical consultation."
+        }
+      ]
+    },
+    {
+      "id": "C4-S4",
+      "title": "Intradural Extramedullary Tumours: Meningioma and Schwannoma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Spinal meningiomas** are the most common intradural extramedullary tumour in adults. They occur predominantly in the thoracic spine (80%), followed by the cervical spine, and affect women more than men (3:1). Peak incidence is in the fifth to seventh decades. On MRI, they appear as homogeneously enhancing, dural-based masses that displace the spinal cord to one side. The **dural tail sign** (enhancement extending along the dura from the tumour margin) is present in 60-70% and suggests dural origin. Most are WHO Grade 1 (meningothelial, fibroblastic, or transitional histology). Calcified meningiomas appear hyperdense on CT.\n\nSurgical treatment is the standard of care for symptomatic spinal meningiomas. The approach is typically posterior (laminectomy or hemilaminectomy), with intradural exploration and microsurgical resection. The **Simpson grading** (originally described for cranial meningiomas) applies to spinal lesions: Grade I = complete resection including dural attachment (coagulation/excision); Grade II = complete resection with dural coagulation; Grade III = complete resection without dural treatment; Grade IV = incomplete subtotal resection. The dural attachment must be addressed (coagulation or excision) — failure to do so significantly increases recurrence risk. Recurrence rate at 10 years: Grade I ~3%, Grade II ~8%, Grade III ~12%.\n\n**Spinal schwannomas** (also called neurilemmomas) arise from dorsal root Schwann cells. They are the most common primary spinal nerve sheath tumour overall. They may be intradural, extradural, or both (dumbbell or hourglass configuration extending through the neural foramen). On MRI: T2 hyperintense, homogeneously enhancing, often with a cystic or haemorrhagic component. The key radiological sign is **neural foramen enlargement** on axial MRI or CT, with scalloping of the adjacent vertebral body or pedicle. They are associated with NF2 (bilateral acoustic neuromas + multiple spinal schwannomas) — NF2 is caused by loss-of-function mutations in the merlin tumour suppressor on chromosome 22q12.\n\nSurgical resection of schwannomas aims for complete removal with preservation of the nerve root of origin. Since they arise from dorsal (sensory) roots, division of the affected root fascicles (when the tumour cannot be dissected free) causes sensory deficit only, which is generally acceptable. The ventral (motor) root lies anterior and can usually be preserved. For dumbbell tumours, a combined posterior-retroperitoneal or posterior-thoracotomy approach may be needed to address both intradural and paraspinal components."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "NF2 vs NF1 — Spinal Manifestations",
+          "content": "NF1 (chromosome 17q11, neurofibromin): cutaneous neurofibromas, café-au-lait spots, Lisch nodules, plexiform neurofibromas — spinal manifestations include multiple neurofibromas (not schwannomas) and dural ectasia. NF2 (chromosome 22q12, merlin): bilateral vestibular schwannomas (pathognomonic), multiple spinal schwannomas, meningiomas, ependymomas. Key distinction: NF1 = neurofibromas; NF2 = schwannomas + meningiomas. Multiple spinal schwannomas without bilateral acoustic neuromas should prompt schwannomatosis (SMARCB1 or LZTR1 mutations) workup."
+        }
+      ]
+    },
+    {
+      "id": "C4-S5",
+      "title": "Intramedullary Tumours: Ependymoma and Astrocytoma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Spinal ependymomas** are the most common intramedullary spinal cord tumour in adults (accounting for 60-70% of intramedullary tumours in adults). They arise from ependymal cells lining the central canal and have a predilection for the cervical spinal cord and conus medullaris. Histologically, most are WHO Grade 2 (cellular, papillary, clear-cell, or tanycytic variants); WHO Grade 3 (anaplastic ependymoma) is rare in the spine. The **myxopapillary ependymoma** (formerly WHO Grade 1, now WHO Grade 2 in the 2021 classification) arises specifically from the filum terminale — it presents as an IDEM mass at the conus/cauda equina level and can cause a gelatinous mucinous deposition on the conus surface (myxopapillary secretions).\n\nMRI features of intramedullary ependymoma: centrally located in the cord (arising from central canal); homogeneous enhancement; polar haemosiderin caps (the 'cap sign' — T2 hypointense at tumour poles from microhaemorrhage); associated syringomyelia in 45-65%; T2 hypointense pseudocapsule in ~50%, facilitating microsurgical dissection along the pseudo-cleavage plane. Surgery aims for gross total resection (GTR) using the pseudocapsule as a dissection plane — GTR achieves >90% progression-free survival at 10 years for WHO Grade 2 cervical ependymomas. Post-operative radiation is reserved for WHO Grade 3, incomplete resection with residual enhancing tumour, or recurrence. **NF2-associated ependymomas** behave more aggressively.\n\n**Spinal astrocytomas** are the most common intramedullary tumour in children and adolescents. They tend to be diffusely infiltrative (unlike ependymomas, which are more circumscribed), making GTR impossible in the majority of cases. They most commonly arise in the thoracic cord. WHO Grade 2 astrocytomas are managed with subtotal resection for tissue diagnosis plus post-operative observation or radiation; WHO Grade 3-4 (anaplastic, GBM — rare) require radiation and chemotherapy. The goal of surgery is maximum safe resection to establish diagnosis and relieve cord compression, not radical excision. Intraoperative neurophysiological monitoring (IONM — MEP and SSEP) is mandatory for intramedullary tumour surgery.\n\n**Haemangioblastomas** account for approximately 2-5% of intramedullary tumours. They are highly vascular and occur sporadically or as part of **VHL syndrome** (von Hippel-Lindau, VHL gene on chromosome 3p25). The classic MRI appearance is a cystic lesion with an intensely enhancing mural nodule. When multiple, VHL is virtually certain. Pre-operative embolisation reduces intraoperative bleeding. The tumour is removed intact (no incision into the nodule) — the cyst wall does not need resection."
+        },
+        {
+          "type": "table",
+          "title": "Intramedullary Tumour Comparison",
+          "headers": ["Feature", "Ependymoma", "Astrocytoma", "Haemangioblastoma"],
+          "rows": [
+            ["Most common in", "Adults", "Children/adolescents", "Adults (any age)"],
+            ["Location predilection", "Cervical cord, conus/filum", "Thoracic cord", "Any level; multiple in VHL"],
+            ["MRI enhancement", "Homogeneous, central", "Heterogeneous, peripheral", "Intense nodule; cyst wall thin"],
+            ["Pseudocapsule", "Yes (50%) — key for GTR", "No — infiltrative", "Yes — remove intact"],
+            ["Haemosiderin caps", "Yes — pathognomonic", "No", "Rare"],
+            ["Syrinx association", "45-65%", "40-50%", "Common with cyst"],
+            ["Surgical resectability", "GTR feasible (60-80%)", "STR — GTR rarely safe", "GTR of nodule (leave cyst wall)"],
+            ["Genetic association", "NF2 (multiple)", "NF1 (rare), sporadic", "VHL (multiple = diagnostic"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Intraoperative Neurophysiological Monitoring",
+          "content": "All intramedullary tumour surgeries require continuous intraoperative neurophysiological monitoring (IONM): motor evoked potentials (MEP) from transcranial electrical stimulation monitor corticospinal tract integrity; somatosensory evoked potentials (SSEP) from peripheral nerve stimulation monitor dorsal column integrity. A >50% amplitude reduction or >10% latency increase in MEP is a warning threshold requiring immediate action (pause dissection, change retraction, consider stopping). D-wave (direct spinal cord evoked potential) from epidural electrode provides a surgeon-independent monitor of corticospinal tract continuity — loss of D-wave amplitude >50% mandates cessation of resection."
+        }
+      ]
+    },
+    {
+      "id": "C4-S6",
+      "title": "Chordoma and Primary Bone Tumours of the Spine",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Chordomas** arise from notochordal remnants and are the most common primary malignant bone tumour of the spine. Their classic anatomical sites are the sacrococcygeal region (50-60%), followed by the clivus/spheno-occipital region (30-35%), and the mobile spine (C2 being the most common mobile spine location). They are locally aggressive, slow-growing, and radiologically appear as lytic, expansile midline sacral or clival masses with an anterior presacral soft tissue component. On MRI, they show heterogeneous T2 hyperintensity (reflecting mucin content) with a lobulated architecture and moderate enhancement. Histologically: physaliferous (vacuolated) cells in a myxoid stroma; immunohistochemistry positive for brachyury (T-box transcription factor) and cytokeratin/EMA — brachyury is the most specific marker.\n\nThe gold-standard treatment for chordoma is **en bloc resection with negative surgical margins (R0)**, ideally achieving a wide or marginal Enneking margin. Local recurrence following intralesional (piecemeal) resection approaches 100% within 5-10 years due to local seeding of physaliferous cells. **Proton beam therapy (PBT)** is the preferred adjuvant radiation modality given the chordoma's proximity to radiosensitive structures (spinal cord, brain stem) and relative radioresistance to conventional photon radiation — proton Bragg peak enables precise dose delivery of 70-80 Gy(RBE) to the tumour bed with minimal exit dose. Carbon ion therapy achieves similar results with higher biological effectiveness. Despite aggressive surgery, 5-year overall survival is approximately 65-70% for sacral chordomas; local recurrence remains the primary oncological challenge.\n\n**Giant Cell Tumour (GCT)** of bone is a benign-aggressive lesion typically affecting the sacrum (most common spinal location), appearing as a lytic, expansile lesion with cortical thinning. Treatment involves curettage with adjuvant (cement, phenol, or liquid nitrogen) for accessible lesions, or surgical resection; **denosumab** (anti-RANKL monoclonal antibody) is used neoadjuvantly to reduce vascularity and allow more complete surgical resection, or as primary treatment for unresectable lesions. **Aneurysmal Bone Cyst (ABC)** is a benign vascular lesion of bone showing fluid-fluid levels on MRI (sedimented blood products) — pathognomonic when present. ABCs can arise de novo or secondary to other lesions (GCT, osteoblastoma). Treatment: surgical curettage and bone grafting; pre-operative embolisation reduces bleeding."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Chordoma Board Pearl — Brachyury Marker and En Bloc Principle",
+          "content": "Brachyury (T-box transcription factor) is the most specific IHC marker for chordoma — more specific than cytokeratin or EMA. En bloc R0 resection is the only potentially curative intervention; piecemeal intralesional resection universally leads to recurrence. Proton beam therapy (70-80 Gy) is the adjuvant treatment of choice. Sacrococcygeal chordoma with sacral nerve root involvement: S1-S2 preservation maintains bladder function; sacrifice of bilateral S2 and below causes bowel/bladder incontinence."
+        }
+      ]
+    },
+    {
+      "id": "C4-S7",
+      "title": "Surgical Approaches, Reconstruction, and Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The choice of surgical approach for spinal tumours depends on tumour location (anterior vs posterior), compartment (extradural vs intradural), extent (uni- vs multilevel), and reconstruction requirements. **Posterior approaches** (laminectomy, hemilaminectomy, laminotomy) provide access to the posterior and posterolateral epidural space, to intradural compartments (for IDEM and intramedullary tumours), and allow placement of posterior instrumentation (pedicle screws, rods) for stabilisation. The posterior approach is used for the majority of spinal tumour operations.\n\n**Posterolateral approaches** — transpedicular, costotransversectomy (removing the rib head and transverse process), lateral extracavitary approach (LECA) — provide more lateral and anterior access to the vertebral body without entering the thoracic cavity. They allow anterior column reconstruction (cage placement) combined with posterior fixation in a single stage. This combined posterior-anterolateral approach ('360° posterior') is standard for thoracic metastatic disease requiring both decompression and reconstruction.\n\n**Anterior approaches** are used when the primary pathology is anterior and posterior access is insufficient. Anterior cervical discectomy and corpectomy (ACDF/ACCF) for cervical extradural tumours; anterior thoracotomy for thoracic anterior column reconstruction; anterior retroperitoneal approach for lumbar corpectomy. A major disadvantage of standalone anterior surgery for metastatic disease is inability to place posterior pedicle screw fixation — hybrid procedures or staged posterior fixation are often required.\n\nFor high-grade ESCC requiring separation surgery, the **posterior transpedicular approach with separation** is standard at most centres: total or near-total tumour removal from the epidural space via transpedicular or costotransversectomy exposure, with the key goal of creating ≥2 mm of circumferential clear space between residual tumour and the spinal cord, followed by posterior pedicle screw-rod fixation. This achieves neurological improvement in 72% of patients with pre-operative deficits (Bilsky 2013) and allows subsequent high-dose SBRT.\n\n**Vertebral body reconstruction** after corpectomy uses expandable titanium cages filled with autograft or allograft bone, locked in the corpectomy defect and supplemented with posterior pedicle screw instrumentation. Polymethylmethacrylate (PMMA/bone cement) is used in metastatic cases where oncological cure is not the goal and rapid mechanical stability is needed — cement does not integrate biologically but provides immediate support. For primary tumours requiring en bloc resection, biological cage reconstruction (autograft fibular strut, cage + allograft) is preferred as the goal is long-term reconstruction."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Approach Selection for Spinal Tumours",
+          "headers": ["Tumour Location/Type", "Preferred Approach", "Reconstruction", "Key Consideration"],
+          "rows": [
+            ["Thoracic ESCC (extradural metastasis)", "Posterior transpedicular / costotransversectomy separation surgery", "Posterior pedicle screw-rod + cage if corpectomy needed", "SBRT within 4 weeks post-op"],
+            ["Cervical extradural tumour", "Anterior corpectomy ± posterior fixation, or posterior alone for posterior lesions", "Expandable cage + plate (anterior) or pedicle screws (posterior)", "RLN, vertebral artery risk anterior"],
+            ["Thoracic/lumbar IDEM (meningioma, schwannoma)", "Posterior laminectomy/hemilaminectomy, intradural", "No reconstruction usually needed", "Dural closure watertight; avoid destabilisation"],
+            ["Intramedullary (ependymoma, astrocytoma)", "Posterior laminectomy, intradural, myelotomy", "Laminoplasty in children (growth preservation)", "IONM (MEP/SSEP/D-wave) mandatory"],
+            ["Sacral chordoma", "Posterior-anterior combined; high-sacral: preserve S1-S2", "Posterior fixation (lumbopelvic) if S1 removed", "En bloc R0 mandatory; proton therapy post-op"],
+            ["L1-S1 extradural (lumbar corpectomy)", "Anterior retroperitoneal + posterior fixation", "Expandable cage (ALIF) + pedicle screws", "Vascular surgeon standby for L4-5, L5-S1"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Separation Surgery — Key Principle",
+          "content": "Separation surgery for high-grade ESCC does NOT aim for gross total tumour resection — it aims to create a minimum 2 mm circumferential separation between the tumour and the cord to allow high-dose SBRT. Over-aggressive resection risks neurological injury without oncological benefit. The combination of separation surgery + SBRT (24-27 Gy/2 fractions) achieves >80% local control at 12 months for radioresistant histology — superior to either alone."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of spinal tumours with 20 board-style questions covering classification, scoring systems, surgical indications, and specific tumour types.",
+    "questions": [
+      {
+        "id": "C4-Q1",
+        "stem": "A 62-year-old woman with known breast cancer presents with 6 weeks of mid-thoracic back pain that is worst with movement and somewhat better at rest. Plain radiograph shows a T6 vertebral body with >50% collapse. MRI reveals a lytic T6 vertebral body lesion with posterior epidural extension deforming the thecal sac but no cord contact visible on T2 axial images. She has no neurological deficits. What is the Bilsky ESCC grade?",
+        "options": {
+          "A": "Grade 0 — epidural involvement only",
+          "B": "Grade 1a — epidural mass displacing thecal sac without cord contact",
+          "C": "Grade 1b — epidural mass contacting cord without deformation",
+          "D": "Grade 2 — cord compressed with visible CSF surrounding cord"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bilsky Grade 1a is defined as an epidural mass that deforms the thecal sac (displacing or indenting it) but has no contact with the spinal cord. The question specifies the mass is 'deforming the thecal sac but no cord contact visible' — this precisely matches Grade 1a. Grade 0 would show epidural tumour without any thecal deformation. Grade 1b would show cord contact without deformation. Grade 2 would show cord compression with visible surrounding CSF.",
+          "wrong": {
+            "A": "Grade 0 is epidural disease without any deformation of the thecal sac. The question explicitly states the thecal sac is being deformed — this excludes Grade 0.",
+            "C": "Grade 1b requires cord contact. The question explicitly states there is 'no cord contact' — making 1b incorrect. The mass is deforming the dural sac but has not yet reached the cord.",
+            "D": "Grade 2 requires actual cord compression. The description here is of thecal sac deformation without cord contact — several steps less severe than Grade 2."
+          },
+          "guideline": "Bilsky MH et al. Reliability analysis of the epidural spinal cord compression scale. J Neurosurg Spine 2010;13:324-328 — the source publication for the Bilsky ESCC grading system adopted by NOMS framework and NCCN CNS Cancer Guidelines 2024.",
+          "trial": "Laufer I et al. The NOMS Framework: Approach to the Treatment of Spinal Metastatic Tumors. Oncologist 2013;18:744-751: Grade 0-1b radioresistant tumours may receive conventional EBRT (30 Gy/10 fr); Grade 1b-2 radioresistant = separation surgery + SBRT.",
+          "pearl": "Bilsky ESCC scale axial T2: Grade 0 = epidural only; 1a = thecal deformation, no cord contact; 1b = cord contact, no deformation; 1c = cord deformation with CSF visible; 2 = cord compressed, CSF visible around cord; 3 = cord compressed, no CSF visible. This is one of the most commonly tested scales in spinal oncology.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q2",
+        "stem": "A 55-year-old man with metastatic renal cell carcinoma has T8 vertebral body disease. SINS score calculation: T8 location = semi-rigid (T3-T10) = 1; mechanical back pain = 3; lytic lesion = 2; normal alignment = 0; <50% VB collapse = 2; unilateral posterolateral element involvement = 1. What is his total SINS score and what does it imply?",
+        "options": {
+          "A": "Total 7 — stable, radiation alone is appropriate",
+          "B": "Total 9 — indeterminate instability, surgical consultation recommended",
+          "C": "Total 9 — unstable, surgical stabilisation required before radiation",
+          "D": "Total 12 — indeterminate, observation appropriate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SINS score calculation: location (T8 semi-rigid) = 1 + pain (mechanical) = 3 + bone lesion (lytic) = 2 + alignment (normal) = 0 + VB collapse (<50%) = 2 + posterolateral (unilateral) = 1 → total = 9. SINS 7-12 = indeterminate instability, and surgical consultation is recommended. The threshold for immediate surgical stabilisation is SINS 13-18 (clearly unstable). SINS 9 falls in the indeterminate range requiring a spine surgeon to evaluate whether stabilisation is needed based on clinical context.",
+          "wrong": {
+            "A": "SINS 7 is the lower boundary of the indeterminate range (7-12), not the stable range (0-6). The calculated score here is 9, which is indeterminate — not stable. Radiation alone without surgical consultation would be inappropriate for a score of 9.",
+            "C": "SINS 9 is indeterminate (7-12), not clearly unstable (13-18). The statement 'surgical stabilisation required before radiation' applies to SINS ≥13. SINS 9 requires consultation but not automatic stabilisation.",
+            "D": "The calculated score is 9, not 12. Observation alone would not be appropriate even for SINS 12 — 7-12 requires surgical consultation. Simple observation without specialist input is not appropriate in the indeterminate range."
+          },
+          "guideline": "Fisher CG et al. A Novel Classification System for Spinal Instability in Neoplastic Disease (SINS). Spine 2010;35:E1221-1229 — source publication. AOSpine Tumour Guidelines (2020): SINS 0-6 = stable; 7-12 = indeterminate/surgical consult; 13-18 = unstable/surgical stabilisation.",
+          "trial": "Fourney DR et al. Reliability of the Spinal Instability Neoplastic Score among radiologists, neurosurgeons, and oncologists. Cancer 2011;117:3096-3102: SINS demonstrated excellent inter-rater reliability (ICC 0.84) across specialties — validated for broad clinical use.",
+          "pearl": "SINS interpretation: 0-6 = stable (RT/medical OK); 7-12 = indeterminate (spine surgery consult); 13-18 = unstable (surgery before radiation). The score addresses mechanical instability ONLY — neurological compromise is separately assessed with Bilsky ESCC scale. Together these form the mechanical and neurological pillars of the NOMS framework.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q3",
+        "stem": "A 45-year-old woman presents with progressive bilateral hand clumsiness and gait unsteadiness. MRI shows an intramedullary cervical cord lesion at C4-6 with central enhancement, haemosiderin caps at both poles on T2 sagittal imaging, and an associated syringomyelia. What is the most likely diagnosis and management?",
+        "options": {
+          "A": "Cervical cord astrocytoma — subtotal resection + radiation therapy",
+          "B": "Cervical cord ependymoma — gross total resection using the pseudocapsule plane",
+          "C": "Intramedullary metastasis — steroids + palliative radiation",
+          "D": "Haemangioblastoma — pre-operative embolisation + resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The combination of: intramedullary cervical lesion + central enhancement + bilateral haemosiderin T2-hypointense caps ('cap sign') + syringomyelia is pathognomonic of intramedullary ependymoma. These tumours arise from the central canal, are often circumscribed (pseudocapsule in ~50%), and the haemosiderin caps result from repeated microhaemorrhages at the tumour poles. The surgical goal is gross total resection using the pseudocapsule as a natural dissection plane, which achieves >90% progression-free survival at 10 years for WHO Grade 2 lesions.",
+          "wrong": {
+            "A": "Astrocytoma does NOT produce haemosiderin caps and is characteristically infiltrative without a pseudocapsule — making GTR unsafe. Astrocytomas are more common in children and the thoracic cord. The cap sign is specific to ependymoma.",
+            "C": "Intramedullary metastases are rare (lung, breast primaries), occur in patients with known metastatic disease, and do not produce the characteristic cap sign. In a 45-year-old without known malignancy, a primary tumour is far more likely.",
+            "D": "Haemangioblastoma presents as a cystic lesion with an intensely enhancing mural NODULE — not central enhancement with caps. It would not produce bilateral polar haemosiderin caps. VHL association should be sought but the imaging here is not consistent with haemangioblastoma."
+          },
+          "guideline": "NCCN CNS Cancers Guidelines (2024) — spinal cord ependymoma: surgical resection is first-line treatment; adjuvant radiation for Grade 3 or incomplete resection only. AOSpine Tumour Guidelines (2020): IONM mandatory for intramedullary surgery.",
+          "trial": "Klekamp J et al. Surgical treatment of intramedullary tumors. Neurosurgery 1999;45:1029-1038: GTR of cervical ependymoma associated with 93% recurrence-free survival at 10 years vs 65% for subtotal resection — confirming aggressive but safe GTR as the goal.",
+          "pearl": "Intramedullary ependymoma MRI triad: (1) central enhancement (arising from central canal); (2) bilateral haemosiderin caps — T2 hypointense at poles (pathognomonic cap sign); (3) syrinx in 45-65%. Surgical strategy: GTR via pseudocapsule plane. Adjuvant RT only for Grade 3 or incomplete resection.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q4",
+        "stem": "A 38-year-old woman presents with right C7 radiculopathy (triceps weakness, absent C7 reflex). MRI shows a well-circumscribed, homogeneously enhancing intradural extramedullary mass at C7-T1 on the right, extending through and enlarging the right C7-T1 neural foramen as a dumbbell tumour. What is the most likely diagnosis and its characteristic neural foramen finding on MRI?",
+        "options": {
+          "A": "Meningioma — dural tail sign",
+          "B": "Spinal schwannoma — neural foramen enlargement with scalloping",
+          "C": "Myxopapillary ependymoma — filum terminale origin",
+          "D": "Dumbbell neurofibroma — NF1 association with bilateral lesions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A dumbbell-shaped intradural-extradural mass with neural foramen enlargement and scalloping is the classic presentation of spinal schwannoma. Schwannomas arise from Schwann cells of dorsal nerve roots, and when they grow large enough to extend through the neural foramen, they create the dumbbell (hourglass) configuration on axial MRI. The foramen is enlarged and the adjacent pedicle and vertebral body may be scalloped due to chronic pressure remodelling. They are homogeneously enhancing (unless cystic degeneration has occurred) and T2 hyperintense.",
+          "wrong": {
+            "A": "Meningiomas are dural-based, not root-based. They do not typically extend through the neural foramen or cause foramen enlargement. The dural tail sign is their characteristic finding, not neural foramen enlargement.",
+            "C": "Myxopapillary ependymoma arises from the filum terminale at the conus medullaris / cauda equina level (L1-S5), not at the cervicothoracic junction. It presents as an IDEM mass at the conus, not a cervical dumbbell tumour.",
+            "D": "Neurofibromas are associated with NF1 and tend to be multiple with diffuse involvement (plexiform neurofibromas). A solitary dumbbell lesion at C7-T1 in a young woman without known NF1 is more likely to be a schwannoma. NF2 is associated with multiple schwannomas but also typically includes bilateral vestibular schwannomas."
+          },
+          "guideline": "AOSpine Tumour Guidelines (2020) — nerve sheath tumours: schwannoma surgical resection via posterior hemilaminectomy with intradural exploration and dorsal root fascicle division (sensory loss acceptable); dumbbell requires combined approach.",
+          "trial": "Sridhar K et al. Giant invasive spinal schwannomas: definition and surgical management. J Neurosurg 2001;94:210-215: surgical outcomes for dumbbell schwannomas — complete resection achievable in >90% with combined approach; recurrence <5% at 5 years after complete removal.",
+          "pearl": "Spinal schwannoma MRI: T2 hyperintense, homogeneous enhancement, neural foramen enlargement with bone scalloping = pathognomonic dumbbell/hourglass configuration. Arises from dorsal root (sensory) — division of affected fascicles causes sensory deficit only. Motor root (ventral) preserved. NF2 = multiple schwannomas + bilateral acoustic neuromas + meningiomas.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C4-Q5",
+        "stem": "A 70-year-old woman with T3 metastatic non-small cell lung cancer (NSCLC) has Bilsky Grade 3 ESCC at T7. She presents with progressive paraparesis (MRC 3/5 bilaterally) and urinary retention over 24 hours. Spine is mechanically stable (SINS 4). Steroids are started. What is the most appropriate next treatment?",
+        "options": {
+          "A": "Conventional external beam radiation therapy (30 Gy in 10 fractions) immediately",
+          "B": "Emergency posterior separation surgery at T7 followed by SBRT",
+          "C": "Systemic immunotherapy (pembrolizumab) for NSCLC followed by radiation at 6 weeks",
+          "D": "Spinal angiography to identify cord blood supply before any intervention"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bilsky Grade 3 ESCC (no CSF visible around cord, likely with cord signal change) causing rapid progressive myelopathy is a neurosurgical emergency. NSCLC is a radioresistant histology — conventional EBRT alone is insufficient for Grade 3 ESCC in radioresistant tumours. The NOMS framework mandates: high-grade ESCC (1c-3) + radioresistant histology → separation surgery + SBRT. Emergency surgery is required within hours, followed by SBRT (24-27 Gy/2-3 fractions) to the tumour bed after wound healing (typically 2-4 weeks).",
+          "wrong": {
+            "A": "Conventional EBRT (30 Gy/10 fr) is appropriate for radiosensitive tumours (lymphoma, myeloma, seminoma) at any ESCC grade, or for low-grade ESCC in any histology. For Bilsky Grade 3 ESCC with a radioresistant tumour (NSCLC), conventional RT provides inadequate local control (<30% at 12 months) and does not decompress the cord fast enough to prevent permanent deficits.",
+            "C": "Immunotherapy provides responses over weeks to months — there is no role for withholding decompression in an acute Bilsky Grade 3 ESCC with active neurological deterioration. Six weeks delay would likely result in permanent paraplegia.",
+            "D": "Spinal angiography is indicated before surgery for highly vascular tumours (renal cell carcinoma, thyroid metastases) where pre-operative embolisation reduces blood loss. It is not routinely required for lung metastases and would inappropriately delay emergency surgery."
+          },
+          "guideline": "NCCN CNS Cancers Guidelines (2024) — spinal metastases: high-grade ESCC with radioresistant histology = separation surgery + SBRT. NOMS framework (Memorial Sloan Kettering): Neurological = Grade 3 (surgery); Oncological = radioresistant NSCLC (surgery + SBRT).",
+          "trial": "Patchell RA et al. Direct decompressive surgical resection in the treatment of ESCC caused by metastatic cancer. Lancet 2005;366:643-648: surgery + RT vs RT alone in ESCC — surgical group 84% vs 57% ambulatory at 30 days (P=0.001); maintained ambulation 122 vs 13 days. Landmark trial establishing surgical decompression superiority for ESCC with neurological deficits.",
+          "pearl": "NOMS decision matrix for ESCC: Neurological Grade 3 + Oncological radioresistant = separation surgery + SBRT (regardless of SINS stability). Radioresistant histologies (renal, thyroid, melanoma, sarcoma, NSCLC, colon): surgery required for high-grade ESCC. Radiosensitive histologies (lymphoma, myeloma, seminoma, small cell): RT alone sufficient for all grades.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q6",
+        "stem": "A 52-year-old man presents with a sacral mass causing buttock pain and bowel dysfunction. MRI shows a heterogeneous, T2 hyperintense midline sacral mass at S1-S5 with anterior presacral soft tissue extension and no cortical breakthrough. Biopsy shows physaliferous cells in a myxoid stroma. The MOST specific immunohistochemical marker for this diagnosis is:",
+        "options": {
+          "A": "S-100 protein",
+          "B": "EMA (epithelial membrane antigen)",
+          "C": "Brachyury (T-box transcription factor)",
+          "D": "GFAP (glial fibrillary acidic protein)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The clinical and histological description — midline sacral mass, heterogeneous T2 hyperintensity, physaliferous (vacuolated) cells in myxoid stroma — is diagnostic of sacrococcygeal chordoma. Brachyury (encoded by the T gene, a T-box transcription factor involved in notochordal development) is the most specific IHC marker for chordoma. It is not expressed by other tumours that may mimic chordoma (myxoid chondrosarcoma, chondroma, carcinoma). Cytokeratin and EMA are positive in chordoma but are not specific (also positive in carcinoma). S-100 is positive but is also positive in schwannomas, chondrosarcomas, melanoma.",
+          "wrong": {
+            "A": "S-100 is positive in chordoma (~90%) but is not specific — it is also strongly positive in schwannomas, neurofibromas, melanoma, and chondrosarcomas. S-100 positivity alone cannot distinguish chordoma from these mimics.",
+            "B": "EMA is expressed in chordoma (supporting epithelial differentiation of notochordal cells) but is also expressed widely in carcinomas and meningiomas. It is not specific for chordoma.",
+            "D": "GFAP (glial fibrillary acidic protein) is a marker for glial cells — astrocytes, ependymal cells. It is NOT expressed in chordoma. Positive GFAP staining would suggest a glial (astrocytic or ependymal) tumour, not chordoma."
+          },
+          "guideline": "NCCN CNS Cancers (2024) — chordoma IHC panel: brachyury (T-box) = most specific; cytokeratin and EMA positive; S-100 positive; GFAP negative. En bloc resection is standard of care; proton beam therapy adjuvant.",
+          "trial": "Walcott BP et al. Chordoma: Current Concepts, Management, and Future Directions. Lancet Oncol 2012;13:e69-76: brachyury identified as most specific chordoma marker; nuclear brachyury expression distinguishes chordoma from all histological mimics; en bloc R0 resection = 67% 5-year OS vs R1-2 = 38%.",
+          "pearl": "Chordoma IHC: brachyury (most specific) + cytokeratin + EMA + S-100 positive; GFAP negative. The physaliferous (bubble-containing) cells in myxoid matrix + nuclear brachyury = chordoma diagnosis. Treatment: en bloc R0 resection + proton beam therapy (70-80 Gy). Sacral lesion: preserve S1-S2 bilaterally to maintain bladder function.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q7",
+        "stem": "An 8-year-old boy presents with progressive thoracic back pain and gait deterioration over 3 months. MRI shows an intramedullary thoracic cord lesion at T4-T8 with irregular T2 signal, asymmetric heterogeneous enhancement without a clear capsule, and no haemosiderin caps. What is the most likely tumour type in this paediatric patient, and what is the appropriate surgical strategy?",
+        "options": {
+          "A": "Spinal ependymoma — gross total resection via pseudocapsule plane",
+          "B": "Spinal cord astrocytoma — maximum safe resection for diagnosis, not radical excision",
+          "C": "Haemangioblastoma — pre-operative embolisation, then en bloc resection",
+          "D": "Intramedullary schwannoma — complete microsurgical resection with sensory root division"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In a child, the most common intramedullary spinal cord tumour is astrocytoma (pilocytic astrocytoma WHO Grade 1 or diffuse astrocytoma WHO Grade 2). The MRI features described — asymmetric heterogeneous enhancement, no haemosiderin caps, no clear capsule — are consistent with an infiltrative astrocytoma. Unlike ependymoma (which has a pseudocapsule), astrocytomas infiltrate the surrounding cord without a defined cleavage plane, making GTR unsafe and likely to cause major neurological deficits. The surgical goal is maximum safe resection (MSR) to establish histological diagnosis, relieve cord compression, and potentially improve neurological function, followed by observation (low grade) or radiation and chemotherapy (high grade).",
+          "wrong": {
+            "A": "Ependymoma in children exists but is less common than astrocytoma. More importantly, the described features (no haemosiderin caps, heterogeneous enhancement, no capsule) are NOT those of ependymoma. Ependymoma would show central enhancement, bilateral polar caps, and a visible pseudocapsule.",
+            "C": "Haemangioblastoma presents as a cystic lesion with an enhancing NODULE — not as a diffuse poorly-circumscribed intramedullary mass. Haemangioblastomas are rare in children and do not present with this MRI pattern.",
+            "D": "Intramedullary schwannoma is extremely rare. Schwannomas arise from Schwann cells — the spinal cord parenchyma does not contain Schwann cells (they are peripheral nervous system). True intramedullary schwannomas occasionally occur but are uncommon; the described imaging is not consistent."
+          },
+          "guideline": "NCCN CNS Cancers (2024) — paediatric spinal cord tumours: astrocytoma is most common; maximum safe resection recommended without neurological sacrifice; post-op radiation for high-grade (Grade 3-4); observation for pilocytic (Grade 1).",
+          "trial": "Constantini S et al. Intramedullary spinal cord tumors in children under the age of 3 years. J Neurosurg 1996;85:1036-1043: paediatric intramedullary astrocytoma — functional outcome correlates with pre-operative neurological status, not extent of resection; radical surgery not associated with better outcome vs safe resection.",
+          "pearl": "Paediatric intramedullary tumour: astrocytoma is most common. Key contrast with adult ependymoma: no pseudocapsule → GTR unsafe → maximum SAFE resection only. MRI: asymmetric, heterogeneous, no caps, no pseudocapsule. IONM (MEP/SSEP/D-wave) mandatory. Post-op: observation (Grade 1) or RT+chemo (Grade 3-4).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q8",
+        "stem": "Which of the following spinal metastasis histologies is considered RADIOSENSITIVE and can be treated with conventional external beam radiation (30 Gy/10 fractions) alone even for Bilsky Grade 1c-2 ESCC without surgery?",
+        "options": {
+          "A": "Renal cell carcinoma",
+          "B": "Metastatic melanoma",
+          "C": "Multiple myeloma / plasmacytoma",
+          "D": "Hepatocellular carcinoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Multiple myeloma and plasmacytoma are exquisitely radiosensitive — they respond to relatively low doses of conventional radiation (e.g., 20-30 Gy) with rapid tumour shrinkage. This allows radiation alone to achieve neural decompression through tumour reduction even for high-grade ESCC (1c-2), without requiring surgery. Other radiosensitive tumours include lymphoma, seminoma/dysgerminoma, and small cell lung cancer. Separation surgery is not needed for these histologies unless there is mechanical instability or Grade 3 ESCC with acute neurological deterioration not responding to steroids within 24-48 hours.",
+          "wrong": {
+            "A": "Renal cell carcinoma is a classic radioresistant histology — it expresses multidrug resistance (MDR) proteins and does not respond to conventional fraction sizes. It is the paradigmatic indication for separation surgery + SBRT in the NOMS framework.",
+            "B": "Melanoma is radioresistant to conventional fractionation. It does respond to high single-fraction or hypofractionated SBRT (e.g., 24 Gy/1 fraction) but not to conventional 2 Gy fractions. High-grade ESCC from melanoma requires surgical decompression.",
+            "D": "Hepatocellular carcinoma (HCC) is radioresistant to conventional fractionation. It is sensitive to SBRT (3-5 high-dose fractions) but not 30 Gy/10 fractions. High-grade ESCC from HCC requires surgical decompression."
+          },
+          "guideline": "NCCN CNS Cancers (2024) — NOMS oncological axis: radiosensitive histologies (lymphoma, myeloma, seminoma, small cell) = conventional EBRT sufficient for all ESCC grades except refractory Grade 3 myelopathy. Radioresistant (renal, thyroid, melanoma, sarcoma, NSCLC, HCC) = surgery + SBRT for Grade 1c-3.",
+          "trial": "Laufer I et al. The NOMS Framework. Oncologist 2013;18:744-751: NOMS oncological axis classifies tumours as radiosensitive vs radioresistant to guide surgery vs radiation decision. Myeloma exemplified as radiosensitive with local control >90% after conventional EBRT.",
+          "pearl": "Radiosensitive spinal metastases (conventional RT sufficient): lymphoma, multiple myeloma/plasmacytoma, seminoma, small cell lung cancer, breast (relatively). Radioresistant (need SBRT or surgery): renal cell, thyroid, melanoma, sarcoma, NSCLC, HCC, colon. This is the oncological axis of NOMS — histology determines radiation strategy.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C4-Q9",
+        "stem": "Which spinal tumour is pathognomonic of Von Hippel-Lindau (VHL) syndrome when found at multiple levels in the spinal cord?",
+        "options": {
+          "A": "Multiple intramedullary ependymomas",
+          "B": "Multiple spinal meningiomas",
+          "C": "Multiple spinal haemangioblastomas",
+          "D": "Multiple spinal schwannomas"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Haemangioblastomas are highly vascular intramedullary tumours arising from hemangioblastic mesenchyme. When multiple spinal cord (or cerebellar) haemangioblastomas are found, Von Hippel-Lindau (VHL) syndrome should be diagnosed until proven otherwise. VHL is caused by germline mutation of the VHL tumour suppressor gene on chromosome 3p25. VHL syndrome includes: cerebellar and spinal haemangioblastomas, retinal haemangioblastomas, clear cell renal cell carcinoma, phaeochromocytoma, pancreatic cysts and neuroendocrine tumours, and endolymphatic sac tumours. All patients with multiple CNS haemangioblastomas require genetic testing for VHL mutation.",
+          "wrong": {
+            "A": "Multiple intramedullary ependymomas are associated with NF2 (neurofibromatosis type 2), not VHL. NF2 ependymomas tend to occur in the spine (particularly thoracic), alongside acoustic neuromas and meningiomas.",
+            "B": "Multiple spinal meningiomas are the hallmark of NF2 (chromosome 22q12, merlin), not VHL. They also occur sporadically in older women but not as multiple lesions without an underlying syndrome.",
+            "D": "Multiple spinal schwannomas are associated with NF2 or schwannomatosis (SMARCB1/LZTR1 mutations). VHL is NOT associated with schwannoma formation."
+          },
+          "guideline": "NCCN CNS Cancers (2024) — VHL syndrome: all patients with CNS haemangioblastoma require genetic counselling; VHL gene testing if multiple or age <40. Management: surgery for symptomatic lesions; observation for asymptomatic; annual MRI screening for known VHL patients.",
+          "trial": "Lonser RR et al. Von Hippel-Lindau disease. Lancet 2003;361:2059-2067: VHL natural history — CNS haemangioblastomas in 60-80% of VHL patients; average 3.8 CNS lesions per patient; cerebellar > spinal > medullary; annual CNS MRI recommended from age 11.",
+          "pearl": "VHL syndrome associations: cerebellar + spinal haemangioblastomas (multiple = VHL until proven otherwise) + retinal haemangioblastomas + clear cell RCC + phaeochromocytoma + pancreatic cysts/NETs. Gene: VHL on 3p25. MRI appearance: cystic lesion with intensely enhancing mural nodule. Pre-operative embolisation for large or recurrent lesions.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C4-Q10",
+        "stem": "A 60-year-old woman with a T9-10 intradural extramedullary meningioma undergoes posterior laminectomy and intradural microsurgical resection. The surgeon excises the meningioma completely along with the dural attachment. The dural attachment is resected and the defect is primarily repaired. According to the Simpson grading for meningioma resection, what grade is this, and what is the approximate 10-year recurrence rate?",
+        "options": {
+          "A": "Simpson Grade I — ~3% recurrence at 10 years",
+          "B": "Simpson Grade II — ~8% recurrence at 10 years",
+          "C": "Simpson Grade III — ~12% recurrence at 10 years",
+          "D": "Simpson Grade IV — >20% recurrence at 10 years"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Simpson Grade I is defined as macroscopic complete removal with excision of the dural attachment (including the dural tail) — either excision of the involved dural segment with primary repair or dural patch, not just coagulation. This represents the most complete resection and correlates with the lowest recurrence rate (~3% at 10 years). The question states 'excised the meningioma completely along with the dural attachment with resection and primary repair' — this matches Grade I criteria exactly.",
+          "wrong": {
+            "A": "Already selected as correct.",
+            "B": "Simpson Grade II = complete tumour removal with coagulation of the dural attachment (not excision). The question specifies the dural attachment was RESECTED (not just coagulated) — this is Grade I.",
+            "C": "Simpson Grade III = complete tumour removal without dural treatment (neither excision nor coagulation). ~12% recurrence at 10 years.",
+            "D": "Simpson Grade IV = subtotal (incomplete) resection with known residual tumour. >20% recurrence at 10 years."
+          },
+          "guideline": "AOSpine Tumour Guidelines (2020) — spinal meningioma surgery: Simpson Grade I resection is the gold standard goal; dural attachment should be excised if feasible without neurological risk. Recurrence rates: Grade I ~3%; Grade II ~8%; Grade III ~12%; Grade IV >20% at 10 years.",
+          "trial": "Simpson D. The recurrence of intracranial meningiomas after surgical treatment. J Neurol Neurosurg Psychiatry 1957;20:22-39 — original description of Simpson grades for meningioma resection extent. Applied to spinal meningiomas with equivalent prognostic value.",
+          "pearl": "Simpson grading: Grade I = tumour + dural attachment EXCISED (lowest recurrence ~3%); Grade II = tumour complete + dural attachment COAGULATED (~8%); Grade III = tumour complete, dural attachment untreated (~12%); Grade IV = subtotal resection (>20%). Always aim for Grade I for spinal meningioma — address the dural tail.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q11",
+        "stem": "A 45-year-old man with no family history has a solitary cervical intradural mass with neural foramen enlargement. Histology shows Antoni A areas (parallel nuclei forming Verocay bodies) and Antoni B areas (loose myxoid zones). Which genetic syndrome should be considered, and what is the associated gene?",
+        "options": {
+          "A": "NF1 — NF1 gene on chromosome 17q11",
+          "B": "NF2 — NF2 gene on chromosome 22q12 encoding merlin",
+          "C": "VHL syndrome — VHL gene on chromosome 3p25",
+          "D": "Gorlin syndrome — PTCH1 gene on chromosome 9q22"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Antoni A (hypercellular areas with palisading nuclei forming Verocay bodies) and Antoni B (hypocellular myxoid areas) are the characteristic histological features of schwannoma. A solitary cervical schwannoma does not require genetic testing, but when schwannomas are multiple, NF2 should be investigated. NF2 (neurofibromatosis type 2) is caused by loss-of-function mutations in the NF2 gene on chromosome 22q12, which encodes the merlin protein (also called schwannomin). NF2 presents with bilateral vestibular schwannomas (pathognomonic), multiple spinal schwannomas, meningiomas, and ependymomas.",
+          "wrong": {
+            "A": "NF1 (chromosome 17q11, neurofibromin) is associated with neuroFIBROMAS (not schwannomas). Neurofibromas lack Antoni A/B pattern and Verocay bodies. NF1 = café-au-lait spots, Lisch nodules, plexiform neurofibromas, optic gliomas.",
+            "C": "VHL syndrome is associated with haemangioblastomas and clear cell RCC — not with schwannomas. VHL gene on 3p25.",
+            "D": "Gorlin syndrome (naevoid basal cell carcinoma) is associated with multiple basal cell carcinomas, odontogenic keratocysts, and medulloblastoma (desmoplastic variant) — not spinal schwannomas."
+          },
+          "guideline": "NCCN CNS Cancers (2024) — nerve sheath tumours: solitary schwannoma = sporadic; bilateral vestibular schwannomas = NF2 diagnostic; multiple spinal schwannomas without bilateral acoustic = schwannomatosis (SMARCB1/LZTR1). Genetic testing recommended for multiple nerve sheath tumours.",
+          "trial": "Evans DG et al. A genetic study of type 2 neurofibromatosis in the United Kingdom. I. Prevalence, mutation rate, fitness, and confirmation of maternal transmission effect on severity. J Med Genet 1992;29:841-846: NF2 prevalence 1:33,000; bilateral vestibular schwannomas present in all NF2 patients; penetrance near 100% by age 60.",
+          "pearl": "Schwannoma histology: Antoni A (cellular, Verocay bodies — palisading nuclei) + Antoni B (myxoid, loose). NF2 (chr 22q12, merlin) = bilateral vestibular schwannomas + multiple spinal schwannomas + meningiomas + spinal ependymomas. NF1 (chr 17q11, neurofibromin) = neurofibromas (NOT schwannomas). Schwannomatosis = multiple schwannomas without bilateral acoustic neuromas (SMARCB1/LZTR1 mutations).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q12",
+        "stem": "In the NOMS framework, which combination of findings would lead to the recommendation of separation surgery followed by SBRT?",
+        "options": {
+          "A": "Bilsky Grade 1a ESCC + radiosensitive tumour (lymphoma) + SINS 4 + good performance status",
+          "B": "Bilsky Grade 2 ESCC + radioresistant tumour (renal cell) + SINS 5 + good performance status",
+          "C": "Bilsky Grade 0 ESCC + radioresistant tumour (thyroid) + SINS 14 + good performance status",
+          "D": "Bilsky Grade 3 ESCC + radiosensitive tumour (myeloma) + SINS 5 + poor performance status (ECOG 4)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The NOMS framework decision for separation surgery + SBRT requires: (1) Neurological — high-grade ESCC (1c-3); (2) Oncological — radioresistant histology; (3) Mechanical — stable (no separate need for stabilisation); (4) Systemic — adequate performance status to tolerate surgery. Option B: Bilsky Grade 2 (high-grade ESCC, meets neurological criteria) + renal cell carcinoma (radioresistant, meets oncological criteria) + SINS 5 (stable spine, meets mechanical criteria — separation surgery alone without additional stabilisation needed) + good performance status. This is the textbook indication for separation surgery + SBRT.",
+          "wrong": {
+            "A": "Bilsky Grade 1a + radiosensitive tumour (lymphoma) = conventional EBRT alone is appropriate. Neither separation surgery nor SBRT is needed — lymphoma will respond to conventional radiation at Grade 1a.",
+            "C": "SINS 14 = clearly unstable spine (≥13 requires surgical stabilisation). For this case, spinal stabilisation (posterior fixation) is needed for the instability. If ESCC is Grade 0 (no cord compression), decompression is not the surgical goal — only stabilisation + radiation.",
+            "D": "ECOG 4 = patient confined to bed >50% of waking hours — this represents poor systemic status (NOMS systemic axis) that is a relative contraindication to major surgery. Bilsky Grade 3 + myeloma + ECOG 4 = conventional RT or low-morbidity procedure (vertebroplasty for stability, steroids) rather than separation surgery."
+          },
+          "guideline": "NCCN CNS Cancers (2024) and Laufer I et al. NOMS Framework (Oncologist 2013): all four NOMS axes must be assessed; neurological and oncological axes primarily determine surgery vs radiation decision; mechanical axis determines stabilisation need; systemic axis determines operative fitness.",
+          "trial": "Laufer I et al. High-dose, single-fraction image-guided intensity-modulated radiotherapy for metastatic spinal lesions. Int J Radiat Oncol Biol Phys 2008;71:484-490: SBRT after separation surgery for radioresistant tumours — 1-year local control 90% vs 60% for conventional RT. Key data supporting separation + SBRT strategy.",
+          "pearl": "NOMS surgery indication = high-grade ESCC (≥1c) + radioresistant histology + adequate systemic status. NOMS stabilisation indication = SINS ≥7-12 (consult) or ≥13 (operate). The two decisions (decompression vs stabilisation) are independent and may co-exist. Know the radiosensitive vs radioresistant tumour categories for the NOMS oncological axis.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C4-Q13",
+        "stem": "A 50-year-old man presents with sacrococcygeal chordoma. Surgical planning confirms en bloc resection with negative margins is feasible with sacrifice of all sacral nerve roots below S2 bilaterally. What functional consequence should the patient be specifically counselled about?",
+        "options": {
+          "A": "Complete lower extremity motor paralysis (paraplegia)",
+          "B": "Permanent bowel and bladder incontinence",
+          "C": "Permanent perineal anaesthesia only, with preserved sphincter function",
+          "D": "Bilateral foot drop only (S1 root sacrifice)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Sacral nerve roots S2, S3, and S4 (collectively S2-4) provide the parasympathetic innervation to the bladder detrusor, urethral and anal sphincters, and genital erectile function. S2 bilaterally also contributes to plantar flexion. Bilateral sacrifice of all roots BELOW S2 (i.e., S3-S4-S5) causes bowel incontinence and bladder dysfunction. If S2 bilaterally is also sacrificed (as in this case — 'below S2 bilaterally' meaning S2 is included), both sphincteric function and lower limb function (plantar flexion, some hip extension) are compromised. The critical principle: BILATERAL S2 sacrifice = permanent bladder and bowel incontinence. Preserving at LEAST one S2 root maintains reasonable continence function.",
+          "wrong": {
+            "A": "Complete motor paraplegia (L1-S5 all roots lost) would require sacrifice of L5 and S1 which provide the major lower limb motor innervation. Sacrifice of roots below S2 (sacral roots S2-S5) does NOT cause paraplegia — the motor function of the lower extremities (quadriceps L2-4, hamstrings L5-S1, foot dorsiflexion L4-5, plantar flexion S1-2) is primarily dependent on L1-S2.",
+            "C": "Perineal anaesthesia without sphincter dysfunction would only occur if unilateral sacral root sacrifice preserved contralateral S2-S4. Bilateral sacrifice of all roots at S2 and below will destroy sphincteric function — this option significantly underestimates the functional consequences.",
+            "D": "Foot drop specifically results from L4-L5 nerve root or peroneal nerve injury (dorsiflexion weakness). S1 sacrifice causes plantar flexion weakness and absent Achilles reflex, not foot drop per se."
+          },
+          "guideline": "AOSpine Tumour Guidelines (2020) — sacral chordoma resection: preserve bilateral S1-S2 when oncologically feasible; bilateral S2 preservation maintains bladder/bowel continence in majority; bilateral S2 sacrifice = permanent bowel-bladder incontinence requiring lifelong catheterisation and bowel programme.",
+          "trial": "Fuchs B et al. Operative management of sacral chordoma. J Bone Joint Surg Am 2005;87:2211-2216: sacral root preservation outcomes — bilateral S2 preservation: 50% maintain continence; unilateral S2 preservation: 40% maintain partial function; bilateral S2 sacrifice: 100% incontinence.",
+          "pearl": "Sacral chordoma surgical rule: bilateral S2 preservation = chance of maintained continence. Bilateral sacrifice of S2 = permanent bowel-bladder incontinence. S3-S5 sacrifice = bowel/bladder dysfunction + perineal numbness. L5-S1 preservation maintains lower limb motor function (walking) — but sphincters require S2-S4.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C4-Q14",
+        "stem": "A 35-year-old woman with known NF2 (bilateral vestibular schwannomas) is found to have a T2 signal change within an enhancing intramedullary mass at C5-6. The mass is 1.2 cm, centrally located, with homogeneous enhancement and bilateral haemosiderin caps. She has mild myelopathy (mJOA 14). What is the expected pathology and the recommended management?",
+        "options": {
+          "A": "Astrocytoma — subtotal resection only, radiation post-op",
+          "B": "Intramedullary ependymoma — consider resection if progression or worsening myelopathy",
+          "C": "Intramedullary schwannoma — urgent complete resection, division of sensory root",
+          "D": "Intramedullary metastasis — systemic workup and palliative radiation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "NF2 is associated with multiple spinal ependymomas (in addition to schwannomas and meningiomas). The imaging features — central location, homogeneous enhancement, bilateral haemosiderin caps — are classic for ependymoma. In NF2 patients, spinal ependymomas tend to be multiple and are managed conservatively when asymptomatic or mildly symptomatic (mJOA 14 = mild myelopathy). Surgery is recommended when there is documented progression on serial MRI or worsening myelopathy — not for asymptomatic NF2-associated ependymomas discovered incidentally. When surgery is performed, GTR via pseudocapsule is the goal.",
+          "wrong": {
+            "A": "Astrocytoma does not cause haemosiderin caps and is not associated with NF2. The imaging and genetic context are both inconsistent with astrocytoma. Radiation is also not routinely given post-operatively for WHO Grade 2 ependymoma after GTR.",
+            "C": "True intramedullary schwannomas are extremely rare (Schwann cells are peripheral nervous system cells — not normally present in the cord parenchyma). While NF2 causes multiple schwannomas, they are extramedullary. This imaging pattern with haemosiderin caps is ependymoma, not schwannoma.",
+            "D": "A 35-year-old with known NF2 and imaging pathognomonic of ependymoma does not need systemic metastatic workup. Intramedullary metastasis in a patient with a known benign condition and classic ependymoma imaging would be a significant diagnostic error."
+          },
+          "guideline": "NCCN CNS Cancers (2024) — NF2-associated spinal ependymoma: annual MRI surveillance; surgery when symptomatic progression or significant lesion growth (>3 mm/year). AOSpine: GTR recommended for accessible lesions with mild-moderate myelopathy.",
+          "trial": "Baser ME et al. Determinants of clinical management of multiple spinal ependymomas in NF2. J Neurosurg Spine 2006;5:203-210: NF2 spinal ependymomas — surgery when mJOA <13 or documented MRI growth; GTR associated with stable outcome in 85% at 5 years; observation safe for mJOA ≥14 without growth.",
+          "pearl": "NF2 spinal tumour triad: schwannomas + meningiomas + spinal EPENDYMOMAS. NF2 ependymomas are managed conservatively (surveillance MRI) when mildly symptomatic and stable. Operate for progression or worsening myelopathy — GTR via pseudocapsule plane. Cap sign (haemosiderin caps) = ependymoma regardless of NF2 status.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C4-Q15",
+        "stem": "A 67-year-old woman with metastatic breast cancer presents with T8 vertebral collapse causing Bilsky Grade 1c ESCC. She has no neurological deficits. SINS score is 14. Breast cancer is ER+ HER2- (considered moderately radiosensitive). Systemic performance status is ECOG 1. What is the most appropriate management sequence?",
+        "options": {
+          "A": "Conventional EBRT alone (30 Gy/10 fr) — breast cancer is radiosensitive",
+          "B": "Surgical stabilisation (posterior pedicle screw fixation) ± cement augmentation, followed by SBRT",
+          "C": "Systemic endocrine therapy (aromatase inhibitor) alone — ER+ breast cancer responds to hormones",
+          "D": "Vertebroplasty at T8 for pain control, followed by conventional EBRT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The NOMS assessment: (1) Neurological — Bilsky Grade 1c (cord deformation, CSF visible) — high-grade ESCC; (2) Oncological — breast cancer moderately radiosensitive (can use SBRT not necessarily surgery for decompression); however, (3) Mechanical — SINS 14 = clearly unstable (≥13 = surgical stabilisation required); (4) Systemic — ECOG 1 (fit for surgery). The SINS 14 overrides the question of radiation sensitivity for the surgical decision — this spine is MECHANICALLY UNSTABLE and requires surgical stabilisation BEFORE radiation regardless of histology. Posterior pedicle screw fixation (± cement augmentation for osteoporotic/lytic bone) provides immediate stability, after which SBRT can be delivered to the tumour bed.",
+          "wrong": {
+            "A": "While breast cancer is more radiosensitive than renal cell or melanoma, SINS 14 = clearly unstable. Delivering radiation to an unstable spine without surgical stabilisation risks progressive collapse and neurological deterioration during treatment. SINS ≥13 requires surgical stabilisation FIRST.",
+            "C": "Endocrine therapy for ER+ breast cancer takes weeks to months to produce a response — it has no role in the acute management of high-grade ESCC with mechanical spinal instability. Immediate structural stabilisation is required.",
+            "D": "Vertebroplasty (cement injection into vertebral body) cannot treat high-grade ESCC and cannot stabilise a SINS 14 spine mechanically. It is appropriate for pain from osteoporotic-type fractures without posterior column involvement, not for unstable neoplastic disease requiring posterior fixation."
+          },
+          "guideline": "NCCN CNS Cancers (2024) and NOMS Framework: SINS ≥13 = surgical stabilisation before radiation, regardless of histology or ESCC grade. The mechanical axis is an independent decision — it does not depend on oncological radiosensitivity.",
+          "trial": "Fourney DR et al. SINS score — Spine 2010: SINS 13-18 = unstable. Clinical validation study confirmed surgical stabilisation requirement for SINS ≥13; radiation delivered to unstable spine without fixation associated with 34% fracture progression vs 6% in surgically stabilised group (Sahgal et al. IJROBP 2013).",
+          "pearl": "SINS ≥13 = mechanically unstable → surgical stabilisation required BEFORE radiation, regardless of tumour histology or ESCC grade. The NOMS mechanical axis is independent of the neurological and oncological axes. After stabilisation: SBRT (preferred for most histologies) or conventional EBRT (radiosensitive tumours).",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C4-Q16",
+        "stem": "The 'winking owl sign' on anteroposterior plain radiograph of the thoracolumbar spine refers to:",
+        "options": {
+          "A": "Enlargement of the neural foramen by a dumbbell schwannoma",
+          "B": "Unilateral absence of a pedicle shadow, suggesting metastatic bone destruction",
+          "C": "Scalloping of the posterior vertebral body from a slow-growing intradural tumour",
+          "D": "Collapse of the L1 vertebral body creating a kyphotic gibbus deformity"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The 'winking owl sign' on AP plain radiograph describes the unilateral absence or loss of the normal oval pedicle shadow, giving the vertebra the appearance of an owl with one eye missing (winking). It results from destruction of the pedicle by metastatic tumour and is an early sign of vertebral metastasis, often detectable on plain radiograph before significant vertebral body collapse is visible. The sign was classically described for metastatic disease but can also result from primary bone tumours destroying the posterior elements.",
+          "wrong": {
+            "A": "Neural foramen enlargement by a dumbbell schwannoma is visible on CT or MRI as an expanded foramen with smooth margins — this represents chronic pressure remodelling, not the winking owl sign. On plain AP film, foraminal enlargement from schwannoma would be subtle and not described as 'winking owl'.",
+            "C": "Posterior vertebral body scalloping from intradural tumour (e.g., neurofibromatosis, sacral ependymoma) is visible on lateral radiograph or sagittal MRI as smooth concavity of the posterior wall — this is 'posterior scalloping', not the winking owl sign.",
+            "D": "Gibbus deformity from L1 collapse (e.g., tuberculosis, burst fracture) produces an angular kyphosis visible on lateral radiograph — it is not related to the winking owl sign on AP view."
+          },
+          "guideline": "AOSpine Tumour Guidelines (2020) — spinal metastasis radiological diagnosis: winking owl sign on AP radiograph indicates unilateral pedicle destruction, highly specific for metastatic bone disease. CT and MRI required for full characterisation.",
+          "trial": "Constans JP et al. Spinal metastases with neurological manifestations. J Neurosurg 1983;59:111-118: systematic review of spinal metastasis presentations — pedicle erosion (winking owl) identified as the most common plain radiograph finding in thoracic and lumbar metastases, often detectable 6-12 months before vertebral body collapse.",
+          "pearl": "Winking owl sign = unilateral pedicle shadow absent on AP spine radiograph = metastatic pedicle destruction until proven otherwise. Bilateral pedicle destruction produces the 'missing vertebra' appearance. Plain radiograph has low sensitivity for early spinal metastasis (requires 30-50% bone loss); MRI is the standard.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C4-Q17",
+        "stem": "An intramedullary thoracic ependymoma is resected using posterior myelotomy. During resection, the neurophysiological monitoring team reports a >50% reduction in motor evoked potential (MEP) amplitude bilaterally. What is the appropriate intraoperative response?",
+        "options": {
+          "A": "Continue resection at the same pace — transient MEP changes are normal during intramedullary surgery",
+          "B": "Pause resection, irrigate with warm saline, raise mean arterial pressure to >80 mmHg, and reassess MEPs before continuing",
+          "C": "Increase spinal cord retraction to improve visualisation and reduce bleeding",
+          "D": "Immediately close the myelotomy and terminate surgery regardless of remaining tumour"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A >50% MEP amplitude reduction is the standard warning threshold for intraoperative neurophysiological monitoring during spinal cord surgery. The appropriate response is a structured stepwise approach: (1) PAUSE resection and cease all mechanical manipulation; (2) irrigate the cord surface with warm saline (hypothermia can reversibly suppress MEPs); (3) optimise spinal cord perfusion by raising mean arterial pressure to >80 mmHg (consider IV phenylephrine or vasopressin to increase cord perfusion pressure); (4) reassess MEPs after 5-10 minutes. If MEPs recover, resection may cautiously resume. If MEPs do not recover, surgery should be terminated to prevent permanent cord injury. This stepwise approach balances oncological completeness with neurological preservation.",
+          "wrong": {
+            "A": "Ignoring a >50% MEP amplitude reduction and continuing at the same pace is unacceptable — this monitoring threshold exists precisely to prevent permanent neurological injury. Transient minor MEP fluctuations can be normal, but >50% amplitude reduction is a critical threshold requiring action.",
+            "C": "Increasing cord retraction worsens cord ischaemia and would further reduce MEP amplitude — the opposite of what is needed. Retraction should be RELEASED (not increased) when MEPs deteriorate.",
+            "D": "Immediate closure without stepwise assessment is premature — MEP changes may be reversible with perfusion optimisation and cord surface irrigation. Terminating without the stepwise protocol abandons any possibility of completing the resection if MEPs recover."
+          },
+          "guideline": "AOSpine Tumour Guidelines (2020) — IONM for intramedullary surgery: MEP >50% amplitude reduction = critical warning; stepwise response: pause, warm irrigation, MAP >80 mmHg, reassess. D-wave >50% reduction = terminate surgery. SSEP latency >10% = warning.",
+          "trial": "Deletis V et al. Intraoperative neurophysiological monitoring of the motor system: standards and guidelines. Neurophysiol Clin 2009;39:101-124: consensus guidelines for IONM in spinal cord surgery. MEP thresholds validated across multiple intramedullary tumour series — >50% amplitude reduction as critical threshold.",
+          "pearl": "IONM during intramedullary surgery: MEP >50% amplitude drop → (1) PAUSE; (2) warm saline irrigation; (3) MAP >80 mmHg; (4) reassess. D-wave >50% drop → STOP surgery (immediate risk of permanent motor deficit). D-wave is a direct corticospinal tract monitor independent of anaesthesia — loss of D-wave with preserved MEP can still indicate long-term deficit risk.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C4-Q18",
+        "stem": "A myxopapillary ependymoma is found at the L2-S1 level arising from the filum terminale. According to the 2021 WHO Classification of CNS Tumours, what is the current WHO grade for myxopapillary ependymoma?",
+        "options": {
+          "A": "WHO Grade 1 (unchanged from previous classification)",
+          "B": "WHO Grade 2 (upgraded from Grade 1 in 2021 classification)",
+          "C": "WHO Grade 3 (anaplastic ependymoma)",
+          "D": "Benign tumour without a WHO grade"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In the 2021 WHO Classification of Central Nervous System Tumours (5th Edition), myxopapillary ependymoma was reclassified from WHO Grade 1 to WHO Grade 2. This upgrade reflects the recognition that myxopapillary ependymomas have a higher recurrence rate than previously appreciated — particularly when they seed the CSF or recur locally after subtotal resection. The reclassification has implications for post-operative surveillance and consideration of adjuvant radiation for incompletely resected or disseminated cases.",
+          "wrong": {
+            "A": "In the 2016 WHO classification, myxopapillary ependymoma was WHO Grade 1 — the only ependymoma variant graded as Grade 1. The 2021 classification changed this to Grade 2, so 'unchanged from previous classification' is incorrect.",
+            "C": "WHO Grade 3 is anaplastic ependymoma, characterised by high mitotic index, microvascular proliferation, and necrosis. Myxopapillary ependymoma is a distinct entity at Grade 2 — not anaplastic.",
+            "D": "All WHO-classified tumours have an assigned grade. Myxopapillary ependymoma is not 'without a grade' — it has a defined WHO Grade 2 designation in the 2021 classification."
+          },
+          "guideline": "WHO Classification of Tumours of the Central Nervous System (5th Edition, 2021) — ependymoma chapter: myxopapillary ependymoma reclassified to WHO Grade 2; surveillance implications for higher-risk recurrence pattern compared with the former Grade 1 designation.",
+          "trial": "Rodriguez FJ et al. Pathology and genetics of myxopapillary ependymoma. J Neuropathol Exp Neurol 2012;71:432-445: myxopapillary ependymoma recurrence at 10 years 30-50% after subtotal resection; CSF dissemination in 25% — data supporting the reconsideration of Grade 1 status.",
+          "pearl": "2021 WHO CNS Tumour Classification changes for ependymoma: myxopapillary ependymoma upgraded from Grade 1 → Grade 2. Clinical relevance: consider post-op MRI surveillance more carefully; adjuvant radiation for subtotal resection or dissemination. All spinal ependymoma WHO grades (2021): myxopapillary = Grade 2; spinal cord ependymoma = Grade 2; anaplastic = Grade 3.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C4-Q19",
+        "stem": "A 48-year-old woman with a large C2 extradural chordoma is planned for en bloc resection. Surgical margins: the vertebral artery runs through the C2 transverse foramen on both sides. What is the standard surgical consideration regarding the vertebral arteries in C2 chordoma surgery?",
+        "options": {
+          "A": "Bilateral vertebral artery sacrifice is required for en bloc resection of C2 chordoma and is universally safe",
+          "B": "Pre-operative vertebral artery balloon occlusion test assesses contralateral flow adequacy before considering planned sacrifice",
+          "C": "Unilateral vertebral artery involvement is not an indication for any special planning — the artery can be divided without testing",
+          "D": "C2 chordoma is not surgically resectable due to vertebral artery involvement and should be treated with radiation alone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "C2 chordoma often involves one or both transverse foramina containing the vertebral arteries. When the vertebral artery is encased by tumour, en bloc resection with wide margins may require unilateral or bilateral vertebral artery sacrifice. This carries risk of posterior fossa ischaemia (PICA territory — posterior inferior cerebellar artery branches from the vertebral artery) and basilar artery territory ischaemia if bilateral. Pre-operative **balloon occlusion test** (temporary balloon occlusion of the vertebral artery with neurological monitoring and cerebral perfusion imaging) assesses whether the patient can tolerate unilateral sacrifice. If tolerated, planned sacrifice with or without bypass (EC-IC or vertebral-to-vertebral bypass) can be performed. Bilateral sacrifice requires revascularisation.",
+          "wrong": {
+            "A": "Bilateral vertebral artery sacrifice is NOT universally safe — it carries a high risk of basilar ischaemia, cerebellar infarction, and death unless bypass procedures are performed. This approach requires extensive pre-operative planning and may not be feasible.",
+            "C": "Unilateral vertebral artery division without prior balloon occlusion testing risks stroke. The vertebral artery contributes to the posterior circulation (PICA, basilar artery) — sacrifice without adequate testing of contralateral flow compensation is unsafe and negligent.",
+            "D": "C2 chordoma IS surgically resectable, though technically demanding. Vertebral artery involvement is a surgical complexity requiring multi-disciplinary planning (neurosurgeon + vascular/endovascular neurosurgeon) — it is not an absolute contraindication. Radiation alone without surgery results in near-universal local recurrence for chordoma."
+          },
+          "guideline": "AOSpine Tumour Guidelines (2020) — C2 chordoma: en bloc resection is the surgical standard; vertebral artery involvement requires pre-operative angiographic assessment and balloon occlusion testing; planned sacrifice with bypass if dominant artery involved.",
+          "trial": "McMaster ML et al. Chordoma. J Natl Cancer Inst 2001;93:1418-1427: C2 chordoma outcomes — en bloc R0 resection with vertebral artery management achieves 60% 5-year recurrence-free survival; intralesional surgery = near-universal local recurrence within 3 years.",
+          "pearl": "C2 chordoma and vertebral artery: pre-operative balloon occlusion test is mandatory before vertebral artery sacrifice. Dominant vertebral artery sacrifice = basilar ischaemia risk → contralateral flow assessment + consider bypass. Never sacrifice without testing in a planned procedure. En bloc R0 resection principle applies — piecemeal surgery = guaranteed recurrence.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C4-Q20",
+        "stem": "Which of the following is the MOST COMMON primary malignant bone tumour of the spine in adults, and what is the characteristic anatomical predilection site?",
+        "options": {
+          "A": "Osteosarcoma — affects thoracolumbar junction predominantly",
+          "B": "Chordoma — sacrococcygeal region (50-60%) and clivus (30-35%)",
+          "C": "Ewing sarcoma — cervical spine in young adults",
+          "D": "Chondrosarcoma — lumbar vertebral bodies bilaterally"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Chordoma is the most common primary malignant bone tumour of the axial skeleton (spine and skull base) in adults. Its anatomical predilection reflects its notochordal origin — the notochord runs from the clivus to the coccyx in embryonic development, and chordoma arises at the cranial and caudal remnants: sacrococcygeal region (50-60%), clivus/spheno-occipital region (30-35%), and mobile spine (10-15%, with C2 being the most common mobile level). Age of onset: sacrococcygeal chordomas peak at 55-65 years; clival chordomas peak slightly earlier. Chordoma is locally aggressive and cannot be cured without en bloc resection.",
+          "wrong": {
+            "A": "Osteosarcoma is the most common primary malignant bone tumour of the appendicular skeleton (particularly the metaphysis of long bones in adolescents) but is RARE in the spine (<5% of primary spinal tumours). When it does occur in the spine, there is no predominant thoracolumbar predilection.",
+            "C": "Ewing sarcoma of the spine is uncommon and tends to affect the sacrum rather than the cervical spine. It is the second most common primary bone tumour of the spine in children and adolescents, not the most common primary malignant tumour in adults.",
+            "D": "Chondrosarcoma of the spine occurs but is less common than chordoma as the most common primary spinal malignancy. It tends to arise in the posterior elements (laminae, pedicles) rather than vertebral bodies bilaterally, and lacks the notochordal site predilection of chordoma."
+          },
+          "guideline": "NCCN CNS Cancers (2024) and AOSpine Tumour Guidelines (2020): chordoma is the most common primary malignant tumour of the spine; anatomical distribution reflects notochordal remnants; en bloc resection + proton beam therapy is standard of care.",
+          "trial": "Stacchiotti S et al. Chordoma. Lancet Oncol 2015;16:e550-e559: epidemiology — incidence 0.8/million/year; sacrococcygeal 50-60%, clival 30-35%, mobile spine 10-15%; median age at diagnosis 58 years; 5-year OS 65-70% for primary sacral chordoma after R0 resection.",
+          "pearl": "Most common primary malignant bone tumour of the axial skeleton = CHORDOMA. Sites: sacrococcygeal (50-60%) > clivus (30-35%) > mobile spine (10-15%, C2 most common level). Origin: notochordal remnants. IHC: brachyury (specific) + cytokeratin + EMA. Treatment: en bloc R0 resection + proton beam therapy.",
+          "difficulty": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "id": "F2",
+  "title": "Hematomas Intracraneales y Hemorragia Intracerebral Espontánea",
+  "subtitle": "Bloque F — Urgencias Neuroquirúrgicas",
+  "block": "F",
+  "block_name": "Urgencias Neuroquirúrgicas",
+  "level": "R1-3",
+  "reading_time_min": 42,
+  "guidelines_version": "AHA/ASA ICH Guidelines 2022 · BTF TBI Guidelines 2016 · STICH I/II Trials",
+  "textbook_refs": [
+    "Greenberg MS. Handbook of Neurosurgery, 9th Edition. Thieme (2020)",
+    "Mendelow AD et al. Early surgery vs initial conservative treatment in ICH (STICH). Lancet 2005",
+    "Mendelow AD et al. Early surgery vs initial conservative treatment in ICH-2 (STICH II). Lancet 2013",
+    "Hanley DF et al. Thrombolysis of intraventricular haemorrhage with rt-PA (CLEAR III). Lancet 2017",
+    "Hemphill JC et al. Guidelines for management of spontaneous ICH. AHA/ASA Stroke 2022"
+  ],
+  "learning_objectives": [
+    "Distinguir epidural, acute subdural, chronic subdural, and spontaneous intracerebral haematomas by mechanism, CT appearance, and management",
+    "Aplicar the STICH I and STICH II trial results to clinical decision-making for spontaneous supratentorial ICH surgical management",
+    "Identificar the indications for emergency surgical evacuation of epidural, acute subdural, and cerebeloso haematomas",
+    "Describir the pathophysiology and risk factors for spontaneous ICH, including hypertensive, CAA-related, and coagulopathic haemorrhage",
+    "Resumir the AHA/ASA 2022 evidence-based medical management of spontaneous ICH including BP targets, anticoagulation reversal, and ICP management",
+    "Describir the management of traumatic contralateral 'talk and die' herniation and the emergency response protocol",
+    "Identificar the clinical and imaging features of intraventricular haemorrhage and its management including EVD and intraventricular thrombolysis (CLEAR III)"
+  ],
+  "sections": [
+    {
+      "id": "F2-S1",
+      "title": "Hematoma Epidural",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Epidural haematoma (EDH)** is a traumatic collection of blood between the skull inner table and the dura mater. The incidence is approximately 1-3% of all head injuries. **Mecanismo:** Habitualmente arterial — rupture of the **middle meningeal artery** (MMA) following temporal squamosa fracture in the majority (85-90%); venous EDH from dural sinus laceration occurs at the posterior fossa and vertex. The MMA runs in a groove on the inner table of the temporal bone and is adherent to the dura — temporal bone fracture can tear the vessel, leading to rapid arterial blood accumulation in the espacio epidural.\n\n**Pathological anatomy:** The dura is tightly adherent at suture lines (coronal, sagittal, lambdoid) — this limits EDH spread across sutures, creating the characteristic **biconvex (lenticular/lens-shaped)** hyperdense collection on CT, conforming to the inner skull surface. EDH does NOT cross suture lines. The blood is arterial (bright red, under arterial pressure) — explaining the rapid expansion and the classic **'lucid interval'** followed by rapid deterioration as the haematoma expands and ICP rises exponentially.\n\n**Clinical presentation:** Classic (30-40% of cases): brief LOC at impact → **lucid interval** (minutes to hours — ICP compensation phase) → rapid deterioration with ipsilateral pupil dilation (uncal herniation from temporal lobe compression) → coma and death if untreated. Not all EDH have a lucid interval — approximately 30% present without initial LOC; approximately 30% are immediately comatose. **CT appearance:** Hyperdense biconvex collection, often temporal; associated temporal/parietal fracture; midline shift; effacement of ipsilateral sulci."
+        },
+        {
+          "type": "table",
+          "title": "Umbrales Quirúrgicos para Hematomas Traumáticos",
+          "headers": [
+            "Haematoma Tipo",
+            "Umbral Quirúrgico",
+            "Emergency Indicación",
+            "Tratamiento Conservador"
+          ],
+          "rows": [
+            [
+              "Epidural (EDH)",
+              "Volume >30 mL OR thickness >15 mm OR midline shift >5 mm OR GCS deterioration",
+              "ANY pupillary dilation or deterioration — emergency craneotomía",
+              "Small EDH <10 mL, GCS ≥14, thickness <10 mm, shift <5 mm — close monitoring"
+            ],
+            [
+              "Acute Subdural (ASDH)",
+              "Thickness >10 mm OR midline shift >5 mm OR GCS deterioration of ≥2 points",
+              "Pupillary abnormality + deterioration = emergency craneotomía",
+              "ASDH <10 mm, shift <5 mm, GCS ≥14, no progression"
+            ],
+            [
+              "Chronic Subdural (cSDH)",
+              "Symptomatic OR >10 mm thickness OR significant shift",
+              "Acute on chronic with deterioration",
+              "Incidental, asymptomatic, <10 mm — observe"
+            ],
+            [
+              "Cerebellar haematoma (spontaneous)",
+              ">3 cm diameter OR brain stem compression OR hydrocephalus",
+              "Clinical deterioration = emergency suboccipital craneotomía",
+              "<3 cm, no compression, stable — observe"
+            ],
+            [
+              "Spontaneous supratentorial ICH",
+              "STICH I/II: No proven surgical benefit for deep ICH",
+              "Uncertain — see STICH evidence",
+              "Medical management first-line for most"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Nunca Demorar Cirugía por Dilatación Pupilar en HED",
+          "content": "A unilateral dilated and non-reactive pupil in the context of a known or suspected EDH is a neurosurgical emergency requiring immediate craneotomía — not further imaging. The clinical diagnosis of uncal herniation (dilated pupil, contralateral hemiparesis, deteriorating GCS) mandates emergency surgical decompression within minutes. If EDH is confirmed on CT and pupil dilates in the trauma bay, the patient should go directly to the operating theatre. Delay causes death or permanent severe disability."
+        }
+      ]
+    },
+    {
+      "id": "F2-S2",
+      "title": "Hematoma Subdural Agudo y Crónico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Acute subdural haematoma (ASDH)** es el más común neurosurgical emergency requiring urgent craneotomía. Unlike EDH, ASDH is predominantly **venous in origin** — from rupture of **bridging veins** (cortical veins bridging the cortical surface to the dural venous sinuses), which are subjected to tearing forces during acceleration-deceleration injuries. ASDs can also arise from direct cortical vessel tear in severe contusion. ASDH carries much higher mortality than EDH (40-60% vs 10-20%) because it is more commonly associated with underlying brain injury (contusion, DAI) rather than being a surgically correctable isolated haematoma.\n\n**CT appearance:** **Hyperdense crescent-shaped (concave)** collection that conforms to the cortical surface and can cross suture lines (unlike EDH). The blood is venous and under lower pressure, allowing spread over a wider area — creating the typical 'crescent' shape. Associated underlying cortical contusion, cerebral swelling, and midline shift are common. The **'brain at-risk'** concept: even if the ASDH is evacuated surgically, the underlying cerebral swelling may cause post-operative acute brain herniation ('malignant oedema') — one of the most feared post-operative complications.\n\n**Surgical management:** Emergency **craneotomía and evacuation** (not orificio de trépano — ASDH is clotted blood requiring flap) is indicated for: thickness > 10 mm, midline shift > 5 mm, or any acute neurological deterioration. The BTF guidelines specify: if GCS decreases by ≥ 2 points between injury and hospital admission, surgical evaluation is indicated regardless of CT criteria. **ICP monitoring** post-evacuation se recomienda for all comatose patients.\n\n**Chronic subdural haematoma (cSDH):** Gradually accumulating blood-breakdown products in the subdural space, typically in elderly patients (cerebral atrophy creates space, bridging vein tension). Típicamente blood products of varying ages on CT (iso-/hypodense after 2-3 weeks — 'subacute'; frankly hypodense = old). Symptoms: headache, cognitive decline, weakness, personality change, gait disturbance. Treatment of symptomatic cSDH: **orificio de trépano drainage under local anaesthesia** (single or double orificio de trépanos with closed drainage system — most effective, recurrence 5-10%); craneotomía for recurrent, multiloculated, or organised cSDH. **Dexamethasone** for cSDH oedema is under investigation (DAST trial, SDAS trial — mixed results for non-surgical cSDH); tranexamic acid may reduce recurrence."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — EDH vs ASDH CT Appearance",
+          "content": "EDH: biconvex (lenticular), hyperdense, does NOT cross suture lines, temporal location, associated fracture, lucid interval common. ASDH: crescent-shaped, conforms to cortical surface, CAN cross suture lines, widespread, no fracture required, associated brain injury. Mnemonic: EDH = 'Extra-lens'; ASDH = 'Subdural crescent'. EDH = arterial (MMA); ASDH = venous (bridging veins)."
+        }
+      ]
+    },
+    {
+      "id": "F2-S3",
+      "title": "Hemorragia Intracerebral Espontánea — Pathophysiology and Aetiology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Spontaneous intracerebral haemorrhage (sICH)** accounts for 10-15% of all strokes and carries extremely high morbidity and mortality — 30-day mortality approximately 40-50%, with only 20% of patients achieving functional independence at 6 months. The annual incidence is approximately 25 per 100,000 population.\n\n**Aetiology and pathophysiology:**\n\n**Hypertensive ICH (most common, ~50%):** Chronic hypertension causes lipohyalinosis and microaneurysm formation (Charcot-Bouchard microaneurysms) in the small penetrating arteries of the brain. These arteries are particularly vulnerable at: the **putamen** (most common, ~35% of sICH from lateral lenticulostriate arteries), **thalamus** (~25%), **cerebellum** (~15%), **pons** (~15%), and **subcortical white matter** (~15%). The common thread is small penetrating arteries subjected to chronic pressure-induced wall changes. The haematoma expands by continued bleeding and recruits secondary oedema — haematoma expansion within 24 hours occurs in ~40% and is the major cause of early neurological deterioration.\n\n**Cerebral amyloid angiopathy (CAA):** Amyloid-beta deposition in the walls of cortical and leptomeningeal vessels. Unlike hypertensive ICH (deep locations), CAA-related haemorrhage is **lobar** (cortical/subcortical, typically frontoparietal or occipital) and commonly multifocal. Predominantly affects elderly patients (> 65 years), associated with ApoE4 allele, and carries risk of recurrent lobar haemorrhage (10-15%/year). MRI susceptibility-weighted imaging shows cortical microhaemorrhages and superficial siderosis as hallmarks. CAA is also associated with cortical spreading depolarisation.\n\n**Coagulopathy/anticoagulant-related ICH:** Vitamin K antagonist (warfarin)-associated ICH has larger haematoma volume, higher rate of haematoma expansion, and worse outcomes than primary ICH. Direct oral anticoagulants (DOACs — apixaban, rivaroxaban, dabigatran) are associated with lower ICH risk than warfarin but require specific reversal agents (idarucizumab for dabigatran; andexanet alfa for factor Xa inhibitors).\n\n**Secondary causes:** AVM, cavernous malformation, cerebral venous thrombosis (haemorrhagic venous infarct), tumour haemorrhage (metastasis, GBM), cocaine/sympathomimetic abuse (hypertensive crisis)."
+        },
+        {
+          "type": "table",
+          "title": "ICH Puntuación and 30-Day Mortality",
+          "headers": [
+            "Variable",
+            "Hallazgo",
+            "Puntos"
+          ],
+          "rows": [
+            [
+              "GCS Puntuación",
+              "3-4 / 5-12 / 13-15",
+              "2 / 1 / 0"
+            ],
+            [
+              "ICH Volume",
+              "≥30 mL / <30 mL",
+              "1 / 0"
+            ],
+            [
+              "Intraventricular Extension",
+              "Yes / No",
+              "1 / 0"
+            ],
+            [
+              "Infratentorial Origin",
+              "Yes / No",
+              "1 / 0"
+            ],
+            [
+              "Age",
+              "≥80 / <80",
+              "1 / 0"
+            ],
+            [
+              "Puntuación → 30-day mortality",
+              "0=0% / 1=13% / 2=26% / 3=72% / 4=97% / 5=100%",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F2-S4",
+      "title": "Medical Manejo of Spontaneous ICH — AHA/ASA 2022",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**AHA/ASA 2022 ICH Guidelines** provide the most current evidence-based framework:\n\n**Blood pressure management:** Haematoma expansion is the primary cause of early neurological deterioration — aggressive BP reduction may reduce expansion. **INTERACT2 trial (NEJM 2013, N=2839):** Intensive BP reduction (target SBP < 140 mmHg within 1 hour) vs guideline management (< 180 mmHg) — no significant difference in primary outcome (death/major disability) but intensive arm showed significantly improved functional outcomes on secondary ordinal analysis (OR 0.87, P=0.04). **ATACH-II trial (NEJM 2016, N=1000):** Intensive SBP < 110 mmHg vs standard < 140 mmHg — no significant benefit; intensive arm had more renal adverse events. **Current AHA/ASA 2022 recommendation:** For SBP 150-220 mmHg with no contraindication to BP treatment: acute BP lowering to **SBP < 140 mmHg** within 2 hours is safe and may improve functional outcomes (Level IIa, Grado B). Diana maintenance SBP < 130-140 mmHg.\n\n**Anticoagulation reversal:**\n- **Warfarin (VKA):** Immediate reversal with **4-factor prothrombin complex concentrate (4F-PCC, 25-50 IU/kg)** + IV phytomenadione (Vitamin K1 5-10 mg) — 4F-PCC achieves faster INR reversal than FFP with less volume, fewer transfusion reactions. Diana INR < 1.3 urgently.\n- **Dabigatran:** **Idarucizumab** (Praxbind, 5 g IV) — specific reversal agent; immediate, complete reversal.\n- **Factor Xa inhibitors (apixaban, rivaroxaban, edoxaban):** **Andexanet alfa** (low/high dose based on drug and timing) — specific reversal agent; FDA-approved; expensive.\n- **Platelet dysfunction (antiplatelet agents):** Platelet transfusion is NOT recommended for ICH on antiplatelet therapy (PATCH trial, Lancet 2016 — platelet transfusion worsened outcomes: OR 2.05 for death/dependency, P=0.006).\n\n**Haemostatic therapy:** Recombinant Factor VIIa (rFVIIa, NovoSeven) reduces haematoma expansion but INCREASES THROMBOTIC EVENTS (myocardial infarction, stroke) — the **FAST trial (NEJM 2008, N=841)** showed rFVIIa significantly reduced haematoma growth but did not improve clinical outcomes and increased thromboembolic events. rFVIIa is NOT recommended for routine spontaneous ICH management (AHA/ASA 2022 Class III Harm)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — PATCH Ensayo: Platelet Transfusion HARMFUL in ICH on Antiplatelets",
+          "content": "The PATCH trial (de Gans, Lancet 2016, N=190) showed platelet transfusion in ICH patients on antiplatelet therapy significantly WORSENED outcomes: OR 2.05 for death or dependence at 3 months (P=0.006). Platelet transfusion is now Class III Harm (contraindicated) in AHA/ASA 2022 guidelines for ICH on antiplatelets without evidence of platelet dysfunction. Never reflexively transfuse platelets for antiplatelet-related ICH."
+        }
+      ]
+    },
+    {
+      "id": "F2-S5",
+      "title": "Surgical Manejo — STICH Ensayos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**STICH I (Mendelow, Lancet 2005):** 1033 patients with spontaneous supratentorial ICH randomised to early surgery (within 24 hours) vs initial conservative management. **Result:** No significant benefit of early surgery on death or disability at 6 months (OR 0.89, 95% CI 0.66-1.19, P=0.41). Subgroup analyses suggested possible benefit for superficial haematomas (< 1 cm from cortical surface) — forming the hypothesis for STICH II.\n\n**STICH II (Mendelow, Lancet 2013):** 601 patients with superficial lobar ICH (1-2 cm from cortical surface) without intraventricular extension randomised to early craneotomía vs conservative management. **Result:** No significant survival or functional benefit of early surgery (OR 0.86, 95% CI 0.62-1.20, P=0.367). A possible survival advantage for early surgery (59% vs 62% unfavourable outcome) was not statistically significant.\n\n**Conclusions from STICH I and II:**\n- **No proven benefit** of early surgical craneotomía for spontaneous supratentorial ICH in terms of survival or functional outcome\n- Surgery may be considered for **deteriorating patients** who may not survive without intervention (as a life-saving measure) while accepting that functional outcome improvement is unproven\n- **Cerebellar ICH > 3 cm** or with tronco encefálico compression/hydrocephalus: surgery is indicated and beneficial (not covered by STICH — STICH was supratentorial)\n- **Minimally invasive surgery (MIS)** is under active investigation as an alternative: the **ENRICH trial (NEJM 2024)** compared early MIS surgery for lobar ICH vs medical management and showed significant improvement in functional outcomes (modified Rankin Scale 0-3 at 180 days: 37% MIS vs 18% medical, P=0.002) — potentially redefining the landscape for lobar ICH in younger, well-selected patients.\n\n**Current surgical indications for spontaneous ICH:**\n1. **Cerebellar ICH ≥ 3 cm** with hydrocephalus or tronco encefálico compression: suboccipital craneotomía emergently (Level I evidence-based expert consensus)\n2. **Deteriorating patient** with any surgically accessible ICH: surgery may be offered as a life-saving measure\n3. **Lobar ICH** with superficial location in young patient with no underlying cause yet identified: consider minimally invasive approach (ENRICH data)\n4. **Deep ICH** (putamen, thalamus, tronco encefálico): no proven surgical benefit — medical management (ICP monitoring if GCS ≤ 8)"
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — STICH Summary: No Proven Benefit for Routine Surgery",
+          "content": "STICH I (2005) and STICH II (2013) together establish that early surgical craneotomía does NOT improve outcomes for spontaneous supratentorial ICH compared to conservative management. This applies to BOTH deep and superficial haematomas. The exception is cerebeloso ICH > 3 cm with neurological deterioration, where surgery is life-saving. For STICH questions: the answer is 'initial conservative management' for most supratentorial spontaneous ICH."
+        }
+      ]
+    },
+    {
+      "id": "F2-S6",
+      "title": "Cerebellar Haematoma and Posterior Fossa Emergencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cerebellar haematoma** differs fundamentally from supratentorial ICH in that surgical evacuation has a well-established role and can be genuinely life-saving. The posterior fossa has minimal tolerance for volume expansion — a small cerebeloso haematoma can compress the tronco encefálico and obstruct CSF pathways (causing obstructive hydrocephalus) with rapid clinical deterioration.\n\n**Aetiology:** Similar to supratentorial ICH — hypertension (most common, PICA territory), AVM, cavernous malformation, anticoagulation. Unlike pontino ICH (the other posterior fossa haemorrhage, which is almost always hypertensive, deeply located, and has very poor prognosis), cerebeloso ICH is more accessible surgically.\n\n**Clinical presentation:** Sudden onset **ipsilateral ataxia, nausea/vomiting, headache, ipsilateral gaze palsy** (CN VI nucleus in dorsal pons — adjacent to the 4th ventricle compressed by cerebeloso haematoma). As the haematoma enlarges: **tronco encefálico compression** (altered consciousness, bilateral CS signs, respiratory failure), **obstructive hydrocephalus** (aqueduct/4th ventricle compression).\n\n**Surgical management indications (AHA/ASA 2022):**\n- Cerebellar haematoma **≥ 3 cm in diameter** — Level I recommendation: surgical evacuation\n- Any cerebeloso haematoma with **tronco encefálico compression** or **obstructive hydrocephalus** — regardless of size: surgery\n- Any patient with **neurological deterioration** from cerebeloso haematoma\n\n**Procedure:** Urgent **suboccipital craneotomía** (midline or paramedian) with haematoma evacuation. If hydrocephalus is present, concurrent or pre-operative **EVD** may be placed (lateral ventricle) to relieve hydrocephalus — though some centres prefer proceeding directly to suboccipital craneotomía which will relieve CSF obstruction. EVD alone without posterior fossa decompression is dangerous — upward transtentorial herniation can occur if posterior fossa pressure is relieved from above without decompressing the infratentorial compartment.\n\n**Pontine ICH:** Dense bilateral motor signs (quadriplegia), pinpoint pupils (pontino — sympathetic pathway damage and CN V/VI nuclei involvement), coma, hyperthermia. Pronóstico: extremely poor (mortality > 80% for large pontino haematoma > 3 cm). Treatment: supportive; surgery is generally not indicated (surgically inaccessible location)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — EVD for Cerebellar Haematoma: Dangerous Without Posterior Fossa Decompression",
+          "content": "Placing an EVD alone for obstructive hydrocephalus from cerebeloso haematoma without concurrent posterior fossa decompression can cause upward transtentorial herniation — the pressure differential created by EVD drainage of the supratentorial CSF causes the cerebellum to herniate upward through the tentorial notch. Always combine EVD with suboccipital craneotomía or proceed directly to craneotomía that decompresses both the haematoma and the obstructive hydrocephalus simultaneously."
+        }
+      ]
+    },
+    {
+      "id": "F2-S7",
+      "title": "Hemorragia Intraventricular and CLEAR III Ensayo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Intraventricular haemorrhage (IVH)** is either primary (choroid plexus AVM, cavernous malformation) or secondary extension of intraparenchymal or subarachnoid haemorrhage into the ventricular system. Secondary IVH from ICH extension worsens outcomes: blood in the ventricles causes obstruction (hydrocephalus), clot irritation, and secondary ependymal inflammation, and is independently associated with worse outcomes. The **Graeb scale** grades IVH from 1-12 based on blood volume in each ventricle.\n\n**Manejo of IVH:** External ventricular drainage (EVD) is placed bilaterally or unilaterally to relieve hydrocephalus and drain bloody CSF. Drainage alone is limited by clot obstruction of the catheter. **Intraventricular thrombolysis with rtPA (CLEAR III trial — Hanley, Lancet 2017):** 500 patients with obstructive IVH from ICH with GCS ≤ 14 randomised to intraventricular recombinant tPA (1 mg/8 hours, maximum 12 doses) via EVD vs placebo (saline). **Result:** rtPA significantly accelerated IVH clot removal on CT and reduced EVD duration. Sin embargo, **no significant difference in modified Rankin Scale ≤ 3 at 180 days** (48% rtPA vs 45% placebo, P=0.30). Post-hoc analysis: for patients with IVH volume ≥ 20 mL, rtPA significantly improved outcomes. Mortality was reduced from 24% to 17% (P=0.04) but with more functional survivors in both vegetative and independent categories. **Current recommendations (AHA/ASA 2022):** Intraventricular rtPA is reasonable for IVH with obstructive hydrocephalus to accelerate clot removal and potentially improve outcomes (Level IIb, Grado B-R), particularly when IVH volume is large (≥ 20 mL).\n\n**Endoscopic IVH evacuation** is an emerging alternative — direct endoscopic clot removal via a pre-placed EVD tract or separate endoscopic orificio de trépano. Results from small series are promising but larger RCTs are pending. The **INVEST trial** and other MIS IVH trials are ongoing."
+        },
+        {
+          "type": "table",
+          "title": "Spontaneous ICH: Anticoagulation Reversal Summary",
+          "headers": [
+            "Agent",
+            "Reversal Drug",
+            "Dose/Protocol",
+            "Time to Reversal"
+          ],
+          "rows": [
+            [
+              "Warfarin (VKA)",
+              "4F-PCC (Beriplex/Octaplex) + IV Vitamin K",
+              "25-50 IU/kg + Vit K 5-10 mg IV",
+              "~30 min (PCC); Vit K 6-12h"
+            ],
+            [
+              "Dabigatran",
+              "Idarucizumab (Praxbind)",
+              "5 g IV (two 2.5 g vials)",
+              "Minutes (complete)"
+            ],
+            [
+              "Apixaban/Rivaroxaban/Edoxaban",
+              "Andexanet alfa (Ondexxya)",
+              "Low or high dose IV bolus + infusion",
+              "Minutes (onset)"
+            ],
+            [
+              "Heparin/LMWH",
+              "Protamine sulfate",
+              "1 mg per 100 IU heparin IV slow push",
+              "Minutes"
+            ],
+            [
+              "Antiplatelet agents (aspirin, P2Y12)",
+              "Platelet transfusion: NOT recommended (PATCH trial)",
+              "CONTRAINDICATED (Class III Harm)",
+              "N/A — avoid"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre intracranial haematomas and ICH management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "F2-Q1",
+        "stem": "A 28-year-old man is brought to the emergency department following a road traffic accident. His initial GCS was 14 (brief LOC at scene). In the trauma bay, his GCS drops from 14 to 8 over 20 minutes. CT shows a 45 mL biconvex hyperdense temporal collection with a temporal bone fracture. Which es el más apropiado immediate management?",
+        "options": {
+          "A": "Transfer to ICU for ICP monitoring and osmotherapy",
+          "B": "Emergency craneotomía for haematoma evacuation",
+          "C": "Repeat CT in 6 hours to assess expansion",
+          "D": "Hyperventilate to PaCO2 28 mmHg to reduce ICP"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is a classic epidural haematoma (biconvex, hyperdense, temporal, associated fracture) with a lucid interval followed by rapid deterioration (GCS 14→8 over 20 minutes). A 45 mL EDH with GCS deterioration is an absolute emergency surgical indication — immediate craniotomy and clot evacuation is required. The BTF/EBSNS criteria: EDH > 30 mL OR any acute neurological deterioration = emergency surgery. Delay in surgical decompression correlates directly with mortality and long-term neurological outcome. This patient's life depends on immediate operative intervention.",
+          "wrong": {
+            "A": "ICU and osmotherapy are appropriate for raised ICP management without a surgical mass lesion. Este paciente has a surgically evacuable haematoma causing rapid deterioration — medical temporisation is inappropriate.",
+            "C": "Repeat CT in 6 hours is completely inappropriate for a rapidly deteriorating patient — haematoma has already expanded and is causing herniation. Waiting for further expansion will result in death or permanent severe disability.",
+            "D": "Hyperventilation to PaCO2 28 mmHg may be used as a very short bridge if the patient herniates before reaching the operating theatre, but it is not the primary management — emergency craneotomía is."
+          },
+          "guideline": "BTF/EBSNS EDH Guidelines 2006 — EDH >30 mL OR any acute deterioration = emergency craneotomía; time to surgery is most important prognostic factor",
+          "trial": "Bullock MR et al. Surgical management of epidural hematomas. Neurosurgery 2006;58(3):S7-S15: systematic review; EDH surgery outcomes; GCS at time of surgery most important predictor; emergency craneotomía for deteriorating EDH is Level IIA recommendation",
+          "pearl": "Lucid interval → rapid GCS deterioration + biconvex hyperdense temporal CT = EDH = EMERGENCY CRANIOTOMY. Time to surgery is the #1 predictor of outcome in EDH. Every minute of delay worsens prognosis. EDH mortality is < 10% with prompt surgery vs > 50% without."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q2",
+        "stem": "CT of a patient with acute head injury shows a hyperdense collection that is: crescent-shaped, conforms to the cortical surface, extends over the right cerebral convexity, and crosses the coronal suture. What is the most likely diagnosis?",
+        "options": {
+          "A": "Epidural haematoma",
+          "B": "Acute subdural haematoma",
+          "C": "Subarachnoid haemorrhage",
+          "D": "Parenchymal contusion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Acute subdural haematoma characteristically appears as: (1) crescent-shaped (concave medially), (2) conforms to the cortical surface, (3) can cross suture lines (unlike EDH which cannot cross sutures), (4) spreads over a large convexity area. The venous origin (bridging vein rupture) allows spread under lower pressure over a wider area. The crossing of the coronal suture is the key differentiating feature from EDH.",
+          "wrong": {
+            "A": "Epidural haematoma is biconvex (not crescent), does NOT cross suture lines (dura is attached at sutures), and is typically more localised. The suture-crossing feature here excludes EDH.",
+            "C": "Subarachnoid haemorrhage appears as diffuse hyperdensity in the cisterns, sylvian fissure, and sulci — it is not a convexity crescent conforming to the cortical surface.",
+            "D": "Parenchymal contusion appears as intraparenchymal hyperdensity within brain tissue — not a hyperdense extracerebral crescent over the cortical surface."
+          },
+          "guideline": "BTF TBI Guidelines 2016 — acute SDH: crescent morphology; crosses sutures (venous spread); dura separates SDH from brain; surgical criteria: >10 mm or >5 mm shift or neurological deterioration",
+          "trial": "Bullock MR et al. Surgical management of acute subdural haematomas. Neurosurgery 2006;58(3):S16-S24: ASDH imaging characteristics; systematic review; mortality 40-60%; early surgery within 4 hours for comatose patients significantly improves outcome",
+          "pearl": "CT diagnosis: EDH = biconvex, does NOT cross sutures; ASDH = crescent, CROSSES sutures. The suture-crossing ability distinguishes venous ASDH from arterial EDH. Additionally: EDH = temporal/parietal with fracture; ASDH = widespread convexity, associated brain injury."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q3",
+        "stem": "The STICH I trial (Mendelow, Lancet 2005) randomised 1033 patients with spontaneous supratentorial ICH to early surgery vs conservative management. What was the main conclusion?",
+        "options": {
+          "A": "Early surgery significantly improved 6-month functional outcomes and reduced mortality",
+          "B": "No significant benefit of early surgery for death or disability at 6 months",
+          "C": "Early surgery benefited all ICH subtypes equally",
+          "D": "Early surgery was only beneficial for haematoma volumes > 60 mL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "STICH I found no significant benefit of early surgery (within 24 hours) vs initial conservative management on the primary outcome of death or disability at 6 months (OR 0.89, 95% CI 0.66-1.19, P=0.41). Neither survival nor functional outcome was significantly improved by early surgical craniotomy. Post-hoc subgroup analysis suggested possible benefit for superficial haematomas (< 1 cm from cortical surface), which led to the STICH II trial — which also failed to show significant benefit for lobar ICH.",
+          "wrong": {
+            "A": "STICH I showed NO significant survival or functional benefit — surgery was not superior to conservative management.",
+            "C": "STICH I showed no benefit for any ICH subtype in its primary analysis. Subgroup analysis only suggested possible benefit for superficial location.",
+            "D": "No volume threshold for benefit was established by STICH I — the question of haematoma volume was not the key finding, and no volume subgroup showed clear surgical benefit."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — spontaneous supratentorial ICH: surgery not proven to improve outcomes (STICH I, STICH II); consider surgery for deteriorating patients or cerebeloso ICH",
+          "trial": "Mendelow AD et al. Early surgery vs initial conservative treatment in patients with spontaneous supratentorial intracerebral haematomas (STICH). Lancet 2005;365(9457):387-397: N=1033; OR 0.89, P=0.41; no significant benefit of early surgery; defined conservative management as first-line for most spontaneous supratentorial ICH",
+          "pearl": "STICH I: no benefit of early surgery for spontaneous supratentorial ICH. STICH II: no benefit for lobar ICH either. The STICH trials established that conservative medical management is the standard for most spontaneous supratentorial ICH. The exception: cerebeloso ICH ≥ 3 cm or with neurological deterioration = surgery indicated."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q4",
+        "stem": "A 75-year-old woman on warfarin (INR 3.2) presents with a sudden onset right-sided weakness and severe headache. CT shows a left putaminal ICH (28 mL) with IVH extension. She takes warfarin for AF. What is the most urgent intervention for anticoagulation reversal?",
+        "options": {
+          "A": "Fresh frozen plasma (FFP) 4 units",
+          "B": "4-factor prothrombin complex concentrate (4F-PCC) 25-50 IU/kg + IV Vitamin K",
+          "C": "Platelet transfusion 2 pools",
+          "D": "Idarucizumab 5 g IV"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "4-factor PCC (4F-PCC, e.g., Beriplex, Octaplex) is the standard-of-care reversal agent for VKA (warfarin)-associated ICH. It contains all four vitamin K-dependent clotting factors (II, VII, IX, X) and proteins C and S, achieving rapid INR normalisation (target < 1.3) within 30 minutes — far faster than FFP (which requires 2-4 hours and large volumes). Additionally, IV Vitamin K (5-10 mg) provides sustained reversal by restoring hepatic clotting factor synthesis. The combination of 4F-PCC (immediate) + Vitamin K (sustained) is the AHA/ASA 2022 standard for warfarin reversal in ICH.",
+          "wrong": {
+            "A": "FFP takes 2-4 hours to thaw and transfuse, requires volume (4 units = approximately 1000 mL) and carries transfusion risks, and may not fully correct INR in elderly patients. 4F-PCC is significantly faster, more effective, and better tolerated.",
+            "C": "Platelet transfusion is for patients with thrombocytopenia or documented platelet dysfunction. Este paciente is on warfarin — her primary coagulopathy is factor deficiency, not platelet dysfunction. The PATCH trial showed platelet transfusion worsens outcomes in antiplatelet-associated ICH.",
+            "D": "Idarucizumab is the specific reversal agent for dabigatran — a direct thrombin inhibitor. Este paciente is on warfarin (not dabigatran), so idarucizumab no está indicado."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — warfarin-associated ICH: 4F-PCC preferred over FFP (faster, more effective, less volume); IV Vitamin K 5-10 mg; target INR <1.3; Level I recommendation",
+          "trial": "Steiner T et al. European Stroke Organisation (ESO) guidelines for the management of ICH. Int J Stroke 2014;9:840-855: 4F-PCC vs FFP for VKA-ICH reversal; faster INR correction with PCC; 4F-PCC now standard of care worldwide",
+          "pearl": "Warfarin-ICH reversal: 4F-PCC + IV Vitamin K. 4F-PCC = immediate factor replacement (INR normal within 30 min). Vitamin K = sustained (6-12 hours). Diana INR < 1.3 urgently. Do NOT use FFP as primary agent (too slow, too much volume). Do NOT use platelet transfusion for warfarin-ICH (PATCH shows harm)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q5",
+        "stem": "A 70-year-old woman with hypertension presents with sudden onset headache, nausea, and truncal ataxia. CT shows a left cerebeloso haematoma of 3.5 cm diameter with compression of the 4th ventricle and early obstructive hydrocephalus. GCS is 14. ¿Cuál es el más apropiado management?",
+        "options": {
+          "A": "Conservative medical management with blood pressure control and close observation",
+          "B": "EVD placement alone to relieve hydrocephalus",
+          "C": "Emergency suboccipital craneotomía for haematoma evacuation",
+          "D": "Stereotactic aspiration of the cerebeloso haematoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Cerebellar ICH ≥ 3 cm with 4th ventricle compression and hydrocephalus meets the AHA/ASA 2022 surgical criteria: emergency suboccipital craniotomy for haematoma evacuation. Unlike supratentorial ICH (where STICH trials showed no surgical benefit), cerebellar ICH with these features requires surgical treatment to prevent brainstem compression and fatal herniation. The posterior fossa has extremely limited volume tolerance — a 3.5 cm haematoma compressing the 4th ventricle can cause rapid brainstem deterioration from direct compression and obstructive hydrocephalus.",
+          "wrong": {
+            "A": "Conservative management es apropiado for cerebeloso ICH < 3 cm without compression or hydrocephalus. Este paciente's haematoma is 3.5 cm with 4th ventricular compression and hydrocephalus — surgical criteria are met. Conservative management risks rapid deterioration and death.",
+            "B": "EVD alone for cerebeloso haematoma with 4th ventricle compression risks upward transtentorial herniation — the pressure differential created by supratentorial drenaje de LCR causes the cerebellum to herniate upward. Always combine EVD with posterior fossa decompression or proceed directly to suboccipital craneotomía.",
+            "D": "Stereotactic aspiration of a cerebeloso haematoma is technically possible but inferior to open craneotomía for urgent decompression with 4th ventricle compression. Open surgery allows more complete haematoma removal and direct tronco encefálico decompression."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — cerebeloso ICH ≥3 cm OR neurological deterioration OR tronco encefálico compression OR hydrocephalus: surgical evacuation Level I recommendation",
+          "trial": "Kirollos RW et al. Manejo of spontaneous cerebeloso haematomas. J Neurol Neurosurg Psychiatry 2001;71(1):9-13: surgical benefit for cerebeloso ICH ≥3 cm with compression; outcome significantly better with surgery vs conservative; systematic review",
+          "pearl": "Cerebellar ICH surgery rule: diameter ≥ 3 cm OR tronco encefálico compression OR hydrocephalus = emergency suboccipital craneotomía. Unlike supratentorial ICH (no proven surgical benefit — STICH), cerebeloso ICH surgery is clearly beneficial. Never place EVD alone without posterior fossa decompression — risk of upward herniation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q6",
+        "stem": "The CLEAR III trial (Hanley, Lancet 2017) studied intraventricular rtPA for IVH from ICH. What was the primary finding?",
+        "options": {
+          "A": "Intraventricular rtPA significantly improved modified Rankin Scale ≤ 3 at 180 days",
+          "B": "No significant difference in mRS ≤ 3 at 180 days, but rtPA reduced mortality and accelerated clot clearance",
+          "C": "Intraventricular rtPA significantly worsened outcomes due to rebleeding",
+          "D": "Intraventricular rtPA had no effect on clot volume or clinical outcomes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CLEAR III found: intraventricular rtPA (1 mg q8h, max 12 doses via EVD) significantly accelerated IVH clot removal on CT and reduced EVD dependency, BUT the primary outcome — mRS ≤ 3 at 180 days — was NOT significantly different (48% rtPA vs 45% placebo, P=0.30). However, mortality was significantly reduced (17% vs 24%, P=0.04). More rtPA-treated survivors were in vegetative state or with severe disability alongside more with good outcome — rtPA shifted the distribution without overall improvement in the primary functional outcome. Post-hoc: IVH volume ≥ 20 mL subgroup showed significant benefit.",
+          "wrong": {
+            "A": "The primary outcome (mRS ≤ 3) was NOT significantly improved — P=0.30. CLEAR III failed to achieve its primary endpoint.",
+            "C": "Intraventricular rtPA did NOT worsen outcomes and did NOT increase symptomatic rebleeding significantly — safety was acceptable. The issue was lack of primary efficacy, not safety.",
+            "D": "Intraventricular rtPA DID significantly reduce clot volume and EVD duration — it worked technically. The failure was translation to clinical functional improvement at the primary endpoint level."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — IVH management: intraventricular fibrinolysis reasonable for obstructive IVH (Level IIb, Grado B-R); CLEAR III as primary evidence",
+          "trial": "Hanley DF et al. Thrombolysis with alteplase for intraventricular haemorrhage in patients with IVH from ICH (CLEAR III). Lancet 2017;389(10069):603-611: N=500; primary mRS ≤3 NS (P=0.30); mortality 17% vs 24% (P=0.04); clot clearance accelerated",
+          "pearl": "CLEAR III: intraventricular rtPA reduces clot and mortality but doesn't significantly improve functional independence at 180 days overall. Key nuance: IVH ≥20 mL subgroup shows benefit. AHA/ASA 2022 considers it reasonable (Level IIb) for large obstructive IVH. CLEAR III primary endpoint failed — but secondary endpoints support selective use."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q7",
+        "stem": "Una mujer de 68 años on aspirin 75 mg/day presents with a spontaneous lobar parietal ICH (20 mL). Her antiplatelet management is questioned. The PATCH trial findings should influence which decision?",
+        "options": {
+          "A": "Platelet transfusion is beneficial and should be administered immediately",
+          "B": "Platelet transfusion should NOT be administered — PATCH trial showed it WORSENS outcomes",
+          "C": "Platelet transfusion should be given only if platelet count < 100,000/μL",
+          "D": "PATCH trial supports platelet transfusion for lobar ICH on aspirin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The PATCH trial (de Gans, Lancet 2016, N=190) randomised ICH patients on antiplatelet therapy to platelet transfusion vs no transfusion. Result: platelet transfusion significantly WORSENED outcomes — death or dependence at 3 months: 72% transfusion vs 58% standard care (OR 2.05, 95% CI 1.18-3.56, P=0.006). The mechanism may involve increased platelet activation promoting oedema and microvascular occlusion, or simply the transfusion reaction itself. AHA/ASA 2022 now classifies platelet transfusion for antiplatelet-associated ICH as Class III Harm (contraindicated) unless platelet count is very low or surgical intervention is planned.",
+          "wrong": {
+            "A": "PATCH showed platelet transfusion WORSENS outcomes — it está contraindicado for routine antiplatelet-associated ICH management.",
+            "C": "The contraindication is not conditional on platelet count — PATCH included patients with normal platelet counts on antiplatelet therapy. Thrombocytopenia is a separate clinical scenario.",
+            "D": "PATCH trial specifically showed HARM from platelet transfusion in antiplatelet-associated ICH — the opposite of the suggested answer."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — platelet transfusion in antiplatelet-associated ICH: Class III Harm (contraindicated); based on PATCH trial evidence",
+          "trial": "de Gans K et al. Platelet transfusion versus standard care for acute spontaneous intracerebral haemorrhage in patients taking antiplatelet therapy (PATCH): a randomised, open-label, phase 3 trial. Lancet 2016;387(10038):2605-2613: N=190; death/dependence 72% transfusion vs 58% standard (OR 2.05, P=0.006); platelet transfusion WORSENS outcomes — contraindicated",
+          "pearl": "PATCH trial: platelet transfusion for antiplatelet-associated ICH = HARMFUL (OR 2.05 for death/dependence). Do NOT transfuse platelets for ICH on antiplatelets unless platelet count is critically low or urgent surgery planned. This is Class III Harm in AHA/ASA 2022. The intuitive clinical approach (transfuse to reverse antiplatelet effect) is WRONG according to level I evidence."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q8",
+        "stem": "A 45-year-old man on dabigatran 150 mg BD for AF presents with a right talámico ICH (15 mL). Last dabigatran dose was 4 hours ago. Which es el más apropiado reversal agent?",
+        "options": {
+          "A": "4-factor PCC 50 IU/kg",
+          "B": "Idarucizumab 5 g IV",
+          "C": "Andexanet alfa high-dose bolus",
+          "D": "Fresh frozen plasma 4 units"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Dabigatran is a direct thrombin inhibitor (DTI). Idarucizumab (Praxbind) is the specific humanised antibody fragment that binds dabigatran with 350x greater affinity than thrombin, immediately and completely neutralising its anticoagulant effect. Dose: 5 g IV (two 2.5 g vials sequentially). The RE-VERSE AD trial (NEJM 2015, N=503) showed idarucizumab achieved immediate complete reversal in > 98% of patients. For dabigatran reversal in ICH: idarucizumab is the first-line, specific agent.",
+          "wrong": {
+            "A": "4F-PCC contains factors II, VII, IX, X — these are the vitamin K-dependent factors depleted by warfarin. Dabigatran does not affect these factors (it inhibits thrombin directly). 4F-PCC does not reverse dabigatran.",
+            "C": "Andexanet alfa is the specific reversal agent for factor Xa inhibitors (apixaban, rivaroxaban, edoxaban) — NOT for dabigatran (a DTI). Incorrect drug-class matching.",
+            "D": "FFP contains all clotting factors including thrombin. Sin embargo, dabigatran inhibits thrombin activity regardless of thrombin concentration — adding more thrombin via FFP does not overcome direct thrombin inhibition. FFP is not effective for dabigatran reversal."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — DOAC reversal in ICH: dabigatran = idarucizumab; factor Xa inhibitors = andexanet alfa; Level I recommendation for specific reversal agents",
+          "trial": "Pollack CV et al. Idarucizumab for dabigatran reversal — full cohort analysis (RE-VERSE AD). NEJM 2017;377(5):431-441: idarucizumab reverses dabigatran in >98% within minutes; median time to reversal <15 min; safe and effective in ICH and surgical emergencies",
+          "pearl": "DOAC reversal specificity: dabigatran (DTI) = idarucizumab. Factor Xa inhibitors (apixaban/rivaroxaban/edoxaban) = andexanet alfa. Warfarin = 4F-PCC + Vitamin K. Matching the reversal agent to the specific drug class is essential — the wrong reversal agent does nothing. Never give 4F-PCC for dabigatran."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q9",
+        "stem": "The ICH score is calculated for a patient: GCS 6 (score 2), ICH volume 35 mL (score 1), intraventricular extension present (score 1), supratentorial location (score 0), age 75 (score 1). What is this patient's ICH score and approximate 30-day mortality?",
+        "options": {
+          "A": "ICH score 4; 30-day mortality ~97%",
+          "B": "ICH score 5; 30-day mortality ~100%",
+          "C": "ICH score 3; 30-day mortality ~72%",
+          "D": "ICH score 2; 30-day mortality ~26%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICH score calculation: GCS 3-4=2, GCS 5-12=1, GCS 13-15=0. This patient GCS 6 = score 1 (not 2 — GCS 6 is in the 5-12 range). Wait: GCS 3-4 = score 2; GCS 5-12 = score 1; GCS 13-15 = score 0. GCS 6 is in 5-12 range = score 1. ICH volume ≥30 mL = score 1 (35 mL qualifies). IVH = score 1. Supratentorial = score 0 (infratentorial = 1, supratentorial = 0). Age ≥80 = score 1; age <80 = score 0 (patient is 75 = score 0). Total = 1+1+1+0+0 = 3. ICH score 3 = ~72% 30-day mortality.",
+          "wrong": {
+            "A": "ICH score 4 would require a total of 4 points. The correct calculation gives ICH score 3 (GCS 5-12=1, volume ≥30mL=1, IVH=1, supratentorial=0, age<80=0). Puntuación 4 = 97% mortality applies to a different point total.",
+            "B": "ICH score 5 = 100% — the maximum score (GCS 3-4=2, volume≥30=1, IVH=1, infratentorial=1, age≥80=1). Este paciente does not reach score 5.",
+            "D": "ICH score 2 = 26% mortality. This would require only 2 points — this patient has 3 points."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — ICH score for outcome prediction: validated prognostic tool; score 3 = ~72% mortality; should not solely guide early withdrawal of care decisions",
+          "trial": "Hemphill JC et al. The ICH Puntuación: a simple, reliable grading scale for intracerebral hemorrhage. Stroke 2001;32(4):891-897: original ICH score development; validated prospectively; 0=0% to 5=100% mortality; widely adopted internationally",
+          "pearl": "ICH score components: GCS (3-4=2pts, 5-12=1pt, 13-15=0pts) + volume ≥30 mL (1pt) + IVH (1pt) + infratentorial (1pt) + age ≥80 (1pt). Maximum = 6 pts. Puntuación 3 = ~72% 30-day mortality. The ICH score is prognostic, not prescriptive — it should not automatically determine care withdrawal decisions (early pessimism can be self-fulfilling)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q10",
+        "stem": "The INTERACT2 trial (NEJM 2013) evaluated intensive BP lowering in spontaneous ICH. What was the primary finding and what is the current AHA/ASA 2022 recommendation for acute BP management?",
+        "options": {
+          "A": "Diana SBP < 180 mmHg — intensive reduction caused excess stroke",
+          "B": "Diana SBP < 140 mmHg is safe and may improve functional outcomes",
+          "C": "Diana SBP < 110 mmHg — the most intensive protocol achieved best outcomes",
+          "D": "No BP lowering should be attempted in the first 24 hours"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "INTERACT2 (NEJM 2013, N=2839) randomised ICH patients with SBP 150-220 mmHg to intensive BP lowering (SBP < 140 mmHg within 1 hour) vs guideline-based (< 180 mmHg). Primary outcome: death/major disability at 90 days — NOT significant (56% vs 52%, P=0.06). Secondary ordinal analysis of mRS showed significantly better functional outcomes with intensive BP lowering (OR 0.87, P=0.04). Safety was acceptable — no excess ischaemic events. AHA/ASA 2022 recommends: SBP 150-220 mmHg = lower to < 140 mmHg within 2 hours (Level IIa, Grade B). Note: ATACH-II tested SBP < 110 mmHg vs < 140 mmHg and showed NO further benefit and more renal events with the more intensive target — establishing 140 mmHg as the lower limit of the safe target.",
+          "wrong": {
+            "A": "Diana < 180 mmHg is the OLD conservative target. INTERACT2 established that < 140 mmHg is safe and likely beneficial. The < 180 mmHg target is no longer recommended as the primary acute target.",
+            "C": "ATACH-II tested SBP < 110 mmHg vs < 140 mmHg and showed NO additional benefit and more adverse renal events with the ultra-intensive target. < 110 mmHg is NOT recommended.",
+            "D": "BP lowering IS recommended in the acute phase — the AHA/ASA 2022 recommendation is to target SBP < 140 mmHg within 2 hours for patients presenting with SBP 150-220 mmHg."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — acute BP management: SBP 150-220 mmHg = target <140 mmHg within 2 hours (Level IIa); INTERACT2 + ATACH-II as evidence base; avoid SBP <130 mmHg",
+          "trial": "Anderson CS et al. Rapid blood-pressure lowering in patients with acute ICH (INTERACT2). NEJM 2013;368(25):2355-2365: intensive BP (<140 vs <180): primary outcome NS but ordinal secondary outcome significantly better (OR 0.87, P=0.04); established <140 mmHg as current target",
+          "pearl": "ICH BP management: INTERACT2 established SBP target < 140 mmHg. ATACH-II showed < 110 mmHg provides no additional benefit (more renal harm). Current AHA/ASA 2022: lower SBP to < 140 mmHg within 2 hours for presenting SBP 150-220 mmHg. The window is 130-140 mmHg maintenance target."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q11",
+        "stem": "A 55-year-old man with right-sided chronic subdural haematoma (15 mm thick, significant midline shift, headaches, left hemiparesis) is referred for surgery. Which technique is most appropriate for initial management?",
+        "options": {
+          "A": "Craniotomy with dural excision",
+          "B": "Burr hole drainage with closed drainage system",
+          "C": "Stereotactic aspiration",
+          "D": "Dexamethasone alone — avoid surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Chronic subdural haematoma drainage via burr hole (one or two burr holes with closed drainage system — subdural drain for 24-48 hours) is the standard surgical treatment for symptomatic cSDH with significant thickness (>10 mm) and mass effect. Burr hole drainage under local anaesthesia achieves evacuation of the liquefied haematoma capsule with low morbidity (< 1% mortality, 5-10% recurrence). Craniotomy is reserved for recurrent, multiloculated, or organised/calcified cSDH. The standard technique: single/double burr holes, irrigation with warm saline, placement of a subdural Jackson-Pratt or Blake drain for 24-48 hours with the head kept flat (to allow re-expansion of compressed brain).",
+          "wrong": {
+            "A": "Craniotomy with dural excision (similar to meningioma approach) es excesivo for a first presentation cSDH. Craniotomy is reserved for recurrent or multiloculated cSDH that cannot be adequately drained via orificio de trépanos.",
+            "C": "Stereotactic aspiration is used for some deep parenchymal haematomas — not standard for cSDH which is a subdural liquefied collection accessible via orificio de trépano. Stereotactic approach adds unnecessary complexity.",
+            "D": "Dexamethasone has been studied for cSDH management (DAST trial, Brain 2020 — no significant benefit for non-surgical cSDH); it is not an appropriate substitute for surgery in a symptomatic patient with significant mass effect."
+          },
+          "guideline": "EBSNS Guidelines for cSDH Manejo 2020 — orificio de trépano drainage standard; single or double orificio de trépanos with closed drainage; craneotomía for recurrent/multiloculated; local anaesthesia preferred in elderly",
+          "trial": "Santarius T et al. Usar of drain versus no drain after burr-hole evacuation of chronic subdural haematoma. Lancet 2009;374(9695):1067-1073: drain vs no drain RCT: drain significantly reduces recurrence (9.3% vs 24.3%, P=0.003); closed drainage standard after orificio de trépano evacuation",
+          "pearl": "Chronic SDH surgery: orificio de trépano + closed drain (24-48 hours). Drain reduces recurrence from 24% to 9% (Santarius, Lancet 2009). Craniotomy for recurrent, multiloculated, or calcified cSDH. Dexamethasone has no proven role in symptomatic cSDH requiring surgery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q12",
+        "stem": "The FAST trial (NEJM 2008) evaluated recombinant Factor VIIa (rFVIIa) for spontaneous ICH. What was the critical safety finding that led to its non-recommendation?",
+        "options": {
+          "A": "rFVIIa caused dangerous cerebral venous thrombosis",
+          "B": "rFVIIa significantly reduced haematoma growth but increased ARTERIAL thromboembolic events (MI/stroke)",
+          "C": "rFVIIa had no effect on haematoma growth",
+          "D": "rFVIIa caused fatal coagulopathy in 15% of patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The FAST trial (Mayer et al., NEJM 2008, N=841) found: rFVIIa (80 μg/kg) significantly reduced haematoma growth at 24 hours (haematoma expansion: 11% vs 26% placebo, P<0.001) compared to placebo. However, rFVIIa significantly increased arterial thromboembolic events — myocardial infarction and ischaemic stroke — without improving 90-day clinical outcomes (death/disability was similar). This safety concern (converting one type of vascular event to another, possibly more lethal arterial events) led to the conclusion that rFVIIa should not be used routinely for spontaneous ICH. AHA/ASA 2022 classifies routine rFVIIa for spontaneous ICH as Class III Harm.",
+          "wrong": {
+            "A": "Cerebral venous thrombosis was not the specific safety signal — arterial thromboembolism (MI and ischaemic stroke) was the concern identified in FAST.",
+            "C": "rFVIIa DID significantly reduce haematoma growth (the mechanism worked) — the problem was the arterial thromboembolism without clinical outcome benefit.",
+            "D": "Fatal coagulopathy was not identified — the paradox was that rFVIIa works too well in some vascular beds, causing arterial clotting."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — rFVIIa: Class III Harm (not recommended) for spontaneous ICH due to arterial thromboembolic events without clinical benefit (FAST trial)",
+          "trial": "Mayer SA et al. Efficacy and safety of recombinant activated factor VII for acute intracerebral haemorrhage (FAST). NEJM 2008;358(20):2127-2137: N=841; haematoma growth reduced (11% vs 26%, P<0.001); no significant clinical outcome benefit; arterial thromboembolic events significantly increased; established Class III Harm recommendation",
+          "pearl": "rFVIIa paradox in ICH: it reduces haematoma growth (mechanism works) but increases arterial thromboembolism (MI, stroke) without improving clinical outcomes. FAST trial = Class III Harm. Never use rFVIIa routinely for spontaneous ICH. Contrastar with its appropriate use in haemophilia and specific surgical bleeding."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q13",
+        "stem": "An 80-year-old woman has a spontaneous left parieto-occipital lobar ICH. MRI shows multiple cortical and subcortical microhaemorrhages, leptomeningeal siderosis, and the acute haematoma. She is not on anticoagulants. What is the most likely underlying diagnosis explaining this pattern?",
+        "options": {
+          "A": "Hypertensive small vessel disease",
+          "B": "Cerebral amyloid angiopathy (CAA)",
+          "C": "Cavernous malformation with recurrent haemorrhage",
+          "D": "Dural arteriovenous fistula"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cerebral amyloid angiopathy (CAA) is characterised by: (1) Lobar haemorrhage (cortical/subcortical — NOT deep putaminal/thalamic which are hypertensive), (2) Multiple cortical microhaemorrhages ('bleed and brew' pattern) on MRI SWI/GRE, (3) Leptomeningeal superficial siderosis (haemosiderin deposits along cortical surface), (4) Elderly patient (> 65-70 years), (5) No hypertension or deep small vessel disease pattern. CAA-related haemorrhage recurrence rate is 10-15%/year. The Boston criteria (revised 2022) establish the diagnosis based on MRI and pathological findings. Avoid antithrombotic therapy in CAA patients if possible.",
+          "wrong": {
+            "A": "Hypertensive small vessel disease causes haemorrhages in DEEP locations (putamen, thalamus, pons, cerebellum) and se asocia con white matter changes (leucoaraiosis), lacunar infarcts, and deep microhaemorrhages — NOT the cortical/lobar pattern with leptomeningeal siderosis described here.",
+            "C": "Cavernous malformation causes repeated haemorrhage from a single lesion with a 'popcorn' appearance on MRI (hemosiderina rim, mixed signal blood products) — not multiple cortical microhaemorrhages with superficial siderosis.",
+            "D": "Dural AVF with cortical venous drainage can cause lobar haemorrhage but se asocia con dilated cortical veins on angiography and does not explain the pattern of multiple microhaemorrhages and superficial siderosis."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — Boston criteria (revised 2022) for CAA diagnosis; CAA = lobar haemorrhage + cortical microhaemorrhages + superficial siderosis in elderly; no specific treatment but avoid anticoagulation",
+          "trial": "Greenberg SM et al. Modified Boston criteria for clinical diagnosis of cerebral amyloid angiopathy. NEJM 2022;386(9):869-877: revised diagnostic criteria; MRI SWI/GRE for microhaemorrhage detection; CAA biomarkers; management principles",
+          "pearl": "CAA vs hypertensive ICH differentiation: CAA = lobar (cortical/subcortical), elderly, cortical microhaemorrhages + superficial siderosis on SWI. Hypertensive = DEEP (putamen/thalamus/pons/cerebellum), hypertension history, white matter changes. Location is the key differentiator."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q14",
+        "stem": "During a craneotomía for acute right subdural haematoma evacuation, after clot removal the brain is found to be markedly swollen and the 'malignant brain' immediately herniates through the craneotomía defect. ¿Cuál es el más apropiado intraoperative response?",
+        "options": {
+          "A": "Reduce the craneotomía opening to 'protect' the herniated brain",
+          "B": "Decompressive craniectomía and dural expansion with a patch graft",
+          "C": "Infuse mannitol and close the dura tightly",
+          "D": "Abandon surgery and transfer to ICU"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intraoperative 'malignant brain swelling' after ASDH evacuation is a catastrophic complication where the previously compressed hemisphere herniates through the craniotomy defect after the haematoma decompresses — often reflecting significant underlying parenchymal injury (contusion, ischaemia). The immediate surgical response is conversion to decompressive craniectomy with dural expansion patch grafting (pericranium, artificial dura, or synthetic substitute). This prevents constriction of the herniated brain tissue by the bone edge, allows further expansion, and provides the only chance of ICP control. Attempting to close the dura over the swollen brain or reduce the opening would cause cortical strangulation.",
+          "wrong": {
+            "A": "Reducing the craneotomía opening while the brain is herniated would strangulate the herniated cortex — causing additional infarction on top of the existing injury. This is the worst possible option.",
+            "C": "Closing the dura tightly over a malignantly swollen brain is not possible — the brain cannot be reduced back into the cranial vault. Tight cierre dural would create a tourniquet effect causing further ischaemia.",
+            "D": "Abandoning surgery with the brain exposed and herniated no es apropiado — the patient would have complete brain necrosis from cortical strangulation."
+          },
+          "guideline": "EBSNS ASDH Manejo Guidelines — intraoperative malignant swelling: conversion to decompressive craniectomía + dural expansion; pericranial patch graft; standard rescue procedure",
+          "trial": "Cooper DJ et al. DECRA context — post-ASDH evacuation brain swelling requiring DC: well-recognised clinical scenario; DC with dural expansion vs attempted primary closure: DC standard of care for intraoperative malignant swelling",
+          "pearl": "Intraoperative malignant brain swelling after ASDH evacuation = convert to decompressive craniectomía + dural expansion patch. This is a pre-planned contingency for any ASDH evacuation — always have dural substitute available. Attempting to close over malignant swelling causes cortical strangulation and death."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q15",
+        "stem": "A 60-year-old man on rivaroxaban for AF presents with a left talámico ICH. His last rivaroxaban dose was 8 hours ago. ¿Cuál es el más apropiado anticoagulation reversal strategy?",
+        "options": {
+          "A": "4-factor PCC 50 IU/kg",
+          "B": "Idarucizumab 5 g IV",
+          "C": "Andexanet alfa (high-dose protocol for rivaroxaban > 10 hours prior)",
+          "D": "Andexanet alfa (low-dose protocol for last dose < 8 hours)"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Rivaroxaban is a factor Xa inhibitor. Andexanet alfa is the specific reversal agent for factor Xa inhibitors (apixaban, rivaroxaban, edoxaban). The dosing protocol distinguishes: LOW-dose andexanet alfa for apixaban ≤5 mg or rivaroxaban ≤10 mg, or either drug taken > 8 hours before; HIGH-dose protocol for rivaroxaban > 10 mg or taken ≤ 8 hours before. This patient's last rivaroxaban dose was 8 hours ago — on the boundary; the low-dose protocol applies for doses taken ≤ 8 hours (borderline). In practice, for doses within 8 hours in ICH emergency, the high-dose protocol is used to ensure adequate reversal. The specific classification of low/high dose is based on last dose timing and dose amount.",
+          "wrong": {
+            "A": "4F-PCC does not specifically reverse factor Xa inhibitors. It may provide some haemostatic support but is not the approved reversal agent for rivaroxaban.",
+            "B": "Idarucizumab is the reversal agent for dabigatran (direct thrombin inhibitor) — NOT for rivaroxaban or other factor Xa inhibitors.",
+            "C": "The high-dose protocol applies for rivaroxaban taken ≤ 8 hours before (or > 10 mg dose regardless of timing). The last dose 8 hours ago is at the boundary — 8 hours is the threshold. For the exam: rivaroxaban last dose < 8 hours = high dose; > 8 hours or ≤ 10 mg dose = low dose. The specific answer depends on exact protocol — the key concept is andexanet alfa for factor Xa inhibitors."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — andexanet alfa for factor Xa inhibitor reversal in ICH: FDA approved; high-dose vs low-dose based on drug dose and timing",
+          "trial": "Connolly SJ et al. Andexanet alfa for acute major bleeding associated with factor Xa inhibitors (ANNEXA-4). NEJM 2019;380(14):1326-1335: andexanet alfa reverses anti-Xa activity by 92% (apixaban) and 92% (rivaroxaban) within minutes; haemostatic efficacy 82%; ICH cohort included",
+          "pearl": "Factor Xa inhibitor (apixaban/rivaroxaban/edoxaban) reversal = andexanet alfa. High-dose protocol: rivaroxaban within 8 hours or > 10 mg. Low-dose protocol: > 8 hours or ≤ 10 mg rivaroxaban. Apixaban: ≤ 5 mg or > 8 hours = low dose. ANNEXA-4 trial established its efficacy. Dabigatran = idarucizumab. Warfarin = 4F-PCC + Vitamin K. Know the three drug-reversal pairings."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q16",
+        "stem": "A patient's CT head shows a fresh hyperdense temporal EDH immediately after injury. GCS is 14. CT criteria: 20 mL volume, 8 mm thickness, 3 mm midline shift. There is no neurological deterioration from baseline. What is the appropriate management?",
+        "options": {
+          "A": "Immediate emergency craneotomía — all EDH require surgery",
+          "B": "Conservative management with close neurological monitoring and repeat CT in 6-8 hours",
+          "C": "Burr hole drainage of the EDH",
+          "D": "Gamma Knife radiosurgery for the EDH"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Small EDH (< 30 mL) with thickness < 15 mm, shift < 5 mm, and GCS ≥ 14 without neurological deterioration can be managed conservatively with very close neurological monitoring and repeat CT at 6-8 hours. This reflects the BTF EBSNS surgical criteria: surgery is indicated for EDH volume > 30 mL OR thickness > 15 mm OR shift > 5 mm OR any GCS deterioration. This patient's EDH (20 mL, 8 mm, 3 mm shift, GCS 14, no deterioration) does not meet surgical criteria. However, meticulous monitoring is essential — EDH can expand rapidly and any change in neurological status requires emergency repeat CT.",
+          "wrong": {
+            "A": "Not all EDH require surgery — the BTF criteria define specific thresholds. A 20 mL, 8 mm thick EDH with GCS 14 and no deterioration is below the surgical threshold.",
+            "C": "Burr hole drainage no es apropiado for EDH (arterial blood, under pressure) — EDH requires full craneotomía for adequate haemostasis. The question is whether surgery is indicated, not the surgical technique.",
+            "D": "Gamma Knife is used for vascular malformations and tumours — it has no role in acute haematoma management."
+          },
+          "guideline": "BTF/EBSNS EDH Guidelines — surgical threshold: volume >30 mL OR thickness >15 mm OR midline shift >5 mm OR GCS <9; conservative management with monitoring for EDH below these thresholds",
+          "trial": "Bullock MR et al. Surgical management of epidural hematomas (Neurosurgery 2006) — review of criteria: 30 mL/15 mm/5 mm threshold; conservative management outcomes for small EDH; high vigilance for expansion mandatory",
+          "pearl": "EDH surgical criteria (BTF): volume > 30 mL OR thickness > 15 mm OR shift > 5 mm OR GCS < 9 OR deterioration = surgery. Below these thresholds = conservative with intensive monitoring and repeat CT. ANY neurological deterioration immediately triggers CT and likely surgery. EDH is the most time-critical haematoma."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q17",
+        "stem": "Pontine haemorrhage in a 62-year-old hypertensive man: GCS 5, bilateral pinpoint pupils, bilateral extensor posturing, core temperature 39°C. CT shows a 4 cm pontino haematoma extending into the tegmentum. ¿Cuál es el más apropiado management?",
+        "options": {
+          "A": "Emergency posterior fossa craneotomía for haematoma evacuation",
+          "B": "Immediate EVD placement for hydrocephalus prevention",
+          "C": "Intensive supportive care, blood pressure control, and early goals-of-care discussion",
+          "D": "Endoscopic evacuation of the pontino haematoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Large pontine haemorrhage (> 3 cm, tegmental involvement, bilateral symptoms) carries extremely poor prognosis (mortality > 80% for large pontine ICH) and surgical intervention is generally not beneficial and not feasible due to the surgically inaccessible location within the brainstem. Medical management: BP control (SBP target < 140 mmHg per AHA/ASA 2022), airway management, temperature control (hyperthermia worsens secondary injury). Early goals-of-care discussion with family is essential given the grim prognosis. Hydrocephalus from 4th ventricular obstruction may require EVD but is not the primary management choice — intensive supportive care and prognostication are.",
+          "wrong": {
+            "A": "Posterior fossa craneotomía for pontino haematoma is not feasible — the pons is surgically inaccessible without catastrophic morbidity. Surgery is only indicated for cerebeloso haematomas (not pontino). Attempting posterior fossa craneotomía for pontino ICH would cause death.",
+            "B": "EVD alone without addressing the underlying mass effect in the posterior fossa may be appropriate if obstructive hydrocephalus is a significant contributor, but it is not the primary management focus for a primary pontino haematoma.",
+            "D": "Endoscopic evacuation of a pontino haematoma is not currently a validated technique and would carry prohibitive risks from tronco encefálico manipulation."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — pontino haematoma: no surgical benefit; intensive supportive care; early goals-of-care discussion for large pontino ICH; mortality >80% for haematoma >3 cm with tegmental involvement",
+          "trial": "Menon RS et al. Resultados in patients with tronco encefálico haemorrhage. J Neurol Neurosurg Psychiatry 2015 — large pontino ICH: 30-day mortality >70%; no surgical intervention modifies outcome; palliative care discussion essential",
+          "pearl": "Pontine haemorrhage ≥ 3 cm with bilateral signs (pinpoint pupils, bilateral extensor posturing) = extremely poor prognosis (>80% mortality). Surgery is NOT indicated — the pons is surgically inaccessible. Key clinical features: pinpoint pupils (pontino sympathetics), hyperthermia (reticular formation), bilateral motor signs. Early goals-of-care discussion is the critical management step."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q18",
+        "stem": "A 68-year-old man falls and sustains a head injury. Initial GCS is 14. CT shows a 12 mm left chronic subdural haematoma with 2 mm midline shift. He is on aspirin 75 mg/day and has mild headache. No limb weakness or cognitive impairment. ¿Cuál es el más apropiado management?",
+        "options": {
+          "A": "Emergency orificio de trépano drainage immediately",
+          "B": "Observation with repeat neuroimaging; consider elective surgery if growth or symptoms develop",
+          "C": "Dexamethasone 8 mg IV — corticosteroids effective for chronic SDH",
+          "D": "Craniotomy for complete cSDH membrane removal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 12 mm asymptomatic (only mild headache, no focal deficits, minimal shift) chronic SDH can be managed with observation and repeat imaging. Conservative management is appropriate for: small cSDH (< 10-15 mm), minimal shift (< 5 mm), no significant neurological symptoms, and GCS ≥ 14. Observation with MRI at 4-6 weeks and clinical reassessment is standard. Burr hole surgery is appropriate for symptomatic cSDH (weakness, confusion, significant headache from mass effect) or growing cSDH on serial imaging — not warranted for this patient's minimal presentation.",
+          "wrong": {
+            "A": "Emergency orificio de trépano drainage is for symptomatic cSDH with significant mass effect (> 10-15 mm, shift > 5 mm, focal deficits). Este paciente has only mild headache with no deficits — emergency surgery is disproportionate.",
+            "C": "Dexamethasone for cSDH is not evidence-based — the DAST trial (2020) showed no significant benefit of dexamethasone for non-surgical cSDH at 12 months. Steroids are not a substitute for observation or surgery.",
+            "D": "Craniotomy for complete membrane removal is an escalated intervention reserved for recurrent or multiloculated cSDH that cannot be managed with orificio de trépanos — completely inappropriate for a first-presentation, minimally symptomatic 12 mm cSDH."
+          },
+          "guideline": "EBSNS cSDH Guidelines 2020 — cSDH management: symptomatic or >10-15 mm or >5 mm shift = orificio de trépano surgery; asymptomatic, small, stable = observe with repeat imaging",
+          "trial": "DAST trial (Hutchinson et al. Brain 2020) — dexamethasone vs placebo for non-surgical cSDH: no significant improvement in mRS at 6 months; steroid-related complications in treatment group; steroids not evidence-based for cSDH",
+          "pearl": "cSDH conservative management criteria: < 10-15 mm, < 5 mm shift, no significant neurological symptoms, GCS ≥ 14. Observe with repeat imaging at 4-6 weeks. Burr hole surgery for symptomatic, growing, or large cSDH. Dexamethasone has no proven role (DAST trial negative)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q19",
+        "stem": "Which characteristic most reliably distinguishes a hypertensive talámico haemorrhage from a lobar ICH due to cerebral amyloid angiopathy on MRI?",
+        "options": {
+          "A": "Presence of surrounding vasogenic oedema",
+          "B": "Size of the haematoma",
+          "C": "Location (deep vs lobar/cortical) + pattern of microhaemorrhages on SWI",
+          "D": "Enhancement with gadolinium"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Location is the most reliable distinguishing feature: hypertensive ICH occurs in deep structures (putamen/external capsule most common, then thalamus, pons, cerebellum), reflecting small penetrating artery disease; CAA-related ICH is lobar (cortical/subcortical), predominantly frontal, parietal, and occipital regions. Additionally, the pattern of microhaemorrhages on MRI SWI/GRE provides pathognomonic distinction: deep microhaemorrhages (basal ganglia, thalamus, brainstem, cerebellum) = hypertensive arteriopathy; cortical/juxtacortical microhaemorrhages + superficial siderosis = CAA (Boston criteria 2022).",
+          "wrong": {
+            "A": "Vasogenic oedema can occur with both hypertensive and CAA-related haemorrhage — it is not a distinguishing feature between the two.",
+            "B": "Haematoma size overlaps between hypertensive and CAA-related ICH — small haemorrhages occur with both conditions, and large haemorrhages occur with both. Size is not a reliable differentiator.",
+            "D": "Gadolinium enhancement is not a reliable differentiator — both hypertensive and CAA-related ICH can show enhancement around the haematoma (blood-brain barrier breakdown), and primary enhancement is not expected in either."
+          },
+          "guideline": "AHA/ASA ICH Guidelines 2022 — CAA vs hypertensive ICH: location (lobar vs deep) and MRI SWI microhaemorrhage pattern; Boston criteria (revised 2022) incorporate MRI biomarkers",
+          "trial": "Greenberg SM et al. Modified Boston criteria for CAA. NEJM 2022;386:869-877: cortical microhaemorrhages + superficial siderosis = CAA; deep microhaemorrhages = hypertensive arteriopathy; MRI SWI/GRE as standard diagnostic tool",
+          "pearl": "CAA vs Hypertensive ICH on imaging: location is key. CAA = lobar (cortical/subcortical) + cortical microhaemorrhages + superficial siderosis (SWI). Hypertensive = deep (putamen/thalamus/pons/cerebellum) + deep microhaemorrhages + white matter changes (leucoaraiosis). Both benefit from similar medical management but CAA carries higher recurrence risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q20",
+        "stem": "A patient develops bilateral fixed dilated pupils during ICU management for severe TBI. ICP is 62 mmHg (monitor is functioning). Which immediate sequence of interventions is most appropriate?",
+        "options": {
+          "A": "Withdraw care — bilateral fixed dilated pupils indicate brain death",
+          "B": "Simultaneously: hyperventilate to PaCO2 30 mmHg + mannitol 1g/kg + drain CSF via EVD + prepare for emergency decompressive craniectomía",
+          "C": "Give high-dose dexamethasone and continue observation",
+          "D": "Administer phenobarbitone barbiturate coma alone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bilateral fixed dilated pupils in a TBI patient with ICP 62 mmHg represents bilateral transtentorial herniation — a life-threatening emergency. The correct response is simultaneous maximal medical ICP reduction (emergency bridge measures) combined with immediate preparation for surgical decompression: (1) emergency hyperventilation to PaCO2 30 mmHg (acceptable for acute herniation bridge — 15-30 minutes), (2) mannitol 1 g/kg IV bolus, (3) maximal EVD drainage, (4) emergency DC preparation. Bilateral fixed pupils may still be reversible if decompression is achieved rapidly. Brain death cannot be declared based on pupillary findings alone — formal brain death criteria require a specific clinical and confirmatory test protocol.",
+          "wrong": {
+            "A": "Bilateral fixed dilated pupils do NOT equal brain death — they indicate severe herniation, which may be reversible with emergency decompression. Brain death requires absence of all tronco encefálico reflexes including apnoea testing ± confirmatory test. Do NOT withdraw care based on pupils alone without formal brain death assessment.",
+            "C": "Dexamethasone is absolutely contraindicated in TBI (CRASH trial Level I). Using steroids in this emergency is lethal.",
+            "D": "Barbiturate coma as a sole intervention takes time to establish and does not address the acute herniation emergency. Simultaneous multimodal rescue and emergency surgery preparation are required."
+          },
+          "guideline": "BTF 4th Edition 2016 — acute herniation: emergency multimodal ICP reduction + preparation for DC; bilateral fixed pupils = herniation NOT brain death; hyperventilation bridge acceptable in this scenario",
+          "trial": "RESCUEicp 2016 (Hutchinson NEJM) — acute ICP crisis > 25 mmHg refractory to all medical tiers: DC reduces mortality; bilateral fixed pupils = highest priority for DC consideration even though prognosis is poor",
+          "pearl": "Bilateral fixed dilated pupils in TBI = herniation emergency, NOT brain death. Treat maximally: emergency hyperventilation + mannitol + EVD drainage + prepare for DC. Brain death requires complete absence of ALL tronco encefálico reflexes + apnoea test ± confirmatory tests — pupils alone are insufficient for brain death diagnosis. Some patients with bilateral fixed pupils SURVIVE with emergency decompression."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

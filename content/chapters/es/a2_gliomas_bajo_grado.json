@@ -1,0 +1,628 @@
+{
+  "id": "A2",
+  "title": "Gliomas de Bajo Grado: IDH, 1p/19q y Estrategia Quirúrgica",
+  "subtitle": "Neuro-Oncología — clasificación WHO 2021, astrocitoma vs oligodendroglioma, debate sobre extensión de resección, vorasidenib",
+  "block": "A",
+  "block_name": "Neuro-Oncología",
+  "level": "R2-4",
+  "reading_time_min": 42,
+  "guidelines_version": "EANS 2024 / NCCN CNS Tumors v1.2024 / EANO 2021 / SNO 2023",
+  "textbook_refs": [
+    "Youmans and Winn Neurological Surgery, 8th ed. (2023)",
+    "Louis DN et al. WHO Classification of Tumours of the CNS, 5th ed. (2021)",
+    "van den Bent MJ et al. Ensayo CATNON. Lancet 2017;390:813-823",
+    "Buckner JC et al. RTOG 9802. NEJM 2016;374:1344-1355"
+  ],
+  "learning_objectives": [
+    "Aplicar los criterios moleculares WHO 2021 para clasificar con precisión los gliomas de bajo grado como astrocitoma IDH-mutante u oligodendroglioma IDH-mutante con codeleción 1p/19q",
+    "Describir el significado pronóstico de la mutación IDH y la codeleción 1p/19q en los gliomas de bajo grado",
+    "Evaluar la evidencia a favor y en contra de la cirugía agresiva precoz versus la actitud expectante en gliomas de bajo grado",
+    "Resumir los resultados del ensayo fundamental RTOG 9802 y el tratamiento adyuvante actual para gliomas de grado 2 con factores de riesgo",
+    "Explicar el mecanismo de los inhibidores de IDH y los resultados del ensayo INDIGO con vorasidenib",
+    "Identificar los factores de riesgo de transformación maligna y las estrategias de seguimiento para gliomas de bajo grado"
+  ],
+  "sections": [
+    {
+      "id": "A2-S1",
+      "title": "Clasificación WHO 2021 de los Gliomas de Bajo Grado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **clasificación WHO 2021** ha reestructurado fundamentalmente la nosología de los gliomas de bajo grado, situando los marcadores moleculares en la posición diagnóstica primaria. La clasificación WHO actual reconoce dos entidades principales dentro de los gliomas infiltrantes de bajo grado (grados 2-3): el **astrocitoma IDH-mutante** (grados 2, 3 y 4) y el **oligodendroglioma IDH-mutante con codeleción 1p/19q** (grados 2 y 3). Un cambio clave respecto a la WHO 2016 es la eliminación del 'astrocitoma difuso IDH wild-type grado 2' como diagnóstico válido — cualquier tumor astrocítico difuso IDH wild-type con la firma molecular del GBM (mutación TERT + amplificación EGFR + +7/-10) se clasifica ahora como GBM IDH wild-type grado 4, mientras que los que son IDH wild-type sin características moleculares de GBM pueden representar gliosis reactiva, astrocitoma pilocítico u otra entidad completamente diferente.\n\nLas **mutaciones IDH** (predominantemente IDH1 R132H en aproximadamente el 90% de los gliomas IDH-mutantes, e IDH2 R172K en aproximadamente el 10%) son el evento definitorio en la génesis del glioma de bajo grado. IDH codifica la isocitrato deshidrogenasa, y la mutación R132H genera una enzima neomórfica que convierte el alfa-cetoglutarato en 2-hidroxiglutarato (2-HG), un oncometabolito que inhibe TET2 y las histona desmetilasas, conduciendo al fenotipo hipermetilador conocido como **CIMP (CpG island methylator phenotype)**. Las mutaciones IDH son eventos moleculares tempranos — probablemente iniciadores — en los gliomas de bajo grado, que ocurren en células progenitoras neurales. Los gliomas IDH-mutantes aparecen en adultos jóvenes (mediana de edad 35-45 años), son más frecuentemente frontales y tienen un pronóstico sustancialmente mejor que el GBM IDH wild-type.\n\nEl segundo marcador molecular crítico es la **codeleción 1p/19q** — la pérdida combinada del brazo corto del cromosoma 1 y el brazo largo del cromosoma 19 [translocación t(1;19)(q10;p10)]. La codeleción 1p/19q define el **oligodendroglioma** cuando se combina con la mutación IDH, y se correlaciona con un contexto molecular específico que incluye la mutación del promotor TERT y la mutación CIC. La combinación de mutación IDH + codeleción 1p/19q identifica un tumor con un pronóstico notablemente mejor (mediana de SG 14 años para el grado 2) y sensibilidad específica a la quimioterapia. Por el contrario, la **mutación IDH + pérdida de ATRX (± mutación TP53) + 1p/19q intacta** define el **astrocitoma IDH-mutante**. El contexto molecular específico ATRX/TP53 representa una biología tumoral completamente diferente a pesar de la histología similar."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación de Gliomas de Bajo Grado WHO 2021 — Criterios Diagnósticos Moleculares",
+          "headers": ["Diagnóstico", "Estado IDH", "1p/19q", "ATRX", "Otros marcadores", "SG mediana (grado 2)"],
+          "rows": [
+            ["Oligodendroglioma IDH-mutante, codeleción 1p/19q", "Mutante (IDH1 o IDH2)", "Codelecionada", "Conservado (normal)", "TERT mutante, CIC mutante, FUBP1 mutante", "~14 años"],
+            ["Astrocitoma IDH-mutante, grado 2", "Mutante (IDH1 o IDH2)", "Intacta", "Perdido (expresión nuclear ausente)", "TP53 mutante (60-80%)", "~10 años"],
+            ["Astrocitoma IDH-mutante, grado 3", "Mutante", "Intacta", "Perdido", "Posible amplificación CDK4/6", "~5-6 años"],
+            ["Astrocitoma IDH-mutante, grado 4", "Mutante", "Intacta", "Perdido", "Deleción homocigota CDKN2A/B", "~3-4 años"],
+            ["GBM IDH wild-type, grado 4", "Wild-type", "Intacta", "Conservado", "TERT mutante, amplificación EGFR, +7/-10", "~14-16 meses"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — La Pérdida de ATRX es la Firma del Astrocitoma",
+          "content": "En un glioma IDH-mutante con 1p/19q intacta, la pérdida de ATRX (tinción nuclear ausente en IHC) es el marcador definitorio del astrocitoma IDH-mutante. ATRX codifica una proteína de remodelación de la cromatina; su pérdida activa la vía ALT (alargamiento alternativo de los telómeros). La triada de mutación IDH + pérdida de ATRX + 1p/19q intacta = astrocitoma. La combinación de mutación IDH + codeleción 1p/19q (ATRX conservado) = oligodendroglioma."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Glioma IDH Wild-Type de 'Bajo Grado'",
+          "content": "Un tumor astrocítico difuso en un adulto que es IDH wild-type debe desencadenar un perfil molecular (TERT, EGFR, +7/-10). Si está presente la triada molecular del GBM, es un GBM grado 4 independientemente de la morfología de bajo grado. Si el perfil molecular no es diagnóstico de GBM, considere re-biopsia (error de muestreo) o diagnósticos alternativos (astrocitoma pilocítico, xantoastrocitoma pleomórfico, gliosis reactiva). Tratar un GBM molecular como 'glioma de bajo grado' es un error crítico con importantes consecuencias pronósticas y terapéuticas."
+        }
+      ]
+    },
+    {
+      "id": "A2-S2",
+      "title": "Estrategia Quirúrgica: Resección Precoz vs. Diferida",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La estrategia quirúrgica óptima para los gliomas de bajo grado (GBG) sigue siendo una de las preguntas más debatidas en neuro-oncología. Las opciones van desde la **biopsia sola** (para el diagnóstico) hasta la **resección máxima segura** (resección total macroscópica). El enfoque tradicional de 'vigilar y esperar' tras la biopsia ha sido ampliamente abandonado en favor de la cirugía precoz, basándose en la evidencia convergente de que el grado de resección en GBG se correlaciona con una mejor SG, una transformación maligna más tardía y una menor carga de epilepsia.\n\nEl estudio fundamental de Jakola et al. (JAMA 2012) — un estudio de cohorte noruego basado en la población que comparó la cirugía precoz con la biopsia/observación inicial — demostró una ventaja significativa en SG para la cirugía precoz (mediana de SG no alcanzada vs 5,9 años; HR 0,55; p=0,037). Fundamentalmente, la cirugía precoz NO se asoció con tasas más altas de déficits neurológicos permanentes. Este estudio, aunque observacional, cambió fundamentalmente la práctica hacia la resección máxima segura precoz.\n\nEstudios volumétricos posteriores han cuantificado la relación entre el GR y los resultados en GBG. La supervivencia a 5 años fue del 80% para la resección total macroscópica vs 52% para la resección incompleta en una gran serie (Smith et al., JNS 2008, n=216). Un análisis más detallado mostró que cada aumento del 10% en el GR reducía el riesgo de transformación maligna y mejoraba la SG. El concepto 'oncológicamente seguro' introducido por Duffau — cuyo objetivo es la resección máxima segura guiada por cartografía funcional — es ahora el paradigma en la mayoría de los centros expertos.\n\nSin embargo, la **localización** limita fundamentalmente el objetivo quirúrgico. Los GBG que se producen en regiones elocuentes (corteza del lenguaje, corteza motora primaria, tálamo, ínsula) requieren un enfoque individualizado. La ínsula es la localización más frecuente de GBG en región elocuente, y la resección insular transilviana con craneotomía en paciente despierto con cartografía cortical y subcortical permite una resección segura de hasta el 90% del volumen tumoral. La **resección supramarginal** — extirpar la anomalía FLAIR más allá del aparente borde tumoral — está en investigación en GBG y puede reducir aún más el riesgo de transformación maligna, ya que las células tumorales infiltrantes dentro del halo FLAIR representan el verdadero reservorio tumoral."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — El Glioma de Bajo Grado Insular",
+          "content": "Aproximadamente el 25% de los GBG afectan a la ínsula, la localización en región elocuente más frecuente. Los GBG insulares a menudo se presentan con epilepsia (en el 80-90% de los casos) con escasos déficits neurológicos en el momento de la presentación, creando una falsa sensación de estabilidad clínica. El abordaje transilviano en paciente despierto de Duffau con estimulación eléctrica directa permite la resección de más del 90% del volumen tumoral con una tasa de déficit permanente <5%. La observación/biopsia sola en GBG insulares conduce inevitablemente al crecimiento y la transformación maligna — la resección agresiva precoz es el manejo correcto en manos expertas."
+        }
+      ]
+    },
+    {
+      "id": "A2-S3",
+      "title": "Tratamiento Adyuvante: RTOG 9802 y el Papel de la Quimioterapia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El papel del tratamiento adyuvante en los gliomas de bajo grado fue definido por el ensayo fundamental **RTOG 9802** (Buckner et al., NEJM 2016), que incluyó a pacientes con glioma de grado 2 de alto riesgo (edad ≥40 años o edad <40 años con resección subtotal) y los aleatorizó a RT sola vs RT seguida de 6 ciclos de quimioterapia PCV (procarbazina, CCNU/lomustina, vincristina). El ensayo demostró un notable beneficio en supervivencia para RT + PCV: mediana de SG 13,3 años vs 7,8 años (HR 0,59; IC 95% 0,42-0,83; p=0,003). La SG a 10 años fue del 60% para RT + PCV vs 40% para RT sola. De manera crucial, un análisis molecular retrospectivo planificado confirmó que el beneficio fue más pronunciado en los **gliomas IDH-mutantes** (especialmente el subtipo oligodendroglioma con codeleción 1p/19q), mientras que los gliomas IDH wild-type no se beneficiaron de la adición de PCV. Este estudio estableció RT + PCV como tratamiento adyuvante estándar para gliomas IDH-mutantes de grado 2 de alto riesgo.\n\nEl **ensayo CATNON** (van den Bent, Lancet 2017 y actualización Lancet 2021) abordó específicamente los gliomas IDH-mutantes sin codeleción 1p/19q (astrocitoma IDH-mutante grado 2 y 3) en un diseño factorial 2×2 que comparaba temozolomida concurrente con RT y temozolomida adyuvante tras RT. El análisis final de CATNON mostró que la **TMZ adyuvante** (12 ciclos tras RT) mejoró significativamente la SG en gliomas IDH-mutantes no codelecionados (HR 0,65; p=0,003), mientras que la TMZ concurrente no proporcionó ningún beneficio adicional sobre la RT sola. Esto estableció RT seguida de 12 ciclos de TMZ adyuvante como estándar para el astrocitoma IDH-mutante grado 2-3.\n\nPara el **oligodendroglioma** específicamente, los ensayos EORTC 26951 (van den Bent, JCO 2006) y RTOG 9402 (Cairns, JCO 2006) establecieron que RT + PCV prolonga significativamente la SG vs RT sola en oligodendrogliomas con codeleción 1p/19q, con beneficios en SG a 14 años reportados en el subgrupo molecular. La quimioterapia PCV (a pesar de su perfil de toxicidad incluyendo neuropatía por vincristina y toxicidad hematológica) sigue siendo la preferida sobre TMZ en oligodendroglioma basándose en datos maduros de supervivencia."
+        },
+        {
+          "type": "table",
+          "title": "Recomendaciones de Tratamiento Adyuvante para Gliomas de Bajo Grado",
+          "headers": ["Diagnóstico", "Categoría de Riesgo", "Estándar de Tratamiento", "Ensayo Clave", "SG Mediana"],
+          "rows": [
+            ["Oligodendroglioma IDH-mutante codeleción 1p/19q, grado 2", "Alto riesgo (edad ≥40 o RST)", "RT (54 Gy) + PCV (6 ciclos)", "RTOG 9802, EORTC 26951, RTOG 9402", "~14 años"],
+            ["Oligodendroglioma IDH-mutante codeleción 1p/19q, grado 3", "Todos", "RT (60 Gy) + PCV (6 ciclos)", "EORTC 26951 (van den Bent 2006)", "~14 años"],
+            ["Astrocitoma IDH-mutante, grado 2", "Alto riesgo", "RT (54 Gy) + TMZ adyuvante (12 ciclos)", "RTOG 9802 + CATNON", "~10 años"],
+            ["Astrocitoma IDH-mutante, grado 3", "Todos", "RT (60 Gy) + TMZ adyuvante (12 ciclos)", "CATNON (van den Bent 2017/2021)", "~5-6 años"],
+            ["Astrocitoma IDH-mutante, grado 4", "Todos", "RT (60 Gy) + TMZ (similar al Stupp)", "Extrapolado de CATNON + datos GBM", "~3-4 años"],
+            ["Grado 2 de bajo riesgo (edad <40, RTM)", "Bajo riesgo", "RT ± quimioterapia u observación", "RTOG 9802 (brazo de bajo riesgo: observación)", "~10+ años con observación"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — RTOG 9802: RT+PCV es el Estándar para el Glioma de Grado 2 de Alto Riesgo",
+          "content": "RTOG 9802 (Buckner, NEJM 2016) es el ensayo definitivo para el glioma de grado 2 de alto riesgo. RT + 6 ciclos PCV mejoró significativamente la SG vs RT sola: mediana 13,3 vs 7,8 años (HR 0,59; p=0,003). El análisis de subgrupos confirmó el beneficio específicamente en tumores IDH-mutantes (especialmente codelecionados 1p/19q). Este beneficio en SG de 5,5 años es uno de los mayores efectos terapéuticos en neuro-oncología y estableció PCV como la quimioterapia compañera para el GBG."
+        }
+      ]
+    },
+    {
+      "id": "A2-S4",
+      "title": "Inhibidores de IDH: El Ensayo INDIGO y Vorasidenib",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La identificación de las mutaciones IDH como eventos conductores en los gliomas de bajo grado abrió una ventana terapéutica directa: la inhibición dirigida de la enzima IDH mutante. El **ivosidenib** (inhibidor de IDH1) y el **enasidenib** (inhibidor de IDH2) fueron aprobados inicialmente para la leucemia mieloide aguda IDH-mutante. El **vorasidenib** — un inhibidor dual IDH1/IDH2 con mayor penetración en el SNC — fue desarrollado específicamente para el glioma.\n\nEl **ensayo INDIGO** (Mellinghoff et al., NEJM 2023) fue el ensayo pivotal de fase III que evaluó vorasidenib en pacientes con glioma IDH-mutante WHO grado 2 (astrocitoma u oligodendroglioma) que habían completado una cirugía previa pero no habían recibido RT ni quimioterapia. Los pacientes fueron aleatorizados a vorasidenib 40 mg al día vs placebo. El ensayo demostró una mejora significativa en la **supervivencia libre de progresión**: SLP mediana de 27,7 meses vs 11,1 meses con vorasidenib vs placebo (HR 0,39; IC 95% 0,24-0,62; p<0,001). El beneficio en SLP fue consistente en los subgrupos IDH1 e IDH2 mutantes. El fármaco fue generalmente bien tolerado, siendo la elevación de ALT la toxicidad principal de grado 3 (9% en el brazo de vorasidenib).\n\nBasándose en INDIGO, el vorasidenib recibió la **aprobación de la FDA en agosto de 2024** para el glioma IDH-mutante de grado 2. Esto representa la primera terapia dirigida aprobada para esta enfermedad y la primera nueva opción de tratamiento sistémico para gliomas no GBM en décadas. El fármaco se administra tras la cirugía, antes de la RT o quimioterapia convencional, ofreciendo un enfoque que ahorra quimioterapia, especialmente relevante para pacientes jóvenes preocupados por la toxicidad a largo plazo. La solicitud a la EMA estaba bajo revisión a partir de 2024.\n\nEs importante comprender el mecanismo: el vorasidenib inhibe la enzima IDH mutante, reduciendo la producción de 2-hidroxiglutarato (2-HG), revirtiendo los cambios epigenéticos mediados por CIMP y promoviendo la diferenciación de las células tumorales. No elimina el tumor pero lo estabiliza y puede revertir el potencial maligno epigenético. Combinado con la conocida larga historia natural del glioma IDH-mutante de grado 2, el vorasidenib proporciona una justificación para una opción sin radiación ni quimioterapia en el manejo postquirúrgico precoz de estos tumores."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Ensayo INDIGO: Vorasidenib para Glioma IDH-Mutante Grado 2",
+          "content": "INDIGO (Mellinghoff, NEJM 2023) demostró que vorasidenib redujo el riesgo de progresión en un 61% vs placebo en glioma IDH-mutante grado 2 (SLP mediana 27,7 vs 11,1 meses; HR 0,39; p<0,001). Aprobado por la FDA en agosto de 2024. Es la primera terapia dirigida para glioma no GBM. Clave: vorasidenib inhibe tanto IDH1 como IDH2, tiene alta penetración en el SNC y puede usarse antes de radioterapia/quimioterapia en la fase postquirúrgica."
+        }
+      ]
+    },
+    {
+      "id": "A2-S5",
+      "title": "Transformación Maligna y Seguimiento",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Una característica definitoria de los gliomas de bajo grado IDH-mutantes es su tendencia casi universal hacia la **transformación maligna** — progresión a grado WHO 3 o 4 con el tiempo. El riesgo de transformación maligna es función de múltiples factores: grado histológico (el grado 3 se transforma más rápidamente que el grado 2), subtipo molecular (el astrocitoma IDH-mutante se transforma más rápidamente que el oligodendroglioma), extensión de la resección previa (resección incompleta → mayor riesgo de transformación) y eventos moleculares adquiridos (deleción CDKN2A/B, mutación PIK3CA/PIK3R1, amplificación EGFR, alteraciones de la vía del retinoblastoma).\n\nLa mediana de tiempo hasta la transformación maligna es de aproximadamente 6-8 años para el astrocitoma IDH-mutante de grado 2 y de aproximadamente 10-15 años para el oligodendroglioma de grado 2. En la transformación, el remuestreo histológico y molecular es esencial: el tumor transformado puede adquirir nuevas alteraciones targetables (deleción homocigota de CDKN2A/B que asciende el astrocitoma a grado 4; eventos de amplificación focal; cambios en la metilación de MGMT). La **deleción homocigota de CDKN2A/B** es el evento molecular más frecuente que impulsa la progresión del astrocitoma a grado 4 en la WHO 2021.\n\nLa **RM de vigilancia** es la piedra angular del seguimiento. El protocolo típico para los gliomas IDH-mutantes de grado 2 es una RM cada 3-6 meses durante los primeros 2-3 años tras la cirugía, luego cada 6-12 meses si está estable. Los signos de transformación maligna incluyen: realce de contraste nuevo o creciente (generalmente el primer signo radiológico), velocidad de crecimiento acelerada (tiempo de duplicación del volumen tumoral radiológico <100 días), nueva difusión restringida y aumento de la perfusión (rCBV) en la RM de perfusión. Cuando se sospecha una transformación maligna, se recomienda la biopsia para guiar la intensificación del tratamiento."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Pasar por Alto los Signos Precoces de Transformación Maligna",
+          "content": "La transformación maligna en el glioma IDH-mutante puede presentarse inicialmente como un realce de contraste nuevo o creciente en una lesión previamente no captante. Esto puede ser sutil (realce nodular puntiforme) y debe desencadenar una reevaluación urgente. No atribuya el nuevo realce en un GBG previamente no captante a efecto del tratamiento sin confirmación biópsica. La transformación a grado 3 o 4 requiere intensificación del tratamiento — no reconocerla retrasa una terapia potencialmente prolongadora de la vida."
+        }
+      ]
+    },
+    {
+      "id": "A2-S6",
+      "title": "Manejo de las Crisis Epilépticas en Glioma de Bajo Grado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las crisis epilépticas son el síntoma de presentación más frecuente de los gliomas de bajo grado, ocurriendo en aproximadamente el 80-90% de los pacientes con GBG de los lóbulos frontal y temporal. Las crisis en GBG son causadas por la hiperexcitabilidad de la corteza peritumoral — impulsada por la liberación de glutamato del tumor, la regulación a la baja del receptor GABA y la expresión alterada de los canales iónicos — más que por la masa tumoral en sí. A diferencia de las crisis por metástasis corticales, la epilepsia asociada al GBG es a menudo refractaria a un único fármaco antiepiléptico (FAE).\n\nEl **FAE óptimo** para la epilepsia relacionada con el tumor cerebral es objeto de investigación activa. El **levetiracetam** es el agente de primera línea más ampliamente utilizado — no induce enzimas (evitando interacciones farmacocinéticas con agentes quimioterápicos), dispone de formulación IV para uso perioperatorio y tiene eficacia establecida en las crisis focales. Los FAE inductores de enzimas (fenitoína, carbamazepina, fenobarbital) se evitan porque aceleran el metabolismo de los corticosteroides, la temozolomida y la mayoría de las terapias dirigidas, reduciendo significativamente sus concentraciones plasmáticas. El **ácido valproico** tiene tanto propiedades FAE como posibles propiedades antitumorales (actividad como inhibidor de HDAC y posible sinergia con TMZ), pero la teratogenicidad limita su uso en mujeres en edad fértil.\n\nLa propia cirugía tiene un efecto antiepiléptico significativo: la resección total macroscópica del núcleo del GBG logra la libertad de crisis en aproximadamente el 70-80% de los pacientes. Este enfoque de 'cirugía oncológica de la epilepsia' es uno de los argumentos más poderosos para la resección máxima en GBG — independientemente del beneficio oncológico en supervivencia. Los corticosteroides (dexametasona) reducen el edema vasogénico y pueden reducir temporalmente la frecuencia de las crisis, pero no son FAE a largo plazo y tienen efectos secundarios significativos relacionados con los esteroides con el uso prolongado."
+        }
+      ]
+    },
+    {
+      "id": "A2-S7",
+      "title": "Pronóstico y Pronóstico Molecular Integrado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El pronóstico molecular integrado representa el enfoque moderno para la predicción de resultados en GBG. El **clasificador integrado de la EORTC** y la **clasificación de gliomas de bajo grado del TCGA (The Cancer Genome Atlas)** utilizan marcadores moleculares para definir grupos pronósticos. El modelo pronóstico más validado en los gliomas IDH-mutantes utiliza tres niveles: oligodendroglioma IDH-mutante (mejor pronóstico, mediana de SG ~14 años), astrocitoma IDH-mutante grado 2-3 (intermedio, mediana de SG 5-10 años) y astrocitoma IDH-mutante grado 4/GBM IDH wild-type (peor, mediana de SG <2 años).\n\nLos factores pronósticos independientes más potentes en los GBG IDH-mutantes son: (1) **codeleción 1p/19q** (favorable — biología de oligodendroglioma), (2) **grado WHO** (grado 2 > grado 3 > grado 4), (3) **extensión de la resección** (RTM > RST > biopsia), (4) **edad** (los más jóvenes tienen mejores resultados, con adultos jóvenes de 30 años con resultados sustancialmente mejores que los pacientes de 50), y (5) **estado de CDKN2A/B** (deleción homocigota = grado 4, muy desfavorable). Factores adicionales con significado pronóstico emergente incluyen las mutaciones adquiridas PIK3CA/PIK3R1 (riesgo de progresión), la metilación de MGMT (predictiva de respuesta a quimioterapia alquilante) y el índice de proliferación (Ki-67 >5% en grado 2 se asocia con mayor riesgo de transformación).\n\nEn cuanto a la calidad de vida, los pacientes con GBG a menudo viven muchos años tras el diagnóstico y se enfrentan a desafíos únicos a largo plazo: efectos cognitivos de la radioterapia (cambios en la sustancia blanca, deterioro de la memoria), neuropatía inducida por quimioterapia (componente de vincristina en PCV), disfunción endocrina (irradiación hipotalámico-hipofisaria en tumores frontales/temporales superiores) y adaptación psicosocial a vivir con un tumor cerebral crónico. La toma de decisiones compartida sobre el momento del tratamiento, el enfoque de la radioterapia (protones vs fotones) y la preservación de la fertilidad es especialmente importante en esta población de pacientes jóvenes."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Terapia con Protones en Pacientes Jóvenes con GBG",
+          "content": "La terapia con haz de protones (THP) ofrece una potencial ventaja sobre la RT con fotones convencional en GBG debido a su caída de dosis más pronunciada (pico de Bragg), reduciendo potencialmente el baño de baja dosis de radiación a las regiones cerebrales no diana. Este beneficio teórico es más relevante en pacientes jóvenes que vivirán suficiente tiempo para experimentar la toxicidad tardía de la radiación (lesión de sustancia blanca, deterioro cognitivo, neoplasias secundarias). Los ensayos sucesores de RTOG 0539 en curso y los registros europeos de GBG con protones están investigando los resultados neurocognitivos con THP. Hasta que los datos maduros de SG estén disponibles, la THP es una opción razonable en pacientes jóvenes con GBG en centros con capacidad protónica, especialmente para tumores en localización desfavorable cerca de estructuras críticas."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúe sus conocimientos sobre gliomas de bajo grado con 20 preguntas tipo examen de residencia.",
+    "questions": [
+      {
+        "id": "A2-Q1",
+        "stem": "Una mujer de 32 años presenta una primera crisis tonicoclónica generalizada. La RM muestra una lesión hiperintensa en T2/FLAIR no captante de 4 cm en el lóbulo frontal derecho. Se realiza biopsia estereotáctica. La patología muestra morfología astrocítica difusa sin mitosis, sin necrosis, sin proliferación microvascular. IDH1 R132H es positivo. ATRX está perdido. 1p/19q es intacta. ¿Cuál es el diagnóstico WHO 2021?",
+        "options": {
+          "A": "Oligodendroglioma IDH-mutante con codeleción 1p/19q, grado WHO 2",
+          "B": "Astrocitoma IDH-mutante, grado WHO 2",
+          "C": "Glioblastoma IDH wild-type, grado WHO 4",
+          "D": "Astrocitoma difuso IDH wild-type, grado WHO 2"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este es un astrocitoma IDH-mutante grado WHO 2. Los criterios diagnósticos WHO 2021 para el astrocitoma IDH-mutante requieren: mutación IDH (IDH1 R132H positivo), más evidencia de linaje astrocítico sobre oligodendroglial (la pérdida de ATRX confirma el linaje astrocítico — ATRX se conserva en el oligodendroglioma), y 1p/19q intacta (lo que excluye el oligodendroglioma). La ausencia de características histológicas de alto grado (sin mitosis, sin necrosis, sin proliferación microvascular) y presumiblemente sin deleción homocigota de CDKN2A/B confirma el grado 2.",
+          "wrong": {
+            "A": "El oligodendroglioma requiere mutación IDH MÁS codeleción 1p/19q. Este tumor tiene 1p/19q intacta y pérdida de ATRX — la firma definitoria del astrocitoma, no del oligodendroglioma.",
+            "C": "El GBM IDH wild-type requiere estado IDH wild-type. Este tumor es IDH1 R132H positivo (IDH-mutante), lo que excluye el GBM IDH wild-type.",
+            "D": "El astrocitoma difuso IDH wild-type no es una entidad reconocida en la WHO 2021 para adultos. Los tumores astrocíticos difusos IDH wild-type requieren pruebas moleculares para los criterios de GBM y, si son negativos, deben considerarse diagnósticos alternativos."
+          },
+          "guideline": "WHO CNS Tumours 5th ed. 2021: Criterios diagnósticos del astrocitoma IDH-mutante: mutación IDH + pérdida de ATRX (o mutación TP53) + 1p/19q intacta",
+          "trial": "Análisis de Glioma de Bajo Grado del TCGA (Cancer Cell 2015): Los clusters moleculares definen 3 grupos — IDH-mutante codelecionado (oligodendroglioma), IDH-mutante no codelecionado (astrocitoma), IDH wild-type (similar a GBM)",
+          "pearl": "Pérdida de ATRX = linaje astrocítico. ATRX conservado + mutación IDH + codeleción 1p/19q = oligodendroglioma. Estos dos no pueden coexistir — la pérdida de ATRX excluye el oligodendroglioma."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q2",
+        "stem": "Un varón de 38 años tiene un astrocitoma IDH-mutante grado 2 en el lóbulo frontal derecho, en región no elocuente. La RM muestra la lesión de 4 cm sin realce. Se logra una resección total macroscópica (>95% de la señal FLAIR extirpada) sin déficit neurológico. Tiene 38 años con KPS 100. ¿Cuál es el tratamiento adyuvante más apropiado según las guías actuales basadas en evidencia?",
+        "options": {
+          "A": "RT inmediata (54 Gy) + quimioterapia PCV independientemente de la edad",
+          "B": "Observación con RM cada 3-6 meses; tratamiento en la progresión",
+          "C": "Vorasidenib 40 mg al día (inhibidor IDH aprobado por la FDA)",
+          "D": "RT inmediata (54 Gy) + temozolomida adyuvante (12 ciclos)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este es un paciente con GBG de bajo riesgo: edad <40 años Y resección total macroscópica (ambos criterios cumplidos para la designación de bajo riesgo según RTOG 9802). El brazo de bajo riesgo del RTOG 9802 incluyó pacientes con edad <40 Y RTM y mostró excelentes resultados solo con observación (SLP a 10 años ~50%). Las guías actuales (EANO 2021, NCCN 2024) recomiendan observación para el glioma IDH-mutante de grado 2 de bajo riesgo tras RTM en pacientes jóvenes. El tratamiento adyuvante inmediato con RT + quimioterapia no está indicado en este contexto de bajo riesgo y expondría al paciente a toxicidad a largo plazo innecesaria (efectos cognitivos, neoplasias secundarias) sin un beneficio demostrado en SG en esta categoría de riesgo específica.",
+          "wrong": {
+            "A": "RT + PCV es apropiado para pacientes de alto riesgo (edad ≥40 O RST) según el RTOG 9802. Este paciente tiene <40 años Y tuvo RTM — la categoría de bajo riesgo donde la observación es apropiada.",
+            "C": "Vorasidenib está aprobado por la FDA para el glioma IDH-mutante de grado 2 tras la cirugía, pero se usa típicamente para pacientes que NO han recibido RT ni quimioterapia y tienen enfermedad residual o progresiva. Si debe usarse rutinariamente tras RTM en pacientes de bajo riesgo aún no está establecido en las guías.",
+            "D": "RT + TMZ adyuvante es apropiado para el astrocitoma IDH-mutante grado 2-3 en pacientes de alto riesgo (ensayo CATNON). Este es un paciente de bajo riesgo tras RTM, donde la observación es el enfoque basado en evidencia."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: GBG de grado 2 de bajo riesgo (edad <40 Y RTM): observación recomendada; alto riesgo (edad ≥40 O RST): RT + quimioterapia",
+          "trial": "RTOG 9802 (Buckner, NEJM 2016): Brazo de bajo riesgo (edad <40 + RTM): observación; brazo de alto riesgo: RT vs RT + PCV; SG a 10 años 60% vs 40% favoreciendo RT+PCV en alto riesgo",
+          "pearl": "GBG de bajo riesgo = edad <40 Y RTM: la observación es el enfoque basado en evidencia. GBG de alto riesgo = edad ≥40 O RST: RT adyuvante + quimioterapia. Esta estratificación de riesgo del RTOG 9802 es fundamental para el manejo del GBG."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q3",
+        "stem": "El ensayo INDIGO evaluó vorasidenib en glioma IDH-mutante de grado 2. ¿Cuál fue el resultado del criterio de valoración PRINCIPAL?",
+        "options": {
+          "A": "Mejora significativa de la supervivencia global en comparación con el placebo (HR 0,61; p=0,001)",
+          "B": "Mejora significativa de la supervivencia libre de progresión: 27,7 vs 11,1 meses con vorasidenib vs placebo (HR 0,39; p<0,001)",
+          "C": "Mejora de la tasa de respuesta objetiva (reducción tumoral) pero sin beneficio en SLP",
+          "D": "SLP equivalente al placebo, pero mejora de la calidad de vida y el control de síntomas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo INDIGO (Mellinghoff et al., NEJM 2023) aleatorizó a 331 pacientes con glioma WHO grado 2 IDH-mutante a vorasidenib 40 mg al día vs placebo tras cirugía previa (sin RT ni quimioterapia previas). El criterio de valoración principal fue la supervivencia libre de progresión: la SLP mediana se mejoró significativamente a 27,7 meses con vorasidenib vs 11,1 meses con placebo (HR 0,39; IC 95% 0,24-0,62; p<0,001). El criterio de valoración secundario de tiempo hasta la próxima intervención también favoreció al vorasidenib. Los datos de SG eran inmaduros. Vorasidenib recibió la aprobación de la FDA en agosto de 2024 basándose en estos resultados.",
+          "wrong": {
+            "A": "Los datos de SG eran inmaduros en el momento de la publicación y la SG no era un criterio de valoración principal. El beneficio en SLP con vorasidenib es la base para la aprobación de la FDA.",
+            "C": "Vorasidenib mostró un beneficio clínicamente significativo en SLP, no meramente una mejora de la tasa de respuesta objetiva. La tasa de respuesta fue relativamente baja ya que el mecanismo principal implica la estabilización de la enfermedad más que la reducción tumoral.",
+            "D": "INDIGO mostró claramente un beneficio significativo en SLP para vorasidenib — no fue equivalente al placebo."
+          },
+          "guideline": "Aprobación FDA agosto 2024: Vorasidenib (Voranigo) para astrocitoma u oligodendroglioma WHO grado 2 IDH-mutante tras cirugía, sin RT/quimio previa; NCCN CNS 2024 incluye vorasidenib",
+          "trial": "INDIGO (Mellinghoff, NEJM 2023): n=331, SLP mediana 27,7 vs 11,1 meses (HR 0,39; IC 95% 0,24-0,62; p<0,001); tiempo hasta próxima intervención HR 0,26 (p<0,001)",
+          "pearl": "El ensayo INDIGO estableció vorasidenib como la primera terapia dirigida para el glioma IDH-mutante de grado 2. Se administra tras la cirugía ANTES de RT/quimioterapia. El beneficio en SLP HR 0,39 representa una reducción del 61% en el riesgo de progresión. Aprobado por la FDA en agosto de 2024."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q4",
+        "stem": "Un varón de 35 años se somete a cirugía por un oligodendroglioma IDH-mutante con codeleción 1p/19q temporal izquierdo, grado WHO 2. Se logra una resección total macroscópica. Tiene 35 años. Pregunta qué quimioterapia se prefiere para este tipo de tumor, PCV o temozolomida. ¿Cuál es la respuesta correcta basada en la evidencia actual?",
+        "options": {
+          "A": "La temozolomida se prefiere sobre PCV debido a evidencia de supervivencia superior",
+          "B": "PCV se prefiere para el oligodendroglioma con codeleción 1p/19q basándose en RTOG 9802, EORTC 26951 y RTOG 9402 — los únicos ensayos con datos maduros de SG que demuestran beneficio en SG",
+          "C": "Tanto PCV como TMZ tienen beneficio equivalente en SG en oligodendroglioma basándose en ensayos directos",
+          "D": "La quimioterapia no está indicada en el oligodendroglioma de grado 2 independientemente de la edad"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PCV (procarbazina + CCNU + vincristina) se prefiere sobre temozolomida para el oligodendroglioma con codeleción 1p/19q basándose en los datos maduros de SG de RTOG 9802, EORTC 26951 y RTOG 9402. Estos son los únicos ensayos con datos de seguimiento a 10-15 años que muestran beneficio en SG en el subgrupo con codeleción 1p/19q. Ningún ensayo aleatorizado ha comparado directamente PCV con temozolomida en oligodendroglioma. Dado que PCV ha estado en uso durante décadas con datos probados de SG, sigue siendo el régimen preferido en este subtipo molecular según EANO 2021 y NCCN 2024.",
+          "wrong": {
+            "A": "La temozolomida NO ha demostrado ser superior a PCV en ningún ensayo aleatorizado directo. La evidencia de SG proviene específicamente de los ensayos que contienen PCV. La temozolomida se usa en la práctica por su tolerabilidad pero carece del mismo nivel de evidencia en SG.",
+            "C": "No existe ningún ensayo aleatorizado directo que compare PCV con TMZ en oligodendroglioma. Los datos de SG para PCV provienen de los principales ensayos aleatorizados; la TMZ se usa sin indicación en este contexto.",
+            "D": "Este es un paciente de alto riesgo según los criterios de RTOG 9802 — en realidad es de bajo riesgo con edad 35 y RTM. Sin embargo, la pregunta específica sobre la preferencia de quimioterapia si el tratamiento está indicado, y la respuesta es PCV."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: PCV preferido sobre TMZ para oligodendroglioma con codeleción 1p/19q cuando está indicada la quimioterapia adyuvante, basándose en datos maduros de SG de ensayos aleatorizados",
+          "trial": "RTOG 9402 (Cairns, JCO 2006): RT+PCV vs RT en oligodendroglioma anaplásico; SG a 14 años 14,7 vs 7,3 años en subgrupo con codeleción 1p/19q (HR 0,59)",
+          "pearl": "PCV > TMZ en oligodendroglioma — no basado en comparación directa, sino porque TODOS los datos maduros de SG provienen de ensayos con PCV. RTOG 9402 mostró una ventaja en SG de 7 años con RT+PCV en glioma con codeleción 1p/19q con seguimiento a 14 años. Prescriba PCV al tratar oligodendroglioma."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q5",
+        "stem": "El ensayo CATNON examinó el tratamiento de qué subgrupo molecular específico de glioma, y ¿cuál fue el hallazgo principal del análisis final?",
+        "options": {
+          "A": "Oligodendroglioma IDH-mutante con codeleción 1p/19q; la TMZ concurrente con RT mejoró la SG",
+          "B": "Glioma IDH-mutante sin codeleción 1p/19q (astrocitoma); la TMZ adyuvante tras RT mejoró significativamente la SG, mientras que la TMZ concurrente no añadió beneficio",
+          "C": "Glioma IDH wild-type; añadir TMZ a RT mejoró la supervivencia en todos los subgrupos",
+          "D": "Todos los gliomas de grado 3; la TMZ concurrente + adyuvante combinada mejoró la SG vs RT sola"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CATNON (van den Bent, Lancet 2017 y actualización 2021) fue un ensayo de diseño factorial 2×2 en gliomas IDH-mutantes sin codeleción 1p/19q (astrocitoma IDH-mutante grado 2-3) que comparó RT con TMZ concurrente vs sin TMZ concurrente, y TMZ adyuvante (12 ciclos) vs sin TMZ adyuvante. El análisis final mostró: la TMZ adyuvante mejoró significativamente la SG (HR 0,65; p=0,003) mientras que la TMZ concurrente NO proporcionó ningún beneficio adicional sobre la RT sola. Esto estableció RT seguida de 12 ciclos de TMZ adyuvante como estándar para el astrocitoma IDH-mutante.",
+          "wrong": {
+            "A": "CATNON fue para gliomas IDH-mutantes NO codelecionados (astrocitoma), no oligodendroglioma. El oligodendroglioma con codeleción 1p/19q fue específicamente EXCLUIDO de CATNON.",
+            "C": "CATNON fue específico para gliomas IDH-mutantes no codelecionados, no IDH wild-type. Los gliomas IDH wild-type también fueron excluidos.",
+            "D": "El diseño factorial 2×2 permitió separar los efectos de la TMZ concurrente vs adyuvante. La TMZ concurrente NO mejoró los resultados; solo la TMZ adyuvante (12 ciclos) mostró beneficio en SG."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: Astrocitoma IDH-mutante grado 2-3: RT + TMZ adyuvante (12 ciclos) — basado en el ensayo CATNON; TMZ concurrente NO recomendada para esta entidad",
+          "trial": "CATNON (van den Bent, Lancet 2017 intermedio; 2021 final): TMZ adyuvante HR 0,65 (p=0,003); TMZ concurrente HR 1,00 (p=0,97) — sin beneficio",
+          "pearl": "CATNON: TMZ adyuvante SÍ (12 ciclos post-RT, HR 0,65), TMZ concurrente NO (HR 1,00) en astrocitoma IDH-mutante no codelecionado. Este es el patrón opuesto al del GBM donde la TMZ concurrente es esencial."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q6",
+        "stem": "Un paciente con un glioma de bajo grado está siendo evaluado para determinar los marcadores moleculares que definen la transformación maligna del astrocitoma IDH-mutante grado 2 a grado 4. ¿Qué evento molecular se asocia MÁS específicamente con este ascenso de grado en la WHO 2021?",
+        "options": {
+          "A": "Adquisición de amplificación de EGFR",
+          "B": "Deleción homocigota de CDKN2A/B",
+          "C": "Pérdida de expresión de PTEN",
+          "D": "Mutación del promotor TERT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bajo la WHO 2021, el astrocitoma IDH-mutante grado 4 se define específicamente por la presencia de la deleción homocigota de CDKN2A/B (además de la mutación IDH y la pérdida de ATRX/mutación TP53). CDKN2A codifica p16 y p14ARF, ambos reguladores críticos del ciclo celular; su deleción homocigota aboga simultáneamente el control de las vías RB y p53. Este evento molecular específico define el grado 4 en el astrocitoma IDH-mutante, análogo a lo que la proliferación microvascular/necrosis define en el GBM IDH wild-type. Sin la deleción de CDKN2A/B, incluso los astrocitomas morfológicamente anaplásicos con mutación IDH siguen siendo grado 3.",
+          "wrong": {
+            "A": "La amplificación de EGFR es una característica definitoria del GBM IDH wild-type pero NO es el marcador molecular que define el grado 4 en el astrocitoma IDH-mutante. En el astrocitoma IDH-mutante, el grado 4 se define por la deleción homocigota de CDKN2A/B.",
+            "C": "La pérdida de PTEN es un evento frecuente en el GBM pero NO forma parte de los criterios de gradación WHO 2021 para el astrocitoma IDH-mutante.",
+            "D": "La mutación del promotor TERT es un evento temprano en el oligodendroglioma y en el GBM IDH wild-type, pero NO se usa para definir el ascenso de grado en el astrocitoma IDH-mutante."
+          },
+          "guideline": "WHO CNS Tumours 5th ed. 2021: Astrocitoma IDH-mutante grado 4 = mutación IDH + pérdida de ATRX + 1p/19q intacta + deleción homocigota de CDKN2A/B",
+          "trial": "Wick et al. Acta Neuropathol 2020: La deleción homocigota de CDKN2A/B en astrocitoma IDH-mutante se asocia con SG equivalente al GBM — base para la designación de grado 4 en la WHO 2021",
+          "pearl": "Deleción homocigota de CDKN2A/B = astrocitoma IDH-mutante grado 4 (WHO 2021). Este evento molecular asciende un tumor que de otro modo sería de grado 2-3 a grado 4, independientemente de las características histológicas. Pruebe CDKN2A/B por FISH o NGS en todos los astrocitomas IDH-mutantes."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q7",
+        "stem": "Una mujer de 40 años con un oligodendroglioma IDH-mutante insular derecho de grado 2 se presenta con crisis focales conscientes. Está preocupada por la cirugía en la región elocuente. ¿Qué abordaje quirúrgico ha demostrado lograr la máxima resección con la menor tasa de déficit neurológico permanente?",
+        "options": {
+          "A": "Biopsia estereotáctica — la resección de los gliomas insulares tiene tasas de déficit permanente inaceptablemente altas",
+          "B": "Craneotomía en paciente despierto con abordaje transilviano y cartografía cortical/subcortical directa",
+          "C": "Terapia térmica intersticial por láser (LITT) asistida por robot para tumores insulares",
+          "D": "Abordaje endoscópico transfrontal para evitar la incisión cortical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La craneotomía en paciente despierto con abordaje insular transilviano mediante cartografía con estimulación eléctrica directa (EED) es el abordaje quirúrgico estándar para los GBG insulares. Múltiples series de Duffau, Sanai y otros demuestran que este abordaje logra la resección total macroscópica (>90% GR) en la mayoría de los casos con una tasa de déficit neurológico permanente <5% (principalmente motor/lenguaje). La ínsula es accesible por la vía transilviana, y la EED despierta cartografía el lenguaje circundante (ínsula anterior — articulación) y las funciones motoras (ínsula posterior — orofacial) en tiempo real. La biopsia sola en GBG insular deja al paciente en riesgo de crecimiento continuo y transformación maligna sin beneficio en supervivencia.",
+          "wrong": {
+            "A": "La cirugía de glioma insular ha evolucionado drásticamente con las técnicas de craneotomía en paciente despierto. En centros expertos se pueden lograr tasas de déficit permanente <5%, haciendo de la biopsia sola una opción inferior.",
+            "C": "LITT (ablación térmica por láser) se usa para el tratamiento de pequeños tumores recurrentes profundos, epilepsia y necrosis por radiación, pero NO es estándar para la resección inicial de GBG. No proporciona tejido para análisis molecular y ofrece una citorreducción subóptima.",
+            "D": "No existe un abordaje 'endoscópico transfrontal' estándar para el glioma insular. La cirugía endoscópica se usa para tumores intraventriculares. El abordaje transilviano proporciona acceso directo a la ínsula con visualización óptima."
+          },
+          "guideline": "Guías EANS para Cirugía de GBG 2024: La craneotomía en paciente despierto con cartografía EED es el abordaje estándar para GBG en región elocuente; los GBG insulares deben manejarse en centros con experiencia en cirugía en paciente despierto",
+          "trial": "Duffau H et al. Neurosurgery 2014: Serie consecutiva de 115 GBG insulares; la cirugía en paciente despierto logró el 90% de GR en el 68% de los casos; <3% de déficit permanente; mejoría de la epilepsia en el 80%",
+          "pearl": "Los GBG insulares deben operarse en paciente despierto. El abordaje transilviano proporciona acceso sin incisión cortical. Ínsula anterior = habla (articulación vía fibras de la cápsula interna); ínsula posterior = motor orofacial. La cartografía subcortical EED define márgenes seguros. Tasa de déficit permanente <5% en centros expertos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q8",
+        "stem": "¿Qué fármaco antiepiléptico (FAE) es MÁS apropiado para el control de crisis de primera línea en un paciente con glioma de bajo grado que recibe quimiorradioterapia concurrente con temozolomida?",
+        "options": {
+          "A": "Fenitoína — la más efectiva para las crisis relacionadas con glioma con datos establecidos en tumores cerebrales",
+          "B": "Carbamazepina — la mejor evidencia para el control de crisis focales en epilepsia del lóbulo temporal",
+          "C": "Levetiracetam — no inductor enzimático, sin interacción farmacocinética con temozolomida ni corticosteroides",
+          "D": "Ácido valproico — preferido en mujeres en edad fértil por sus propiedades antitumorales como inhibidor de HDAC"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El levetiracetam es el FAE preferido para la epilepsia relacionada con tumor cerebral durante la quimiorradioterapia. Es un FAE no inductor enzimático (no afecta a las enzimas CYP450) y por lo tanto no altera el metabolismo de la temozolomida, los corticosteroides (dexametasona) ni los agentes anti-VEGF. Tiene eficacia establecida para las crisis focales, está disponible en formulación IV para uso perioperatorio y tiene un perfil de efectos secundarios relativamente favorable (efectos en el estado de ánimo/comportamiento en ~10% de los pacientes). Los FAE inductores enzimáticos (fenitoína, carbamazepina, fenobarbital) reducen significativamente las concentraciones plasmáticas de muchos fármacos co-administrados.",
+          "wrong": {
+            "A": "La fenitoína es un FAE inductor enzimático que acelera significativamente el metabolismo de la dexametasona, la temozolomida y varios agentes quimioterápicos, reduciendo su eficacia. Se evita específicamente en pacientes con quimioterapia concurrente.",
+            "B": "La carbamazepina también es un FAE inductor enzimático (potente inductor de CYP3A4) y comparte las mismas preocupaciones de interacción farmacocinética que la fenitoína. Se evita durante la quimioterapia.",
+            "D": "El ácido valproico tiene propiedades como inhibidor de HDAC y efectos antitumorales potencialmente sinérgicos con TMZ. Sin embargo, es teratogénico (defectos del tubo neural, síndrome fetal por valproato) y está contraindicado en mujeres en edad fértil. NO debe ser la primera opción en una mujer joven con GBG."
+          },
+          "guideline": "Guías EANO sobre Epilepsia Relacionada con Tumor Cerebral 2017 / NCCN CNS Tumors 2024: Levetiracetam recomendado como FAE de primera línea en pacientes con tumor cerebral; FAE inductores enzimáticos evitados durante la quimioterapia",
+          "trial": "van Breemen MS et al. Lancet Neurol 2009: Guías basadas en evidencia para el uso de FAE en pacientes con tumor cerebral; levetiracetam respaldado; FAE inductores enzimáticos (fenitoína, carbamazepina) contraindicados durante la quimioterapia",
+          "pearl": "El levetiracetam es el FAE de elección para la epilepsia relacionada con tumor cerebral. No inductor enzimático = sin inducción de CYP450 = sin interacciones farmacocinéticas con quimioterapia ni esteroides. Evite fenitoína, carbamazepina y fenobarbital (todos inductores enzimáticos) durante cualquier quimioterapia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q9",
+        "stem": "El estudio noruego basado en la población de Jakola et al. (JAMA 2012) comparó la cirugía precoz con la biopsia/vigilancia en gliomas de bajo grado sospechados. ¿Cuál fue la conclusión principal?",
+        "options": {
+          "A": "La cirugía precoz se asoció con peores resultados debido a las complicaciones quirúrgicas",
+          "B": "La cirugía agresiva precoz se asoció con una mejora significativa de la supervivencia global (HR 0,55) sin aumento de la tasa de déficit neurológico permanente",
+          "C": "La vigilancia mostró una SG equivalente a la cirugía precoz, validando el enfoque conservador",
+          "D": "La cirugía precoz mejoró la SLP pero no la SG, similar al bevacizumab en GBM"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Jakola et al. (JAMA 2012) comparó los resultados en dos hospitales noruegos con diferentes políticas institucionales — uno que realiza cirugía agresiva precoz y otro que favorece la biopsia/vigilancia. La cirugía precoz se asoció con una mejora significativa de la mediana de SG (no alcanzada vs 5,9 años) y un hazard ratio de 0,55 (IC 95% 0,33-0,92; p=0,023). Importantemente, la tasa de déficit neurológico permanente NO difirió significativamente entre los dos enfoques. Este estudio observacional basado en la población fue fundamental para cambiar la práctica desde la vigilancia hacia la resección máxima segura precoz como estándar de cuidado.",
+          "wrong": {
+            "A": "Lo contrario era cierto — la cirugía precoz mostró una mejora de la SG y tasas de complicaciones similares al enfoque de vigilancia.",
+            "C": "La vigilancia mostró una SG significativamente peor en comparación con la cirugía precoz (mediana de SG 5,9 años vs no alcanzada; HR 0,55 favoreciendo la cirugía). Este estudio fue uno de los argumentos clave contra la vigilancia.",
+            "D": "La SG fue significativamente mejorada con la cirugía precoz, no solo la SLP — esta es una distinción crucial de las terapias antiangiogénicas que mejoran la SLP sin beneficio en SG."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: La resección máxima segura precoz es el estándar de cuidado para GBG; la vigilancia no es apropiada en tumores accesibles",
+          "trial": "Jakola AS et al. JAMA 2012 (n=153): Cirugía precoz vs biopsia/vigilancia en GBG sospechado; SG no alcanzada vs 5,9 años (HR 0,55; p=0,023 favoreciendo cirugía precoz); sin diferencia en déficits neurológicos permanentes",
+          "pearl": "El estudio JAMA 2012 de Jakola cambió fundamentalmente el manejo del GBG — la cirugía agresiva precoz mejora la SG sin aumentar los déficits neurológicos permanentes. La vigilancia tras biopsia ya no es el enfoque estándar para los GBG accesibles."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q10",
+        "stem": "¿Qué oncometabolito produce la enzima IDH1/2 mutante en los gliomas de bajo grado, y cuál es su principal mecanismo de acción oncogénica?",
+        "options": {
+          "A": "Fumarato — activa la vía PI3K/AKT mediante señalización del receptor tirosina quinasa",
+          "B": "2-hidroxiglutarato (2-HG) — inhibe competitivamente las dioxigenasas dependientes de alfa-cetoglutarato (enzimas TET, histona desmetilasas), causando el fenotipo hipermetilador",
+          "C": "Succinato — activa directamente la amplificación de EGFR y la proliferación celular",
+          "D": "Lactato — induce el efecto Warburg y promueve la angiogénesis mediante la regulación al alza del VEGF"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El IDH1 mutante (R132H) y el IDH2 (R172K) generan una actividad enzimática neomórfica que convierte el alfa-cetoglutarato (α-KG) en el oncometabolito 2-hidroxiglutarato (2-HG). El 2-HG es un análogo estructural del α-KG e inhibe competitivamente a las dioxigenasas dependientes de α-KG incluyendo TET2 (ADN desmetilasa) y las histona desmetilasas (familia KDM), bloqueando el 'borrado' epigenético. Esto conduce a la hipermetilación global de islas CpG (fenotipo CIMP), que silencia los genes supresores de tumores y bloquea la diferenciación, explicando la gliomagénesis en una célula progenitora neural. Los inhibidores de IDH (ivosidenib, vorasidenib) actúan reduciendo la producción de 2-HG, permitiendo la restauración de la regulación epigenética normal.",
+          "wrong": {
+            "A": "La acumulación de fumarato ocurre en las mutaciones de SDH (succinato deshidrogenasa), no en las mutaciones IDH. El fumarato inhibe las prolil hidroxilasas, activando HIF-1α (pseudohipoxia), un mecanismo distinto observado en el síndrome de leiomiomatosis hereditaria y paragangliomas.",
+            "C": "La acumulación de succinato ocurre en las mutaciones SDH (paraganglioma, GIST). No activa la amplificación de EGFR.",
+            "D": "La producción de lactato a través del efecto Warburg es una característica genérica de la glucólisis aeróbica en muchos cánceres, no específica de los gliomas IDH-mutantes. El lactato tiene efectos complejos en el microambiente tumoral pero no es el producto de la mutación IDH."
+          },
+          "guideline": "WHO CNS 5th ed. 2021: Las mutaciones IDH son eventos definitorios en los gliomas de bajo grado; el 2-HG es el oncometabolito responsable del fenotipo CIMP",
+          "trial": "Dang L et al. Nature 2009: Primera demostración de que la mutación IDH1 R132H produce 2-HG; Figueroa ME et al. Cancer Cell 2010: El 2-HG causa el fenotipo CIMP mediante la inhibición de TET2",
+          "pearl": "Mutación IDH → producción de 2-HG → inhibición de TET2/histona desmetilasas → fenotipo hipmetilador CIMP → silenciamiento génico y bloqueo de la diferenciación → formación del glioma. Los inhibidores de IDH revierten la producción de 2-HG, restaurando potencialmente la diferenciación normal. Esta es la base mecanística del vorasidenib."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q11",
+        "stem": "Un varón de 45 años con un astrocitoma IDH-mutante grado 2 tratado con RTM hace 3 años no recibió tratamiento adyuvante (de bajo riesgo según las guías). La RM muestra ahora una nueva zona de realce de contraste en el margen quirúrgico. ¿Qué representa más probablemente este hallazgo?",
+        "options": {
+          "A": "Necrosis por radiación del tratamiento previo",
+          "B": "Transformación maligna — el nuevo realce de contraste en un glioma IDH-mutante previamente no captante justifica una reevaluación urgente y probablemente una re-biopsia",
+          "C": "Gliosis postquirúrgica — hallazgo normal 3 años después de una craneotomía",
+          "D": "Pseudoprogresión del tratamiento previo con temozolomida"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El nuevo realce de contraste en un glioma de bajo grado IDH-mutante previamente no captante es el sello de la transformación maligna — progresión a grado WHO 3 o 4. Este es un hallazgo importante y urgente: la transformación altera significativamente el pronóstico y requiere intensificación del tratamiento. Está indicada la re-biopsia o re-resección para confirmar la transformación y obtener marcadores moleculares del tumor transformado (particularmente la deleción de CDKN2A/B para la designación de grado 4, y la reevaluación de la metilación de MGMT para la planificación del tratamiento). Retrasar la reevaluación puede permitir una progresión adicional y reducir las opciones quirúrgicas.",
+          "wrong": {
+            "A": "Este paciente NO recibió radioterapia, por lo que la necrosis por radiación es imposible. La necrosis por radiación solo ocurre en tejido irradiado.",
+            "C": "La gliosis postquirúrgica puede causar cambios en la señal T1 en el margen pero no típicamente produce nuevo realce de contraste 3 años después de la cirugía. Cualquier nuevo realce en un paciente con GBG debe investigarse como posible transformación maligna.",
+            "D": "Este paciente no recibió temozolomida (no se administró tratamiento adyuvante), por lo que la pseudoprogresión por TMZ no es aplicable."
+          },
+          "guideline": "EANO 2021: Nuevo realce de contraste en GBG previamente no captante = transformación maligna hasta que se demuestre lo contrario; indicada la re-biopsia/re-resección para confirmación histopatológica y molecular",
+          "trial": "Danchaivijitr N et al. JClinNeuroSci 2008: El nuevo realce de contraste en GBG se correlacionó con transformación maligna en el 90% de los casos en la re-operación",
+          "pearl": "Nuevo realce de contraste en un GBG IDH-mutante previamente no captante = transformación maligna (grado WHO 3 o 4) hasta que se demuestre lo contrario. Este es un hallazgo que requiere escalada del tratamiento y una reevaluación urgente, probablemente re-cirugía con perfil molecular actualizado. La 'sorpresa' del nuevo realce en un paciente estable con GBG es una señal de alarma."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q12",
+        "stem": "¿Cuál es el mecanismo molecular de la codeleción 1p/19q que define el oligodendroglioma?",
+        "options": {
+          "A": "Deleción de genes supresores de tumores TP53 y RB1 en los cromosomas 1p y 19q respectivamente",
+          "B": "Translocación desequilibrada t(1;19)(q10;p10) que resulta en la pérdida combinada del cromosoma 1p y 19q",
+          "C": "Amplificación adquirida de proto-oncogenes en 1p y 19q",
+          "D": "Silenciamiento inducido por metilación de genes de reparación del ADN en los cromosomas 1 y 19"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La codeleción 1p/19q en el oligodendroglioma resulta de una translocación desequilibrada t(1;19)(q10;p10) — el brazo corto completo del cromosoma 1 (1p) y el brazo largo completo del cromosoma 19 (19q) se pierden como un único evento cromosómico. No son dos deleciones independientes sino un único evento de translocación donde el cromosoma derivado contiene los brazos 1q y 19p, mientras que los brazos 1p y 19q se pierden juntos. Esta codeleción siempre es de brazo completo (no focal), lo que la distingue de otras alteraciones cromosómicas. La translocación crea una 'deleción combinada' característica detectable por FISH, array CGH o análisis del número de copias cromosómicas completo. Los genes delecionados en 1p y 19q incluyen CIC (19q) y FUBP1 (1p) — ambos reguladores transcripcionales — pero el mecanismo supresor tumoral preciso sigue siendo incompletamente comprendido.",
+          "wrong": {
+            "A": "TP53 está localizado en el cromosoma 17p (no 1p), y RB1 está en el cromosoma 13q (no 19q). Las mutaciones/deleciones de TP53 y RB1 se asocian con el astrocitoma, no con el oligodendroglioma.",
+            "C": "La codeleción 1p/19q es una DELECIÓN (pérdida), no una amplificación. Los eventos relevantes son la pérdida de función supresora tumoral, no la activación de oncogenes.",
+            "D": "La codeleción 1p/19q es un evento de número de copias cromosómico (translocación + pérdida), no un evento de silenciamiento epigenético. El CIMP (fenotipo hipmetilador de islas CpG) se asocia con la mutación IDH, no específicamente con la codeleción 1p/19q."
+          },
+          "guideline": "WHO CNS 5th ed. 2021: La codeleción 1p/19q se define como pérdida de brazo completo resultante de la translocación t(1;19)(q10;p10); detectable por FISH (método de 2 sondas), array CGH o análisis del número de copias cromosómicas por NGS",
+          "trial": "Jenkins RB et al. Cancer Res 2006: Caracterización molecular de t(1;19)(q10;p10) como mecanismo de codeleción 1p/19q de brazo completo en oligodendroglioma",
+          "pearl": "La codeleción 1p/19q es una pérdida de BRAZO COMPLETO de una única translocación t(1;19)(q10;p10). No son dos deleciones focales independientes. FISH es la prueba diagnóstica estándar — 2 sondas para cada cromosoma. La pérdida de brazo completo por array CGH también es diagnóstica. Las deleciones focales de 1p o 19q solas NO definen el oligodendroglioma."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q13",
+        "stem": "Una mujer de 30 años con un astrocitoma IDH-mutante frontal izquierdo de grado 2 quiere discutir la fertilidad antes de iniciar la radioterapia adyuvante y la temozolomida. Aún no ha tenido hijos. ¿Cuál es la preocupación más importante relacionada con la fertilidad específica de su tratamiento propuesto?",
+        "options": {
+          "A": "La radiación al lóbulo frontal izquierdo irradia directamente los ovarios",
+          "B": "La temozolomida causa gonadotoxicidad permanente en todas las mujeres",
+          "C": "La irradiación craneal puede dañar el eje hipotalámico-hipofisario si el campo de radiación incluye la hipófisis, causando hipogonadismo secundario y afectando a la fertilidad — debe discutirse la criopreservación de oocitos",
+          "D": "La quimioterapia PCV no afecta a la fertilidad; la radiación es la única preocupación"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La irradiación craneal para gliomas del lóbulo frontal puede incluir el eje hipotalámico-hipofisario (EHH) en el campo de radiación, especialmente para lesiones cercanas a la línea media o a la circunvolución frontal superior. Las dosis hipofisarias >40-45 Gy causan hipogonadismo hipogonadotrópico secundario, que puede conducir a insuficiencia ovárica e infertilidad meses a años después del tratamiento. Además, el daño hipofisario causa deficiencia de GH, ACTH y TSH, requiriendo reemplazo hormonal a largo plazo. Antes de iniciar el tratamiento, debe ofrecerse a todas las mujeres en edad reproductiva una consulta con especialista en fertilidad y la discusión de la criopreservación de oocitos (congelación de óvulos). El uso de corticosteroides durante el tratamiento también puede suprimir temporalmente la secreción de GnRH.",
+          "wrong": {
+            "A": "Los ovarios están en la pelvis, lejos del campo de radiación craneal. La RT craneal no irradia directamente los ovarios. La preocupación por la fertilidad de la RT craneal es secundaria — mediada por el daño hipofisario/hipotalámico que causa insuficiencia hormonal.",
+            "B": "La temozolomida puede causar gonadotoxicidad transitoria pero no se asocia consistentemente con insuficiencia ovárica permanente a dosis estándar. La dosis de radiación hipofisaria es la principal preocupación por la fertilidad en este contexto.",
+            "D": "La quimioterapia PCV (procarbazina, CCNU, vincristina) SÍ causa gonadotoxicidad significativa — la procarbazina es un agente alquilante de tipo mostaza nitrogenada asociado con insuficiencia ovárica prematura en el 30-40% de las mujeres premenopáusicas a las dosis acumuladas utilizadas en oncología."
+          },
+          "guideline": "EANS / ESMO Guías de Preservación de la Fertilidad: Las mujeres en edad fértil que se someten a RT craneal por glioma deben ser asesoradas sobre el riesgo del EHH y se les debe ofrecer consulta de preservación de la fertilidad antes del tratamiento",
+          "trial": "Viswanathan AN et al. Int J Radiat Oncol Biol Phys 2005: La dosis hipofisaria >40 Gy se asoció con hipogonadismo hipogonadotrópico en pacientes con tumor cerebral; se recomienda la discusión sobre preservación de la fertilidad antes de la RT craneal",
+          "pearl": "La RT craneal para tumores frontales/supraselares arriesga el hipogonadismo secundario por daño del EHH (dosis hipofisaria >40-45 Gy → insuficiencia de GnRH/LH/FSH). TODAS las mujeres en edad reproductiva deben recibir la oferta de criopreservación de oocitos antes de iniciar el tratamiento. Además: la procarbazina (en PCV) es directamente gonadotóxica."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q14",
+        "stem": "El brazo de alto riesgo del RTOG 9802 demostró que RT + PCV es superior a RT sola para los gliomas de grado 2 de alto riesgo. ¿Qué población de pacientes específica cumple los criterios de 'alto riesgo' utilizados en este ensayo?",
+        "options": {
+          "A": "Edad >60 años o KPS <80 o presencia de estado IDH wild-type",
+          "B": "Edad ≥40 años O edad <40 años con resección subtotal (tumor residual)",
+          "C": "Cualquier paciente con glioma de grado 2 que requiera tratamiento — todos se consideran de alto riesgo",
+          "D": "Edad >50 años Y resección total macroscópica Y estado IDH-mutante"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El RTOG 9802 definió el glioma de grado 2 de alto riesgo como pacientes con: edad ≥40 años (independientemente del grado de resección) O edad <40 años con resección subtotal (tumor residual tras la cirugía). El bajo riesgo era edad <40 años Y resección total macroscópica. El grupo de alto riesgo fue aleatorizado a RT sola vs RT + 6 ciclos PCV. El resultado fundamental fue una mejora de 5,5 años en la mediana de SG con RT + PCV (13,3 vs 7,8 años; HR 0,59; p=0,003). Esta estratificación de riesgo basada en la edad y la cirugía sigue siendo la herramienta de decisión clínica más ampliamente utilizada para el tratamiento adyuvante del glioma de grado 2.",
+          "wrong": {
+            "A": "El estado IDH no formaba parte de los criterios de elegibilidad originales del RTOG 9802 (el ensayo precedió a las pruebas IDH rutinarias). Los criterios de riesgo son puramente clínicos: edad y grado de resección.",
+            "C": "No todos los pacientes con glioma de grado 2 son de alto riesgo — específicamente, los pacientes con edad <40 años que tuvieron RTM son de bajo riesgo y no se incluyeron en el brazo de aleatorización de alto riesgo.",
+            "D": "El estado IDH no fue un criterio de inclusión del RTOG 9802. Los criterios son edad ≥40 O RST (no edad >50 Y RTM)."
+          },
+          "guideline": "NCCN CNS Tumors 2024 / EANO 2021: Glioma de grado 2 de alto riesgo = edad ≥40 O RST (criterios RTOG 9802); tratamiento = RT + PCV o RT + TMZ adyuvante según el subtipo molecular",
+          "trial": "RTOG 9802 (Buckner, NEJM 2016): Criterios de alto riesgo: edad ≥40 O RST; n=251; RT + 6×PCV vs RT sola; SG mediana 13,3 vs 7,8 años (HR 0,59; p=0,003)",
+          "pearl": "Alto riesgo RTOG 9802 = edad ≥40 O resección subtotal. Bajo riesgo = edad <40 Y RTM. Pacientes de alto riesgo: RT + PCV (oligodendroglioma) o RT + TMZ adyuvante (astrocitoma IDH-mutante) según el subtipo molecular."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q15",
+        "stem": "Un varón de 42 años con oligodendroglioma IDH-mutante con codeleción 1p/19q grado 3 (anaplásico) está planificado para tratamiento adyuvante tras resección subtotal. Según los ensayos RTOG 9402 y EORTC 26951, ¿cuál es el beneficio esperado en SG de RT + PCV frente a RT sola en el subgrupo con codeleción 1p/19q?",
+        "options": {
+          "A": "Aproximadamente 2-3 años de mejora en la mediana de SG",
+          "B": "Sin beneficio significativo en SG — PCV añade toxicidad sin ganancia en SG en oligodendroglioma anaplásico",
+          "C": "Aproximadamente 7 años de mejora en la mediana de SG (14,7 vs 7,3 años en el subgrupo codelecionado)",
+          "D": "Beneficio solo observado en pacientes con tumores MGMT metilados, no en el grupo codelecionado completo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "RTOG 9402 (Cairns et al., JCO 2006, actualizado 2013) mostró un notable beneficio en SG para RT + PCV vs RT sola en el subgrupo con codeleción 1p/19q con seguimiento a 14 años: SG mediana 14,7 años vs 7,3 años (HR 0,59; IC 95% 0,37-0,95; p=0,03). Esta ventaja en SG mediana de 7,4 años representa uno de los mayores efectos terapéuticos jamás reportados en oncología de gliomas. El paralelo EORTC 26951 (van den Bent, JCO 2006) confirmó este beneficio. Para los tumores no codelecionados, no hubo beneficio en SG al añadir PCV a la RT (reflejando la especificidad molecular de PCV en el oligodendroglioma codelecionado).",
+          "wrong": {
+            "A": "El beneficio en SG es mucho mayor que 2-3 años — los datos de seguimiento a 10-14 años muestran una ventaja en SG mediana de ~7 años en el subgrupo codelecionado.",
+            "B": "Lo contrario es cierto — el RTOG 9402 mostró un enorme beneficio en SG para PCV en el subgrupo con codeleción 1p/19q. PCV se asocia específicamente con la quimiosensibilidad del oligodendroglioma codelecionado 1p/19q.",
+            "D": "Los beneficios de RTOG 9402 y EORTC 26951 fueron definidos por el estado de codeleción 1p/19q, no por la metilación de MGMT. Aunque la metilación de MGMT es importante en astrocitoma/GBM, el biomarcador predictivo específico para el beneficio de PCV en oligodendroglioma es la codeleción 1p/19q."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: RT + PCV estándar de cuidado para el oligodendroglioma anaplásico (grado 3) con codeleción 1p/19q basándose en RTOG 9402 y EORTC 26951 que muestran ~7 años de beneficio en SG",
+          "trial": "RTOG 9402 (Cairns, JCO 2006 actualizado 2013): Subgrupo codelecionado 1p/19q SG 14,7 vs 7,3 años con RT+PCV vs RT (HR 0,59; p=0,03); EORTC 26951 confirmó el beneficio",
+          "pearl": "Oligodendroglioma codelecionado 1p/19q + RT + PCV = ~14,7 años de SG mediana. Este es uno de los mejores resultados de supervivencia en tumores cerebrales malignos en adultos. El marcador molecular (codeleción 1p/19q) es el mejor predictor de sensibilidad a la quimioterapia — no la histología, no el grado."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q16",
+        "stem": "Un varón de 36 años con un astrocitoma IDH-mutante grado 2 está siendo considerado para radioterapia. Su tumor está en el lóbulo frontal izquierdo cerca del área del habla. ¿Qué técnica de radiación ofrece la potencial ventaja de reducir los efectos neurocognitivos tardíos en comparación con la RT fotónica estándar?",
+        "options": {
+          "A": "Radiocirugía estereotáctica (Gamma Knife) — una única fracción de alta dosis minimiza la toxicidad cognitiva",
+          "B": "Terapia con haz de protones — la caída de dosis más pronunciada reduce la radiación de baja dosis al cerebro no afectado",
+          "C": "Radioterapia panencefálica (RTPE) con protección del hipocampo — protege ambos hipocampos",
+          "D": "Braquiterapia — la radiación intracavitaria evita cualquier exposición de haz externo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La terapia con haz de protones (THP) tiene una ventaja en la distribución de dosis física sobre la RT fotónica: el pico de Bragg permite una deposición de dosis precisa con dosis de salida mínima, reduciendo la dosis de radiación integral al cerebro no diana. Para los pacientes con GBG que pueden vivir 10-15 años tras el tratamiento, esta reducción de la radiación de baja dosis a estructuras críticas (hipocampos, lóbulos temporales, hemisferio contralateral) potencialmente reduce los efectos neurocognitivos tardíos incluyendo el deterioro de la memoria y la lesión de la sustancia blanca. Si bien los datos maduros de equivalencia en SG de fase III comparando RT protónica con fotónica en GBG siguen madurando, NCCN y EANO sugieren considerar THP en pacientes jóvenes con GBG, especialmente para tumores cercanos a estructuras neurocognitivas críticas.",
+          "wrong": {
+            "A": "La radiocirugía estereotáctica (RCE) administra una única fracción de alta dosis a un objetivo definido con precisión — se usa para pequeñas metástasis cerebrales, neuromas acústicos y malformaciones arteriovenosas. NO es apropiada para GBG, que es un tumor difusamente infiltrante que requiere RT fraccionada dirigida a la anomalía FLAIR.",
+            "C": "La RTPE se usa para metástasis cerebrales, linfoma del SNC y diseminación leptomeníngea. NO es apropiada para GBG focales y empeoraría significativamente los resultados neurocognitivos.",
+            "D": "La braquiterapia (semillas radioactivas intracavitarias) se usa en tumores cerebrales seleccionados (algunos gliomas de alto grado, metástasis cerebrales) pero no es estándar para GBG y no proporciona la ventaja dosimétrica de THP para proteger el cerebro no afectado."
+          },
+          "guideline": "NCCN CNS Tumors 2024 / EANO 2021: La RT protónica es una opción razonable para GBG en pacientes jóvenes; ensayos clínicos en curso evaluando los resultados neurocognitivos (ROCOCO, NANOG)",
+          "trial": "Ensayo NRG BN005 (en curso): Comparación aleatorizada de fase II de RT protónica vs fotónica en GBG; criterio de valoración principal función neurocognitiva; datos preliminares sugieren menor dosis hipocampal con RT protónica",
+          "pearl": "RT protónica en pacientes jóvenes con GBG: la física del pico de Bragg reduce la dosis cerebral integral. Más relevante para tumores cercanos a los hipocampos o estructuras cognitivas críticas. Sin ventaja en SG demostrada aún, pero menor potencial de toxicidad neurocognitiva en supervivientes a largo plazo. Considerar en centros con capacidad protónica para pacientes jóvenes elegibles."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q17",
+        "stem": "La prueba de mutación IDH1 por inmunohistoquímica (IHC) con el anticuerpo R132H se realiza en una muestra de glioma. El resultado es negativo (IHC wild-type). ¿Cuál es la interpretación correcta y el siguiente paso?",
+        "options": {
+          "A": "El tumor es confirmado IDH wild-type — no se necesita más prueba de IDH",
+          "B": "La IHC solo detecta IDH1 R132H (>90% de las mutaciones IDH) — se requiere secuenciación adicional (mutaciones IDH1 no R132H e IDH2) antes de confirmar el wild-type IDH",
+          "C": "La IHC negativa significa que el tumor es definitivamente un glioma de alto grado que requiere protocolo Stupp",
+          "D": "La IHC negativa significa que el tumor tiene buen pronóstico y no se requiere más prueba molecular"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La IHC IDH1 R132H es muy sensible y específica para la mutación R132H (la mutación IDH más frecuente, presente en ~90% de los gliomas IDH-mutantes). Sin embargo, NO detecta: otras mutaciones IDH1 (R132C, R132S, R132G, R132L — en conjunto ~3-5% de los gliomas IDH-mutantes), ni mutaciones IDH2 (R172K, R172M, etc. — ~5-10% de los gliomas IDH-mutantes). Por lo tanto, un resultado de IHC negativo en un glioma NO confirma el estado IDH wild-type — se requiere secuenciación (Sanger o NGS del exón 4 de IDH1 y el exón 4 de IDH2) para excluir las mutaciones IDH no R132H. Solo tras la secuenciación negativa puede confirmarse el verdadero estado IDH wild-type.",
+          "wrong": {
+            "A": "La IHC negativa NO confirma el IDH wild-type. La IHC detecta específicamente el epítopo R132H. Otras mutaciones IDH1 y todas las mutaciones IDH2 son negativas en la IHC. Se requiere secuenciación.",
+            "C": "El glioma IDH wild-type puede ser de alto grado (GBM) pero el resultado de la IHC solo no diagnostica el glioma de alto grado — eso requiere pruebas moleculares (TERT, EGFR, +7/-10) y/o características histológicas.",
+            "D": "El glioma IDH wild-type generalmente tiene un PEOR pronóstico que el glioma IDH-mutante. La IHC negativa no confiere buen pronóstico."
+          },
+          "guideline": "WHO CNS 5th ed. 2021 / NCCN CNS 2024: Algoritmo de prueba IDH: IHC (R132H) primero; si positivo — IDH-mutante confirmado; si negativo — se requiere secuenciación (IDH1 no R132H + IDH2) para confirmar wild-type",
+          "trial": "Capper D et al. Brain Pathol 2010: Sensibilidad de IHC IDH1 R132H ~94% para gliomas IDH-mutantes en general, pero ~6% de las mutaciones IDH son no R132H y no detectadas por IHC; secuenciación recomendada cuando la IHC es negativa en GBG sospechado",
+          "pearl": "La IHC IDH1 R132H detecta SOLO la mutación R132H. IHC negativa ≠ IDH wild-type. Confirme siempre con secuenciación IDH1/IDH2. Las mutaciones IDH1 no R132H y todas las mutaciones IDH2 son negativas en la IHC. Esto es especialmente importante en gliomas de adultos jóvenes donde la mutación IDH es probable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q18",
+        "stem": "Un varón de 38 años con oligodendroglioma IDH-mutante con codeleción 1p/19q grado 2 se somete a RTM. Es de bajo riesgo según los criterios RTOG 9802 (edad <40, RTM). Se le observa con RM seriada. A los 4 años, la RM muestra un aumento del 30% del volumen sin realce de contraste. Su exploración neurológica es normal. ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Reintroducir quimioterapia PCV sin más cirugía",
+          "B": "Re-resección de emergencia por progresión rápida",
+          "C": "Repetir RM en 3 meses para evaluar la trayectoria de crecimiento; considerar re-resección si hay crecimiento continuado y sin realce, o referir para RT adyuvante + PCV dado que el aumento de volumen sugiere transformación de alto riesgo",
+          "D": "El aumento de volumen sin realce es un cambio normal postquirúrgico — continuar la observación durante otros 4 años"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Un aumento del 30% del volumen en un oligodendroglioma previamente no captante es un hallazgo radiológico significativo que sugiere recidiva tumoral más que cambios postquirúrgicos. El manejo apropiado es: (1) reevaluar si la re-resección es factible y lograría mayor citorreducción; (2) considerar iniciar tratamiento adyuvante (RT ± PCV) si esta tasa de crecimiento constituye progresión de la enfermedad según los criterios RANO; (3) monitorizar con una RM a corto plazo (3 meses) para evaluar la trayectoria de crecimiento. La ausencia de realce de contraste en esta etapa no excluye un crecimiento tumoral significativo — el crecimiento no captante es frecuente en el oligodendroglioma. Este hallazgo probablemente significa que el paciente ahora necesita escalada del tratamiento.",
+          "wrong": {
+            "A": "Reintroducir quimioterapia sin más cirugía es prematuro — el paciente aún no ha recibido ningún tratamiento adyuvante, y la re-cirugía puede lograr mayor citorreducción antes de la terapia sistémica.",
+            "B": "La re-resección de 'emergencia' no está justificada para un paciente asintomático con un aumento del 30% del volumen pero sin deterioro neurológico. El enfoque debe ser planificado y deliberado.",
+            "D": "Un aumento de volumen del 30% durante 4 años NO es un cambio normal postquirúrgico — representa crecimiento tumoral que necesita respuesta clínica. Continuar la observación durante otros 4 años sin intervención es inapropiado."
+          },
+          "guideline": "EANO 2021: La progresión radiológica (aumento de volumen ≥25% en T2/FLAIR sin realce) en GBG debe motivar la reevaluación y la consideración del tratamiento; se aplican los criterios RANO 2017",
+          "trial": "Pallud J et al. Neuro Oncol 2012: Velocidad del aumento del diámetro tumoral (VODI) en GBG — tasa >8mm/año asociada con peor SG; debe considerarse la modificación del tratamiento",
+          "pearl": "El aumento de volumen sin realce en oligodendroglioma = recidiva tumoral. RANO define progresión en GBG como ≥25% de aumento en el volumen T2/FLAIR. Los oligodendrogliomas pueden crecer significativamente sin desarrollar realce de contraste durante años. La trayectoria del volumen es importante — utilice software volumétrico para la evaluación seriada."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q19",
+        "stem": "¿Cuál es el significado de la 'resección supramarginal' en los gliomas de bajo grado, y cuál es la base de evidencia actual para este enfoque?",
+        "options": {
+          "A": "La resección supramarginal extirpa solo el núcleo captante de contraste, demostrado en ECA para doblar la SG",
+          "B": "La resección supramarginal se extiende más allá de la señal FLAIR para extirpar la presunta infiltración microscópica tumoral, asociada con reducción de la transformación maligna en series retrospectivas — un área de investigación activa que aún no es el estándar de cuidado",
+          "C": "La resección supramarginal se define como la extirpación de parénquima cerebral sano como margen de seguridad — contraindicada porque aumenta las tasas de déficit permanente",
+          "D": "La resección supramarginal es equivalente a la resección total macroscópica FLAIR y no tiene ningún beneficio adicional sobre la extirpación del tumor captante de contraste"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La resección supramarginal en GBG se refiere a extender la resección más allá de la anomalía de señal FLAIR (el límite tumoral visible en RM) hacia el parénquima cerebral de apariencia 'normal', donde los estudios histológicos han confirmado la presencia de células tumorales infiltrantes más allá del borde FLAIR. El fundamento es extirpar el frente invasivo del tumor, reduciendo potencialmente el conjunto de células capaces de transformación maligna. Las series retrospectivas de Duffau y otros han mostrado menores tasas de transformación maligna con la resección supramarginal vs la RTM FLAIR. Sin embargo, esto requiere una craneotomía en paciente despierto con monitorización funcional para asegurar una extensión segura. La base de evidencia es observacional/retrospectiva — este enfoque aún no está respaldado como estándar de cuidado, pero es un área de investigación activa en centros especializados.",
+          "wrong": {
+            "A": "La resección supramarginal tiene como objetivo el borde FLAIR y más allá, no solo el núcleo captante de contraste. No existen datos de ECA que demuestren que dobla la SG.",
+            "C": "La resección supramarginal se realiza bajo craneotomía en paciente despierto con monitorización funcional — se dirige específicamente a extensiones que son funcionalmente seguras. NO es la extirpación de 'cerebro sano' sin consideración de la función.",
+            "D": "La RTM FLAIR extirpa la señal tumoral visible; la resección supramarginal va MÁS ALLÁ de esto. No son equivalentes — la resección supramarginal pretende abordar la infiltración microscópica más allá del borde FLAIR."
+          },
+          "guideline": "Guías EANS para Cirugía de GBG 2024: La resección supramarginal es investigacional; el objetivo estándar es la RTM FLAIR con preservación funcional; la supramarginal solo se recomienda con craneotomía en paciente despierto en centros seleccionados con preservación funcional",
+          "trial": "Duffau H Neurosurg Rev 2016: Análisis retrospectivo de resección supramarginal vs RTM FLAIR en GBG — menor tasa de transformación maligna con supramarginal (22% vs 47% a los 5 años); observacional, no un ECA",
+          "pearl": "Resección supramarginal en GBG: más allá del borde FLAIR, requiere craneotomía en paciente despierto, evidencia retrospectiva de reducción de la transformación maligna. Aún no es el estándar de cuidado. Estándar actual = RTM FLAIR máxima segura con preservación funcional. La resección supramarginal es la frontera."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q20",
+        "stem": "Una mujer de 45 años con astrocitoma IDH-mutante grado 2 de alto riesgo (edad ≥40, resección subtotal) está planificada para RT + temozolomida adyuvante según las recomendaciones del ensayo CATNON. Su promotor MGMT está metilado. ¿Cuántos ciclos de TMZ adyuvante debe recibir después de completar la radioterapia?",
+        "options": {
+          "A": "6 ciclos (igual que el protocolo Stupp para GBM)",
+          "B": "12 ciclos",
+          "C": "3 ciclos — es suficiente menos con estado IDH-mutante",
+          "D": "18 ciclos — los tumores IDH-mutantes requieren quimioterapia más prolongada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo CATNON (van den Bent, Lancet 2017 y análisis final 2021) utilizó 12 ciclos de TMZ adyuvante tras RT en gliomas IDH-mutantes sin codeleción 1p/19q (astrocitoma IDH-mutante). Este ensayo demostró un beneficio significativo en SG para la TMZ adyuvante (12 ciclos), pero NO para la TMZ concurrente. El régimen de 12 ciclos (no el protocolo Stupp de 6 ciclos) es el protocolo CATNON y el estándar basado en evidencia para el astrocitoma IDH-mutante grado 2-3. El uso de solo 6 ciclos (el régimen adyuvante TMZ del protocolo Stupp para GBM) no está respaldado por la base de evidencia de CATNON para esta entidad específica.",
+          "wrong": {
+            "A": "6 ciclos es el régimen adyuvante TMZ del protocolo Stupp para GBM. CATNON usó 12 ciclos para el glioma IDH-mutante no codelecionado. El uso de 6 ciclos sigue la práctica del GBM, no la evidencia del GBG.",
+            "C": "3 ciclos no está respaldado por ninguna evidencia de ensayo aleatorizado para el astrocitoma IDH-mutante.",
+            "D": "18 ciclos no es el protocolo CATNON y añadiría toxicidad sin evidencia adicional de beneficio más allá de 12 ciclos."
+          },
+          "guideline": "EANO 2021 / NCCN CNS Tumors 2024: Astrocitoma IDH-mutante grado 2-3 de alto riesgo: RT (54-60 Gy) seguida de 12 ciclos de TMZ adyuvante — basado en el protocolo CATNON",
+          "trial": "CATNON (van den Bent, Lancet 2021 final): 12 ciclos de TMZ adyuvante tras RT mejoró significativamente la SG en glioma IDH-mutante no codelecionado (HR 0,65; p=0,003); TMZ concurrente sin beneficio",
+          "pearl": "TMZ adyuvante en astrocitoma IDH-mutante = 12 ciclos (CATNON), NO 6 (Stupp). El GBM recibe 6 ciclos adyuvantes; el astrocitoma IDH-mutante recibe 12 ciclos. La TMZ concurrente (durante la RT) NO forma parte del protocolo CATNON para el astrocitoma — solo la TMZ adyuvante tras RT mostró beneficio."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

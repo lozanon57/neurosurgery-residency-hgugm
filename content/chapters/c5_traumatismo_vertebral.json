@@ -1,0 +1,676 @@
+{
+  "id": "C5",
+  "title": "Vertebral Trauma and Spinal Cord Injury",
+  "subtitle": "Block C — Spinal Neurosurgery: Fracture Classification, SCI Grading, Surgical Stabilisation",
+  "block": "C",
+  "block_name": "Spinal Neurosurgery",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "AOSpine Classification System 2013 · ATLS 10th Edition 2018 · ACS-COT Guidelines 2019 · NASCIS III Corticosteroid Data",
+  "textbook_refs": [
+    "Vaccaro AR et al. AOSpine Thoracolumbar Spine Injury Classification System. Spine 2013;38:2028-2037",
+    "Fehlings MG et al. Early versus Delayed Decompression for Traumatic Cervical Spinal Cord Injury. PLoS One 2012;7:e32037",
+    "Bracken MB. Steroids for acute spinal cord injury. Cochrane Database Syst Rev 2012:CD001046 (NASCIS)",
+    "Denis F. The three-column spine and its significance in the classification of acute thoracolumbar spinal injuries. Spine 1983;8:817-831"
+  ],
+  "learning_objectives": [
+    "Apply the AOSpine thoracolumbar and cervical injury classification systems to characterise fracture morphology, ligamentous injury, and neurological status",
+    "Use the ASIA Impairment Scale (AIS) to grade spinal cord injury and distinguish complete from incomplete injuries with prognostic significance",
+    "Identify the indications for emergency surgical decompression in acute spinal cord injury, applying the 24-hour threshold from AOSpine timing studies",
+    "Apply Denis three-column theory to assess vertebral stability and surgical need in thoracolumbar fractures",
+    "Describe the evidence (NASCIS II and III) against high-dose methylprednisolone use in acute SCI and current guideline recommendations",
+    "Manage odontoid fractures, atlas fractures, and atlanto-axial instability using appropriate conservative or surgical algorithms"
+  ],
+  "sections": [
+    {
+      "id": "C5-S1",
+      "title": "Epidemiology, Primary and Secondary Injury, and Prehospital Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Traumatic spinal cord injury (SCI) affects approximately 15-40 persons per million per year in high-income countries, with approximately 250,000-500,000 new cases annually worldwide (WHO 2013 estimate). The demographic profile reflects the mechanism of injury: **young males (16-30 years)** account for the majority of traumatic SCI, primarily from motor vehicle collisions (40-50%), falls (20-30%, increasingly important in elderly populations), and sports/recreational activities (10-15%). Violence (gunshot wounds) accounts for 10-15% in some urban populations. **Elderly patients** are increasingly represented due to demographic ageing — low-energy falls onto a rigid surface in the context of pre-existing cervical spondylosis represent a growing cause of central cord syndrome.\n\n**Primary injury** is the irreversible mechanical damage occurring at the moment of trauma: shearing, contusion, laceration, and haemorrhage within the cord parenchyma. This primary injury cannot be reversed by any current intervention. **Secondary injury** encompasses the cascade of pathophysiological processes initiated by primary injury and evolving over hours to days: ischaemia, oedema, glutamate excitotoxicity, calcium influx, free radical production, inflammatory infiltration, and apoptosis. Secondary injury IS potentially modifiable — the rationale for neuroprotective strategies, haemodynamic optimisation, and surgical decompression within the therapeutic window.\n\n**Prehospital management** focuses on: (1) immobilisation — cervical spine stabilisation with a rigid collar and backboard in any patient with significant trauma mechanism or symptoms; (2) airway management — high cervical injuries (C3-C5) may compromise diaphragmatic function (phrenic nerve C3-4-5) requiring urgent intubation; (3) haemodynamic support — mean arterial pressure (MAP) should be maintained ≥85-90 mmHg during the first 7 days post-injury to optimise spinal cord perfusion pressure (SCPP = MAP - intraspinal pressure). Hypotension (SBP <90 mmHg) in the acute SCI phase is independently associated with worse neurological outcome. The rigid cervical collar should be maintained until CT of the cervical spine can be performed and injury excluded or stabilised."
+        },
+        {
+          "type": "table",
+          "title": "Mechanisms of Spinal Cord Injury by Age Group",
+          "headers": ["Age Group", "Predominant Mechanism", "Common Fracture Type", "Cord Syndrome"],
+          "rows": [
+            ["16-30 years", "MVA (high-energy), sports (diving)", "Burst fracture, facet dislocation, distraction", "Complete SCI, Brown-Séquard"],
+            ["30-50 years", "MVA, occupational falls", "Burst fracture, fracture-dislocation", "Incomplete SCI, anterior cord"],
+            ["50-70 years", "Falls on stairs/same level", "Osteoporotic compression, Chance equivalent", "Central cord syndrome, root injury"],
+            ["≥70 years (elderly)", "Low-energy falls, minor trauma on spondylotic cord", "Extension fracture, no fracture (SCIWORA)", "Central cord syndrome (most common SCI in elderly)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Haemodynamic Targets in Acute SCI",
+          "content": "Maintain MAP ≥85-90 mmHg for the first 7 days after acute SCI (ACS-COT 2019 guidelines). Hypotension (MAP <60 mmHg) causes secondary cord ischaemia and worsens neurological outcome. Vasopressors (noradrenaline first-line, phenylephrine second-line) are preferred over aggressive fluid loading to reach MAP targets without cord oedema. This recommendation is particularly important for high cervical (C1-C4) injuries where neurogenic shock (loss of sympathetic tone causing hypotension + bradycardia) can precipitate haemodynamic deterioration."
+        }
+      ]
+    },
+    {
+      "id": "C5-S2",
+      "title": "ASIA Impairment Scale and Spinal Cord Injury Syndromes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **ASIA (American Spinal Injury Association) Impairment Scale (AIS)** is the universally accepted classification of SCI severity, updated in 2019 as the International Standards for Neurological Classification of SCI (ISNCSCI). It comprises a systematic neurological examination of 28 key sensory points (light touch and pin prick) and 10 key muscle groups bilaterally, yielding motor and sensory scores and a letter grade:\n\n**AIS A** — Complete: no sensory or motor function preserved in the sacral segments S4-S5. The presence of sacral sparing (any light touch or pin prick sensation at S4-S5, or voluntary anal sphincter contraction) upgrades to AIS B or higher. **AIS B** — Sensory incomplete: sensory but no motor function preserved at S4-S5. **AIS C** — Motor incomplete: motor function preserved below the neurological level of injury (NLI), but >50% of key muscle groups below NLI have muscle grade <3. **AIS D** — Motor incomplete: motor function preserved below NLI, and ≥50% of key muscles below NLI have grade ≥3. **AIS E** — Normal: motor and sensory function normal (may be used after SCI recovery).\n\nThe **Zone of Partial Preservation (ZPP)** applies only to AIS A injuries and refers to the most caudal level at which sensory and motor function is partially preserved. Sacral sparing — preserved sensation or voluntary anal contraction at S4-S5 — is the key distinguishing feature between complete and incomplete injuries and is one of the most important prognostic determinants. Any degree of sacral sparing (even minimal perianal sensation) indicates anatomical continuity of long tracts and is associated with significantly better neurological recovery prognosis.\n\nIncompleteness syndromes: **Central cord syndrome** (most common incomplete SCI — elderly, extension mechanism; weakness hands>legs; bladder retention; best prognosis for recovery of ambulation ~75-90%); **Brown-Séquard syndrome** (hemisection — ipsilateral motor + proprioception loss, contralateral pain/temperature loss; best neurological prognosis of all incomplete syndromes, >90% ambulate independently); **Anterior cord syndrome** (anterior spinal artery territory — bilateral motor loss + pain/temperature loss, preserved dorsal column function; worst prognosis of incomplete syndromes, <10-20% motor recovery); **Posterior cord syndrome** (rare — isolated dorsal column loss; motor preserved); **Conus medullaris syndrome** (L1-L2 level — mixed UMN + LMN signs, bladder/bowel/sexual dysfunction); **Cauda equina syndrome** (below L2 — pure LMN, flaccid paralysis, saddle anaesthesia, urinary retention)."
+        },
+        {
+          "type": "table",
+          "title": "Incomplete SCI Syndromes — Clinical Features and Prognosis",
+          "headers": ["Syndrome", "Mechanism/Level", "Motor Loss", "Sensory Loss", "Prognosis"],
+          "rows": [
+            ["Central cord", "Elderly, hyperextension, spondylotic cord", "Arms > legs weakness; hand intrinsics most affected", "Variable, often spared", "75-90% ambulate; hand function slower to recover"],
+            ["Brown-Séquard", "Penetrating trauma, unilateral fracture", "Ipsilateral motor + proprioception loss", "Contralateral pain/temp loss", ">90% independent ambulation — best prognosis"],
+            ["Anterior cord", "Flexion-compression, anterior artery occlusion", "Bilateral complete motor loss (below level)", "Bilateral pain/temp lost; dorsal columns INTACT", "<10-20% motor recovery — worst prognosis"],
+            ["Posterior cord", "Rare, hyperextension + posterior element injury", "Motor intact", "Bilateral proprioception/vibration lost; pain/temp intact", "Good recovery (motor preserved)"],
+            ["Conus medullaris", "L1-L2 burst fracture", "Mixed UMN+LMN legs, saddle, bladder", "Saddle anaesthesia (S3-5)", "Variable; bowel-bladder dysfunction common"],
+            ["Cauda equina", "L2 and below disc/fracture/tumour", "Flaccid LMN, bilateral legs, perineum", "Saddle anaesthesia S2-4", "Surgery within 24h essential; variable recovery"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Sacral Sparing Distinguishes Complete from Incomplete",
+          "content": "The single most important finding in acute SCI assessment: SACRAL SPARING. Any preservation of S4-S5 function (perianal light touch, pin prick, OR voluntary anal sphincter contraction) = incomplete injury (AIS B or higher). Incomplete injury has significantly better prognosis. AIS A (no sacral sparing) = complete injury — 90% remain AIS A at 1 year; however, ~5% convert to AIS B-C. Never pronounce complete SCI prognosis at the acute phase without examining sacral segments."
+        }
+      ]
+    },
+    {
+      "id": "C5-S3",
+      "title": "Cervical Spine Injury Classification and Atlas/Odontoid Fractures",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Subaxial cervical spine injuries (C3-C7)** are classified using the AOSpine Cervical Spine Injury Morphology Classification (2015), which assesses: (1) fracture morphology (A = compression, B = tension band failure, C = translational/rotational); (2) facet joint injury (F1-F4 scale: F1 = non-displaced, F2 = displaced <1 cm, F3 = floating lateral mass, F4 = dislocation); (3) neurological status (N0 = intact, N1 = transient deficit, N2 = radiculopathy, N3 = incomplete SCI, N4 = complete SCI, NX = unexaminable). This morphology-based system guides surgical decision-making more reliably than older systems (Allen-Ferguson, Harris).\n\nCervical facet dislocation (bilateral or unilateral) is a high-energy injury requiring urgent management. **Bilateral facet dislocation** produces anterior subluxation of >50% of the vertebral body diameter, acute cord compression, and often complete neurological injury. **Emergency closed reduction** (Gardner-Wells tong traction or halo ring traction under fluoroscopic guidance) should be attempted in awake cooperative patients before MRI, using incremental weight increases (5 lb per level, starting at 10-15 lb) up to a maximum of 150 lb or one-third of body weight. Once reduced, definitive anterior (ACDF ± discectomy for pre-existing disc herniation to prevent reduction worsening cord compression) or posterior surgery stabilises the spine.\n\n**Atlas (C1) fractures** most commonly result from axial loading (diving, MVA). The **Jefferson fracture** is a burst fracture of the C1 ring (4-part fracture through anterior and posterior arches bilaterally, with lateral mass displacement). Stability is assessed by the **Rule of Spence**: if the combined lateral mass overhang of C1 over C2 on open-mouth odontoid view exceeds 7 mm (>3.5 mm on either side), the transverse atlantal ligament (TAL) is disrupted and the fracture is **unstable**, requiring surgical fixation. Stable Jefferson fractures (TAL intact) are treated in a rigid cervical collar or halo vest for 8-12 weeks.\n\n**Odontoid (dens) fractures** are classified by Anderson and D'Alonzo: **Type I** — tip avulsion (stable, rigid collar); **Type II** — junction of dens and body (highest non-union risk — operative fixation recommended for: age ≥50 years, displacement >6 mm, angulation >10°, comminuted, posterior displacement); **Type III** — fracture through the C2 body (generally treated in halo or rigid collar, good healing rates 80-90%). Type II odontoid fractures are the most commonly tested in examinations — the high non-union rate with conservative management in elderly patients (up to 35% at 6 months) drives surgical decision-making. Surgical options: **anterior odontoid screw fixation** (requires intact transverse ligament, fracture line perpendicular to screw trajectory, no significant osteoporosis) or **posterior C1-C2 fusion** (Harms technique — universal applicability, higher fusion rates)."
+        },
+        {
+          "type": "table",
+          "title": "Odontoid Fracture Classification and Management",
+          "headers": ["Type", "Location", "Conservative Treatment", "Surgical Indications"],
+          "rows": [
+            ["Type I", "Tip of dens avulsion", "Rigid collar 6-8 weeks", "Rarely required (associated ligamentous injury may require fusion)"],
+            ["Type II", "Junction dens-body (most unstable)", "Halo vest — risk non-union 20-35% in elderly", "Age ≥50, displacement >6 mm, angulation >10°, comminuted, posterior displacement"],
+            ["Type III", "Through C2 vertebral body", "Halo vest or rigid collar 12 weeks; 80-90% union", "Failure of conservative treatment, significant displacement"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "SCIWORA — Spinal Cord Injury Without Radiological Abnormality",
+          "content": "SCIWORA (Spinal Cord Injury Without Radiological Abnormality) describes clinical SCI with normal CT and radiograph but is increasingly recognised on MRI as cord contusion, haemorrhage, or ligamentous injury. True SCIWORA (MRI also normal) occurs in children with more elastic spines and in elderly patients with transient cord compression during extension through a narrow spondylotic canal. Management: MRI is mandatory even with normal CT; if MRI shows cord signal change, manage as SCI with surgical or orthotic stabilisation."
+        }
+      ]
+    },
+    {
+      "id": "C5-S4",
+      "title": "Thoracolumbar Fracture Classification: Denis and AOSpine Systems",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Denis Three-Column Theory (1983)** divides the vertebra into three longitudinal columns: **Anterior column** = anterior longitudinal ligament (ALL) + anterior half of vertebral body + anterior half of disc; **Middle column** = posterior half of vertebral body + posterior half of disc + posterior longitudinal ligament (PLL); **Posterior column** = posterior osseoligamentous complex (POC) = pedicles, facet joints, laminae, spinous processes, supraspinous ligament, interspinous ligament, flavum. **Stability** requires integrity of at least two columns. Disruption of two or more columns (especially the middle column) indicates instability requiring surgical fixation. The middle column is the 'key' to stability — isolated anterior column injury (simple compression fracture) is usually stable; disruption of the middle column (burst fracture, with or without posterior column injury) indicates potential instability.\n\nThe **AOSpine Thoracolumbar Injury Classification System (AOSpine TLICS, Vaccaro 2013)** is the current standard, based on three domains: (1) **Morphology** — A (compression: A0=fracture process only, A1=wedge, A2=split, A3=incomplete burst, A4=complete burst); B (tension band failure: B1=osseous posterior disruption, B2=posterior ligamentous complex disruption, B3=hyperextension with anterior disruption); C (translational injury — any displacement); (2) **Neurological status** (N0-N4/NX as in cervical); (3) **Modifiers** (M1=posterior ligamentous complex injury uncertain, M2=patient-specific factors). The AOSpine system guides treatment: morphology A0-A2 ± mild neurological = conservative; A3-A4 (burst) ± posterior complex injury = surgery; B2/C injuries = surgery.\n\n**Chance fracture** is a seat-belt flexion-distraction injury, classically involving L1-L3. The fracture line passes through bone only (bony Chance — one-level transosseous), or through bone and ligament (ligamentous Chance — flexion-distraction with posterior ligamentous complex disruption). Bony Chance fractures may be treated in hyperextension bracing (success rate ~85%); ligamentous Chance fractures require posterior instrumented fusion. **Critical association**: hollow viscus injury (duodenum, mesenteric tear) occurs in up to 50% of Chance fractures — abdominal CT is mandatory."
+        },
+        {
+          "type": "table",
+          "title": "AOSpine Thoracolumbar Morphology — A and B Types",
+          "headers": ["Type", "Morphology", "Denis Equivalent", "Typical Management"],
+          "rows": [
+            ["A0", "Minor fracture (transverse process, spinous process)", "None / minor anterior", "Conservative — analgesics, early mobilisation"],
+            ["A1", "Wedge compression", "Anterior column only", "Conservative (brace) if <30° kyphosis, no neurological deficit"],
+            ["A2", "Split/coronal fracture", "Anterior column split", "Conservative or surgical depending on stability"],
+            ["A3", "Incomplete burst (one endplate)", "Middle + anterior column", "Conservative if <30° kyphosis, no neuro deficit, posterior intact; surgery if symptomatic or instability"],
+            ["A4", "Complete burst (both endplates)", "Anterior + middle column", "Usually surgical — posterior stabilisation ± anterior reconstruction"],
+            ["B1", "Monocortical osseous posterior disruption", "Chance fracture — bony", "Hyperextension bracing if bony; surgery if ligamentous"],
+            ["B2", "Posterior ligamentous complex disruption", "Flexion-distraction ligamentous", "Posterior instrumented fusion"],
+            ["B3", "Hyperextension + anterior column disruption", "Extension injury (ankylosing spondylitis)", "Urgent stabilisation"],
+            ["C", "Translational/rotational displacement", "Fracture-dislocation", "Surgery — posterior ± anterior fixation"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Chance Fracture and Associated Visceral Injury",
+          "content": "Chance fracture = seat-belt flexion injury at L1-L3. In up to 50% of cases, hollow viscus injury (mesenteric tear, duodenal perforation, small bowel) co-exists — often initially occult on clinical examination. ALWAYS order abdominal CT (ideally CT trauma with IV contrast) alongside the spinal CT in any patient with a Chance fracture. Missing hollow viscus injury is a life-threatening oversight in a spine-focused assessment."
+        }
+      ]
+    },
+    {
+      "id": "C5-S5",
+      "title": "Surgical Timing in Acute SCI: The 24-Hour Evidence",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The optimal timing of surgical decompression after acute traumatic SCI has been one of the most important questions in spine surgery over the past two decades. The pathophysiological rationale for early surgery is the secondary injury window — decompression within the therapeutic window limits ongoing ischaemia, oedema, and excitotoxicity. The practical question: how early is 'early'?\n\nThe **Surgical Timing in Acute Spinal Cord Injury Study (STASCIS — Fehlings et al., PLoS One 2012)** was a prospective multicentre cohort study (n=313, 6 North American centres) of cervical SCI patients (AIS A-D) comparing early surgery (within 24 hours of injury) versus late surgery (≥24 hours). Results: patients undergoing early surgery had a **2.8× greater odds (OR 2.8, 95% CI 1.1-7.0) of achieving ≥2 AIS grade improvement** at 6 months compared with late surgery, adjusting for baseline AIS grade and age. This was the most robust prospective evidence supporting the 24-hour window, even without randomisation. Importantly, early surgery was NOT associated with increased complication rates compared with late surgery.\n\nBased on STASCIS and multiple systematic reviews (Fehlings et al., Spine 2012 — AOSpine systematic review), the **AOSpine Clinical Practice Guidelines (2017)** recommend: early decompressive surgery within 24 hours of acute cervical SCI is SAFE and is associated with improved neurological outcomes. This is Grade B evidence (cohort studies), not yet Grade A (RCT), as no fully powered RCT of surgical timing in SCI has been completed. For incomplete SCI (AIS B-D), the benefit is most clearly established. For complete SCI (AIS A), the evidence is less definitive — earlier surgery does not consistently change AIS A outcomes but may improve partial recovery.\n\nFor **thoracolumbar SCI**, timing evidence is less strong but consensus supports early surgery (within 24-48 hours) when technically feasible, particularly for incomplete injuries. The main contraindications to immediate surgery are: haemodynamic instability, polytrauma requiring life-saving abdominal/thoracic surgery first (damage control orthopaedics principle), and inadequate medical stabilisation (coagulopathy, severe hypoxia)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "STASCIS Key Result — 24-Hour Window for Cervical SCI",
+          "content": "STASCIS (Fehlings 2012): early cervical SCI decompression <24 hours = OR 2.8 for ≥2 AIS grade improvement at 6 months vs late surgery. This is the landmark trial for surgical timing in SCI. AOSpine 2017 guidelines: early decompression within 24 hours recommended for cervical SCI. Note: this means from INJURY time, not from presentation — if presentation is delayed, immediate surgery on arrival is still appropriate. The benefit does not disappear after 24 hours for incomplete injuries, but the evidence is strongest within the first 24-hour window."
+        }
+      ]
+    },
+    {
+      "id": "C5-S6",
+      "title": "High-Dose Methylprednisolone in SCI: NASCIS Evidence and Current Guidelines",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The use of high-dose methylprednisolone (MPSS) in acute SCI was supported by the **NASCIS (National Acute Spinal Cord Injury Study) II and III** trials (Bracken et al., 1990, 1997) and became standard of care internationally through the 1990s. However, re-analysis and subsequent evidence have substantially undermined this practice, and current guidelines actively recommend AGAINST routine MPSS use.\n\n**NASCIS II (1990)**: randomised patients with acute SCI within 8 hours to MPSS 30 mg/kg bolus + 5.4 mg/kg/h infusion over 23 hours (the '24-hour protocol') versus naloxone versus placebo. Prespecified analysis: no significant difference in primary outcomes. **Post-hoc subgroup analysis** of patients treated within 8 hours showed modest neurological improvement in motor and sensory scores at 6 months — this was the basis for the recommendation, despite being a post-hoc, non-prespecified analysis.\n\n**NASCIS III (1997)**: compared 24-hour MPSS versus 48-hour MPSS protocol (for patients presenting 3-8 hours after injury) versus tirilazad mesylate. Post-hoc subgroup analysis suggested the 48-hour protocol superior to 24-hour for patients presenting 3-8 hours post-injury — again, a post-hoc finding.\n\n**Critical problems with NASCIS methodology**: (1) primary outcomes were non-significant — neurological benefit was found only in post-hoc subgroups; (2) clinical significance of motor/sensory score changes was marginal; (3) significant complications from high-dose MPSS: wound infection ×2, pneumonia ×3, upper GI haemorrhage ×2, death ×3 in elderly patients. The 48-hour protocol carries the highest complication rate.\n\n**Current guidelines**: The **Congress of Neurological Surgeons (CNS) Guidelines (2013)** and **AOSpine Guidelines (2017)** both state that MPSS administration for acute SCI is **NOT recommended** as a standard of care (Level I recommendation NOT to use). The CNS 2013 guideline explicitly states: 'The administration of methylprednisolone for the treatment of acute SCI is not recommended. Evidence suggests that high-dose steroids are associated with harmful side effects including death without consistent evidence of clinical benefit.' If a clinician chooses to administer MPSS (institutional/individual discretion), the 24-hour protocol should be used rather than 48-hour, and only within 8 hours of injury."
+        },
+        {
+          "type": "table",
+          "title": "NASCIS II and III Summary — Evidence vs Current Recommendation",
+          "headers": ["Trial", "Design", "Key Finding", "Problems", "Current Guideline Status"],
+          "rows": [
+            ["NASCIS II (1990)", "RCT, n=487, MPSS vs naloxone vs placebo, <8h", "Post-hoc subgroup: motor/sensory improvement at 6 months if treated <8h", "Post-hoc analysis only; prespecified analysis non-significant", "NOT recommended — CNS 2013, AOSpine 2017"],
+            ["NASCIS III (1997)", "RCT, n=499, 24h vs 48h MPSS vs tirilazad, 3-8h", "Post-hoc: 48h protocol superior to 24h for 3-8h subgroup", "Post-hoc; 48h protocol: ×3 pneumonia, ×2 wound infection, ×3 mortality", "48-hour protocol NOT recommended; if used, 24h only"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "High-Dose Methylprednisolone — DO NOT USE Routinely",
+          "content": "CNS Guidelines (2013, Level I evidence): high-dose methylprednisolone is NOT recommended for acute SCI. Evidence for benefit is from post-hoc subgroup analyses only; harm evidence is consistent — infection, GI haemorrhage, sepsis, mortality especially in elderly polytrauma. Administering routine MPSS in 2024 is a protocol violation at most major trauma centres. If asked on an exam what NASCIS showed: primary outcomes non-significant; post-hoc subgroup analysis provided the basis for the former recommendation; current guidelines recommend AGAINST use."
+        }
+      ]
+    },
+    {
+      "id": "C5-S7",
+      "title": "Surgical Stabilisation: Principles, Approaches, and Complications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical goals in vertebral trauma are: (1) **neural decompression** — remove compressive bone fragments or disc material from the canal to relieve cord/root compression; (2) **stabilisation** — restore and maintain spinal alignment and stability to allow early mobilisation and rehabilitation; (3) **alignment restoration** — correct kyphosis or translational deformity to normalise load distribution.\n\n**Posterior approaches** are used for most thoracolumbar fractures: pedicle screw-rod instrumentation above and below the fracture level (typically 2 levels above + 2 levels below for a single-level burst fracture — 'long construct'). For neurologically intact thoracolumbar burst fractures with significant kyphosis (>30°) but intact posterior ligamentous complex, short segment (one above + one below = 4 screws) posterior fixation with or without posterior decompression is feasible with careful case selection. Minimally invasive percutaneous pedicle screw techniques reduce blood loss and paraspinal muscle injury compared with open approaches.\n\n**Anterior approaches** are used when the anterior column requires direct decompression (retropulsed fragment compressing cord anteriorly) or reconstruction (multi-level corpectomy). Thoracotomy for T3-T10, retroperitoneal/thoracoabdominal approach for T10-L5. Anterior corpectomy with expandable cage plus plate achieves direct anterior decompression and reconstruction but requires separate posterior fixation for complete stability ('360° stabilisation') in most cases.\n\n**Combined anterior-posterior (360°) stabilisation** is indicated for: complete burst fracture with both anterior and posterior column disruption; fracture-dislocation (AOSpine Type C); failed posterior reduction with residual canal compromise. In practice, the majority of unstable thoracolumbar fractures are managed with posterior-only instrumentation (with or without ligamentotaxis — the principle of using posterior distraction to reduce retropulsed fragments via attachment to the posterior longitudinal ligament) plus optional transpedicular bone grafting.\n\n**Ankylosing spondylitis (AS) fractures** deserve special mention: the ankylosed spine fractures as a 'long bone' — fractures are typically hyperextension injuries, involve all 3 columns (chalk-stick fracture), and carry a high mortality from missed SCI. A rigid ankylosed spine fracture with even a minor mechanism requires CT scanning. These fractures are highly unstable — they require long-segment posterior fixation (3+ levels above and below) through the rigid bone. The rate of associated SCI is 50-60% and perioperative mortality 10-25% due to age and comorbidity."
+        },
+        {
+          "type": "table",
+          "title": "Thoracolumbar Fracture Surgical Indications — Quick Reference",
+          "headers": ["Fracture Type", "Neurological Status", "Surgical Indication?", "Preferred Approach"],
+          "rows": [
+            ["A1 wedge, <30° kyphosis", "Intact", "No — brace", "Conservative"],
+            ["A3 incomplete burst, <30°, intact post complex", "Intact", "Controversial — consider surgical if >30° or >50% canal", "Posterior short segment or conservative"],
+            ["A4 complete burst", "Any", "Yes — unstable (2-column)", "Posterior long segment ± anterior"],
+            ["B2 flexion-distraction (ligamentous)", "Any", "Yes — ligamentous instability", "Posterior instrumented fusion"],
+            ["C translational/fracture-dislocation", "Any", "Yes — most unstable", "Posterior ± anterior (360°)"],
+            ["Chance fracture (bony)", "Intact", "Conservative if bony; surgical if ligamentous", "Hyperextension bracing (bony)"],
+            ["Ankylosing spondylitis chalk-stick", "Any", "Yes — all are unstable", "Long posterior fixation (3+ levels above/below)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Ligamentotaxis Principle",
+          "content": "Ligamentotaxis: in posterior distraction instrumentation for burst fractures, the posterior longitudinal ligament (PLL) is tensioned by the distraction force applied through pedicle screws above and below the fracture level. The PLL, attached to the posterior disc and annulus, pulls retropulsed fragments back into the anterior column. This principle allows posterior-only surgery to achieve anterior decompression indirectly, particularly within the first 48-72 hours while the PLL retains sufficient tension. After 3-4 weeks, the PLL becomes lax — ligamentotaxis is no longer effective and direct anterior decompression may be required."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of vertebral trauma and spinal cord injury with 20 board-style questions covering classification, SCI grading, surgical timing, fracture management, and key trial data.",
+    "questions": [
+      {
+        "id": "C5-Q1",
+        "stem": "A 22-year-old man dives into a shallow pool and presents with complete loss of sensation and motor function in all four extremities. On examination, pin prick and light touch are absent below C5 bilaterally. There is NO perianal sensation and NO voluntary anal contraction. MRI shows C5-6 fracture-dislocation with complete cord compression. What is his ASIA Impairment Scale grade?",
+        "options": {
+          "A": "AIS A — complete injury",
+          "B": "AIS B — sensory incomplete",
+          "C": "AIS C — motor incomplete",
+          "D": "AIS D — motor incomplete with motor function grade ≥3"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "AIS A is defined as a COMPLETE spinal cord injury: no sensory OR motor function preserved in sacral segments S4-S5. The key diagnostic element is the ABSENCE of sacral sparing. The examination findings confirm: (1) no pin prick or light touch below C5; (2) no perianal sensation; (3) no voluntary anal contraction. All three criteria for sacral sparing are absent — therefore AIS A. The complete cord compression on MRI is consistent with this clinical finding.",
+          "wrong": {
+            "B": "AIS B requires sensory function to be PRESERVED at S4-S5 (perianal sensation present). This patient has no perianal sensation and no anal contraction — AIS B is excluded.",
+            "C": "AIS C requires motor function to be present below the neurological level, with <50% of key muscles below NLI having grade ≥3. No motor function at all below C5 with absent sacral sparing = AIS A, not C.",
+            "D": "AIS D requires ≥50% of key muscles below NLI to have grade ≥3. No motor function below the level of injury is completely inconsistent with AIS D."
+          },
+          "guideline": "ISNCSCI 2019 (International Standards for Neurological Classification of SCI) — AIS grades defined by sacral sparing (S4-S5 sensory AND voluntary anal contraction). Any sacral sparing = incomplete (≥AIS B). No sacral sparing = AIS A (complete).",
+          "trial": "STASCIS (Fehlings et al. PLoS One 2012): AIS A patients at baseline had lower odds of neurological improvement with early surgery compared with AIS B-D, but early surgery still recommended — approximately 5% of AIS A convert to AIS B-C over 6 months.",
+          "pearl": "AIS grading algorithm: (1) Is there sacral sparing (S4-S5 sensation OR anal contraction)? No → AIS A (complete). Yes → (2) Is motor function present below NLI? No → AIS B. Yes → (3) Are ≥50% of key muscles below NLI grade ≥3? No → AIS C. Yes → AIS D. Sacral sparing is the GATEWAY — without checking it, AIS grading is incomplete.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C5-Q2",
+        "stem": "A 75-year-old woman falls down two stairs and presents with bilateral hand weakness (grip 3/5), mild leg weakness (4/5 bilaterally), and urinary retention. Neck radiograph shows multilevel cervical spondylosis without acute fracture. MRI shows no fracture but cord compression at C4-5 and C5-6 with T2 signal change (oedema). She was ambulatory before the fall. What is the most likely incomplete SCI syndrome?",
+        "options": {
+          "A": "Brown-Séquard syndrome",
+          "B": "Anterior cord syndrome",
+          "C": "Central cord syndrome",
+          "D": "Posterior cord syndrome"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Central cord syndrome is the most common incomplete SCI, classically affecting elderly patients with pre-existing cervical spondylosis who sustain a hyperextension injury (even minor). The clinical signature is disproportionately greater weakness in the UPPER extremities (hands and arms) than the lower extremities, reflecting the somatotopic arrangement of the corticospinal tract in the cervical cord (cervical fibres are most central, lumbar fibres most peripheral — central cord injury affects cervical fibres first). Bladder dysfunction (retention) is characteristic. This woman has hands/arms weaker (3/5) than legs (4/5) with retention — classic central cord syndrome.",
+          "wrong": {
+            "A": "Brown-Séquard syndrome is a hemisection injury causing ipsilateral motor and proprioception loss with contralateral pain/temperature loss. It presents unilaterally and results from penetrating trauma or unilateral compression — not diffuse bilateral symptoms as described here.",
+            "B": "Anterior cord syndrome presents with complete bilateral motor loss AND loss of pain/temperature sensation below the lesion, with PRESERVED dorsal column function (proprioception, vibration, light touch intact). This patient has bilateral motor weakness without the characteristic pattern of anterior cord — she has arm weakness > leg weakness, not complete bilateral motor loss.",
+            "D": "Posterior cord syndrome (isolated dorsal column injury) presents with loss of proprioception and vibration with PRESERVED motor function. Motor weakness (especially arm > leg) is inconsistent with posterior cord syndrome."
+          },
+          "guideline": "AOSpine Cervical SCI Guidelines (2017): central cord syndrome in elderly with spondylotic cord — surgical decompression within 24 hours recommended if SCI is present (AIS B-D); conservative management for mild cases (AIS D).",
+          "trial": "Schneider RC et al. The syndrome of acute central cervical spinal cord injury. J Neurosurg 1954;11:546-577 — original description of central cord syndrome. Recovery pattern: legs recover first (80-90% ambulate), then bladder, then hands (slowest recovery — fine motor function).",
+          "pearl": "Central cord syndrome: elderly + hyperextension + spondylosis = arm weakness > leg weakness + urinary retention. Recovery order: legs first → bladder → hands (last, slowest). Best prognosis of common incomplete syndromes for ambulation (75-90%) but hand function may be persistently limited. SCIWORA in elderly = cord oedema on MRI without fracture.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C5-Q3",
+        "stem": "A 35-year-old pedestrian is hit by a car and sustains an L1 fracture. Denis three-column analysis: the anterior two-thirds of the vertebral body is crushed with endplate fracture; a large fragment is retropulsed into the posterior half of the canal; the posterior cortex of the vertebral body is disrupted (middle column injured). The posterior ligamentous complex and posterior arch are intact. What is the Denis classification and surgical recommendation?",
+        "options": {
+          "A": "Simple compression fracture (anterior column only) — conservative management",
+          "B": "Burst fracture (anterior + middle column) — surgical assessment indicated",
+          "C": "Seat-belt/Chance fracture (posterior tension band failure) — surgical fixation",
+          "D": "Fracture-dislocation (all three columns) — urgent surgical fixation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The description — anterior body crush AND retropulsed middle column fragment (posterior vertebral body cortex disrupted) — classically defines a burst fracture. Denis classification: injury to the ANTERIOR and MIDDLE columns = burst fracture. The posterior column is intact. Burst fractures are potentially unstable (two columns injured) and require careful assessment of: degree of canal compromise, neurological status, degree of kyphosis (>30° = surgical indication), and posterior ligamentous complex integrity. With an intact posterior column, short or long segment posterior instrumentation or, in some cases, bracing for neurologically intact patients is the surgical decision pathway.",
+          "wrong": {
+            "A": "A simple compression fracture involves only the ANTERIOR column (anterior longitudinal ligament + anterior half of disc and vertebral body). This patient has middle column injury (posterior vertebral body cortex disrupted, retropulsed fragment) — this is definitionally NOT an isolated compression fracture.",
+            "C": "A Chance fracture is a flexion-distraction injury involving POSTERIOR column failure (the seat-belt mechanism). The description here — compression of the vertebral body with middle column retropulsion — is a burst fracture, not a flexion-distraction injury.",
+            "D": "Fracture-dislocation involves all three columns with translational or rotational displacement. This description has an intact posterior column and no translational displacement — it is a two-column (anterior + middle) burst fracture, not a fracture-dislocation."
+          },
+          "guideline": "AOSpine TLICS (Vaccaro 2013) — A4 (complete burst) or A3 (incomplete burst): surgical assessment required; neurological status and posterior ligamentous complex integrity determine operative vs conservative management.",
+          "trial": "Denis F. The three-column spine and its significance in the classification of acute thoracolumbar spinal injuries. Spine 1983;8:817-831 — foundational paper establishing three-column theory; burst fracture = anterior + middle column = potentially unstable requiring surgical assessment.",
+          "pearl": "Denis classification: compression fracture = anterior column only (stable); burst fracture = anterior + middle column (potentially unstable — assess posterior column integrity); Chance = posterior column (flexion-distraction); fracture-dislocation = all 3 columns (always unstable). Middle column disruption = key indicator of instability.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q4",
+        "stem": "A 60-year-old man presents 3 hours after a motor vehicle collision with AIS B incomplete cervical SCI at C4 (sensation present at S4-5, no motor function below C4). CT shows a C4-5 facet dislocation with 50% anterior translation. MRI confirms complete cord compression without pre-existing disc herniation. According to AOSpine guidelines, what is the target surgical timing?",
+        "options": {
+          "A": "Within 8 hours of injury",
+          "B": "Within 24 hours of injury",
+          "C": "Within 72 hours after medical stabilisation",
+          "D": "Elective surgery at 4-6 weeks after spinal cord swelling subsides"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AOSpine Clinical Practice Guidelines (Fehlings et al. 2017) and the STASCIS study (2012) support early surgical decompression within 24 hours of injury for cervical SCI. The STASCIS study (OR 2.8 for ≥2 AIS grade improvement) was based on the 24-hour cutoff. For AIS B (sensory incomplete — the best candidates for neurological improvement), early decompression provides the greatest benefit. The C4-5 fracture-dislocation requires urgent reduction (traction) followed by surgical stabilisation within 24 hours of injury.",
+          "wrong": {
+            "A": "The 8-hour window was the threshold in NASCIS II for steroid administration (now not recommended) — it is not the surgical timing target in current guidelines. STASCIS used a 24-hour threshold, not 8 hours, for surgical decompression.",
+            "C": "72-hour surgical timing is NOT supported by evidence as an equivalent to 24-hour timing. In STASCIS, late surgery (≥24 hours) had 2.8× lower odds of improvement. Waiting for 72 hours risks permanent neurological deficit from prolonged cord compression.",
+            "D": "Delayed surgery at 4-6 weeks would allow significant secondary injury, cord atrophy, and scar formation. This was the old pre-STASCIS practice — now superseded by strong evidence favouring early decompression. Elective timing at 4-6 weeks is completely inappropriate for an acute incomplete SCI."
+          },
+          "guideline": "AOSpine Clinical Practice Guidelines (Fehlings et al. Neurosurgery 2017): early surgical decompression (<24 hours) is recommended for acute traumatic cervical SCI (Grade B recommendation). Best evidence for AIS B-D; AIS A also benefits although evidence less definitive.",
+          "trial": "Fehlings MG et al. Early versus Delayed Decompression for Traumatic Cervical Spinal Cord Injury: Results of the Prospective Cohort Study STASCIS. PLoS One 2012;7:e32037: OR 2.8 (95% CI 1.1-7.0) for ≥2 AIS grade improvement at 6 months for early (<24h) vs late (≥24h) surgery.",
+          "pearl": "AOSpine surgical timing rule: early surgery WITHIN 24 HOURS of injury for cervical SCI. STASCIS: early surgery = OR 2.8 for ≥2 AIS grade improvement. This is the single most important surgical timing evidence for SCI — tested in virtually every neurosurgery and spine examination.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q5",
+        "stem": "Regarding NASCIS II (Bracken 1990) and the use of high-dose methylprednisolone (MPSS) in acute SCI, which of the following most accurately describes the study findings and current guideline recommendations?",
+        "options": {
+          "A": "NASCIS II prespecified analysis showed significant improvement in motor and sensory scores — MPSS is recommended within 8 hours",
+          "B": "NASCIS II primary analysis was non-significant; post-hoc subgroup analysis suggested benefit within 8 hours — current CNS guidelines recommend AGAINST routine MPSS use",
+          "C": "NASCIS II showed MPSS significantly worsened SCI outcomes — its use is absolutely contraindicated",
+          "D": "NASCIS II demonstrated no benefit or harm — MPSS is neither recommended nor contraindicated"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "NASCIS II (Bracken et al. JAMA 1990): the primary prespecified analysis showed NO significant difference in motor or sensory outcomes between MPSS, naloxone, and placebo arms. A post-hoc subgroup analysis — not pre-specified, therefore subject to type I error and data dredging — found modest improvement in motor and sensory scores in patients treated within 8 hours of injury. This post-hoc finding was presented as the basis for the recommendation to use MPSS. Current CNS Guidelines (2013) Level I recommendation: MPSS is NOT recommended for acute SCI — harm evidence is consistent (infection, GI haemorrhage, sepsis, mortality), benefit evidence is from post-hoc subgroup only.",
+          "wrong": {
+            "A": "This is incorrect — the prespecified analysis was NON-SIGNIFICANT. Only a post-hoc analysis found benefit within 8 hours. Citing a significant prespecified analysis is factually wrong and represents the historical misinterpretation that led to widespread MPSS use.",
+            "C": "MPSS did not show statistically significant WORSENING of SCI outcomes in the main analysis — but it did show significantly increased complication rates (infection, GI haemorrhage, sepsis). The harm is through complications, not direct neurological worsening.",
+            "D": "MPSS is not neutral — the evidence shows consistent harm (complications) without consistent benefit. Therefore, the guidance is not just neutrality but an active recommendation AGAINST use (CNS 2013 Level I)."
+          },
+          "guideline": "Congress of Neurological Surgeons (CNS) Clinical Practice Guidelines for SCI (2013): 'Administration of methylprednisolone for the treatment of acute SCI is NOT recommended. Evidence suggests that high-dose steroids are associated with harmful side effects without consistent evidence of clinical benefit.' Level I recommendation.",
+          "trial": "Bracken MB et al. A randomized, controlled trial of methylprednisolone or naloxone in the treatment of acute spinal-cord injury: NASCIS II. NEJM 1990;322:1405-1411: primary analysis non-significant; post-hoc subgroup within 8h showed modest motor/sensory improvement. NASCIS III (1997): 48h protocol — 3× pneumonia, 2× wound infection, 3× mortality vs placebo.",
+          "pearl": "NASCIS II: prespecified analysis NON-SIGNIFICANT. Post-hoc subgroup (not pre-specified) = modest benefit within 8h. Current standard: DO NOT give MPSS for acute SCI (CNS 2013 Level I). Harms: infection, GI haemorrhage, sepsis, mortality. This is a classic exam pitfall — many candidates incorrectly state NASCIS showed significant benefit in the primary analysis.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q6",
+        "stem": "A 55-year-old man with ankylosing spondylitis falls from standing height and presents with neck pain. CT shows an undisplaced hyperextension fracture through C6-7 involving the disc space and posterior arch (chalk-stick appearance). He is neurologically intact. What is the most appropriate management?",
+        "options": {
+          "A": "Rigid cervical collar for 12 weeks — ankylosing spondylitis fractures are stable if undisplaced",
+          "B": "Long-segment posterior cervical fixation (3+ levels above and below the fracture)",
+          "C": "Anterior cervical discectomy and fusion at C6-7 alone (one level)",
+          "D": "Observation only — undisplaced fractures in AS do not require intervention"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ankylosing spondylitis fractures are uniquely unstable because the fused spinal column behaves like a long bone — the fracture involves all three columns (chalk-stick fracture through the calcified disc and posterior elements), and the lever arm across the fracture is enormously long due to the fused levels above and below. Even 'undisplaced' AS fractures carry 50-60% risk of neurological injury, often from delayed displacement during apparently conservative management. Standard management: **long-segment posterior fixation** with at least 3 levels above and below the fracture to distribute forces across the rigid construct. Short-segment fixation (1 level above/below) fails due to the biomechanical leverage of the fused column.",
+          "wrong": {
+            "A": "A rigid cervical collar is completely inadequate for an AS fracture — it cannot control the internal forces applied to the fracture by the long fused lever arm of the ankylosed spine. Collar-managed AS fractures frequently displace causing catastrophic neurological injury. This is a known avoidable complication.",
+            "C": "Single-level ACDF at the fracture site is biomechanically insufficient — the fused segments above and below generate enormous leverage forces that would fail a single-level anterior plate. Long-segment posterior fixation with extension across multiple fused levels is required.",
+            "D": "Observation alone for an AS chalk-stick fracture — even undisplaced — is dangerous. The fracture can displace with minimal provocation (position change, coughing, physiotherapy). Neurological injury rates with conservative management approach 50-60% in published series."
+          },
+          "guideline": "AOSpine Ankylosing Spondylitis Injury Guidelines (2020): ALL AS/DISH fractures require surgical stabilisation regardless of displacement; long-segment constructs (3+ levels above/below); perioperative ICU monitoring for neurogenic shock and respiratory compromise.",
+          "trial": "Koller H et al. Cervical spinal fractures in patients with ankylosing spondylitis. Eur Spine J 2015;24:553-561: AS fracture mortality 25% at 1 year; neurological deterioration with conservative management 30-40%; long posterior fixation reduces secondary neurological injury to <10%.",
+          "pearl": "Ankylosing spondylitis (and DISH) spinal fracture rule: ALL fractures are UNSTABLE regardless of displacement — treat as three-column injuries with LONG posterior fixation (3+ levels above/below). Single-level or collar alone = catastrophic. Associated with: high-energy-equivalent injury despite low-energy trauma; high SCI rate (50-60%); high mortality (10-25%).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q7",
+        "stem": "According to Anderson and D'Alonzo classification, which odontoid fracture type has the HIGHEST non-union rate when managed conservatively, and what is the surgical threshold in elderly patients?",
+        "options": {
+          "A": "Type I — non-union rate >50%; surgery for all Type I fractures",
+          "B": "Type II — non-union rate 20-35% in elderly; surgery if age ≥50, displacement >6 mm, or comminuted",
+          "C": "Type III — non-union rate 30-40%; surgery for all Type III fractures",
+          "D": "Type II — non-union rate 10%; surgery only for neurological deficit"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Type II odontoid fractures (fracture at the junction of the dens and C2 vertebral body) have the highest non-union rate of all odontoid fractures — approximately 20-35% with conservative management (halo vest) in elderly patients (≥50 years), driven by poor vascularity at the dens-body junction, cortical bone with limited healing capacity, and reduced bone quality. Surgical indications for Type II: age ≥50 years, displacement >6 mm (some use >4-5 mm), angulation >10°, comminuted fracture, posterior displacement (most unstable). Type III fractures involve the C2 vertebral body and have robust cancellous bone healing — non-union ~10-20% in elderly, considerably better than Type II.",
+          "wrong": {
+            "A": "Type I fractures are the most STABLE odontoid fractures — tip avulsions with excellent healing prognosis. Non-union is rare. Surgery is rarely required except when associated with atlanto-occipital ligamentous injury.",
+            "C": "Type III fractures are through the C2 BODY, not the dens-body junction. They heal much better than Type II (80-90% union rate with halo vest). Type III is NOT the highest non-union type.",
+            "D": "The non-union rate for Type II is substantially higher than 10% in elderly — the correct range is 20-35%. Surgical threshold based only on neurological deficit would miss the majority of cases requiring surgery, as many Type II fractures with high non-union risk are neurologically intact."
+          },
+          "guideline": "AOSpine Cervical Injury Guidelines (2020) — odontoid fracture management: Type II surgical indications: age ≥50, displacement >6mm, angulation >10°, comminuted, posterior displacement. Conservative management (halo vest): Type I and III; Type II <50 years without displacement.",
+          "trial": "Chiba K et al. Treatment protocol for fractures of the odontoid process. J Spinal Disord 1996;9:267-276: Type II non-union with halo vest: elderly patients (>65y) 46% non-union vs young (<40y) 8% non-union — confirming age as the dominant non-union risk factor.",
+          "pearl": "Odontoid fracture non-union risk: Type II > Type III > Type I. Type II surgical thresholds: age ≥50, displacement >6 mm, angulation >10°, comminution, posterior displacement. Surgical options: (1) anterior odontoid screw (requires intact TAL, perpendicular fracture line); (2) posterior C1-C2 Harms fusion (universal applicability, higher fusion rate).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q8",
+        "stem": "A 28-year-old is injured in a motor vehicle crash. A chance fracture at L2 is found on CT, with a fracture line through all three columns (bony Chance — transosseous only, no ligamentous disruption). He is neurologically intact. Abdominal CT is performed and shows no visceral injury. Which statement is TRUE about management?",
+        "options": {
+          "A": "Surgical fixation is mandatory for all Chance fractures regardless of bone or ligamentous type",
+          "B": "Bony Chance fractures may be managed in hyperextension bracing (TLSO) with expected 85% healing rate",
+          "C": "Ligamentous Chance fractures may be managed conservatively with bracing if neurologically intact",
+          "D": "All Chance fractures require anterior interbody fusion due to the flexion-distraction mechanism"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The distinction between BONY and LIGAMENTOUS Chance fractures is critical for management. Bony Chance fractures (transosseous fracture line through all three columns through bone only) have excellent healing potential when reduced in hyperextension, with ~85% successful union in a TLSO (thoracolumbar orthosis) at 12 weeks. Bone heals; disrupted ligamentous structures do not heal reliably. Therefore: bony Chance = bracing is acceptable; ligamentous Chance = surgical fusion required.",
+          "wrong": {
+            "A": "Not all Chance fractures require surgery — the bony subtype has excellent healing rates with hyperextension bracing. Surgery is required for the LIGAMENTOUS subtype only.",
+            "C": "Ligamentous Chance fractures are unstable due to posterior ligamentous complex disruption (ligaments do not heal reliably when completely disrupted). Conservative management of ligamentous Chance fractures results in high rates of instability and progressive kyphosis. Surgery (posterior instrumented fusion) is required.",
+            "D": "Chance fractures are predominantly treated with POSTERIOR instrumented fusion when surgery is needed — the posterior approach directly addresses the posterior tension band injury. Anterior interbody fusion is not the standard approach for this mechanism."
+          },
+          "guideline": "AOSpine TLICS (2013) — Chance fracture management: B1 (bony Chance) = bracing acceptable if neurologically intact; B2 (ligamentous Chance = PLC disruption) = posterior instrumented fusion required.",
+          "trial": "Vaccaro AR et al. AOSpine TLICS reliability and validity. Spine 2013;38:2028-2037: B1 (bony Chance) classifies as conservative-eligible in AOSpine system; B2 (ligamentous disruption) = surgical, consistent with Denis original Chance fracture management principles.",
+          "pearl": "Chance fracture rule: BONY (transosseous) = bracing (85% healing); LIGAMENTOUS (PLC disruption) = posterior instrumented fusion. MANDATORY: abdominal CT in all Chance fractures — 50% risk of hollow viscus injury (duodenal, mesenteric, small bowel tear) from seat-belt compression. Missing visceral injury is the most dangerous error.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q9",
+        "stem": "A 30-year-old man sustains a stab wound to the right side of the thoracic spine at T6. He presents with: right-sided lower extremity motor loss (MRC 2/5), loss of right-sided vibration and proprioception below T6, and loss of pain and temperature sensation on the LEFT side below T6. Right-sided pain and temperature are preserved. What is this syndrome, and what is its expected ambulatory prognosis?",
+        "options": {
+          "A": "Anterior cord syndrome — <20% recover ambulation",
+          "B": "Brown-Séquard syndrome — >90% achieve independent ambulation",
+          "C": "Central cord syndrome — 75-90% achieve ambulation",
+          "D": "Posterior cord syndrome — prognosis for ambulation is excellent (motor intact)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Brown-Séquard syndrome is caused by hemisection of the spinal cord, classically by penetrating trauma (stab wound). The classic triad: (1) IPSILATERAL motor loss below lesion (corticospinal tract decussates in medulla — right cord section = right motor loss); (2) IPSILATERAL loss of proprioception and vibration (dorsal columns do NOT decussate until the medulla — right cord section = right dorsal column loss); (3) CONTRALATERAL loss of pain and temperature (spinothalamic tract decussates immediately after entry in the cord — right cord section = left spinothalamic loss). This patient has right motor + right vibration/proprioception loss + left pain/temperature loss — textbook Brown-Séquard. Prognosis: >90% achieve independent ambulation — the best of all incomplete SCI syndromes.",
+          "wrong": {
+            "A": "Anterior cord syndrome causes BILATERAL complete motor loss + bilateral pain/temperature loss + preserved proprioception/vibration (dorsal columns intact). The hemisection pattern described (unilateral motor + ipsilateral dorsal + contralateral spinothalamic) is incompatible with anterior cord syndrome.",
+            "C": "Central cord syndrome causes arms > legs weakness, typically bilateral, in elderly patients with spondylosis — not the classic hemisection pattern. The contralateral pain/temperature loss is characteristic of Brown-Séquard, not central cord.",
+            "D": "Posterior cord syndrome involves isolated dorsal column loss (proprioception/vibration) with preserved motor and spinothalamic function. This patient has motor loss and contralateral spinothalamic loss — inconsistent with pure posterior cord syndrome."
+          },
+          "guideline": "ISNCSCI 2019 — incomplete SCI syndrome classification: Brown-Séquard = ipsilateral motor + dorsal column loss, contralateral spinothalamic loss. AOSpine Guidelines: Brown-Séquard from penetrating trauma — surgical exploration if metallic foreign body compressing cord; decompression if delayed neurological deterioration.",
+          "trial": "McKinley W et al. Long-term medical complications after traumatic SCI. J Spinal Cord Med 1999;22:28-44: Brown-Séquard ambulatory outcomes — 95% ambulate at discharge with rehabilitation; 90% remain community ambulators at 5 years — confirming best prognosis among incomplete syndromes.",
+          "pearl": "Brown-Séquard anatomy: (1) IPSILATERAL motor loss (corticospinal = decussates in medulla); (2) IPSILATERAL proprioception/vibration loss (dorsal columns = decussate in medulla); (3) CONTRALATERAL pain/temperature loss (spinothalamic = decussates immediately in cord). Best prognosis of incomplete SCI: >90% independent ambulation.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q10",
+        "stem": "The 'Rule of Spence' is used to assess stability of which spinal injury, and what is the measured threshold indicating transverse atlantal ligament (TAL) disruption?",
+        "options": {
+          "A": "Odontoid Type II fracture — ADI >3 mm on lateral view",
+          "B": "Jefferson fracture — combined lateral mass overhang of C1 over C2 >7 mm on open-mouth view",
+          "C": "Atlantoaxial dislocation — C1-C2 angle >20° on lateral flexion-extension",
+          "D": "C5-6 facet dislocation — >50% anterior translation on lateral view"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Rule of Spence applies to atlas (C1) Jefferson burst fractures and assesses transverse atlantal ligament (TAL) integrity using the open-mouth odontoid view (AP projection). If the combined lateral mass overhang of C1 over C2 (left overhang + right overhang measured on the AP open-mouth view) exceeds 7 mm, the transverse atlantal ligament has been disrupted, indicating an unstable fracture requiring surgical fixation. Values ≤7 mm combined (or ≤3.5 mm on either side) suggest the TAL is intact and the fracture may be managed in a rigid collar or halo vest.",
+          "wrong": {
+            "A": "The atlanto-dens interval (ADI) on lateral view is used to assess atlantoaxial subluxation and TAL integrity separately from Jefferson fractures. Normal ADI ≤3 mm adults; >5 mm = TAL disruption. This is a different measurement from the Rule of Spence.",
+            "C": "C1-C2 angle measurement is not the Rule of Spence. Atlantoaxial rotatory subluxation is assessed by open-mouth view rotation, CT, and dynamic flexion-extension — not a single angle measurement.",
+            "D": ">50% anterior translation on lateral view is used to diagnose bilateral facet dislocation in subaxial cervical injuries — it is not the Rule of Spence, which specifically applies to Jefferson C1 burst fractures."
+          },
+          "guideline": "AOSpine Cervical Injury Guidelines (2020) — C1 Jefferson fracture: Rule of Spence applied on open-mouth odontoid view; combined overhang >7 mm = TAL disruption = unstable = surgical fixation (C1-C2 or occipito-cervical fusion); ≤7 mm = stable = collar or halo vest.",
+          "trial": "Spence KF Jr. Bursting atlantal fracture associated with rupture of the transverse ligament. J Bone Joint Surg Am 1970;52:543-549 — original description of the measurement threshold; validated by MRI studies showing TAL disruption correlates with >7 mm combined overhang.",
+          "pearl": "Rule of Spence (Jefferson C1 burst fracture): open-mouth view combined lateral mass overhang C1 over C2 >7 mm = TAL disrupted = UNSTABLE = surgical C1-C2 or occipito-cervical fixation. ≤7 mm = TAL intact = stable = collar or halo. Remember: 7 mm is the threshold.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q11",
+        "stem": "The MAP target recommended during the first 7 days after acute SCI is ≥85-90 mmHg. What is the physiological rationale for this target?",
+        "options": {
+          "A": "To prevent systemic haemorrhage by maintaining vascular tone above the injury level",
+          "B": "To optimise spinal cord perfusion pressure (SCPP = MAP − intraspinal pressure) and limit secondary ischaemic injury",
+          "C": "To prevent cerebral vasospasm commonly associated with high cervical injuries",
+          "D": "To maintain renal perfusion given the risk of neurogenic bladder causing hydronephrosis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The rationale for MAP ≥85-90 mmHg in acute SCI is to optimise spinal cord perfusion pressure (SCPP), calculated as SCPP = MAP − intraspinal pressure (ICP equivalent in the spinal compartment). After SCI, cord oedema, haemorrhage, and loss of autoregulation cause intraspinal pressure to rise and cord perfusion to become MAP-dependent. Maintaining MAP ≥85-90 mmHg ensures adequate cord blood flow to limit secondary ischaemic injury. This is analogous to the cerebral perfusion pressure management principle in TBI (CPP = MAP − ICP). Hypotension (MAP <60 mmHg) is independently associated with worse neurological outcome in multiple SCI cohort studies.",
+          "wrong": {
+            "A": "Systemic haemorrhage prevention is not the reason for the MAP target — standard haemorrhage management aims for SBP >90 mmHg and MAP >65 mmHg, lower than the SCI-specific target. The SCI MAP target is specifically for cord perfusion, not systemic haemostasis.",
+            "C": "Cerebral vasospasm is a complication of subarachnoid haemorrhage, not traumatic SCI. Vasospasm management targets MAP and volume, but this is not the rationale for the SCI MAP target.",
+            "D": "Renal perfusion is not the primary concern driving the MAP target in acute SCI. The renal perfusion threshold is lower (MAP >60 mmHg). The 85-90 mmHg target specifically addresses cord perfusion."
+          },
+          "guideline": "ACS-COT Guidelines (2019) and AOSpine SCI Guidelines: MAP ≥85-90 mmHg for first 7 days post-acute SCI. Monitoring: arterial line recommended for continuous MAP measurement; vasopressors (noradrenaline) preferred over fluid loading for MAP targets.",
+          "trial": "Vale FL et al. Combined medical and surgical treatment after acute spinal cord injury. J Neurosurg 1997;87:239-246: MAP maintenance ≥85 mmHg + surgical decompression = 55% AIS grade improvement vs historical series with lower MAP targets. Observational data supporting physiological basis for MAP target.",
+          "pearl": "SCI haemodynamic target: MAP ≥85-90 mmHg for 7 days. Mechanism: SCPP = MAP − intraspinal pressure. Cord autoregulation is lost after SCI — perfusion becomes MAP-dependent. Tool: arterial line + vasopressors (noradrenaline first-line). Same principle as TBI CPP management but target is SCPP instead of CPP.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q12",
+        "stem": "A 40-year-old man sustains a traumatic C5-6 cervical fracture with bilateral facet dislocation and AIS C incomplete SCI. He is alert and cooperative. Emergency Gardner-Wells tong traction is applied at bedside with progressive weight up to 50 lb under fluoroscopy — no reduction achieved. A decision is made to proceed to the operating room. MRI performed emergently before reduction confirms posterior disc herniation at C5-6. What does this MRI finding change in the surgical plan?",
+        "options": {
+          "A": "Nothing — closed reduction should be reattempted with higher traction weights under general anaesthesia",
+          "B": "Anterior cervical discectomy should be performed BEFORE posterior reduction to avoid disc herniation worsening cord compression during reduction",
+          "C": "The patient should be managed conservatively with immobilisation — facet dislocations with disc herniation cannot be operated on",
+          "D": "Posterior laminectomy alone is sufficient to decompress the cord"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pre-reduction MRI finding of posterior disc herniation at the dislocation level changes surgical strategy: the herniated disc anterior to the cord risks being driven further into the cord during posterior reduction (traction or open reduction). Standard approach when pre-reduction MRI shows DISC HERNIATION at the dislocation level: (1) anterior cervical discectomy first to remove the disc fragment and decompress the cord anteriorly; (2) then posterior reduction with instrumentation; (3) or combined anterior discectomy + indirect reduction + anterior plate fusion at the same level. Attempting closed reduction with a known anterior disc herniation risks catastrophic neurological deterioration.",
+          "wrong": {
+            "A": "Continued traction with higher weights when MRI shows anterior disc herniation risks pushing the disc material further into the cord during reduction attempts. Reattempting closed reduction with higher weights in this situation is unsafe.",
+            "C": "Facet dislocations with disc herniation are NOT managed conservatively — they are urgently surgical. The disc herniation actually mandates earlier surgery, not conservative management.",
+            "D": "Posterior laminectomy alone does not address the ANTERIOR cord compression from the disc herniation or the fracture-dislocation instability. Anterior discectomy + anterior or posterior stabilisation is required."
+          },
+          "guideline": "AOSpine Cervical Injury Guidelines (2020): pre-reduction MRI recommended before closed reduction of cervical facet dislocation in obtunded or non-cooperative patients; disc herniation found = anterior discectomy before reduction. In alert cooperative patients, emergent closed reduction before MRI is acceptable (ATLS).",
+          "trial": "Darsaut TE et al. Cervical facet dislocation with disc herniation. Spine 2006;31:E640-E643: pre-reduction disc herniation in facet dislocation — anterior discectomy prior to reduction prevents neurological deterioration; posterior reduction of disc herniation alone without discectomy = 20% neurological worsening.",
+          "pearl": "Cervical facet dislocation management: (1) alert patient → immediate traction reduction (before MRI is acceptable); (2) obtunded patient → MRI first. If MRI shows disc herniation → anterior discectomy BEFORE reduction. Posterior reduction attempts with anterior disc herniation = risk of catastrophic neurological deterioration. Then: definitive posterior or anterior fixation.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C5-Q13",
+        "stem": "A 45-year-old woman is transferred from a district hospital 8 hours after a high-speed MVA. She has AIS A complete SCI at C6. CT shows a C6-7 burst fracture with 70% canal compromise. MRI confirms complete anterior cord compression. She is haemodynamically stable. What is the correct surgical recommendation?",
+        "options": {
+          "A": "Surgery is futile for AIS A complete SCI — the patient should be managed conservatively",
+          "B": "Early surgical decompression and stabilisation should be performed — AIS A patients may benefit and surgery prevents secondary deterioration",
+          "C": "Surgery should be delayed for 4-6 weeks until the acute phase has passed to allow spinal cord swelling to subside",
+          "D": "High-dose MPSS (30 mg/kg bolus + 5.4 mg/kg/h infusion) should be started within 8 hours before surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AIS A (complete) SCI does NOT preclude early surgical decompression. While the prognosis for neurological recovery in AIS A is substantially worse than AIS B-D, approximately 5% of AIS A patients convert to AIS B-C over 6 months, and early decompression may contribute to this potential partial recovery. Furthermore, surgical stabilisation is required for mechanical reasons regardless of neurological completeness — a C6-7 burst fracture with 70% canal compromise requires stabilisation to prevent progressive deformity, enable early rehabilitation, and prevent secondary neurological compromise. AOSpine guidelines recommend early surgery for AIS A with spinal instability.",
+          "wrong": {
+            "A": "Declaring surgery futile for AIS A is incorrect and reflects outdated management. Surgery is indicated for: (1) potential for partial neurological recovery (~5%); (2) mechanical stabilisation; (3) prevention of progressive deformity and secondary cord injury. Conservative management of an unstable fracture risks further injury.",
+            "C": "Delayed surgery at 4-6 weeks is the pre-STASCIS approach. AOSpine 2017 guidelines recommend surgery within 24 hours for all traumatic cervical SCI, including AIS A, based on STASCIS data. Waiting worsens outcomes.",
+            "D": "MPSS is NOT recommended for acute SCI (CNS Guidelines 2013, Level I). Administering MPSS in 2024 represents a protocol deviation. Even if used in unusual circumstances, the 48-hour protocol carries unacceptable complication rates — and this patient is already 8 hours post-injury."
+          },
+          "guideline": "AOSpine Clinical Practice Guidelines (Fehlings 2017): early surgical decompression within 24 hours recommended for ALL AIS grades (A-D) with cervical SCI and unstable fracture; benefit established for AIS B-D, reasonable for AIS A given potential partial recovery and mechanical stabilisation need.",
+          "trial": "STASCIS (Fehlings 2012): AIS A subgroup — OR for ≥2 AIS grade improvement 2.3 (95% CI 0.77-6.86) with early surgery vs late, though not statistically significant for AIS A alone. Combined AIS A-D analysis = OR 2.8 (P=0.02). Complete injuries still benefit from early surgery.",
+          "pearl": "AIS A complete SCI: early surgery is STILL indicated for (1) mechanical stabilisation; (2) ~5% chance of partial neurological conversion; (3) prevention of secondary deterioration. Do NOT withhold surgery for complete SCI. MPSS is contraindicated (CNS 2013) — do not administer regardless of time since injury.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C5-Q14",
+        "stem": "Which SCI syndrome has the WORST prognosis for motor recovery, and what is the pathophysiological explanation?",
+        "options": {
+          "A": "Central cord syndrome — central white matter injury is irreversible",
+          "B": "Anterior cord syndrome — loss of anterior spinal artery territory leaves only dorsal columns intact; motor recovery <10-20%",
+          "C": "Posterior cord syndrome — dorsal column injury prevents sensory feedback for motor control",
+          "D": "Brown-Séquard syndrome — ipsilateral motor loss rarely recovers"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Anterior cord syndrome has the worst prognosis for motor recovery among the incomplete SCI syndromes, with motor recovery rates of only 10-20%. The anterior cord receives its blood supply from the anterior spinal artery (ASA), which supplies approximately 65-75% of the cord's cross-section — including the anterior horn cells (lower motor neurons), the lateral corticospinal tracts (upper motor neurons), and the spinothalamic tracts. Anterior cord syndrome from ASA territory infarction or anterior compression destroys the entire motor pathway. The posterior dorsal columns (proprioception, vibration) — supplied by the posterior spinal arteries — remain intact, but this preserved sensory function is of limited functional value when complete motor paralysis persists.",
+          "wrong": {
+            "A": "Central cord syndrome actually has the BEST prognosis for ambulation among incomplete SCI (75-90% achieve ambulation). Although hand function recovery is slower, leg recovery is substantial. Central cord is NOT the worst prognosis.",
+            "C": "Posterior cord syndrome involves isolated dorsal column loss (proprioception/vibration) with completely preserved motor function — these patients retain their ability to walk (though with sensory ataxia). Motor recovery is not an issue because motor tracts are intact. This is NOT the worst prognosis.",
+            "D": "Brown-Séquard syndrome has the BEST overall prognosis of all incomplete SCI syndromes — >90% achieve independent ambulation. Ipsilateral motor loss does recover substantially over time, with the contralateral motor system partially compensating through ipsilateral corticospinal tract pathways."
+          },
+          "guideline": "ISNCSCI 2019 — incomplete SCI syndrome prognosis: anterior cord syndrome = worst (motor recovery <10-20%); central cord = 75-90% ambulate; Brown-Séquard = >90% ambulate. AOSpine Guidelines: anterior cord syndrome from vascular mechanism — no surgical target for pure ASA infarction without compressive element.",
+          "trial": "Waters RL et al. Motor and sensory recovery following incomplete tetraplegia. Arch Phys Med Rehab 1994;75:67-72: anterior cord syndrome functional outcomes — 90% remain wheelchair-dependent at 1 year; motor recovery index significantly lower than all other incomplete syndromes.",
+          "pearl": "Incomplete SCI prognosis ranking (BEST to WORST for motor recovery): Brown-Séquard (>90% ambulate) > Central cord (75-90% ambulate) > Posterior cord (motor intact) > Anterior cord (<10-20% motor recovery). Anterior cord = worst — the anterior spinal artery territory contains all the motor pathways.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C5-Q15",
+        "stem": "The 'ligamentotaxis' principle in the surgical treatment of thoracolumbar burst fractures refers to:",
+        "options": {
+          "A": "Using anterior distraction cages to restore disc height and indirectly reduce retropulsed fragments",
+          "B": "Using posterior distraction instrumentation to tension the posterior longitudinal ligament, which retracts retropulsed fragments back into the anterior column",
+          "C": "Using a surgical hook to manually reduce retropulsed fragments through a posterior transpedicular approach",
+          "D": "Using intraoperative traction on the lower extremities to reduce lumbar burst fractures through ligament tension"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ligamentotaxis is the indirect reduction technique exploiting the integrity of the posterior longitudinal ligament (PLL). When pedicle screws are placed above and below a burst fracture level and distraction is applied through the rod-screw construct, the PLL — which is attached to the posterior disc and annulus — is tensioned. This tension transmits a retracting force to the retropulsed posterior vertebral body fragment, pulling it anteriorly back into position. The technique is most effective within the first 48-72 hours while the PLL retains adequate mechanical properties. After several weeks, the PLL becomes adherent to the retropulsed fragment through fibrous tissue — ligamentotaxis is no longer possible and direct anterior decompression is required.",
+          "wrong": {
+            "A": "Anterior distraction cages restore vertebral body height anteriorly but this is anterior cage reconstruction, not ligamentotaxis. Ligamentotaxis specifically refers to the posterior distraction technique using PLL tension.",
+            "C": "Manual fragment reduction through a transpedicular approach is direct decompression — a different technique from ligamentotaxis. It involves introducing an instrument through the transpedicular window to physically push the retropulsed fragment anteriorly, bypassing the ligament mechanism.",
+            "D": "Lower extremity traction is used for hip/femur fractures, not lumbar burst fractures. It is not ligamentotaxis in the spinal context."
+          },
+          "guideline": "AOSpine TLICS (2013) and Benzel EC Spine Surgery textbook: ligamentotaxis = standard indirect reduction technique for thoracolumbar burst fractures treated within 48-72h; posterior distraction + PLL tension; most effective within the first 3 days; thereafter direct anterior decompression needed.",
+          "trial": "Edwards CC, Levine AM. Early rod-sleeve stabilization of the injured thoracic and lumbar spine. Orthop Clin North Am 1986;17:121-145 — original description of ligamentotaxis principle; posterior rod distraction reduces retropulsed fragments via PLL in >80% of acute burst fractures treated within 72h.",
+          "pearl": "Ligamentotaxis principle: posterior pedicle screw DISTRACTION → PLL tensioned → retropulsed fragment pulled anteriorly. Effective within 48-72h only. After 3+ weeks: PLL adherent, ligamentotaxis fails → need direct anterior decompression. This is why early surgery matters for burst fractures with canal compromise.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q16",
+        "stem": "A 24-year-old man is admitted with an L1 burst fracture following a fall from height. He has neurological intact examination. CT shows 55% canal compromise. Flexion-extension radiographs show no instability. Kyphosis is 22°. The posterior ligamentous complex appears intact on MRI. According to AOSpine classification, he is A4 N0 M0. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate posterior long-segment instrumented fusion",
+          "B": "Conservative management with thoracolumbar orthosis (TLSO) and early mobilisation",
+          "C": "Immediate decompression via anterior thoracolumbar approach due to >50% canal compromise",
+          "D": "Extended bed rest for 12 weeks without orthotic support"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AOSpine A4 (complete burst fracture) with N0 (neurologically intact) and M0 (no modifiers — intact posterior ligamentous complex) in a young patient with kyphosis 22° (<30°) and no neurological deficit can be managed conservatively with a thoracolumbar orthosis (TLSO brace). The key factors: (1) neurologically intact; (2) posterior ligamentous complex intact (intact posterior tension band means the injury is biomechanically more stable than burst with PLC disruption); (3) kyphosis <30°; (4) no neurological deficit requiring decompression. Conservative management achieves good outcomes (95% functional, 85% return to work) in neurologically intact burst fractures with these features. Surgery is indicated if: neurological deficit, kyphosis >30°, PLC disruption, or failure of conservative management.",
+          "wrong": {
+            "A": "Posterior long-segment fusion would be appropriate if there were neurological deficit, kyphosis >30°, or PLC disruption — none of which are present. Surgery in this case would represent overtreatment with associated morbidity and cost without proven benefit over conservative management for this low-risk burst fracture profile.",
+            "C": "Anterior decompression via thoracolumbar approach is a major operation with significant access morbidity and is not indicated for a neurologically intact patient. Canal compromise does not necessitate surgery when the patient is neurologically intact — the neural tissue is tolerating the compression.",
+            "D": "Extended bed rest without orthotic support is insufficient — the patient needs a TLSO brace for vertical load protection during early mobilisation. Prolonged absolute bed rest causes deconditioning, pressure ulcers, DVT, and is not evidence-based management."
+          },
+          "guideline": "AOSpine TLICS (2013) and NASS Guidelines for Thoracolumbar Fractures: AOSpine A4 N0 M0 = conservative management appropriate if kyphosis <30°, neurologically intact, PLC intact. Conservative = TLSO + early mobilisation + clinic review at 6 weeks with repeat radiograph.",
+          "trial": "Siebenga J et al. Treatment of traumatic thoracolumbar spine fractures: a multicenter prospective randomized study of operative versus nonsurgical treatment. Spine 2006;31:2881-2890: neurologically intact burst fractures — surgery vs TLSO at 2 years: equivalent functional outcomes; surgery group had higher SF-36 physical function at 4-year follow-up but equivalent at 2 years.",
+          "pearl": "Conservative management is appropriate for burst fractures (AOSpine A4) when: neurologically INTACT + kyphosis <30° + PLC intact (no B2/C injury). TLSO brace + early mobilisation. Surgical indications: neurological deficit; kyphosis >30°; PLC disruption (B or C type); progressive neurological deterioration. Canal compromise alone (without neurological deficit) is NOT a surgical indication in neurologically intact patients.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q17",
+        "stem": "In the initial emergency assessment of a patient with suspected acute cervical SCI, phrenic nerve function should be evaluated. The cervical roots providing diaphragmatic innervation via the phrenic nerve are:",
+        "options": {
+          "A": "C2-C3",
+          "B": "C3-C4-C5",
+          "C": "C5-C6-C7",
+          "D": "C6-C7-C8"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The phrenic nerve arises from cervical roots C3, C4, and C5, providing the sole motor innervation to the diaphragm. The clinical mnemonic is 'C3-4-5 keeps the diaphragm alive.' Injuries at or above C4 (C1-C4) compromise phrenic nerve function, causing diaphragmatic paralysis and respiratory failure requiring immediate intubation and mechanical ventilation. Injuries at C5 spare at least partial phrenic function (C5 contribution), potentially allowing diaphragmatic breathing with some assistance. Injuries below C5 leave diaphragm function intact, with progressive loss of intercostal (T1-T12) and abdominal muscle function depending on injury level.",
+          "wrong": {
+            "A": "C2-C3 roots do contribute minimally to the phrenic nerve but the DOMINANT innervation is C3-C4-C5. Stating only C2-C3 misses the most important contributions (C4 and C5 are the primary roots). Additionally, C2-C3 is too rostral to be the complete phrenic nerve origin.",
+            "C": "C5-C6-C7 describes the roots forming the median nerve (along with C8-T1) — not the phrenic nerve. C6-C7-C8 forms a major component of the brachial plexus. The phrenic nerve is C3-4-5.",
+            "D": "C6-C7-C8 are the roots of the lower brachial plexus — not the phrenic nerve. Injuries at C6-C8 leave the phrenic nerve intact; these patients breathe independently but have paralysis of upper and lower extremities."
+          },
+          "guideline": "ATLS 10th Edition (2018): High cervical injuries (C1-C4) = immediate intubation required; C5-C6 injuries = closely monitor respiratory function (partial phrenic contribution); C7 and below = respiratory function generally preserved. ACSCOT Emergency Management of SCI 2019.",
+          "trial": "Winslow C et al. Impact of respiratory complications on length of stay and hospital costs in acute cervical spine injury. Chest 2002;121:1548-1554: respiratory complications are the leading cause of acute mortality in cervical SCI; adequate ventilatory assessment and support reduces mortality by 50% in high cervical injuries.",
+          "pearl": "Phrenic nerve = C3-C4-C5 ('C3, 4, 5 keeps the diaphragm alive'). C4 and above SCI = diaphragm paralysis = immediate intubation. C5 SCI = variable diaphragm function (C5 contribution preserved but C3-C4 contribution lost) = closely monitor. C6 and below = diaphragm intact. Intercostal muscles (T1-T12) provide accessory breathing — lost in cervical SCI.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "C5-Q18",
+        "stem": "A trauma patient is found to have L2-L3 burst fractures with canal compromise. He reports saddle anaesthesia (perineum, inner thighs) and cannot void. Rectal examination confirms reduced anal tone and absent voluntary anal contraction. He has bilateral weak hip flexors (3/5) and absent knee jerks. Lower limb reflexes are absent throughout. What is this syndrome and the required management timeline?",
+        "options": {
+          "A": "Conus medullaris syndrome — non-emergency, surgery within 72 hours",
+          "B": "Cauda equina syndrome — emergency surgery required within 24 hours (ideally < 6-12 hours)",
+          "C": "Anterior cord syndrome — conventional EBRT to reduce cord oedema",
+          "D": "Central cord syndrome — surgical decompression within 24 hours but non-emergency"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The combination of saddle anaesthesia (S2-4 dermatomes: perineum + inner thighs), bladder retention/incontinence, reduced anal tone, absent voluntary anal contraction, and flaccid lower extremity weakness with absent reflexes at L2-L3 level = cauda equina syndrome (CES). The cauda equina (nerve roots below the conus medullaris, approximately L2 and below) is a pure LMN structure — injury produces flaccid paralysis, absent reflexes, and sphincteric dysfunction. In traumatic CES with retained function ('CES-Incomplete', CES-I or CES-R), emergency surgical decompression within 24 hours (ideally 6-12 hours) is the standard of care — delay risks permanent bladder and bowel dysfunction and lower limb weakness.",
+          "wrong": {
+            "A": "Conus medullaris syndrome (injury at L1-L2 conus level) produces a mixed UMN + LMN pattern (hyperreflexia + areflexia), bladder dysfunction, and saddle anaesthesia — but the reflexes are mixed, not uniformly absent. In this case, ALL lower limb reflexes are absent (pure LMN = cauda equina), placing the level below the conus. Conus injury is more central and at a higher level than the L2-L3 described.",
+            "C": "Anterior cord syndrome is a cord-level injury from anterior spinal artery compromise — it produces bilateral motor + spinothalamic loss with preserved dorsal columns, occurring above the conus level. This patient has LMN features (absent reflexes) at L2-L3 — a cauda equina level injury, not a cord-level injury. Radiation has no role.",
+            "D": "Central cord syndrome is a cervical cord injury in elderly patients with hyperextension mechanism — arm weakness > leg weakness + urinary retention. The LMN flaccid paralysis with absent reflexes at lumbar level is completely inconsistent with central cord syndrome, which is a cervical UMN injury."
+          },
+          "guideline": "NASS CES Guidelines (2014) and AOSpine Guidelines: traumatic CES-Incomplete = emergency surgery within 24 hours (ideally within 6-12 hours); CES-Complete (complete retention with no perianal sensation) = emergency surgery to prevent further deterioration even if recovery less likely.",
+          "trial": "Gleave JRW, MacFarlane R. Cauda equina syndrome: What is the relationship between timing of surgery and outcome? Brit J Neurosurg 2002;16:325-328: surgery within 24 hours = 61% bladder recovery vs surgery >24h = 28% bladder recovery. Time-sensitive decompression is critical for sphincteric function.",
+          "pearl": "Cauda equina syndrome = pure LMN injury: flaccid paralysis + absent reflexes + saddle anaesthesia S2-4 + bladder retention + reduced anal tone. Emergency surgery within 24 hours (ideally 6-12h). Key distinction from conus: conus = UMN+LMN mixed; cauda = pure LMN flaccid. Bladder function recovery is time-dependent — every hour matters.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "C5-Q19",
+        "stem": "A 68-year-old man with a history of poorly controlled ankylosing spondylitis presents after a seemingly minor fall. He complains of significant neck pain. Plain radiographs appear normal (difficult to interpret due to ossification). The most appropriate next investigation is:",
+        "options": {
+          "A": "Lateral cervical spine flexion-extension radiographs",
+          "B": "CT of the entire spine from occiput to sacrum",
+          "C": "MRI cervical spine",
+          "D": "Bone scintigraphy (technetium bone scan)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ankylosing spondylitis patients with acute spinal pain after trauma require CT of the ENTIRE spine (from occiput to sacrum) as the primary investigation. The rationale: (1) chalk-stick fractures can occur anywhere along the fused spine; (2) plain radiographs have very low sensitivity in AS due to the complex ossification pattern obscuring fracture lines; (3) the entire spine must be imaged as AS patients are at risk at multiple levels, and a fracture at one level should prompt searching for additional fractures; (4) CT provides the bone detail necessary to identify subtle fractures missed on plain films. After CT, MRI is also recommended if neurological symptoms are present or fracture localisation is uncertain.",
+          "wrong": {
+            "A": "Flexion-extension radiographs are contraindicated in acute AS spinal trauma — active movement of an unstable chalk-stick fracture risks catastrophic SCI. Never perform dynamic films in the acute trauma setting with AS until fracture is excluded by CT.",
+            "C": "MRI is an excellent second-line investigation for soft tissue injury, cord compression, and occult fractures, but plain radiographs and CT are faster and provide better bony detail for fracture characterisation. MRI should be performed as a complement, not instead of CT, in acute AS spinal trauma.",
+            "D": "Bone scintigraphy has low specificity and poor anatomical detail — it is not indicated for acute spinal trauma evaluation. It is useful for identifying occult fractures and bone metastases in other contexts but is too slow and non-specific for acute AS trauma management."
+          },
+          "guideline": "ATLS 10th Edition (2018): suspected AS spinal fracture = whole-spine CT as primary investigation. NICE NG41 (2016) Major Trauma: CT from occiput to sacrum recommended for high-risk mechanism or known spondyloarthropathy with acute pain.",
+          "trial": "Westerveld LA et al. Traumatic spinal fractures in patients with ankylosing spondylitis. Eur Spine J 2009;18:145-156: fracture detection rate — plain radiograph 33% vs CT 89% in AS; whole-spine CT correctly identified all fractures in >98% of cases. Plain radiographs miss 2/3 of AS fractures — CT is mandatory.",
+          "pearl": "Ankylosing spondylitis acute spinal pain after trauma: (1) DO NOT do flexion-extension films (risk of catastrophic SCI); (2) DO full-spine CT (occiput to sacrum) — plain radiographs miss >60% of AS fractures; (3) MRI additionally if neurological symptoms or CT ambiguous. AS fractures at multiple levels in 20% — full spine imaging is essential.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "C5-Q20",
+        "stem": "A 50-year-old woman presents with acute severe neck pain and bilateral arm and leg weakness (AIS D) after a hyperextension MVA. CT shows no fracture. MRI shows C5-6 central cord signal change (T2 hyperintensity) with bilateral facet joint arthrosis and severe C5-6 disc disease, but no displaced fracture. She has mJOA 11. What is the correct management according to AOSpine guidelines?",
+        "options": {
+          "A": "High-dose methylprednisolone (NASCIS protocol) within 8 hours of injury",
+          "B": "Conservative management with rigid cervical collar for 12 weeks — no fracture means no surgery needed",
+          "C": "Urgent surgical cervical decompression within 24 hours of injury",
+          "D": "Await neurological improvement for 6 weeks before surgical evaluation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has acute traumatic cervical SCI (ASIA D, mJOA 11 = moderate-to-severe myelopathy) with cord signal change on MRI — even without a fracture (this is SCIWORA-type presentation or acute disc herniation/contusion causing SCI). AOSpine guidelines apply the same surgical timing recommendation (within 24 hours) to traumatic SCI regardless of whether a bony fracture is present. Cord signal change with significant neurological deficit (AIS D, mJOA 11) from an acute traumatic cord injury warrants early surgical decompression and stabilisation. The mechanism (hyperextension worsening through a spondylotic canal) creates a surgically addressable compressive lesion.",
+          "wrong": {
+            "A": "MPSS is NOT recommended for acute SCI (CNS 2013 Level I). Administering it even within 8 hours is a protocol violation at most major trauma centres based on current guidelines. The evidence for benefit is from post-hoc subgroup analysis only, with consistent evidence of harm.",
+            "B": "Conservative management with collar alone for a patient with AIS D SCI and cord signal change is inappropriate — it does not address the underlying cord compression or provide structural stabilisation. AOSpine guidelines recommend surgery for neurological deficit from acute traumatic cervical cord injury.",
+            "D": "Waiting 6 weeks for neurological improvement before considering surgery contradicts AOSpine guidelines (early surgery within 24 hours). The STASCIS data show the window for optimal neurological benefit is within 24 hours of injury — waiting 6 weeks is not evidence-based and has no support in current guidelines for acute traumatic SCI with significant neurological deficit."
+          },
+          "guideline": "AOSpine Cervical SCI Clinical Practice Guidelines (Fehlings et al. Neurosurgery 2017): early surgical decompression within 24 hours recommended for acute traumatic cervical SCI (AIS A-D); fracture is not required — acute cord injury with neurological deficit from traumatic mechanism is sufficient indication.",
+          "trial": "STASCIS (Fehlings 2012): AIS D patients are included in the analysis; early surgery benefits all AIS grades. Improvement in mJOA and AIS grade at 6 months was significantly better in early surgery group across AIS A-D combined (OR 2.8).",
+          "pearl": "AOSpine SCI surgical rule: early decompression within 24 hours for acute traumatic cervical SCI regardless of AIS grade (A-D) or presence of fracture. No fracture + cord signal change + neurological deficit = STILL operate early (SCIWORA principle). MPSS = CONTRAINDICATED (CNS 2013 Level I). MAP target ≥85-90 mmHg maintained for 7 days post-SCI.",
+          "difficulty": 3
+        }
+      }
+    ]
+  }
+}

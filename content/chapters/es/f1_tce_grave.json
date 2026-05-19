@@ -1,0 +1,782 @@
+{
+  "id": "F1",
+  "title": "Traumatismo Craneoencefálico Grave",
+  "subtitle": "Bloque F — Urgencias Neuroquirúrgicas",
+  "block": "F",
+  "block_name": "Urgencias Neuroquirúrgicas",
+  "level": "R1-3",
+  "reading_time_min": 45,
+  "guidelines_version": "BTF Guidelines 4th Edition 2016 · ATLS 10th Edition 2018 · NICE NG232 2023",
+  "textbook_refs": [
+    "Carney N et al. Guidelines for the Manejo of Severe TBI, 4th Edition. Brain Trauma Foundation 2016",
+    "Chesnut RM et al. A trial of intracranial-pressure monitoring in TBI. NEJM 2012;367(26):2471-2481",
+    "Cooper DJ et al. Decompressive craniectomía in diffuse TBI (DECRA). NEJM 2011;364(16):1493-1502",
+    "Hutchinson PJ et al. Ensayo of decompressive craniectomía for TBI in adults (RESCUEicp). NEJM 2016;375(12):1119-1130",
+    "CRASH trial. Effect of methylprednisolone on death within 14 days after head injury. Lancet 2004;364:1321-1328"
+  ],
+  "learning_objectives": [
+    "Aplicar the Brain Trauma Foundation (BTF) 4th Edition guidelines for ICP monitoring indications and CPP targets in severe TBI",
+    "Describir the Monroe-Kellie doctrine and identify the pathophysiological mechanisms of secondary brain injury",
+    "Resumir the stepwise management of raised ICP using the BTF treatment protocol including osmotherapy, hyperventilation, sedation, and decompressive craniectomía",
+    "Identificar the indications for, and evidence against, corticosteroids in TBI (CRASH trial)",
+    "Comparar monitoring modalities for cerebral physiology (ICP, CPP, brain tissue oxygen, microdialysis) and their clinical targets",
+    "Describir the surgical indications and technique for decompressive craniectomía with evidence from DECRA and RESCUEicp trials",
+    "Identificar specific TBI patterns (diffuse axonal injury, contusion, penetrating TBI) and their management principles"
+  ],
+  "sections": [
+    {
+      "id": "F1-S1",
+      "title": "Fisiopatología y Doctrina de Monroe-Kellie",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Traumatic brain injury (TBI)** is a leading cause of death and disability worldwide, affecting approximately 50 million people annually. **Severe TBI** se define como Escala de Coma de Glasgow (GCS) ≤ 8. The pathophysiology is classified as **primary injury** (immediate mechanical damage at the moment of impact — neuronal death, axonal shearing, vascular disruption, irreversible) and **secondary injury** (delayed, evolving processes triggered by the primary injury — the target of all intensive care management).\n\n**Monroe-Kellie Doctrine:** The skull is a rigid box of fixed total volume. The three intracranial compartments are: brain parenchyma (~80%), blood (~10%), and CSF (~10%). Porque the total volume is constant, an increase in any one compartment must be compensated by a reduction in another. **Compensatory mechanisms** (CSF displacement to the spinal espacio subaracnoideo, venous blood displacement) allow initial accommodation of expanding lesions without ICP rise — but once these reserves are exhausted, small additional volume increases cause exponential ICP rises (steep pressure-volume curve). This explains why an epidural haematoma may enlarge silently until the compensatory reserve is exhausted, then cause rapid neurological deterioration.\n\n**Secondary injury mechanisms** include: (1) **Cerebral oedema** — vasogenic (blood-brain barrier disruption, contusion periphery) and cytotoxic (ischaemic, excitotoxic); (2) **Ischaemia** — from reduced CPP (CPP = MAP − ICP), vasospasm, or direct vascular injury; (3) **Raised ICP** — herniation syndromes (uncal, central, cerebeloso tonsillar); (4) **Excitotoxicity** — glutamate release, NMDA receptor activation, calcium influx; (5) **Inflammation** — microglial activation, cytokine release; (6) **Cerebral dysautoregulation** — loss of CPP-driven cerebrovascular autoregulation; (7) **Hyperglycaemia, fever, seizures** — metabolic stressors amplifying injury."
+        },
+        {
+          "type": "table",
+          "title": "Escala de Coma de Glasgow",
+          "headers": [
+            "Componente",
+            "Respuesta",
+            "Puntuación"
+          ],
+          "rows": [
+            [
+              "Eye Opening",
+              "Spontaneous / To voice / To pain / Ninguno",
+              "4 / 3 / 2 / 1"
+            ],
+            [
+              "Verbal Respuesta",
+              "Oriented / Confused / Inappropriate words / Sounds / Ninguno",
+              "5 / 4 / 3 / 2 / 1"
+            ],
+            [
+              "Motor Respuesta",
+              "Obeys commands / Localises / Withdraws / Flexion / Extension / Ninguno",
+              "6 / 5 / 4 / 3 / 2 / 1"
+            ],
+            [
+              "Total",
+              "Mild TBI ≥13, Moderate 9-12, Severe ≤8",
+              "3-15"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — PPC = PAM − PIC: La Relación Crítica",
+          "content": "Cerebral perfusion pressure (CPP) = Mean Arterial Pressure (MAP) − Intracranial Pressure (ICP). BTF 4th Edition recommends maintaining CPP 60-70 mmHg (Level IIB) and ICP < 22 mmHg (Level IIB). Both hypertension of CPP > 70 mmHg (cerebral hyperperfusion, oedema risk) and hypotension of CPP < 50 mmHg (ischaemia) worsen outcomes. The dual threat of raised ICP and reduced MAP must both be managed simultaneously."
+        }
+      ]
+    },
+    {
+      "id": "F1-S2",
+      "title": "Evaluación Inicial e Indicaciones de Monitorización PIC según BTF",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Initial assessment** follows ATLS principles. **Airway and breathing:** Intubation and mechanical ventilation for GCS ≤ 8 — the goal is to secure the airway before loss of protective reflexes, prevent hypoxia (SaO2 > 95%, PaO2 > 60 mmHg), and control CO2. **Haemodynamics:** Systolic BP ≥ 100 mmHg (age 50-69) or ≥ 110 mmHg (age 15-49 and ≥ 70 years) — Level IIB BTF 2016. Even a single episode of hypotension (SBP < 90 mmHg) is independently associated with doubling of mortality in TBI. **Glucose:** Avoid hyperglycaemia (>10 mmol/L) but also hypoglycaemia. **Temperature:** Avoid fever (≥ 38°C increases metabolic demand and excitotoxicity); targeted temperature management (TTM) for hypothermia 33-35°C has not shown improved outcomes in TBI (NABIS-H II trial).\n\n**CT head** is mandatory for all moderate-severe TBI and for mild TBI with risk factors (anticoagulation, age > 65, LOC, amnesia, GCS < 15). The **Marshall CT classification** grades CT findings: Diffuse Injury I (no visible pathology) through VI (surgical mass lesion with ICP > 25 mmHg) — predicts outcome and guides management.\n\n**BTF ICP Monitoring Indicacións (Level IIB):**\n- GCS ≤ 8 after resuscitation + abnormal CT (haematoma, contusion, swelling, herniation, compressed basal cisterns)\n- GCS ≤ 8 + normal CT: if any TWO of three risk factors: age > 40, unilateral/bilateral motor posturing, SBP < 90 mmHg\n\n**ICP monitoring options:** (1) **Intraventricular catheter (EVD/ICP monitor):** Gold standard — measures ICP and allows drenaje de LCR (therapeutic). Risk: infection (2-5%), haemorrhage (1-2%); requires placement in the anterior horn of the lateral ventricle. (2) **Parenchymal microsensor** (Camino, Codman): Accurate, low complication rate, but cannot drain CSF; placed through a bolt in the skull. (3) **Non-invasive ICP monitoring** (optic nerve sheath diameter > 5 mm on ultrasound, transcraneal Doppler pulsatility index) — useful for screening but not for continuous management."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Single Hypotensive Episode in TBI",
+          "content": "A single episode of hypotension (SBP < 90 mmHg) in severe TBI doubles in-hospital mortality. Hypotension must be treated IMMEDIATELY with fluid resuscitation and vasopressors — do NOT delay treating hypotension to complete CT or secondary survey. ICP monitoring does not replace haemodynamic optimisation — both must be addressed simultaneously."
+        }
+      ]
+    },
+    {
+      "id": "F1-S3",
+      "title": "Medical Manejo of Raised ICP",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Stepwise ('staircase') protocol for raised ICP** — treat in order of increasing aggressiveness:\n\n**Tier 1 (First-line, Basics):**\n- Head of bed elevated 30°\n- Cervical collar/head position — avoid jugular venous compression\n- Adequate analgesia and sedation (propofol or midazolam, analgesic opioid infusion) to reduce cerebral metabolic rate and sympathetic surges\n- Normothermia (treat fever ≥ 38°C)\n- Normoglycaemia (4-10 mmol/L)\n- Seizure prophylaxis: phenytoin or levetiracetam for 7 days post-TBI (BTF Level IIA: reduces early post-traumatic seizures; no effect on late seizures; does not improve outcomes)\n- Maintain CPP 60-70 mmHg\n\n**Tier 2 (Second-line, If ICP > 22 mmHg despite Tier 1):**\n- **drenaje de LCR via EVD** (intraventricular catheter): most effective ICP-reducing intervention when ICP > 22 mmHg — BTF Level III\n- **Osmotherapy:** Mannitol 0.25-1 g/kg IV bolus (osmotic effect and rheological effect — reduces blood viscosity improving CBF); effect within 15-30 minutes, duration 2-6 hours. Diana serum osmolality < 320 mOsm/kg. **Hypertonic saline (3%, 23.4%):** equal or superior to mannitol (Cochrane meta-analysis); preferred in hypotension; bolus 150-250 mL 3% or 30 mL 23.4%\n\n**Tier 3 (Third-line, refractory ICP):**\n- **Hyperventilation** to PaCO2 35-40 mmHg (moderate): reduces CBF via cerebral vasoconstriction. Prophylactic hyperventilation (PaCO2 < 35 mmHg) is HARMFUL and contraindicated — BTF Level IB. Only use for acute herniation as a bridge to definitive treatment\n- **Barbiturate coma** (pentobarbital/phenobarbitone): reduces cerebral metabolic rate and CBF; requires EEG monitoring for burst suppression; risks: cardiac depression, hypotension\n- **Decompressive craniectomía** (DC): surgical escalation"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Prophylactic Hyperventilation is HARMFUL",
+          "content": "Prophylactic hyperventilation (PaCO2 < 35 mmHg) is Level IB contraindicated in TBI — it causes cerebral vasoconstriction reducing CBF and creating ischaemia in an already vulnerable brain. Hyperventilation to PaCO2 < 30 mmHg should only be used as a BRIDGE (maximum 15-30 minutes) during acute uncal herniation while awaiting definitive surgical decompression. Normal PaCO2 target = 35-40 mmHg."
+        },
+        {
+          "type": "table",
+          "title": "Osmotherapy Options in TBI",
+          "headers": [
+            "Agent",
+            "Dose",
+            "Inicio",
+            "Duration",
+            "Mecanismo",
+            "BTF Level"
+          ],
+          "rows": [
+            [
+              "Mannitol 20%",
+              "0.25-1 g/kg IV bolus",
+              "15-30 min",
+              "2-6 h",
+              "Osmotic + rheological",
+              "Level IIA — reduces ICP"
+            ],
+            [
+              "Hypertonic Saline 3%",
+              "150-250 mL IV bolus",
+              "10-20 min",
+              "3-6 h",
+              "Osmotic + immunomodulatory",
+              "Level IIA — equal/superior to mannitol"
+            ],
+            [
+              "Hypertonic Saline 23.4%",
+              "30 mL via central IV",
+              "5-10 min",
+              "2-4 h",
+              "Osmotic (rapid)",
+              "Level III — acute herniation"
+            ],
+            [
+              "All osmotherapy",
+              "Monitor serum osm/Na+",
+              "Varies",
+              "Varies",
+              "Serum osm target < 320",
+              "Avoid prolonged use"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F1-S4",
+      "title": "Corticosteroids in TBI — CRASH Ensayo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Corticosteroids are CONTRAINDICATED in TBI** — this is one of the most important evidence-based mandates in all of neurosurgery, established by the **CRASH trial (Lancet 2004)**.\n\n**CRASH trial (Corticosteroid Randomisation After Significant Head Injury):** 10,008 adults with TBI and GCS ≤ 14 were randomised to methylprednisolone infusion (2 g loading dose + 0.4 g/hour for 48 hours) vs placebo. The trial was stopped early (safety monitoring): **14-day mortality: 21.1% methylprednisolone vs 17.9% placebo (RR 1.18, 95% CI 1.09-1.27, P = 0.0001)**. The corticosteroid group had significantly HIGHER mortality. The excess mortality was distributed across all injury severities and was consistent regardless of CT findings.\n\nThe mechanism of harm is thought to involve: hyperglycaemia (corticosteroid effect), immunosuppression increasing infection risk, possible direct neuronal toxicity, and interference with repair mechanisms. The CRASH-2 trial (2010) subsequently demonstrated tranexamic acid survival benefit in trauma with haemorrhage — this should not be confused with CRASH 1.\n\n**Key contrast:** Corticosteroids reduce oedema in brain tumours (vasogenic oedema around tumours) — this is NOT applicable to traumatic brain oedema. Dexamethasone reduces tumour vasogenic oedema and headache (Level I evidence for brain metastases) but causes harm in TBI. Never confuse these two contexts."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — Never Give Corticosteroids for TBI",
+          "content": "Corticosteroids (methylprednisolone, dexamethasone) are ABSOLUTELY CONTRAINDICATED in traumatic brain injury. The CRASH trial (NEJM 2004, N=10,008) showed 18% INCREASE in 14-day mortality (21.1% vs 17.9%, P=0.0001) with high-dose methylprednisolone. BTF 4th Edition (2016) Level I: corticosteroids should NOT be used for severe TBI. This is the only Level I recommendation in the BTF guidelines. Confusing TBI (steroids harmful) with brain tumour oedema (steroids helpful) is a potentially fatal error."
+        }
+      ]
+    },
+    {
+      "id": "F1-S5",
+      "title": "Decompressive Craniectomy: DECRA and RESCUEicp",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Decompressive craniectomía (DC)** involves removal of a large section of skull (unilateral: frontotemporoparietal, typically 12 cm diameter; bilateral: bifrontal) combined with opening of the dura to allow brain expansion, reducing ICP. Two landmark RCTs have defined its role in refractory TBI ICP:\n\n**DECRA trial (Cooper, NEJM 2011):** 155 adults with diffuse TBI, bifrontal DC vs standard medical care (threshold: ICP > 20 mmHg for > 15 minutes in any 1-hour period, refractory to Tier 1-2). **Result:** DC significantly reduced ICP (14 vs 20 mmHg) and ICU stay, but **unfavourable outcome (death/vegetative/severe disability — GOSE 1-4) was HIGHER in the DC group: 70% vs 51% (OR 2.21, P=0.02).** The DC group had more unfavourable neurological outcomes despite lower ICP. DECRA was criticised for: low ICP threshold (20 mmHg), early randomisation (before medical tier 3), and imbalance in pupillary abnormalities.\n\n**RESCUEicp trial (Hutchinson, NEJM 2016):** 408 adults with refractory ICP > 25 mmHg (after maximum medical therapy including barbiturates), DC vs continued medical management. **Result:** DC significantly reduced 6-month mortality (26.9% vs 48.9%, RR 0.55, P<0.001). Sin embargo, DC increased rates of severe disability (42% vs 30% at 12 months). Death was reduced, but more survivors were severely disabled. At 24 months, there was no significant difference in the proportion with favourable outcome (GOSE ≥ 5: 45% DC vs 32% medical, non-significant). Conclusion: DC is life-saving but the additional survivors are frequently severely disabled.\n\n**Current indications for DC in TBI (BTF 2016 + NICE NG232 2023):**\n- Refractory ICP > 25 mmHg (after all medical tiers exhausted) — consider carefully weighing life-saving vs disability (Level IIA)\n- DC is NOT recommended as primary treatment to improve neurological outcome (DECRA evidence)\n- Unilateral DC preferred for unilateral swelling (hemisphere > hemisphere, malignant infarct with oedema)\n- The 'talk and die' phenomenon — early decompression for rapidly deteriorating patients with surgical haematomas is emergency, not elective DC"
+        },
+        {
+          "type": "table",
+          "title": "DECRA vs RESCUEicp: Ensayo Comparison",
+          "headers": [
+            "Parameter",
+            "DECRA (2011)",
+            "RESCUEicp (2016)"
+          ],
+          "rows": [
+            [
+              "N (patients)",
+              "155",
+              "408"
+            ],
+            [
+              "ICP threshold",
+              ">20 mmHg for >15 min",
+              ">25 mmHg (refractory to all medical)"
+            ],
+            [
+              "Medical tier prior",
+              "Tier 1-2 (no barbiturates)",
+              "Tier 1-3 including barbiturates"
+            ],
+            [
+              "Primary DC type",
+              "Bifrontal",
+              "Mixed (mostly fronto-temporal-parietal)"
+            ],
+            [
+              "Key finding",
+              "Higher unfavourable outcome in DC group",
+              "Lower mortality (DC) but more survivors severely disabled"
+            ],
+            [
+              "Mortality reduction",
+              "Not significant",
+              "DC: 26.9% vs 48.9% (P<0.001)"
+            ],
+            [
+              "Clinical message",
+              "DC at early/low threshold worsens outcomes",
+              "DC saves lives but at cost of severe disability"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — DC Decision in Practice",
+          "content": "RESCUEicp proved DC saves lives but increases severe disability. The decision to perform DC for refractory ICP requires honest family discussion: 'This surgery will reduce the chance of death from 49% to 27%, but surviving patients are more likely to be severely disabled.' DC converts some deaths into severe disability — a morally complex tradeoff that requires detailed surrogate decision-making. Age, premorbid function, bilateral fixed pupils, and overall injury burden must all factor into the decision."
+        }
+      ]
+    },
+    {
+      "id": "F1-S6",
+      "title": "Specific TBI Patterns",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Diffuse Axonal Injury (DAI):** The most common pathology in severe closed head injury, resulting from rotational acceleration-deceleration forces causing axonal stretching and tearing at the grey-white matter interface, corpus callosum, and dorsolateral tronco encefálico. CT is often falsely reassuring — subtle haemorrhagic dots at grey-white interfaces or corpus callosum; MRI (gradient echo, susceptibility-weighted imaging) is far more sensitive showing multiple microhaemorrhages. Pathologically, impaired axonal transport causes axonal swelling ('retraction balls') within 12-24 hours, progressing to secondary axotomy. **Adams classification:** Grado 1 = white matter only; Grado 2 = corpus callosum; Grado 3 = dorsolateral tronco encefálico tegmentum (worst prognosis — persistent vegetative state/death). Manejo: supportive, ICP management as indicated.\n\n**Cerebral Contusion:** Focal cortical haemorrhagic injury from direct coup or contrecoup mechanisms. Frontal and temporal poles are most common (brain strikes orbital roof and esfenoidales wing). Initial CT may appear minimal — but **delayed contusion expansion (up to 30% in first 24-48 hours)** is a major concern, particularly in patients on anticoagulants. Repeat CT at 6-12 hours is mandatory for contusions ≥ 10 mL or any neurological deterioration. Surgical intervention threshold: significant mass effect, midline shift > 5 mm, volume > 50 mL, or refractory raised ICP.\n\n**Penetrating TBI (pTBI):** Gunshot wounds (GSW) to the head and stab wounds. GSW prognosis correlates with trajectory — bihemispheric, transventricular, and posterior fossa traversal carry highest mortality. Entry and exit wounds should be identified. Débridement of devitalised tissue, watertight cierre dural, and prophylactic antibiotics are standard. **Retained fragments:** Copper/lead fragments may cause ongoing toxicity or abscess — generally not removed unless easily accessible or causing direct neural compression. **Cerebral vascular injury** (pseudoaneurysm, AV fistula, carotid injury) must be excluded by CTA or angiography for pTBI near major vessels."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Delayed Contusion Expansion",
+          "content": "Traumatic cerebral contusions expand in up to 30% of cases within 24-48 hours of injury. Initial CT 'small-looking' contusions may evolve into life-threatening haematomas. ALWAYS repeat CT at 6-12 hours for: contusion ≥ 10 mL, coagulopathy/anticoagulation, neurological deterioration, or contusion at a high-risk location (temporal lobe contusion adjacent to tentorial notch). Missing delayed expansion in a patient still in the 'golden period' is a preventable cause of death."
+        }
+      ]
+    },
+    {
+      "id": "F1-S7",
+      "title": "Multimodality Monitoring and Prognostication",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Multimodality neuromonitoring (MMM)** allows continuous assessment of cerebral physiology beyond simple ICP, enabling detection of secondary insults before they cause irreversible damage. Current modalities:\n\n**Brain tissue oxygen monitoring (PbtO2 — Licox):** Measures local tissue oxygen tension (pO2) in brain white matter. Normal PbtO2 > 20-25 mmHg. PbtO2 < 15 mmHg (moderate compromise), < 10 mmHg (critical ischaemia). Treatment target PbtO2 > 20 mmHg — achieved by increasing CPP, FiO2, normocarbia, reducing brain metabolic demand. The BOOST-II trial showed PbtO2-directed therapy was safe and associated with fewer episodes of brain tissue hypoxia than ICP-only therapy.\n\n**Cerebral microdialysis:** Measures extracellular metabolites in brain parenchyma (glucose, lactate, pyruvate, glutamate, glycerol). The **lactate-pyruvate ratio (LPR) > 40** indicates cerebral metabolic crisis/ischaemia. LPR 25-40 = normal. Glycerol elevation indicates neuronal membrane breakdown. Glucose < 0.7 mmol/L indicates cerebral energy failure.\n\n**Transcranial Doppler (TCD):** Non-invasive assessment of middle cerebral artery blood flow velocity. Usarful for: detecting vasospasm after TBI (elevated velocities), estimating ICP (Pulsatility Index — PI > 1.2 suggests elevated ICP), and assessing autoregulation status.\n\n**EEG monitoring:** Detects non-convulsive status epilepticus (NCSE) — present in 10-25% of comatose TBI patients on cEEG monitoring. NCSE worsens secondary injury and must be treated aggressively (levetiracetam, lacosamide, propofol for sedation-refractory NCSE).\n\n**Prognostication:** The **IMPACT prediction model** (International Mission for Pronóstico and Análisis of Clinical Ensayos in TBI) incorporates: age, motor GCS, pupillary reactivity, CT findings, and secondary insults to estimate 6-month mortality and unfavourable outcome probability. The **CRASH prognostic model** (Marshall/BTF) similarly predicts outcomes. Major prognostic predictors: bilateral fixed dilated pupils (worst), CT finding of compressed basal cisterns, age > 65, low GCS, hypoxia/hypotension in pre-hospital phase."
+        },
+        {
+          "type": "table",
+          "title": "BTF 4th Edition Key Recommendations Summary",
+          "headers": [
+            "Parameter",
+            "Diana/Recommendation",
+            "BTF Level",
+            "Evidence Base"
+          ],
+          "rows": [
+            [
+              "Corticosteroids",
+              "CONTRAINDICATED",
+              "Level I",
+              "CRASH trial (Lancet 2004)"
+            ],
+            [
+              "ICP treatment threshold",
+              "<22 mmHg",
+              "Level IIB",
+              "Multiple observational studies"
+            ],
+            [
+              "CPP target",
+              "60-70 mmHg",
+              "Level IIB",
+              "Observational; avoid CPP >70 mmHg"
+            ],
+            [
+              "ICP monitoring indications",
+              "GCS ≤8 + abnormal CT",
+              "Level IIB",
+              "Level IIB evidence"
+            ],
+            [
+              "Prophylactic hyperventilation",
+              "AVOID (PaCO2 ≥35 mmHg)",
+              "Level IB",
+              "CRASH + physiological data"
+            ],
+            [
+              "Seizure prophylaxis",
+              "7 days post-TBI (phenytoin/levetiracetam)",
+              "Level IIA",
+              "Reduces early PTS only"
+            ],
+            [
+              "Decompressive craniectomía",
+              "Refractory ICP >25 mmHg: consider DC",
+              "Level IIA",
+              "RESCUEicp 2016"
+            ],
+            [
+              "Osmotherapy (mannitol)",
+              "Bolus dosing; serum osm <320",
+              "Level IIA",
+              "Multiple RCTs"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre severe traumatic brain injury management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "F1-Q1",
+        "stem": "A 32-year-old man is brought to the emergency department after a high-speed motor vehicle accident. GCS is 6 (E1V2M3). CT shows bilateral cerebral contusions with diffuse sulcal effacement and compressed basal cisterns, but no surgical haematoma. Blood pressure is 105/70 mmHg (MAP 82 mmHg). Which intervention is most immediately life-saving?",
+        "options": {
+          "A": "High-dose methylprednisolone to reduce cerebral oedema",
+          "B": "Rapid sequence intubation to secure the airway and initiate controlled ventilation",
+          "C": "Immediate decompressive craniectomía",
+          "D": "Lumbar puncture to measure opening pressure"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The first priority in severe TBI (GCS 6) is airway protection and controlled ventilation. Rapid sequence intubation (RSI) prevents hypoxia and hypercapnia, both of which are independent determinants of secondary brain injury. GCS ≤ 8 is the threshold for intubation in TBI. Once intubated, ventilation targets: SpO2 > 95%, PaO2 > 60 mmHg, PaCO2 35-40 mmHg. The compressed basal cisterns indicate impending uncal herniation — ICP monitoring should follow after stabilisation.",
+          "wrong": {
+            "A": "Corticosteroids (methylprednisolone) are absolutely contraindicated in TBI — the CRASH trial (Lancet 2004) showed 18% excess mortality with methylprednisolone vs placebo (21.1% vs 17.9%, P=0.0001). This is a Level I BTF recommendation.",
+            "C": "Decompressive craniectomía without first securing the airway and stabilising the patient medically is premature. Medical management (Tier 1-2) must be attempted first. DC is reserved for refractory ICP > 25 mmHg after all medical tiers.",
+            "D": "Lumbar puncture is absolutely contraindicated in severe TBI with raised ICP (compressed basal cisterns, diffuse oedema) — it risks rapid decompression and tonsillar herniation causing death."
+          },
+          "guideline": "ATLS 10th Edition 2018 — primary survey: airway with C-spine control first; GCS ≤8 = intubation threshold; BTF 4th Edition 2016: avoid hypoxia (SaO2<90%) and hypotension (SBP<90 mmHg)",
+          "trial": "CRASH trial. Lancet 2004;364:1321-1328: methylprednisolone DOUBLED mortality in TBI (21.1% vs 17.9%); Level I contraindication; seminal negative trial in TBI management",
+          "pearl": "Severe TBI management sequence: (1) Airway/intubation first (RSI), (2) maintain SpO2>95%, PaCO2 35-40 mmHg, (3) avoid hypotension (SBP ≥100-110 mmHg), (4) CT scan, (5) ICP monitoring if indicated. Corticosteroids are NEVER indicated — CRASH trial Level I evidence."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q2",
+        "stem": "According to the Brain Trauma Foundation 4th Edition (2016) guidelines, what is the ICP treatment threshold above which treatment should be initiated?",
+        "options": {
+          "A": "ICP > 15 mmHg",
+          "B": "ICP > 22 mmHg",
+          "C": "ICP > 30 mmHg",
+          "D": "ICP > 10 mmHg"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The BTF 4th Edition (2016) recommends treating ICP > 22 mmHg (Level IIB). This threshold was updated from the previous BTF 3rd Edition target of > 20 mmHg based on analysis of the BEST-TRIP trial (Chesnut, NEJM 2012) and other data. ICP values > 22 mmHg are associated with increased mortality, and treatment at this threshold is a cornerstone of severe TBI management. The target is to keep ICP < 22 mmHg throughout the acute phase.",
+          "wrong": {
+            "A": "ICP > 15 mmHg was an older, more aggressive threshold that led to excessive treatment. The current evidence-based threshold is 22 mmHg.",
+            "C": "ICP > 30 mmHg is too high — by this level, significant secondary injury has already occurred. Waiting until ICP > 30 mmHg to treat represents inadequate management.",
+            "D": "ICP > 10 mmHg is below the normal upper limit of normal ICP (~15 mmHg at rest). Treating at this threshold would represent excessive, non-evidence-based intervention."
+          },
+          "guideline": "BTF Guidelines 4th Edition 2016 — ICP monitoring and management: treat ICP > 22 mmHg (Level IIB); CPP 60-70 mmHg target (Level IIB)",
+          "trial": "Chesnut RM et al. A trial of ICP monitoring in TBI. NEJM 2012;367:2471-2481 (BEST-TRIP): ICP-monitored vs imaging/clinical-based management; equivalent outcomes; established validity of ICP monitoring; informed BTF threshold of 22 mmHg",
+          "pearl": "BTF 2016 key numbers: ICP treatment threshold = 22 mmHg (Level IIB). CPP target = 60-70 mmHg (Level IIB). SBP target ≥ 100 mmHg (age 50-69) or ≥ 110 mmHg (age 15-49 or ≥70) (Level IIB). These are the three haemodynamic targets to memorise."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q3",
+        "stem": "A patient with severe TBI has an ICP of 28 mmHg despite head elevation, normothermia, adequate sedation, and analgesia (BTF Tier 1 measures complete). drenaje de LCR via EVD is providing partial relief but ICP remains > 22 mmHg. Which es el más apropiado next Tier 2 intervention?",
+        "options": {
+          "A": "Prophylactic hyperventilation to PaCO2 < 30 mmHg",
+          "B": "Mannitol 0.5 g/kg IV bolus",
+          "C": "High-dose methylprednisolone 30 mg/kg",
+          "D": "Urgent decompressive craniectomía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Osmotherapy with mannitol (0.25-1 g/kg IV bolus) is a standard Tier 2 ICP-reducing intervention following Tier 1 basics and EVD drainage. Mannitol works via two mechanisms: immediate rheological effect (reduces blood viscosity, improving microcirculation) within minutes, and osmotic effect (creates osmotic gradient drawing water from brain parenchyma to plasma) peaking at 15-60 minutes. Bolus dosing (not continuous infusion) is preferred to maintain osmotic gradient. Target serum osmolality < 320 mOsm/kg to avoid renal toxicity.",
+          "wrong": {
+            "A": "Prophylactic hyperventilation to PaCO2 < 30 mmHg is Level IB CONTRAINDICATED in BTF guidelines — it reduces CBF and causes ischaemia. Hyperventilation should only be used briefly (minutes) for acute herniation as a bridge to definitive treatment.",
+            "C": "Methylprednisolone is absolutely contraindicated in TBI (Level I, BTF) based on the CRASH trial. Never administer corticosteroids for TBI regardless of ICP level.",
+            "D": "Decompressive craniectomía is a Tier 3 escalation reserved for refractory ICP > 25 mmHg after all medical tiers (including Tier 3 barbiturates) are exhausted. Proceeding directly to DC before completing medical tiers is premature and not evidence-based."
+          },
+          "guideline": "BTF 4th Edition 2016 — osmotherapy: mannitol 0.25-1 g/kg bolus (Level IIA); EVD drainage (Level III); Tier 2 before Tier 3 escalation",
+          "trial": "Sayre MR et al. Meta-analysis of mannitol vs hypertonic saline for ICP reduction in TBI: both effective for acute ICP reduction; mannitol serum osm threshold 320 mOsm/kg; hypertonic saline may be superior in hypotension",
+          "pearl": "Stepwise TBI ICP management (staircase): Tier 1 (HOB, normothermia, sedation, glucose) → Tier 2 (EVD drainage, osmotherapy: mannitol or HTS) → Tier 3 (moderate hyperventilation bridge only, barbiturate coma) → DC for refractory ICP > 25 mmHg. Never skip tiers; never give steroids."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q4",
+        "stem": "The CRASH trial (Lancet 2004) randomised 10,008 patients with TBI to methylprednisolone vs placebo. What was the primary finding?",
+        "options": {
+          "A": "Methylprednisolone significantly reduced 14-day mortality (17% vs 21%, P=0.0001)",
+          "B": "Methylprednisolone significantly INCREASED 14-day mortality (21.1% vs 17.9%, P=0.0001)",
+          "C": "Methylprednisolone had no effect on mortality but improved neurological outcomes",
+          "D": "Methylprednisolone was beneficial only for mild TBI (GCS 13-14)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CRASH trial found that methylprednisolone (2 g loading dose + continuous infusion for 48 hours) significantly INCREASED 14-day mortality compared to placebo: 21.1% vs 17.9% (RR 1.18, 95% CI 1.09-1.27, P=0.0001). The trial was stopped early due to this excess mortality. This finding resulted in a Level I BTF recommendation that corticosteroids should NOT be used in severe TBI. The excess risk was consistent across GCS subgroups and was not explained by any single complication.",
+          "wrong": {
+            "A": "This is the opposite of the actual finding — methylprednisolone INCREASED mortality, it did not reduce it. Reversing the direction of effect is the most dangerous exam error for this trial.",
+            "C": "Methylprednisolone did not improve neurological outcomes either — 6-month follow-up showed higher rates of death or severe disability in the methylprednisolone group.",
+            "D": "The CRASH trial did not demonstrate benefit in any TBI subgroup including mild TBI. Corticosteroids remain contraindicated across all TBI severities."
+          },
+          "guideline": "BTF 4th Edition 2016 — Level I: corticosteroids NOT recommended for improving neurological outcome or survival in TBI; explicitly based on CRASH trial",
+          "trial": "CRASH trial collaborators. Effect of intravenous corticosteroids on death within 14 days in 10,008 adults with clinically significant head injury. Lancet 2004;364(9442):1321-1328: 21.1% vs 17.9% mortality, RR 1.18, P=0.0001; trial stopped early; defines corticosteroid contraindication in TBI",
+          "pearl": "CRASH trial result: methylprednisolone = 21.1% mortality vs placebo = 17.9% (P=0.0001). Steroids KILLED more TBI patients. This is the only Level I recommendation in the BTF guidelines. CRASH es el más importante negative trial in TBI management — know the exact numbers."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q5",
+        "stem": "According to the RESCUEicp trial (NEJM 2016), what was the primary finding regarding decompressive craniectomía for refractory TBI?",
+        "options": {
+          "A": "DC significantly improved 6-month functional outcomes (GOSE ≥5) without affecting mortality",
+          "B": "DC significantly reduced mortality but was associated with more survivors in a severely disabled state",
+          "C": "DC had no significant effect on either mortality or functional outcomes",
+          "D": "DC worsened outcomes — higher unfavourable GOSE at 6 months"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "RESCUEicp (Hutchinson, NEJM 2016) found that DC for refractory ICP > 25 mmHg (after maximum medical therapy including barbiturates) significantly reduced 6-month mortality: 26.9% DC vs 48.9% medical (RR 0.55, P<0.001). However, among the survivors, DC was associated with more patients in a severely disabled state (GOSE 3-4). At 12 months: favourable outcomes (GOSE 5-8) — 45% DC vs 32% medical; unfavourable (GOSE 1-4): 55% DC vs 68% medical. DC converts some deaths into survival with severe disability. This is the key finding shaping current DC decision-making: it saves lives, but the additional survivors are frequently severely disabled.",
+          "wrong": {
+            "A": "DC significantly reduced MORTALITY — not primarily improving functional outcomes without mortality effect. The primary finding was survival benefit at the cost of increased severe disability.",
+            "C": "DC had a highly significant effect on mortality (P<0.001) — it reduced mortality from 48.9% to 26.9%. The confusion with DECRA (which showed no mortality benefit) must be avoided.",
+            "D": "DECRA (2011, not RESCUEicp) showed higher UNFAVOURABLE GOSE in the DC group — but that was for a lower ICP threshold and earlier treatment. RESCUEicp showed DC reduced mortality even if disability was increased."
+          },
+          "guideline": "BTF 4th Edition 2016 (updated with RESCUEicp data) — DC for refractory ICP: Level IIA recommendation; RESCUEicp provides primary evidence; informed consent must include severe disability probability",
+          "trial": "Hutchinson PJ et al. Ensayo of decompressive craniectomía for traumatic intracranial hypertension (RESCUEicp). NEJM 2016;375(12):1119-1130: DC for ICP>25 after all medical tiers; 26.9% vs 48.9% mortality (P<0.001); more survivors severely disabled — DC saves lives at cost of severe disability",
+          "pearl": "RESCUEicp message: DC for refractory ICP > 25 mmHg reduces mortality (26.9% vs 48.9%) but increases severe disability among survivors. DC converts deaths into severely disabled survivors. This must be communicated to families: 'DC reduces death risk by ~50%, but many survivors will have severe disability.' Contrastar with DECRA (low ICP threshold, early DC = worse outcomes)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q6",
+        "stem": "A 25-year-old TBI patient has an ICP of 45 mmHg. Emergency temporal lobe herniation (uncal herniation) is suspected clinically (dilating right pupil, left motor posturing). Definitive surgical decompression is 20 minutes away. Which short-term pharmacological bridge is most appropriate?",
+        "options": {
+          "A": "Dexamethasone 10 mg IV",
+          "B": "Hyperventilation to PaCO2 25-30 mmHg as a short-term bridge",
+          "C": "Bolus mannitol 1 g/kg IV",
+          "D": "Both B and C simultaneously"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "For acute uncal herniation with imminent brainstem compression, simultaneous deployment of BOTH acute hyperventilation (temporary cerebral vasoconstriction to reduce CBF and ICP rapidly) AND osmotherapy (mannitol 1 g/kg IV bolus or hypertonic saline 23.4% 30 mL) provides the fastest combined ICP reduction while awaiting definitive surgical decompression (emergency burr hole, craniotomy, or EVD). Both measures together provide maximal bridge effect. This is a true emergency where the standard caution against prophylactic hyperventilation is suspended — the 15-30 minute window of aggressive hyperventilation is acceptable to prevent brainstem compression and death.",
+          "wrong": {
+            "A": "Dexamethasone está contraindicado in TBI regardless of the emergency (CRASH trial). In an acute herniation emergency, corticosteroids would delay effective treatment without providing benefit.",
+            "B": "Hyperventilation alone es apropiado as a bridge but combined with osmotherapy provides faster, more effective ICP reduction in this emergency. Using only one measure when both are available is suboptimal.",
+            "C": "Mannitol alone es apropiado as a bridge but combined with hyperventilation provides faster more effective ICP reduction. The combination is superior."
+          },
+          "guideline": "BTF 4th Edition 2016 — hyperventilation: Level IB contraindicated prophylactically; acute herniation exception: temporary PaCO2 lowering as a bridge is acceptable and standard practice",
+          "trial": "Muizelaar JP et al. Adverse effects of prolonged hyperventilation in patients with severe head injury. J Neurosurg 1991;75(5):731-739: basis for avoiding prophylactic hyperventilation; prolonged hyperventilation causes ischaemia; acute short-term use for herniation remains standard of care",
+          "pearl": "Acute herniation emergency bridge: simultaneous hyperventilation + osmotherapy provides fastest ICP reduction. Hyperventilation to PaCO2 25-30 mmHg for maximum 15-30 minutes is acceptable ONLY as a bridge to definitive surgery — never prophylactically. Mannitol 1 g/kg or hypertonic saline 23.4% simultaneously. Then definitive decompression."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q7",
+        "stem": "What is the cerebral perfusion pressure (CPP) in a patient with MAP 80 mmHg and ICP 28 mmHg, and what is the BTF recommended CPP target range?",
+        "options": {
+          "A": "CPP = 52 mmHg; BTF target > 70 mmHg",
+          "B": "CPP = 52 mmHg; BTF target 60-70 mmHg",
+          "C": "CPP = 108 mmHg; BTF target 60-70 mmHg",
+          "D": "CPP = 52 mmHg; BTF target 50-60 mmHg"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CPP = MAP − ICP = 80 − 28 = 52 mmHg. The BTF 4th Edition (2016) recommends a CPP target of 60-70 mmHg (Level IIB). CPP of 52 mmHg is below this target, indicating inadequate cerebral perfusion — both MAP augmentation (vasopressors/fluids to raise MAP) and ICP reduction (osmotherapy, EVD drainage) are required. CPP > 70 mmHg should be avoided as it may cause cerebral hyperperfusion, ARDS, and worsened oedema.",
+          "wrong": {
+            "A": "CPP = 52 mmHg is correct, but BTF target > 70 mmHg is wrong — BTF recommends 60-70 mmHg, not > 70 mmHg. Forcing CPP > 70 mmHg se asocia con worse outcomes (ARDS, hyperperfusion).",
+            "C": "CPP = MAP − ICP = 80 − 28 = 52 mmHg, not 108 mmHg. 108 would be if you used MAP + ICP (which is not the formula).",
+            "D": "CPP = 52 mmHg is correct but BTF target 50-60 mmHg is wrong — the target is 60-70 mmHg. A CPP of 52 mmHg is below the recommended minimum of 60 mmHg."
+          },
+          "guideline": "BTF 4th Edition 2016 — CPP: target 60-70 mmHg (Level IIB); avoid CPP >70 mmHg (Level IIB — vasopressor strategies to achieve CPP >70 increase risk ARDS); CPP = MAP − ICP",
+          "trial": "Robertson CS et al. Prevention of secondary ischemic insults after severe head injury. Crit Care Med 1999;27(10):2086-2095: CPP-targeted therapy vs ICP-targeted therapy; CPP >70 mmHg associated with ARDS; defines 60-70 mmHg as optimal CPP window",
+          "pearl": "CPP = MAP − ICP. Know this formula. BTF CPP target = 60-70 mmHg. Below 60 = cerebral ischaemia risk. Above 70 = hyperperfusion + ARDS risk. In the exam: calculate CPP first, then assess against target range."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q8",
+        "stem": "CT brain in a 22-year-old motorcyclist shows multiple small haemorrhagic foci at the grey-white matter junction and corpus callosum, with the overall brain appearing swollen. GCS is 5. CT appears relatively benign compared to the clinical severity. Which diagnosis best explains this dissociation?",
+        "options": {
+          "A": "Bilateral acute subdural haematomas",
+          "B": "Diffuse axonal injury (DAI)",
+          "C": "Multiple cerebral contusions",
+          "D": "Superior sagittal sinus thrombosis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Diffuse axonal injury (DAI) classically shows the 'CT-clinical dissociation' — the CT appears relatively benign (small haemorrhagic dots at grey-white junctions, corpus callosum) while the clinical picture is severe (deep coma, GCS 5). DAI is caused by rotational acceleration-deceleration forces shearing axons at the grey-white interface, corpus callosum, and brainstem tegmentum. MRI (gradient echo/susceptibility-weighted imaging) is far more sensitive and shows multiple microhaemorrhages. The discordance between CT findings and clinical severity is a hallmark of DAI.",
+          "wrong": {
+            "A": "Bilateral acute subdural haematomas would appear as bilateral hyperdense crescentic collections on CT with significant midline shift — clearly visible and not 'benign appearing.' They do not produce the CT-clinical dissociation.",
+            "C": "Multiple cerebral contusions are visible on CT as hyperdense areas within brain parenchyma (not at grey-white interface specifically) — they would be apparent on CT and explain the clinical severity without the dissociation phenomenon.",
+            "D": "SSS thrombosis shows absent contrast enhancement of the superior sagittal sinus on CT-angiography, with venous infarcts — not the pattern of grey-white junction microhaemorrhages."
+          },
+          "guideline": "NICE NG232 2023 — DAI: CT may underestimate injury severity; MRI SWI/GRE essential when CT-clinical dissociation present; Adams grade III DAI (dorsolateral tronco encefálico) = worst prognosis",
+          "trial": "Adams JH et al. Diffuse axonal injury in head injury: definition, diagnosis and grading. Histopathology 1989;15(1):49-59: original DAI characterisation; Grado I-III; CT sensitivity low; neuropathological gold standard; MRI superior for clinical diagnosis",
+          "pearl": "CT-clinical dissociation (CT benign + GCS very low) = DAI until proven otherwise. CT is insensitive for DAI — MRI SWI shows multiple microhaemorrhages at grey-white junctions, corpus callosum, and dorsolateral tronco encefálico. Adams Grado III (tronco encefálico) carries worst prognosis — persistent vegetative state/death."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q9",
+        "stem": "A 45-year-old man with severe TBI has a PbtO2 (brain tissue oxygen) of 9 mmHg (normal > 20-25 mmHg). ICP is 18 mmHg. What does this indicate and what is the priority intervention?",
+        "options": {
+          "A": "Normal finding — ICP is acceptable and no intervention needed",
+          "B": "Critical cerebral tissue hypoxia despite acceptable ICP — increase CPP, FiO2, or reduce metabolic demand",
+          "C": "Brain death — withdraw care",
+          "D": "Probe malfunction — repeat ICP monitoring"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PbtO2 < 10 mmHg represents critical cerebral tissue ischaemia/hypoxia — even when ICP appears acceptable (18 mmHg here, below the 22 mmHg treatment threshold). This demonstrates the value of multimodality monitoring: ICP-guided management alone misses tissue hypoxia. PbtO2 < 10 mmHg independently predicts poor outcome. Treatment targets PbtO2 > 20 mmHg: increase CPP (>60 mmHg, potentially higher), increase FiO2 (increase arterial oxygen content), reduce brain metabolic demand (temperature control, adequate sedation), verify probe placement (not in contusion). The BOOST-II trial validated PbtO2-directed therapy.",
+          "wrong": {
+            "A": "PbtO2 of 9 mmHg is critically abnormal regardless of ICP level. Accepting 'normal ICP' while tissue oxygen is critically low ignores one of the key multimodality monitoring parameters.",
+            "C": "PbtO2 < 10 mmHg indicates local tissue hypoxia — it does not confirm brain death. Brain death requires clinical examination criteria (absent tronco encefálico reflexes, apnoea test) ± confirmatory tests.",
+            "D": "While probe malfunction is possible, the appropriate clinical response is to treat the finding while verifying probe integrity — not to dismiss it. Check probe position on CT and cross-reference with ICP trend."
+          },
+          "guideline": "BTF 4th Edition 2016 — brain tissue oxygen monitoring: PbtO2 < 15 mmHg = moderate compromise; < 10 mmHg = critical; treatment target > 20-25 mmHg; BOOST-II trial supports safety",
+          "trial": "Narotam PK et al. Brain tissue oxygen monitoring in traumatic brain injury and major trauma. J Neurosurg 2009;111(4):672-682: PbtO2-directed therapy reduces mortality; target > 20 mmHg; BOOST-II trial: PbtO2 monitoring safe and reduces time with PbtO2 < 20 mmHg",
+          "pearl": "PbtO2 measures TISSUE oxygenation independent of ICP. Critical threshold: < 10 mmHg. Treatment: increase CPP (> 60 mmHg target), increase FiO2, reduce metabolic demand. ICP can be normal while tissue is hypoxic — multimodality monitoring catches what ICP alone misses."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q10",
+        "stem": "Una mujer de 55 años has a 3 cm right temporal lobe contusion on CT immediately after TBI. GCS is 12 (E3V4M5). She is admitted for observation. Which monitoring protocol is most appropriate?",
+        "options": {
+          "A": "One CT scan is sufficient — if initial CT shows no haematoma, repeat is not needed",
+          "B": "Repeat CT at 6-12 hours to assess for delayed contusion expansion",
+          "C": "Immediate decompressive craniectomía due to temporal lobe location",
+          "D": "Lumbar puncture to exclude subarachnoid haemorrhage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Traumatic cerebral contusions expand in up to 30% of cases within the first 24-48 hours — a phenomenon called 'delayed traumatic intracerebral haematoma' (DTICH) or contusion expansion. The temporal lobe is a particularly high-risk location because temporal lobe expansion can rapidly lead to uncal herniation. Repeat CT at 6-12 hours (or immediately if neurological deterioration occurs) is mandatory for any patient with a contusion ≥ 10 mL or in a high-risk location. The 3 cm temporal lobe contusion in a GCS 12 patient requires close monitoring with repeat neurological examination every 30-60 minutes and repeat CT at 6-12 hours.",
+          "wrong": {
+            "A": "A single initial CT is not sufficient for contusions — delayed expansion is well-documented in up to 30% of cases. The initial CT is the baseline for comparison. Single-scan management of contusions risks missing DTICH.",
+            "C": "Immediate decompressive craniectomía for a 3 cm contusion with GCS 12 es excesivo. Surgical thresholds for contusion require: volume > 50 mL, midline shift > 5 mm, refractory ICP, or significant mass effect. GCS 12 with a 3 cm contusion does not meet criteria.",
+            "D": "LP está contraindicado with a space-occupying lesion and GCS depression — risk of herniation. Subarachnoid haemorrhage in TBI is diagnosed on CT, not LP."
+          },
+          "guideline": "BTF 4th Edition 2016 — contusion monitoring: repeat CT at 6-12 hours; any neurological deterioration = emergency repeat CT; temporal lobe = highest herniation risk",
+          "trial": "Oertel M et al. Progressive haemorrhage after head trauma: predictors and consequences of the evolving injury. J Neurosurg 2002;96(1):109-116: contusion expansion in 29% of TBI patients; risk factors: coagulopathy, initial contusion size > 10mL, temporal location; repeat CT 6-12 hours standard",
+          "pearl": "Traumatic contusion expansion: up to 30% expand significantly within 24-48 hours. Always repeat CT at 6-12 hours for contusions ≥ 10 mL, coagulopathy, anticoagulation, or temporal lobe location. A 'small' initial contusion can become a life-threatening haematoma — the temporal lobe is highest risk for herniation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q11",
+        "stem": "What does the Monroe-Kellie doctrine state, and which of the following CT findings best illustrates the limits of intracranial compensation?",
+        "options": {
+          "A": "ICP decreases as brain volume increases; cortical sulci effacement indicates normal compensation",
+          "B": "Intracranial volume is fixed; compressed basal cisterns on CT indicate exhausted compensatory reserve",
+          "C": "CBF increases proportionally with ICP; midline shift > 3 mm indicates compensation is active",
+          "D": "CSF volume is constant; brain oedema has no effect on ICP until BBB is completely disrupted"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Monroe-Kellie doctrine states that the intracranial volume is fixed (rigid skull); the three compartments (brain ~80%, blood ~10%, CSF ~10%) must maintain a constant total volume. Compensatory mechanisms (CSF displacement into spinal subarachnoid space, venous blood displacement) accommodate early volume increases without ICP rise. When these are exhausted, ICP rises exponentially with minimal additional volume change. Compressed basal cisterns on CT indicate that the downward brain displacement has obliterated the subarachnoid cisterns — reflecting critically elevated ICP with exhausted compensatory reserve and impending uncal herniation.",
+          "wrong": {
+            "A": "ICP increases (not decreases) as brain volume increases once compensation is exhausted. Sulcal effacement indicates brain swelling, which is a sign of loss of compensation (smaller CSF space), not normal compensation.",
+            "C": "CBF is normally autoregulated to remain constant despite varying ICP (until autoregulation fails). Midline shift > 5 mm (not 3 mm) is the surgical threshold for haematoma — not a sign of active compensation.",
+            "D": "CSF volume is variable (it can be displaced to spinal canal as compensation). Brain oedema elevates ICP via Monroe-Kellie — even without BBB complete disruption, any added volume raises ICP once compensation is exhausted."
+          },
+          "guideline": "BTF 4th Edition 2016 — Monroe-Kellie doctrine underpins TBI ICP management rationale; basal cistern compression as CT marker of elevated ICP",
+          "trial": "Marmarou A et al. A new method for assessment of cerebral compensatory reserve and autoregulation in severe head injury. J Neurosurg 1975;42(6):666-674: pressure-volume index characterisation; Monroe-Kellie compensation mathematics; established pathophysiological basis for TBI management",
+          "pearl": "Monroe-Kellie doctrine: fixed skull volume; brain + blood + CSF = constant. Compensation = CSF displaced to spinal canal. Exhausted compensation = compressed/absent basal cisterns on CT. Compressed basal cisterns = near-critically elevated ICP = imminent uncal herniation = emergency management required."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q12",
+        "stem": "Following the DECRA trial (Cooper, NEJM 2011), which was the most important finding that led to revision of DC indications?",
+        "options": {
+          "A": "DC significantly improved 6-month neurological outcomes (GOSE ≥ 5) in diffuse TBI",
+          "B": "DC significantly reduced mortality in diffuse TBI with ICP > 20 mmHg",
+          "C": "DC significantly reduced ICP but was associated with higher rates of unfavourable neurological outcomes",
+          "D": "DC had no effect on ICP compared to medical management"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "DECRA (Cooper, NEJM 2011) found: DC significantly reduced ICP (14 vs 20 mmHg) and ICU stay, BUT unfavourable neurological outcome (GOSE 1-4) was significantly HIGHER in the DC group (70% vs 51%, OR 2.21, P=0.02). This paradoxical finding (lower ICP but worse neurological outcomes) was attributed to: early DC before exhausting all medical tiers, low ICP threshold (20 mmHg), imbalance in pupillary abnormalities. The lesson: DC at an early/low ICP threshold does not improve neurological outcomes and may worsen them. This contrasts with RESCUEicp (DC after all tiers, ICP > 25 mmHg) which showed mortality reduction.",
+          "wrong": {
+            "A": "DECRA showed WORSE neurological outcomes (higher GOSE 1-4 rate) in the DC group — not improved outcomes.",
+            "B": "DECRA did not show a significant mortality reduction with DC — the primary finding was worse neurological outcomes despite ICP reduction. Mortality was lower in DC but not statistically significant in the primary analysis.",
+            "D": "DC significantly reduced ICP in DECRA (14 vs 20 mmHg) — the paradox was that lower ICP did not translate to better outcomes."
+          },
+          "guideline": "BTF 4th Edition 2016 — DC for diffuse TBI: not recommended to improve outcomes (DECRA evidence); reserve for refractory ICP > 25 mmHg after all medical tiers (RESCUEicp evidence)",
+          "trial": "Cooper DJ et al. Decompressive craniectomía in diffuse TBI (DECRA). NEJM 2011;364(16):1493-1502: 155 patients; bifrontal DC vs medical; ICP lower in DC (14 vs 20 mmHg); GOSE unfavourable 70% DC vs 51% medical (OR 2.21, P=0.02); DC at low ICP threshold = worse outcomes",
+          "pearl": "DECRA paradox: DC lowered ICP but WORSENED neurological outcomes (70% vs 51% unfavourable GOSE). Lesson: DC at an early/low ICP threshold (20 mmHg) in diffuse TBI is harmful. Only perform DC for refractory ICP > 25 mmHg AFTER all medical tiers (RESCUEicp threshold). DECRA = wrong threshold. RESCUEicp = right threshold."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q13",
+        "stem": "Seizure prophylaxis with phenytoin or levetiracetam se recomienda for how long after severe TBI, and what is its proven benefit?",
+        "options": {
+          "A": "Indefinitely; reduces both early and late post-traumatic seizures",
+          "B": "7 days; reduces early post-traumatic seizures only; does NOT reduce late seizures",
+          "C": "3 months; reduces risk of post-traumatic epilepsy at 12 months",
+          "D": "24 hours only; longer use causes rebound seizures"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BTF Level IIA recommendation: phenytoin or levetiracetam for 7 days post-TBI significantly reduces early post-traumatic seizures (occurring within 7 days). However, long-term seizure prophylaxis does NOT reduce late post-traumatic seizures (occurring after 7 days) or the development of post-traumatic epilepsy. This is a critical distinction — seizure prophylaxis beyond 7 days adds toxicity without benefit. Levetiracetam is increasingly preferred over phenytoin due to better tolerability and fewer drug interactions.",
+          "wrong": {
+            "A": "Seizure prophylaxis has NO proven effect on late post-traumatic seizures (>7 days) or post-traumatic epilepsy — indefinite prophylaxis no está indicado based on TBI alone.",
+            "C": "3 months of seizure prophylaxis has no evidence basis in TBI — the evidence supports 7 days only. Prolonged prophylaxis beyond 7 days increases adverse effects without demonstrated benefit.",
+            "D": "24 hours es insuficiente — the BTF-recommended duration is 7 days for early post-traumatic seizure prevention."
+          },
+          "guideline": "BTF 4th Edition 2016 — seizure prophylaxis: Level IIA: antiepileptic drugs for 7 days post-TBI reduce early seizures; no evidence for reduction in late seizures; prophylaxno está indicado beyond 7 days",
+          "trial": "Temkin NR et al. A randomised, double-blind study of phenytoin for the prevention of post-traumatic seizures. NEJM 1990;323(8):497-502: phenytoin reduces early seizures (P<0.001) but NOT late seizures; established 7-day prophylaxis standard",
+          "pearl": "TBI seizure prophylaxis: 7 days only (not longer). It reduces EARLY post-traumatic seizures (days 1-7) only — no effect on late seizures or post-traumatic epilepsy. Levetiracetam preferred over phenytoin (fewer drug interactions, better tolerated). After 7 days, discontinue unless clinical seizures occur."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q14",
+        "stem": "A 40-year-old woman with severe TBI is on ICP monitoring. The lactate-pyruvate ratio (LPR) from cerebral microdialysis is 52 (normal < 25-30). ICP is 19 mmHg. What does this finding indicate?",
+        "options": {
+          "A": "Normal cerebral metabolism — LPR > 40 is acceptable",
+          "B": "Cerebral metabolic crisis/ischaemia despite acceptable ICP",
+          "C": "Adequate brain oxygenation — no intervention required",
+          "D": "Monitor malfunction — LPR cannot exceed 40 in vivo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Lactate-pyruvate ratio (LPR) > 40 from cerebral microdialysis indicates cerebral metabolic crisis — evidence of ischaemic or non-ischaemic metabolic failure in brain tissue. Normal LPR is < 25-30; LPR 30-40 is borderline; LPR > 40 indicates metabolic crisis. This is another example of multimodality monitoring detecting cerebral compromise despite acceptable ICP (19 mmHg < 22 mmHg threshold). Cerebral metabolic crisis requires: optimize CPP (>60-70 mmHg), check PbtO2, reduce metabolic demand (temperature, seizures), ensure adequate substrate delivery (glucose — cerebral microdialysis glucose < 0.7 mmol/L indicates energy failure).",
+          "wrong": {
+            "A": "LPR > 40 is NOT acceptable — it indicates cerebral metabolic crisis regardless of ICP. Normal LPR < 25-30.",
+            "C": "LPR > 40 indicates inadequate cerebral metabolism — despite apparently 'acceptable' ICP, secondary injury is occurring at the metabolic level. Intervention is required.",
+            "D": "LPR > 40 absolutely occurs in vivo — it is a validated marker of cerebral ischaemia seen in multiple studies. It is not a probe malfunction."
+          },
+          "guideline": "BTF 4th Edition 2016 — multimodality monitoring: cerebral microdialysis LPR > 40 = metabolic crisis; optimise CPP, PbtO2, and glucose delivery",
+          "trial": "Vespa P et al. Metabolic crisis without brain ischaemia is common after traumatic brain injury. J Cereb Blood Flow Metab 2005;25(6):763-774: LPR > 40 in TBI: cerebral metabolic crisis present in 56% of patients without ischaemia; independent predictor of poor outcome",
+          "pearl": "Cerebral microdialysis LPR: normal < 25-30; borderline 30-40; metabolic crisis > 40. LPR > 40 with acceptable ICP = non-ischaemic metabolic crisis. Elevated LPR despite normal ICP demonstrates why ICP alone es insuficiente — multimodality monitoring detects crises that ICP misses."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q15",
+        "stem": "A 30-year-old man is intubated and ventilated following TBI. Current ventilator settings: RR 20, tidal volume 450 mL. ABG: pH 7.38, PaCO2 40 mmHg, PaO2 100 mmHg. ICP is 24 mmHg. A registrar suggests reducing the respiratory rate to 14 to decrease PaCO2 to 28 mmHg to reduce the ICP. What is wrong with this suggestion?",
+        "options": {
+          "A": "Nothing — reducing PaCO2 to 28 mmHg should be performed immediately",
+          "B": "Reducing PaCO2 to 28 mmHg (hyperventilation) will cause cerebral vasoconstriction, reducing CBF and causing ischaemia — BTF Level IB contraindication",
+          "C": "The respiratory rate should be increased, not decreased, to raise PaCO2",
+          "D": "PaCO2 < 35 mmHg is only harmful in paediatric TBI, not adult"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The registrar's suggestion is wrong. DECREASING respiratory rate from 20 to 14 would INCREASE PaCO2 (hypoventilation), not decrease it. More importantly, even if the intent was to INCREASE respiratory rate to hyperventilate, targeting PaCO2 < 35 mmHg prophylactically is Level IB contraindicated in BTF guidelines. Hyperventilation causes cerebral vasoconstriction (CO2 is the primary regulator of cerebral vascular tone), reducing CBF and creating cerebral ischaemia. At PaCO2 28 mmHg, CBF reduction of 25-30% occurs — potentially catastrophic in an injured brain. Only use brief hyperventilation for acute herniation as a bridge.",
+          "wrong": {
+            "A": "The suggestion is wrong — prophylactic hyperventilation to PaCO2 < 35 mmHg is Level IB contraindicated. Do not perform this.",
+            "C": "Increasing respiratory rate would hyperventilate (decrease PaCO2), which is the wrong intervention. Decreasing rate causes hypoventilation (increased PaCO2). The suggestion in the question is internally inconsistent — decreasing RR increases PaCO2.",
+            "D": "Prophylactic hyperventilation está contraindicado in BOTH adult and paediatric TBI (even more rigorously in paediatrics given higher baseline CBF vulnerability)."
+          },
+          "guideline": "BTF 4th Edition 2016 — hyperventilation: Level IB: prophylactic hyperventilation (PaCO2<35 mmHg) should NOT be used in the first 24 hours after TBI; during the first 24 hours, CBF is often critically reduced",
+          "trial": "Muizelaar JP et al. Adverse effects of prolonged hyperventilation in TBI. J Neurosurg 1991;75(5):731-739: randomised study; hyperventilation group had significantly worse GOS at 3 and 6 months; established basis for BTF Level IB recommendation against prophylactic hyperventilation",
+          "pearl": "PaCO2 target in TBI: 35-40 mmHg (normocarbia). Prophylactic hyperventilation (<35 mmHg) = Level IB contraindicated. Exception: acute uncal herniation = brief hyperventilation to PaCO2 30-35 mmHg for 15-30 minutes ONLY as a bridge. Reducing respiratory rate reduces RR/ventilation = increases PaCO2 = OPPOSITE of hyperventilation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q16",
+        "stem": "BTF 4th Edition recommendations have only ONE Level I recommendation — the strongest level of evidence. Which recommendation holds this distinction?",
+        "options": {
+          "A": "ICP monitoring for all severe TBI",
+          "B": "CPP target of 60-70 mmHg",
+          "C": "Corticosteroids NOT recommended for severe TBI",
+          "D": "Decompressive craniectomía for refractory ICP"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The only Level I recommendation in the BTF 4th Edition Guidelines is that corticosteroids should NOT be used for severe TBI — based on the CRASH trial evidence (10,008 patients, significant mortality increase). BTF Level I requires Class I studies (well-designed RCTs) with consistent results. The CRASH trial single-handedly provided the evidence base for this Level I recommendation. All other BTF recommendations are Level IIA, IIB, or III, reflecting the lower quality of evidence for most TBI management decisions.",
+          "wrong": {
+            "A": "ICP monitoring for all severe TBI is Level IIB — based on observational data and expert consensus, not Class I RCT evidence.",
+            "B": "CPP target of 60-70 mmHg is Level IIB — based on observational and Class II-III studies.",
+            "D": "Decompressive craniectomía is Level IIA — based on RESCUEicp (one RCT with some limitations)."
+          },
+          "guideline": "BTF 4th Edition 2016 — Level I evidence: corticosteroids contraindicated; only Level I recommendation in entire guidelines; based on CRASH trial Class I evidence",
+          "trial": "CRASH trial collaborators. Lancet 2004;364:1321-1328: only Class I RCT evidence in TBI that has changed guidelines with Level I strength; 10,008 patients; definitive evidence for steroid contraindication",
+          "pearl": "BTF Guidelines have only ONE Level I recommendation: corticosteroids NOT recommended in TBI. All other BTF recommendations are Level IIA or lower. This single Level I recommendation based on CRASH is the strongest evidence-based statement in all of TBI management."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q17",
+        "stem": "A TBI patient requires ICP monitoring. The neurosurgeon plans to place an intraventricular catheter (EVD). What is the primary advantage of EVD over a parenchymal ICP microsensor?",
+        "options": {
+          "A": "Lower infection risk",
+          "B": "Ability to drain CSF as both therapeutic ICP reduction and measurement",
+          "C": "More accurate ICP measurement",
+          "D": "Easier insertion in patients with small ventricles"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The primary advantage of EVD over parenchymal microsensors (Camino, Codman) is that it serves dual purposes: it measures ICP AND allows therapeutic CSF drainage — the most effective first-line intervention for raised ICP when ICP > 22 mmHg. Parenchymal sensors measure ICP accurately but cannot drain CSF. EVD CSF drainage can reduce ICP by 5-15 mmHg per session. This dual capability makes EVD the gold standard for TBI ICP monitoring when both measurement and drainage are desired.",
+          "wrong": {
+            "A": "EVD has HIGHER infection risk (2-5%) than parenchymal microsensors (< 1%) because it is an open drainage system communicating with the ventricle.",
+            "C": "Parenchymal microsensors (Codman, Camino) have excellent accuracy (±2-4 mmHg) comparable to or exceeding EVD in some studies. EVD measurement can be affected by damped waveforms if the catheter is against the ventricle wall.",
+            "D": "EVD is actually HARDER to place in patients with small/slit ventricles (compressed by severe swelling) — this is a clinical challenge requiring ultrasound guidance or navigation."
+          },
+          "guideline": "BTF 4th Edition 2016 — ICP monitoring: EVD gold standard (measures + drains); parenchymal sensor alternative when drainage not needed; Level III: drenaje de LCR via EVD when ICP > 22 mmHg",
+          "trial": "Chesnut RM et al. NEJM 2012 (BEST-TRIP): EVD used in ICP-monitored arm; drenaje de LCR as part of ICP management protocol; EVD-based monitoring validated in TBI outcome studies",
+          "pearl": "EVD vs parenchymal sensor: EVD = measures + drains (dual advantage); higher infection risk (2-5%). Parenchymal sensor = measures only (no drainage); lower infection risk; easier insertion. For patients where drenaje de LCR for ICP control is anticipated (as it almost always is in severe TBI), EVD is preferred."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q18",
+        "stem": "Which BTF (2016) ICP monitoring indication is correct for a patient with GCS 5 after resuscitation and a NORMAL CT scan?",
+        "options": {
+          "A": "ICP monitoring not indicated if CT is normal — normal CT excludes significant ICP elevation",
+          "B": "ICP monitoring indicated if any two of three risk factors present: age > 40, bilateral motor posturing, pre-hospital SBP < 90 mmHg",
+          "C": "ICP monitoring indicated for all patients with GCS ≤ 8 regardless of CT findings",
+          "D": "ICP monitoring only indicated if CT shows haematoma > 25 mL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BTF Level IIB indication for ICP monitoring with normal CT: GCS ≤ 8 + normal CT scan IF any TWO of the following three risk factors are present: (1) age > 40 years, (2) unilateral or bilateral motor posturing, (3) pre-hospital SBP < 90 mmHg. This reflects data showing that even with a normal CT, patients with these risk factors have a significant rate of elevated ICP. A normal CT does not exclude elevated ICP in severe TBI — clinical risk stratification is required.",
+          "wrong": {
+            "A": "Normal CT does not exclude significant ICP elevation in severe TBI — hence the risk factor criteria for ICP monitoring even with normal CT.",
+            "C": "GCS ≤ 8 alone with normal CT is NOT sufficient for ICP monitoring indication — two of the three risk factors must additionally be present (BTF Level IIB).",
+            "D": "BTF monitoring indications are not based on haematoma volume per se — they are based on GCS, CT abnormality pattern (compressed basal cisterns, haematoma, contusion, herniation), and risk factors."
+          },
+          "guideline": "BTF 4th Edition 2016 — ICP monitoring indications: Level IIB: (1) GCS ≤8 + abnormal CT; (2) GCS ≤8 + normal CT + ≥2 of 3 risk factors (age>40, motor posturing, SBP<90)",
+          "trial": "Chesnut RM et al. The role of secondary brain injury in determining outcome from severe head injury. J Trauma 1993;34(2):216-222: risk factors for elevated ICP with normal CT; basis for BTF two-factor ICP monitoring rule with normal CT",
+          "pearl": "BTF ICP monitoring with NORMAL CT: GCS ≤8 + normal CT = ICP monitor ONLY IF ≥2 of 3 risk factors: age >40, motor posturing, SBP <90 mmHg. Without 2 risk factors, ICP monitoring no está indicado for normal CT. With abnormal CT (haematoma, contusion, swelling, cistern compression) + GCS ≤8 = always monitor ICP."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q19",
+        "stem": "A non-convulsive status epilepticus (NCSE) is detected on continuous EEG monitoring in a comatose TBI patient with ICP of 20 mmHg. Which es el más apropiado initial pharmacological treatment?",
+        "options": {
+          "A": "Oral valproate via nasogastric tube",
+          "B": "IV levetiracetam or lacosamide as first-line IV antiepileptic",
+          "C": "IV lorazepam alone — sufficient for NCSE in TBI",
+          "D": "Carbamazepine orally — the evidence-based first-line for all seizure types"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Non-convulsive status epilepticus (NCSE) detected on cEEG in TBI requires prompt IV antiepileptic treatment. Current first-line IV options for non-convulsive SE in the ICU include: levetiracetam (60 mg/kg IV max 4500 mg over 15 minutes) or lacosamide (400 mg IV) as second-generation ASMs with good IV availability, low protein binding, and minimal drug interactions. Benzodiazepines (lorazepam/diazepam) alone are often insufficient for NCSE and IV AED loading is required. NCSE independently worsens secondary brain injury and must be actively treated — detected in 10-25% of comatose TBI patients on cEEG.",
+          "wrong": {
+            "A": "Oral valproate via NG tube has delayed absorption and erratic bioavailability in critically ill patients — IV preparation is strongly preferred for SE management. Additionally, valproate sodium IV is an option but carries hepatotoxicity concerns.",
+            "C": "IV lorazepam alone es insuficiente for NCSE — benzodiazepines may terminate brief NCSE but often fail for sustained SE. A non-benzodiazepine AED loading dose is required.",
+            "D": "Carbamazepine is the first-line for FOCAL EPILEPSY (oral) and trigeminal neuralgia — it has no role as IV agent or in acute SE management. There is no IV preparation of carbamazepine."
+          },
+          "guideline": "NICE NG217 Status Epilepticus Guidelines 2022 — NCSE: IV benzodiazepine first + IV non-BZD AED (levetiracetam, lacosamide, or valproate) second-line; cEEG monitoring in TBI recommended",
+          "trial": "Vespa PM et al. Nonconvulsive seizures after TBI are associated with hipocampal atrophy. Neurology 2010;75(9):792-798: NCSE prevalence 10-25% in comatose TBI patients; independent predictor of poor outcome; treatment essential",
+          "pearl": "NCSE in TBI occurs in 10-25% of comatose patients — detectable ONLY by cEEG. It worsens secondary injury. Treat promptly with IV levetiracetam or lacosamide. Do not miss NCSE by relying on clinical seizure observation alone — a comatose TBI patient cannot manifest clinical convulsions. cEEG monitoring is essential for severe TBI."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q20",
+        "stem": "The BEST-TRIP trial (Chesnut, NEJM 2012) compared ICP monitoring-based TBI management with imaging/clinical-based management in South America. What was the primary finding?",
+        "options": {
+          "A": "ICP monitoring significantly improved 6-month survival compared to imaging/clinical management",
+          "B": "ICP monitoring showed no significant difference in outcomes vs imaging/clinical management but with equivalent treatment intensity",
+          "C": "ICP monitoring was inferior to imaging/clinical management at 6 months",
+          "D": "ICP monitoring reduced ICU length of stay but increased 6-month mortality"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BEST-TRIP (Chesnut, NEJM 2012): 324 patients randomised to ICP monitor-based management vs imaging/clinical-based management (no ICP monitor) in Bolivia and Ecuador. Primary outcome: composite of survival, impaired consciousness, and functional status at 3 and 6 months — NO significant difference between groups. This was a controversial finding that did not disprove the value of ICP monitoring but showed that structured clinical/imaging-based protocols can achieve similar outcomes. The control group received very structured clinical protocols (serial CT, neurological assessment q2h) — the finding was that ICP monitoring is not superior to structured clinical monitoring when protocols are rigorously applied.",
+          "wrong": {
+            "A": "BEST-TRIP did NOT show significant survival improvement with ICP monitoring — this is the controversial finding that surprised the TBI community.",
+            "C": "ICP monitoring was not inferior — outcomes were equivalent. The trial did not show superiority of clinical management over ICP monitoring.",
+            "D": "There was no difference in ICU length of stay or 6-month mortality favouring one approach."
+          },
+          "guideline": "BTF 4th Edition 2016 — BEST-TRIP informed revision of ICP monitoring as Level IIB rather than Level I; supports ICP monitoring for decision-making but acknowledges equivalent outcomes with structured clinical protocols",
+          "trial": "Chesnut RM et al. A trial of intracranial-pressure monitoring in TBI. NEJM 2012;367(26):2471-2481 (BEST-TRIP): 324 patients; ICP monitor vs no monitor; no significant difference in 3/6-month outcomes; treatment intensity equivalent; structured clinical protocols effective",
+          "pearl": "BEST-TRIP result: ICP monitoring vs no ICP monitoring — NO significant difference in outcomes when structured protocols are applied in both groups. This does NOT mean ICP monitoring is useless — it means that the information from ICP monitoring must be translated into protocol-driven treatment to show benefit. ICP monitoring without structured treatment algorithms may be no better than good clinical monitoring."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

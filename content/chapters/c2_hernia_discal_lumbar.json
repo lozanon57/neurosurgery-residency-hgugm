@@ -1,0 +1,623 @@
+{
+  "id": "C2",
+  "title": "Lumbar Disc Herniation and Radiculopathy",
+  "subtitle": "Block C — Lumbar Disc Herniation: Diagnosis, Conservative Management, and Microdiscectomy",
+  "block": "C",
+  "block_name": "Spinal Neurosurgery",
+  "level": "R1-2",
+  "reading_time_min": 38,
+  "guidelines_version": "NASS Clinical Practice Guidelines 2012 (updated 2020) · EANS Spine Guidelines 2022 · NICE Spine Guidelines 2016",
+  "textbook_refs": [
+    "Weinstein JN et al. Surgical vs Non-operative Treatment for Lumbar Disk Herniation (SPORT). JAMA 2006",
+    "Peul WC et al. Surgery vs Prolonged Conservative Treatment for Sciatica (Leiden-The Hague Spine Group). NEJM 2007",
+    "Gibson JN, Waddell G. Surgical Interventions for Lumbar Disc Prolapse. Cochrane Database 2007",
+    "Greenberg MS. Handbook of Neurosurgery, 9th ed. (2020)"
+  ],
+  "learning_objectives": [
+    "Apply the clinical and radiological criteria for lumbar disc herniation and distinguish paracentral from far-lateral herniations",
+    "Interpret the SPORT trial results comparing surgical versus non-operative management for lumbar disc herniation",
+    "Define absolute and relative indications for urgent lumbar microdiscectomy, including cauda equina syndrome",
+    "Describe the microdiscectomy technique, approach variants (open vs minimally invasive), and expected outcomes",
+    "Identify the SED (Straight Leg Raise) test sensitivity and specificity and how to perform the crossed SLR test",
+    "Manage disc herniation by location (paracentral, foraminal, extraforaminal) and distinguish L4-5 from L5-S1 levels clinically"
+  ],
+  "sections": [
+    {
+      "id": "C2-S1",
+      "title": "Anatomy, Classification, and Natural History",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Lumbar disc herniation (LDH) occurs when the nucleus pulposus extrudes through a defect in the annulus fibrosus, compressing adjacent neural structures. The posterior annulus is thinnest and lacks the posterior longitudinal ligament (PLL) reinforcement of the midline; posterolateral herniations are most common (90%), occurring through the PLL lateral margins. Classification by position: **paracentral** (posterolateral — most common, compresses the traversing root in the lateral recess); **foraminal** (within the foramen, compresses the exiting root — at L3-4, L4-5 this would be L3 or L4 respectively); **extraforaminal** (far lateral, compresses the exiting root above the disc level). Classification by morphology: **protrusion** (annulus intact, nucleus bulges), **extrusion** (nucleus through annulus, still PLL-connected), **sequestration** (free fragment, PLL disrupted). **Natural history**: 80–90% of radiculopathy episodes resolve within 6–12 weeks regardless of treatment. The mechanism of spontaneous resolution includes fragment resorption by macrophage-mediated phagocytosis (larger extruded fragments resorb more predictably than protrusions), reduced prostaglandin-mediated neural inflammation, and positional resolution of nerve root irritation. Disc herniation affecting the most common lumbar levels: **L4-5 disc herniation** (causing L5 radiculopathy in posterolateral herniation): foot drop (extensor hallucis longus, EHL weakness), great toe dorsiflexion deficit, anterior shin paresthesiae; **L5-S1 disc herniation** (causing S1 radiculopathy): plantar flexion weakness (gastrocnemius-soleus complex, walking on toes), absent ankle jerk reflex, posterolateral calf and lateral foot paresthesiae."
+        },
+        {
+          "type": "table",
+          "title": "Lumbar Disc Herniation — Level-Specific Clinical Features",
+          "headers": ["Disc Level", "Root Compressed (Paracentral)", "Motor Deficit", "Sensory Loss", "Reflex Affected"],
+          "rows": [
+            ["L3-4 (paracentral)", "L4", "Quadriceps weakness (knee extension)", "Anterior thigh and medial leg", "Reduced patellar tendon reflex"],
+            ["L4-5 (paracentral)", "L5", "EHL weakness (great toe/foot dorsiflexion, foot drop)", "Lateral lower leg, dorsal foot, first web space", "No specific reflex (no L5 tendon reflex routinely tested)"],
+            ["L5-S1 (paracentral)", "S1", "Gastrocnemius-soleus weakness (plantar flexion, heel raise)", "Posterolateral calf, lateral foot, 4th-5th toes", "Absent ankle (Achilles) reflex"],
+            ["L4-5 (foraminal)", "L4 (exiting)", "Quadriceps weakness", "Anterior thigh/medial leg", "Reduced patellar reflex"],
+            ["L5-S1 (foraminal)", "L5 (exiting)", "EHL weakness, foot drop", "Lateral lower leg, dorsal foot", "No specific reflex"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Foraminal vs Paracentral Herniation: Root Affected",
+          "content": "Paracentral (posterolateral) herniation at L4-5 compresses the TRAVERSING root (L5). Foraminal herniation at L4-5 compresses the EXITING root (L4). The rule: at disc level L(n)-L(n+1), paracentral herniation affects L(n+1) root; foraminal herniation affects L(n) root. This distinction critically affects surgical planning — a foraminal L4-5 herniation causing L4 radiculopathy requires a different surgical approach than a paracentral L4-5 herniation."
+        }
+      ]
+    },
+    {
+      "id": "C2-S2",
+      "title": "Clinical Diagnosis: Straight Leg Raise and Clinical Tests",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **Straight Leg Raise (SLR) test** is the most sensitive clinical test for lumbar disc herniation with nerve root compression. The patient lies supine; the examiner passively lifts the extended leg (hip flexion, knee extended). Nerve root tension is maximal at 35–70° elevation. A positive result is pain radiating from the back into the leg below the knee in the distribution of the affected root (not just hamstring tightness in the posterior thigh). Sensitivity: 91% for L4-5 and L5-S1 herniations. Specificity: 26% (many false positives from hamstring tightness). **Crossed SLR test** (contralateral SLR): elevation of the unaffected leg causes radicular pain in the affected leg — lower sensitivity (29%) but HIGH specificity (88%). A positive crossed SLR is highly predictive of nerve root compression. **Femoral stretch test** (for L2-L4 root compression): prone position, knee flexion causes anterior thigh pain — tests L2, L3, L4 root tension. The **Lasègue test** is an alternative description of SLR with the knee flexed at first (negating hamstring tension) before extending — positive if pain occurs below the knee. **Waddell signs** (non-organic pain behaviour): superficial tenderness to light touch, non-anatomic sensory changes, giving way weakness, overreaction, axial loading pain — presence of ≥3 signs suggests psychological overlay and poor surgical outcome predictor."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Differentiating Herniated Disc from Other Causes of Radiculopathy",
+          "content": "Not all leg pain from the back is disc herniation. Differential diagnosis of lumbar radiculopathy: piriformis syndrome (deep buttock pain, no MRI disc herniation), diabetic radiculopathy (non-positional, often bilateral, no MRI correlate), herpes zoster (dermatomal vesicles before pain), spinal metastasis (night pain, weight loss, known cancer — urgent MRI mandatory), lumbar spinal stenosis (neurogenic claudication — bilateral leg pain on walking, relieved by sitting). MRI confirms structural nerve root compression and guides management."
+        }
+      ]
+    },
+    {
+      "id": "C2-S3",
+      "title": "SPORT Trial — Surgery vs Conservative Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **SPORT trial** (Spine Patient Outcomes Research Trial, Weinstein, JAMA 2006) is the landmark RCT and observational cohort study comparing surgery versus non-operative treatment for lumbar disc herniation. The RCT arm enrolled 501 patients with symptomatic lumbar disc herniation confirmed by MRI and clinical exam for ≥6 weeks, randomised to discectomy versus conservative management. **Results**: significant crossover occurred (40% of randomised patients crossed treatment assignment), making the intention-to-treat analysis non-significant. However, the **as-treated analysis** showed significantly greater improvement in bodily pain, physical function, and patient satisfaction in the surgery group at 3 months (P<0.001), with the advantage largely disappearing by 2 years as conservative patients continued to improve. **Peul trial** (NEJM 2007, Leiden-The Hague Spine Group): 283 patients with ≥6 weeks of radiculopathy randomised to early surgery versus prolonged conservative care. Surgery achieved faster recovery — at 8 weeks, surgical recovery in 95% vs 64% conservative (P<0.001). By 1 year, outcomes were equivalent. The key clinical conclusion: **surgery provides faster relief** of sciatica (recovery at 8 weeks vs 52 weeks with conservative), but **long-term outcomes at 1–2 years are equivalent**. Surgery is therefore appropriate for patients with significant functional disability from radiculopathy failing 6 weeks of conservative care — not as an emergency unless cauda equina syndrome is present."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — SPORT Trial Conclusion",
+          "content": "SPORT: surgery achieves faster recovery (3-month significant benefit) but long-term 1–2 year outcomes are EQUIVALENT to conservative management. Peul: surgery at 8 weeks has 95% recovery vs 64% conservative — but at 1 year, equivalent. Clinical implication: offer surgery to patients with persistent significant disability from radiculopathy after 6–8 weeks of conservative treatment who want faster recovery, NOT as mandatory treatment."
+        }
+      ]
+    },
+    {
+      "id": "C2-S4",
+      "title": "Cauda Equina Syndrome — Emergency Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cauda equina syndrome (CES)** is a neurosurgical emergency caused by compression of the cauda equina nerve roots in the lumbar spinal canal — most commonly from massive L4-5 or L5-S1 central disc herniation. The cauda equina comprises the lumbar and sacral nerve roots (L2–S5) below the conus medullaris (which ends at L1-L2 in adults). **Clinical features**: bilateral leg weakness (may be asymmetric), bilateral sciatica, **saddle anaesthesia** (perineum, inner thighs, buttocks — S2-4 distribution), bladder dysfunction (urinary retention — most important early sign), bowel dysfunction (faecal incontinence or retention), and sexual dysfunction. CES is classified: **CES-R (retention)** — urinary retention = most severe, surgical emergency within 24 hours; **CES-I (incomplete)** — bladder dysfunction but NOT retention, variable sensation = urgent surgery within 24–48 hours; **CES-suspected** — bilateral sciatica without definitive CES signs = urgent MRI. **Timing of surgery**: multiple studies support surgery within 24 hours for CES-R (Todd 2011, Ahn 2000 meta-analysis) with significantly better bladder and bowel recovery compared to delayed surgery. Current consensus: MRI within 4 hours of clinical suspicion, surgery within 24 hours for CES-R. The surgical procedure for CES: bilateral L4-5 or L5-S1 laminotomy/laminectomy with central disc fragment removal — complete decompression of the entire cauda equina is essential."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Do NOT Delay MRI for CES Symptoms",
+          "content": "Any patient presenting with new urinary retention + lower back pain + bilateral or asymmetric leg symptoms has cauda equina syndrome until proven otherwise. This requires EMERGENCY MRI of the lumbar spine. Do not wait for morning rounds, do not order X-rays first, do not defer to the next available MRI slot. CES-R (retention) requires surgery within 24 hours — bladder recovery is significantly worse with delayed decompression. Phone the on-call neurosurgeon immediately after the MRI confirms massive disc herniation."
+        }
+      ]
+    },
+    {
+      "id": "C2-S5",
+      "title": "Microdiscectomy Technique and Approach Variants",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Lumbar microdiscectomy** (Caspar, Yasargil technique, 1977) has been the gold-standard surgical treatment for lumbar disc herniation for >40 years. The technique involves: (1) prone positioning on a Wilson frame or Andrews frame; (2) paramedian skin incision 2–3 cm; (3) paravertebral muscle retraction to expose the interlaminar space; (4) flavotomy (partial resection of ligamentum flavum); (5) gentle medial retraction of the dural sac; (6) visualisation of the disc herniation beneath the traversing nerve root; (7) discectomy — removal of the herniated fragment and curettage of the disc space to reduce recurrence risk; (8) haemostasis and closure. The operating microscope provides magnification and illumination. **Minimally invasive tubular microdiscectomy** (MIS): uses tubular retractors (METRx, SpineBlade) placed through sequential dilation of the paravertebral muscles, reducing muscle damage and post-operative pain. Multiple RCTs (Perez-Cruet 2002, Arts 2011) show equivalent efficacy to open microdiscectomy with less post-operative pain and shorter hospital stay. **Expected outcomes**: 90–95% relief of leg pain immediately after surgery; back pain improvement less predictable. Recurrence rate: 5–8% (ipsilateral re-herniation at the same level). Long-term success (>10 years): 90% patient satisfaction. **Sequestrectomy vs aggressive discectomy**: sequestrectomy (removing the herniated fragment only, leaving the disc space intact) has lower recurrence risk for the operated segment but may have slightly higher re-operation rates from same-level re-herniation. Aggressive discectomy (curetting the disc space) reduces same-segment re-herniation but may accelerate disc height loss. Most surgeons perform a balanced approach."
+        },
+        {
+          "type": "table",
+          "title": "Microdiscectomy — Key Technical Points and Complications",
+          "headers": ["Aspect", "Detail", "Complication Rate"],
+          "rows": [
+            ["Recurrence", "Same-level ipsilateral re-herniation", "5–8%"],
+            ["Dural tear", "CSF leak from inadvertent durotomy; primary repair + fat graft; bed rest", "1–3%"],
+            ["Nerve root injury", "Direct retraction or inadvertent sectioning", "<1%"],
+            ["Discitis", "Post-operative disc space infection; treat with antibiotics ± irrigation", "0.1–0.5%"],
+            ["Wrong level surgery", "Must confirm level intraoperatively with fluoroscopy", "Rare (<0.1%)"],
+            ["Haematoma", "Epidural haematoma causing acute neurological deficit", "<1%"],
+            ["Vascular injury", "Aorta/IVC/iliac vessels from too-deep disc space instrumentation", "Very rare (<0.05%)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2-S6",
+      "title": "Far-Lateral (Extraforaminal) Disc Herniation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Far-lateral (extraforaminal) disc herniation** accounts for approximately 7–12% of all lumbar disc herniations and presents a distinct diagnostic and surgical challenge. The herniation occurs lateral to the pedicle, outside the spinal canal and foramen, compressing the **exiting root** at the same level as the disc (e.g., far-lateral L4-5 herniation compresses the L4 root, causing L4 radiculopathy). This is the **opposite** of paracentral herniation (which compresses the traversing root). **Diagnostic challenge**: because the herniation is extraforaminal, it is outside the standard sagittal MRI sequences that show the canal and foramen — it is easy to MISS on routine MRI if the axial slices do not extend sufficiently lateral. Always extend axial MRI slices far enough laterally to visualise the far-lateral zone. The **femoral stretch test** is positive for L4 far-lateral herniation (hip extension causes L4 root tension), and the SLR may be negative or less positive than expected for the degree of neurological deficit. **Surgical approach**: standard interlaminar approach is INADEQUATE — the far-lateral disc is not accessible through the midline approach. Options: (1) paraspinal (Wiltse) muscle-splitting approach — lateral to the midline, splitting the sacrospinalis muscle, allowing direct lateral access to the extraforaminal zone; (2) transforaminal endoscopic approach (Yeung technique) — direct endoscopic access to the extraforaminal zone under local anaesthesia."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Far-Lateral Disc: Exiting Root, Not Traversing Root",
+          "content": "Far-lateral (extraforaminal) disc herniation at L4-5 compresses the EXITING L4 root. Paracentral disc herniation at L4-5 compresses the TRAVERSING L5 root. Same disc level, different root! A patient with far-lateral L4-5 herniation has L4 symptoms (quadriceps weakness, reduced patellar reflex) despite the L4-5 disc level. MRI axial cuts must extend far laterally to visualise the extraforaminal zone."
+        }
+      ]
+    },
+    {
+      "id": "C2-S7",
+      "title": "Outcome Predictors, Recurrence, and Special Situations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Predictors of good surgical outcome**: short duration of symptoms (<3 months), concordant clinical symptoms and MRI findings, positive SLR, younger age, no previous surgery at the level, no significant psychological overlay. **Predictors of poor surgical outcome**: long duration of symptoms (>12 months — suggests irreversible radiculopathy change), predominantly axial back pain (not radicular leg pain — suggests discogenic pain rather than radiculopathy), significant psychological distress (Waddell signs ≥3), workers' compensation claim (independent predictor of poor outcome in multiple studies), older age with multiple comorbidities, and recurrent surgery at the same level. **Recurrent disc herniation**: ipsilateral recurrence at 5–8%, treated with re-do microdiscectomy (same technique, higher risk of dural tear and neural injury due to epidural scarring). Three or more surgeries at the same level significantly increase epidural fibrosis and risk. **Disc herniation and epidural steroid injections**: cervical or lumbar transforaminal epidural steroid injection (TFESI) achieves short-term (2–6 weeks) relief in 60–70% of patients — useful to bridge to natural history resolution or pre-operative optimisation. TFESI does NOT prevent surgery necessity in patients with progressive neurological deficit. **Special populations**: disc herniation in **pregnancy** — most cases managed conservatively as the radiculopathy typically resolves after delivery; surgery only for refractory severe cases. Disc herniation in adolescents (<18 years) — uncommon; often requires MRI to exclude apophyseal ring fracture (posterior vertebral body ring avulsion instead of nucleus pulposus herniation, requires surgical removal of the bone fragment)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Predominantly Axial Back Pain is NOT a Good Surgical Indication",
+          "content": "Microdiscectomy is designed to treat RADICULOPATHY (leg pain in a dermatomal distribution from nerve root compression). Predominantly axial back pain WITHOUT radiculopathy is discogenic pain — treated conservatively (physiotherapy, pain management, sometimes intradiscal procedures). Performing microdiscectomy for primarily axial back pain (not leg pain) is associated with poor outcomes and is a significant clinical error. The primary indication for microdiscectomy is leg pain > back pain."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of lumbar disc herniation with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "C2-Q1",
+        "stem": "A 38-year-old man presents with 4 weeks of acute right leg pain radiating from the lower back through the posterior thigh to the lateral calf and dorsal foot, with weakness of right great toe extension (EHL 4/5) and lateral lower leg paresthesiae. MRI shows a right paracentral L4-5 disc herniation. Which nerve root is compressed, and what is the first-line management?",
+        "options": {
+          "A": "L4 root compression; immediate microdiscectomy",
+          "B": "L5 root compression; 6 weeks of conservative management (NSAIDs, physiotherapy, activity modification) before considering surgery",
+          "C": "S1 root compression; immediate surgery due to severe weakness",
+          "D": "L4 root compression; cervical epidural steroid injection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Right paracentral L4-5 disc herniation compresses the TRAVERSING L5 root (posterior-lateral = traversing root at one level lower). L5 root: lateral lower leg, dorsal foot, first web space paresthesiae; EHL weakness (foot drop potential); no specific reflex loss (no L5 reflex routinely tested). With 4 weeks of symptoms and partial weakness (4/5), first-line is conservative management for 6 weeks (NSAIDs, physiotherapy) — 80–90% resolve spontaneously. Surgery is indicated if no improvement after 6 weeks or progressive deficit.",
+          "wrong": {
+            "A": "L4 root compression would cause quadriceps weakness and reduced patellar reflex — not EHL weakness and dorsal foot paresthesiae. This is L5 root. Immediate surgery is not indicated for 4 weeks of symptoms with partial deficit",
+            "C": "S1 root compression causes gastrocnemius weakness, absent ankle jerk, and posterolateral calf/lateral foot paresthesiae — not EHL weakness and dorsal foot symptoms",
+            "D": "Cervical epidural injections treat cervical pathology — not lumbar radiculopathy. A lumbar transforaminal epidural steroid injection would be the appropriate injection option if conservative treatment fails"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — L5 root (L4-5 paracentral herniation): EHL weakness, dorsal foot paresthesiae; conservative management first-line for ≤6 weeks without significant deficit",
+          "trial": "SPORT (Weinstein JAMA 2006): surgery provides faster recovery but 1–2 year outcomes equivalent to conservative; Peul (NEJM 2007): conservative patients recover well by 1 year",
+          "pearl": "L4-5 paracentral herniation → L5 root (traversing). L5 signs: EHL weakness (foot drop risk), lateral lower leg/dorsal foot/first web space paresthesiae, no specific reflex. First-line: 6 weeks conservative. Surgery if failed or progressive deficit."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q2",
+        "stem": "A 45-year-old woman presents with cauda equina syndrome: bilateral leg weakness, perianal and saddle numbness, and urinary retention. Urgent MRI shows a massive central L4-5 disc herniation compressing the entire cauda equina. When should surgery be performed?",
+        "options": {
+          "A": "Within 24 hours of symptom onset for CES-R (retention); delay increases risk of permanent bladder dysfunction",
+          "B": "Within 7 days — cauda equina syndrome is not a surgical emergency",
+          "C": "After 6 weeks of conservative management to allow natural recovery",
+          "D": "Immediately (within 2 hours) regardless of practical constraints — every minute counts"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "CES-R (cauda equina syndrome with urinary retention) requires urgent surgical decompression within 24 hours. Multiple studies (Ahn meta-analysis 2000, Todd 2011) demonstrate significantly better bladder and bowel recovery when surgery is performed within 24 hours compared to delayed decompression (>24 hours). Current consensus: MRI confirmation within 4 hours of clinical suspicion, decompressive surgery within 24 hours for CES-R. Beyond 24–48 hours, recovery of bladder function significantly decreases.",
+          "wrong": {
+            "B": "CES-R IS a neurosurgical emergency — 7-day delay causes irreversible bladder and bowel dysfunction in the majority of patients",
+            "C": "CES does NOT recover spontaneously from disc herniation in the vast majority of cases — the mass effect from massive disc herniation persists and progressive irreversible nerve damage occurs",
+            "D": "While urgency is real, 'every minute counts' is an exaggeration that may lead to rushing unsafe surgery. The evidence-based threshold is within 24 hours for CES-R, allowing time for adequate anaesthetic preparation, surgical team assembly, and pre-operative optimisation"
+          },
+          "guideline": "NASS CES Guidelines — CES-R: surgical decompression within 24 hours; MRI within 4 hours of clinical suspicion",
+          "trial": "Ahn UM et al. (Spine 2000): meta-analysis of CES — surgery within 48 hours significantly better bladder recovery than delayed; Todd NV (Eur Spine J 2011): within 24 hours for CES-R",
+          "pearl": "CES-R (retention) = emergency surgery within 24 hours. MRI within 4 hours. Bladder recovery significantly worse with delayed decompression. DO NOT wait for morning or defer to next available list."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q3",
+        "stem": "The SPORT trial (Weinstein, JAMA 2006) compared surgery versus non-operative treatment for lumbar disc herniation. What was the key methodological problem and the main clinical conclusion?",
+        "options": {
+          "A": "The trial showed surgery was significantly better at 2 years with no methodological issues",
+          "B": "The RCT arm had significant crossover (40%), making the intention-to-treat analysis non-significant; as-treated analysis showed surgery provides significantly faster recovery (benefit at 3 months) but equivalent outcomes at 1–2 years",
+          "C": "The trial was stopped early because surgery caused excess harm; conservative management is always superior",
+          "D": "The trial showed no difference at any time point; surgery and conservative management are exactly equivalent"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SPORT's critical methodological flaw: 40% crossover between arms (many randomised-to-surgery patients chose conservative care; many conservative patients crossed to surgery). This made the intention-to-treat analysis non-significant. The as-treated analysis showed: surgery achieved significantly greater improvement in bodily pain, physical function, and satisfaction at 3 months; by 2 years, outcomes were largely equivalent as conservative patients continued to improve. Peul (NEJM 2007) confirmed: surgery achieves faster recovery (8 weeks: 95% surgery vs 64% conservative), but 1-year outcomes equivalent.",
+          "wrong": {
+            "A": "The significant crossover (40%) was the key methodological problem — it invalidated the intention-to-treat primary analysis, making SPORT's primary RCT result non-significant",
+            "C": "Surgery was NOT harmful in SPORT — the as-treated analysis actually showed better short-term outcomes with surgery. The trial was not stopped early",
+            "D": "There WAS a difference at 3 months (surgery significantly better in as-treated analysis) — outcomes were NOT exactly equivalent at all time points. Surgery provides faster recovery."
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Surgery provides faster recovery (Level I evidence); long-term outcomes equivalent to conservative management",
+          "trial": "SPORT (Weinstein JAMA 2006): 40% crossover; as-treated analysis significant at 3 months; ITT non-significant. Peul (NEJM 2007): early surgery 95% vs 64% recovery at 8 weeks",
+          "pearl": "SPORT limitation: 40% crossover invalidated ITT analysis. As-treated: surgery faster (3 months significant). Long-term: equivalent. Conclusion: surgery = faster recovery, not better long-term outcomes. Offer surgery to patients wanting faster recovery after 6–8 weeks of failed conservative treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q4",
+        "stem": "A 50-year-old man has a right L5-S1 paracentral disc herniation with right S1 radiculopathy. Which clinical findings would be EXPECTED on examination?",
+        "options": {
+          "A": "Reduced patellar tendon reflex, quadriceps weakness, anterior thigh pain",
+          "B": "Absent right ankle (Achilles) reflex, gastrocnemius-soleus weakness (unable to do heel raise), posterolateral calf and lateral foot paresthesiae",
+          "C": "EHL weakness, dorsal foot and great toe paresthesiae, no reflex change",
+          "D": "Reduced patellar reflex, medial leg sensory loss, hip flexion weakness"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "L5-S1 paracentral disc herniation compresses the TRAVERSING S1 root. S1 root signs: (1) absent ankle (Achilles) reflex — S1 is the primary root for the Achilles reflex; (2) gastrocnemius-soleus complex weakness — walking on toes, single-leg heel raise impossible; (3) posterolateral calf, lateral foot, and 4th-5th toe paresthesiae (S1 dermatome). Plantar flexion weakness is the key motor deficit.",
+          "wrong": {
+            "A": "Reduced patellar reflex + quadriceps weakness = L4 root (L3-4 or far-lateral L4-5 herniation). Not S1",
+            "C": "EHL weakness + dorsal foot paresthesiae = L5 root (L4-5 paracentral herniation). Not S1",
+            "D": "Reduced patellar reflex + medial leg sensory loss + hip flexion weakness = L3 or L4 root (higher lumbar levels). Not S1"
+          },
+          "guideline": "NASS LDH Guidelines — S1 root (L5-S1 disc): absent ankle reflex, plantar flexion weakness, posterolateral calf sensory loss",
+          "trial": "Standard neurological examination; SPORT clinical data confirming S1 radiculopathy signs",
+          "pearl": "S1 root (L5-S1 disc): absent ANKLE reflex + gastrocnemius weakness (toe walking) + posterolateral calf/lateral foot paresthesiae. L5 root (L4-5 disc): no reflex change + EHL weakness (foot drop risk) + dorsal foot paresthesiae."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q5",
+        "stem": "A 35-year-old man has severe right leg pain radiating from the L4-5 level. MRI shows a far-lateral (extraforaminal) L4-5 disc herniation. He has right quadriceps weakness and reduced patellar reflex. Which root is compressed, and which surgical approach is required?",
+        "options": {
+          "A": "L5 root (traversing); standard interlaminar microdiscectomy",
+          "B": "L4 root (exiting); paraspinal (Wiltse) muscle-splitting approach or transforaminal endoscopic approach to the extraforaminal zone",
+          "C": "L5 root (traversing); posterior laminectomy",
+          "D": "L4 root (exiting); anterior retroperitoneal approach (ALIF)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Far-lateral (extraforaminal) L4-5 herniation compresses the EXITING L4 root (not the traversing L5 root). L4 root: quadriceps weakness, reduced patellar reflex, anterior thigh/medial leg paresthesiae. The herniation is OUTSIDE the spinal canal, lateral to the pedicle — standard interlaminar approach does not visualise the extraforaminal zone. Surgical approach: paraspinal (Wiltse) muscle-splitting approach (lateral to the midline, between multifidus and longissimus muscles) allows direct access to the extraforaminal zone. Alternatively, transforaminal endoscopic approach.",
+          "wrong": {
+            "A": "L5 root would cause EHL weakness and dorsal foot paresthesiae (not patellar reflex change). Far-lateral L4-5 compresses L4, not L5. Standard interlaminar approach CANNOT reach the extraforaminal zone",
+            "C": "L5 root signs are wrong for this clinical presentation. Posterior laminectomy accesses the central canal — not the extraforaminal zone",
+            "D": "Anterior retroperitoneal approach (ALIF) is for intervertebral disc replacement/fusion — not for discectomy for radiculopathy from a far-lateral herniation"
+          },
+          "guideline": "NASS LDH Guidelines — Far-lateral disc herniation: exiting root affected; paraspinal or endoscopic approach required",
+          "trial": "Foley KT, Smith MM (Neurosurg Focus 1996): minimally invasive approach to far-lateral disc herniation; Wiltse LL (Spine 1988): paraspinal approach technique",
+          "pearl": "Far-lateral (extraforaminal) disc herniation: EXITING root affected (opposite of paracentral which affects TRAVERSING root). Far-lateral L4-5 → L4 root (patellar reflex, quadriceps). Approach: Wiltse (paraspinal) muscle-splitting or transforaminal endoscopy — NOT standard interlaminar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q6",
+        "stem": "The straight leg raise (SLR) test is performed in a patient with suspected L5 radiculopathy. At 50° of hip flexion with knee extended, the patient reports severe shooting pain from the lower back into the lateral calf (below the knee). The CONTRALATERAL (unaffected) leg SLR at 60° reproduces the same right leg pain. What do these two test results indicate?",
+        "options": {
+          "A": "Both tests are positive for hamstring tightness — no clinical significance",
+          "B": "Positive SLR (sensitivity 91% for LDH) confirms nerve root compression; positive crossed SLR (specificity 88%) is highly predictive of disc herniation with root compression",
+          "C": "Positive SLR suggests psychosomatic pain; crossed SLR has no diagnostic value",
+          "D": "Both tests should be repeated in 6 weeks before making a diagnosis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SLR sensitivity 91% for LDH at L4-5/L5-S1. Pain below the knee (in dermatomal distribution) at 35–70° elevation = positive SLR. The crossed SLR (contralateral leg elevation reproduces ipsilateral leg pain) has sensitivity 29% but specificity 88% — a positive crossed SLR is highly specific for nerve root compression by disc herniation. Together: positive ipsilateral SLR + positive crossed SLR = very high probability of nerve root compression from LDH.",
+          "wrong": {
+            "A": "Pain below the knee in a dermatomal distribution is not hamstring tightness (which causes posterior thigh discomfort, not below-knee radicular pain). The distinction between hamstring tightness and true radicular pain is clinically important",
+            "C": "The crossed SLR has high diagnostic specificity (88%) for disc herniation — it has significant diagnostic value. A positive crossed SLR is not a sign of psychosomatic pain",
+            "D": "The SLR and crossed SLR are clinical examination tests performed at the point of care — they provide immediate diagnostic information. Waiting 6 weeks is not necessary to interpret these tests"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — SLR sensitivity 91%; crossed SLR specificity 88%; both tests together highly predictive of LDH with root compression",
+          "trial": "Devillé WL (Spine 2000): meta-analysis of SLR — sensitivity 91%, specificity 26%; crossed SLR — sensitivity 29%, specificity 88%",
+          "pearl": "SLR: high sensitivity (91%), low specificity (26%). Crossed SLR: low sensitivity (29%), HIGH specificity (88%). Crossed SLR positive = highly predictive of disc herniation with root compression. Pain BELOW THE KNEE distinguishes radicular pain from hamstring tightness."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q7",
+        "stem": "A 42-year-old woman has had right L5 radiculopathy from an L4-5 disc herniation for 10 weeks. Conservative management (NSAIDs, physiotherapy, one epidural steroid injection) has not improved her symptoms. She has moderate weakness of EHL (3/5) and significant functional impairment affecting her work as a nurse. What is the most appropriate next step?",
+        "options": {
+          "A": "Continue conservative management for another 6 months before considering surgery",
+          "B": "Surgical referral for L4-5 microdiscectomy — surgery is appropriate for failed conservative management at 6–12 weeks with significant deficit",
+          "C": "Repeat MRI to confirm disc herniation before considering surgery",
+          "D": "Lumbar fusion at L4-5 — disc herniation requires fusion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has failed conservative management (NSAIDs + physio + epidural steroid injection) at 10 weeks, has significant neurological deficit (EHL 3/5 = moderate weakness), and significant functional impairment. These are appropriate indications for surgical referral. Microdiscectomy at L4-5 is the correct procedure — NOT fusion. SPORT and Peul trials confirm surgery provides faster recovery for this type of patient. Waiting another 6 months with 3/5 EHL weakness risks progressive denervation and poor recovery.",
+          "wrong": {
+            "A": "Waiting an additional 6 months with 3/5 EHL weakness risks progressive denervation and irreversible motor loss. 10 weeks of failed conservative management is an appropriate threshold for surgical consultation",
+            "C": "MRI at the initial presentation already showed L4-5 disc herniation consistent with L5 radiculopathy. Repeat MRI is not routinely required before surgery unless significant clinical change occurs or the prior MRI is outdated (>6 months)",
+            "D": "Disc herniation causing radiculopathy is treated with DISCECTOMY (removing the herniated fragment), NOT fusion. Fusion is reserved for instability, spondylolisthesis, or degenerative disc disease causing axial back pain"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Surgical indication: failed 6–12 weeks conservative management + significant functional impairment + concordant imaging; microdiscectomy, not fusion",
+          "trial": "SPORT (Weinstein JAMA 2006): surgery appropriate at 6 weeks for significant disability; Peul (NEJM 2007): faster recovery with early surgery",
+          "pearl": "Indications for microdiscectomy: (1) failed 6–12 weeks conservative management, (2) progressive neurological deficit (EHL 3/5 is significant), (3) significant functional impairment. EHL ≤3/5 indicates foot drop risk — accelerate surgical timing. Discectomy, NOT fusion."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q8",
+        "stem": "What are the Waddell signs, and what is their clinical significance in patients presenting with back pain?",
+        "options": {
+          "A": "Waddell signs are objective neurological signs that confirm disc herniation — positive results indicate immediate surgical indication",
+          "B": "Waddell signs are 5 non-organic behavioural findings (superficial tenderness, simulation testing, distraction testing, regional non-anatomic weakness/sensory change, overreaction); ≥3 positive signs suggest psychological overlay and predict poor surgical outcome",
+          "C": "Waddell signs include positive SLR, absent reflexes, and dermatomal sensory loss — confirming nerve root compression",
+          "D": "Waddell signs are only relevant in medicolegal cases — no clinical significance in routine practice"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Waddell signs (Waddell 1980) are 5 non-organic pain behaviours: (1) superficial, non-anatomic tenderness to light skin roll; (2) simulation — back pain on simulated axial load (pressing on skull) or simulated rotation; (3) distraction — positive SLR on supine test becomes negative when patient is distracted; (4) regional — non-dermatomal weakness or sensory loss; (5) overreaction — disproportionate verbalization, facial expression, guarding. Presence of ≥3 Waddell signs indicates significant psychological overlay and is associated with poor surgical outcomes, high post-operative dissatisfaction, and return-to-work failure. They should NOT be interpreted as fabrication but as indicators of psychological distress requiring multidisciplinary pain management.",
+          "wrong": {
+            "A": "Waddell signs are NON-organic — they are the OPPOSITE of objective neurological signs. They indicate psychological factors, not disc herniation",
+            "C": "SLR, absent reflexes, and dermatomal sensory loss are ORGANIC neurological signs — completely different from Waddell signs. These are signs OF disc herniation, not signs of non-organic pain behaviour",
+            "D": "Waddell signs are clinically significant in routine back pain assessment — they predict poor surgical outcomes and guide appropriate patient selection for surgery"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Pre-operative Waddell signs ≥3: poor surgical outcome predictor; psychological assessment recommended",
+          "trial": "Waddell G et al. (Spine 1980): non-organic signs development and validation; Main CJ (Pain 1984): Waddell signs and surgical outcomes prediction",
+          "pearl": "Waddell signs ≥3 = psychological overlay = POOR surgical outcome predictor. 5 signs: superficial tenderness, simulation, distraction, regional non-anatomic, overreaction. NOT fabrication — indicators of psychological distress requiring biopsychosocial management."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q9",
+        "stem": "A 30-year-old man presents with bilateral leg weakness, perianal numbness, and the inability to void urine — he last urinated 8 hours ago. MRI urgently performed shows a massive L5-S1 disc extrusion compressing the cauda equina. What constitutes the FULL clinical syndrome of cauda equina syndrome?",
+        "options": {
+          "A": "Bilateral leg pain + positive SLR + reduced reflexes",
+          "B": "Bilateral leg weakness (variable, may be asymmetric) + saddle anaesthesia (perineum, inner thighs, buttocks — S2-4) + bladder dysfunction (retention or incontinence) + bowel dysfunction + sexual dysfunction",
+          "C": "Complete paraplegia + bowel incontinence only",
+          "D": "Unilateral leg weakness + ipsilateral reflex loss only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cauda equina syndrome (CES) classical features: (1) bilateral (or asymmetric) lower extremity weakness — may range from mild to severe; (2) saddle anaesthesia — loss of sensation in the perineum, inner thighs, and buttocks (S2-4 dermatomes, because these roots run in the cauda equina along the midline); (3) bladder dysfunction — urinary retention (CES-R, most severe and urgent) or incontinence; (4) bowel dysfunction — faecal retention or incontinence; (5) sexual dysfunction. Saddle anaesthesia and urinary retention are the most diagnostically important features.",
+          "wrong": {
+            "A": "Bilateral leg pain with positive SLR and reduced reflexes = bilateral radiculopathy. This is NOT the full CES syndrome — saddle anaesthesia and bladder dysfunction are required to complete the diagnosis",
+            "C": "Complete paraplegia would require a higher (conus or cord level) injury — CES affects the lumbar and sacral nerve roots and causes variable weakness, not necessarily complete paraplegia. Bowel incontinence alone is insufficient",
+            "D": "CES is typically bilateral (though may be asymmetric) — unilateral leg weakness with ipsilateral reflex loss describes monoradiculopathy, not CES"
+          },
+          "guideline": "NASS CES Guidelines — Clinical diagnosis: bilateral leg weakness + saddle anaesthesia + bladder/bowel dysfunction = CES; MRI emergently required",
+          "trial": "Gitelman A (Spine 2008): CES presenting features — saddle anaesthesia and urinary retention are most important early signs; Todd NV (Eur Spine J 2011): CES classification",
+          "pearl": "CES = bilateral leg weakness + SADDLE ANAESTHESIA (S2-4, perineum/inner thighs/buttocks) + BLADDER DYSFUNCTION (retention = CES-R = most urgent). Bilateral symptoms + saddle anaesthesia = EMERGENCY MRI immediately."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q10",
+        "stem": "A 55-year-old woman undergoes lumbar microdiscectomy at L4-5. During the procedure, the surgeon inadvertently tears the dura with a Kerrison rongeur. Clear CSF drains from the defect. What is the appropriate intraoperative management?",
+        "options": {
+          "A": "Place a fat graft over the tear and proceed — dural tears are self-sealing",
+          "B": "Primary dural repair with 4-0 or 5-0 Nurolon/Prolene suture (watertight); reinforce with fat graft, fibrin glue, or Tachosil; post-operative flat bed rest 24–48 hours",
+          "C": "Immediately close the wound — dural tears will heal spontaneously with rest",
+          "D": "Convert to open laminectomy and refer to neurovascular surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Dural tear is a recognised intraoperative complication of lumbar microdiscectomy (1–3% incidence). Management: primary watertight dural repair is the gold standard — using 4-0 or 5-0 non-absorbable suture (Nurolon, Prolene). This should be repaired before wound closure. After repair: reinforce with fat graft, fibrin glue, or haemostatic sponge. Post-operatively: flat bed rest for 24–48 hours to allow dural healing. If repair is achieved, outcome is generally excellent with low pseudomeningocele and persistent CSF leak rates.",
+          "wrong": {
+            "A": "A fat graft alone without primary repair is inadequate for a dural laceration — it may not prevent CSF leak and pseudomeningocele. Primary suture repair is required when technically feasible",
+            "C": "Dural tears do NOT heal spontaneously without repair — persistent CSF leak, pseudomeningocele, and post-operative headache result. Immediate closure without repair is inappropriate",
+            "D": "Dural tears during spine surgery are within the competence of the operating neurosurgeon to repair — no referral to neurovascular surgery is needed"
+          },
+          "guideline": "EANS Spine Guidelines — Intraoperative dural tear: primary suture repair + fibrin sealant; 24–48h flat bed rest; fat graft reinforcement",
+          "trial": "Wang JC (Spine 2009): dural tear management in spine surgery — primary repair + fibrin glue achieves >90% primary healing with minimal pseudomeningocele formation",
+          "pearl": "Dural tear during discectomy (1–3%): primary watertight suture repair + fat graft/fibrin glue reinforcement + 24–48h flat bed rest. Inadequate repair → CSF leak, pseudomeningocele, meningitis risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q11",
+        "stem": "What is the expected long-term outcome for microdiscectomy for lumbar disc herniation with radiculopathy, based on the SPORT and other major trials?",
+        "options": {
+          "A": "90% re-herniation rate within 5 years — microdiscectomy rarely provides durable relief",
+          "B": "90% patient satisfaction and >90% leg pain relief in the short-medium term; 5–8% ipsilateral recurrence rate; long-term outcomes comparable to conservative management by 1–2 years",
+          "C": "100% surgical cure rate — disc herniations never recur after adequate discectomy",
+          "D": "Surgery reduces back pain but not leg pain — microdiscectomy primarily addresses axial symptoms"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Microdiscectomy outcomes: 90–95% leg pain relief immediately post-operatively; approximately 90% patient satisfaction at 2 years. Recurrence rate (ipsilateral re-herniation, same level): 5–8%. Long-term (>10 years): 90% patient satisfaction maintained. SPORT showed surgery provides faster recovery (benefit at 3 months) with equivalent outcomes to conservative management at 1–2 years. Microdiscectomy primarily relieves radicular leg pain — back pain improvement is less predictable and less complete.",
+          "wrong": {
+            "A": "Re-herniation rate is 5–8%, NOT 90%. 90% re-herniation would mean surgery is nearly always unsuccessful — the actual surgical success rate is the opposite (90% success)",
+            "C": "5–8% recurrence rate means surgery is NOT 100% curative. Recurrent herniation is a recognised complication requiring re-do microdiscectomy in some patients",
+            "D": "Microdiscectomy primarily addresses RADICULAR LEG PAIN (which is the indication for surgery), not axial back pain. This is the correct paradigm — axial back pain is less reliably improved by discectomy"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Microdiscectomy outcomes: 90–95% leg pain relief; 5–8% recurrence; surgery provides faster recovery than conservative",
+          "trial": "SPORT (Weinstein JAMA 2006): 2-year outcomes; Spengler DM (J Bone Joint Surg 1982): long-term microdiscectomy outcomes; Barth M (Spine 2008): recurrence rates",
+          "pearl": "Microdiscectomy: 90% immediate leg pain relief, 90% patient satisfaction. Recurrence: 5–8%. Back pain improvement less predictable. SPORT: surgery faster (3 months better) but equivalent to conservative at 1–2 years."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q12",
+        "stem": "A 40-year-old woman presents with new-onset right L4 radiculopathy — thigh pain, reduced patellar reflex, and quadriceps weakness. MRI shows NO disc herniation or foraminal stenosis in the lumbar spine. What is the most important differential diagnosis to exclude?",
+        "options": {
+          "A": "Piriformis syndrome — the most common cause of isolated L4 radiculopathy without MRI findings",
+          "B": "Spinal metastasis (or primary vertebral tumour) — isolated radiculopathy without disc herniation on MRI requires MRI with gadolinium contrast to exclude epidural tumour or spinal metastasis",
+          "C": "Lumbar spinal stenosis — normal MRI excludes stenosis",
+          "D": "Hirayama disease — a rare cervical myelopathy in young adults"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A radiculopathy without the expected disc herniation or foraminal stenosis on MRI requires gadolinium contrast MRI to exclude spinal epidural metastasis, vertebral body metastasis, primary spinal tumour (nerve sheath tumour, ependymoma, meningioma), or leptomeningeal disease. Particularly in an adult with new-onset radiculopathy and normal routine MRI sequences, contrast-enhanced MRI is mandatory to rule out enhancing lesions that may be missed on T2 sequences. Cancer history, constitutional symptoms (weight loss, night pain, fever) are red flags.",
+          "wrong": {
+            "A": "Piriformis syndrome causes deep buttock pain, not classic dermatomal L4 radiculopathy with reflex changes and motor deficit. It typically causes posterior thigh pain (sciatic nerve compression) rather than L4-specific quadriceps weakness and patellar reflex loss",
+            "C": "Normal MRI sequences do not 'exclude' all pathology — enhancing spinal tumours, leptomeningeal disease, and some perineural lesions can be missed on T2 sequences but detected with gadolinium",
+            "D": "Hirayama disease is a cervical flexion myelopathy causing intrinsic hand muscle wasting in young men — a cervical, not lumbar, condition, and it does not explain L4 radiculopathy"
+          },
+          "guideline": "NASS LDH Guidelines — Red flags in radiculopathy: normal MRI without disc herniation requires contrast MRI to exclude tumour; cancer history mandates contrast enhancement",
+          "trial": "Nater A (World Neurosurg 2016): spinal metastasis presenting as radiculopathy — MRI gadolinium critical for diagnosis; malignant radiculopathy incidence in cancer patients",
+          "pearl": "Radiculopathy + NORMAL routine MRI = MRI with GADOLINIUM to exclude spinal metastasis, nerve sheath tumour, or leptomeningeal disease. Red flags for malignancy: night pain, weight loss, age >50, cancer history, no response to conservative treatment."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q13",
+        "stem": "A 38-year-old man has a confirmed L4-5 disc herniation with L5 radiculopathy. His symptoms are primarily severe right leg pain (VAS 8/10) but NO motor deficit (EHL 5/5, all reflexes intact). Duration is 3 weeks. His job involves manual labour and he is requesting immediate surgery to return to work faster. What is the most evidence-based approach?",
+        "options": {
+          "A": "Immediate surgery — patient preference for faster recovery is an absolute indication for surgery",
+          "B": "6 weeks of conservative management; if symptoms persist with significant functional impairment, surgical referral — SPORT and Peul confirm faster recovery with surgery but equivalent long-term outcomes; patient can make an informed choice after 6 weeks",
+          "C": "Repeat MRI in 6 weeks before any treatment decision",
+          "D": "Permanent disability assessment — disc herniation always results in permanent impairment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "3 weeks duration with no motor deficit: conservative management is first-line for 6 weeks. After 6 weeks of failed conservative treatment, surgery is appropriate. The patient CAN be informed that if surgery is performed (after 6 weeks of failed conservative treatment), SPORT and Peul confirm significantly faster recovery with surgery — this is legitimate in shared decision-making. However, at 3 weeks with no motor deficit, immediate surgery without adequate conservative trial is not evidence-based. The patient's preference for faster recovery is an important but not absolute indication — it becomes relevant after the 6-week trial.",
+          "wrong": {
+            "A": "Patient preference alone is not an absolute indication for immediate surgery at 3 weeks without a conservative trial. Many patients who receive immediate surgery avoid unnecessary procedures since 80–90% resolve conservatively",
+            "C": "Repeat MRI is not needed at 6 weeks unless clinical change occurs. The decision is clinical — does the patient have persistent symptoms after 6 weeks of adequate conservative management?",
+            "D": "Disc herniation does NOT always result in permanent impairment — 80–90% resolve. This is factually incorrect and would cause unnecessary patient harm"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — 6-week conservative trial recommended before surgical referral for radiculopathy without significant motor deficit",
+          "trial": "SPORT (Weinstein JAMA 2006): as-treated analysis — surgery faster recovery at 3 months; Peul (NEJM 2007): early surgery = 95% recovery at 8 weeks vs 64%; but at 1 year, equivalent",
+          "pearl": "3 weeks of LDH radiculopathy, no motor deficit: conservative treatment first (6 weeks). After 6 weeks failed: surgery appropriate. Patient can be informed surgery = faster recovery (SPORT/Peul) to aid shared decision-making. No motor deficit = no urgency."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q14",
+        "stem": "After uncomplicated L4-5 microdiscectomy for right L5 radiculopathy, the patient develops new bilateral lower limb weakness and urinary retention on post-operative day 1. Emergency MRI shows a large epidural haematoma at the L4-5 level. What is the immediate management?",
+        "options": {
+          "A": "Observation and repeat MRI in 24 hours — post-operative neurological changes often resolve spontaneously",
+          "B": "Emergency return to theatre for haematoma evacuation — post-operative spinal epidural haematoma causing neurological deficit is a surgical emergency",
+          "C": "Anticoagulation reversal only — the haematoma will resorb with time",
+          "D": "Lumbar puncture to decompress the thecal sac"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-operative spinal epidural haematoma (SEH) is a rare but serious complication of spinal surgery (<1% incidence). New neurological deficit (bilateral weakness, cauda equina signs) on post-operative day 1 with MRI confirming epidural haematoma = neurosurgical emergency requiring IMMEDIATE return to theatre for haematoma evacuation. Time to surgical decompression is critical — outcomes are significantly worse if decompression is delayed beyond 6–8 hours from symptom onset. Emergency re-exploration, haematoma removal, and haemostasis.",
+          "wrong": {
+            "A": "Observation for post-operative SEH with neurological deficit would lead to permanent neurological damage. This is a surgical emergency — delay is unacceptable",
+            "C": "Spinal epidural haematoma with significant cord/cauda compression does NOT resorb adequately with time — the mass effect persists, causing progressive irreversible nerve damage",
+            "D": "Lumbar puncture does not decompress an epidural haematoma — it cannot drain a posterior epidural blood clot"
+          },
+          "guideline": "EANS Spine Guidelines — Post-operative SEH causing neurological deficit: emergency re-exploration and haematoma evacuation within 6–8 hours",
+          "trial": "Kou J (Spine 2002): post-operative spinal haematoma — neurological recovery inversely proportional to time to decompression; decompression within 8 hours optimal",
+          "pearl": "Post-operative epidural haematoma + neurological deficit = EMERGENCY RETURN TO THEATRE. Decompression within 6–8 hours for best neurological recovery. Do NOT observe — delay causes permanent damage."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q15",
+        "stem": "Natural history of lumbar disc herniation shows that most cases resolve spontaneously. What is the proposed mechanism of spontaneous fragment resorption?",
+        "options": {
+          "A": "Re-absorption of the herniated disc by rehydration of the nucleus pulposus within the annulus",
+          "B": "Macrophage-mediated phagocytosis and neovascularisation of the herniated fragment, with prostaglandin-mediated inflammation resolution; extruded/sequestrated fragments resorb more predictably than protrusions",
+          "C": "Gravitational settling of the disc fragment away from the nerve root over time",
+          "D": "Muscle spasm releasing, allowing the disc to return to its original position"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Spontaneous LDH resorption occurs through macrophage-mediated phagocytosis of the herniated nucleus pulposus tissue. The extruded nucleus pulposus, being immunologically foreign to the epidural space, triggers an inflammatory response with neovascularisation and macrophage infiltration. Prostaglandin E2 and cytokines (IL-1, TNF-alpha) mediate neural inflammation (causing pain) but also drive fragment resorption. **Key principle**: larger extruded and sequestrated fragments resorb MORE predictably and completely than protrusions (where the annulus remains intact, limiting macrophage access). This explains why sequestrated fragments (largest herniations) paradoxically have better natural history than protrusions.",
+          "wrong": {
+            "A": "The herniated nucleus does NOT re-absorb back into the disc — once extruded through the annulus, the nucleus is outside and cannot re-enter the disc space",
+            "C": "Disc fragments do not settle gravitationally — they are contained in the epidural space and their movement is minimal without surgical intervention",
+            "D": "Muscle spasm releasing does not cause disc fragment repositioning — the herniated nuclear material is extruded past the annulus and cannot be 'pushed back' by muscle relaxation"
+          },
+          "guideline": "NASS LDH Guidelines — Natural history mechanism: macrophage-mediated resorption; larger fragments resorb better than protrusions",
+          "trial": "Ahn SH (Spine 2002): MRI evidence of spontaneous disc resorption; Saal JA (Spine 1990): macrophage and inflammatory mediator role in disc resorption",
+          "pearl": "LDH natural history: macrophage phagocytosis + neovascularisation → fragment resorption. Paradox: LARGER extruded/sequestrated fragments resorb MORE predictably than protrusions. This explains why 80–90% resolve spontaneously despite large MRI findings."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q16",
+        "stem": "What is the primary indication for lumbar FUSION (rather than discectomy alone) for lumbar disc herniation?",
+        "options": {
+          "A": "All disc herniations at L5-S1 require fusion due to high recurrence rates",
+          "B": "Disc herniation at L4-5 in patients >45 years",
+          "C": "Associated segmental instability (spondylolisthesis, iatrogenic instability from extensive facetectomy during decompression) or significant axial back pain from degenerative disc disease as the primary complaint",
+          "D": "All disc herniations causing motor deficit require fusion for stability"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Discectomy alone (removing the herniated fragment) is appropriate for isolated disc herniation causing radiculopathy in a stable spine. Fusion is added when: (1) associated spondylolisthesis (pre-existing segmental instability); (2) extensive facetectomy required during decompression that destabilises the segment; (3) significant axial back pain from degenerative disc disease (discogenic pain) as the primary complaint (not just radiculopathy); (4) recurrent disc herniation at same level with significant disc height loss and segmental instability. Fusion for pure radiculopathy without instability is not evidence-based and increases morbidity.",
+          "wrong": {
+            "A": "L5-S1 disc herniations do NOT require fusion routinely — discectomy alone has excellent outcomes (90%+ success). Recurrence rates are similar to L4-5",
+            "B": "Age >45 is not an indication for fusion with disc herniation. The indication is instability or discogenic axial pain, not age",
+            "D": "Motor deficit from disc herniation indicates urgency of discectomy but does NOT indicate need for fusion. Fusion is about stability, not motor recovery"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Discectomy alone for isolated disc herniation without instability; fusion added for spondylolisthesis, instability, or significant discogenic back pain",
+          "trial": "Caspar W (Acta Neurochir 1977): discectomy technique; SPORT: discectomy alone appropriate for herniation without instability; Herkowitz HN (Spine 1991): fusion for spondylolisthesis with stenosis",
+          "pearl": "Discectomy (not fusion) for isolated disc herniation + radiculopathy in stable spine. ADD fusion for: spondylolisthesis, extensive facetectomy-induced instability, or significant axial discogenic pain. Never fuse for radiculopathy alone in a stable spine."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C2-Q17",
+        "stem": "A patient undergoing L5-S1 microdiscectomy is at risk for a rare but catastrophic intraoperative complication if the surgical instruments penetrate too deeply through the anterior disc space into the prevertebral space. What structure is at risk?",
+        "options": {
+          "A": "Abdominal aorta and inferior vena cava (or common iliac vessels at L5-S1 level)",
+          "B": "Ureter — preventing post-operative hydronephrosis",
+          "C": "Bowel — causing peritonitis",
+          "D": "Sympathetic chain — causing Horner syndrome"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "The anterior disc space at L5-S1 is immediately adjacent to the common iliac arteries (L4-5 aortic bifurcation, L5-S1 common iliacs) and inferior vena cava (left common iliac vein at L4-5). If disc space instruments (pituitary rongeurs, curettes) penetrate too deeply through the anterior annulus, catastrophic vascular injury can occur — massive haemorrhage into the retroperitoneum. This is a rare (<0.05%) but potentially fatal complication. Intraoperative clues: unexplained hypotension, tachycardia, and abdominal distension during discectomy. Management: immediate abdominal vascular surgery (emergency laparotomy or endovascular repair).",
+          "wrong": {
+            "B": "The ureter runs laterally on the psoas muscle — not immediately anterior to the disc space. Ureteral injury from discectomy is theoretically possible but extremely rare and not the primary concern during disc instrumentation",
+            "C": "Bowel injury is possible with retroperitoneal access procedures (ALIF) but is not the primary risk from posterior microdiscectomy disc space instrumentation",
+            "D": "The sympathetic chain runs anterior and lateral to the vertebral bodies — a possible complication of anterior approaches (causing retrograde ejaculation) but not the catastrophic vascular risk from posterior discectomy"
+          },
+          "guideline": "EANS Spine Technical Guidelines — Vascular injury from disc space instrumentation: catastrophic complication requiring immediate vascular surgery consultation",
+          "trial": "Papadoulas S (Eur J Vasc Endovasc Surg 2002): vascular complications of lumbar disc surgery — series of major vascular injuries; management principles",
+          "pearl": "Lumbar discectomy catastrophic complication: vascular injury from deep disc instrumentation penetrating anterior annulus → common iliac artery/vein or aorta/IVC. Risk at L4-5 (aortic bifurcation) and L5-S1 (common iliac vessels). Unexplained intraoperative hypotension = suspect vascular injury."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q18",
+        "stem": "What is the distinguishing clinical feature of neurogenic claudication (from lumbar spinal stenosis) that differentiates it from vascular claudication?",
+        "options": {
+          "A": "Neurogenic claudication is provoked by walking and relieved by standing still, same as vascular claudication",
+          "B": "Neurogenic claudication is provoked by upright walking/standing and relieved by SITTING or FORWARD FLEXION (shopping cart sign); vascular claudication is relieved by simply STOPPING walking (standing still)",
+          "C": "Neurogenic claudication causes foot pain only; vascular causes calf pain only",
+          "D": "Neurogenic claudication is associated with absent ankle pulses; vascular claudication is not"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Neurogenic claudication (from lumbar spinal stenosis): provoked by upright posture (walking, standing), relieved by SITTING or forward flexion (which increases the lumbar spinal canal diameter by flexing the spine). The 'shopping cart sign' (leaning forward on a cart to maintain flexion during shopping) is pathognomonic. Vascular claudication (from peripheral arterial disease): provoked by exercise, relieved by SIMPLY STOPPING AND STANDING STILL — arteries deliver more oxygen at rest regardless of posture. Differentiation is critical: vascular claudication requires ankle-brachial index and vascular evaluation; neurogenic claudication requires lumbar MRI.",
+          "wrong": {
+            "A": "Neurogenic claudication is NOT relieved by simply standing still — the patient must sit or flex the spine. Vascular claudication IS relieved by standing still",
+            "C": "Location of pain does not reliably distinguish the two — both can cause calf pain. The posture-dependency of relief is the key distinguishing feature",
+            "D": "Absent ankle pulses are a sign of peripheral arterial disease (vascular claudication) — neurogenic claudication has normal pulses. However, this distinguishes them, not the other way around as stated"
+          },
+          "guideline": "NASS Lumbar Spinal Stenosis Guidelines — Neurogenic claudication: postural relief (sitting/flexion); vascular claudication: standing still relieves; both must be differentiated for appropriate management",
+          "trial": "Porter RW (Spine 1984): neurogenic vs vascular claudication clinical differentiation; Johnsson KE (Clin Orthop 1995): lumbar stenosis natural history",
+          "pearl": "Neurogenic claudication = relieved by SITTING/FORWARD FLEXION (shopping cart sign). Vascular claudication = relieved by STANDING STILL. Shopping cart sign = neurogenic stenosis. This is the classic Board question."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C2-Q19",
+        "stem": "A 42-year-old male manual worker develops L5-S1 disc herniation with S1 radiculopathy. He is a workers' compensation claimant and has 4 out of 5 Waddell signs. Conservative treatment has been ineffective for 3 months. His EHL is 5/5 and ankle reflex is reduced but present. He is pushing for surgery. How should Waddell signs influence the surgical decision?",
+        "options": {
+          "A": "Waddell signs are irrelevant — any patient with failed conservative management should receive surgery",
+          "B": "4/5 Waddell signs is a strong predictor of poor surgical outcome; biopsychosocial assessment and multidisciplinary pain management should precede surgical decision-making; surgery is not contraindicated but outcomes are likely to be poor without psychological optimisation",
+          "C": "4/5 Waddell signs proves the patient is fabricating symptoms — discharge without treatment",
+          "D": "Waddell signs only matter in absence of MRI-confirmed disc herniation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Waddell signs ≥3 are independently associated with poor surgical outcomes, return-to-work failure, and high post-operative dissatisfaction, even when surgery is technically successful. Workers' compensation status is also an independent predictor of poor outcome. The appropriate response is not to refuse surgery categorically, but to: (1) perform thorough biopsychosocial assessment; (2) refer to multidisciplinary pain management and psychological assessment; (3) optimise psychological factors before surgery; (4) have a frank discussion with the patient about realistic surgical expectations given these negative predictors.",
+          "wrong": {
+            "A": "Waddell signs are highly relevant outcome predictors — ignoring them leads to high rates of failed back surgery syndrome",
+            "C": "Waddell signs do NOT prove fabrication — they indicate significant psychological distress (anxiety, depression, catastrophising) that amplifies pain perception. Patients with positive Waddell signs have genuine pain but with significant psychological overlay requiring biopsychosocial management",
+            "D": "Waddell signs are relevant regardless of MRI findings — they predict surgical outcome independently of the anatomical pathology"
+          },
+          "guideline": "NASS LDH Guidelines 2012 — Pre-operative Waddell signs ≥3: poor surgical outcome; psychological evaluation recommended before surgery",
+          "trial": "Waddell G (Spine 1980): Waddell sign development; Spengler DM (J Bone Joint Surg 1982): psychological overlay independently predicts poor surgical outcome; workers' compensation: Nguyen TH (Spine 2011)",
+          "pearl": "Waddell signs ≥3 + workers' compensation = POOR surgical outcome predictor (not a contraindication). Biopsychosocial assessment mandatory before surgery. Surgery can be performed but informed consent must include discussion of poor outcome likelihood without psychological optimisation."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C2-Q20",
+        "stem": "An 18-year-old male athlete presents with acute severe right leg pain and L5 radiculopathy after heavy lifting. MRI shows a large L4-5 disc extrusion. During the evaluation, a small bony fragment is seen adjacent to the posterior superior corner of the L4 vertebral body on CT sagittal reconstruction. What is the diagnosis and how does it differ from standard disc herniation management?",
+        "options": {
+          "A": "This is a normal variant — treat as standard disc herniation",
+          "B": "Posterior ring apophysis fracture — a bony avulsion of the ring apophysis (cartilaginous vertebral ring) more common in adolescents; the bone fragment (not just soft disc) must be surgically removed, as it will not resorb spontaneously",
+          "C": "Stress fracture of the pars interarticularis — treat with spondylolysis brace",
+          "D": "Vertebral osteomyelitis — MRI gadolinium required for infection evaluation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Posterior ring apophysis fracture (posterior cartilaginous ring avulsion) is a specific condition in adolescents and young adults in whom the cartilaginous ring apophysis has not yet fully ossified and fused to the vertebral body. Heavy lifting or flexion-extension forces can avulse this cartilaginous ring, creating a bony fragment in the posterior disc space adjacent to the vertebral endplate. Unlike a pure soft tissue disc herniation that may resorb with conservative management, the bone fragment does NOT resorb spontaneously. Surgical removal is required for definitive treatment — this distinguishes it from standard disc herniation management.",
+          "wrong": {
+            "A": "A bony fragment adjacent to the posterior vertebral corner in an adolescent is NOT a normal variant — it represents an apophyseal ring avulsion requiring different management than standard disc herniation",
+            "C": "Spondylolysis (pars interarticularis stress fracture) is diagnosed by bilateral pars defects on CT and presents with low back pain without radiculopathy in athletes. The MRI appearance of a posterior disc fragment with L5 radiculopathy is different from spondylolysis",
+            "D": "Acute onset after heavy lifting in an athlete without fever, constitutional symptoms, or metabolic risk factors does not suggest osteomyelitis. The posterior ring avulsion is the correct diagnosis"
+          },
+          "guideline": "AANS/EANS Pediatric Spine Guidelines — Ring apophysis fracture: surgical removal required (bony fragment does not resorb); must be distinguished from standard disc herniation in adolescents",
+          "trial": "Epstein NE (Neurosurgery 1989): posterior ring apophysis fractures in adolescents — surgical removal required; Savini R (Spine 1991): adolescent posterior ring avulsion series",
+          "pearl": "Adolescent + heavy lifting + L5 radiculopathy + bony fragment posterior vertebral corner on CT = POSTERIOR RING APOPHYSIS FRACTURE. Key difference from standard disc herniation: bone fragment does NOT resorb — requires SURGICAL REMOVAL (not just conservative management)."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

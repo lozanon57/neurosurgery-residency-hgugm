@@ -1,0 +1,958 @@
+{
+  "id": "D4",
+  "title": "Neuralgia del Trigémino y Espasmo Hemifacial",
+  "subtitle": "Bloque D — Neurocirugía Funcional",
+  "block": "D",
+  "block_name": "Neurocirugía Funcional",
+  "level": "R2-4",
+  "reading_time_min": 40,
+  "guidelines_version": "AANS/CNS 2019 · EFNS/EAN 2019 · ICHD-3 2018",
+  "textbook_refs": [
+    "Jannetta PJ. Trigeminal Neuralgia. Oxford University Press (2011)",
+    "Sindou MP et al. Trigeminal Neuralgia. Springer (2020)",
+    "Burchiel KJ. Surgical Manejo of Pain. Thieme (2015)",
+    "Zakrzewska JM et al. Medical management of trigeminal neuralgia. BMJ 2014;348:g474",
+    "Kalkanis SN et al. AANS/CNS Guidelines on TN. J Neurosurg 2019;130(4):1-4"
+  ],
+  "learning_objectives": [
+    "Aplicar ICHD-3 criteria to classify TN as classical, idiopathic, or secondary and select appropriate workup",
+    "Describir the mechanism of vascular compression and the pathophysiology of ectopic discharge in TN",
+    "Identificar first-line, second-line, and adjunct pharmacological agents with specific dosing thresholds and monitoring requirements",
+    "Comparar percutaneous rhizotomy techniques (glycerol, balloon compression, RF thermocoagulation) by mechanism, target, outcomes, and complication profiles",
+    "Explicar the Jannetta microvascular decompression procedure including surgical anatomy, offending vessel identification, and expected long-term outcomes",
+    "Contrastar Gamma Knife estereotáctico radiosurgery with MVD regarding pain-free rates, latency, and durability",
+    "Resumir the evaluation and surgical management of hemifacial spasm"
+  ],
+  "sections": [
+    {
+      "id": "D4-S1",
+      "title": "Clasificación y Fisiopatología",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Trigeminal neuralgia (TN)** is characterised by recurrent unilateral brief electric shock-like pains that are abrupt in onset and termination, confined to one or more divisions of the trigeminal nerve, and triggered by innocuous stimuli. The **International Classification of Headache Disorders, 3rd Edition (ICHD-3, 2018)** classifies TN into three subtypes. **Classical TN** is caused by morphological changes in the trigeminal nerve root secondary to neurovascular contact (NVC); it accounts for approximately 85% of all cases. **Idiopathic TN** has no identifiable cause despite adequate investigation — no NVC on high-resolution MRI and no secondary lesion. **Secondary TN** is caused by an underlying neurological disease, most commonly multiple sclerosis (MS accounts for 2-4% of TN cases, with bilateral TN nearly pathognomonic for MS), cerebellopontino angle tumours (meningioma, epidermoid cyst, acoustic neuroma), or arteriovenous malformations. A diagnosis of secondary TN mandates gadolinium-enhanced brain MRI and MR cisternography.\n\nThe annual incidence of TN is approximately 4-13 per 100,000 population. Women are affected more frequently than men (ratio approximately 1.7:1). Peak onset is in the 6th decade. The V2 (maxillary) and V3 (mandibular) divisions are most commonly affected, either alone or in combination; isolated V1 involvement is rare (<5%) and should raise suspicion for secondary aetiology. Right-sided TN is slightly more common than left (ratio 1.5:1)."
+        },
+        {
+          "type": "text",
+          "content": "The **pathophysiological mechanism** of classical TN centres on **focal demielinización** at the trigeminal root entry zone (REZ), where the central mielina (produced by oligodendrocitos) transitions to peripheral mielina (produced by células de Schwann). This transition zone, the Obersteiner-Redlich zone, lies 2-4 mm from the tronco encefálico surface and represents the point of maximal vulnerability to neurovascular compression. Pulsatile arterial compression at this site — most commonly from the **superior cerebeloso artery (SCA, ~75% of cases)**, followed by the anterior inferior cerebeloso artery (AICA, ~10-15%), and rarely by the vertebral artery or venous structures — causes focal demielinización.\n\nThe demielinaated axons exhibit **ectopic discharge** and **ephaptic cross-excitation** (cross-talk between adjacent naked axons). Non-nociceptive A-beta fibres (normally mediating touch) can generate anomalous discharges that are interpreted by the brain as intense pain — explaining the characteristic **trigger phenomenon** where light touch (eating, talking, tooth-brushing, cold air) precipitates an attack. The paroxysmal, shock-like quality reflects synchronised volleys of ectopic discharge rather than sustained nociceptor activation. This mechanism also underpins the efficacy of sodium channel blockers (carbamazepine, oxcarbazepine), which reduce the threshold for ectopic neuronal firing."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación ICHD-3 de la Neuralgia del Trigémino",
+          "headers": [
+            "Subtipo",
+            "Definición",
+            "CNV en RM",
+            "Key Características"
+          ],
+          "rows": [
+            [
+              "Classical TN",
+              "NVC with morphological changes to trigeminal nerve root",
+              "Present with atrophy/displacement",
+              "85% of cases; SCA most common vessel"
+            ],
+            [
+              "Idiopathic TN",
+              "No identified cause; NVC may be present without morphological changes",
+              "Ausente or NVC without nerve changes",
+              "Diagnosis of exclusion"
+            ],
+            [
+              "Secondary TN",
+              "Caused by underlying neurological disease",
+              "Variable",
+              "MS, CPA tumours, AVM; gadolinium MRI mandatory"
+            ],
+            [
+              "TN with concomitant persistent facial pain",
+              "Continuous background ache between attacks",
+              "Present",
+              "Worse surgical outcomes; atypical feature"
+            ],
+            [
+              "Painful TN neuropathy",
+              "Sensory deficit in trigeminal territory",
+              "Variable",
+              "Consider secondary cause; not classical TN"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Señales de Alarma que Requieren RM Urgente",
+          "content": "Bilateral TN, age under 40 years, sensory deficit in the trigeminal territory, abnormal trigeminal reflexes, pain in V1 distribution, or failure of carbamazepine should all prompt gadolinium-enhanced brain MRI to exclude secondary causes (MS plaques, CPA tumour, vascular malformation). Up to 15% of apparent TN cases have an identifiable structural cause."
+        }
+      ]
+    },
+    {
+      "id": "D4-S2",
+      "title": "Clinical Diagnosis and Workup",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **clinical diagnosis** of TN is based on the ICHD-3 criteria and requires careful history-taking. The pain must be: (1) unilateral, (2) in the distribution of one or more trigeminal branches, (3) paroxysmal, lasting from a fraction of a second to 2 minutes, (4) severe in intensity, (5) electric-shock-like, shooting, or stabbing in character, and (6) precipitated by innocuous stimuli in the affected side of the face. Between attacks, patients may be completely pain-free (classic TN) or may have a continuous dull background ache (TN with concomitant persistent pain — formerly 'atypical TN' — which carries a worse prognosis with all treatments).\n\n**Trigger zones** are small areas of facial skin or mucosa that when lightly touched precipitate an attack. Common trigger zones include the nasolabial fold, corner of the mouth, upper lip, and alae nasi for V2; the chin, lower lip, or buccal mucosa for V3. Cold wind on the face is a frequent environmental trigger. Importantemente, the **refractory period** immediately after an attack means that repeated light stimulation during this period does not provoke pain — distinguishing TN from other facial pain disorders.\n\n**Neurological examination** in classical TN is typically **normal**. The presence of any trigeminal sensory deficit, corneal reflex asymmetry, or motor weakness (masseter wasting in V3 lesions) should prompt investigation for secondary causes. Blink reflex studies (electrophysiology) can detect subclinical tronco encefálico lesions in suspected MS."
+        },
+        {
+          "type": "text",
+          "content": "**Neuroimaging** is the cornerstone of workup. The recommended protocol includes: (1) **High-resolution MRI with 3D-CISS or FIESTA sequences** (constructive interference in steady state / fast imaging employing steady-state acquisition) to identify neurovascular contact with submillimetre resolution and detect morphological changes in the trigeminal nerve root (atrophy, displacement, indentation); (2) **3D time-of-flight MR angiography (TOF-MRA)** to characterise the offending vessel; and (3) **Gadolinium-enhanced sequences** to exclude secondary causes (MS plaques at REZ, leptomeningeal enhancement, CPA tumours).\n\nMRI findings of NVC without morphological nerve changes are present in 30-50% of asymptomatic individuals and are therefore insufficient alone to diagnose classical TN — morphological changes are required. **False-negative rate of MRI for NVC is approximately 15%**, meaning a negative MRI does not exclude classical TN amenable to MVD; the decision for surgery should incorporate clinical features and intraoperative findings."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Imaging Protocol Pearl — CISS/FIESTA Sequences",
+          "content": "Standard T1/T2 MRI es insuficiente to evaluate neurovascular contact. Request specifically 3D-CISS or FIESTA with sub-millimetre slice thickness (0.5-0.8 mm), axial and coronal reconstructions through the posterior fossa, to visualise the trigeminal nerve root and offending vessel. TOF-MRA provides vessel characterisation. This combination achieves sensitivity of approximately 85-90% for NVC detection."
+        },
+        {
+          "type": "table",
+          "title": "Differential Diagnosis of Facial Pain",
+          "headers": [
+            "Condition",
+            "Character",
+            "Duration",
+            "Triggers",
+            "Key Distinguiring Característica"
+          ],
+          "rows": [
+            [
+              "Classical TN",
+              "Electric, stabbing",
+              "Seconds to 2 min",
+              "Light touch, eating, cold",
+              "Refractory period; normal exam"
+            ],
+            [
+              "Dental pain",
+              "Dull aching",
+              "Continuous",
+              "Hot/cold, percussion",
+              "Dental pathology on exam/X-ray"
+            ],
+            [
+              "SUNCT/SUNA",
+              "Stabbing/burning",
+              "5-240 seconds",
+              "Touch, movement",
+              "Autonomic features; no refractory period"
+            ],
+            [
+              "Cluster headache",
+              "Severe periorbital",
+              "15-180 min",
+              "Alcohol, sleep",
+              "Strictly unilateral + autonomic features"
+            ],
+            [
+              "Atypical facial pain (PDAP)",
+              "Dull, continuous",
+              "Continuous >4h",
+              "Stress, not touch",
+              "No trigger zone; normal imaging"
+            ],
+            [
+              "Postherpetic neuralgia",
+              "Burning, allodynia",
+              "Continuous",
+              "Light touch (allodynia)",
+              "Prior VZV rash; sensory deficit"
+            ],
+            [
+              "MS-related TN",
+              "Identical to classical TN",
+              "Seconds",
+              "Touch",
+              "Bilateral; younger; MS history; MRI plaques"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D4-S3",
+      "title": "Medical Manejo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Carbamazepine** (CBZ) is the **first-line pharmacological treatment** for classical TN, with Level A evidence from multiple randomised controlled trials and endorsed by all major guidelines (AANS/CNS 2019, EFNS/EAN 2019, NICE NG233 2021). CBZ is a voltage-gated sodium channel blocker that reduces ectopic discharge from demielinaated trigeminal fibres. Initial response rate exceeds **70-80%**, making a trial of CBZ effectively diagnostic — failure to respond should raise suspicion for an alternative diagnosis.\n\nCBZ dosing starts at 100-200 mg twice daily and is titrated by 100-200 mg every 2-3 days to a target range of **600-800 mg/day** (divided doses), with a maximum of 1200 mg/day. Slow-release (SR/CR) formulations improve tolerability by reducing peak serum levels. Monitoring requirements: **full blood count and liver function tests at baseline**, 2 weeks, and 6 months — aplastic anaemia (<0.5 per 100,000) and agranulocytosis (rare) are idiosyncratic reactions. **Hyponatraemia** occurs in up to 20% (SIADH mechanism) and is more common in elderly patients; electrolytes should be monitored. **HLA-B*1502 allele testing** is mandated before starting CBZ in patients of Han Chinese, Thai, or Southeast Asian descent due to the dramatically increased risk of Stevens-Johnson syndrome (SJS)/toxic epidermal necrolysis (TEN) in carriers.\n\nCommon dose-dependent adverse effects include **dizziness, diplopia, ataxia, and sedation** — these limit dose escalation in up to 40% of patients and are the primary driver of treatment failure at adequate doses rather than pharmacological non-response."
+        },
+        {
+          "type": "text",
+          "content": "**Oxcarbazepine** (OXC) is a keto-analogue of carbamazepine with a more favourable tolerability and drug-interaction profile. OXC is considered a **first-line alternative** to CBZ (EFNS/EAN Level A). Standard doses range from **600-1800 mg/day** in two divided doses. OXC has less hepatic enzyme induction than CBZ, fewer interactions with warfarin and oral contraceptives, and lower rates of aplastic anaemia — however, hyponatraemia is paradoxically **more common with OXC** (up to 30% of patients) and more clinically significant. OXC no debe usarse in combination with CBZ due to shared mechanisms and additive toxicity.\n\n**Second-line agents** include: **lamotrigine** (adjunctive; add-on to CBZ when breakthrough pain occurs; titrate slowly to avoid SJS; 200-400 mg/day); **baclofen** (GABA-B agonist; 30-80 mg/day divided; useful for MS-related TN; risk of withdrawal seizures and spasticity rebound — never stop abruptly); **gabapentin/pregabalin** (less evidence for classical TN; useful for TN with concomitant persistent pain/neuropathic component; pregabalin 150-600 mg/day). **Phenytoin** intravenous is occasionally used for acute pain crises when oral therapy is not possible. **Botulinum toxin A** (BTX-A) injections into the trigger area have shown efficacy in small RCTs (Shehata 2013) and may be considered when systemic medications are poorly tolerated."
+        },
+        {
+          "type": "table",
+          "title": "Pharmacological Treatment Summary",
+          "headers": [
+            "Drug",
+            "Class",
+            "Starting Dose",
+            "Diana Dose",
+            "Key Monitoring",
+            "Level of Evidence"
+          ],
+          "rows": [
+            [
+              "Carbamazepine",
+              "Na+ channel blocker",
+              "100-200 mg BD",
+              "600-800 mg/day",
+              "FBC, LFTs, electrolytes; HLA-B*1502",
+              "Level A (1st line)"
+            ],
+            [
+              "Oxcarbazepine",
+              "Na+ channel blocker",
+              "150-300 mg BD",
+              "600-1800 mg/day",
+              "Electrolytes (Na+); more hyponatraemia",
+              "Level A (1st line alt)"
+            ],
+            [
+              "Lamotrigine",
+              "Na+ channel blocker",
+              "25 mg OD",
+              "200-400 mg/day",
+              "Slow titration (SJS risk)",
+              "Level B (adjunct)"
+            ],
+            [
+              "Baclofen",
+              "GABA-B agonist",
+              "5 mg TDS",
+              "30-80 mg/day",
+              "Never stop abruptly; sedation",
+              "Level C"
+            ],
+            [
+              "Gabapentin",
+              "GABA analogue",
+              "300 mg TDS",
+              "1800-3600 mg/day",
+              "Dose adjust in renal impairment",
+              "Level C"
+            ],
+            [
+              "Pregabalin",
+              "GABA analogue",
+              "75 mg BD",
+              "150-600 mg/day",
+              "Misuse potential (schedule 3 UK)",
+              "Level C"
+            ],
+            [
+              "IV Phenytoin",
+              "Na+ channel blocker",
+              "15 mg/kg slow infusion",
+              "One-off load",
+              "Cardiac monitoring; acute crisis only",
+              "Level C (rescue)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — When to Refer for Surgical Evaluation",
+          "content": "Surgical evaluation es apropiado when: (1) pharmacological treatment fails to achieve adequate pain relief at maximum tolerated doses, (2) adverse effects of medication significantly impair quality of life, (3) the patient develops drug allergy (particularly SJS/TEN), or (4) the patient prefers surgical treatment with full understanding of risks and benefits. The AANS/CNS 2019 guidelines emphasise that all patients with drug-refractory TN should be referred to a centre with expertise in all surgical modalities so that an individualised decision can be made."
+        }
+      ]
+    },
+    {
+      "id": "D4-S4",
+      "title": "Técnicas de Rizotomía Percutánea",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Percutaneous rhizotomy techniques** access the trigeminal (Gasserian) ganglion via the **foramen ovale** using the classic Härtel approach — a needle is introduced through the cheek approximately 3 cm lateral to the corner of the mouth, directed medially and posteriorly toward a point 3 cm anterior to the external auditory meatus and 1 cm inferolateral to the pupil. Under fluoroscopic guidance (or CT fluoroscopy in experienced centres), the needle traverses the foramen ovale to reach the trigeminal cistern (Meckel's cave). All three techniques — radiofrequency thermocoagulation, glycerol rhizolysis, and balloon compression — share this approach but target the ganglion or rootlets by different mechanisms.\n\n**Radiofrequency thermocoagulation (RFT)** selectively destroys pain-transmitting (A-delta and C) fibres by controlled heat (60-80°C for 60-120 seconds) at the Gasserian ganglion. Porque the procedure is performed under brief general anaesthesia with intermittent awakening for sensory testing, it allows **selective division targeting** (pain in V2/V3 can be treated while sparing V1 corneal afferents). Initial pain-free rates are **90-95%** but recurrence at 5 years reaches 50%. The major complication is **anaesthesia dolorosa** (deafferentation pain — constant burning or aching in a numb area), which occurs in approximately 1-4% and is effectively untreatable. Corneal anaesthesia causing neuropathic keratitis with risk of corneal ulceration affects up to 4% when V1 is involved."
+        },
+        {
+          "type": "text",
+          "content": "**Glycerol rhizolysis** involves injection of anhydrous glycerol (0.1-0.4 mL) into the trigeminal cistern (Meckel's cave), where it selectively damages mielinaated axons. The procedure does not require intraoperative neurophysiological monitoring or patient cooperation and can be performed under sedation/local anaesthesia, making it suitable for elderly or medically high-risk patients. Initial pain-free rates are **60-80%** with recurrence at 5 years of approximately 50-60%, making long-term durability inferior to RFT and MVD. Risk of anaesthesia dolorosa is lower than RFT (approximately 0.3%). **Aseptic meningitis** is the most specific complication (2-3%) due to glycerol's chemical irritant properties.\n\n**Balloon compression (Mullan technique)** uses a Fogarty catheter inflated to compress the Gasserian ganglion against the petrous dura for 60-90 seconds, selectively damaging large mielinaated A-beta fibres. The procedure is performed under general anaesthesia and requires no patient cooperation during the procedure. Initial pain-free rates are **80-90%**. The major advantage is **reliable V1 sparing** (V1 large-fibre compression without corneal anaesthesia risk); the major specific complication is **masseter weakness** (jaw weakness due to motor fibre damage in V3) occurring in up to 30% at 1 month but resolving in most patients within 6 months. This technique is particularly favoured for V1-predominant TN where other percutaneous procedures risk corneal anaesthesia."
+        },
+        {
+          "type": "table",
+          "title": "Comparison of Técnicas de Rizotomía Percutánea",
+          "headers": [
+            "Technique",
+            "Mecanismo",
+            "Initial Pain-Free Rate",
+            "5-Year Recurrence",
+            "Key Complicación",
+            "Best Indicación"
+          ],
+          "rows": [
+            [
+              "RF Thermocoagulation",
+              "Seleccionarive heat ablation (A-delta/C fibres)",
+              "90-95%",
+              "~50%",
+              "Anaesthesia dolorosa 1-4%; corneal anaesthesia 4%",
+              "Seleccionarive V2/V3 TN; tolerable sensory loss"
+            ],
+            [
+              "Glycerol Rhizolysis",
+              "Chemical mielinaopathy in Meckel's cave",
+              "60-80%",
+              "50-60%",
+              "Aseptic meningitis 2-3%; lower anaesthesia dolorosa",
+              "Elderly/medically frail; no cooperation needed"
+            ],
+            [
+              "Balloon Compression",
+              "Mechanical large-fibre compression",
+              "80-90%",
+              "45-55%",
+              "Masseter weakness 30% (transient)",
+              "V1-distribution TN; safe corneal preservation"
+            ],
+            [
+              "All percutaneous",
+              "Variable",
+              "Variable",
+              "Higher than MVD",
+              "Sensory loss 30-50%",
+              "High surgical risk; recurrent after MVD; elderly"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Anaesthesia Dolorosa Risk",
+          "content": "Anaesthesia dolorosa — constant burning pain in a numb face — is the most feared complication of percutaneous rhizotomy, particularly RFT. It is essentially untreatable and can be more disabling than the original TN. Risk increases with repeated procedures and with aggressive denervación. This complication is the primary argument for preferring MVD (which does not cause intentional sensory loss) in young, surgically fit patients with classical TN."
+        }
+      ]
+    },
+    {
+      "id": "D4-S5",
+      "title": "Microvascular Decompression",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Microvascular decompression (MVD)**, the **Jannetta procedure**, is the only surgical treatment for TN that directly addresses the pathological mechanism — vascular compression at the trigeminal REZ. It is the treatment of choice for young (<70 years), surgically fit patients with classical TN and MRI-confirmed NVC, offering the **highest long-term pain-free rates and lowest recurrence of any procedure**. The procedure was systematically developed by Peter Jannetta at Pittsburgh from the 1960s onwards, building on Walter Dandy's original observation that vascular loops were in contact with the trigeminal nerve in TN patients.\n\n**Surgical anatomy:** The trigeminal nerve (CN V) emerges from the anterolateral pons at the level of the middle cerebeloso peduncle. The REZ — the critical demielinización site — is located 2-4 mm from the tronco encefálico surface. The **superior cerebeloso artery (SCA)** is the offending vessel in approximately 75% of MVD cases, the AICA in 10-15%, and venous structures (petrosal veins, bridging veins) or the vertebral artery in the remainder. Multiple vessels may be responsible. Venous compression alone se asocia con lower MVD success rates.\n\n**Operative technique:** Retrosigmoid craneotomía under general anaesthesia (approximately 2-3 cm colgajo óseo behind the sigmoid sinus), intradural approach with drenaje de LCR from the cerebellopontino cistern for brain relaxation, microscope-assisted exposure of CN V from the REZ to the porus trigeminus, identification and mobilisation of the offending vessel, and placement of **shredded Teflon felt** (PTFE) pledgets between the vessel and the nerve root to maintain decompression without adhesion. The key technical principle is that the Teflon must not simply push the vessel aside temporarily — it must be firmly interposed to prevent re-contact."
+        },
+        {
+          "type": "text",
+          "content": "**Resultados of MVD** are the best of any TN procedure. In Jannetta's landmark series (1990) and subsequent systematic reviews: **initial complete pain relief without medication occurs in 85-90%** of patients; at 5 years, approximately **70-75%** remain pain-free; at 10 years, **65-70%**. These figures are superior to all percutaneous procedures. Crucially, MVD **preserves trigeminal sensation** — this is its major advantage over ablative procedures, particularly in young patients who would otherwise require repeat procedures with cumulative sensory morbidity.\n\n**Predictors of MVD success:** (1) Classical TN (not atypical/concomitant pain); (2) MRI-confirmed NVC with morphological nerve changes; (3) complete pain relief with carbamazepine in the past; (4) arterial (not venous) compression; (5) V2/V3 distribution rather than V1. **Predictors of failure:** absence of CNV en RM, prior percutaneous procedures, venous compression, concomitant persistent pain component.\n\n**Operative complications:** Overall serious complication rate is low in experienced centres. **Facial numbness** occurs in 10-15% (from nerve manipulation — usually transient). **Cerebellar retraction injury** is rare (<1%) with modern techniques that minimise retraction. **CN VII/VIII injury** (proximity of the facial and vestibulocochlear nerves in the CPA): facial palsy < 1%, hearing loss 2-3%. **fístula de LCR** 1-2%. **Meningitis** (bacterial or aseptic) 0.5-1%. **Mortality** in experienced centres < 0.5%."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — MVD vs Percutaneous Procedures: Shared Decision-Making",
+          "content": "The choice between MVD and percutaneous rhizotomy depends primarily on patient age, surgical fitness, and preference. MVD offers the best long-term durability and preserves sensation — ideal for patients under 65-70 years who are fit for general anaesthesia and value long-term pain freedom without sensory loss. Percutaneous procedures offer effective shorter-term relief with lower immediate surgical risk — appropriate for elderly patients, those with significant comorbidity, those who have failed or declined MVD, or patients with MS-related TN (where the MS plaque rather than NVC is the primary driver, limiting MVD efficacy to approximately 50%)."
+        },
+        {
+          "type": "table",
+          "title": "MVD vs Percutaneous Rhizotomy vs Gamma Knife: Resultado Comparison",
+          "headers": [
+            "Modality",
+            "Initial Pain-Free",
+            "5-Year Pain-Free",
+            "Pérdida Sensitiva",
+            "Anaesthesia Dolorosa",
+            "Best Candidate"
+          ],
+          "rows": [
+            [
+              "MVD",
+              "85-90%",
+              "70-75%",
+              "<5% (transient)",
+              "<0.1%",
+              "Young, fit, classical TN + CNV en RM"
+            ],
+            [
+              "RF Thermocoagulation",
+              "90-95%",
+              "~50%",
+              "30-50% intended",
+              "1-4%",
+              "Rapid relief needed; V2/V3"
+            ],
+            [
+              "Balloon Compression",
+              "80-90%",
+              "~50%",
+              "30-50%",
+              "<0.5%",
+              "V1 distribution; cannot cooperate"
+            ],
+            [
+              "Glycerol Rhizolysis",
+              "60-80%",
+              "~45%",
+              "30-40%",
+              "<0.3%",
+              "Elderly/frail; anticoagulated"
+            ],
+            [
+              "Gamma Knife SRS",
+              "70-90%",
+              "50-55% (3yr)",
+              "10-20% (delayed)",
+              "<0.1%",
+              "Cannot tolerate GA; anticoagulated; recurrent"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D4-S6",
+      "title": "Gamma Knife Stereotactic Radiosurgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Gamma Knife estereotáctico radiosurgery (GKRS)** delivers a precisely focused single fraction of ionising radiation to the trigeminal nerve root entry zone without requiring general anaesthesia or incision. The procedure uses **201 cobalt-60 sources** (or fewer in modern units) collimated to a single isocenter. For TN, the **target is the proximal trigeminal nerve root/REZ**, typically 3-6 mm anterior to the entry into the pons, using a **4 mm collimator** (smallest available) to maximise dose gradient and minimise tronco encefálico exposure. The **prescribed dose is 70-90 Gy to the 100% isodose line** (maximum dose = prescribed dose at this isocenter), with the tronco encefálico surface dose maintained below 15-20 Gy.\n\nThe mechanism of GKRS in TN is not fully characterised but is presumed to involve radiation-induced focal axonal damage disrupting ectopic discharge, with a secondary effect of reducing CSF pulsatility effects on the demielinaated zone. A critical feature of GKRS is the **treatment latency** — the median time to pain relief is **4-6 weeks** (range 1-6 months), distinguishing it from all other TN procedures which provide more immediate relief. This latency makes GKRS inappropriate for patients in acute pain crisis.\n\n**Efficacy:** Initial pain freedom rates of **70-90%** are reported in large series (Kondziolka et al., Flickinger et al., multiple prospective series). Sin embargo, durability is limited: at 3 years approximately **50-60%** remain pain-free; at 5 years **40-50%**. Recurrence rates are higher than MVD but comparable to percutaneous procedures. Repeat GKRS is possible for recurrence with **similar but slightly lower** efficacy and higher risk of sensory loss."
+        },
+        {
+          "type": "text",
+          "content": "**Complicacións of GKRS** are dose-dependent and delayed. **Facial numbness** develops in approximately **10-25%** of patients, with onset typically at 6-18 months post-treatment; it is usually mild-to-moderate and may be permanent. The rate of sensory loss correlates directly with dose — higher doses (90 Gy) achieve better pain control but produce more numbness. **Anaesthesia dolorosa** following GKRS is rare (<1%) but reported. **Brainstem injury** is very rare (<0.5%) when standard target selection and dosimetry are followed. Unlike MVD or percutaneous procedures, GKRS has no risk of vascular, CSF, or infection complications.\n\n**Indicacións for GKRS:** (1) patients who cannot tolerate general anaesthesia (cardiac, pulmonary, or other significant comorbidity); (2) patients on anticoagulation where percutaneous procedures carry haematoma risk; (3) patients who decline invasive procedures; (4) recurrent TN after MVD or percutaneous rhizotomy who wish to avoid repeated surgery; (5) elderly patients who are mobile but have multiple medical comorbidities. GKRS is **less effective for secondary TN** (MS-related) than for classical TN. A comparative study by Régis et al. (NEJM letters, Neurosurgery 2006) suggested that MVD achieves superior initial and long-term pain control compared to GKRS but with greater surgical risk — confirming that modality selection should be individualised."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Treating TN in Crisis with GKRS",
+          "content": "GKRS has a treatment latency of 4-6 weeks and is therefore contraindicated as emergency or urgent treatment for patients in acute TN crisis who cannot eat or drink. These patients require urgent percutaneous rhizotomy (immediate relief) or parenteral analgesic support bridging to a faster definitive procedure. GKRS should only be offered when the latency is acceptable to the patient."
+        }
+      ]
+    },
+    {
+      "id": "D4-S7",
+      "title": "Hemifacial Spasm",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Hemifacial spasm (HFS)** is characterised by involuntary, unilateral, irregular clonic or tonic contractions of muscles innervated by the facial nerve (CN VII). It begins typically in the orbicularis oculi (periorbital twitching) and progressively involves the entire hemiface, including the platysma in severe cases. Unlike TN (pain), HFS causes **painless involuntary facial movement** that is embarrassing and functionally disabling. HFS affects women slightly more than men; onset is in the 4th-5th decade; it is almost always **unilateral** (bilateral HFS should prompt investigation for tronco encefálico pathology).\n\nThe pathophysiology mirrors that of TN: **vascular compression of the facial nerve at its root exit zone (REZ)** causes focal demielinización and ectopic discharge with ephaptic cross-excitation between facial nerve fibres. The offending vessel in HFS is most commonly the **posterior inferior cerebeloso artery (PICA)** or the AICA (together accounting for 75%), vertebral artery, or a combination. The compressive point is the cisternal segment of CN VII at the lateral aspect of the pons — slightly more posterior and inferior than the TN REZ.\n\nDiagnosis is clinical supported by **MRI with CISS/FIESTA** to confirm NVC and exclude secondary causes (CPA tumour, tronco encefálico cavernoma, multiple sclerosis). **Electrophysiological confirmation** using the **lateral spread response (LSR)** — an abnormal response recorded from orbicularis oris when stimulating the zygomatic branch — is pathognomonic for HFS and absent in other facial movement disorders. The LSR reflects ephaptic axonal cross-excitation."
+        },
+        {
+          "type": "text",
+          "content": "**Treatment of HFS** parallels the TN paradigm. **Botulinum toxin A (BTX-A)** injection into affected facial muscles is the **first-line treatment** and provides effective symptomatic relief in 85-95% of patients. BTX-A acts presynaptically to block acetylcholine vesicle release at the neuromuscular junction. Injections are required every **3-4 months** as the effect wanes with neuromuscular junction regeneration. While not curative, BTX-A provides excellent quality-of-life improvement with a favourable safety profile; main risks are temporary ptosis, asymmetric smile, or facial weakness from spread.\n\n**MVD is curative** for HFS and está indicado cuando BTX-A provides inadequate relief, when the patient prefers a curative procedure, or when repeated injections become burdensome. The surgical technique is identical in principle to TN MVD: retrosigmoideo craneotomía, CPA exposure, identification of the offending vessel compressing CN VII REZ, and Teflon interposition. The **lateral spread response (LSR) monitored intraoperatively** is used as a real-time endpoint — disappearance of the LSR after decompression confirms adequate decompression and predicts excellent outcome. Resultados: **84-98% resolution of HFS** at 1 year in experienced series; long-term success at 10 years approximately 85%. The specific risks of HFS MVD include **permanent hearing loss 1-3%** (CN VIII proximity), facial paresis 0.5-2%, and fístula de LCR 1-2%.\n\n**Medical therapy** with oral carbamazepine, clonazepam, or gabapentin provides partial relief in a minority of patients and is generally inadequate as sole treatment."
+        },
+        {
+          "type": "table",
+          "title": "Comparison: Trigeminal Neuralgia vs Hemifacial Spasm",
+          "headers": [
+            "Característica",
+            "Trigeminal Neuralgia",
+            "Hemifacial Spasm"
+          ],
+          "rows": [
+            [
+              "Main symptom",
+              "Severe paroxysmal facial pain",
+              "Involuntary facial twitching/spasm"
+            ],
+            [
+              "Nerve involved",
+              "CN V (trigeminal)",
+              "CN VII (facial)"
+            ],
+            [
+              "Offending vessel (most common)",
+              "Superior cerebeloso artery (75%)",
+              "PICA or AICA (75%)"
+            ],
+            [
+              "REZ location",
+              "Anterolateral pons",
+              "Lateral/posterior pons"
+            ],
+            [
+              "Electrophysiology",
+              "Abnormal blink reflex (rare)",
+              "Lateral spread response (pathognomonic)"
+            ],
+            [
+              "First-line medical Rx",
+              "Carbamazepine",
+              "Botulinum toxin A (BTX-A)"
+            ],
+            [
+              "Definitive surgical Rx",
+              "MVD (Jannetta); percutaneous rhizotomy",
+              "MVD (curative)"
+            ],
+            [
+              "Intraoperative monitoring",
+              "Not established",
+              "LSR monitoring predicts outcome"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Lateral Spread Respuesta in HFS MVD",
+          "content": "Intraoperative monitoring of the lateral spread response (LSR) during MVD for hemifacial spasm es el estándar de referencia for confirming adequate decompression. If the LSR disappears after Teflon placement, surgical success rate approaches 98%. Persistent LSR at closure predicts a significantly higher recurrence rate. This is the primary reason LSR monitoring se recomienda for all HFS MVD procedures — it guides the surgeon's decision to achieve complete decompression."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre trigeminal neuralgia and hemifacial spasm with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "D4-Q1",
+        "stem": "A 62-year-old woman presents with a 6-month history of lancinating right-sided facial pain lasting 2-3 seconds, precipitated by eating and tooth-brushing, in the distribution of V2 and V3. She is pain-free between attacks. Neurological examination is normal. Which classification best describes her condition according to ICHD-3?",
+        "options": {
+          "A": "Secondary trigeminal neuralgia",
+          "B": "Classical trigeminal neuralgia",
+          "C": "Trigeminal neuralgia with concomitant persistent pain",
+          "D": "Idiopathic trigeminal neuralgia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Classical TN (ICHD-3) requires: (1) paroxysmal unilateral pain in trigeminal distribution, (2) triggered by innocuous stimuli, (3) evidence of neurovascular contact with morphological changes on MRI. This clinical picture — V2/V3 distribution, electric/lancinating quality, brief duration, innocuous triggers, pain-free intervals, and normal examination — is typical of classical TN. MRI would be required to confirm NVC with morphological changes (nerve atrophy/displacement). The absence of any secondary cause differentiates it from secondary TN.",
+          "wrong": {
+            "A": "Secondary TN requires an identified underlying neurological disease (MS, CPA tumour, AVM). Este paciente has normal examination and no features suggesting an underlying cause.",
+            "C": "TN with concomitant persistent pain requires a continuous background ache between paroxysmal attacks. Este paciente is completely pain-free between attacks, excluding this subtype.",
+            "D": "Idiopathic TN is a diagnosis of exclusion when no NVC is found on MRI and no secondary cause is identified. MRI has not yet been performed and this should not be assumed."
+          },
+          "guideline": "ICHD-3 (IHS 2018) — Criteria 13.1.1 Classical TN: recurrent paroxysmal attacks + NVC with morphological trigeminal nerve changes on MRI",
+          "trial": "Zakrzewska JM & Linskey ME. Trigeminal neuralgia. BMJ 2014;348:g474: classical TN accounts for ~85% of cases; SCA involved in 75%",
+          "pearl": "ICHD-3 requires morphological nerve changes on MRI (not just NVC contact) to diagnose classical TN. NVC alone without nerve changes may be incidental — present in 30-50% of asymptomatic individuals."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D4-Q2",
+        "stem": "A 34-year-old man presents with bilateral trigeminal neuralgia. He reports intermittent visual blurring over 2 years and was told his MRI showed white matter lesions. Which is the most likely underlying diagnosis explaining his TN?",
+        "options": {
+          "A": "Familial hemiplegic migraine",
+          "B": "Multiple sclerosis",
+          "C": "Bilateral meningiomas compressing CN V",
+          "D": "Neurofibromatosis type 2"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bilateral trigeminal neuralgia in a young patient is nearly pathognomonic for multiple sclerosis. MS causes TN through demyelinating plaques at the trigeminal REZ, replicating the ephaptic cross-excitation mechanism seen in vascular compression but without NVC. MS accounts for 2-4% of all TN cases, but bilateral TN is the key distinguishing feature. The history of visual blurring and white matter lesions on MRI strongly supports MS. MRI with gadolinium should characterise the plaques and assess for active disease.",
+          "wrong": {
+            "A": "Familial hemiplegic migraine causes aura with motor features but does not cause bilateral facial neuralgia.",
+            "C": "Bilateral meningiomas would be a very rare and extraordinary finding. NF2 would be a more plausible neoplastic cause of bilateral CN involvement.",
+            "D": "NF2 causes bilateral acoustic neuromas (vestibular schwannomas) and can cause facial nerve involvement, but is not the primary cause of bilateral trigeminal neuralgia."
+          },
+          "guideline": "ICHD-3 (IHS 2018) — 13.1.2 Secondary TN: MS as the most common cause; bilateral TN nearly pathognomonic for MS",
+          "trial": "Brisman R. Trigeminal neuralgia and multiple sclerosis. Arch Neurol 1987;44(4):379-381: bilateral TN in MS reported in up to 30% of MS-related TN cases vs <1% of classical TN",
+          "pearl": "Bilateral trigeminal neuralgia in a young patient (<45 years) is essentially diagnostic of MS until proven otherwise. Always screen with MRI brain with gadolinium and consider neurological review. MVD is less effective for MS-related TN (~50% success) because the MS plaque, not vascular compression, is the primary aetiological factor."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D4-Q3",
+        "stem": "Una mujer de 58 años with classical TN is prescribed carbamazepine 400 mg BD with good initial pain control. After 3 months she returns with recurrent breakthrough pain. Her serum sodium is 127 mmol/L. Which mechanism explains this adverse effect?",
+        "options": {
+          "A": "Adrenal insufficiency from CBZ-induced enzyme induction",
+          "B": "Síndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+          "C": "Renal tubular acidosis",
+          "D": "Nephrogenic diabetes insipidus"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Carbamazepine causes hyponatraemia through a syndrome of inappropriate antidiuretic hormone secretion (SIADH) — it enhances renal response to ADH at the collecting duct, increasing water reabsorption and causing dilutional hyponatraemia. This occurs in up to 20% of patients taking CBZ, is more common in elderly patients and those on higher doses, and may be clinically significant (Na+ <130 mmol/L). Management includes fluid restriction, dose reduction, or switching to oxcarbazepine — though OXC paradoxically causes even more frequent hyponatraemia (up to 30%). Electrolytes should be monitored at baseline, 2 weeks, and every 6 months.",
+          "wrong": {
+            "A": "CBZ is a CYP3A4 inducer but does not cause adrenal insufficiency. Enzyme induction can reduce efficacy of co-administered drugs but does not explain hyponatraemia.",
+            "C": "Renal tubular acidosis causes hyperchloraemic metabolic acidosis, not isolated hyponatraemia.",
+            "D": "Nephrogenic diabetes insipidus causes hypernatraemia from inability to concentrate urine, opposite to the clinical picture here."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — monitoring recommendations: electrolytes at baseline and periodically during CBZ therapy",
+          "trial": "Dong X et al. Risk of hyponatraemia with antiepileptic drugs: a systematic review. CNS Drugs 2005;19(11):933-44: CBZ hyponatraemia in 4.8-40% of patients; OXC higher risk",
+          "pearl": "Both carbamazepine and oxcarbazepine cause SIADH-mediated hyponatraemia — carbamazepine in ~20%, oxcarbazepine in ~30%. Electrolytes must be monitored. Tener en cuenta que switching from CBZ to OXC for better tolerability does NOT eliminate hyponatraemia risk — it may increase it."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q4",
+        "stem": "A 72-year-old Chinese man from Hong Kong with newly diagnosed classical TN is about to start carbamazepine. His GP asks what additional test is mandatory before prescribing. ¿Cuál es el correcto answer?",
+        "options": {
+          "A": "Glucose-6-phosphate dehydrogenase (G6PD) testing",
+          "B": "HLA-B*1502 allele testing",
+          "C": "HLA-B*5701 allele testing",
+          "D": "TPMT enzyme activity measurement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "HLA-B*1502 allele testing is mandatory before starting carbamazepine in patients of Han Chinese, Thai, or Southeast Asian descent. The HLA-B*1502 allele is present in up to 8% of Han Chinese individuals (vs <0.01% in Europeans) and confers a dramatically elevated risk of Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN) — a life-threatening mucocutaneous reaction. The FDA issued a Black Box Warning in 2007 and the European Medicines Agency endorses testing in these populations. If HLA-B*1502 positive, carbamazepine should be avoided and an alternative (oxcarbazepine, lacosamide, surgical) considered. Oxcarbazepine also has lower but non-negligible SJS risk with HLA-B*1502.",
+          "wrong": {
+            "A": "G6PD testing is relevant for drugs causing haemolytic anaemia in G6PD deficiency (primaquine, dapsone, nitrofurantoin) — not carbamazepine.",
+            "C": "HLA-B*5701 testing is required before prescribing abacavir (antiretroviral) to screen for hypersensitivity syndrome — not relevant to carbamazepine.",
+            "D": "TPMT enzyme activity is measured before prescribing azathioprine or 6-mercaptopurine — not relevant to carbamazepine."
+          },
+          "guideline": "FDA Black Box Warning for Carbamazepine (2007): mandatory HLA-B*1502 testing before CBZ in Asian patients; EMA SmPC: testing recommended in Han Chinese, Thai, and Southeast Asian populations",
+          "trial": "Chung WH et al. Medical genetics: a marker for Stevens-Johnson syndrome. Nature 2004;428(6982):486: HLA-B*1502 strongly associated with CBZ-induced SJS in Han Chinese (OR 2504, P<0.001)",
+          "pearl": "HLA-B*1502 confers a >25-fold increased risk of CBZ-induced SJS/TEN in Han Chinese patients. Testing is not required in European or African patients (where HLA-B*1502 frequency is <0.01%). This is a pharmacogenomic question that appears frequently on boards."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q5",
+        "stem": "A 65-year-old woman with right-sided V2/V3 TN has failed carbamazepine (400 mg BD, limited by hyponatraemia) and oxcarbazepine (600 mg BD, limited by dizziness). Her MRI shows right SCA compression with trigeminal nerve atrophy at the REZ. She is otherwise fit and well. ¿Cuál es el más apropiado next management step?",
+        "options": {
+          "A": "Add lamotrigine 25 mg daily and titrate to 200 mg/day",
+          "B": "Refer for microvascular decompression",
+          "C": "Proceed to radiofrequency thermocoagulation",
+          "D": "Refer for Gamma Knife estereotáctico radiosurgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has drug-refractory classical TN with MRI-confirmed NVC (SCA compression with morphological trigeminal nerve changes), is surgically fit (65 years old, otherwise well), and has V2/V3 distribution — all predictors of excellent MVD outcome. MVD achieves 85-90% initial pain freedom, 70-75% at 5 years, and preserves trigeminal sensation — making it the optimal choice for a fit patient who has failed two sodium channel blockers. The AANS/CNS 2019 guidelines recommend MVD as the treatment of choice for surgical candidates with classical TN and MRI-confirmed NVC.",
+          "wrong": {
+            "A": "Adding a third sodium channel blocker (lamotrigine) in a patient who has already failed two (CBZ and OXC) due to adverse effects is unlikely to provide adequate relief without further tolerability issues. Surgical referral is the appropriate next step.",
+            "C": "RF thermocoagulation es apropiado for high-surgical-risk patients or elderly patients. A 65-year-old fit woman with confirmed NVC should be offered MVD first due to superior long-term durability and sensation preservation.",
+            "D": "GKRS has a 4-6 week latency, lower long-term durability (50-55% at 3 years), and 10-25% sensory loss rate. For a fit 65-year-old with confirmed NVC, MVD offers substantially better long-term outcomes."
+          },
+          "guideline": "AANS/CNS Guidelines on TN (J Neurosurg 2019;130): MVD recommended as primary surgical procedure for medically refractory classical TN with MRI-confirmed NVC in surgically fit patients",
+          "trial": "Barker FG et al. The long-term outcome of MVD for trigeminal neuralgia. NEJM 1996;334(17):1077-1083: pain freedom at 1 year 82%, at 10 years 68%; nerve preservation superior to ablative procedures",
+          "pearl": "MVD is the only procedure that addresses the underlying pathology of classical TN without intentional neural ablation. For surgically fit patients with MRI-confirmed NVC, MVD provides the best long-term pain-free rates (70-75% at 5 years) and should be the surgical first choice."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q6",
+        "stem": "A 78-year-old man with multiple medical comorbidities (COPD, atrial fibrilación on warfarin, moderate aortic stenosis) has medically refractory V3 TN. His cardiologist advises against general anaesthesia. Which percutaneous procedure has the LOWEST risk of anaesthesia dolorosa while providing effective pain relief?",
+        "options": {
+          "A": "Radiofrequency thermocoagulation at 75°C for 90 seconds",
+          "B": "Glycerol rhizolysis",
+          "C": "Balloon compression (Mullan technique)",
+          "D": "Repeat carbamazepine at maximum dose with haematology monitoring"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Glycerol rhizolysis has the lowest risk of anaesthesia dolorosa among percutaneous rhizotomy procedures, occurring in approximately 0.3% of cases compared to 1-4% for RF thermocoagulation and 0.5% for balloon compression. Although glycerol rhizolysis has a lower initial pain-free rate (60-80% vs 80-95% for RFT), it is appropriate for this high-risk patient who cannot tolerate general anaesthesia and is anticoagulated (warfarin — a relative contraindication for more invasive procedures, though percutaneous rhizotomy carries lower haemorrhagic risk than MVD). Additionally, the procedure requires no patient cooperation (unlike RFT which requires intermittent awakening for sensory testing).",
+          "wrong": {
+            "A": "RF thermocoagulation carries the highest anaesthesia dolorosa risk (1-4%) among percutaneous procedures and requires intermittent patient awakening for sensory testing — not always feasible in frail elderly patients.",
+            "C": "Balloon compression is performed under general anaesthesia (required for inflation-induced bradycardia monitoring) — contraindicated here given cardiac risk.",
+            "D": "Este paciente has failed medical management — additional escalation of CBZ is inappropriate, and in a 78-year-old with moderate aortic stenosis and AF on warfarin, the hyponatraemia risk of high-dose CBZ is significant."
+          },
+          "guideline": "AANS/CNS Guidelines on TN 2019 — percutaneous procedures: all three techniques are acceptable; procedure selection based on individual patient risk profile and surgeon expertise",
+          "trial": "Lopez BC et al. Systematic review of ablative neurosurgical techniques for the treatment of trigeminal neuralgia. Neurosurgery 2004;54(4):973-983: meta-analysis comparing RFT, glycerol, and balloon; anaesthesia dolorosa rates: RFT 2.0%, glycerol 0.3%, balloon 0.5%",
+          "pearl": "Among percutaneous procedures, glycerol rhizolysis has the lowest anaesthesia dolorosa risk (~0.3%) but also the lowest immediate pain-free rate (60-80%). RF thermocoagulation achieves the highest immediate pain control (90-95%) but highest anaesthesia dolorosa risk (1-4%). Anaesthesia dolorosa — constant pain in a numb face — is essentially untreatable and can be more disabling than TN itself."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q7",
+        "stem": "During microvascular decompression for trigeminal neuralgia, the surgeon identifies an AICA loop compressing the trigeminal nerve root at the REZ. After Teflon interposition, the monitoring team reports that the trigeminal evoked potentials have normalised. Sin embargo, 15 minutes later, the patient's heart rate drops from 75 to 38 bpm. What is the most likely cause?",
+        "options": {
+          "A": "Stretch injury to the vagus nerve",
+          "B": "Trigemino-cardiac reflex",
+          "C": "Air embolism",
+          "D": "Cerebellar retraction injury"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The trigemino-cardiac reflex (TCR) is a well-recognised intraoperative complication of CPA surgery involving manipulation of CN V, producing sudden severe bradycardia (and potentially cardiac arrest) via the afferent trigeminal nucleus → efferent dorsal motor vagal nucleus pathway. During MVD, particularly when probing the trigeminal nerve near the REZ or adjusting Teflon pledgets, bradycardia can occur. Management is immediate cessation of manipulation, intravenous atropine if persistent, and anaesthetic team notification. TCR is temporary and resolves when manipulation stops. Prevention: communication with the anaesthetic team before manipulation.",
+          "wrong": {
+            "A": "Vagus nerve stretch injury would require access to a completely different anatomical region (jugular foramen/neck). The retrosigmoideo approach for MVD does not directly involve CN X.",
+            "C": "Air embolism (venous) is a concern in sitting or semi-sitting position CPA surgery. It causes sudden decrease in ETCO2, haemodynamic instability, and a characteristic 'mill wheel' murmur — not an isolated bradycardia.",
+            "D": "Cerebellar retraction injury causes cerebrocortical or white matter ischaemic damage, presenting as delayed neurological deficits postoperatively — not acute intraoperative bradycardia."
+          },
+          "guideline": "European Association of Neurosurgical Societies (EANS) MVD Guidelines 2020 — intraoperative complications: trigemino-cardiac reflex requires pre-emptive anaesthetic preparation",
+          "trial": "Schaller B et al. The trigemino-cardiac reflex during surgery in the CPA. J Neurosurg 1999;90(2):215-220: TCR occurs in up to 18% of CPA operations involving CN V; characterised by >20% HR decrease from baseline",
+          "pearl": "The trigemino-cardiac reflex (TCR) es el más común acute intraoperative complication during MVD for TN. It manifests as sudden bradycardia during trigeminal nerve manipulation. Immediate cessation of manipulation is the primary treatment. Always brief the anaesthetic team before TN/CPA surgery."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D4-Q8",
+        "stem": "A 70-year-old woman undergoes successful MVD for right V2/V3 TN. She is pain-free at 1 year. At her 5-year follow-up she reports recurrence of her typical TN pain over the past 3 months, partially controlled on carbamazepine 400 mg BD. ¿Cuál es el más apropiado management?",
+        "options": {
+          "A": "Immediate repeat MVD as pain-free rate after re-exploration is equivalent to primary MVD",
+          "B": "Optimise medical management first; consider percutaneous rhizotomy or GKRS if refractory",
+          "C": "Proceed directly to Gamma Knife radiosurgery as medical management está contraindicado after MVD",
+          "D": "Bilateral MVD for comprehensive decompression"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Management of TN recurrence after MVD should begin with re-evaluation and medical management optimisation. Recurrence at 5 years occurs in 25-30% of MVD patients and often responds to reinitiation or dose adjustment of carbamazepine or oxcarbazepine. If medical management fails, both percutaneous rhizotomy and GKRS are appropriate — repeat MVD is an option but carries higher surgical risk (scarring, adhesions, cranial nerve proximity) and lower success rate (60-70% vs 85-90% for primary MVD). The AANS/CNS 2019 guidelines recommend individualised decision-making based on patient preference, MRI findings, and surgeon expertise.",
+          "wrong": {
+            "A": "Repeat MVD achieves 60-70% pain-free rate (lower than primary MVD at 85-90%) due to scarring and adhesions at the REZ. It is not equivalent to primary MVD and is not the automatic first choice after recurrence.",
+            "C": "Medical management is not contraindicated after MVD. Many patients with late recurrence respond well to pharmacological treatment that may have been ineffective before surgery when pain was severe.",
+            "D": "Bilateral MVD no está indicado for unilateral TN and would expose the patient to unnecessary bilateral CPA surgical risk."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — management of recurrent TN: re-evaluate medical therapy; percutaneous procedures and GKRS are appropriate second-line surgical options; repeat MVD for select patients",
+          "trial": "Barker FG et al. NEJM 1996;334:1077: cumulative TN recurrence 30% at 10 years; repeat MVD outcomes lower than primary; percutaneous procedures effective for post-MVD recurrence",
+          "pearl": "After MVD recurrence, the first step is to re-attempt medical management (not immediate reoperation). Percutaneous procedures (particularly GKRS, which avoids adhesion planes) are excellent second-line options. Repeat MVD is possible but more technically challenging with lower success rates than primary MVD."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q9",
+        "stem": "A 55-year-old man is diagnosed with right-sided classical TN affecting V1 (periorbital and forehead distribution). He fails carbamazepine. He is a surgical candidate. Which percutaneous procedure is MOST appropriate given the V1 distribution?",
+        "options": {
+          "A": "Radiofrequency thermocoagulation at high temperature",
+          "B": "Balloon compression",
+          "C": "Glycerol rhizolysis",
+          "D": "Microvascular decompression"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "For V1 TN in a surgically fit 55-year-old, MVD is the most appropriate surgical option. MVD is the only procedure that does not intentionally damage trigeminal fibres — crucial for V1 because any sensory loss risks corneal anaesthesia with potential neuropathic keratitis and corneal ulceration. Among percutaneous procedures, RF thermocoagulation carries 4% corneal anaesthesia risk for V1. Balloon compression has the best safety profile for V1 among percutaneous procedures (it tends to spare V1 corneal afferents due to selective large-fibre compression), but MVD preserves all sensation and provides superior long-term durability for a fit young-to-middle-aged patient.",
+          "wrong": {
+            "A": "High-temperature RFT in V1 distribution carries a 4% risk of corneal anaesthesia leading to neuropathic keratitis. In a 55-year-old otherwise fit patient, this risk is unacceptable when MVD is available.",
+            "B": "Balloon compression es el preferido percutaneous option for V1 TN if surgical risk precludes MVD, as it preferentially spares corneal afferents. Sin embargo, MVD remains the preferred first choice for a fit young patient.",
+            "C": "Glycerol rhizolysis is a non-selective procedure and can cause corneal anaesthesia in V1 TN, though with lower rates than RFT."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — V1 TN: MVD preferred for surgical candidates to avoid corneal sensory loss; balloon compression preferred percutaneous approach for V1 when MVD not possible",
+          "trial": "Tatli M et al. Various surgical modalities for trigeminal neuralgia: literature study. Acta Neurochir 2008;150(3):243-255: corneal anaesthesia rates: RFT 4%, balloon <1%, glycerol 1-2%, MVD <0.5%",
+          "pearl": "V1 trigeminal neuralgia carries the highest surgical stakes because any corneal sensory loss risks keratitis and corneal ulceration. MVD es el preferido option for fit patients with V1 TN. If percutaneous surgery is required, balloon compression is the safest percutaneous choice as it preferentially spares the smaller V1 corneal afferent fibres."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q10",
+        "stem": "Una mujer de 68 años presents with right-sided V2/V3 TN. Her carbamazepine is moderately effective but she reports a constant dull ache in her right cheek between the lancinating attacks. She has had this continuous pain for 2 years. This feature predicts which outcome for surgical treatment?",
+        "options": {
+          "A": "Significantly better outcomes with MVD compared to percutaneous procedures",
+          "B": "Significantly worse outcomes with all surgical modalities",
+          "C": "Same outcomes as classical TN without concomitant pain",
+          "D": "Better outcomes with GKRS than MVD due to lower invasiveness"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Concomitant persistent pain (a constant dull background ache between paroxysmal attacks — the ICHD-3 subtype 'TN with concomitant persistent pain') is a well-established predictor of worse surgical outcomes across all modalities. Systematic reviews show that patients with this feature have MVD pain-free rates of approximately 50-60% vs 85-90% for pure classical TN, and similar reductions in percutaneous procedure efficacy. The concomitant pain component likely reflects central sensitisation or a neuropathic component that is not addressed by decompression or peripheral ablation. Patients should be counselled that surgical outcomes are inferior before proceeding.",
+          "wrong": {
+            "A": "MVD does not selectively overcome the negative predictive impact of concomitant persistent pain. Resultados are worse with MVD for this subtype, not better than other procedures.",
+            "C": "Concomitant persistent pain is a well-validated negative prognostic factor that significantly worsens outcomes compared to pure classical TN with complete pain-free intervals.",
+            "D": "GKRS does not have selective advantages for concomitant persistent pain TN. Resultados are worse across all modalities in this subtype."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — predictors of surgical outcome: presence of concomitant persistent pain predicts worse outcomes; patient counselling essential",
+          "trial": "Sekula RF et al. Efficacy of MVD in patients with TN: a systematic review of the literature. J Neurosurg 2011;114(3):625-631: concomitant constant pain predicts significantly lower MVD success (OR 0.31, P<0.001)",
+          "pearl": "TN with concomitant persistent facial pain (constant background ache between attacks) carries a negative prognosis for all surgical treatments. This feature suggests central sensitisation beyond pure ectopic peripheral discharge. Pain-free rates for MVD drop to ~50-60% vs 85-90% for pure classical TN. Always identify and disclose this before surgical planning."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q11",
+        "stem": "A 63-year-old man has classical right-sided TN. High-resolution MRI (3D-CISS, TOF-MRA) shows no neurovascular contact on the right side but a small hyperintense T2 lesion adjacent to the right trigeminal REZ on FLAIR sequence. What es el más importante next diagnostic step?",
+        "options": {
+          "A": "Proceed to MVD regardless of MRI — MRI false-negative rate is 15%",
+          "B": "Gadolinium-enhanced MRI to evaluate the nature of the REZ lesion",
+          "C": "Lumbar puncture for CSF analysis",
+          "D": "Referral for immediate GKRS targeting the REZ"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The presence of a T2/FLAIR hyperintense lesion adjacent to the trigeminal REZ on MRI mandates gadolinium-enhanced sequences to characterise it. The differential diagnosis includes a demyelinating plaque (MS), cavernous malformation, small epidermoid, meningioma, or ependymoma. Gadolinium enhancement pattern and lesion characteristics will guide further workup (e.g., MS: ovoid periventricular lesions, JC virus risk; cavernoma: 'popcorn' blooming on T2*; meningioma: dural tail, intense homogeneous enhancement). This is a case of secondary TN until proven otherwise, and the treatment approach may differ fundamentally from classical TN.",
+          "wrong": {
+            "A": "While MRI has a 15% false-negative rate for NVC, this does not justify proceeding to MVD when an alternative lesion is present that requires characterisation. A T2 lesion at the REZ changes the differential diagnosis and MVD would be inappropriate for MS or a cavernoma.",
+            "C": "CSF analysis might ultimately be required if MS or leptomeningeal disease is suspected, but gadolinium MRI is the more targeted and appropriate immediate next step.",
+            "D": "GKRS should not be performed without complete characterisation of the target. Treating an undiagnosed REZ lesion with radiosurgery could be harmful (e.g., cavernoma expansion after radiation)."
+          },
+          "guideline": "ICHD-3 2018 — workup for secondary TN: gadolinium-enhanced MRI mandatory; EFNS/EAN 2019: T2 lesion at REZ requires full characterisation before any intervention",
+          "trial": "Haller S et al. Radiological findings in secondary trigeminal neuralgia. J Neurol Neurosurg Psychiatry 2008;79(6):665-669: FLAIR lesions at REZ represent MS plaques in majority of secondary TN cases; 60% had additional periventricular lesions",
+          "pearl": "Any structural lesion at the trigeminal REZ on MRI mandates gadolinium-enhanced sequences before surgical planning. MS plaques, cavernomas, and meningiomas at the REZ require completely different management from classical TN with vascular compression. Never proceed to MVD without gadolinium MRI when a lesion is present."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D4-Q12",
+        "stem": "A 66-year-old woman undergoes radiofrequency thermocoagulation for right V2/V3 TN. She achieves complete pain relief but 18 months later develops constant burning pain and hyperpathia in the right V2/V3 territory despite the area being numb to light touch. The area is highly sensitive to heat. What is this complication called?",
+        "options": {
+          "A": "Post-procedural dysaesthesia",
+          "B": "Anaesthesia dolorosa",
+          "C": "Allodynia from sensitisation",
+          "D": "Corneal anaesthesia neuropathy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Anaesthesia dolorosa is the specific term for constant pain occurring in an area of dense anaesthesia following trigeminal nerve ablation. It is the most feared complication of percutaneous rhizotomy procedures (risk: RFT 1-4%, balloon 0.5%, glycerol 0.3%) and represents deafferentation central sensitisation of the trigeminal nucleus caudalis. The paradox of severe pain in a numb area is the defining clinical feature. It is effectively untreatable — spinal cord stimulation, motor cortex stimulation, and oral medications all provide only partial relief. This complication is a primary argument for preferring MVD (which does not cause intentional deafferentation) in young patients.",
+          "wrong": {
+            "A": "Post-procedural dysaesthesia refers to unpleasant but not constant or severe abnormal sensations (numbness, tingling) following nerve ablation — a broader and milder term. Anaesthesia dolorosa specifically denotes constant pain in a numb territory.",
+            "C": "Allodynia from sensitisation would imply normal sensation in the area with pain from normally non-painful stimuli — but the defining feature here is anaesthesia (numbness) combined with pain.",
+            "D": "Corneal anaesthesia neuropathy affects the cornea specifically and manifests as reduced corneal reflex and risk of ulceration — this patient's presentation affects the V2/V3 territory, not specifically the cornea."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — anaesthesia dolorosa: most severe complication of ablative procedures; untreatable in most cases; risk must be disclosed in pre-procedure consent",
+          "trial": "Sweet WH. The treatment of trigeminal neuralgia (tic douloureux). NEJM 1986;315(3):174-177: anaesthesia dolorosa after percutaneous procedures — the most disabling iatrogenic outcome in facial pain surgery",
+          "pearl": "Anaesthesia dolorosa — constant burning pain in an anaesthetic territory — is the most feared complication of trigeminal ablative surgery. It occurs in 1-4% after RFT and is essentially untreatable. Risk increases with repeated procedures and aggressive denervación. This is why MVD (non-ablative) is preferred for young surgical candidates."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q13",
+        "stem": "A 50-year-old man presents with paroxysmal left periorbital stabbing pain lasting 10-30 seconds, triggered by light touch to the left nasolabial fold. He also reports left eye tearing and ptosis during attacks. Neurological examination is normal. Which diagnosis best fits this presentation?",
+        "options": {
+          "A": "Classical trigeminal neuralgia V1",
+          "B": "Short-lasting Unilateral Neuralgiform headache attacks with Conjunctival injection and Tearing (SUNCT)",
+          "C": "Cluster headache",
+          "D": "Hemicrania continua"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SUNCT (Short-lasting Unilateral Neuralgiform headache with Conjunctival injection and Tearing) presents with periorbital/orbital stabbing pain lasting 5-250 seconds with prominent ipsilateral autonomic features (conjunctival injection, lacrimation, ptosis, eyelid oedema, rhinorrhoea). The combination of very short attacks triggered by touch (similar to TN) with cranial autonomic features differentiates SUNCT from TN. Critically, SUNCT does NOT have a refractory period — repeated stimulation during the attack continues to provoke pain. Treatment is different from TN: lamotrigine is first-line for SUNCT; carbamazepine is generally ineffective.",
+          "wrong": {
+            "A": "Classical TN V1 causes periorbital pain but does NOT produce autonomic features (tearing, ptosis, conjunctival injection). The presence of autonomic activation mandates consideration of the trigeminal autonomic cephalalgias (TACs: SUNCT, SUNA, cluster headache, paroxysmal hemicrania).",
+            "C": "Cluster headache attacks last 15-180 minutes (much longer than this patient's 10-30 seconds) and are not triggered by light touch. Autonomic features overlap but duration and trigger pattern differ.",
+            "D": "Hemicrania continua is a continuous (not paroxysmal) unilateral headache with autonomic features, responsive to indomethacin. The paroxysmal character here excludes this diagnosis."
+          },
+          "guideline": "ICHD-3 2018 — Criteria 3.3 SUNCT: strictly unilateral orbital/periorbital/temporal pain + ≥1 ipsilateral autonomic feature + duration 1-600 seconds; no refractory period",
+          "trial": "Cohen AS et al. Trigeminal autonomic cephalalgias: current and future treatments. Lancet Neurol 2009;8(3):295-307: SUNCT distinguished from TN by autonomic features and absence of refractory period; lamotrigine effective in SUNCT",
+          "pearl": "The key differentiator between TN and SUNCT is the presence of ipsilateral cranial autonomic features (lacrimation, conjunctival injection, ptosis) and the ABSENCE of a refractory period in SUNCT. TN has a refractory period immediately after attacks; SUNCT does not. This distinction is clinically important because treatments differ (carbamazepine for TN, lamotrigine for SUNCT)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D4-Q14",
+        "stem": "For trigeminal neuralgia, high-resolution MRI using 3D-CISS sequences identifies neurovascular contact (NVC) in 85-90% of symptomatic patients. Sin embargo, CNV en RM is also found in what percentage of asymptomatic volunteers?",
+        "options": {
+          "A": "2-5%",
+          "B": "8-12%",
+          "C": "30-50%",
+          "D": "60-75%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Neurovascular contact without morphological trigeminal nerve changes is found in approximately 30-50% of asymptomatic individuals on high-resolution MRI. This is why ICHD-3 2018 requires both NVC AND morphological nerve changes (atrophy, displacement, indentation) to classify TN as 'classical' rather than 'idiopathic'. NVC alone without nerve morphological changes may be an incidental finding. The prevalence of NVC in asymptomatic individuals makes it impossible to use NVC alone as a diagnostic criterion — the nerve must show structural consequences of the compression.",
+          "wrong": {
+            "A": "2-5% would be too low — if NVC were rare in asymptomatic individuals it would be a more reliable diagnostic marker. The actual rate is much higher.",
+            "B": "8-12% is still too low to reflect the actual prevalence. The high rate of incidental NVC in normals is why morphological nerve changes are required for ICHD-3 classification.",
+            "D": "60-75% is an overestimate. While increasingly common with improving MRI resolution, NVC in asymptomatic adults is found in approximately 30-50% depending on the study and MRI protocol."
+          },
+          "guideline": "ICHD-3 2018 — requirement for morphological nerve changes in addition to NVC to classify as classical TN, specifically to account for high false-positive NVC rate in asymptomatic individuals",
+          "trial": "Haller S et al. Do brain MRI characteristics at presentation predict the long-term outcome after microvascular decompression. AJNR 2008;29(9):1698-1702: NVC in asymptomatic volunteers 35-50%; morphological changes more specific for symptomatic TN",
+          "pearl": "NVC alone on MRI is present in 30-50% of asymptomatic people and is NOT sufficient to diagnose classical TN. ICHD-3 requires NVC PLUS morphological changes in the trigeminal nerve (atrophy, displacement, or indentation on 3D-CISS/FIESTA). Always report both contact and nerve morphology when evaluating TN MRI."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q15",
+        "stem": "Gamma Knife radiosurgery (GKRS) is performed for classical TN. The radiation oncologist discusses dose selection. Which statement about the dose-effect relationship is most accurate?",
+        "options": {
+          "A": "70 Gy provides maximum pain control with minimal sensory loss risk",
+          "B": "Higher doses (80-90 Gy) achieve better pain control but at the cost of higher sensory deficit rates",
+          "C": "Doses above 80 Gy are associated with tronco encefálico injury in >10% of cases",
+          "D": "The recommended dose range for TN is 40-60 Gy to achieve maximum precision"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In Gamma Knife radiosurgery for TN, there is a well-established dose-response relationship: higher maximum doses (80-90 Gy to the 100% isodose line) achieve better pain-free rates but at the cost of higher rates of facial numbness/sensory loss. Kondziolka's large series (Neurosurgery 1996) and subsequent data established that 80-90 Gy achieves optimal pain control with acceptable brainstem safety when standard target selection is used. Doses below 70 Gy are associated with significantly lower pain-free rates. The sensory loss rate at 90 Gy is approximately 20-25%, compared to 10-15% at 70 Gy, creating a clinical trade-off that should be discussed with the patient.",
+          "wrong": {
+            "A": "70 Gy is at the low end of the effective range and achieves lower pain-free rates than 80-90 Gy. It does not represent the optimal dose for maximum pain control.",
+            "C": "Brainstem injury is very rare (<0.5%) with standard dosimetry even at 90 Gy when the 50% isodose constraint to the tronco encefálico surface (<15-20 Gy) is maintained.",
+            "D": "40-60 Gy es insuficiente for adequate TN treatment. The effective dose range for TN GKRS is 70-90 Gy to the 100% isodose line at the trigeminal nerve/REZ."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — GKRS: recommended maximum dose 70-90 Gy to trigeminal nerve/REZ; dose-response relationship established; tronco encefálico max dose <15-20 Gy",
+          "trial": "Kondziolka D et al. Stereotactic radiosurgery for trigeminal neuralgia: a multi-institutional study. J Neurosurg 1996;84(6):940-945: 80 Gy maximum dose at isocenter: 85% initial pain improvement; dose escalation to 90 Gy improved control rates with acceptable sensory morbidity",
+          "pearl": "GKRS for TN uses a dose range of 70-90 Gy to the 100% isodose (maximum dose) at the trigeminal nerve/REZ, with a 4 mm collimator. Higher doses improve pain control but increase sensory loss (20-25% at 90 Gy vs 10-15% at 70 Gy). The treatment latency is 4-6 weeks — GKRS cannot be used for urgent pain relief."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D4-Q16",
+        "stem": "A 52-year-old woman presents with left-sided involuntary facial twitching that began around her left eye 3 years ago and has now spread to involve the entire left hemiface, including the platysma, during severe spasms. She reports no pain. MRI shows left PICA contacting the facial nerve root exit zone. ¿Cuál es el más apropiado initial treatment?",
+        "options": {
+          "A": "Carbamazepine 400 mg BD",
+          "B": "Botulinum toxin A injections to affected facial muscles",
+          "C": "Microvascular decompression of CN VII",
+          "D": "Gamma Knife radiosurgery targeting the facial nerve REZ"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Botulinum toxin A (BTX-A) is the first-line treatment for hemifacial spasm (HFS), achieving symptomatic improvement in 85-95% of patients per injection cycle. Initial management of HFS begins with BTX-A injections (not surgery), as it provides safe and effective symptom control with an excellent safety profile. BTX-A acts by blocking acetylcholine release at the neuromuscular junction, reducing muscle contraction. Injections are required every 3-4 months. MVD is a curative option and is indicated when BTX-A is insufficiently effective, when the patient prefers definitive cure, or when repeated injections become burdensome — but it is not first-line management.",
+          "wrong": {
+            "A": "Carbamazepine is first-line for TN (neuropathic pain), not for hemifacial spasm (motor). Oral medications including CBZ provide only modest partial relief in a minority of HFS patients and are not considered first-line.",
+            "C": "MVD is curative for HFS but is not first-line — BTX-A should be tried first. MVD is reserved for BTX-A non-responders, treatment failures, or patient preference for definitive cure.",
+            "D": "GKRS targeting the facial nerve REZ is not an established treatment for HFS and risks facial nerve injury (palsy). There is no validated GKRS protocol for HFS."
+          },
+          "guideline": "EFNS/EAN Guidelines on Hemifacial Spasm 2011 — first-line treatment: botulinum toxin A; MVD for patients who fail BTX-A or prefer curative surgery",
+          "trial": "Defazio G et al. Therapeutic use of botulinum toxin in hemifacial spasm. Neurological Sciences 2009;30(S1):S165-167: systematic review: BTX-A effective in >90% of HFS patients; mean duration of benefit 3.4 months per injection cycle",
+          "pearl": "In hemifacial spasm, botulinum toxin A is the established first-line treatment — NOT carbamazepine (which is TN first-line). MVD is curative but is second-line after BTX-A failure or patient preference for definitive treatment. BTX-A requires repeated injections every 3-4 months."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D4-Q17",
+        "stem": "A 48-year-old woman undergoes MVD for left hemifacial spasm. Intraoperative neurophysiological monitoring is performed. Which monitoring parameter is the most useful real-time indicator of successful decompression of CN VII during this procedure?",
+        "options": {
+          "A": "Brainstem auditory evoked potentials (BAEPs) — wave V latency",
+          "B": "Lateral spread response (LSR) disappearance after Teflon placement",
+          "C": "Facial nerve free-running EMG amplitude",
+          "D": "Motor evoked potential amplitude from orbicularis oculi"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The lateral spread response (LSR) is the electrophysiological hallmark of hemifacial spasm. It is recorded by stimulating one branch of the facial nerve (e.g., zygomatic branch to orbicularis oculi) and recording the abnormal ephaptic response in a different branch (e.g., mandibular branch/mentalis). In HFS due to facial nerve REZ compression, this abnormal cross-excitation is pathognomonic. During MVD, intraoperative disappearance of the LSR after Teflon decompression confirms adequate surgical decompression and predicts excellent long-term outcome. LSR persistence at closure correlates with higher recurrence rates. This is the single most important intraoperative monitoring parameter for HFS MVD.",
+          "wrong": {
+            "A": "BAEPs monitor cochlear and auditory tronco encefálico function (CN VIII integrity) and are used to detect retrocochlear injury during CPA surgery — important for hearing preservation but not a real-time indicator of CN VII decompression adequacy.",
+            "C": "Free-running facial EMG detects mechanical irritation of CN VII (trains of activity predict impending nerve injury) but does not confirm decompression quality — it is a safety monitor, not a decompression endpoint.",
+            "D": "Motor evoked potentials (direct or transcraneal) from facial muscles are used for CN VII integrity monitoring but do not provide the LSR signal that confirms ephaptic cross-excitation elimination."
+          },
+          "guideline": "EANS Intraoperative Neurophysiological Monitoring Guidelines 2020 — HFS MVD: LSR monitoring as primary decompression endpoint; LSR disappearance predicts 95%+ surgical success rate",
+          "trial": "Sekula RF et al. Intraoperative electromiografía during MVD for hemifacial spasm. Neurosurg Focus 2009;27(4):E11: LSR disappearance after Teflon interposition predicts excellent outcome (97% HFS resolution vs 65% when LSR persists)",
+          "pearl": "The lateral spread response (LSR) is the intraoperative monitoring gold standard for HFS MVD. Disappearance of LSR after Teflon interposition predicts >95% surgical success. If LSR persists, the surgeon should re-explore for additional compressing vessels before closing. LSR monitoring should be standard in all HFS MVD procedures."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D4-Q18",
+        "stem": "A 45-year-old man with classical right-sided TN (V2/V3) undergoes MVD. Intraoperative findings show only a small petrosal vein touching (not compressing) the trigeminal nerve without morphological deformation. ¿Cuál es el más apropiado surgical action?",
+        "options": {
+          "A": "Coagulate and divide the vein and consider Teflon placement on the nerve",
+          "B": "Close without intervention — venous contact without deformation does not require treatment",
+          "C": "Abort the procedure and proceed to Gamma Knife radiosurgery",
+          "D": "Coagulate and divide the vein, then add RF thermocoagulation through the same incision"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Venous compression of the trigeminal nerve at the REZ accounts for approximately 10-15% of MVD cases. When a petrosal vein is identified in contact with the nerve, the standard surgical approach is coagulation and division of the vein (venous sacrifice is generally well-tolerated in this region given abundant collateral venous drainage) followed by Teflon interposition to pad the REZ. While venous-only compression is associated with lower MVD success rates (approximately 60-70% vs 85-90% for arterial compression), it should still be treated if identified, as leaving a compressing vein without treatment results in persistent TN. Teflon placement without venous decompression is inadequate.",
+          "wrong": {
+            "B": "A vein touching the nerve should not be ignored. Even without obvious morphological deformation, venous pulsatile contact can cause ectopic discharge. Leaving the vein in place without treatment results in lower surgical success rates.",
+            "C": "Abandoning an open MVD to pursue GKRS no es apropiado. GKRS for recurrent TN after MVD would be a future option only if this MVD fails — but the procedure should be completed with the available findings.",
+            "D": "Combining MVD with percutaneous RFT through the same incision is not a standard technique and would require a separate foramen ovale approach. This combination no está indicado."
+          },
+          "guideline": "AANS/CNS TN Guidelines 2019 — MVD technique: venous compression should be addressed with coagulation/division and Teflon interposition; venous-only compression associated with lower success rates — counsel patients accordingly",
+          "trial": "Barker FG et al. NEJM 1996 — subgroup analysis: venous compression at MVD associated with significantly higher recurrence (5-year pain-free 60% vs 75% arterial); venous sacrifice well-tolerated in CPA",
+          "pearl": "Venous-only compression at MVD se asocia con lower success rates (60-70% vs 85-90% for arterial). When a petrosal vein compresses the trigeminal REZ, standard practice is coagulation and division with Teflon placement. Inform patients preoperatively if MRI suggests venous compression — outcomes are inferior but surgery is still worthwhile."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D4-Q19",
+        "stem": "A 33-year-old woman presents with right V2 facial pain. She describes the pain as constant, dull, and burning, rated 6/10, present for 8 months. It worsens with stress but is not triggered by light touch. There is no refractory period and no identifiable trigger zone. Neurological examination is normal. MRI brain is normal. Which diagnosis is most appropriate?",
+        "options": {
+          "A": "Classical trigeminal neuralgia",
+          "B": "Persistent idiopathic facial pain (PIFP/atypical facial pain)",
+          "C": "Trigeminal neuropathic pain",
+          "D": "Secondary trigeminal neuralgia from MS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Persistent idiopathic facial pain (PIFP, formerly atypical facial pain) is characterised by: persistent (>2 hours/day for >3 months), unilateral facial pain that does not match anatomical trigeminal territory precisely, no identifiable cause on clinical examination or investigation, and often a strong psychosocial component (worsening with stress, associated depression/anxiety). The absence of paroxysmal quality, absence of trigger zones, absence of refractory period, constant character, and normal MRI exclude classical TN. PIFP is not a surgical condition — it is managed with tricyclic antidepressants (amitriptyline), SNRIs (duloxetine), psychological support, and pain clinic referral.",
+          "wrong": {
+            "A": "Classical TN requires paroxysmal pain (seconds), specific trigger zones, refractory period, and typically CNV en RM. Este paciente's constant dull burning pain without triggers excludes classical TN.",
+            "C": "Trigeminal neuropathic pain (TNP) is caused by injury or disease of the trigeminal nerve — it requires an identifiable cause such as dental procedure, herpes zoster, trauma, or MS plaque. Normal MRI and absence of identifiable injury exclude this.",
+            "D": "Secondary TN from MS would require MRI evidence of MS plaques and would more typically present as paroxysmal TN-type pain rather than constant burning pain."
+          },
+          "guideline": "ICHD-3 2018 — 13.12 Persistent idiopathic facial pain: pain not fulfilling other headache or facial pain criteria; must exclude all secondary causes; management: psychological and pharmacological (not surgical)",
+          "trial": "Forssell H et al. Persistent idiopathic facial pain — a pathophysiological perspective. J Oral Rehabil 2017;44(4):305-313: PIFP associated with central sensitisation; TCAs effective in ~50%; surgical procedures uniformly ineffective",
+          "pearl": "Persistent idiopathic facial pain (PIFP/atypical facial pain) is a critical 'not for surgery' diagnosis. Patients with constant facial pain that lacks paroxysmal quality, trigger zones, and refractory period should not undergo trigeminal surgery — surgical procedures are uniformly ineffective and can worsen outcomes by adding deafferentation. Refer to pain clinic and psychology."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D4-Q20",
+        "stem": "A 60-year-old man with right classical TN is scheduled for MVD. Pre-operative MRI shows the right SCA compressing the trigeminal nerve at the REZ with clear nerve atrophy. The neurosurgeon plans a right retrosigmoideo craneotomía. Which anatomical landmark defines the posterior border of the colgajo óseo for this approach?",
+        "options": {
+          "A": "Posterior edge of the mastoid process (mastoid notch)",
+          "B": "Posterior limb of the sigmoid sinus",
+          "C": "Transverse-sigmoid junction (asterion)",
+          "D": "Posterior inferior margin of the occipital condyle"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The retrosigmoid craniotomy for CPA surgery (MVD, acoustic neuroma) is bounded anteriorly and laterally by the sigmoid sinus. The posterior border of the craniotomy flap is the posterior limb of the sigmoid sinus itself — the bone flap sits directly posterior to and abuts the sigmoid sinus, allowing lateral access to the CPA without crossing the sinus. The craniotomy centre is typically 1-2 cm posterior to the sigmoid sinus and 1-2 cm inferior to the transverse sinus (transverse-sigmoid junction). The sigmoid sinus is the critical landmark that must be avoided to prevent air embolism and venous haemorrhage.",
+          "wrong": {
+            "A": "The mastoid notch is the posterior edge of the mastoid process and is used as a landmark for the retromastoid incision, but it is not the bony border of the craneotomía flap itself.",
+            "C": "The asterion (transverse-sigmoid junction) is an important surface landmark identifying the superior posterior boundary of the approach, but the posterior border of the colgajo óseo is specifically the sigmoid sinus.",
+            "D": "The occipital condyle is relevant to far-lateral craneotomía approaches to the foramen magnum, not to the standard retrosigmoideo craneotomía for MVD."
+          },
+          "guideline": "EANS Skull Base and CPA Surgery Guidelines 2022 — retrosigmoideo craneotomía: bony landmarks; sigmoid sinus defines anterior-lateral border; craneotomía 2-3 cm posterior to sigmoid",
+          "trial": "McLaughlin MR et al. Microvascular decompression of cranial nerves: lessons learned after 4400 operations. J Neurosurg 1999;90(1):1-8: retrosigmoideo approach standard for MVD; sigmoid sinus the critical anterior landmark; sinus injury the most common immediate vascular complication",
+          "pearl": "In the retrosigmoideo craneotomía for MVD, the sigmoid sinus defines the anterior-lateral border of the colgajo óseo. The surgeon works through the space posterior to the sigmoid sinus to access the CPA. Unintended entry into the sigmoid sinus is the most feared immediate vascular complication and requires immediate packing and Surgicel compression."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

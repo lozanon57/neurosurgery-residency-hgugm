@@ -1,0 +1,656 @@
+{
+  "id": "E1",
+  "title": "Skull Base Surgery: Meningiomas and Anterior Fossa Tumours",
+  "subtitle": "Block E — Skull Base and Peripheral Neurosurgery",
+  "block": "E",
+  "block_name": "Skull Base and Peripheral Neurosurgery",
+  "level": "R3-5",
+  "reading_time_min": 45,
+  "guidelines_version": "EANS 2022 · EANO 2021 · CNS 2019",
+  "textbook_refs": [
+    "Al-Mefty O. Meningiomas. Raven Press (1991) — landmark reference",
+    "Sekhar LN & Fessler RG. Atlas of Neurosurgical Techniques: Brain. Thieme (2016)",
+    "Sughrue ME & Kane AJ. Skull Base Surgery. Thieme (2015)",
+    "Rogers L et al. Meningiomas: WHO 2021 classification and treatment. J Neurooncol 2022",
+    "Louis DN et al. 2021 WHO Classification of Tumours of the CNS. Acta Neuropathol 2021;141(4):449-519"
+  ],
+  "learning_objectives": [
+    "Apply the WHO 2021 CNS tumour classification to meningiomas, identifying grade I, II, and III histological criteria and molecular markers",
+    "Describe Simpson grading for meningioma resection and its relationship to recurrence risk",
+    "Identify the key surgical approaches for anterior cranial fossa, sphenoid wing, and cavernous sinus meningiomas with their neurovascular risks",
+    "Outline indications for adjuvant radiotherapy following meningioma resection based on grade and Simpson grade",
+    "Compare stereotactic radiosurgery and fractionated radiotherapy for skull base meningiomas based on tumour location and proximity to critical structures",
+    "Describe the clinical presentation and surgical anatomy relevant to olfactory groove, tuberculum sellae, and sphenoid wing meningiomas",
+    "Identify the molecular prognostic markers in meningioma relevant to recurrence prediction"
+  ],
+  "sections": [
+    {
+      "id": "E1-S1",
+      "title": "Classification and Molecular Biology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Meningiomas** are the most common primary intracranial tumours, accounting for approximately **37% of all primary brain tumours** and 53% of non-malignant CNS tumours in the United States (CBTRUS data). The annual incidence is 8.3 per 100,000 population with a marked female predominance (ratio 2.3:1 overall; 3.5:1 for spinal meningiomas). They arise from **arachnoid cap cells** (meningothelial cells) of the arachnoid villi and are therefore extra-axial tumours that displace rather than invade brain parenchyma in most cases.\n\nThe **WHO 2021 Classification of CNS Tumours** introduced significant changes to meningioma grading. The three grades are defined by histological criteria and, for the first time, molecular markers. **WHO Grade 1** (benign): mitotic activity < 4 per 10 HPF; meningothelial, fibrous, transitional, psammomatous, angiomatous, microcystic, secretory, lymphoplasmacyte-rich, and metaplastic subtypes. **WHO Grade 2** (atypical): 4-19 mitoses per 10 HPF OR at least three of five features (hypercellularity, small cells with high N:C ratio, large/prominent nucleoli, patternless growth, spontaneous necrosis) OR brain invasion. WHO 2021 adds: CDKN2A/B homozygous deletion (regardless of histology) OR TERT promoter mutation elevates to Grade 3. **WHO Grade 3** (anaplastic/malignant): ≥20 mitoses per 10 HPF OR frank malignant features, sarcoma-like/carcinoma-like/melanoma-like histology, OR CDKN2A/B deletion + TERT mutation."
+        },
+        {
+          "type": "text",
+          "content": "**Molecular pathogenesis:** The most important driver mutation in meningiomas is **NF2 gene deletion/mutation (chromosome 22q12)**, present in approximately 50-60% of sporadic meningiomas. NF2 encodes merlin, a tumour suppressor. NF2-mutant meningiomas tend to be fibrous or transitional histology, located at the convexity or spinal cord. Non-NF2 meningiomas exhibit mutations in: **AKT1** (E17K, ~10%; sphenoid wing/skull base, meningothelial); **SMO** (~5%; olfactory groove, medial sphenoid wing, meningothelial); **KLF4/TRAF7** (~25%; secretory and angiomatous); **PIK3CA** (~7%). **TRAF7 + KLF4** mutations define secretory meningiomas. **TERT promoter mutations** mark high-risk progression.\n\nThe **CDKN2A/B locus (chromosome 9p21)** and **TERT promoter** are the two most clinically significant molecular prognostic markers. Their presence in WHO 2021 now upgrades grade regardless of histology — a histologically grade 1-appearing meningioma with CDKN2A/B homozygous deletion is classified as grade 3. This represents a paradigm shift from purely morphological grading. DNA methylation profiling identifies six methylation classes (MC) with prognostic significance independent of WHO grade."
+        },
+        {
+          "type": "table",
+          "title": "WHO 2021 Meningioma Grading Criteria",
+          "headers": ["Grade", "Histological Criteria", "Molecular Upgrade Criteria", "5-Year Recurrence (Simpson 1)"],
+          "rows": [
+            ["WHO 1", "<4 mitoses/10 HPF; no brain invasion; benign morphology", "None defined", "7-12%"],
+            ["WHO 2 (Atypical)", "4-19 mitoses/10 HPF OR ≥3/5 atypical features OR brain invasion", "CDKN2A/B hetero deletion (grade 2 from grade 1)", "~40%"],
+            ["WHO 3 (Anaplastic)", "≥20 mitoses/10 HPF OR frank malignancy", "CDKN2A/B homozygous deletion OR TERT mutation (grade 3 from grade 1-2)", ">78%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — WHO 2021 Molecular Upgrade",
+          "content": "WHO 2021 is the first CNS classification to allow a histologically grade 1 meningioma to be upgraded to grade 3 based on molecular findings alone (CDKN2A/B homozygous deletion or TERT promoter mutation). This means molecular testing is now essential for complete meningioma grading. A 'benign-looking' meningioma with TERT mutation carries the same prognosis as an anaplastic meningioma."
+        }
+      ]
+    },
+    {
+      "id": "E1-S2",
+      "title": "Surgical Anatomy and Simpson Grading",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Simpson grading** (1957, modified) describes the extent of meningioma resection and is the most important predictor of recurrence. It grades completeness from 1 (most complete) to 5 (decompression only) based on removal of tumour, dural attachment, and underlying bone. The recurrence risk increases significantly with each grade reduction.\n\nFor skull base meningiomas, achieving Simpson grade 1 or 2 is often impossible without unacceptable morbidity because the tumour involves the cavernous sinus, optic canal, carotid artery, or cranial nerve foramina. The goal in these cases is **maximum safe resection** (intent: Simpson 3-4) followed by adjuvant radiation. For convexity and parasagittal meningiomas, Simpson 1 resection is achievable and associated with the lowest recurrence.\n\n**Anatomical classification of meningiomas by location** determines both surgical approach and expected morbidity:\n- **Convexity** (25%): anterior, middle, or posterior fossa; most accessible\n- **Parasagittal/Falcine** (25%): sagittal sinus involvement critical for venous risk\n- **Sphenoid wing** (20%): lateral, middle, or medial (clinoidal); medial = highest CN risk\n- **Skull base** (anterior fossa, CPA, foramen magnum, tentorial): complex approaches\n- **Cavernous sinus**: CN III/IV/V1/V2/VI + ICA; high surgical risk"
+        },
+        {
+          "type": "table",
+          "title": "Simpson Grading Scale for Meningioma Resection",
+          "headers": ["Grade", "Description", "10-Year Recurrence Rate", "Notes"],
+          "rows": [
+            ["Grade 1", "Macroscopically complete removal + excision of dural attachment + any abnormal bone", "9%", "Ideal; achievable at convexity/parasagittal"],
+            ["Grade 2", "Macroscopically complete removal + coagulation of dural attachment (no excision)", "19%", "Most skull base cases — dural coagulation instead of excision"],
+            ["Grade 3", "Macroscopically complete removal without coagulation or resection of dural attachment", "29%", "Cavernous sinus, optic canal involvement"],
+            ["Grade 4", "Subtotal resection — partial tumour removal", "44%", "Cavernous sinus residual; eloquent area"],
+            ["Grade 5", "Simple decompression only", ">80%", "Emergency; unresectable tumour"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Incidental Meningioma Management",
+          "content": "Incidental meningiomas (increasingly detected on MRI performed for other indications) pose a management dilemma. Natural history studies show that approximately 60-70% of incidental meningiomas remain stable or grow slowly (<1 cm over 5 years). Active surveillance (MRI at 3-6 months, then annually) is appropriate for: small (<3 cm), asymptomatic, WHO grade 1 characteristics on MRI, elderly or medically frail patients. Intervention is indicated for: symptomatic growth, peritumoral oedema causing symptoms, proximity to eloquent structures with growth. The ROAM/EORTC-1308 trial is prospectively evaluating observation vs. immediate treatment for small meningiomas."
+        }
+      ]
+    },
+    {
+      "id": "E1-S3",
+      "title": "Anterior Cranial Fossa Meningiomas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Olfactory groove meningiomas (OGM)** arise from the dura overlying the cribriform plate and ethmoid bone at the midline anterior cranial fossa. They typically present late (large size at diagnosis) due to the clinically silent anosmia and gradual cognitive/behavioural changes from frontal lobe compression. Characteristic presentation: **bilateral anosmia** (often unnoticed by the patient); **frontal lobe syndrome** (apathy, disinhibition, executive dysfunction, memory impairment — Foster Kennedy syndrome if unilateral optic atrophy with contralateral papilloedema). Radiologically, they demonstrate a **dural tail sign** and calcification in 20%.\n\n**Surgical approaches for OGM:** (1) **Bifrontal craniotomy** (classic): wide exposure, good tumour visualisation, allows bilateral optic nerve decompression; risk of bilateral frontal lobe injury; (2) **Unilateral frontal craniotomy** (preferred for lateralised tumours): less morbidity; (3) **Endoscopic endonasal approach (EEA)**: minimally invasive for midline tumours < 4 cm; avoids frontal lobe retraction; risk of CSF leak and higher rate of incomplete resection for large tumours. The choice between transcranial and endoscopic approaches depends on tumour size, lateral extension, and surgeon experience. Vascular anatomy of importance: **anterior cerebral arteries** (A1/A2 segments) which may be displaced or encased by large OGMs; olfactory nerves (sacrifice expected for large tumours).\n\n**Tuberculum sellae meningiomas (TSM)** arise from the tuberculum sellae and chiasmatic sulcus, presenting with **progressive visual loss** (characteristically bitemporal or monocular field defects from optic nerve/chiasm compression) and less commonly with hypothalamic-pituitary dysfunction. Key distinction from pituitary macroadenoma: TSM elevates the chiasm (chiasm pushed upward/backward), while pituitary tumours elevate the chiasm from below. On MRI, TSM shows dural tail and no connection to the pituitary fossa. Surgical goals: optic nerve decompression and tumour removal; approaches include supraorbital/frontolateral craniotomy or EEA (for midline TSM < 3 cm)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Foster Kennedy Syndrome",
+          "content": "Foster Kennedy syndrome is caused by a large olfactory groove or sphenoid wing meningioma compressing the ipsilateral optic nerve (causing optic atrophy) while raising intracranial pressure causing contralateral papilloedema. The classical triad: ipsilateral optic atrophy + contralateral papilloedema + anosmia. 'Pseudo-Foster Kennedy' syndrome (bilateral sequential optic neuropathy without mass lesion) occurs in bilateral NAION."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Missing the Distinction: TSM vs Pituitary Macroadenoma",
+          "content": "Tuberculum sellae meningioma and pituitary macroadenoma both cause chiasmal compression and visual loss. Key differentiators: TSM = origin above sella (not arising from pituitary fossa), dural tail sign, normal pituitary function, chiasm displaced upward; pituitary adenoma = sella enlarged, hypopituitarism, no dural tail. Misclassification leads to wrong surgical approach (TSM: craniotomy or EEA; pituitary: transsphenoidal)."
+        }
+      ]
+    },
+    {
+      "id": "E1-S4",
+      "title": "Sphenoid Wing and Cavernous Sinus Meningiomas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Sphenoid wing meningiomas** are classified by location: (1) **Lateral** (pterional/temporal): large tumours compressing middle fossa; good surgical access via pterional craniotomy; (2) **Middle** (body of sphenoid): moderate surgical access; (3) **Medial** (clinoidal/inner third): most challenging — encasement of the internal carotid artery (ICA) and middle cerebral artery (MCA), CN II/III/IV/V1 involvement at the anterior clinoid process, and cavernous sinus invasion. The **'en plaque' meningioma** pattern — a flat, carpet-like tumour spreading along the dura with extensive hyperostosis of the sphenoid bone rather than a discrete mass — is characteristic of medial sphenoid wing meningiomas and is often associated with better prognosis (paradoxically) due to slower growth.\n\n**Clinoidal meningioma** (medial third sphenoid wing) arises at or near the anterior clinoid process, an anatomical danger zone containing the ICA, ophthalmic artery, CN II (optic nerve in optic canal), CN III (entering the cavernous sinus), and ophthalmic division of CN V. The **carotid cave** — the dural pocket around the ICA at the clinoid — is the defining anatomical feature. Surgical risks include: ICA injury with catastrophic haemorrhage, optic nerve injury causing blindness, oculomotor nerve palsy, and injury to the ophthalmic artery causing retinal ischaemia.\n\nManagement strategy for medial sphenoid wing meningiomas reflects the high surgical risk: **maximum safe resection** (Simpson 3-4) to decompress optic nerve and reduce mass effect, followed by **adjuvant Gamma Knife SRS or fractionated stereotactic radiotherapy (fSRT)** for residual disease. The cavernous sinus component is typically left untreated surgically — SRS alone achieves >90% tumour control in cavernous sinus meningiomas."
+        },
+        {
+          "type": "text",
+          "content": "**Cavernous sinus meningiomas** represent a special management challenge. The cavernous sinus contains CN III, IV, V1, V2, and VI, the internal carotid artery (siphon segment), and sympathetic fibres — complete surgical resection is impossible without causing devastating neurological deficits. Contemporary management favours: **observation** for small asymptomatic tumours (most grow slowly, <2 mm/year); **stereotactic radiosurgery (SRS)** for growing or symptomatic tumours ≤3 cm — 5-year control rates 93-96% with Gamma Knife, low cranial nerve injury rates; **surgery** only for decompression of compromised structures (optic nerve, brainstem), not for cavernous sinus cure. The Pollock–Flickinger series and multiple other SRS series confirm excellent long-term cavernous sinus meningioma control with SRS alone.\n\n**Sinus venous anatomy** is critical for parasagittal and convexity meningiomas. The **superior sagittal sinus (SSS)** and its cortical tributaries are the primary venous drainage of the cerebral convexity. Occlusion of a patent SSS during meningioma removal causes catastrophic venous infarction. If the SSS is completely occluded by tumour with collateral veins developed, it can be sacrificed. If patent, it must be preserved or reconstructed. Pre-operative CT-A/MRV assessing sinus patency is mandatory for parasagittal meningiomas. Cortical bridging veins — large draining veins entering the sinus perpendicular to the brain surface — must not be sacrificed during surgical access as they cause focal cortical infarction."
+        },
+        {
+          "type": "table",
+          "title": "Cavernous Sinus Contents and Surgical Risk",
+          "headers": ["Structure", "Position within Sinus", "Risk of Injury", "Clinical Consequence"],
+          "rows": [
+            ["CN III (oculomotor)", "Superior wall/medial", "High during tumour dissection", "Complete ophthalmoplegia, ptosis, dilated pupil"],
+            ["CN IV (trochlear)", "Superior wall/lateral", "Moderate", "Vertical diplopia (SO palsy)"],
+            ["CN V1 (ophthalmic)", "Lateral wall", "Moderate", "Corneal anaesthesia, forehead numbness"],
+            ["CN V2 (maxillary)", "Lateral wall (inferior)", "Moderate", "Cheek/upper lip numbness"],
+            ["CN VI (abducens)", "Free within sinus (medial)", "High — most vulnerable", "Medial rectus deviation, horizontal diplopia"],
+            ["ICA (siphon segment)", "Central within sinus", "Catastrophic if injured", "Major stroke, death; haemorrhage"],
+            ["Sympathetic fibres (carotid plexus)", "Around ICA", "Low", "Horner syndrome (ptosis, miosis, anhidrosis)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E1-S5",
+      "title": "Posterior Fossa Meningiomas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cerebellopontine angle (CPA) meningiomas** arise from the petrous dura and must be distinguished from vestibular schwannomas (acoustic neuromas) — the most common CPA tumour. Key distinguishing features: CPA meningioma = broad dural base, off-centre from the internal auditory canal (IAC), calcification common, T2 isointense to cortex (vs schwannoma = T2 hyperintense), homogeneous enhancement, dural tail sign; vestibular schwannoma = centred on IAC, 'ice cream cone' shape with intracanalicular component, T2 hyperintense, heterogeneous enhancement in larger tumours. The distinction is crucial as surgical approach and risk profile differ.\n\n**Foramen magnum meningiomas** are located at the craniocervical junction and present with myelopathy, suboccipital/posterior neck pain, and lower cranial nerve deficits (CN IX, X, XI, XII — affecting swallowing, voice, head-turning, and tongue). They are anatomically complex — the vertebral artery and posterior inferior cerebellar artery course in close proximity. The **far-lateral (extreme lateral transcondylar) approach** provides the widest access to the anterolateral foramen magnum and anterior CVJ, allowing resection without excessive cerebellar retraction. This approach involves drilling the occipital condyle (carefully preserving ≥1/3 to avoid instability) and identifying the VA in the condylar fossa.\n\n**Tentorial meningiomas** arise from the free edge of the tentorium. They may be supratentorial, infratentorial, or straddle the tentorium. The Straight sinus, torcula, and vein of Galen in the medial tentorium; the transverse sinus laterally — all must be assessed for involvement. The posterior third of the tentorium is a high-risk zone due to proximity to the straight sinus and vein of Galen draining the deep venous system. Peritorcular (torcula) meningiomas carry the highest venous surgical risk."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — CPA Meningioma vs Vestibular Schwannoma: Key MRI Differentiators",
+          "content": "CPA meningioma: broad dural base, NOT centred on IAC (eccentric), dural tail, calcification (20%), T2 isointense to cortex, acute angle with petrous bone. Vestibular schwannoma: centred on IAC, intracanalicular component ('ice cream cone'), T2 hyperintense, obtuse angle with petrous bone, no dural tail. Distinguish these confidently before referral — management pathways differ significantly."
+        }
+      ]
+    },
+    {
+      "id": "E1-S6",
+      "title": "Adjuvant Radiotherapy and Radiosurgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Radiotherapy indications for meningioma** are determined by WHO grade and completeness of resection. Current evidence-based recommendations (EANO 2021):\n\n**WHO Grade 1 meningioma:** Adjuvant radiotherapy is NOT indicated after gross total resection (Simpson 1-2) as recurrence rates are low (9-19%) and radiotherapy carries long-term risks. For subtotal resection (Simpson 3-4) with residual disease visible on post-operative MRI, options include: (1) close observation with serial MRI (preferred for small, stable residual, especially in cavernous sinus); (2) SRS or fSRT for growing residual. The ROAM/EORTC-1308 study and CINDERELLA trial are evaluating early adjuvant SRS after Simpson 3-4 resection of grade 1 meningioma.\n\n**WHO Grade 2 meningioma:** Adjuvant radiotherapy is recommended for subtotal resection (Simpson 3-5) and should be strongly considered after gross total resection given ~40% recurrence rate. The EORTC 22042-26042 trial evaluated 60 Gy fractionated radiotherapy after total resection of grade 2 meningioma, with improving PFS. Standard fractionated RT dose: 54-60 Gy in 1.8-2 Gy fractions. For cavernous sinus/skull base grade 2, SRS is appropriate for tumours ≤3 cm.\n\n**WHO Grade 3 meningioma:** Adjuvant radiotherapy is always indicated regardless of resection extent. Standard dose: 60-66 Gy. Prognosis is poor regardless of treatment (median OS 24-36 months). Chemotherapy (hydroxyurea, sunitinib) has shown limited efficacy in recurrent grade 2-3 meningiomas; clinical trials are ongoing.\n\n**Stereotactic radiosurgery (SRS) for intact/growing meningiomas:** Gamma Knife SRS achieves excellent tumour control for benign skull base meningiomas (cavernous sinus, petroclival, petrous): 5-year control 93-98%, with marginal dose typically 12-16 Gy to the 50% isodose. Critical constraints: optic apparatus < 8-10 Gy (single fraction); brainstem < 12-14 Gy. For tumours > 3 cm or abutting critical structures, fractionated SRS (fSRS) or fractionated stereotactic radiotherapy (fSRT) is preferred to reduce late toxicity."
+        },
+        {
+          "type": "table",
+          "title": "Adjuvant RT Recommendations by Grade and Resection",
+          "headers": ["WHO Grade", "Resection Grade", "Recommendation", "Evidence Level"],
+          "rows": [
+            ["Grade 1", "Simpson 1-2 (GTR)", "Observation — RT not indicated", "Level A"],
+            ["Grade 1", "Simpson 3-4 (STR)", "Observation first; SRS/fSRT for growth", "Level B"],
+            ["Grade 2", "Simpson 1-2 (GTR)", "Adjuvant RT recommended (60 Gy)", "Level B (EORTC 22042)"],
+            ["Grade 2", "Simpson 3-5 (STR)", "Adjuvant RT mandatory", "Level A"],
+            ["Grade 3", "Any", "Adjuvant RT always (60-66 Gy)", "Level A"],
+            ["Any grade", "Cavernous sinus residual", "SRS (12-14 Gy) for ≤3 cm residual", "Level B"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E1-S7",
+      "title": "Surgical Approaches to the Skull Base",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Skull base surgery principles** have evolved to minimise brain retraction through bone removal — the skull is removed to provide a direct corridor to deep pathology without elevating brain. The major skull base approaches relevant to meningiomas:\n\n**Pterional (frontotemporal) craniotomy:** The workhorse approach for anterior and middle skull base tumours — sphenoid wing, clinoidal, suprasellar, and basal frontal lesions. Involves removal of the pterion (junction of frontal, temporal, parietal, and sphenoid bones) and the lateral sphenoid wing, providing access to the anterior cranial fossa, cavernous sinus, and parasellar region via the sylvian fissure. The sphenoid wing and anterior clinoid process can be drilled extradurally. Key surgical landmark: sylvian fissure containing the MCA — splitting the arachnoid of the sylvian fissure provides access to the carotid cistern without brain retraction.\n\n**Retrosigmoid craniotomy:** Access to the CPA and posterior fossa. Posterior to the sigmoid sinus. Used for CPA meningiomas, vestibular schwannomas, CN V/VII/IX MVD, and posterior petrous tumours. Requires careful sigmoid and transverse sinus identification to avoid venous injury.\n\n**Presigmoid/retrolabyrinthine approach (petrosal approach):** Combined presigmoid infratentorial-supratentorial corridor providing anterior and posterior fossa access simultaneously. Used for petroclival meningiomas, which straddle the clivus between the petrous bone and brainstem. This approach involves mastoidectomy with preservation of the labyrinth, partial petrosectomy, and tentorium incision.\n\n**Transcochlear approach:** When hearing sacrifice is accepted, removing the entire cochlea and labyrinth (translabyrinthine) provides maximum anterior access to the CPA with complete temporal bone removal. Used when the internal auditory canal is invaded or when tumour extension into the petrous apex requires wide access.\n\n**Endoscopic endonasal approach (EEA):** Increasingly used for midline skull base tumours — cribriform plate OGMs, TSMs, and clival tumours. Avoids craniotomy and brain retraction; key risks include CSF leak (nasoseptal flap for reconstruction), carotid artery injury at the cavernous sinus, and limited exposure for lateral-extending tumours."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Petroclival Meningioma: The Ultimate Challenge",
+          "content": "Petroclival meningiomas arise medial to the trigeminal nerve at the upper two-thirds of the clivus. They displace the brainstem posterolaterally and surround the basilar artery perforators. Surgical morbidity from aggressive resection is significant (CN palsies, brainstem ischaemia). Modern management favours a planned subtotal resection via the petrosal approach with immediate or delayed SRS/fSRT for residual disease, achieving high long-term control rates with acceptable neurological outcomes. 'Radical' surgery for petroclival meningiomas achieves higher gross total resection rates but with unacceptably high morbidity — a cautionary tale against surgical maximalism."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of skull base surgery and meningiomas with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "E1-Q1",
+        "stem": "A 52-year-old woman presents with progressive bitemporal visual field loss over 12 months. MRI shows a 3 cm enhancing extra-axial mass at the tuberculum sellae with a dural tail, homogeneous enhancement, and upward displacement of the optic chiasm. The pituitary fossa is normal in size. Which is the correct diagnosis and primary surgical approach?",
+        "options": {
+          "A": "Pituitary macroadenoma — transsphenoidal endoscopic surgery",
+          "B": "Tuberculum sellae meningioma — pterional craniotomy or endoscopic endonasal approach",
+          "C": "Craniopharyngioma — transcranial surgery with hypothalamic preservation",
+          "D": "Optic nerve sheath meningioma — radiation therapy without surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tuberculum sellae meningioma presents with progressive visual loss from optic nerve/chiasm compression, is extra-axial with a dural tail sign at the tuberculum sellae, shows homogeneous enhancement, has a normal pituitary fossa (not enlarged), and displaces the chiasm upward. The pterional craniotomy provides excellent access for larger tumours with lateral extension; the endoscopic endonasal approach (EEA) is preferred for midline tumours < 3 cm. Complete resection cures the visual loss in most cases when performed before irreversible optic atrophy occurs.",
+          "wrong": {
+            "A": "Pituitary macroadenomas arise from within an enlarged sella, do not have a dural tail, and show hypopituitarism. TSM has a normal sella. Transsphenoidal surgery to a TSM would be catastrophic.",
+            "C": "Craniopharyngioma typically presents with hypopituitarism, calcification (90% in the adamantinomatous subtype), and originates near the pituitary stalk — not at the tuberculum sellae.",
+            "D": "Optic nerve sheath meningioma (ONSM) originates from the optic nerve sheath within the orbit, not the tuberculum sellae. ONSM is treated with fractionated radiotherapy, but this lesion is a TSM requiring surgical decompression."
+          },
+          "guideline": "EANO 2021 Meningioma Guidelines — tuberculum sellae meningioma: surgical decompression of optic apparatus is the primary treatment; approach selection based on tumour size and lateral extension",
+          "trial": "Schwartz TH et al. Endoscopic endonasal approach to tuberculum sellae meningioma. Neurosurgery 2011;68(3):622-630: EEA achieves GTR in 65% with visual improvement in 75% of patients with preoperative deficits",
+          "pearl": "Distinguish TSM from pituitary macroadenoma: TSM has a dural tail, homogeneous enhancement, normal sella size, and no endocrine dysfunction. The chiasm is pushed upward (not from below as in pituitary tumours). Treatment is surgical decompression — early surgery before optic atrophy is irreversible."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q2",
+        "stem": "A histopathology report on a meningioma resected from the right sphenoid wing reads: 'meningothelial meningioma, 6 mitoses per 10 HPF, without brain invasion.' The molecular analysis shows CDKN2A/B heterozygous deletion. What is the WHO 2021 grade?",
+        "options": {
+          "A": "WHO Grade 1",
+          "B": "WHO Grade 2",
+          "C": "WHO Grade 3",
+          "D": "Grade cannot be determined without TERT promoter testing"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WHO 2021 Grade 2 (atypical meningioma) requires either: (1) 4-19 mitoses per 10 HPF (this tumour has 6), OR (2) ≥3 of 5 atypical features, OR (3) brain invasion. This tumour qualifies based on mitotic count alone (6/10 HPF). CDKN2A/B heterozygous deletion may additionally warrant grade 2 classification but does NOT upgrade to grade 3 — only HOMOZYGOUS CDKN2A/B deletion or TERT promoter mutation upgrades a grade 1-2 tumour to grade 3 in WHO 2021.",
+          "wrong": {
+            "A": "WHO Grade 1 requires < 4 mitoses/10 HPF. This tumour has 6 — exceeding the threshold for grade 2.",
+            "C": "Grade 3 requires ≥20 mitoses/10 HPF OR frank malignant features OR CDKN2A/B HOMOZYGOUS deletion OR TERT mutation. CDKN2A/B heterozygous deletion does not upgrade to grade 3.",
+            "D": "TERT promoter testing would be relevant for further risk stratification, but the diagnosis of grade 2 is already established by the mitotic count of 6/10 HPF."
+          },
+          "guideline": "WHO 2021 CNS Tumour Classification — meningioma grading: 4-19 mitoses/10 HPF = grade 2; CDKN2A/B homozygous deletion = grade 3 regardless of histology; heterozygous = grade 2",
+          "trial": "Rogers L et al. Meningiomas: knowledge base, treatment outcomes, and uncertainties. J Neurosurg 2015;122(1):4-23: mitotic count as primary grading criterion; WHO 2021 added molecular grading for CDKN2A/B and TERT",
+          "pearl": "In WHO 2021, only CDKN2A/B HOMOZYGOUS deletion (not heterozygous) upgrades a meningioma to grade 3. TERT promoter mutation also upgrades to grade 3. Mitotic count of 4-19/10 HPF = grade 2 regardless of molecular findings. Heterozygous deletion alone does not change the histological grade."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q3",
+        "stem": "A 65-year-old man undergoes pterional craniotomy for a large right sphenoid wing meningioma. The tumour is completely removed including its dural attachment and the hyperostotic bone of the sphenoid wing. The dura is reconstructed with a synthetic dural substitute. What Simpson grade was achieved?",
+        "options": {
+          "A": "Simpson Grade 1",
+          "B": "Simpson Grade 2",
+          "C": "Simpson Grade 3",
+          "D": "Simpson Grade 4"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Simpson Grade 1 is defined as macroscopically complete tumour removal PLUS excision of the dural attachment (not just coagulation) PLUS removal of any involved/hyperostotic bone. All three criteria are met here: complete tumour removal + dural excision + sphenoid wing bone removal. Simpson Grade 1 is associated with the lowest recurrence rate (approximately 9% at 10 years) and is the goal for convexity and sphenoid wing meningiomas where dural excision is anatomically feasible.",
+          "wrong": {
+            "B": "Simpson Grade 2 achieves complete tumour removal + COAGULATION (not excision) of dural attachment. Coagulation is used when dural excision is not possible (e.g., adjacent to sinus) — here the dura was excised.",
+            "C": "Simpson Grade 3 achieves complete tumour removal without any treatment (coagulation or excision) of the dural attachment.",
+            "D": "Simpson Grade 4 is subtotal/partial tumour removal, leaving visible residual."
+          },
+          "guideline": "Simpson DL. Recurrence of intracranial meningiomas after surgical treatment. J Neurol Neurosurg Psychiatry 1957;20(1):22-39 — original grading scale: Grade 1 = total removal + dural excision + bone removal",
+          "trial": "Simpson 1957 classic paper: 10-year recurrence rates: Grade 1 = 9%; Grade 2 = 19%; Grade 3 = 29%; Grade 4 = 44% — validated by multiple subsequent series",
+          "pearl": "Simpson Grade 1 = complete tumour + complete dural excision + involved bone removal. Grade 2 = complete tumour + dural coagulation only (bone not removed). The distinction between grades 1 and 2 is the treatment of the dural attachment: excision vs coagulation. Grade 1 has approximately half the recurrence rate of Grade 2."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q4",
+        "stem": "A 58-year-old woman has a 2 cm right cavernous sinus meningioma incidentally discovered on MRI for headaches. She has normal cranial nerve function and no visual symptoms. The tumour has been stable on two MRI scans 6 months apart. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate surgical resection via a transpterional approach to achieve Simpson Grade 1",
+          "B": "Stereotactic radiosurgery (Gamma Knife) to prevent growth",
+          "C": "Continued MRI surveillance with treatment only if growth or symptoms develop",
+          "D": "Fractionated stereotactic radiotherapy (fSRT) to 50.4 Gy in 28 fractions"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A small (2 cm), stable, asymptomatic cavernous sinus meningioma in a 58-year-old woman is best managed with continued MRI surveillance. Natural history studies show approximately 60-70% of cavernous sinus meningiomas remain stable or grow very slowly. Surgery for cavernous sinus meningioma carries high risk of permanent cranial nerve deficits (CN III, IV, VI — causing diplopia; CN V1 — corneal anaesthesia) and cannot achieve Simpson Grade 1 without unacceptable morbidity. Treatment (SRS) is deferred until growth or symptom development is documented.",
+          "wrong": {
+            "A": "Surgical resection of a cavernous sinus meningioma to Simpson Grade 1 would require complete dissection of the cavernous sinus, inevitably causing multiple cranial nerve palsies. This is not appropriate for a small, asymptomatic, stable tumour in a patient with normal neurological function.",
+            "B": "SRS is appropriate for growing or symptomatic cavernous sinus meningiomas. For a stable, asymptomatic tumour already confirmed on serial imaging, immediate SRS exposes the patient to radiation risk (facial numbness 5-10%, hypopituitarism risk) without proven benefit over observation.",
+            "D": "Fractionated RT is generally reserved for tumours > 3 cm or adjacent to the optic apparatus. A 2 cm stable asymptomatic cavernous sinus meningioma does not warrant this level of intervention without evidence of growth."
+          },
+          "guideline": "EANO 2021 Meningioma Guidelines — cavernous sinus meningioma: observation appropriate for small, stable, asymptomatic tumours; SRS/fSRT for growing/symptomatic ≤3 cm; surgery not recommended as primary treatment",
+          "trial": "Pollock BE & Stafford SL. Results of stereotactic radiosurgery for patients with imaging defined cavernous sinus meningiomas at a single institution. Int J Radiat Oncol 2005;62(5):1427-1431: cavernous sinus meningioma SRS 5-year control 93%; SRS preferred over surgery for cavernous sinus location",
+          "pearl": "Cavernous sinus meningioma management: asymptomatic + stable = observe. Growing or symptomatic ≤3 cm = SRS (93-96% 5-year control). Surgery is reserved for decompression only and does not attempt complete cavernous sinus clearance. The goal in cavernous sinus meningioma is neurological function preservation, not tumour cure."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q5",
+        "stem": "During surgery for a large left parasagittal meningioma, pre-operative MR venography showed a patent superior sagittal sinus (SSS) with tumour abutting but not invading it. The neurosurgeon plans tumour removal. Which statement regarding the superior sagittal sinus management is correct?",
+        "options": {
+          "A": "A patent SSS should be sacrificed to achieve Simpson Grade 1 resection",
+          "B": "A patent SSS must be preserved; Simpson Grade 2 resection of the sinus-attached dura is acceptable",
+          "C": "A patent SSS can be reconstructed with a saphenous vein graft if injured",
+          "D": "Venous sinus sacrifice is only contraindicated in the posterior third of the SSS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A patent superior sagittal sinus must be preserved to avoid catastrophic bilateral cortical venous infarction. When tumour is attached to but has not invaded a patent SSS, the safe approach is to coagulate the dural attachment adjacent to the sinus without opening or occluding it — achieving Simpson Grade 2 resection. The residual dural attachment can be followed with surveillance MRI and treated with SRS if it grows. Sacrifice of a patent SSS, even in the anterior third, carries significant risk of cortical venous infarction and should not be performed.",
+          "wrong": {
+            "A": "A patent SSS must never be sacrificed to achieve Grade 1 resection. The bilateral cortical venous drainage it provides is essential — occlusion causes bilateral frontal lobe infarction (anterior third), bilateral motor cortex infarction (middle third), or bilateral occipital infarction (posterior third).",
+            "C": "Reconstruction is theoretically possible but extremely technically challenging; primary prevention of sinus injury is the standard of care. The question here is management of a patent sinus with tumour attachment — the answer is preservation.",
+            "D": "Sinus sacrifice is contraindicated in all thirds of the SSS when patent. The posterior third is the highest risk (drains occipital cortex and deep draining veins) but the anterior and middle thirds are also critical."
+          },
+          "guideline": "EANS Meningioma Surgery Guidelines 2022 — superior sagittal sinus: pre-operative MRV mandatory; patent SSS must be preserved; Simpson Grade 2 acceptable over sinus sacrifice",
+          "trial": "Mantovani A et al. Patterns of failure following surgery for parasagittal meningioma. J Neurosurg 2020;132(2):379-387: SSS preservation strategy with planned Grade 2 resection followed by observation/SRS achieves equivalent long-term PFS to more aggressive resection with sinus sacrifice",
+          "pearl": "For parasagittal meningioma with a patent SSS, the principle is: preserve the sinus, accept Simpson Grade 2 resection, and monitor for recurrence. NEVER sacrifice a patent SSS for Simpson Grade 1 — the resulting bilateral cortical venous infarction is catastrophic. Pre-operative MRV to assess sinus patency is mandatory."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q6",
+        "stem": "A 45-year-old woman has a WHO Grade 2 (atypical) right convexity meningioma resected via craniotomy. Intraoperative assessment confirms Simpson Grade 1 resection. Post-operative MRI confirms no residual tumour. What is the recommended adjuvant management?",
+        "options": {
+          "A": "No adjuvant therapy; observation with MRI at 3 months then annually",
+          "B": "Adjuvant fractionated radiotherapy 54-60 Gy in 28-30 fractions",
+          "C": "Adjuvant Gamma Knife SRS 14 Gy to the tumour bed",
+          "D": "Adjuvant temozolomide chemotherapy for 12 cycles"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WHO Grade 2 (atypical) meningioma following gross total resection (Simpson Grade 1) should receive adjuvant fractionated radiotherapy. The recurrence rate for grade 2 meningioma after GTR is approximately 40% at 5 years without adjuvant treatment, significantly higher than grade 1. The EORTC 22042-26042 trial evaluated 60 Gy adjuvant RT after total resection of grade 2 meningioma and showed improved progression-free survival. Current EANO 2021 guidelines recommend adjuvant RT (54-60 Gy in 1.8 Gy fractions) after GTR of grade 2 meningioma. A grade 1 tumour after GTR would not require adjuvant RT.",
+          "wrong": {
+            "A": "Observation alone after GTR of grade 2 meningioma leads to ~40% recurrence at 5 years. Current evidence from EORTC 22042 supports adjuvant RT to reduce this risk.",
+            "C": "Gamma Knife SRS for a large surgical bed (convexity meningioma) is technically limited — SRS is appropriate for small, discrete, incompletely resected tumours (< 3 cm), not for prophylactic treatment of a macroscopic GTR bed.",
+            "D": "Temozolomide has shown no significant efficacy for grade 2-3 meningioma in clinical trials and is not a standard recommendation. No chemotherapy agent has regulatory approval for meningioma."
+          },
+          "guideline": "EANO Meningioma Guidelines 2021 — WHO Grade 2: adjuvant RT (54-60 Gy) recommended after GTR based on EORTC 22042-26042 trial data; Level B recommendation",
+          "trial": "Weber DC et al. Adjuvant postoperative high-dose radiotherapy for atypical and malignant meningioma: a systematic review. Radiother Oncol 2018;127(3):401-407: adjuvant RT after GTR of grade 2 meningioma significantly improves PFS; no significant OS benefit identified in current data",
+          "pearl": "WHO Grade 2 meningioma after gross total resection: adjuvant fractionated RT (54-60 Gy) is recommended because recurrence approaches 40% at 5 years without it. This contrasts with Grade 1 GTR (observe only). Grade 3: always irradiate regardless of resection extent."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q7",
+        "stem": "A 70-year-old man presents with an 8-month history of bilateral anosmia he had attributed to chronic sinusitis, along with recent onset of frontal headaches and mild cognitive slowing. MRI shows a 5 cm midline anterior cranial fossa extra-axial mass with broad dural attachment to the cribriform plate, marked peritumoral oedema, and avid enhancement. What is the most likely diagnosis?",
+        "options": {
+          "A": "Anterior cranial fossa dural arteriovenous fistula",
+          "B": "Olfactory groove meningioma",
+          "C": "Esthesioneuroblastoma (olfactory neuroblastoma)",
+          "D": "Anterior communicating artery aneurysm with mass effect"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Olfactory groove meningioma classically presents with bilateral anosmia (often unnoticed or attributed to other causes), frontal lobe syndrome (cognitive slowing, apathy, disinhibition from bilateral frontal compression), and later headache and visual changes. The MRI shows the characteristic features: extra-axial midline anterior cranial fossa mass, broad dural attachment to cribriform plate, homogeneous enhancement, and peritumoral oedema in a large tumour. OGM is the second most common anterior fossa meningioma after parasagittal. Large OGMs typically require bifrontal craniotomy.",
+          "wrong": {
+            "A": "Anterior cranial fossa dAVF presents with venous hypertension symptoms (headache, dementia, ocular symptoms) and is diagnosed by angiography — not a discrete enhancing extra-axial mass.",
+            "C": "Esthesioneuroblastoma originates from the olfactory epithelium within the nasal cavity and cribriform plate, often with a characteristic 'dumbbell' shape straddling the cribriform plate. It is less common and presents in younger patients. MRI typically shows nasal cavity component.",
+            "D": "An ACOM aneurysm may cause frontal symptoms but would appear as a vascular structure on MRI with flow void or ring enhancement — not a large enhancing extra-axial mass with peritumoral oedema."
+          },
+          "guideline": "EANO Meningioma 2021 — olfactory groove meningioma: bilateral anosmia in midline anterior fossa mass is nearly pathognomonic; bifrontal or frontolateral craniotomy approaches; EEA for selected midline tumours",
+          "trial": "Spektor S et al. Olfactory groove meningiomas from the neurosurgical perspective: a review. Acta Neurochir 2000;142(4):379-385: OGM natural history; presentation often late (mean diameter >5 cm); bilateral anosmia in 80%; Foster Kennedy in 10%",
+          "pearl": "Olfactory groove meningioma classically presents with bilateral anosmia that is often unreported. The combination of anosmia + frontal lobe syndrome + large anterior fossa midline enhancing mass is virtually diagnostic. Large tumours (>5 cm) are common at presentation because the olfactory loss progresses silently."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q8",
+        "stem": "During a right-sided pterional craniotomy for a medial sphenoid wing meningioma, the surgeon is drilling the anterior clinoid process extradurally. The anaesthetist reports sudden arterial haemorrhage. Which vessel has most likely been injured?",
+        "options": {
+          "A": "Middle meningeal artery",
+          "B": "Ophthalmic artery",
+          "C": "Paraclinoid internal carotid artery",
+          "D": "Superior hypophyseal artery"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The paraclinoid (cavernous/clinoid segment) internal carotid artery runs within the carotid cave — a dural sleeve at the base of the anterior clinoid process. During extradural drilling of the anterior clinoid process, the ICA is at immediate risk if the drill breaches the medial dural fold. Injury to the paraclinoid ICA produces massive arterial haemorrhage that can be rapidly fatal. This is the most feared complication of anterior clinoid process drilling and requires immediate direct pressure, neuroanesthesia alert, and emergency vascular control. Prevention: meticulous identification of the carotid groove on pre-operative CT, careful extradural drilling technique, and surgeon experience.",
+          "wrong": {
+            "A": "The middle meningeal artery runs in the epidural space in grooves along the temporal squamosa — it would be injured by temporal bone drilling or dura tearing, not during anterior clinoid drilling.",
+            "B": "The ophthalmic artery arises from the ICA within the cavernous sinus and enters the orbit through the optic canal, superior to the anterior clinoid. It is at risk during optic canal unroofing but is smaller and less immediately catastrophic than ICA injury.",
+            "D": "The superior hypophyseal artery arises from the medial aspect of the ICA siphon to supply the pituitary stalk — it is very small and injury causes pituitary apoplexy rather than massive haemorrhage."
+          },
+          "guideline": "EANS Skull Base Guidelines 2022 — anterior clinoid process drilling: carotid cave anatomy; extradural ACP removal technique; ICA protection principles",
+          "trial": "Dolenc VV. A combined epi- and subdural direct approach to carotid-ophthalmic artery aneurysms. J Neurosurg 1985;62(5):667-674: foundational paper establishing ACP anatomy and extradural clinoidectomy technique; ICA in carotid cave as primary risk",
+          "pearl": "The paraclinoid ICA in the carotid cave is the primary vascular danger zone during anterior clinoid process drilling. Extradural clinoidectomy must be performed with meticulous technique, continuous direct vision, and irrigation cooling. The carotid groove on CT marks the ICA position — always review preoperatively."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q9",
+        "stem": "An MRI-detected meningioma has the following features: broad dural base on the posterior petrous surface, off-centre from the internal auditory canal, dural tail sign, T2 isointensity relative to cortex, homogeneous enhancement, and acute angle with the petrous bone. Which diagnosis is most consistent with these findings?",
+        "options": {
+          "A": "Vestibular schwannoma (acoustic neuroma)",
+          "B": "Epidermoid cyst",
+          "C": "Posterior petrous meningioma",
+          "D": "Facial nerve schwannoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Posterior petrous (CPA) meningioma has a characteristic MRI profile: broad dural base, eccentric position relative to the IAC (off-centre), dural tail sign, T2 isointensity to cortex (vs vestibular schwannoma which is T2 hyperintense), homogeneous enhancement, calcification in 20%, and acute angle with the petrous bone (vs obtuse angle for schwannoma). These features confidently differentiate it from the more common vestibular schwannoma and guide surgical planning — meningiomas do not arise from the IAC and are approached differently.",
+          "wrong": {
+            "A": "Vestibular schwannoma is centred on the IAC with an intracanalicular component ('ice cream cone'), T2 hyperintense, heterogeneous in large tumours, obtuse angle with petrous bone, no dural tail. The T2 signal difference is the most reliable differentiator on MRI.",
+            "B": "Epidermoid cyst (pearly tumour) is characteristically T1 hypointense, T2 hyperintense (follows CSF signal), does not enhance, and shows restricted diffusion on DWI — the 'cauliflower' shape following cisterns differentiates it from meningioma.",
+            "D": "Facial nerve schwannoma can arise anywhere along the facial nerve — geniculate ganglion, IAC, or mastoid segment. It would be associated with facial paresis and would track along the CN VII course."
+          },
+          "guideline": "EANS CPA Surgery Guidelines 2022 — meningioma vs schwannoma differential: T2 signal (iso vs hyper), dural tail, IAC centricity, angle with petrous bone as primary MRI differentiators",
+          "trial": "Bonneville F et al. Unusual appearances of meningiomas. Radiographics 2006;26(1):119-135: MRI features of CPA meningioma vs schwannoma; T2 signal most reliable single feature; dural tail + off-IAC position diagnostic",
+          "pearl": "T2 signal is the most reliable MRI differentiator between CPA meningioma (T2 isointense to cortex) and vestibular schwannoma (T2 hyperintense). Additional differentiating features: dural tail (meningioma), centred on IAC (schwannoma), acute angle with petrous bone (meningioma). Never proceed to CPA surgery without this distinction."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q10",
+        "stem": "A 48-year-old man has a WHO Grade 3 (anaplastic) right frontal meningioma resected with Simpson Grade 2 resection. Post-operative MRI shows a small residual at the dural base. What is the correct adjuvant treatment strategy?",
+        "options": {
+          "A": "Observation — Grade 3 meningiomas respond poorly to radiation",
+          "B": "Adjuvant fractionated radiotherapy 60-66 Gy regardless of residual volume",
+          "C": "Adjuvant SRS (Gamma Knife 16 Gy) to the residual only",
+          "D": "Temozolomide chemotherapy as per high-grade glioma protocol"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WHO Grade 3 (anaplastic) meningioma always requires adjuvant radiotherapy regardless of resection extent. Standard dose is 60-66 Gy in 1.8-2 Gy fractions to the tumour bed + margin. Despite poor overall prognosis (median OS 24-36 months), radiotherapy improves local control and progression-free survival. The residual disease at the dural base is an additional argument for RT. Observation alone is inappropriate — recurrence is near-universal without adjuvant treatment.",
+          "wrong": {
+            "A": "Grade 3 meningiomas do respond to radiotherapy with improved local control, even if the response is incomplete and prognosis remains poor. Withholding radiotherapy in Grade 3 meningioma is not standard of care.",
+            "C": "SRS alone is inappropriate for Grade 3 meningioma — the entire tumour bed requires treatment, not just the visible residual. SRS delivers a single high-dose fraction inadequate to sterilise a large surgical bed with potential microscopic disease.",
+            "D": "Temozolomide has not shown convincing efficacy in meningioma clinical trials and is not approved. It is not standard of care for any grade of meningioma."
+          },
+          "guideline": "EANO Meningioma Guidelines 2021 — WHO Grade 3: adjuvant radiotherapy (60-66 Gy) always indicated; applicable to both GTR and STR; the only evidence-based adjuvant treatment",
+          "trial": "Goldsmith BJ et al. Postoperative irradiation for subtotally resected meningiomas. J Neurosurg 1994;80(2):195-201: RT after incomplete resection: 5-year PFS 77% with RT vs 48% without; applies across all grades; Grade 3 benefits most from RT",
+          "pearl": "Grade 3 meningioma = adjuvant RT always, regardless of resection extent. The threshold for adjuvant RT decreases with increasing grade: Grade 1 GTR = no RT; Grade 1 STR = consider RT for growth; Grade 2 GTR = RT recommended; Grade 2 STR = RT mandatory; Grade 3 any resection = RT mandatory."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q11",
+        "stem": "A 55-year-old woman has a 3.5 cm left-sided petroclival meningioma causing mild ataxia but no cranial nerve deficits. She is a good surgical candidate. A multidisciplinary tumour board discussion takes place. Which management strategy reflects current best practice?",
+        "options": {
+          "A": "Aggressive total resection via transcochlear approach targeting Simpson Grade 1",
+          "B": "Subtotal resection via presigmoid petrosal approach with planned postoperative SRS for residual disease",
+          "C": "Fractionated radiotherapy alone without surgery",
+          "D": "Endoscopic endonasal clival approach for total resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Petroclival meningiomas are among the most challenging skull base tumours because of their relationship to the brainstem, basilar artery perforators, and multiple cranial nerves (CN III-XII). Current evidence strongly favours planned subtotal resection (debulking, decompression of neural structures) via the presigmoid petrosal approach followed by adjuvant SRS for residual disease, rather than aggressive total resection. This strategy achieves high long-term tumour control rates with significantly lower neurological morbidity. Aggressive GTR attempts for petroclival meningiomas consistently show high permanent morbidity rates (new CN palsy 30-50%, major stroke 5-10%) without OS benefit over planned STR + SRS.",
+          "wrong": {
+            "A": "Transcochlear approach achieves maximum bone removal for anterior CPA/petrous access but sacrifices hearing. Targeting Simpson Grade 1 for a petroclival meningioma carries unacceptably high brainstem and CN morbidity — this is the approach to AVOID in contemporary practice.",
+            "C": "Primary radiotherapy alone (without decompression) may be appropriate for small (<3 cm) asymptomatic petroclival meningiomas, but a 3.5 cm tumour causing neurological symptoms benefits from surgical debulking to reduce mass effect before or alongside radiation.",
+            "D": "Endoscopic endonasal clival approach provides anterior midline access to the clivus but has limited lateral reach and cannot address a petroclival tumour that extends to involve the brainstem and CPA. It would be inadequate for this 3.5 cm petroclival lesion."
+          },
+          "guideline": "EANS Skull Base Surgery 2022 — petroclival meningioma: planned STR + SRS superior to aggressive GTR in terms of quality of life and neurological outcomes; presigmoid approach for surgical debulking",
+          "trial": "Almefty K et al. The dilemma of petroclival meningiomas. Neurosurg Clin N Am 2011;22(4):393-399: meta-analysis: GTR of petroclival meningioma associated with 30-50% permanent new CN deficit vs 10-15% for STR; STR + SRS achieves equivalent 10-year PFS",
+          "pearl": "Petroclival meningioma is the prime example of 'less is more' in skull base surgery. Aggressive total resection has unacceptably high morbidity. Planned subtotal resection (decompress neural structures) + SRS for residual achieves excellent long-term control with lower neurological morbidity. Counsel patients that GTR is NOT the goal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q12",
+        "stem": "Which molecular mutation is most commonly found in sporadic meningiomas arising at the lateral sphenoid wing with meningothelial histology?",
+        "options": {
+          "A": "NF2 gene mutation",
+          "B": "AKT1 E17K mutation",
+          "C": "TRAF7 + KLF4 co-mutation",
+          "D": "SMO mutation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AKT1 E17K mutation is found in approximately 10% of sporadic meningiomas and shows a strong predilection for skull base location (sphenoid wing, clinoidal, and parasellar regions) with meningothelial histology. This contrasts with NF2 mutations, which are more common at the convexity and in fibrous/transitional subtypes. The AKT1 pathway represents a potential therapeutic target — AKT inhibitors are being evaluated in clinical trials for recurrent meningiomas with this mutation.",
+          "wrong": {
+            "A": "NF2 mutation is the most common mutation overall (50-60% of sporadic meningiomas) but predominates in convexity and spinal meningiomas with fibrous/transitional histology, not specifically lateral sphenoid wing meningothelial tumours.",
+            "C": "TRAF7 + KLF4 co-mutations define secretory meningiomas specifically — characterised by their eosinophilic PAS-positive intracellular inclusions (pseudo-psammoma bodies). Secretory meningiomas are a distinct subtype not described here.",
+            "D": "SMO mutations predominate in olfactory groove meningiomas (cribriform plate and medial anterior cranial fossa) rather than lateral sphenoid wing. SMO-mutant meningiomas may be amenable to SMO-inhibitor therapy (vismodegib)."
+          },
+          "guideline": "WHO 2021 CNS Classification — meningioma molecular subtypes: NF2 (convexity/spinal), AKT1 (skull base meningothelial), SMO (olfactory groove), TRAF7+KLF4 (secretory), PIK3CA; molecular profiling recommended for grade 2-3",
+          "trial": "Brastianos PK et al. Genomic characterization of brain metastases reveals branched evolution and potential therapeutic targets. Cancer Discovery 2015;5(11):1164-1177: AKT1 E17K in meningiomas — skull base predilection; TRAF7/AKT1/KLF4/SMO in non-NF2 meningiomas (Nature Genetics 2013)",
+          "pearl": "Non-NF2 meningioma molecular landscape: AKT1 (skull base, meningothelial), SMO (olfactory groove, anterior fossa), TRAF7+KLF4 (secretory subtype), PIK3CA. NF2 meningiomas predominate at convexity and spine. The molecular subtype correlates strongly with tumour location — a useful board-exam concept."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q13",
+        "stem": "A patient with neurofibromatosis type 2 (NF2) is known to have a left vestibular schwannoma and undergoes brain MRI surveillance. The scan reveals five new enhancing extra-axial lesions, the largest measuring 2 cm at the right convexity. What is the correct characterisation of these lesions?",
+        "options": {
+          "A": "These are almost certainly brain metastases — systemic malignancy workup is urgent",
+          "B": "Multiple meningiomas are a recognised manifestation of NF2",
+          "C": "These represent leptomeningeal carcinomatosis from occult primary",
+          "D": "These are pseudoprogression from prior radiosurgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Neurofibromatosis type 2 (NF2) is characterised by: bilateral vestibular schwannomas (diagnostic hallmark), multiple meningiomas (in approximately 45-58% of NF2 patients — often multiple, sometimes dozens), spinal tumours (ependymomas most common), and peripheral nerve schwannomas. NF2-associated meningiomas tend to develop at a younger age than sporadic meningiomas and are often multiple. The NF2 gene encodes merlin — its loss permits meningioma development. The finding of multiple meningiomas in a known NF2 patient is expected and does not require urgent systemic malignancy workup.",
+          "wrong": {
+            "A": "Multiple extra-axial enhancing lesions in a patient with NF2 are meningiomas until proven otherwise. Systemic malignancy workup would be appropriate if these were intra-axial lesions without the NF2 context.",
+            "C": "Leptomeningeal carcinomatosis produces linear leptomeningeal enhancement and nodular deposits, not multiple discrete extra-axial masses with the enhancing pattern of meningiomas.",
+            "D": "Pseudoprogression after radiosurgery occurs at the treated site and would not explain five new lesions in a patient with NF2 where no prior radiosurgery was mentioned."
+          },
+          "guideline": "NCCN NF2 Guidelines 2022 — multiple meningiomas in NF2: expected manifestation; annual MRI surveillance; treatment individualised based on size, growth, and symptom development",
+          "trial": "Evans DG et al. Meningioma in neurofibromatosis 2. J Med Genet 2000;37(6):439-441: meningiomas occur in up to 58% of NF2 patients; often multiple; typically WHO Grade 1 but higher recurrence than sporadic",
+          "pearl": "NF2 diagnostic triad: bilateral vestibular schwannomas + multiple meningiomas + spinal ependymomas. Multiple meningiomas should immediately suggest NF2 in a young patient, especially if bilateral acoustic neuromas are present. Test with NF2 gene mutation analysis (chromosome 22q12)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q14",
+        "stem": "Stereotactic radiosurgery is planned for a 2.5 cm cavernous sinus meningioma. The optic chiasm is located 6 mm from the tumour margin. Which dose constraint is most critical for the optic apparatus?",
+        "options": {
+          "A": "< 25 Gy to the optic chiasm",
+          "B": "< 8-10 Gy to the optic chiasm in single-fraction SRS",
+          "C": "< 15 Gy to the optic chiasm",
+          "D": "No dose constraint needed if single fraction SRS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The optic apparatus (optic nerve and chiasm) has a tolerance dose of 8-10 Gy for single-fraction stereotactic radiosurgery. Exceeding this threshold significantly increases the risk of radiation-induced optic neuropathy (RION), leading to permanent visual loss. The Leber et al. (1998) landmark study established this threshold: doses > 8 Gy to the optic nerve/chiasm carried a 27% risk of RION vs < 1% for doses ≤ 8 Gy. When tumour-optic apparatus distance is < 3-5 mm or when the optic apparatus dose cannot be kept < 8-10 Gy, fractionated SRS or fSRT is preferred over single-fraction SRS.",
+          "wrong": {
+            "A": "25 Gy to the optic chiasm in a single fraction would cause certain radiation-induced optic neuropathy. This is approximately 2.5-3 times the tolerance threshold.",
+            "C": "15 Gy exceeds the optic apparatus tolerance for single-fraction SRS. This dose would carry very high risk of RION.",
+            "D": "The tolerance constraint for the optic apparatus applies specifically because single-fraction SRS delivers very high dose rates with limited capacity for sublethal DNA repair compared to fractionated RT. A strict dose constraint is essential."
+          },
+          "guideline": "ISRS SRS Guidelines 2018 — optic apparatus: maximum single-fraction dose < 8-10 Gy; if optic apparatus dose exceeds threshold, use fractionated SRS or fSRT (45-54 Gy in 25-30 fractions) instead",
+          "trial": "Leber KA et al. Radiation sensitivity of visual and oculomotor pathways. Stereotact Funct Neurosurg 1998;70(Suppl 1):233-238: optic apparatus tolerance: >8 Gy single fraction = 27% RION risk vs <1% at ≤8 Gy — landmark dose constraint study",
+          "pearl": "The optic chiasm/nerve tolerance for single-fraction SRS is 8-10 Gy. This is the critical dose constraint determining whether single-fraction SRS is safe or whether fractionated treatment is required for skull base meningiomas near the visual pathways. Always measure the optic apparatus distance on treatment planning before committing to single-fraction SRS."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q15",
+        "stem": "A 40-year-old woman presents with progressive right proptosis and visual blurring over 6 months. MRI shows a right intraorbital mass expanding and surrounding the optic nerve sheath with enhancement, described as a 'tram-track sign' on axial images. The tumour is confined to the orbit. What is the most appropriate treatment?",
+        "options": {
+          "A": "Surgical resection — transcranial or lateral orbitotomy approach",
+          "B": "Fractionated stereotactic radiotherapy (fSRT) to 45-54 Gy",
+          "C": "Gamma Knife SRS 12-14 Gy single fraction",
+          "D": "Systemic corticosteroids for presumed orbital pseudotumour"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Optic nerve sheath meningioma (ONSM) — characterised by the 'tram-track' sign (enhancement of the optic nerve sheath surrounding the central optic nerve on axial MRI) — is treated with fractionated stereotactic radiotherapy (fSRT) rather than surgery. Surgery (orbitotomy) invariably sacrifices the optic nerve causing blindness because the meningioma envelops the nerve inextricably. fSRT to 45-54 Gy in 25-30 fractions achieves tumour control and, importantly, stabilises or even improves visual function in 80-90% of patients without sacrificing the nerve. Single-fraction SRS is avoided because the cumulative optic nerve dose exceeds safe thresholds.",
+          "wrong": {
+            "A": "Surgical resection of ONSM invariably causes optic nerve sacrifice and permanent blindness. Surgery is only considered for blind eyes with intracranial extension causing contralateral visual or chiasmal threat — essentially a palliative orbital exenteration context.",
+            "C": "Single-fraction SRS delivers the optic nerve dose in a single high fraction — the optic nerve in ONSM would receive the full prescribed dose and the single-fraction tolerance (8-10 Gy) would be insufficient for tumour control doses. fSRT with fractionation is required.",
+            "D": "Orbital pseudotumour (inflammatory orbital disease) can mimic ONSM but does not show the 'tram-track' optic nerve sheath enhancement pattern. While corticosteroids are the primary treatment for pseudotumour, they are ineffective for ONSM."
+          },
+          "guideline": "CNS Optic Nerve Sheath Meningioma Guidelines 2019 — fSRT 45-54 Gy as treatment of choice for vision-preserving ONSM treatment; surgery only for blind eyes with intracranial extension",
+          "trial": "Baumert BG et al. Fractionated stereotactic radiotherapy for ONSM. Radiother Oncol 2004;73(3):347-351: fSRT 45.0-54.0 Gy: 100% local control at 5 years; 78% improved or stable visual acuity; no patient lost vision from treatment",
+          "pearl": "Optic nerve sheath meningioma = fractionated SRT (not surgery, not single-fraction SRS). The 'tram-track' sign on MRI is characteristic. Surgery causes blindness (nerve sacrifice required). Single-fraction SRS doses are insufficient for control without optic toxicity. fSRT to 50.4 Gy in 28 fractions achieves >95% local control with vision preservation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q16",
+        "stem": "A 60-year-old man has a right-sided atypical (WHO Grade 2) meningioma with brain invasion confirmed on pathology. Pre-operatively, the tumour appeared resectable with Simpson Grade 1 intent. Post-operatively, the pathologist confirms 'brain invasion' as an isolated finding. How does brain invasion independently affect WHO grading in the 2021 classification?",
+        "options": {
+          "A": "Brain invasion upgrades to WHO Grade 3 regardless of mitotic count",
+          "B": "Brain invasion is an independent criterion for WHO Grade 2 regardless of mitotic count",
+          "C": "Brain invasion does not affect grading — only mitotic count matters",
+          "D": "Brain invasion upgrades to WHO Grade 2 only if mitotic count is also ≥4/10 HPF"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In the WHO 2021 CNS Classification, brain invasion is an independent criterion for WHO Grade 2 (atypical) meningioma. Even if the mitotic count is < 4/10 HPF and no other atypical features are present, the finding of brain invasion alone (defined as tumour infiltrating cortex or subcortical white matter without an intervening arachnoid layer) upgrades the tumour to Grade 2. This remains unchanged from the 2016 WHO classification. Brain invasion increases recurrence risk and warrants adjuvant RT consideration.",
+          "wrong": {
+            "A": "Brain invasion alone upgrades to WHO Grade 2, not Grade 3. Grade 3 requires ≥20 mitoses/10 HPF OR frank malignant histology OR CDKN2A/B homozygous deletion OR TERT mutation.",
+            "C": "Brain invasion is explicitly listed as an independent Grade 2 criterion in WHO 2016 and 2021. It absolutely affects grading regardless of mitotic count.",
+            "D": "Brain invasion does not require concurrent mitotic count elevation — it upgrades to Grade 2 as a standalone finding. A meningioma with 2 mitoses/10 HPF but brain invasion = WHO Grade 2."
+          },
+          "guideline": "WHO 2021 CNS Classification — meningioma Grade 2 criteria: 4-19 mitoses/10 HPF OR ≥3 atypical features OR brain invasion (independent criterion); unchanged from 2016",
+          "trial": "Mawrin C & Perry A. Pathological classification and molecular genetics of meningiomas. J Neurooncol 2010;99(3):379-391: brain invasion as independent Grade 2 criterion — same prognosis as high-mitotic-count Grade 2; recurrence significantly higher than Grade 1 without invasion",
+          "pearl": "Brain invasion = WHO Grade 2 regardless of mitotic count. This is a classic exam point. A 'benign-looking' meningioma with only 1-2 mitoses but pathological brain invasion is classified as WHO Grade 2 and requires adjuvant RT consideration after resection."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q17",
+        "stem": "A 35-year-old woman is found to have a 1.2 cm incidental right convexity meningioma on MRI performed for headaches. No peritumoral oedema, no mass effect. She has no neurological deficits. Which is the most appropriate initial management?",
+        "options": {
+          "A": "Immediate craniotomy for resection — meningiomas always grow",
+          "B": "Gamma Knife SRS 14 Gy to prevent future growth",
+          "C": "MRI surveillance at 3-6 months then annually if stable",
+          "D": "Biopsy to confirm WHO grade before deciding treatment"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A small (1.2 cm), incidental, asymptomatic convexity meningioma without oedema or mass effect is best managed with MRI surveillance. Natural history studies show 50-60% of incidental meningiomas remain stable over 5 years. The ROAM/EORTC-1308 trial is evaluating early intervention vs observation. Current consensus favours: initial MRI at 3-6 months to establish growth rate, then annually for 3-5 years if stable, then less frequently. Treatment (surgery or SRS) is indicated only if growth occurs or symptoms develop. Immediate intervention is not justified for a 1.2 cm asymptomatic tumour.",
+          "wrong": {
+            "A": "Not all meningiomas grow — 50-60% remain stable for years. A 1.2 cm asymptomatic lesion in a 35-year-old does not require immediate surgery. Craniotomy for a 1.2 cm lesion would carry surgical risk disproportionate to the natural history risk.",
+            "B": "SRS for a 1.2 cm asymptomatic, stable, unconfirmed meningioma without established growth is premature. SRS is appropriate for growing or symptomatic meningiomas, not for prophylactic treatment of incidental asymptomatic lesions.",
+            "D": "Biopsy of a small incidental superficial meningioma adds procedural risk without changing management — if it is benign (grade 1) on biopsy, management is still observation; if grade 2-3, the lesion would require treatment, but for a 1.2 cm stable asymptomatic tumour this is disproportionate."
+          },
+          "guideline": "EANO Meningioma Guidelines 2021 — incidental meningioma: observation appropriate for small, asymptomatic tumours; MRI at 3-6 months then annually; treatment for growth or symptom development",
+          "trial": "Goldbrunner R et al. EANO guideline for meningioma. Neuro Oncol 2021;23(11):1821-1834: systematic review of incidental meningioma natural history; ~40% grow over 5 years but most slowly; observation recommended for small asymptomatic tumours",
+          "pearl": "Incidental meningioma management follows the principle: small + asymptomatic + stable = observe. Treatment is deferred to documented growth or symptom development. The ROAM trial is the ongoing prospective RCT evaluating observation vs early intervention for incidental meningiomas. Do NOT treat every incidentally discovered meningioma."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q18",
+        "stem": "Post-operative MRI after resection of a right parasagittal meningioma shows a 1 cm enhancing residual nodule at the dural base adjacent to the right middle third of the superior sagittal sinus. The sinus is patent. The surgical report documents Simpson Grade 2 resection. MRI at 6 months shows 3 mm growth of the residual. What is the most appropriate next management?",
+        "options": {
+          "A": "Immediate re-operation for Simpson Grade 1 resection",
+          "B": "Observation for another 6 months to confirm growth trajectory",
+          "C": "Stereotactic radiosurgery (SRS) to the enhancing residual",
+          "D": "Fractionated radiotherapy 54 Gy to the whole surgical bed"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A small (1 cm) growing residual meningioma adjacent to the superior sagittal sinus is ideally suited for Gamma Knife SRS. SRS achieves 93-96% 5-year local control for small WHO Grade 1 meningioma residuals and avoids re-operation with its associated venous risks (sinus adjacent residual). The 3 mm growth over 6 months confirms active growth requiring treatment. SRS is the standard of care for small residual or recurrent meningiomas ≤3 cm not amenable to safe re-operation.",
+          "wrong": {
+            "A": "Re-operation for Simpson Grade 1 would require entering a previously operated field and addressing the sinus-adjacent residual — significantly higher morbidity than the primary procedure. With a 1 cm residual, SRS offers equivalent or superior tumour control with lower risk.",
+            "B": "Growth of 3 mm (30% increase) over 6 months for a 1 cm residual confirms active growth requiring treatment. Further observation risks significant tumour enlargement that may eventually involve the sinus or become too large for SRS.",
+            "D": "Fractionated radiotherapy to the whole surgical bed is more extensive treatment than required for a 1 cm discrete residual. SRS provides precise, high-dose delivery with minimal normal tissue exposure. Whole-field fractionated RT is reserved for large residuals or grade 2-3 tumours."
+          },
+          "guideline": "AANS/CNS Meningioma Guidelines 2019 — growing residual WHO Grade 1 meningioma: SRS is the treatment of choice for residuals ≤3 cm demonstrating growth; 5-year control 93-96%",
+          "trial": "Pollock BE et al. Outcome analysis of WHO Grade 1 meningioma patients treated with Gamma Knife radiosurgery after surgical resection. J Neurosurg 2012;116(4):757-762: SRS for post-operative meningioma residuals: 93% 5-year control; treatment response and tumour control equivalent to de novo SRS",
+          "pearl": "For growing WHO Grade 1 meningioma residuals ≤3 cm: SRS is the preferred treatment — 93-96% 5-year local control with low morbidity. Re-operation carries disproportionate risk for small residuals. The sequential strategy of surgery for debulking + SRS for residual is now standard for skull base and sinus-adjacent meningiomas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q19",
+        "stem": "During a pterional craniotomy for a right clinoidal meningioma, the surgeon encounters difficulty distinguishing the optic nerve from tumour in the optic canal. Which intraoperative technique most directly monitors optic nerve function in real time?",
+        "options": {
+          "A": "Transcranial motor evoked potentials (tcMEP) from the lower extremity",
+          "B": "Flash visual evoked potentials (VEP) from the ipsilateral eye",
+          "C": "Somatosensory evoked potentials (SSEP) from the median nerve",
+          "D": "Intraoperative ultrasound of the optic nerve"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Flash visual evoked potentials (VEP) from the ipsilateral eye monitor optic nerve and optic tract function during surgery in the anterior cranial fossa, orbit, or parasellar region. Flash stimulation is delivered through a light-emitting diode placed over the closed eyelid; the cortical P100 component is monitored. Amplitude reduction or latency prolongation warns of optic nerve or chiasmal stress. While flash VEP has technical challenges (sensitivity to anaesthetic agents, pupil dilation, retinal ischaemia interpretation), it remains the best available real-time monitor for anterior visual pathway integrity during clinoidal meningioma surgery.",
+          "wrong": {
+            "A": "Transcranial MEPs from the lower extremity monitor the corticospinal tract (motor function) — relevant for spine and posterior fossa surgery but not optic nerve monitoring.",
+            "C": "SSEP from the median nerve monitors somatosensory pathways (dorsal column/medial lemniscus) — not the visual pathway.",
+            "D": "Intraoperative ultrasound can image tumour-nerve relationships anatomically but does not provide real-time functional assessment of optic nerve conduction."
+          },
+          "guideline": "EANS Intraoperative Neurophysiological Monitoring 2020 — anterior visual pathway monitoring: flash VEP for optic nerve and chiasm; technical limitations acknowledged; best available modality for anterior visual pathway",
+          "trial": "Faulkner HJ et al. Monitoring the visual evoked potential during surgery for pituitary and parasellar tumours. Br J Neurosurg 2007;21(4):376-380: flash VEP monitoring during anterior skull base surgery: sensitivity for visual pathway compromise ~70%, specificity ~95%; amplitude changes > 50% predictive of postoperative visual loss",
+          "pearl": "Flash VEP monitors the anterior visual pathway (optic nerve, chiasm, optic tract) during clinoidal and parasellar surgery. A > 50% amplitude drop or > 10% latency prolongation of P100 warns of optic nerve stress. While imperfect, flash VEP is the only intraoperative modality for anterior visual pathway monitoring — alert your neurophysiology team preoperatively."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q20",
+        "stem": "A 55-year-old man undergoes Gamma Knife radiosurgery for a 2 cm right cavernous sinus meningioma. The prescribed marginal dose is 14 Gy to the 50% isodose. He returns 18 months later with a new right CN VI palsy. MRI shows the treated tumour is stable in size with central necrosis. What is the most likely explanation for his new deficit?",
+        "options": {
+          "A": "Tumour progression causing increased CN VI compression",
+          "B": "Radiation-induced cranial nerve injury (radiation neuropathy)",
+          "C": "Radiation-induced secondary malignancy",
+          "D": "Pseudoprogression — oedema from radiation response mimicking progression"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "New cranial nerve deficit 18 months after SRS for cavernous sinus meningioma, with stable (non-progressing) tumour size and central necrosis indicating radiation response, is most consistent with radiation-induced cranial nerve injury (radiation neuropathy). CN VI (abducens) is the most vulnerable cranial nerve in the cavernous sinus due to its free position within the sinus (not embedded in the lateral wall). SRS-related CN injury occurs in approximately 5-10% of cavernous sinus meningioma cases, typically presenting 6-24 months post-treatment. It may improve over months or be permanent. The absence of tumour growth distinguishes this from progressive disease.",
+          "wrong": {
+            "A": "Tumour progression causing new CN palsy would be expected to show tumour enlargement on MRI. The stable tumour with central necrosis (a radiation response) excludes active progression as the cause.",
+            "C": "Radiation-induced secondary malignancy has a latency of typically >5-10 years after SRS — not 18 months. It is exceedingly rare after single-fraction SRS.",
+            "D": "Pseudoprogression manifests as transient MRI signal changes with or without clinical symptoms — but this patient's MRI shows stable or decreased tumour (central necrosis = treatment response). Pseudoprogression represents transient treatment-related changes that then resolve, not delayed-onset CN palsy."
+          },
+          "guideline": "ISRS SRS Cavernous Sinus Meningioma Guidelines 2018 — radiation-induced CN injury: CN VI most vulnerable (free position in sinus); risk 5-10% at marginal doses 12-16 Gy; typically occurs 6-24 months post-SRS",
+          "trial": "Pollock BE & Stafford SL. Cavernous sinus meningioma — Int J Radiat Oncol 2005;62:1427-1431: CN injury rate 9.7% at median follow-up 36 months; CN VI affected most frequently; improvement in 40% over 12 months",
+          "pearl": "New cranial nerve deficit after SRS for cavernous sinus meningioma with stable/improved tumour on MRI = radiation neuropathy, not tumour progression. CN VI is most vulnerable in the cavernous sinus. Radiation neuropathy typically presents 6-24 months post-SRS. It may partially recover over 12 months with conservative management (steroids for acute phase, physiotherapy)."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

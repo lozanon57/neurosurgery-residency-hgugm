@@ -1,0 +1,627 @@
+{
+  "id": "B1",
+  "title": "Ictus Isquémico y Neurocirugía de Emergencia",
+  "subtitle": "Block B — Cerebrovascular: Decompressive Craniectomy, Endovascular Therapy, and Surgical Complications",
+  "block": "B",
+  "block_name": "Cerebrovascular",
+  "level": "R2-4",
+  "reading_time_min": 40,
+  "guidelines_version": "ESO Stroke Guidelines 2021 · AHA/ASA Stroke Guidelines 2019 · EANS Cerebrovascular Guidelines 2021",
+  "textbook_refs": [
+    "Vahedi K et al. Early decompressive surgery in malignant infarction of the middle cerebral artery: a pooled analysis. Lancet Neurol 2007;6:215-222",
+    "Hofmeijer J et al. Surgical decompression for space-occupying cerebral infarction. Stroke 2009;40:2518-2523",
+    "Jüttler E et al. Hemicraniectomy in older patients with extensive middle-cerebral-artery stroke (DESTINY II). NEJM 2014;370:1091-1100",
+    "Albers GW et al. Thrombectomy for stroke at 6 to 16 hours with selection by perfusion imaging. NEJM 2018;378:708-718"
+  ],
+  "learning_objectives": [
+    "Define malignant middle cerebral artery (MCA) infarction and its natural history, and apply criteria for decompressive craniectomy from pooled analysis evidence",
+    "Describe the surgical technique of decompressive hemicraniectomy including optimal flap size, temporal myofascial attachment, and duraplasty",
+    "Apply the DESTINY II trial findings regarding decompressive craniectomy in elderly patients to clinical decision-making and patient counselling",
+    "Outline the neurosurgical complications of ischaemic stroke including haemorrhagic transformation, malignant oedema, and hydrocephalus",
+    "Identify the timing windows and criteria for endovascular thrombectomy (EVT) and the neurosurgeon's role in acute stroke management",
+    "Describe the management of carotid endarterectomy complications and post-endarterectomy hyperperfusion syndrome"
+  ],
+  "sections": [
+    {
+      "id": "B1-S1",
+      "title": "Malignant MCA Infarction: Natural History and Indications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Malignant middle cerebral artery (MCA) infarction — defined as infarction of ≥50% of the MCA territory, often with involvement of other territories — occurs in approximately 10-15% of supratentorial ischaemic strokes. The natural history is devastating: progressive cerebral oedema peaks at 48-96 hours post-infarction, causing transtentorial herniation and death in 70-80% of patients treated medically, with median survival of 3-5 days. The swelling results from cytotoxic oedema (cell death → cell swelling) combined with secondary vasogenic oedema, causing mean midline shift of 10-15 mm at peak.\n\n**Predictors of malignant course**: Infarct volume >145 cm³ on DWI within the first 14 hours predicts malignant swelling with 100% sensitivity and 94% specificity (Oppenheim et al., Neurology 2000). Other predictors: NIHSS >15-20, early CT hypo-densification >50% MCA territory, nausea/vomiting (reflecting raised ICP), and age <60 years (paradoxically, younger patients have less cerebral atrophy and therefore less buffering capacity for oedema).\n\n**Pathophysiology of herniation**: The rigid skull with limited compliance means that oedematous cerebral tissue shifts across the tentorium (transtentorial herniation) or across the midline (subfalcine herniation). Clinical signs of herniation: (1) Cushing's triad (hypertension + bradycardia + irregular respiration), (2) progressive contralateral hemiplegia worsening, (3) ipsilateral pupillary dilation (CN III compression), (4) reduced consciousness progressing to coma. The critical window for intervention is before pupillary dilation — once transtentorial herniation is established with a fixed dilated pupil, outcomes are dramatically worse."
+        },
+        {
+          "type": "table",
+          "title": "Predictors of Malignant MCA Infarction",
+          "headers": ["Predictor", "Threshold", "Sensitivity", "Specificity", "Timing"],
+          "rows": [
+            ["DWI infarct volume", ">145 cm³", "100%", "94%", "<14 hours"],
+            ["NIHSS score", ">20 (dominant) />15 (non-dominant)", "High", "Moderate", "Admission"],
+            ["CT early ischaemic signs", ">50% MCA territory hypodensity", "Moderate", "High", "6-12 hours"],
+            ["Nausea/vomiting", "Any early vomiting", "Moderate", "Moderate", "First 24 hours"],
+            ["Age", "<60 years (less atrophy)", "— (risk factor)", "—", "Clinical"],
+            ["Contralateral carotid", "ICA occlusion + MCA occlusion", "High", "Moderate", "First hours"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — DWI Volume >145 cm³ in First 14 Hours = Malignant Infarction",
+          "content": "The most sensitive and specific predictor of malignant MCA infarction is DWI volume >145 cm³ within the first 14 hours (Oppenheim 2000: 100% sensitivity, 94% specificity). In clinical practice, this criterion guides early discussion about decompressive craniectomy with patient and family before herniation develops. Timing is critical — discussion must occur on day 1, not when the patient is herniating."
+        }
+      ]
+    },
+    {
+      "id": "B1-S2",
+      "title": "Decompressive Hemicraniectomy: Evidence and Surgical Technique",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Decompressive hemicraniectomy (DHC) is the surgical treatment for malignant MCA infarction with level I evidence from multiple randomised controlled trials. The landmark **pooled analysis** by Vahedi et al. (Lancet Neurol 2007) combined data from three European RCTs: DESTINY (Germany), HAMLET (Netherlands), and DECIMAL (France). Pooled analysis (n=93, all ≤55 years): DHC within 48 hours reduced absolute mortality by 50% (22% DHC vs 71% medical, p<0.0001) and significantly improved functional outcome at 12 months (mRS ≤3: 43% DHC vs 21% medical, p=0.014). **Number needed to treat = 2** to prevent one death; number needed to treat = 4 to achieve one additional patient with mRS ≤3.\n\nKey eligibility criteria from trials (all ≤55 years): age ≤55, NIHSS ≥15 (dominant) or ≥10 (non-dominant hemisphere), CT/MRI infarct ≥50% MCA territory, onset-to-surgery ≤48 hours (benefit greatest ≤48 hours; later is controversial). DHC dramatically saves lives but at a cost: survivors include patients with severe disability (mRS 4-5). The ethical tension between survival with disability vs death is central to DHC counselling. Structured decision aids and advance directives are important.\n\n**DESTINY II trial** (Jüttler et al. NEJM 2014): Extended DHC to patients aged 61-80 years. DHC vs medical: mortality 33% vs 70% (p<0.001). However, no patient in the surgical group achieved mRS ≤2 (functional independence); most survivors had mRS 4 (moderate-severe disability). The key finding: surgery saves lives in elderly patients but with high rates of severe disability. This requires very explicit counselling about expected outcome quality.\n\n**Surgical technique**: Large free bone flap, centred over the infarct, at least 12 × 15 cm (minimum diameter 12 cm) — larger is better for pressure relief. The anterior limit is the frontal lobe, temporal bone is flattened to the middle fossa floor, with the pterion included. The dura is opened widely and a patch duraplasty (using pericranium, temporalis fascia, or artificial dura) expands the dural compartment. The temporal muscle and its fascia are carefully reattached to prevent cosmetic deformity. Cranioplasty is performed 6-12 weeks later with the autologous bone flap (stored frozen) or a custom implant."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Inadequate Craniectomy Size",
+          "content": "A craniectomy <12 cm diameter is insufficient for decompressive craniectomy in malignant MCA infarction. A small craniectomy causes 'brain mushrooming' at the edges with focal venous congestion and haemorrhage, paradoxically worsening outcome. The minimum bone flap for DHC should be 12 × 15 cm. Multiple series confirm that craniectomy size is an independent predictor of mortality after DHC — larger flap = better decompression = better outcome."
+        },
+        {
+          "type": "clinical",
+          "variant": "clinical",
+          "title": "Clinical Context — DHC Decision in a 58-Year-Old",
+          "content": "A 58-year-old right-handed woman presents with acute left MCA territory infarction (NIHSS 22, right arm/leg/face plegia, aphasia). MRI DWI at 12 hours shows volume 180 cm³. CT at 18 hours shows complete left MCA territory hypodensity with 8 mm midline shift. She is obtunded. Family: she previously stated she 'never wanted to be a vegetable.' This situation requires urgent family meeting with neurosurgery, neurology, and palliative care. DHC will likely save her life but with expected mRS 3-4 (dependent for some/all daily activities). Her previously expressed wishes and values should guide the decision. Pre-emptive DNR discussion is appropriate if family decide against DHC."
+        }
+      ]
+    },
+    {
+      "id": "B1-S3",
+      "title": "Cerebellar Infarction and Posterior Fossa Decompression",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cerebellar infarction can cause life-threatening complications through two mechanisms: (1) direct cerebellar swelling causing **brainstem compression** (the posterior fossa has even less compliance than the supratentorial compartment), and (2) obstruction of the fourth ventricle causing **obstructive hydrocephalus**. Large cerebellar infarcts (particularly those involving the posterior inferior cerebellar artery, PICA territory) or multiple territory infarcts carry the highest risk.\n\nClinical deterioration from cerebellar swelling is characteristically **delayed (24-96 hours)** and may occur precipitously. Warning signs: decreasing consciousness, worsening nausea/vomiting, sixth nerve palsy, and new respiratory irregularity. CT surveillance every 6-12 hours is mandatory for large cerebellar infarcts in the first 72 hours.\n\n**Treatment options**: (1) **External ventricular drain (EVD)**: treats obstructive hydrocephalus but does NOT address the primary brainstem compression from cerebellar swelling — and may paradoxically worsen upward transtentorial herniation by removing pressure from the infratentorial compartment. EVD alone is insufficient if brainstem compression from cerebellar tissue is the primary mechanism. (2) **Suboccipital craniectomy with duraplasty**: directly decompresses the posterior fossa, removes infarcted swollen cerebellar tissue (partial lobectomy), and relieves brainstem compression. This is the definitive procedure when compression is present. Suboccipital craniectomy significantly reduces mortality in large cerebellar infarction with herniation from approximately 80% to 20-30% in contemporary series. Timing: the earlier the better, before fixed brainstem damage occurs.\n\n**A combined approach** (EVD + suboccipital craniectomy) is used when both hydrocephalus and brainstem compression coexist. The critical principle: **do not place EVD alone** in cerebellar herniation — perform suboccipital craniectomy first or simultaneously."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — EVD Alone in Cerebellar Herniation",
+          "content": "Placing an EVD alone for cerebellar infarction with brainstem compression (not just hydrocephalus) is dangerous. Rapid CSF drainage supratentorially can worsen upward transtentorial herniation (the infarcted cerebellum is pulled upward). In patients with cerebellar swelling AND brainstem compression, suboccipital craniectomy is the primary intervention. EVD may be added for hydrocephalus component, but never as a substitute for decompression."
+        }
+      ]
+    },
+    {
+      "id": "B1-S4",
+      "title": "Haemorrhagic Transformation and Neurosurgical Complications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Haemorrhagic transformation (HT) of ischaemic stroke occurs in up to 40% of cases, with severity ranging from petechial (HI1 and HI2, haemorrhagic infarction) to parenchymal (PH1 and PH2, parenchymal haematoma). The **ECASS classification** grades HT by radiological appearance: HI1 (small petechiae), HI2 (confluent petechiae), PH1 (≤30% of infarct, mild mass effect), PH2 (>30% of infarct or outside infarct, significant mass effect). PH2 is the most clinically significant form and is associated with neurological deterioration and poor outcome.\n\n**Symptomatic intracranial haemorrhage (sICH)** after IV tPA or endovascular thrombectomy is defined as any HT associated with ≥4-point NIHSS worsening. Incidence after IV tPA: approximately 6% (SITS-MOST registry); after EVT: 5-7%. Risk factors: large infarct volume, hyperglycaemia, poor collateral circulation, and time from onset to treatment.\n\n**Neurosurgical management of post-thrombolysis haemorrhage**: Haemorrhage occurring after IV tPA requires: (1) immediate stop of tPA infusion, (2) reverse anticoagulation if relevant, (3) **cryoprecipitate** (10 units IV) to replace fibrinogen (target ≥150 mg/dL), (4) **tranexamic acid** 1 g IV, and (5) consider platelet transfusion if <100,000/µL. Neurosurgical consultation for haematoma evacuation is indicated if: haematoma volume >30 mL, significant mass effect with neurological deterioration, posterior fossa haematoma. Delay in reversing coagulopathy after sICH from tPA is associated with haematoma expansion.\n\n**Post-carotid endarterectomy complications** relevant to neurosurgery: (1) Hyperperfusion syndrome (CHS): sudden ipsilateral headache, seizures, and focal neurological deficits occurring 2-7 days after successful CEA, caused by loss of cerebral autoregulation in a previously hypo-perfused territory. CT/MRI may show oedema or haemorrhage. Treatment: strict BP control (target <140/90), anticonvulsants if seizures occur. Avoidance: staged CEA, gradual shunting, post-operative BP monitoring. (2) Cervical haematoma: immediate re-exploration if compressing the airway."
+        },
+        {
+          "type": "table",
+          "title": "ECASS Haemorrhagic Transformation Classification",
+          "headers": ["Type", "Radiological Appearance", "Clinical Impact", "Neurosurgical Action"],
+          "rows": [
+            ["HI1", "Small petechiae at infarct margin", "None (asymptomatic)", "No surgical action"],
+            ["HI2", "Confluent petechiae throughout infarct, no mass effect", "Minimal", "No surgical action"],
+            ["PH1", "Haematoma ≤30% of infarct, mild mass effect", "Variable (may be symptomatic)", "Monitor; consider if deteriorating"],
+            ["PH2", "Haematoma >30% of infarct or remote, significant mass effect", "Neurological deterioration (sICH)", "Surgical evaluation if >30 mL and deteriorating"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1-S5",
+      "title": "Endovascular Thrombectomy and Neurosurgical Role",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Mechanical endovascular thrombectomy (EVT) has transformed acute ischaemic stroke management, with level I evidence from seven positive RCTs (MR CLEAN, ESCAPE, EXTEND-IA, SWIFT PRIME, REVASCAT, DAWN, DEFUSE-3). EVT achieves functional independence (mRS 0-2) at 90 days in approximately 46% of patients versus 26-28% with medical management (number needed to treat ~5).\n\n**DAWN trial** (Nogueira et al. NEJM 2018) and **DEFUSE-3 trial** (Albers et al. NEJM 2018) extended the thrombectomy window to 6-24 hours and 6-16 hours respectively using imaging-based selection (small core infarct + large perfusion mismatch — 'penumbra'). DAWN used clinical-imaging mismatch (small infarct relative to large NIHSS deficit); DEFUSE-3 used CT perfusion or MRI perfusion mismatch.\n\n**Neurosurgical role in acute stroke**: The neurosurgeon's primary responsibilities in the acute stroke pathway are: (1) decision on decompressive craniectomy for malignant infarction (as above), (2) management of haemorrhagic transformation complications, (3) EVD placement for obstructive hydrocephalus (cerebellar infarction with fourth ventricle compression, large intraventricular haemorrhage), (4) management of mechanical complications of EVT (vessel perforation, arterial dissection causing subarachnoid haemorrhage, cavernous sinus fistula from guidewire injury). The neurosurgeon is an essential member of the acute stroke team but is typically not the proceduralist for EVT (performed by neuroradiology/interventional neurology).\n\n**Occlusion locations and thrombectomy targets**: Large vessel occlusion (LVO) refers to: ICA, M1 MCA, M2 MCA, BA (basilar artery), V4 vertebral artery. **Basilar artery occlusion** (BAO) is particularly relevant neurosurgically — mortality without recanalization 80-90%, with successful recanalization 30-40%. The **BASICS trial** (Langezaal et al. NEJM 2021) compared IV tPA alone vs tPA + EVT in BAO and showed no significant benefit for combined therapy (mRS 0-2 at 90 days: 44.2% EVT vs 37.7% tPA alone; p=0.10), though patients with severe deficit (NIHSS ≥10) showed a trend toward benefit."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — DAWN and DEFUSE-3: Extended Thrombectomy Window to 24 Hours",
+          "content": "DAWN trial (NEJM 2018): thrombectomy 6-24 hours after onset with clinical-imaging mismatch (small DWI core, large NIHSS deficit) — mRS 0-2: 49% EVT vs 13% medical (OR 0.42, p<0.001). DEFUSE-3 (NEJM 2018): 6-16 hours with perfusion mismatch — mRS 0-2: 45% vs 17% (p<0.001). Both trials established imaging-based patient selection (not time alone) as the paradigm for extended-window EVT."
+        }
+      ]
+    },
+    {
+      "id": "B1-S6",
+      "title": "ICP Management in Large Hemisphere Infarction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Medical management of raised ICP in malignant MCA infarction is used as a bridge to surgery or as definitive management when surgery is declined. The **Berlin ICP protocol** and DESTINY/DECIMAL protocols used standard medical measures including: head elevation 30 degrees, sedation and analgesia (propofol, opioids), mannitol 0.25-0.5 g/kg IV over 20 minutes (reduces ICP by osmotic effect, maximum effect at 20-30 minutes, lasts 4-6 hours), and hypertonic saline (3% or 23.4% NaCl, target serum Na 145-155 mmol/L for sustained osmotic effect).\n\n**Mannitol vs hypertonic saline**: Both reduce ICP effectively. Hypertonic saline has advantages in patients with pre-existing hypovolaemia (mannitol causes initial hyperosmotic diuresis). Long-term sustained ICP reduction favours hypertonic saline. Hypertonic saline (7.5% or 20%) can be used as continuous infusion to maintain serum osmolality 310-320 mOsm/kg. The choice between agents depends on institutional protocol and patient haemodynamics.\n\n**Corticosteroids**: Dexamethasone is NOT indicated for cytotoxic cerebral oedema from ischaemic stroke. Multiple trials have shown no benefit and potential harm (increased infectious complications, hyperglycaemia worsening ischaemia). Steroids are effective only for vasogenic oedema (brain tumours, abscesses) — NOT ischaemic stroke oedema. This is a critical distinction from tumour management.\n\n**Intubation and hyperventilation**: PaCO₂ reduction by hyperventilation (target PaCO₂ 35-40 mmHg) causes cerebral vasoconstriction and temporarily reduces ICP within minutes. However, this is a bridging measure only (effect wanes after 4-6 hours due to CSF pH buffering) and prolonged hyperventilation causes ischaemia. Neuromuscular blockade may be added for resistant ICP elevation in intubated patients. Target CPP ≥60-70 mmHg."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Dexamethasone for Ischaemic Stroke Oedema",
+          "content": "Dexamethasone is CONTRAINDICATED for cerebral oedema from ischaemic stroke. It is only effective for vasogenic oedema (tumours, abscesses). Ischaemic stroke causes cytotoxic oedema — dead cells swelling — which steroids do not treat. Multiple RCTs confirm dexamethasone has no benefit in ischaemic stroke and increases complications. Never prescribe steroids for malignant MCA infarction oedema — this is a classic exam pitfall and a patient safety issue."
+        }
+      ]
+    },
+    {
+      "id": "B1-S7",
+      "title": "Cranioplasty After Decompressive Craniectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cranioplasty (bone flap replacement) after DHC is performed 6-12 weeks after the initial decompressive surgery. Earlier cranioplasty (<6 weeks) is associated with higher complication rates (wound healing, surgical site infection) because the scalp and brain are still in the post-injury/post-ischaemic inflammatory state. Later cranioplasty (>12 weeks) risks paradoxical syndrome of the trephined (sunken flap syndrome), in which the exposed cortex without bone covering causes symptoms of cerebral ischaemia from atmospheric pressure changes, particularly in hot and cold weather.\n\n**Cranioplasty materials**: The autologous bone flap (cryopreserved at -80°C) is the gold standard, with lowest infection rate and best cosmetic result. However, autologous bone may be resorbed over time (5-10% resorption rate, particularly in young patients and large flaps). **Synthetic alternatives**: (1) Titanium mesh/custom titanium implant: strong, long-lasting, MRI compatible; (2) Polyetheretherketone (PEEK): lightweight, radiolucent (does not artefact CT/MRI), excellent biomechanical properties; (3) Hydroxyapatite cement: used for smaller defects. Custom 3D-printed implants (titanium or PEEK) are increasingly used for complex defects.\n\n**Complications of cranioplasty**: (1) **Surgical site infection (SSI)**: the most common serious complication, occurring in 2-10%, higher rates with previous RT, diabetes, and immunocompromise. SSI requires implant removal and aggressive wound management; (2) **Epidural/subdural haematoma**: acute post-operative collection requiring evacuation; (3) **Seizures**: risk increases post-cranioplasty, prophylactic anticonvulsants for 3 months is common practice; (4) **Brain swelling/herniation**: rare but catastrophic if cranioplasty is performed too early over a very oedematous brain; (5) **Bone flap resorption**: common in paediatric patients and large flaps; follow-up imaging at 12 months."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Timing of Cranioplasty",
+          "content": "A 45-year-old man underwent emergency left DHC 8 weeks ago for malignant MCA infarction. He is now in rehabilitation, NIHSS improved to 12, walking with assistance. He reports headaches in cold weather and dizziness when changing posture — typical features of paradoxical syndrome of the trephined. MRI shows inward displacement of the cortex through the cranial defect. Cranioplasty is now indicated. Pre-operative assessment: rule out scalp infection, bone flap in good condition (CT scan), systemic fitness for anaesthesia. Plan: autologous bone flap replacement or PEEK custom implant if bone quality is poor."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of ischaemic stroke neurosurgical management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B1-Q1",
+        "stem": "According to the pooled analysis of DESTINY, HAMLET, and DECIMAL trials (Vahedi et al. Lancet Neurol 2007), what was the number needed to treat with decompressive hemicraniectomy to prevent one death in malignant MCA infarction patients ≤55 years?",
+        "options": {
+          "A": "10",
+          "B": "5",
+          "C": "2",
+          "D": "1"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The pooled analysis (Vahedi et al. Lancet Neurol 2007, n=93) demonstrated that DHC reduced mortality from 71% (medical) to 22% (surgical) — an absolute risk reduction of 49%. Number needed to treat = 1/ARR = 1/0.49 ≈ 2. This remarkable NNT of 2 makes DHC one of the most effective surgical interventions in neurosurgery. However, the benefit in terms of functional independence (mRS ≤2) was less dramatic — NNT ≈4-7 for mRS ≤3.",
+          "wrong": {
+            "A": "NNT of 10 would imply only 10% absolute risk reduction. The actual ARR is approximately 49%, giving NNT ≈2.",
+            "B": "NNT of 5 would imply 20% absolute risk reduction. The pooled analysis showed ~50% ARR for mortality.",
+            "D": "NNT of 1 would mean 100% absolute risk reduction — every surgically treated patient lives and every medical patient dies. While the benefit is large, it is not quite this extreme."
+          },
+          "guideline": "EANS Cerebrovascular Guidelines 2021 — DHC for malignant MCA infarction: Level I evidence; pooled analysis NNT=2 for mortality; ESO Stroke 2021",
+          "trial": "Vahedi K et al. Lancet Neurol 2007: Pooled analysis DESTINY+HAMLET+DECIMAL, n=93, ≤55 yr — mortality 22% DHC vs 71% medical (ARR 49%, NNT=2); mRS ≤3: 43% DHC vs 21% medical",
+          "pearl": "DHC pooled analysis NNT for mortality = 2 (one of the lowest NNT in neurosurgery). But 43% DHC patients had mRS ≤3 vs 21% medical — substantial patients survive with moderate-severe disability. This NNT vs functional outcome tension defines DHC counselling."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q2",
+        "stem": "The DESTINY II trial (Jüttler et al. NEJM 2014) evaluated decompressive hemicraniectomy in patients aged 61-80 with malignant MCA infarction. The KEY finding regarding functional outcome was:",
+        "options": {
+          "A": "Most surgically treated elderly patients achieved independent function (mRS ≤2)",
+          "B": "No elderly patients achieved independent function (mRS ≤2); most survivors had moderate-severe disability (mRS 4)",
+          "C": "DHC reduced mortality without any survivors having severe disability",
+          "D": "DHC showed no mortality benefit in elderly patients compared to medical treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "DESTINY II (Jüttler et al. NEJM 2014) randomised 112 patients aged 61-80 with malignant MCA infarction to DHC vs medical management. DHC significantly reduced mortality (33% vs 70%, p<0.001). However, the critical finding was that NO patient in the surgical group achieved mRS ≤2 (independent function) — the best outcomes were mRS 3 (moderate disability) in a small proportion, with most survivors having mRS 4 (moderate-severe disability, unable to walk without assistance). This finding dramatically changed the counselling for elderly patients: surgery saves lives but the quality of those saved lives requires explicit discussion about disability tolerance with patients and families.",
+          "wrong": {
+            "A": "DESTINY II showed the opposite — no elderly surgical patients achieved mRS ≤2. Independent function was not achieved by any DESTINY II DHC patient.",
+            "C": "DHC significantly reduced mortality in DESTINY II (33% vs 70%). Severe disability was NOT prevented — most survivors had mRS 4.",
+            "D": "DHC did show significant mortality benefit in elderly patients (33% vs 70%, p<0.001). The concern was not lack of benefit but quality of that survival."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — DHC in patients >60 years: reduces mortality but high rates of severe disability; shared decision-making mandatory; EANS Cerebrovascular 2021",
+          "trial": "Jüttler E et al. NEJM 2014 (DESTINY II): 112 pts aged 61-80, malignant MCA — DHC vs medical; mortality 33% vs 70% (p<0.001); mRS ≤2: 0% DHC; mRS 4: 42% DHC; counselling paradigm changed for elderly patients",
+          "pearl": "DESTINY II: elderly patients (61-80 yr) — DHC saves lives (33% vs 70% mortality) but NO patient achieves mRS ≤2. Most survivors = mRS 4 (severely disabled). This is the most important finding for DHC counselling in elderly patients: discuss expected disability level explicitly before consent."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q3",
+        "stem": "A 62-year-old woman presents 10 hours after onset of severe ataxia and vomiting. MRI shows a 4 × 3 × 3.5 cm left PICA territory cerebellar infarction with complete effacement of the fourth ventricle and developing obstructive hydrocephalus (lateral ventricles moderately dilated). She is drowsy but responsive. What is the correct neurosurgical management?",
+        "options": {
+          "A": "External ventricular drain (EVD) alone for hydrocephalus management",
+          "B": "Suboccipital craniectomy + duraplasty to decompress the posterior fossa, with EVD as needed for hydrocephalus",
+          "C": "Lumbar drain for CSF diversion",
+          "D": "Observation with medical ICP management; surgery only if coma develops"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has a large cerebellar infarction with fourth ventricle effacement and obstructive hydrocephalus — both components require surgical management. The primary intervention is suboccipital craniectomy with duraplasty to directly decompress the posterior fossa and relieve brainstem compression from the swollen cerebellum. EVD placement is added to manage the hydrocephalus component. EVD alone is dangerous because it can worsen upward transtentorial herniation (decompressing supratentorial pressure without addressing the primary infratentorial compression). The patient is still drowsy but responsive — this is the window for effective intervention before irreversible brainstem injury.",
+          "wrong": {
+            "A": "EVD alone is insufficient and potentially dangerous for cerebellar infarction with brainstem compression. It treats hydrocephalus but not the primary brainstem compression from swollen cerebellar tissue. Worse, rapid supratentorial decompression via EVD can cause upward herniation.",
+            "C": "Lumbar drain is contraindicated in the presence of posterior fossa mass effect and obstructive hydrocephalus — it removes CSF below the obstructed level, worsening the pressure differential and precipitating tonsillar herniation.",
+            "D": "Waiting until coma develops before surgical intervention significantly worsens outcomes in cerebellar herniation. Brainstem compression causes irreversible injury if sustained — intervention must precede fixed brainstem damage. This patient requires surgery now."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Large cerebellar infarction with brainstem compression: suboccipital craniectomy ± EVD recommended; EVD alone insufficient for herniation; EANS Cerebrovascular 2021",
+          "trial": "Pfefferkorn T et al. Stroke 2004: Large cerebellar infarction management — suboccipital craniectomy vs EVD alone vs medical: craniectomy mortality 20% vs EVD alone 53% vs medical 80%; EVD alone worsened upward herniation in 3/8 patients",
+          "pearl": "Cerebellar infarction + fourth ventricle effacement + hydrocephalus: DO NOT use EVD alone (upward herniation risk). Use suboccipital craniectomy + duraplasty (primary decompression) ± EVD for hydrocephalus. Act before coma — brainstem herniation is reversible only if treated early."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q4",
+        "stem": "DWI infarct volume >145 cm³ within 14 hours of stroke onset predicts malignant MCA infarction with what sensitivity and specificity?",
+        "options": {
+          "A": "Sensitivity 70%, specificity 85%",
+          "B": "Sensitivity 85%, specificity 95%",
+          "C": "Sensitivity 100%, specificity 94%",
+          "D": "Sensitivity 50%, specificity 50%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Oppenheim et al. (Neurology 2000) established that DWI infarct volume >145 cm³ within the first 14 hours predicts malignant MCA infarction with 100% sensitivity and 94% specificity. This high sensitivity means no malignant cases are missed (all patients who will develop malignant swelling are identified); the high specificity means 94% of patients predicted to have malignant course actually do. This threshold is used to identify patients for early DHC counselling and planning.",
+          "wrong": {
+            "A": "70% sensitivity would miss 30% of patients who will develop malignant infarction — too low to rely upon for clinical decision-making.",
+            "B": "85% sensitivity is the performance of clinical predictors (NIHSS >20); DWI volume is more accurate.",
+            "D": "50% sensitivity and specificity would be no better than a coin flip — this severely underestimates the accuracy of DWI volume threshold."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — DWI volume >145 cm³ as primary imaging criterion for malignant infarction prediction and DHC candidacy assessment",
+          "trial": "Oppenheim C et al. Neurology 2000: 23 patients — DWI volume >145 cm³ within 14 hours predicted malignant infarction with 100% sensitivity, 94% specificity; validated in multiple subsequent series; remains standard imaging criterion",
+          "pearl": "DWI >145 cm³ in <14 hours = malignant MCA infarction (100% sensitivity, 94% specificity). This finding triggers: (1) early neurosurgical consultation, (2) family meeting about DHC, (3) close monitoring for herniation signs, (4) ICU admission. Do not wait for herniation to discuss DHC."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q5",
+        "stem": "A 50-year-old man receives IV tPA for acute right MCA infarction. 90 minutes after tPA completion, he develops sudden severe worsening of his left hemiplegia. CT shows a large intraparenchymal haemorrhage in the right MCA territory with significant mass effect (ECASS PH2 pattern). What is the immediate management?",
+        "options": {
+          "A": "Continue observation — all post-tPA haemorrhages resolve spontaneously",
+          "B": "Stop tPA infusion (if still running), give cryoprecipitate 10 units IV, tranexamic acid 1 g IV, neurosurgical evaluation",
+          "C": "Administer vitamin K 10 mg IV to reverse tPA",
+          "D": "Give fresh frozen plasma 2 units to reverse tPA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-tPA symptomatic intracranial haemorrhage (sICH) requires immediate reversal of the thrombolytic state. tPA depletes fibrinogen and causes a coagulopathic state. Management: (1) stop tPA if still infusing, (2) cryoprecipitate 10 units IV (each unit contains 250 mg fibrinogen; target fibrinogen ≥150-200 mg/dL), (3) tranexamic acid 1 g IV (inhibits fibrinolysis), (4) platelet transfusion if <100,000, (5) neurosurgical evaluation for haematoma evacuation if indicated (>30 mL, significant mass effect with deterioration). Act immediately — haematoma expansion occurs rapidly in the post-tPA coagulopathic state.",
+          "wrong": {
+            "A": "Post-tPA sICH is a medical emergency, not a self-limited event. Failure to act leads to haematoma expansion, herniation, and death in most cases.",
+            "C": "Vitamin K reverses vitamin K-dependent anticoagulants (warfarin, anti-Xa agents) but has NO role in reversing tPA-induced fibrinogen depletion. Vitamin K takes 12-24 hours to work and addresses a different coagulopathy pathway.",
+            "D": "FFP contains clotting factors but is not optimal for reversing tPA-induced fibrinogenopenia — it provides too low a fibrinogen concentration per volume. Cryoprecipitate is the specific treatment as it provides high-concentration fibrinogen (250 mg/unit) in a small volume."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines 2019 — Post-tPA sICH: cryoprecipitate + tranexamic acid + neurosurgical evaluation; ESO Stroke 2021 — Fibrinogen replacement with cryoprecipitate",
+          "trial": "Yaghi S et al. Stroke 2014: Post-thrombolysis sICH management — cryoprecipitate significantly reduces haematoma expansion vs no reversal; Frontera JA et al. Neurocrit Care 2016: Management protocol for post-tPA haemorrhage — cryoprecipitate 10 units IV achieves target fibrinogen >150 mg/dL in >90%",
+          "pearl": "Post-tPA sICH management: STOP tPA → cryoprecipitate 10 units (replace fibrinogen, target >150 mg/dL) + tranexamic acid 1 g IV → platelet transfusion if <100K → neurosurgery if >30 mL + deteriorating. Vitamin K = WRONG (wrong mechanism). FFP = suboptimal. Cryoprecipitate = correct."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q6",
+        "stem": "The DAWN trial (Nogueira et al. NEJM 2018) demonstrated endovascular thrombectomy benefit at 6-24 hours using which selection strategy?",
+        "options": {
+          "A": "All patients with large vessel occlusion within 6-24 hours, regardless of imaging findings",
+          "B": "Clinical-imaging mismatch: small DWI core infarct relative to severe NIHSS deficit",
+          "C": "Patients with NIHSS ≥25 only",
+          "D": "Patients with established large MCA territory infarction (>100 cm³) to prevent herniation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The DAWN trial used clinical-imaging mismatch to select patients for late-window thrombectomy (6-24 hours). Patients were eligible if they had a large vessel occlusion (ICA or M1) with a small infarct core (DWI volume <31 mL for patients ≥80 years or NIHSS ≥10, or DWI <51 mL for patients 18-79 years with NIHSS ≥10) relative to a severe clinical deficit. The mismatch concept identifies patients with viable ischaemic penumbra that can still be salvaged despite late presentation. Results: mRS 0-2 at 90 days: 49% EVT vs 13% medical (OR 0.42, p<0.001).",
+          "wrong": {
+            "A": "DAWN did NOT select all late-window LVO patients — it specifically selected those with imaging evidence of small infarct core. Patients with large established infarcts were excluded (no salvageable penumbra, high haemorrhage risk from reperfusion).",
+            "C": "NIHSS ≥25 was not the sole criterion. The clinical-imaging mismatch required both a specific NIHSS threshold AND small DWI core. High NIHSS with large infarct = excluded.",
+            "D": "Patients with large established infarction (>100 cm³) are high-risk for haemorrhagic transformation from reperfusion and would not benefit from EVT — this is the opposite of DAWN selection criteria."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines 2019 — Late-window EVT (6-24 hr): clinical-imaging mismatch per DAWN criteria; DEFUSE-3 perfusion mismatch (6-16 hr); both support extended-window EVT",
+          "trial": "Nogueira RG et al. NEJM 2018 (DAWN): 206 pts 6-24 hr LVO with clinical-imaging mismatch — EVT vs medical; mRS 0-2: 49% vs 13% (OR 0.42, p<0.001); stopped early by DSMB; established 24-hr treatment window",
+          "pearl": "DAWN (NEJM 2018): EVT at 6-24 hours using clinical-imaging mismatch. mRS 0-2: 49% EVT vs 13% medical. Key concept: TIME is not the selection criterion — IMAGING MISMATCH is. 'Time is penumbra' replaced by 'imaging is penumbra.' DEFUSE-3 extended to 16 hours using perfusion-diffusion mismatch."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q7",
+        "stem": "What is the minimum craniectomy size recommended for decompressive hemicraniectomy in malignant MCA infarction?",
+        "options": {
+          "A": "6 × 6 cm",
+          "B": "8 × 10 cm",
+          "C": "12 × 15 cm (minimum 12 cm diameter)",
+          "D": "Any size that reduces midline shift"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The minimum bone flap size for effective decompressive hemicraniectomy is 12 cm in any diameter, with most protocols specifying a 12 × 15 cm flap or larger. Smaller craniectomies cause brain to mushroom at the edges, creating focal venous congestion and haemorrhage ('knife-edge' injury). Multiple series have confirmed that craniectomy size is an independent predictor of outcome — larger flap = better decompression. The flap should include the temporal squama flattened to the middle fossa floor, the pterion, and extend from the frontal lobe to the parieto-occipital junction.",
+          "wrong": {
+            "A": "6 × 6 cm is far too small for decompressive hemicraniectomy. A flap this small would cause severe edge haemorrhage from brain mushrooming and provide inadequate decompression. This size might be used for small haematoma evacuation, not for DHC.",
+            "B": "8 × 10 cm is still below the recommended minimum. While larger than 6 × 6, this size is associated with inadequate decompression in the setting of malignant MCA infarction.",
+            "D": "'Any size that reduces midline shift' is not an accepted surgical principle. Inadequate craniectomy size that reduces midline shift slightly may still cause edge haemorrhage and inadequate decompression."
+          },
+          "guideline": "EANS Cerebrovascular Surgery Guidelines 2021 — DHC technique: minimum 12 × 15 cm flap, include temporal squama; ESO Stroke 2021",
+          "trial": "Umamaheswara Rao GS et al. Indian J Anaesth 2009: Craniectomy size and DHC outcome — flap >12 cm associated with significantly lower mortality vs <12 cm (28% vs 52%, p=0.04); Mori K et al. Neurosurgery 2004: Standardised DHC technique including temporal base decompression",
+          "pearl": "DHC minimum size: 12 × 15 cm (12 cm diameter minimum). Smaller = brain mushrooming at edges = venous haemorrhage + inadequate decompression. Include temporal squama down to middle fossa floor. The most common technical error in emergency DHC is making the flap too small."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q8",
+        "stem": "A 55-year-old man presents with complete left MCA territory infarction, NIHSS 24, DWI volume 165 cm³. He is awake and able to communicate. He states he does not want to be kept alive in a severely dependent state. His family disagrees and wants 'everything done.' Which approach is MOST appropriate?",
+        "options": {
+          "A": "Immediate DHC without further discussion — surgery is indicated by clinical criteria",
+          "B": "Respect the patient's expressed wishes (no surgery for severe disability); document his decision capacity; discuss palliative goals with family",
+          "C": "Wait until the patient is comatose before making decisions",
+          "D": "Perform DHC to save his life; address disability preferences after recovery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has decision capacity (he is awake, able to communicate, and expressing a clear consistent preference). A competent patient's refusal of life-sustaining surgery must be respected, regardless of family wishes. The neurosurgeon must: (1) confirm decision capacity (understand the situation, appreciate consequences, reason through options, communicate decision), (2) clearly document the patient's expressed preference, (3) explain that DHC will save his life but with expected severe disability (mRS 3-4), which is exactly what he wants to avoid, and (4) transition to shared palliative care planning with family, explaining the patient's expressed wishes. Overriding a competent patient's refusal would be battery.",
+          "wrong": {
+            "A": "Clinical criteria indicate surgical benefit, but an awake competent patient's refusal overrides surgical indication. Performing surgery on a competent patient who refuses it is battery.",
+            "C": "Waiting until coma (loss of decision capacity) creates a legal and ethical quandary — his prior expressed refusal while competent remains his advance directive. Waiting to see if he changes his mind in a comatose state is ethically unjustifiable.",
+            "D": "Performing surgery against the expressed wishes of a competent patient and planning to 'address preferences after' ignores the irreversibility of his disability (severe disability from DHC cannot be 'addressed' post-operatively)."
+          },
+          "guideline": "EANS/ESO Ethical Guidelines for Stroke Surgery — Competent patient's refusal of surgery must be respected; decision capacity assessment and documentation; advance directives; palliative care integration",
+          "trial": "Mass EH et al. Lancet Neurol 2006: Quality of life after DHC — 60% survivors report satisfaction with outcome; 40% would not want surgery again if they knew outcome; underscores need for explicit pre-operative counselling and respecting patient preferences",
+          "pearl": "DHC consent: a competent patient who refuses surgery citing preference against severe disability MUST have that wish respected. Document decision capacity. Family disagreement does not override competent patient autonomy. Transition to palliative care when surgery is refused. Most crucial ethical dimension of DHC."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q9",
+        "stem": "Post-carotid endarterectomy hyperperfusion syndrome (CHS) typically presents at what timeframe and with what clinical features?",
+        "options": {
+          "A": "Immediately (0-2 hours) post-CEA with stroke from arterial thrombosis",
+          "B": "2-7 days post-CEA with ipsilateral headache, seizures, and focal neurological deficits",
+          "C": "Months after CEA with progressive dementia from white matter ischaemia",
+          "D": "2-4 weeks post-CEA with systemic hypertensive crisis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cerebral hyperperfusion syndrome (CHS) occurs in 1-3% of CEA patients, presenting 2-7 days post-operatively. Clinical features: ipsilateral headache (often severe, 'migraine-like'), seizures (focal or generalised), and focal neurological deficits ipsilateral to the CEA. MRI shows oedema in the ipsilateral hemisphere, possibly with haemorrhage. Mechanism: chronic cerebral autoregulation impairment in a long-term hypo-perfused territory — when perfusion pressure is suddenly restored, the arterioles cannot vasoconstrict appropriately, causing breakthrough hyperperfusion and oedema. Treatment: aggressive BP control (target <140/90 or even <130/80).",
+          "wrong": {
+            "A": "Immediate post-CEA stroke from arterial thrombosis (technical failure, early restenosis) occurs in the immediate or early post-operative period and is a different complication from CHS. Thrombotic stroke presents immediately or within hours with contralateral deficits from carotid territory ischaemia.",
+            "C": "Progressive dementia from white matter ischaemia months after CEA is not a recognised CHS presentation. Long-term outcomes after CEA are generally neurologically stable.",
+            "D": "Systemic hypertensive crisis at 2-4 weeks is a separate phenomenon (baroreceptor denervation hypertension can occur early) and is not the classic CHS presentation."
+          },
+          "guideline": "EANS Carotid Surgery Guidelines 2020 — CHS: 2-7 days post-CEA, ipsilateral headache + seizures, strict BP control; AHA/ASA Carotid Guidelines 2021",
+          "trial": "van Mook WN et al. Lancet Neurol 2005: CHS definition and incidence — 1-3% after CEA; onset 2-7 days; ipsilateral headache 80%, seizures 40%, ICH 15%; BP control critical for prevention",
+          "pearl": "CHS post-CEA: 2-7 days, ipsilateral headache + seizures (autoregulation failure in reperfused territory). Prevent: staged procedures, careful post-op BP monitoring. Treat: aggressive BP control (<140/90). Avoid: anticoagulants and antiplatelet escalation (worsen haemorrhage if ICH present)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q10",
+        "stem": "Why is dexamethasone contraindicated for cerebral oedema in ischaemic stroke?",
+        "options": {
+          "A": "Dexamethasone increases blood-brain barrier permeability in ischaemia",
+          "B": "Cerebral oedema in ischaemic stroke is cytotoxic (cell swelling), not vasogenic — dexamethasone is only effective for vasogenic oedema",
+          "C": "Dexamethasone worsens ischaemia by causing cerebral vasoconstriction",
+          "D": "Dexamethasone is too slow-acting to be useful in acute stroke"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cerebral oedema in ischaemic stroke is primarily cytotoxic oedema — dead and dying cells swell due to failure of the ATP-dependent sodium-potassium pump, causing intracellular water accumulation. This does not involve disruption of the blood-brain barrier. Dexamethasone reduces VASOGENIC oedema (caused by blood-brain barrier disruption as seen in brain tumours, abscesses, and severe bacterial meningitis) but has no effect on cytotoxic swelling from cell death. Multiple RCTs (the MAST-E group, 1999) have confirmed dexamethasone is ineffective for ischaemic stroke oedema and increases infection rates.",
+          "wrong": {
+            "A": "Dexamethasone does not increase BBB permeability in ischaemia — it actually reduces vasogenic oedema where BBB is disrupted. The key point is that ischaemic oedema is cytotoxic, not vasogenic.",
+            "C": "Dexamethasone causes mild systemic peripheral vasoconstriction and hyperglycaemia but does not cause significant cerebral vasoconstriction. Its inefficacy in ischaemic stroke is due to the cytotoxic vs vasogenic distinction.",
+            "D": "Speed of action is not the reason dexamethasone is contraindicated. Even if given acutely, it would not work because it targets the wrong oedema mechanism (vasogenic, not cytotoxic)."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Steroids: not indicated for cerebral oedema after ischaemic stroke; AHA/ASA Stroke 2019 — Grade III recommendation against dexamethasone in ischaemic stroke oedema",
+          "trial": "MAST-E Group (NEJM 1999): Dexamethasone in ischaemic stroke — no benefit on mortality or outcome; increased hyperglycaemia and infections; established contraindication for steroids in ischaemic stroke oedema",
+          "pearl": "Steroid rule in oedema: Dexamethasone = EFFECTIVE for vasogenic oedema (tumour, abscess) = NOT effective for cytotoxic oedema (ischaemic stroke). Ischaemic stroke = cytotoxic oedema = steroid contraindicated. Classic exam question distinguishing oedema types and their treatment."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q11",
+        "stem": "What is the optimal timing for cranioplasty after decompressive hemicraniectomy?",
+        "options": {
+          "A": "2-4 weeks post-DHC to prevent paradoxical syndrome of the trephined",
+          "B": "6-12 weeks post-DHC, balancing infection risk (early) with trephined syndrome (late)",
+          "C": "6-12 months to ensure full neurological recovery before additional surgery",
+          "D": "No cranioplasty is performed after DHC for malignant stroke — permanent craniectomy is maintained"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The optimal timing for cranioplasty after DHC is 6-12 weeks. Earlier cranioplasty (<4-6 weeks) is associated with higher rates of surgical site infection, wound dehiscence, and complications because the scalp and brain are still inflamed. Later cranioplasty (>12-16 weeks) risks paradoxical syndrome of the trephined (atmospheric pressure changes over the unprotected cortex cause ischaemic-like symptoms, cognitive decline, and worsening headaches). The 6-12 week window allows wound healing while preventing prolonged trephined syndrome.",
+          "wrong": {
+            "A": "2-4 weeks is too early — high infection rates. The scalp incision and underlying brain are still in the acute/subacute inflammatory phase. Infection requiring implant removal would worsen outcomes.",
+            "C": "Waiting 6-12 months is too late in most cases. By 3 months, paradoxical syndrome of the trephined may be causing significant morbidity. Additionally, earlier cranioplasty has been associated with better neurological recovery in some series (the reconstructed skull provides improved cerebral perfusion pressure distribution).",
+            "D": "Permanent craniectomy without cranioplasty is not the standard approach. Cranioplasty is essential for: protection of the brain from trauma, reversal of trephined syndrome, cosmesis, and CSF dynamics restoration."
+          },
+          "guideline": "EANS Skull Base and Cranioplasty Guidelines 2021 — Optimal timing 6-12 weeks post-DHC; autologous bone preferred; synthetic implant for poor bone quality",
+          "trial": "Xu H et al. Clin Neurol Neurosurg 2015: Cranioplasty timing meta-analysis — early (<3 months) vs late (>3 months): early associated with better neurological outcomes; no difference in infection at 6-12 weeks vs 3-6 months; Beaumont A et al. J Trauma 2001: Paradoxical trephined syndrome onset typically 6-8 weeks without cranioplasty",
+          "pearl": "Cranioplasty timing: 6-12 weeks (too early = infection; too late = trephined syndrome). Trephined syndrome: sunken flap + atmospheric pressure symptoms (headache, dizziness, worsening cognition, better in lying position). Autologous cryopreserved bone is gold standard."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q12",
+        "stem": "A 47-year-old woman with right MCA territory malignant infarction (DWI 170 cm³, NIHSS 22, 8 mm midline shift at 36 hours) undergoes decompressive hemicraniectomy. The surgery was performed 40 hours after stroke onset. Which outcome is MOST likely at 12 months?",
+        "options": {
+          "A": "Full functional recovery (mRS 0-1)",
+          "B": "mRS 3-4 (moderate disability, dependent for some daily activities)",
+          "C": "Death within 12 months",
+          "D": "Complete vegetative state (mRS 5)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Based on the pooled DESTINY/HAMLET/DECIMAL analysis for patients ≤55 years with DHC within 48 hours: mortality at 12 months is 22%; mRS ≤3 (moderate disability or better) is achieved in 43%; most survivors fall in the mRS 3-4 range. For a 47-year-old woman (favourable age), mRS 3-4 at 12 months is the most likely outcome. Complete functional recovery (mRS 0-1) is very uncommon after malignant MCA infarction even with successful DHC. Death is possible (22% mortality) but less likely than disability.",
+          "wrong": {
+            "A": "Full functional recovery (mRS 0-1) occurs in only ~5-10% of DHC survivors. The large cortical infarct leaves permanent neurological deficits even in survivors.",
+            "C": "Death within 12 months occurs in approximately 22% after DHC in patients ≤55 years (vs 71% without DHC). Death is possible but not the most likely outcome for this 47-year-old who received timely DHC.",
+            "D": "mRS 5 (completely vegetative, fully dependent, no communication) is relatively uncommon after DHC in a 47-year-old. Most survivors maintain some function and communication even with significant disability."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — DHC outcomes counselling: 43% achieve mRS ≤3 in pooled trial analysis of patients ≤55 years",
+          "trial": "Vahedi K et al. Lancet Neurol 2007: 12-month outcomes after DHC in patients ≤55 years — 43% mRS ≤3, 22% mortality; mRS 4-5: 35%; full recovery (mRS 0-1) uncommon (3-5%)",
+          "pearl": "DHC outcome ≤55 years (pooled trials): mRS 0-1 ~5%, mRS 2 ~10%, mRS 3 ~28%, mRS 4 ~35%, mRS 5 ~0%, death ~22%. Most survivors = moderate-severe disability (mRS 3-4). Critical for pre-operative counselling: survival is likely but severe disability is more common than functional independence."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q13",
+        "stem": "The BASICS trial (Langezaal et al. NEJM 2021) evaluated thrombectomy for basilar artery occlusion. What was its primary finding?",
+        "options": {
+          "A": "Thrombectomy for BAO significantly improved functional outcomes compared to IV tPA alone (mRS 0-3 at 90 days: 44% vs 26%)",
+          "B": "No significant difference in 90-day functional outcome between thrombectomy and IV tPA alone (44.2% vs 37.7%, p=0.10), but trend toward benefit in severe deficit",
+          "C": "Thrombectomy was significantly inferior to IV tPA for basilar artery occlusion",
+          "D": "Basilar artery occlusion has no treatment — medical management and tPA showed 80% mortality regardless"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The BASICS trial (Langezaal et al. NEJM 2021) randomised 300 patients with basilar artery occlusion to IV alteplase + EVT vs IV alteplase alone. The primary endpoint (mRS 0-3 at 90 days) was not significantly different: 44.2% EVT vs 37.7% tPA alone (adjusted OR 1.18; 95% CI 0.92-1.50; p=0.10). However, there was a trend toward benefit in patients with more severe deficits (NIHSS ≥10). This trial was controversial — it was underpowered and the medical arm performed better than expected. Practice varies — most centres continue to perform EVT for BAO given the clinical equipoise and poor natural history.",
+          "wrong": {
+            "A": "BASICS did NOT show significant improvement with EVT for BAO. The 44% vs 38% difference did not reach statistical significance (p=0.10).",
+            "C": "EVT was not significantly inferior — the result was non-significant with a trend (non-significant) favoring EVT in severe cases.",
+            "D": "Both treatment arms had meaningful rates of functional recovery (37-44% mRS 0-3). Natural history of BAO without treatment approaches 80-90% mortality — the trial showed both treatments improve outcomes substantially from this baseline."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines updated 2022 — BAO: EVT reasonable given clinical equipoise (BASICS non-inferiority not shown); BASICS results inconclusive; most centres continue EVT for BAO",
+          "trial": "Langezaal LCM et al. NEJM 2021 (BASICS): 300 pts BAO — IV alteplase + EVT vs alteplase alone; mRS 0-3: 44.2% EVT vs 37.7% alteplase (OR 1.18, p=0.10); not significant; ongoing controversy about EVT for BAO",
+          "pearl": "BASICS trial: EVT for BAO = non-significant benefit vs alteplase alone (44% vs 38%, p=0.10). Practice continues to vary. Natural history of untreated BAO = 80-90% mortality. EVT for BAO remains common practice based on clinical equipoise and the BASICS trend toward benefit in severe cases."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q14",
+        "stem": "After decompressive hemicraniectomy for malignant MCA infarction, a patient develops paradoxical deterioration. What does 'syndrome of the trephined' refer to?",
+        "options": {
+          "A": "Brain herniation through the craniectomy defect causing direct cortical compression",
+          "B": "Neurological deterioration from atmospheric pressure changes on the unprotected brain through the craniectomy defect",
+          "C": "Post-operative epilepsy from the craniectomy edge",
+          "D": "Infection of the craniectomy wound causing meningitis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Paradoxical syndrome of the trephined (or 'sinking skin flap syndrome') occurs weeks to months after craniectomy when the scalp flap sinks inward, exposing the underlying cortex to atmospheric pressure fluctuations. Symptoms include: headache, dizziness, cognitive decline, impaired mobility and strength (worsening of post-stroke deficits), and symptoms that vary with body position (worse sitting/standing, better lying down — because upright posture increases the pressure differential). It occurs when cranioplasty is delayed. Treatment: cranioplasty typically resolves symptoms dramatically within days to weeks of bone replacement.",
+          "wrong": {
+            "A": "Brain herniation through the craniectomy defect is a surgical complication of DHC (mushrooming) but is not 'paradoxical syndrome of the trephined.' Herniation through the defect is an acute surgical emergency; trephined syndrome is a subacute/chronic phenomenon from pressure changes.",
+            "C": "Post-craniectomy epilepsy is a different complication. Epilepsy does not vary with body position and is not specifically called 'syndrome of the trephined.'",
+            "D": "Craniectomy wound infection causing meningitis is a serious complication but is septic in nature — different from the mechanical pressure syndrome of the trephined."
+          },
+          "guideline": "EANS Guidelines — Syndrome of the trephined: indication for cranioplasty; resolution of symptoms typically within 2-4 weeks of bone replacement",
+          "trial": "Stiver SI et al. Neurosurg Focus 2009: Paradoxical syndrome of the trephined — pathophysiology, clinical features, and reversal with cranioplasty; recommended cranioplasty within 6-12 weeks to prevent this syndrome",
+          "pearl": "Syndrome of the trephined: weeks-months after craniectomy + sinking scalp flap + position-dependent neurological deterioration = atmospheric pressure compression. Treat with cranioplasty — symptoms reverse dramatically within days-weeks of bone replacement. Prevention: cranioplasty at 6-12 weeks."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q15",
+        "stem": "What is the management priority when a patient with a large left hemispheric infarction and unilateral fixed dilated pupil (left CN III compression) is identified 4 hours post-stroke?",
+        "options": {
+          "A": "IV tPA to reopen the occluded artery — herniation is not yet a concern",
+          "B": "Immediate mannitol 1 g/kg IV + intubation + urgent neurosurgical evaluation for DHC",
+          "C": "CT guided aspiration of the infarct core",
+          "D": "Lumbar puncture to lower ICP"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A fixed dilated pupil indicates advanced transtentorial herniation from uncal herniation compressing CN III — this is a neurosurgical emergency. Immediate management: (1) mannitol 1 g/kg IV over 20 minutes (emergency ICP reduction), (2) intubation + mild hyperventilation (PaCO₂ 35-40 mmHg) as bridge, (3) urgent neurosurgical DHC evaluation. The window for meaningful intervention is extremely narrow once herniation is established — surgery must be performed within minutes to hours. However, outcomes after DHC with pre-operative fixed dilated pupil are significantly worse than DHC performed before herniation — this is why early identification and intervention before pupillary dilation is critical.",
+          "wrong": {
+            "A": "IV tPA is contraindicated in established large infarction with herniation — it carries risk of haemorrhagic transformation and does not address the herniation. The patient needs decompressive surgery, not thrombolysis.",
+            "C": "CT-guided aspiration of an infarct core is not an established procedure for ischaemic stroke management. The infarct itself cannot be 'aspirated' — it is swollen but not a discrete fluid collection.",
+            "D": "Lumbar puncture in a patient with increased ICP and herniation is absolutely contraindicated — it would cause catastrophic herniation by removing spinal CSF pressure buffer."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Fixed dilated pupil in MCA infarction = herniation; emergency osmotherapy + DHC evaluation; timing is critical; herniation before surgery worsens DHC outcome",
+          "trial": "Woitzik J et al. J Neurosurg 2006: DHC outcomes with pre-op pupillary status — fixed dilated pupil before DHC associated with mortality 47% vs 9% when pupils reactive (p<0.001); pre-herniation DHC essential for optimal outcome",
+          "pearl": "Fixed dilated pupil in MCA infarction = transtentorial herniation = neurosurgical emergency. IMMEDIATE: mannitol 1 g/kg + intubation + DHC. Pre-herniation DHC mortality ~9%; post-herniation DHC mortality ~47%. The fixed pupil = act NOW, not after more imaging."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q16",
+        "stem": "Regarding mannitol administration for raised ICP in malignant MCA infarction, which statement is CORRECT?",
+        "options": {
+          "A": "Mannitol permanently reduces ICP through haematoma absorption",
+          "B": "Mannitol should be given as continuous infusion at 0.25-0.5 g/kg/hour",
+          "C": "Mannitol reduces ICP by osmotic effect, with maximum effect at 20-30 minutes lasting 4-6 hours; repeat doses require serum osmolality monitoring (maximum 320 mOsm/kg)",
+          "D": "Mannitol is contraindicated in stroke because it worsens cerebral ischaemia"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Mannitol (0.25-0.5 g/kg IV over 20 minutes) reduces ICP by creating an osmotic gradient that draws water from the brain parenchyma into the bloodstream. Maximum effect occurs at 20-30 minutes and lasts 4-6 hours. For repeated dosing, serum osmolality must be monitored — mannitol is contraindicated when osmolality exceeds 320 mOsm/kg (risk of acute renal tubular necrosis and paradoxical BBB disruption, which can worsen oedema by reverse osmosis). Mannitol is a bridge to definitive treatment (DHC) and not a substitute for it.",
+          "wrong": {
+            "A": "Mannitol does not permanently reduce ICP. Its effect is temporary (4-6 hours) and rebound ICP elevation can occur. It has no effect on haematoma absorption.",
+            "B": "Mannitol is given as bolus doses (0.25-0.5 g/kg over 20 minutes) every 4-6 hours as needed, NOT as continuous infusion. Continuous infusion would cause osmolality accumulation without therapeutic benefit.",
+            "D": "Mannitol is not contraindicated in ischaemic stroke and is widely used as a bridging measure for ICP elevation. The contraindication is hyperosmolality (>320 mOsm/kg) and severe hypovolaemia/hypotension."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Osmotherapy: mannitol 0.25-0.5 g/kg IV bolus, maximum 320 mOsm/kg; hypertonic saline as alternative; both are bridges to DHC",
+          "trial": "Qizilbash N et al. Cochrane Review 2002: Mannitol for ischaemic stroke — no evidence of benefit vs harm alone; used as bridge with good safety profile when osmolality monitored; Koenig MA et al. Neurocrit Care 2008: Osmotherapy comparative analysis — mannitol vs HTS: equivalent ICP lowering, HTS preferred if hypovolaemia",
+          "pearl": "Mannitol for ICP: 0.25-0.5 g/kg IV bolus over 20 min. Peak effect: 20-30 min. Duration: 4-6 hr. Monitor serum osmolality — hold if >320 mOsm/kg (renal toxicity + paradoxical effect). Bridge to DHC, not substitute."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q17",
+        "stem": "Which ASPECT score (Alberta Stroke Program Early CT Score) corresponds to widespread early ischaemic changes in greater than 50% of the MCA territory, indicating high risk of malignant infarction?",
+        "options": {
+          "A": "ASPECTS 9-10 (normal or minimal changes)",
+          "B": "ASPECTS 7-8 (mild changes)",
+          "C": "ASPECTS ≤5 (severe widespread changes)",
+          "D": "ASPECTS 0 (complete MCA territory involvement)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The ASPECTS scoring system divides the MCA territory into 10 regions (1 point each, starting from 10 for normal). Each region with early ischaemic change loses 1 point. ASPECTS ≤5 corresponds to widespread early ischaemic changes across ≥5 of the 10 MCA regions, indicating infarction of >50% of the MCA territory. This threshold: (1) predicts high risk of malignant infarction, (2) is associated with poor EVT outcomes (most trials and guidelines suggest limited EVT benefit when ASPECTS ≤5), and (3) triggers consideration of DHC planning. ASPECTS ≤5 at presentation is associated with 80%+ risk of malignant course.",
+          "wrong": {
+            "A": "ASPECTS 9-10 represents near-normal CT with minimal early ischaemic changes — low risk of malignant infarction. These patients have the best EVT outcomes.",
+            "B": "ASPECTS 7-8 represents mild-moderate changes — intermediate risk. EVT benefit is well-established at this range.",
+            "D": "ASPECTS 0 would mean all 10 regions involved (complete MCA territory) — maximally severe. While theoretically possible, patients with this CT finding are usually already comatose. ASPECTS ≤5 is the clinical threshold used in practice."
+          },
+          "guideline": "AHA/ASA Stroke Guidelines 2019 — ASPECTS ≤5 predicts poor EVT outcome; ASPECTS 0-3: EVT generally futile; ASPECTS ≤5 triggers malignant infarction risk counselling",
+          "trial": "Barber PA et al. Lancet 2000: ASPECTS development and validation — each 1-point decrease in ASPECTS → 20% increase in malignant course risk; ASPECTS ≤5 identifies patients at highest risk; HERMES meta-analysis (Goyal et al. Lancet 2016): diminishing EVT benefit at lower ASPECTS",
+          "pearl": "ASPECTS ≤5 = >50% MCA territory affected = high risk malignant infarction = consider DHC planning + limited EVT benefit. ASPECTS 0-3: EVT likely futile (no penumbra to save). ASPECTS 6-10: EVT benefit established. ASPECTS cut-off for EVT varies by centre/guideline (6-8 range most used)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q18",
+        "stem": "A 38-year-old woman presents 24 hours after left hemisphere ischaemic stroke with progressive right hemiplegia worsening and somnolence. Repeat CT shows progressive midline shift to 12 mm with early transtentorial herniation signs. She is on best medical management. Her husband was present when she had previously told her neurologist: 'If I have a major stroke, I don't want surgery to keep me alive as a vegetable.' She is now unresponsive. How should this documented conversation influence the decision?",
+        "options": {
+          "A": "It has no legal force — verbal statements are not advance directives",
+          "B": "It is a strong form of advance directive that should significantly inform the decision, though not absolutely binding",
+          "C": "Because she is unresponsive, DHC can be performed without considering her prior statement",
+          "D": "Her husband's wishes override her prior statement as he is next of kin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A witnessed verbal statement made to a physician represents a strong form of advance directive, even if not formally written. It should significantly inform the surrogate decision-making process. In most legal jurisdictions, a prior expressed competent patient preference carries substantial moral and often legal weight. The neurosurgeon should: (1) document the prior statement, (2) present DHC outcomes (likely mRS 3-4, severe disability matching what she wanted to avoid), (3) facilitate a family meeting with ethics consultation if needed, and (4) support the husband in making a decision consistent with his wife's values. The husband as next of kin makes decisions on her behalf, but should be guided to honour her prior expressed preferences rather than his own wishes.",
+          "wrong": {
+            "A": "Verbal statements made to physicians, especially when witnessed, are legally and ethically significant in most jurisdictions. They represent the patient's known preferences even without a formal written advance directive.",
+            "C": "Unresponsiveness does not erase prior expressed preferences. The patient's competent prior statements about not wanting surgery for severe disability represent her autonomous choice and must be seriously considered.",
+            "D": "The husband as surrogate decision-maker should make decisions based on what the patient would have wanted (substituted judgment standard), not his own preferences. His role is to represent her values, not to impose his own."
+          },
+          "guideline": "EANS/ESO Ethical Guidelines for Stroke Surgery — Advance directives and substituted judgment; surrogate decision-making; ethics consultation for complex cases",
+          "trial": "Honeybul S et al. Neurocrit Care 2013: Quality of life after DHC — 28% survivors retrospectively stated they would not want surgery again; pre-operative patient preference assessment essential; documents importance of advance care planning in neurosurgical patients",
+          "pearl": "Advance directives in DHC: prior competent verbal statements to physicians are ethically binding (even without formal written document). Surrogate must use substituted judgment (what would patient have wanted?). Ethics consultation for family disagreements. DHC = irreversible decision with high disability rate — advance care planning before acute events is critical."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q19",
+        "stem": "In the absence of bilateral decompressive hemicraniectomy evidence, which stroke territory infarction most commonly requires suboccipital craniectomy for posterior fossa decompression?",
+        "options": {
+          "A": "Anterior cerebral artery (ACA) territory infarction",
+          "B": "Posterior inferior cerebellar artery (PICA) territory infarction",
+          "C": "Perforating artery (lacunar) infarction",
+          "D": "Middle cerebral artery (MCA) M2 branch infarction"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PICA territory cerebellar infarction is the most common indication for posterior fossa decompression (suboccipital craniectomy). The PICA supplies the posterior and inferior cerebellum, and large PICA territory infarcts cause swelling that compresses the brainstem and obstructs the fourth ventricle, causing obstructive hydrocephalus and potentially fatal brainstem compression. The swollen infarcted cerebellum can be rapidly life-threatening, with deterioration occurring in a delayed fashion (24-96 hours after stroke onset). AICA and SCA territory infarcts can also cause posterior fossa swelling but PICA territory infarcts are the most clinically significant.",
+          "wrong": {
+            "A": "ACA territory infarction causes leg-predominant deficits and rarely causes life-threatening mass effect requiring surgery. ACA territory is medial and parasagittal — swelling compresses the contralateral hemisphere but rarely causes transtentorial herniation requiring DHC.",
+            "C": "Lacunar infarctions are small (typically <1.5 cm) involving single perforating arteries — they never cause significant mass effect requiring surgical decompression.",
+            "D": "MCA M2 branch infarctions are restricted to a single cortical territory subdivision and typically do not cause malignant swelling — the malignant MCA syndrome involves the entire M1 territory (M1 = main stem MCA)."
+          },
+          "guideline": "ESO Stroke Guidelines 2021 — Posterior fossa infarction: suboccipital craniectomy for PICA territory with swelling/herniation signs; EANS Cerebrovascular 2021",
+          "trial": "Koh MG et al. Neurocrit Care 2011: PICA territory infarction outcomes — patients with large swelling treated with suboccipital craniectomy: mortality 20% vs 80% conservative; most common posterior fossa infarction requiring surgery",
+          "pearl": "Posterior fossa decompression indications: PICA territory cerebellar infarction + brainstem compression/fourth ventricle effacement. Delayed deterioration (24-96 hours) is characteristic. Signs: decreasing consciousness + nausea/vomiting + CN VI palsy. Urgent suboccipital craniectomy + duraplasty ± EVD."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q20",
+        "stem": "In which clinical scenario is decompressive hemicraniectomy most appropriate as an EMERGENCY (within 6 hours of clinical decision)?",
+        "options": {
+          "A": "Patient with NIHSS 18 and DWI 80 cm³ at 12 hours, awake and interactive",
+          "B": "Patient with established large left MCA infarction, NIHSS 25, DWI 160 cm³ at 20 hours, now deteriorating with decreasing consciousness (GCS 9→7 over 2 hours) and new contralateral pupil dilation",
+          "C": "Patient with DWI 155 cm³, NIHSS 22, conscious and stable at 30 hours, declining surgery",
+          "D": "Elderly patient (76 years) with DWI 170 cm³, NIHSS 24, conscious and requesting 'everything done'"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A patient with large MCA infarction showing active deterioration — decreasing GCS, new contralateral pupil dilation (sign of early transtentorial herniation) — requires emergency DHC within hours, not days. The contralateral (to the hemiparesis) or ipsilateral pupil dilation indicates progression from subfalcine to transtentorial herniation, which is the point of no return. Surgery must be performed before fixed bilateral dilated pupils develop. This is the scenario for emergency operative consent and surgical preparation without delay.",
+          "wrong": {
+            "A": "NIHSS 18 and DWI 80 cm³ — too small to qualify as malignant infarction (threshold is >145 cm³). This patient is not at risk of malignant course and does not require DHC planning.",
+            "C": "A stable, conscious patient declining surgery at 30 hours — should have their autonomy respected. They are not in acute deterioration. There is time for continued discussion but their refusal must be respected.",
+            "D": "A 76-year-old (above the ≤55-year trial age range) requesting 'everything done' — DHC is an option given DESTINY II showing survival benefit, but it requires careful counselling about expected mRS 4 outcome in elderly patients. This is not an emergency — the patient is conscious and stable."
+          },
+          "guideline": "EANS Cerebrovascular Guidelines 2021 — Clinical deterioration with herniation signs = emergency DHC indication; pupillary change = operate immediately; ESO Stroke 2021",
+          "trial": "Woitzik J et al. J Neurosurg 2006: DHC before vs after pupillary changes — mortality 9% pre-herniation vs 47% post-herniation; ipsilateral pupil dilation = last chance for life-saving surgery",
+          "pearl": "Emergency DHC trigger: active clinical deterioration + GCS decline + pupillary change = herniation = operate NOW. Every 30 minutes of delay with active herniation = increased mortality and poorer functional outcome. Pupillary dilation is the last warning before irreversible brainstem injury."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

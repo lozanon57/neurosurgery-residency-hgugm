@@ -1,0 +1,637 @@
+{
+  "id": "B3",
+  "title": "Subarachnoid Haemorrhage",
+  "subtitle": "Block B — Aneurysmal SAH: Diagnosis, Grading, and Critical Care Management",
+  "block": "B",
+  "block_name": "Neurovascular Neurosurgery",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "AHA/ASA SAH Guidelines 2023 · EANS Neurovascular Guidelines 2023 · ESO SAH Guidelines 2022",
+  "textbook_refs": [
+    "Connolly ES et al. Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage. Stroke 2012 (updated 2023)",
+    "Macdonald RL et al. Clazosentan and Vasospasm after SAH (CONSCIOUS trials). Lancet Neurol 2012",
+    "Diringer MN et al. Critical Care Management of Patients Following Aneurysmal SAH. Neurocrit Care 2011",
+    "Molyneux AJ et al. ISAT: International Subarachnoid Aneurysm Trial. Lancet 2002"
+  ],
+  "learning_objectives": [
+    "Diagnose aneurysmal SAH using the Ottawa SAH Rule and distinguish xanthochromia from traumatic tap",
+    "Apply Hunt-Hess and World Federation of Neurosurgical Societies (WFNS) grading to predict outcome and guide management",
+    "Define the management of early cerebral vasospasm: 3H therapy versus euvolaemia, nimodipine evidence (BRANT trial), and endovascular rescue",
+    "Select between surgical clipping and endovascular coiling based on ISAT and ISAT2 trial evidence and aneurysm anatomy",
+    "Manage post-SAH complications: hyponatraemia (CSWS vs SIADH), hydrocephalus, re-bleeding, and seizure prophylaxis",
+    "Recognise and manage delayed cerebral ischaemia (DCI) as distinct from radiological vasospasm"
+  ],
+  "sections": [
+    {
+      "id": "B3-S1",
+      "title": "Diagnosis: Ottawa SAH Rule, CT, and LP",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Aneurysmal subarachnoid haemorrhage (SAH) accounts for approximately 5% of all strokes but has a 30-day case fatality rate of 40–50% with significant long-term cognitive morbidity in survivors. The cardinal symptom is **thunderclap headache** — 'worst headache of my life' with peak intensity within seconds to minutes. Up to 50% of patients describe a sentinel headache (warning leak) in the preceding weeks. Approximately 10–20% of patients die before hospital arrival. The **Ottawa SAH Rule** (Perry, Lancet 2011) is 100% sensitive for identifying SAH requiring LP after a negative CT: ALL of the following must be absent to exclude LP — age ≥40, neck stiffness, witnessed loss of consciousness, onset with exertion, thunderclap character, and limited neck flexion. Non-contrast CT of the head (NCCT) is the primary diagnostic test: sensitivity decreases from 98% at <6 hours to 85–90% at 24 hours. **CT angiography (CTA)** has supplanted catheter angiography for initial aneurysm detection (sensitivity 97–99% for aneurysms >5 mm; lower for ≤3 mm). **Lumbar puncture** is required when CT is negative or equivocal in a patient with high clinical suspicion: characteristic findings are uniformly blood-stained CSF across all tubes (not clearing between tubes 1 and 4 as in traumatic tap) plus **xanthochromia** — yellow discolouration of centrifuged CSF due to oxyhaemoglobin and bilirubin (must wait ≥12 hours after symptom onset for reliable bilirubin accumulation). The UK National External Quality Assessment Service (NEQAS) recommends spectrophotometric analysis of CSF for xanthochromia — visual inspection alone has false negative rates up to 50%."
+        },
+        {
+          "type": "table",
+          "title": "SAH Grading Scales — Hunt-Hess and WFNS",
+          "headers": ["Grade", "Hunt-Hess Description", "WFNS (GCS + Motor)", "Expected Outcome"],
+          "rows": [
+            ["I", "Asymptomatic or mild headache, mild meningism", "GCS 15, no motor deficit", "Good: 70% independent"],
+            ["II", "Moderate-severe headache, neck stiffness, no neurological deficit except CN palsy", "GCS 13–14, no motor deficit", "Good: 60% independent"],
+            ["III", "Drowsiness, confusion, or mild focal deficit", "GCS 13–14, with motor deficit", "Moderate: 50% independent"],
+            ["IV", "Stupor, moderate-severe hemiparesis, early decerebrate rigidity", "GCS 7–12, with/without motor deficit", "Poor: 20% independent"],
+            ["V", "Deep coma, decerebrate posturing, moribund appearance", "GCS 3–6, with/without motor deficit", "Very poor: <5% independent"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Xanthochromia and LP Timing",
+          "content": "Xanthochromia (bilirubin in CSF) requires a minimum of 12 hours after ictus to develop — bilirubin accumulates as oxyhaemoglobin is metabolised. Performing LP within 6 hours may yield a false-negative xanthochromia result even in true SAH. Sensitivity of xanthochromia by spectrophotometry: 100% at 12 hours, declining to approximately 70% at 2 weeks. Visual inspection has ~50% false-negative rate."
+        }
+      ]
+    },
+    {
+      "id": "B3-S2",
+      "title": "Aneurysm Securing: Clipping vs Coiling — ISAT",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The fundamental treatment decision in aneurysmal SAH is **surgical clipping versus endovascular coiling**. The **ISAT trial** (International Subarachnoid Aneurysm Trial, Molyneux, Lancet 2002) randomised 2,143 patients with ruptured intracranial aneurysms suitable for both treatments to neurosurgical clipping or endovascular coiling. The primary outcome at 1 year — death or dependence (mRS 3–6) — was significantly lower with coiling: 23.7% vs 30.6% (absolute risk reduction 6.9%, RR 0.77, P=0.0001). This represented a relative risk reduction of 23% for death or disability. Long-term follow-up (ISAT, Lancet 2005; 18-year follow-up Molyneux 2015): the initial benefit of coiling was maintained, but coiled aneurysms had a **higher re-treatment rate** (13.6% vs 8.4% for clipping at 18 years) due to coil compaction and aneurysm recurrence. **Re-bleeding after coiling** was more common in the long-term: 3.6% vs 2.2% for clipping. The **ISAT2 trial** is ongoing for unruptured aneurysms. Clinical implication: for most anterior circulation aneurysms manageable by either technique, coiling achieves better early outcomes; however, clipping achieves more durable aneurysm occlusion. **Middle cerebral artery (MCA) aneurysms** are typically surgically clipped due to complex bifurcation anatomy. **Basilar tip aneurysms** are typically coiled. **Wide-neck aneurysms** (dome-to-neck ratio <1.5) may require stent-assisted coiling or flow diversion."
+        },
+        {
+          "type": "table",
+          "title": "Clipping vs Coiling — Decision Factors",
+          "headers": ["Factor", "Favours Surgical Clipping", "Favours Endovascular Coiling"],
+          "rows": [
+            ["Location", "MCA bifurcation, pericallosal", "Basilar tip, posterior circulation, paraclinoid ICA"],
+            ["Morphology", "Wide-neck (neck >4 mm or D/N ratio <1.5), irregular", "Narrow-neck (D/N >1.5), round/regular"],
+            ["Patient age", "Younger patient (long-term durability important)", "Older patient (coiling benefit sustained for expected lifespan)"],
+            ["Associated haematoma", "Parenchymal haematoma needing evacuation", "No haematoma"],
+            ["ISAT primary outcome", "mRS 3–6 at 1 year: 30.6%", "mRS 3–6 at 1 year: 23.7% (P<0.0001)"],
+            ["ISAT long-term recurrence", "Lower re-treatment (8.4% at 18 years)", "Higher re-treatment (13.6% at 18 years)"],
+            ["Re-bleeding long-term", "Lower (2.2%)", "Higher (3.6%)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — ISAT Applicability Limitations",
+          "content": "ISAT enrolled patients with aneurysms considered suitable for BOTH clipping AND coiling by the treating team. It therefore selected a biased population (smaller, anterior, round aneurysms). MCA aneurysms were underrepresented (only 3% of ISAT). ISAT results cannot be extrapolated to all aneurysm types — particularly MCA bifurcation aneurysms, where clipping remains the preferred technique at most experienced neurosurgical centres."
+        }
+      ]
+    },
+    {
+      "id": "B3-S3",
+      "title": "Nimodipine and Vasospasm Prevention",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cerebral vasospasm** — angiographic narrowing of cerebral arteries — occurs in 50–70% of SAH patients between days 4 and 14, peaking at days 7–10. Clinically apparent vasospasm causing **delayed cerebral ischaemia (DCI)** — new neurological deficit not attributed to re-bleeding, hydrocephalus, or electrolyte disturbance — occurs in 30–40%. DCI is distinguished from radiological vasospasm: not all vasospasm causes DCI, and DCI can occur without visible vasospasm (microvascular spasm, cortical spreading depolarisation). **Nimodipine** is the only pharmacological agent proven to improve functional outcomes in aneurysmal SAH. The pivotal UK trial (Allen, BMJ 1983) and subsequent meta-analyses demonstrate that oral nimodipine 60 mg every 4 hours for 21 days reduces poor outcomes (death or severe disability) by approximately 34% relative to placebo. Critically, nimodipine reduces DCI and poor outcomes **without significantly reducing angiographic vasospasm** — its primary mechanism is neuroprotective (calcium channel blockade in neurons) rather than vasodilatory. The **BRANT trial** (clazosentan, endothelin receptor antagonist) showed that endothelin antagonism significantly reduces angiographic vasospasm but does NOT improve functional outcomes, reinforcing the DCI/vasospasm dissociation. Intravenous nimodipine is associated with hypotension (up to 20% reduction in MAP) and is inferior to oral administration in SAH due to blood pressure drop; oral route is strongly preferred. **Statins** (simvastatin STASH trial, pravastatin Parra 2012) did NOT improve outcomes in SAH and are not recommended for vasospasm prevention."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Nimodipine Does Not Prevent Vasospasm",
+          "content": "Nimodipine is the ONLY pharmacological agent that improves outcomes in SAH. However, it does NOT significantly reduce angiographic vasospasm — it is neuroprotective via neuronal calcium channel blockade. The CONSCIOUS-2/3 trials (clazosentan) showed that preventing vasospasm alone does not improve clinical outcomes. DCI and vasospasm are mechanistically related but not identical."
+        }
+      ]
+    },
+    {
+      "id": "B3-S4",
+      "title": "Haemodynamic Management: 3H Therapy vs Euvolaemia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Triple-H therapy** (Hypertension, Hypervolaemia, Haemodilution) was the historical standard treatment for established DCI due to vasospasm. The rationale was that increasing perfusion pressure and blood flow would overcome the vasospastic segment. **Hypervolaemia**: Multiple randomised trials (PHAST 2009) failed to show benefit of prophylactic hypervolaemia over normovolaemia and demonstrated increased complications (pulmonary oedema, SIADH, dilutional hyponatraemia). Hypervolaemia is no longer recommended prophylactically. **Haemodilution** to haematocrit 30–35% was intended to reduce viscosity but reduces oxygen-carrying capacity — also no longer recommended. **Induced hypertension** for established DCI (symptomatic vasospasm) remains the primary pharmacological rescue intervention: norepinephrine (first-line) targeting MAP increase of 20–30% above baseline or SBP >180 mmHg, titrated against neurological response. Current guidelines recommend **euvolaemia** (avoidance of volume depletion) rather than hypervolaemia for prevention. For established DCI, induced hypertension combined with angiographic intervention (intra-arterial verapamil or milrinone; balloon angioplasty for proximal vasospasm) is the treatment approach. **Transcranial Doppler (TCD)** monitoring: daily TCD to detect vasospasm — MCA mean flow velocity >120 cm/s suggests vasospasm; >200 cm/s indicates severe vasospasm (Lindegaard ratio MCA/ICA >6 distinguishes vasospasm from hyperaemia)."
+        },
+        {
+          "type": "table",
+          "title": "DCI Management Escalation",
+          "headers": ["Step", "Intervention", "Target", "Evidence Level"],
+          "rows": [
+            ["Prevention", "Oral nimodipine 60 mg q4h × 21 days", "All SAH patients regardless of grade", "Class I; Level A"],
+            ["Prevention", "Euvolaemia (avoid hypovolaemia)", "CVP 5–8 mmHg; serum Na ≥135 mEq/L", "Class I; Level B"],
+            ["Established DCI — first-line", "Induced hypertension (norepinephrine)", "MAP +20–30% baseline; SBP >180 mmHg", "Class IIa; Level B"],
+            ["Established DCI — second-line", "Intra-arterial vasodilator (verapamil 10–15 mg per vessel)", "Angiographic vasospasm", "Class IIa; Level C"],
+            ["Established DCI — third-line", "Transluminal balloon angioplasty", "Proximal M1/A1/ICA vasospasm; permanent effect", "Class IIa; Level C"],
+            ["Avoid", "Prophylactic hypervolaemia", "—", "Class III (Harm); PHAST trial"],
+            ["Avoid", "Statins for vasospasm prevention", "—", "Class III; STASH trial"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B3-S5",
+      "title": "Hydrocephalus and Hyponatraemia in SAH",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Hydrocephalus** complicates 15–20% of SAH acutely (within 24–72 hours) due to impaired CSF absorption at the arachnoid granulations by subarachnoid blood. Clinical presentation: progressive obtundation disproportionate to the SAH grade, upgaze palsy (Parinaud syndrome from midbrain compression), and dilated temporal horns on CT. EVD placement is required for symptomatic acute obstructive or communicating hydrocephalus with neurological deterioration. **Ventriculoperitoneal shunt (VPS)** is required in 10–15% of SAH survivors for persistent communicating hydrocephalus. Lumboperitoneal shunting is an alternative for communicating hydrocephalus without mass effect. **Hyponatraemia** is the most common electrolyte complication in SAH (25–35% incidence). Two mechanisms must be distinguished: (1) **Cerebral Salt-Wasting Syndrome (CSWS)** — volume depletion due to natriuresis (ANP/BNP-mediated renal sodium loss); treatment is sodium and volume replacement (hypertonic saline or normal saline, fludrocortisone 0.1–0.2 mg/day). (2) **SIADH** — euvolaemia or mild hypervolaemia with dilutional hyponatraemia; treatment is fluid restriction ± hypertonic saline for symptomatic cases. Distinguishing CSWS from SIADH is clinically critical: fluid restriction (appropriate for SIADH) in CSWS worsens volume depletion and increases vasospasm/DCI risk. Assessment: urine sodium >20 mEq/L in both, but fluid balance is negative (CSWS) versus positive or neutral (SIADH); serum uric acid is low in SIADH (>99% sensitivity) but normal or slightly low in CSWS. In practice, the clinical course in SAH most commonly reflects CSWS, and volume restriction should be avoided in the first 2 weeks post-SAH."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Do NOT Fluid-Restrict SAH Patients with Hyponatraemia",
+          "content": "In the context of post-SAH hyponatraemia, fluid restriction (the standard SIADH treatment) can precipitate or worsen DCI by inducing cerebral vasospasm-promoting volume depletion. Most post-SAH hyponatraemia is due to CSWS, not SIADH. Always treat with sodium and volume replacement (fludrocortisone + isotonic or hypertonic saline) unless SIADH is definitively confirmed with positive fluid balance and absence of volume depletion signs."
+        }
+      ]
+    },
+    {
+      "id": "B3-S6",
+      "title": "Re-bleeding, Antifibrinolytics, and Seizure Prophylaxis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Re-bleeding** is the most feared early complication of aneurysmal SAH, with a 20–30% incidence in the first 14 days if the aneurysm is unsecured, carrying 60–80% mortality. The highest risk period is within the first 24 hours (up to 15% risk) and within the first 6 hours (4–8% risk). Ultraearly treatment (within 24 hours) of the ruptured aneurysm is therefore recommended (AHA/ASA 2023 Class I). **Antifibrinolytics** (tranexamic acid, epsilon aminocaproic acid): short-term use of tranexamic acid (1 g IV bolus + 1 g/hour infusion) has been studied for bridging coverage from diagnosis to aneurysm securing, targeted within 72 hours. The **ULTRA trial** (Investigators, NEJM 2021) randomised 955 SAH patients to tranexamic acid versus standard care: re-bleeding was significantly reduced (10.8% vs 18.8%, RR 0.57, P<0.001). However, no improvement in clinical outcome (modified Rankin Scale at 6 months: 30.4% good outcome vs 30.6%, P=0.96) — likely because tranexamic acid also increased ischaemic events (DCI/cerebral infarction), negating the anti-rebleeding benefit. Short-term tranexamic acid pending aneurysm securing may be used selectively when treatment is delayed >12 hours, accepting the increased ischaemia risk. **Seizure prophylaxis**: prophylactic antiepileptic drugs (AEDs) are NOT routinely recommended in SAH (AHA/ASA 2023 Class III). A subgroup analysis of ISAT showed that phenytoin was associated with **worse cognitive outcomes** at 1 year. Levetiracetam is preferred if seizure prophylaxis is used (e.g., MCA aneurysm with cortical haematoma). Routine EEG monitoring is recommended for poor-grade SAH patients (Hunt-Hess IV/V) due to 8–20% rate of non-convulsive seizures."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — ULTRA Trial and Antifibrinolytics",
+          "content": "ULTRA (NEJM 2021) showed tranexamic acid significantly reduces re-bleeding in SAH (RR 0.57) but does NOT improve clinical outcome because the benefit is offset by increased cerebral ischaemia. This is another paradigm of surrogate endpoint (re-bleeding) not translating to clinical benefit — the same lesson as FAST (rFVIIa in ICH) and CONSCIOUS (clazosentan for vasospasm). Short-term TXA before aneurysm securing may still be considered in high re-bleeding risk patients when treatment is inevitably delayed."
+        }
+      ]
+    },
+    {
+      "id": "B3-S7",
+      "title": "Outcomes, Poor-Grade SAH, and Prognostication",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Approximately 40–50% of aneurysmal SAH patients die within 30 days. Of survivors, 25–30% have long-term functional impairment and up to 50% report persisting cognitive deficits affecting memory, concentration, and executive function despite good physical recovery. **Poor-grade SAH** (Hunt-Hess IV–V, WFNS IV–V) carries a 30-day mortality of 60–80%, but aggressive treatment is still warranted in appropriate patients: 15–20% of poor-grade patients recover to functional independence. The dichotomy between poor radiological/clinical grade and potentially recoverable patients is the core management challenge. Factors predicting recovery in poor-grade SAH: age <60 years, reversible cause of neurological deterioration (hydrocephalus, haematoma, not primary brain injury), and rapid improvement with EVD placement. **Glasgow Outcome Scale (GOS)** and **mRS** are standard outcome measures. **Discharge destination**: approximately 50% of SAH survivors require inpatient rehabilitation. Driving is typically restricted for 6 months. Return-to-work is achieved in 50–60% of employed SAH survivors at 12 months. **Cognitive rehabilitation** is the most important long-term intervention — pharmacological cognitive enhancement has no established evidence base in SAH. The **SAHIT (Subarachnoid Haemorrhage International Trialists) cohort** (Jaja 2018) identified 8 independent predictors of 3-month outcome: age, WFNS grade, aneurysm size, aneurysm location, intraventricular blood, antifibrinolytic use, treatment modality, and CT angiogram characteristics — forming the SAHIT prognostic model."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Fisher Grade and Vasospasm Risk",
+          "content": "Modified Fisher Grade predicts DCI risk from the CT appearance of SAH and IVH: Grade 1 (no SAH or IVH) = lowest DCI risk; Grade 2 (thin diffuse SAH, no IVH) = low risk; Grade 3 (thick focal SAH >1 mm, no IVH) = highest DCI risk (33%); Grade 4 (any SAH + IVH) = high risk (40%). Thick, localised subarachnoid clot (Grade 3) — paradoxically more risk than Grade 4 — because focal concentrated haemoglobin is maximally vasospasm-inducing."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of subarachnoid haemorrhage management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B3-Q1",
+        "stem": "A 45-year-old woman presents to the emergency department with a sudden-onset severe headache she describes as 'the worst of my life,' reaching maximum intensity within 10 seconds. She is neurologically intact. Non-contrast CT of the head is reported as normal by the radiologist. What is the next most appropriate diagnostic step?",
+        "options": {
+          "A": "CT angiography of the head to detect an intracranial aneurysm",
+          "B": "Lumbar puncture with spectrophotometric CSF analysis for xanthochromia, performed ≥12 hours after symptom onset",
+          "C": "MRI brain with FLAIR sequence — FLAIR is more sensitive than CT for SAH",
+          "D": "Discharge with follow-up MRI in 1 week as CT is normal and the patient is neurologically intact"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A normal CT with clinical features highly suspicious for SAH (thunderclap headache, maximal instantaneous onset) mandates lumbar puncture. LP must be performed at least 12 hours after symptom onset to allow bilirubin accumulation (xanthochromia) — the hallmark of SAH confirmed by spectrophotometric analysis. Performing LP before 12 hours risks false-negative xanthochromia even in true SAH. CT sensitivity for SAH is 98% within 6 hours but decreases to 85–90% by 24 hours.",
+          "wrong": {
+            "A": "CTA identifies an aneurysm but not SAH itself. CTA should be performed AFTER SAH is confirmed (by LP if CT is negative), not as a substitute for LP. A normal CTA does not exclude SAH",
+            "C": "FLAIR MRI can detect SAH as hyperintensity in the subarachnoid space, but sensitivity is inferior to CT in acute SAH and is not the standard next step after negative CT. FLAIR has higher false-positive rates",
+            "D": "Discharging a patient with classic thunderclap headache and normal CT is dangerous. Up to 2% of patients with normal CT and SAH-suspicious symptoms will have SAH on LP. Missing this diagnosis could result in catastrophic re-bleeding"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Class I: LP is recommended when CT is negative in patients with sudden-onset severe headache; xanthochromia by spectrophotometry is the gold standard",
+          "trial": "Perry JJ et al. Ottawa SAH Rule (Lancet 2011): 100% sensitivity for SAH requiring LP; xanthochromia validation: UK NEQAS spectrophotometry guidelines",
+          "pearl": "CT negative + thunderclap headache → LP ≥12 hours after onset for xanthochromia by spectrophotometry. Performing LP <12 hours after onset risks false-negative xanthochromia. NEVER discharge without LP when clinical suspicion is high."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q2",
+        "stem": "The ISAT trial (Molyneux, Lancet 2002) randomised 2,143 patients with ruptured intracranial aneurysms to surgical clipping or endovascular coiling. What was the primary finding at 1-year follow-up?",
+        "options": {
+          "A": "No significant difference in death or dependence between clipping and coiling (30.6% vs 30.1%)",
+          "B": "Coiling was significantly better: death or dependence 23.7% vs 30.6% with clipping (RR 0.77, P<0.0001)",
+          "C": "Clipping was significantly better: re-bleeding rate 2.2% vs 3.6% with coiling",
+          "D": "Coiling was better in posterior circulation only; clipping was superior for anterior circulation aneurysms"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ISAT primary outcome at 1 year: death or dependence (mRS 3–6) was 23.7% with endovascular coiling versus 30.6% with surgical clipping. This absolute risk reduction of 6.9% (RR 0.77, P<0.0001) represents a 23% relative risk reduction in poor outcomes favouring coiling. This established coiling as the preferred treatment for aneurysms suitable for both techniques. However, long-term follow-up showed higher re-treatment rates (13.6% vs 8.4%) and slightly higher re-bleeding rates (3.6% vs 2.2%) for coiling, reflecting less durable occlusion.",
+          "wrong": {
+            "A": "ISAT was a positive trial showing a significant difference — coiling was significantly better at 1 year with an absolute risk difference of 6.9%",
+            "C": "While re-bleeding was lower for clipping in long-term ISAT follow-up (2.2% vs 3.6%), this was a LONG-TERM secondary finding, not the primary 1-year outcome. The 1-year primary outcome favoured coiling",
+            "D": "ISAT was not stratified by circulation type in its primary analysis. MCA aneurysms were underrepresented (only 3%). The primary finding applied overall, not by location subgroup"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Class I: For aneurysms amenable to both clipping and coiling, coiling is preferred based on ISAT data",
+          "trial": "ISAT (Molyneux Lancet 2002): 2,143 patients — mRS 3–6 at 1 year: 23.7% (coiling) vs 30.6% (clipping), P<0.0001. 18-year follow-up (Molyneux 2015): higher re-treatment with coiling (13.6% vs 8.4%)",
+          "pearl": "ISAT: coiling > clipping for primary 1-year outcome (23.7% vs 30.6% death/dependence). Long-term: clipping more durable (less re-treatment, less re-bleeding). MCA aneurysms were underrepresented — clipping remains preferred for MCA bifurcation."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q3",
+        "stem": "A 55-year-old man with Hunt-Hess grade III SAH is on nimodipine 60 mg orally every 4 hours. On day 7, he develops new left-sided arm weakness and confusion. TCD shows right MCA mean flow velocity of 210 cm/s with Lindegaard ratio 7.2. CT scan shows no new haematoma, hydrocephalus, or electrolyte abnormalities. What is the MOST appropriate next treatment?",
+        "options": {
+          "A": "Increase nimodipine dose to 90 mg every 4 hours",
+          "B": "Commence intravenous nimodipine infusion",
+          "C": "Induced hypertension with norepinephrine plus urgent catheter angiography for possible endovascular intervention",
+          "D": "Prophylactic hypervolaemia (3H therapy) with CVP target 10–12 mmHg"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has established DCI (new neurological deficit, day 7, normal CT) with severe TCD vasospasm (MCA velocity >200 cm/s, Lindegaard ratio >6 confirming vasospasm not hyperaemia). First-line treatment for established DCI is induced hypertension (norepinephrine, target MAP increase 20–30% above baseline or SBP >180 mmHg). If induced hypertension fails to reverse the deficit, urgent catheter angiography with intra-arterial vasodilator (verapamil or milrinone) and/or balloon angioplasty (for proximal vasospasm) is indicated.",
+          "wrong": {
+            "A": "Increasing oral nimodipine dose beyond 60 mg q4h increases hypotension risk without demonstrated additional vasodilatory benefit. The maximum recommended dose is 60 mg q4h",
+            "B": "Intravenous nimodipine causes significant hypotension (MAP reduction up to 20%), which would reduce cerebral perfusion pressure and worsen DCI. The IV route is inferior to oral and is not recommended for this purpose",
+            "D": "Prophylactic hypervolaemia is Class III (Harm) — the PHAST trial showed it does not prevent DCI and increases pulmonary complications. For established DCI, induced hypertension (not hypervolaemia) is the intervention"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Induced hypertension for established DCI: Class IIa. Intra-arterial vasodilator/angioplasty: Class IIa. Prophylactic hypervolaemia: Class III (Harm)",
+          "trial": "PHAST trial (Lennihan 2000): hypervolaemia vs normovolaemia — no benefit for DCI prevention, increased complications. TCD Lindegaard ratio >6 = vasospasm (not hyperaemia): Lindegaard (JNSS 1988)",
+          "pearl": "Established DCI (new deficit, no CT cause) → Step 1: induced hypertension (norepinephrine). Step 2: catheter angiography + intra-arterial verapamil/milrinone. Step 3: balloon angioplasty for proximal vasospasm. Hypervolaemia is OUTDATED and harmful."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q4",
+        "stem": "A 52-year-old woman with aneurysmal SAH (WFNS grade II) is found on routine laboratory review to have serum sodium 128 mEq/L on post-SAH day 8. She is mildly drowsy but haemodynamically stable. Urine sodium is 95 mEq/L and urine osmolality is 520 mOsm/kg. Her cumulative fluid balance for the last 48 hours is -1.2 litres. What is the most likely diagnosis and appropriate treatment?",
+        "options": {
+          "A": "SIADH — fluid restriction to 800 mL/day",
+          "B": "Cerebral salt wasting (CSWS) — intravenous normal saline or hypertonic saline plus fludrocortisone",
+          "C": "SIADH — oral salt supplementation only",
+          "D": "Hypothyroidism-related hyponatraemia — thyroid function tests and levothyroxine"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The clinical picture is CSWS: negative fluid balance (-1.2 L over 48 hours indicating volume depletion), high urine sodium (95 mEq/L reflecting renal salt wasting), concentrated urine (520 mOsm/kg), and post-SAH timing (ANP/BNP-mediated natriuresis). CSWS treatment: volume and sodium replacement — isotonic or hypertonic saline, and fludrocortisone 0.1–0.2 mg/day (mineralocorticoid replacing sodium). CRITICAL: fluid restriction (the SIADH treatment) is CONTRAINDICATED in CSWS post-SAH as it exacerbates volume depletion and dramatically increases DCI/vasospasm risk.",
+          "wrong": {
+            "A": "SIADH is characterised by euvolaemia or slight hypervolaemia (neutral or positive fluid balance), not the negative fluid balance seen here. Fluid restriction in this patient with CSWS and volume depletion would be dangerous and would precipitate DCI",
+            "C": "Even if SIADH were the diagnosis, oral salt supplementation alone is insufficient for acute severe hyponatraemia (Na 128 mEq/L with symptoms). IV hypertonic saline would be needed",
+            "D": "Hypothyroidism can cause hyponatraemia but is not the primary diagnosis in the context of acute SAH on post-operative day 8 with this biochemical profile. TFTs are worth checking but are not the primary management"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Avoid fluid restriction in post-SAH hyponatraemia; CSWS is the predominant mechanism; fludrocortisone and hypertonic saline are recommended",
+          "trial": "Diringer MN (Neurocrit Care 2011): post-SAH hyponatraemia management review; Mori T et al. (Stroke 1999): fludrocortisone reduces CSWS and prevents DCI; PHAST: volume depletion exacerbates vasospasm",
+          "pearl": "Post-SAH hyponatraemia = CSWS until proven otherwise (negative fluid balance, natriuresis, volume depletion). Treatment: Na replacement + fludrocortisone. NEVER fluid restrict post-SAH — risk of DCI. SIADH = euvolaemia + positive/neutral balance."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q5",
+        "stem": "A 49-year-old woman is admitted with aneurysmal SAH (Hunt-Hess grade II). CT shows a modified Fisher grade 3 pattern. What does this CT pattern predict, and what is the approximate risk of delayed cerebral ischaemia (DCI)?",
+        "options": {
+          "A": "Thin subarachnoid blood without intraventricular haemorrhage; DCI risk approximately 10%",
+          "B": "Thick localised subarachnoid clot (>1 mm in subarachnoid fissures) without IVH; DCI risk approximately 33%",
+          "C": "Any subarachnoid blood plus intraventricular haemorrhage; DCI risk approximately 15%",
+          "D": "No subarachnoid blood; DCI risk less than 5%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Modified Fisher grade 3 is defined as thick, localised subarachnoid clot (>1 mm in a subarachnoid fissure) WITHOUT intraventricular haemorrhage, and carries the highest DCI risk of approximately 33%. This is paradoxically higher than grade 4 (any SAH + IVH), likely because localised, concentrated subarachnoid haemoglobin maximally activates the vasospasm cascade. Thick localised SAH without the diluting effect of IVH represents the highest vasospasm stimulus.",
+          "wrong": {
+            "A": "Thin subarachnoid blood without IVH corresponds to modified Fisher grade 2, with DCI risk approximately 14%. Grade 3 specifically describes thick (>1 mm) localised SAH",
+            "C": "Any SAH plus IVH corresponds to modified Fisher grade 4, with DCI risk approximately 40% — similar to grade 3. But grade 4 is characterised by BOTH SAH AND IVH, not just SAH",
+            "D": "No subarachnoid blood corresponds to modified Fisher grade 1, with DCI risk approximately 6%. This would not apply to a confirmed SAH patient"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Modified Fisher scale for DCI risk stratification; all SAH patients receive nimodipine regardless of grade",
+          "trial": "Frontera JA et al. (Stroke 2006): Modified Fisher scale validation — grade 1=6%, grade 2=14%, grade 3=33%, grade 4=40% DCI risk",
+          "pearl": "Modified Fisher Grade 3 (thick localised SAH, no IVH) = HIGHEST DCI risk (~33%). Grade 4 (SAH + IVH) is also high (~40%) but Grade 3 is the paradigm of maximum DCI risk. All SAH patients receive nimodipine 60 mg q4h × 21 days regardless of Fisher grade."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q6",
+        "stem": "A 60-year-old man with aneurysmal SAH is started on phenytoin for seizure prophylaxis post-coiling. His family asks about long-term cognitive effects. Based on ISAT subgroup data, which statement is MOST accurate regarding phenytoin use in SAH?",
+        "options": {
+          "A": "Phenytoin significantly reduces seizure risk and improves cognitive outcomes at 1 year",
+          "B": "Phenytoin is associated with WORSE cognitive outcomes at 1 year in SAH patients, and is not recommended for routine prophylaxis",
+          "C": "Phenytoin reduces re-bleeding risk by stabilising the blood-brain barrier",
+          "D": "Phenytoin and levetiracetam have equivalent cognitive profiles in SAH; either can be used"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ISAT subgroup analysis (Molyneux 2002 supplementary data; confirmed by Naidech 2005 Crit Care Med) demonstrated that phenytoin use was independently associated with WORSE cognitive outcomes at 1 year, even after controlling for seizure occurrence. The proposed mechanism involves phenytoin's direct neurotoxic effects on injured brain. AHA/ASA 2023 guidelines classify routine antiepileptic drug use for SAH as Class III (no benefit or harm). If prophylaxis is deemed necessary (e.g., cortical haematoma, MCA aneurysm), levetiracetam is preferred over phenytoin due to a more favourable cognitive profile.",
+          "wrong": {
+            "A": "Phenytoin does NOT improve cognitive outcomes — it worsens them. This is a counterintuitive finding with strong evidence. Routine AED prophylaxis in SAH is not recommended",
+            "C": "Phenytoin has no established mechanism for reducing re-bleeding risk. Re-bleeding prevention involves early aneurysm securing and brief antifibrinolytic use (tranexamic acid), not AEDs",
+            "D": "Phenytoin and levetiracetam do NOT have equivalent cognitive profiles in SAH. Phenytoin is associated with worse cognitive outcomes; levetiracetam has a more favourable profile. They should not be treated as equivalent"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Class III: Routine use of prophylactic AEDs in SAH is NOT recommended. If used, levetiracetam preferred over phenytoin",
+          "trial": "Naidech AM et al. (Crit Care Med 2005): phenytoin use independently associated with worse cognitive outcomes at 3 months in SAH; Messe SR et al. (Stroke 2019): confirms phenytoin-cognition association",
+          "pearl": "Phenytoin WORSENS cognitive outcomes in SAH — do NOT use routinely. AED prophylaxis is Class III (no benefit). If seizure prophylaxis needed (cortical haematoma), use levetiracetam. Routine EEG monitoring for Hunt-Hess IV/V (20% non-convulsive seizures)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q7",
+        "stem": "The ULTRA trial (NEJM 2021) randomised 955 patients with aneurysmal SAH to tranexamic acid (1 g IV bolus + 1 g/h infusion) versus standard care. What were the main results?",
+        "options": {
+          "A": "Tranexamic acid significantly reduced both re-bleeding (RR 0.57) AND improved functional outcomes at 6 months",
+          "B": "Tranexamic acid significantly reduced re-bleeding (RR 0.57, P<0.001) but did NOT improve functional outcomes at 6 months (30.4% vs 30.6%, P=0.96)",
+          "C": "Tranexamic acid had no effect on re-bleeding or functional outcomes, confirming no role in SAH management",
+          "D": "Tranexamic acid significantly increased symptomatic cerebral infarction, leading to trial termination"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ULTRA (Participants, NEJM 2021): re-bleeding was significantly reduced by tranexamic acid (10.8% vs 18.8%, RR 0.57, P<0.001). However, primary clinical outcome (mRS 0–2 at 6 months) was identical: 30.4% vs 30.6%, P=0.96. The anti-rebleeding benefit was offset by increased ischaemic events (cerebral infarction due to thrombus stabilisation and potential microvascular thrombosis). The trial was completed (not terminated early). This represents another example of surrogate endpoint (re-bleeding) not translating to clinical benefit — the same pattern as FAST (rFVIIa for ICH) and CONSCIOUS (clazosentan for vasospasm).",
+          "wrong": {
+            "A": "While re-bleeding was significantly reduced, functional outcomes were NOT improved (P=0.96). The combination of benefits (re-bleeding reduction) and harms (increased ischaemia) resulted in clinical equipoise",
+            "C": "Tranexamic acid DID significantly reduce re-bleeding — this is not a neutral finding. The trial completed with 955 patients and was not stopped early for futility",
+            "D": "The trial was NOT terminated early for safety reasons. While ischaemic events trended higher in the tranexamic acid group, this did not reach statistical significance as a primary safety outcome and the trial completed full enrolment"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Short-term antifibrinolytics until aneurysm securing may be considered when delay is anticipated (Class IIb); based largely on ULTRA results",
+          "trial": "ULTRA (NEJM 2021): 955 patients — re-bleeding 10.8% vs 18.8%, RR 0.57, P<0.001; mRS 0–2 at 6 months: 30.4% vs 30.6%, P=0.96",
+          "pearl": "ULTRA: tranexamic acid reduces re-bleeding (RR 0.57) but does NOT improve outcomes (P=0.96). Ischaemia offsets anti-rebleeding benefit. Pattern of surrogate endpoint without clinical benefit — same lesson as FAST (rFVIIa) and CONSCIOUS (clazosentan)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q8",
+        "stem": "A 58-year-old woman presents with sudden-onset headache and GCS of 14 (confused). CT shows SAH with thick blood in the sylvian fissure. CTA identifies a left MCA bifurcation aneurysm measuring 8 × 7 mm with a wide neck and dome-to-neck ratio of 1.2. Both surgical and endovascular teams review the case. Which treatment is MOST appropriate based on anatomy and evidence?",
+        "options": {
+          "A": "Endovascular coiling alone, based on ISAT superiority for all aneurysm types",
+          "B": "Surgical clipping, given MCA bifurcation anatomy and wide-neck morphology unfavourable for standard coiling",
+          "C": "Flow diversion (Pipeline embolisation device) as first-line treatment",
+          "D": "Conservative management with angiographic follow-up at 6 weeks"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MCA bifurcation aneurysms are the paradigm case for surgical clipping preference over endovascular coiling. The wide neck (dome-to-neck ratio 1.2, far below the 1.5 threshold for standard coiling) and MCA bifurcation location (involving the M2 branch origins) make standard coiling technically challenging with high recurrence risk. ISAT enrolled only 3% MCA aneurysms, so its results cannot be generalised here. Surgical clipping provides excellent visualisation and reconstruction of the MCA bifurcation. Wide-neck MCA aneurysms are the most common scenario where experienced surgeons prefer clipping despite general ISAT preference for coiling.",
+          "wrong": {
+            "A": "ISAT enrolled very few MCA aneurysms (only 3%) and enrolled only cases considered suitable for BOTH modalities. A wide-neck MCA bifurcation aneurysm would typically NOT be considered suitable for standard coiling, making ISAT results inapplicable",
+            "C": "Pipeline embolisation device is indicated for large/giant fusiform aneurysms, not ruptured bifurcation aneurysms requiring immediate occlusion. Flow diversion has slow aneurysm occlusion kinetics (weeks to months) and requires antiplatelet therapy — both problematic in acute SAH",
+            "D": "Untreated ruptured aneurysm with 15–20% first-24-hour re-bleeding risk — conservative management is dangerous and inappropriate for a patient in good neurological condition"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — For MCA aneurysms, surgical clipping is generally preferred; individual patient factors, aneurysm anatomy, and institutional expertise guide the decision",
+          "trial": "ISAT (Molyneux Lancet 2002): only 3% MCA aneurysms enrolled — limited applicability to MCA disease. Multiple observational series confirm clipping superiority for wide-neck MCA bifurcation aneurysms",
+          "pearl": "ISAT favours coiling for most ruptured aneurysms, BUT MCA bifurcation aneurysms are the paradigm exception — typically clipped. Wide neck (D/N <1.5), M2 branch involvement, and MCA anatomy all favour clipping."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q9",
+        "stem": "A 63-year-old man with Hunt-Hess grade I SAH is found to have a 6 mm posterior communicating artery (PComA) aneurysm with an ipsilateral oculomotor nerve palsy (ptosis, mydriasis, complete ophthalmoplegia). He has no other neurological deficits. What is the significance of the cranial nerve III palsy in this case, and what does it indicate about aneurysm treatment urgency?",
+        "options": {
+          "A": "The CN III palsy is incidental and does not affect treatment urgency",
+          "B": "CN III palsy indicates direct compression of the nerve by the aneurysm dome and is a strong indicator for surgical clipping as the nerve often recovers better after direct decompression",
+          "C": "CN III palsy indicates intracranial hypertension and mandates ICP monitoring before aneurysm treatment",
+          "D": "CN III palsy in SAH always indicates re-bleeding and mandates emergency angiography"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A painful oculomotor palsy with pupillary involvement (mydriasis) in the context of a PComA aneurysm indicates direct compressive injury of the CN III by the aneurysm wall. The posterior communicating artery aneurysm points superolaterally to compress CN III where it passes between the posterior communicating artery and the superior cerebellar artery. The oculomotor nerve has its pupillomotor fibres superficially located (unlike ischaemic CN III palsy where pupil is spared). Direct compressive CN III palsy is a strong indication for surgical clipping over coiling, because surgical exposure allows direct decompression of the nerve and achieves better CN III recovery rates than coiling (80–90% recovery after clipping vs 60–70% after coiling in large series).",
+          "wrong": {
+            "A": "CN III palsy is NOT incidental — it is a direct sign of aneurysm compression and influences the treatment choice (favouring clipping for better CN III recovery)",
+            "C": "CN III palsy in this context reflects focal nerve compression, not ICP elevation. Raised ICP would cause bilateral CN VI palsies (as a false localising sign) rather than unilateral CN III palsy",
+            "D": "CN III palsy does not indicate re-bleeding. Re-bleeding would present as sudden clinical deterioration, new headache, GCS drop — not an isolated cranial nerve palsy"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — CN III palsy from PComA aneurysm: surgical clipping preferred for better CN III recovery; clipping allows direct nerve decompression",
+          "trial": "Multiple observational series (Chen 2003, Yu 2017): CN III recovery rates after clipping vs coiling for PComA aneurysm — complete recovery in 80–90% after clipping vs 60–70% after coiling",
+          "pearl": "PComA aneurysm + painful CN III palsy (pupil involved) = compressive CN III palsy = strong indication for surgical CLIPPING over coiling. Clipping achieves direct nerve decompression with 80–90% complete CN III recovery."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q10",
+        "stem": "Nimodipine 60 mg orally every 4 hours for 21 days is prescribed for all SAH patients. What is the primary mechanism by which nimodipine improves outcomes in SAH?",
+        "options": {
+          "A": "Reversal of cerebral arterial vasospasm through smooth muscle calcium channel blockade",
+          "B": "Neuroprotective effect on ischaemia-vulnerable neurons via neuronal L-type calcium channel blockade, independent of vasospasm prevention",
+          "C": "Reduction of haematoma volume by decreasing blood-brain barrier permeability",
+          "D": "Prevention of re-bleeding by stabilising the aneurysm wall"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Nimodipine's mechanism in SAH is predominantly neuroprotective rather than vasodilatory. Multiple studies including the BRANT trial (clazosentan, an endothelin receptor antagonist) demonstrated that preventing vasospasm does NOT improve clinical outcomes, while nimodipine improves outcomes WITHOUT significantly reducing angiographic vasospasm. Nimodipine is a dihydropyridine calcium channel blocker with particular affinity for neuronal L-type calcium channels, protecting neurons from calcium-mediated apoptosis during ischaemia from cortical spreading depolarisations and microvascular dysfunction — the mechanisms of DCI beyond large-vessel vasospasm.",
+          "wrong": {
+            "A": "This is the intuitive but incorrect mechanism. Multiple trials (CONSCIOUS-1, -2, -3 with clazosentan) showed that preventing vasospasm does not improve outcomes. Nimodipine does not significantly reduce angiographic vasospasm incidence or severity",
+            "C": "Nimodipine has no established mechanism for reducing haematoma volume or blood-brain barrier permeability in SAH",
+            "D": "Nimodipine has no antifibrinolytic or aneurysm wall-stabilising properties. Antifibrinolytics (tranexamic acid) address re-bleeding prevention"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Class I: Oral nimodipine 60 mg q4h × 21 days for all SAH patients",
+          "trial": "Allen GS et al. (NEJM 1983): UK nimodipine trial — significant reduction in poor outcomes. CONSCIOUS-2/3 (Macdonald, Lancet Neurol 2012): clazosentan reduces vasospasm but NOT outcomes — proving vasospasm prevention alone is insufficient",
+          "pearl": "Nimodipine = neuroprotective (neuronal L-type Ca channel blockade), NOT vasodilatory. The CONSCIOUS trials proved that preventing vasospasm without neuroprotection does NOT improve outcomes. Nimodipine is the only Class I SAH pharmacological treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q11",
+        "stem": "A 72-year-old man develops acute obstructive hydrocephalus (GCS drops from 14 to 9) 18 hours after a Hunt-Hess grade III SAH. An EVD is placed by the neurosurgical team. Over the next 10 days, repeated attempts to wean the EVD to 25–30 cm H₂O result in ICP elevation and clinical deterioration. CT shows persistent dilated ventricles without visible subarachnoid blood. What is the most appropriate next step?",
+        "options": {
+          "A": "Continue EVD indefinitely and initiate intraventricular alteplase to clear residual SAH clot",
+          "B": "Ventriculoperitoneal shunt insertion for persistent communicating hydrocephalus",
+          "C": "Lumbar drain insertion as definitive treatment for communicating hydrocephalus",
+          "D": "Endoscopic third ventriculostomy (ETV) as first-line surgical treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Persistent communicating hydrocephalus after SAH (inability to wean EVD after 10 days despite adequate time for subarachnoid blood clearance) requires a permanent CSF diversion procedure. Ventriculoperitoneal shunt (VPS) is the standard treatment, required in 10–15% of SAH survivors. The dilated ventricles with absent subarachnoid blood suggest impaired CSF absorption at the arachnoid granulations (fibrosis from blood products) — a communicating hydrocephalus mechanism that responds well to VPS.",
+          "wrong": {
+            "A": "Intraventricular alteplase (CLEAR III) is for acute IVH with EVD-refractory cast formation, not for persistent communicating hydrocephalus weeks after SAH when subarachnoid blood has cleared",
+            "C": "Lumbar drain (lumboperitoneal shunt) is an alternative for communicating hydrocephalus but is associated with higher revision rates and cranial hypotension complications compared to VPS. It is a second-line option, not the standard first choice",
+            "D": "Endoscopic third ventriculostomy (ETV) is effective for obstructive (non-communicating) hydrocephalus. Post-SAH hydrocephalus is typically communicating (arachnoid granulation dysfunction), where ETV has poor outcomes because the obstruction is at the CSF absorption level, not at the aqueduct or foramina"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Ventriculoperitoneal shunt for persistent hydrocephalus requiring permanent CSF diversion after SAH (Class I)",
+          "trial": "Komotar RJ et al. (Neurosurgery 2009): shunt-dependent hydrocephalus in SAH — predictors and management; VPS required in 10–15% of SAH patients",
+          "pearl": "Post-SAH persistent communicating hydrocephalus = VPS. Not ETV (requires obstructive hydrocephalus) and not lumboperitoneal shunt (higher revision rates). 10–15% of SAH survivors need permanent CSF diversion."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q12",
+        "stem": "Which finding on lumbar puncture BEST distinguishes true subarachnoid haemorrhage from a traumatic tap?",
+        "options": {
+          "A": "Red blood cells present in all four tubes, clearing between tube 1 and tube 4",
+          "B": "Yellow-tinged CSF (xanthochromia) by spectrophotometry, uniform blood distribution across all tubes, and elevated D-dimer",
+          "C": "Xanthochromia by spectrophotometry performed ≥12 hours after symptom onset, with uniform distribution of red cells across all CSF tubes",
+          "D": "Opening pressure >25 cm H₂O and protein >100 mg/dL"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "True SAH on LP shows: (1) uniformly blood-stained CSF across all tubes — blood does NOT clear between tube 1 and tube 4, unlike traumatic tap where blood decreases significantly from tube 1 to tube 4; (2) xanthochromia (yellow discolouration of centrifuged CSF) by spectrophotometry — detectable ≥12 hours after ictus due to bilirubin accumulation; (3) elevated opening pressure (consistent with subarachnoid blood). Traumatic tap shows clearing of blood between tubes (decreasing RBC count from tube 1 to tube 4) and NO xanthochromia unless the LP is performed >12 hours after significant haemorrhage.",
+          "wrong": {
+            "A": "Clearing of blood between tube 1 and tube 4 is the HALLMARK of a traumatic tap, NOT true SAH. In SAH, the CSF is uniformly blood-stained without clearing",
+            "B": "While xanthochromia and uniform distribution are correct, elevated D-dimer is not a standard LP finding used to distinguish SAH from traumatic tap",
+            "D": "Elevated opening pressure and protein can occur in both SAH and traumatic tap. These findings are not specific enough to distinguish the two"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — LP: xanthochromia by spectrophotometry ≥12h after onset is the gold standard for SAH diagnosis when CT is negative",
+          "trial": "UK NEQAS spectrophotometry guidelines; Beetham R (Ann Clin Biochem 2004): spectrophotometry vs visual inspection — visual inspection has ~50% false-negative rate for xanthochromia",
+          "pearl": "SAH vs traumatic tap: SAH = UNIFORM blood all tubes + XANTHOCHROMIA by spectrophotometry ≥12h. Traumatic tap = CLEARING between tubes 1-4 + NO xanthochromia. Visual xanthochromia has 50% false-negative rate — always use spectrophotometry."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q13",
+        "stem": "A 50-year-old woman with Hunt-Hess grade II aneurysmal SAH (anterior communicating artery aneurysm, successfully coiled on day 1) develops a fever of 39.2°C on post-SAH day 7, with no obvious infectious source. Blood and urine cultures are negative at 48 hours. What is the most likely cause of her fever?",
+        "options": {
+          "A": "Bacterial meningitis from EVD placement",
+          "B": "Central fever (neurogenic fever) due to hypothalamic dysfunction from subarachnoid blood",
+          "C": "Deep vein thrombosis with pulmonary embolism",
+          "D": "Nimodipine-induced drug fever"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Central fever (neurogenic fever) is common after SAH, occurring in 40–70% of patients in the first 2 weeks. It results from hypothalamic irritation by subarachnoid blood, disrupting thermoregulatory control. It typically occurs between days 5–14 (coinciding with the vasospasm window), which makes it critically important to distinguish from septic fever. Characteristics: temperature often >39°C, heart rate may be normal (unlike septic fever where tachycardia is expected), no infectious focus, negative cultures. Management: antipyretics (acetaminophen/paracetamol), cooling blankets, surface cooling. Fever is independently associated with worse outcomes in SAH, and aggressive temperature normalisation is recommended.",
+          "wrong": {
+            "A": "EVD-associated ventriculitis is possible but would typically show CSF pleocytosis, positive CSF cultures, and fever more directly linked to EVD days in situ. This patient's aneurysm was coiled on day 1 (suggesting no EVD was required), and blood/urine cultures are negative",
+            "C": "DVT/PE can cause fever but typically presents with hypoxaemia, tachycardia, and leg symptoms. It remains a differential in immobile SAH patients but central fever is more likely without supporting clinical features",
+            "D": "Nimodipine-induced drug fever is not a recognised adverse effect. Nimodipine's main adverse effects are hypotension (particularly IV route) and flushing"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Treat fever aggressively in SAH; fever >38.3°C is associated with worse DCI and outcome; aggressive normothermia recommended",
+          "trial": "Fernandez A et al. (Neurocrit Care 2007): fever in SAH associated with increased vasospasm and worse outcome; Oliveira-Filho J (Cerebrovascular Dis 2001): fever incidence 40–70% in SAH",
+          "pearl": "Central fever in SAH: 40–70% incidence, typically days 5–14, coincides with vasospasm window. Fever independently worsens outcomes. Treat aggressively with antipyretics and surface cooling. Always rule out infectious cause, but central fever is the default diagnosis in this setting."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q14",
+        "stem": "A 55-year-old man with a WFNS grade IV SAH (GCS 8, with right hemiplegia) is brought to your neurosurgical centre 3 hours after ictus. CT shows massive diffuse SAH with bilateral temporal horn dilatation consistent with acute hydrocephalus. CTA identifies a 12 mm basilar tip aneurysm. What is the MOST appropriate immediate management sequence?",
+        "options": {
+          "A": "Immediate catheter angiography and coiling of the basilar tip aneurysm before EVD placement",
+          "B": "Bilateral EVD placement followed by coiling of basilar tip aneurysm when neurological status improves to WFNS grade II",
+          "C": "Bilateral EVD placement emergently, then early (within 24 hours) coiling of basilar tip aneurysm when haemodynamically stable",
+          "D": "Conservative management, as poor-grade SAH has <5% chance of good outcome and aggressive treatment is futile"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Poor-grade SAH (WFNS IV) with hydrocephalus: EVD is the priority intervention — acute hydrocephalus contributes significantly to the GCS depression and is rapidly reversible. After EVD placement (often improving GCS dramatically), early aneurysm securing within 24 hours prevents re-bleeding. Basilar tip aneurysms are preferentially coiled. The AHA/ASA 2023 guidelines recommend ultraearly aneurysm treatment (within 24 hours of ictus). Approximately 15–20% of poor-grade SAH patients recover to functional independence with aggressive treatment.",
+          "wrong": {
+            "A": "Coiling before EVD risks precipitating herniation by inducing systemic heparinisation (for angiography) in a patient with elevated ICP from hydrocephalus. EVD first to decompress is safer",
+            "B": "Waiting for WFNS grade improvement before treating the aneurysm is dangerous — re-bleeding risk is highest in the first 24 hours (15–20%). Aneurysm should be secured within 24 hours, not deferred until neurological improvement",
+            "D": "Poor-grade SAH is NOT futile — 15–20% of WFNS IV patients achieve functional independence with aggressive treatment. The self-fulfilling prophecy of withholding care in poor-grade SAH is explicitly cautioned against in AHA/ASA 2023 guidelines"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Class I: Aneurysm treatment within 24 hours of SAH onset; EVD for hydrocephalus with neurological deterioration; do not withhold aggressive treatment based on poor grade alone",
+          "trial": "Multiple observational series: WFNS grade IV SAH outcome with aggressive treatment — 15–20% achieve good functional outcome (mRS 0–2); early EVD and aneurysm securing improves outcome in poor-grade SAH",
+          "pearl": "Poor-grade SAH sequence: (1) EVD for hydrocephalus, (2) early aneurysm securing within 24 hours, (3) full medical management. 15–20% of WFNS IV patients achieve good outcome. Do NOT withhold care based on grade alone."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q15",
+        "stem": "Which statement BEST describes the difference between radiological cerebral vasospasm and delayed cerebral ischaemia (DCI) after SAH?",
+        "options": {
+          "A": "DCI is synonymous with radiological vasospasm — all vasospasm causes DCI",
+          "B": "Radiological vasospasm is angiographic arterial narrowing occurring in 50–70% of SAH patients; DCI is a clinical/imaging diagnosis of new neurological deficit or infarction not explained by other causes, occurring in 30–40%; not all vasospasm causes DCI and DCI can occur without visible vasospasm",
+          "C": "DCI occurs earlier (days 1–3) than radiological vasospasm (days 7–14) and is caused by cortical spreading depression rather than arterial spasm",
+          "D": "Radiological vasospasm is the cause of 100% of DCI cases; DCI is simply the clinical manifestation of vasospasm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Radiological vasospasm (angiographic narrowing) occurs in 50–70% of SAH patients days 4–14, peaking at days 7–10. Clinically apparent DCI occurs in 30–40% and is defined as new focal neurological deficit or cognitive deterioration, or new infarction on CT/MRI, not attributable to re-bleeding, hydrocephalus, electrolyte disturbance, or other causes. The critical distinction: not all vasospasm causes DCI, and DCI can occur without angiographically visible vasospasm (due to microvascular vasospasm, cortical spreading depolarisations, and brain tissue vulnerability). This dissociation is proven by the CONSCIOUS trials: clazosentan reduced vasospasm but not DCI/outcomes.",
+          "wrong": {
+            "A": "Vasospasm and DCI are not synonymous — 50–70% have vasospasm but only 30–40% develop DCI. Many patients with angiographic vasospasm have no clinical symptoms",
+            "C": "DCI does NOT occur earlier than vasospasm. Both manifest in the same time window (days 4–14). Cortical spreading depolarisations contribute to DCI but do not cause the bulk of clinical events independently of the vasospasm window",
+            "D": "The CONSCIOUS trials definitively proved that vasospasm is NOT the sole cause of DCI. Preventing vasospasm alone (clazosentan) did not prevent DCI — other mechanisms are involved"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — DCI definition: new neurological deficit not explained by other causes; distinguishing DCI from vasospasm is essential for management",
+          "trial": "CONSCIOUS-2/3 (Macdonald Lancet Neurol 2012): clazosentan significantly reduced vasospasm but did NOT improve DCI or functional outcomes — proving vasospasm ≠ DCI causally",
+          "pearl": "Vasospasm (50–70% incidence) ≠ DCI (30–40% incidence). DCI can occur without visible vasospasm (microvascular spasm, cortical spreading depolarisation). Treating vasospasm alone (clazosentan) does not prevent DCI. Nimodipine works through neuronal protection, not vasodilation."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q16",
+        "stem": "A 47-year-old woman presents with Hunt-Hess grade I SAH. CT angiography identifies two aneurysms: a 7 mm ruptured right posterior communicating artery aneurysm (confirmed as the bleeding source by angiographic blush) and an incidental 3 mm left anterior communicating artery aneurysm. The ruptured PComA aneurysm is clipped on day 1. What is the recommended management of the incidental left AComA aneurysm?",
+        "options": {
+          "A": "Treat the incidental aneurysm simultaneously during the same surgical procedure",
+          "B": "Treat the incidental aneurysm definitively at a separate elective procedure within 3–6 months, based on size, morphology, and patient preference",
+          "C": "No treatment required for any incidental aneurysm <5 mm — the annual rupture risk is essentially zero",
+          "D": "Immediate coiling of the incidental aneurysm on the same day as the ruptured aneurysm to prevent future rupture"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Management of incidental unruptured intracranial aneurysms discovered incidentally during SAH workup is guided by PHASES score (Population, Hypertension, Age, Size of aneurysm, Earlier SAH from a different aneurysm, Site of aneurysm) and ISUIA data. A 3 mm AComA aneurysm in a young patient (age 47) who has had a prior SAH carries higher rupture risk than population baseline (prior SAH history increases risk). Management should be deferred to elective treatment at a separate procedure after recovery (typically 3–6 months), based on individual risk factors, patient preference, and institutional expertise. Simultaneous treatment may increase procedural risk.",
+          "wrong": {
+            "A": "Treating both aneurysms simultaneously increases procedural complexity and risk during an already high-risk emergency procedure. Current practice defers incidental aneurysm treatment to elective conditions",
+            "C": "Annual rupture risk is NOT essentially zero for all aneurysms <5 mm. The PHASES score accounts for multiple risk factors. Importantly, prior SAH from another aneurysm significantly increases rupture risk of co-existing aneurysms",
+            "D": "Immediate same-day coiling of the incidental aneurysm is not standard practice — the patient has already had one procedure (clipping), anticoagulation for coiling adds risk, and the incidental aneurysm can be managed electively when risks are lower"
+          },
+          "guideline": "AHA/ASA Unruptured Intracranial Aneurysm Guidelines 2015 — PHASES score for rupture risk stratification; prior SAH is a significant risk factor increasing management consideration even for small aneurysms",
+          "trial": "ISUIA (International Study of Unruptured Intracranial Aneurysms, Wiebers NEJM 2003): size, location, prior SAH history are key rupture risk determinants",
+          "pearl": "Incidental aneurysm during SAH workup: treat the ruptured aneurysm first, then assess the incidental aneurysm electively using PHASES score. Prior SAH increases rupture risk of co-existing aneurysms regardless of size — even 3 mm aneurysms warrant serious consideration."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q17",
+        "stem": "Which of the following is the CORRECT description of the Ottawa SAH Rule and when to apply it?",
+        "options": {
+          "A": "The rule applies to patients with any headache; a score ≥2 mandates CT head",
+          "B": "The rule is applied to patients with acute non-traumatic headache reaching maximum intensity within 1 hour; if ANY of 6 criteria are present, LP is required after negative CT to exclude SAH (100% sensitivity)",
+          "C": "The rule applies only to patients with pre-existing hypertension and a new headache",
+          "D": "The rule uses MRI FLAIR as the primary imaging modality before LP is considered"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Ottawa SAH Rule (Perry, Lancet 2011) applies to patients with acute non-traumatic headache reaching maximum intensity within 1 hour, and is only valid in neurologically intact, alert patients. The 6 criteria (any ONE positive mandates LP after negative CT): age ≥40 years; neck stiffness or pain; witnessed loss of consciousness; onset with exertion; thunderclap character ('worst headache'); limited neck flexion on examination. The rule achieved 100% sensitivity and 15.3% specificity in validation (high sensitivity, moderate specificity — correctly identifies all SAH, with some false positives). It is NOT a score — any single positive criterion is a positive rule result.",
+          "wrong": {
+            "A": "The Ottawa SAH Rule is NOT applied to any headache — it is specifically for acute headache reaching maximum intensity within 1 hour. It is not a score — any single positive criterion is sufficient",
+            "C": "The rule does not restrict to hypertensive patients — it applies to any neurologically intact patient with thunderclap headache characteristics",
+            "D": "The Ottawa SAH Rule uses CT as the primary imaging modality, followed by LP if CT is negative. MRI FLAIR is not part of the Ottawa SAH decision algorithm"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Ottawa SAH Rule validated for identifying patients requiring LP after negative CT",
+          "trial": "Perry JJ et al. (Lancet 2011): Ottawa SAH Rule validation — 1,153 patients, 100% sensitivity (100% of SAH correctly identified), 15.3% specificity; negative predictive value 100%",
+          "pearl": "Ottawa SAH Rule: 6 criteria — age ≥40, neck stiffness, LOC, onset with exertion, thunderclap, limited neck flexion. ANY one criterion = rule positive = LP required after negative CT. Sensitivity 100%, specificity 15%. Applied only to acute headache (max intensity within 1 hour) in neurologically intact patients."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q18",
+        "stem": "A 66-year-old woman with SAH (WFNS grade III, basilar tip aneurysm coiled on day 2) develops progressively worsening dysarthria and right hemiplegia on post-SAH day 9. TCD shows bilateral anterior and middle cerebral artery mean velocities of 175–185 cm/s. CT shows no new haemorrhage. CT perfusion demonstrates prolonged time-to-maximum (Tmax >6 seconds) in left MCA territory. MAP is 85 mmHg (baseline 92 mmHg). What is the most appropriate immediate intervention?",
+        "options": {
+          "A": "Repeat CT angiography and catheter angiography for endovascular vasodilator treatment immediately",
+          "B": "Induced hypertension with norepinephrine targeting MAP 100–110 mmHg (20–25% above baseline), monitoring clinical response",
+          "C": "Initiation of hypervolaemia with 2 L normal saline bolus and target CVP 12–14 mmHg",
+          "D": "Increase nimodipine dose to 90 mg every 4 hours for more vasodilation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has established DCI (new neurological deficit on day 9, consistent timing, CT perfusion showing ischaemia, no alternative explanation). First-line treatment is induced hypertension: norepinephrine to increase MAP 20–25% above baseline (MAP 85 → 105 mmHg). Clinical monitoring guides the target — if neurological deficit resolves, maintain the elevated MAP. If no response within 1–2 hours, proceed to catheter angiography for intra-arterial vasodilator treatment. Hypervolaemia (3H therapy) is outdated and Class III.",
+          "wrong": {
+            "A": "Immediate catheter angiography is the SECOND step if induced hypertension fails. First try pharmacological treatment (induced hypertension) as it is less invasive and faster to initiate",
+            "C": "Prophylactic hypervolaemia (targeting high CVP) is Class III (Harm) based on PHAST trial data. Even for established DCI, the focus is induced hypertension, not hypervolaemia",
+            "D": "Nimodipine dose escalation above 60 mg q4h is not recommended — it increases hypotension risk. Nimodipine is neuroprotective, not a rescue vasodilator for established DCI"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Established DCI: induced hypertension (Class IIa); intra-arterial vasodilator/angioplasty if hypertension fails (Class IIa)",
+          "trial": "Muench E et al. (Stroke 2007): induced hypertension for vasospasm-related DCI — 80% response rate with MAP increase to 100–120 mmHg; reversal of neurological deficit correlates with perfusion improvement",
+          "pearl": "DCI management: Step 1 = induced hypertension (norepinephrine, MAP +20–30% baseline). Step 2 = catheter angiography + intra-arterial verapamil/milrinone or balloon angioplasty (proximal vasospasm). Do NOT increase nimodipine or use hypervolaemia."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q19",
+        "stem": "A 53-year-old man with a Hunt-Hess grade II SAH has his anterior communicating artery aneurysm coiled on day 1. Post-procedure, he is drowsy (GCS 13). CT on day 3 shows normal ventricle size. By day 7, he is GCS 14 but has a mild expressive dysphasia not present on admission. His blood pressure is 145/85 mmHg on nimodipine. Urine output is 4.2 L/day (from day 5). Serum Na is 130 mEq/L. What is the MOST likely diagnosis and management?",
+        "options": {
+          "A": "SIADH — fluid restriction to 1,000 mL/day",
+          "B": "Cerebral salt wasting (CSWS) — normal saline infusion to maintain euvolaemia plus oral fludrocortisone 0.1–0.2 mg/day",
+          "C": "Nimodipine-induced hyponatraemia — reduce nimodipine dose to 30 mg q4h",
+          "D": "Hypothalamic dysfunction from SAH — no specific treatment required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "High urine output (4.2 L/day) indicates polyuria with natriuresis — the hallmark of cerebral salt wasting (CSWS). ANP and BNP released by hypothalamic dysfunction after SAH drive renal sodium loss and subsequent hypovolaemia. Treatment: volume replacement (normal or hypertonic saline) plus fludrocortisone 0.1–0.2 mg/day to replace mineralocorticoid activity and reduce renal sodium loss. Fluid restriction (SIADH treatment) would be catastrophically harmful here by exacerbating volume depletion and triggering DCI in the vasospasm window.",
+          "wrong": {
+            "A": "Fluid restriction in CSWS would reduce intravascular volume, increase vasospasm risk, and potentially cause DCI. Urine output 4.2 L/day with polyuria points to CSWS with volume depletion, not SIADH with volume overload",
+            "C": "Nimodipine does not cause hyponatraemia as a recognised adverse effect. Its main adverse effect is hypotension. Reducing nimodipine would remove the only Class I neuroprotective agent",
+            "D": "This is not merely a benign hypothalamic abnormality — it is active CSWS causing volume depletion and hyponatraemia with neurological effects (dysphasia) and it requires specific treatment to prevent DCI"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — Hyponatraemia post-SAH: CSWS predominant mechanism; treat with volume and sodium replacement, fludrocortisone; avoid fluid restriction",
+          "trial": "Mori T et al. (Stroke 1999): fludrocortisone significantly reduces CSWS and hyponatraemia frequency in SAH; Audibert G (Anesth Analg 2009): CSWS vs SIADH distinction in SAH",
+          "pearl": "Post-SAH hyponatraemia with polyuria = CSWS (natriuresis, volume depletion). Treatment: IV saline + fludrocortisone 0.1–0.2 mg/day. Key differentiator: CSWS = negative fluid balance + polyuria. SIADH = euvolaemia/positive balance + normal/low urine output."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q20",
+        "stem": "A 48-year-old woman has a ruptured right posterior communicating artery aneurysm presenting as Hunt-Hess grade II SAH with a complete right oculomotor nerve palsy (ptosis, mydriasis, and ophthalmoplegia). CTA confirms a 9 mm PComA aneurysm. Both clipping and coiling are technically feasible. What evidence-based factor MOST strongly favours surgical clipping over endovascular coiling in this specific patient?",
+        "options": {
+          "A": "Patient age <50 years (ISAT long-term durability data)",
+          "B": "Direct compressive CN III palsy — surgical clipping allows nerve decompression with superior CN III recovery rates (80–90% vs 60–70% for coiling)",
+          "C": "Posterior circulation location — all posterior communicating artery aneurysms are best clipped",
+          "D": "Aneurysm size 9 mm — large aneurysms cannot be coiled safely"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The presence of a compressive CN III palsy is the strongest anatomical and clinical argument for surgical clipping of a PComA aneurysm. During clipping, the surgeon can directly visualise and decompress the oculomotor nerve from the aneurysm dome/wall. CN III recovery rates are 80–90% after clipping versus 60–70% after coiling in multiple observational series, because coiling occludes the aneurysm internally but does not decompress the nerve externally. For a 48-year-old woman with full ophthalmoplegia, maximising CN III recovery is a key quality-of-life outcome.",
+          "wrong": {
+            "A": "Young age is a factor favouring clipping for durability (ISAT long-term data), but it is not the MOST SPECIFIC factor in this case. The CN III palsy provides the strongest specific argument",
+            "C": "PComA aneurysms are NOT uniformly best clipped — they are actually frequently coiled successfully. The presence of CN III palsy is the specific modifier favoring clipping here, not the PComA location per se",
+            "D": "A 9 mm aneurysm is within the size range treatable by coiling in experienced hands. Size alone does not contraindicate coiling. Wide-neck morphology and branching anatomy are more relevant for coiling feasibility"
+          },
+          "guideline": "AHA/ASA SAH Guidelines 2023 — CN III palsy from PComA aneurysm: surgical clipping generally preferred for better CN III decompression and recovery",
+          "trial": "Chen PR et al. (J Neurosurg 2003): PComA aneurysm with CN III palsy — complete or near-complete recovery in 83% after clipping vs 61% after coiling; Yu JL (World Neurosurg 2017) confirms differential recovery",
+          "pearl": "PComA aneurysm + CN III palsy = surgical clipping preferred. Reason: direct nerve decompression during surgery → 80–90% CN III recovery vs 60–70% after coiling. This overrides the general ISAT preference for coiling in this specific scenario."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

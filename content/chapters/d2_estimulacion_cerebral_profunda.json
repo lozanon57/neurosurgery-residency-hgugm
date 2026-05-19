@@ -1,0 +1,657 @@
+{
+  "id": "D2",
+  "title": "Deep Brain Stimulation",
+  "subtitle": "Block D — Functional Neurosurgery: DBS for Movement Disorders, Neuropsychiatric Conditions, and Emerging Indications",
+  "block": "D",
+  "block_name": "Functional Neurosurgery",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "MDS Parkinson's Disease Guidelines 2020 · NICE NG71 Parkinson's 2017 · AAN DBS Guidelines 2018",
+  "textbook_refs": [
+    "Okun MS. Deep-Brain Stimulation for Parkinson's Disease. NEJM 2012;367:1529-1538",
+    "Deuschl G et al. A Randomized Trial of Deep-Brain Stimulation for Parkinson's Disease (EARLYSTIM). NEJM 2006;355:896-908",
+    "Vidailhet M et al. Bilateral Deep-Brain Stimulation of the Globus Pallidus in Primary Generalized Dystonia. NEJM 2005;352:459-467",
+    "Kopell BH et al. Deep Brain Stimulation for Psychiatric Disorders. J Clin Invest 2004;113:1730-1742"
+  ],
+  "learning_objectives": [
+    "Describe the pathophysiology of the basal ganglia-thalamo-cortical circuit in Parkinson's disease and the mechanism of DBS therapeutic effect",
+    "Apply the UPDRS and LSVT scales to assess PD severity and DBS candidacy criteria",
+    "Compare the major DBS targets for PD (STN, GPi) in terms of motor outcomes, medication reduction, and cognitive/neuropsychiatric side effects",
+    "Identify the DBS targets and outcomes for essential tremor (VIM), dystonia (GPi), and OCD/depression (VC/VS, ALIC, SCC)",
+    "Describe the surgical technique, lead placement verification, and common post-operative complications of DBS implantation",
+    "Explain the emerging indications for DBS including Tourette syndrome, Alzheimer's disease (fornix), and obesity (LH)"
+  ],
+  "sections": [
+    {
+      "id": "D2-S1",
+      "title": "Basal Ganglia Circuit and Mechanism of DBS",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Deep brain stimulation (DBS) delivers continuous or intermittent high-frequency electrical stimulation (typically 130-185 Hz, 60-90 μs pulse width, 1-5 V) through chronically implanted electrodes to specific subcortical targets. The therapeutic mechanism was initially hypothesised to be 'functional ablation' mimicking lesioning, but is now understood to involve complex modulation of neural circuits: (1) **inhibition of local neuronal activity** (hyperpolarising the stimulated nucleus); (2) **excitation of efferent axons** projecting from the target; (3) **disruption of abnormal oscillatory activity** (particularly pathological beta-band synchrony in PD, 13-30 Hz); (4) **modulation of network-level activity** across the entire basal ganglia-thalamo-cortical loop. These effects are reversible — cessation of stimulation typically restores the pre-stimulation state within hours, providing a key safety advantage over ablative lesioning.\n\nThe **basal ganglia-thalamo-cortical circuit** comprises parallel loops relevant to movement, cognition, and limbic function. The **direct pathway**: striatum (D1 receptors, GABA) → globus pallidus interna (GPi) / substantia nigra pars reticulata (SNr) — INHIBITORY; GPi/SNr → thalamus (VL) — INHIBITORY; net effect of direct pathway: disinhibition of thalamus → facilitation of cortical movement. The **indirect pathway**: striatum (D2 receptors, GABA) → globus pallidus externa (GPe) — INHIBITORY; GPe → subthalamic nucleus (STN) — INHIBITORY; STN → GPi/SNr — EXCITATORY; GPi/SNr → thalamus — INHIBITORY; net effect of indirect pathway: inhibition of thalamus → suppression of cortical movement. In **Parkinson's disease**, dopamine loss disproportionately reduces D1 striatal activity (less direct pathway facilitation) and reduces D2-mediated inhibition of the indirect pathway (more STN activity) — resulting in excessive GPi/SNr inhibition of the thalamus, causing bradykinesia and rigidity. DBS of the STN reduces this excessive STN excitatory output to GPi, and DBS of GPi directly reduces GPi inhibition of the thalamus, both restoring balanced thalamo-cortical facilitation."
+        },
+        {
+          "type": "table",
+          "title": "DBS Targets and Primary Indications",
+          "headers": ["Target", "Anatomical Location", "Primary Indication", "Key Effect"],
+          "rows": [
+            ["STN (subthalamic nucleus)", "Subthalamic region, dorsal-lateral", "Parkinson's disease (preferred)", "Reduces STN overactivity → reduces GPi inhibition → restores thalamic drive; allows medication reduction"],
+            ["GPi (globus pallidus interna)", "Posterior medial GPi", "PD (alternative); primary generalised dystonia", "Directly reduces GPi output → disinhibits thalamus; less medication reduction in PD vs STN"],
+            ["VIM (ventral intermediate nucleus of thalamus)", "Posterior thalamus, lateral VIM", "Essential tremor (tremor of any cause)", "Suppresses thalamic relay of tremor oscillations; does NOT improve bradykinesia/rigidity"],
+            ["VC/VS (ventral capsule/ventral striatum)", "Anterior limb of internal capsule + ventral striatum", "OCD (FDA Humanitarian Device Exemption)", "Modulates limbic-prefrontal-striatal circuit"],
+            ["SCC (subgenual cingulate cortex, Area 25)", "Subcallosal cingulate, Brodmann Area 25", "Treatment-resistant depression (TRD)", "Suppresses hyperactive default mode network; reduces depression severity"],
+            ["CM-PF (centromedian-parafascicular thalamus)", "Intralaminar thalamus", "Tourette syndrome; epilepsy (SANTE target)", "Modulates cortico-thalamo-striatal circuits controlling vocalisations and motor tics"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "DBS Mechanism — Not Simply Functional Ablation",
+          "content": "DBS at high frequency (130+ Hz) is NOT simply equivalent to a lesion. Key differences: (1) reversible — turning off stimulation restores baseline; (2) frequency-dependent effects — low frequency (<50 Hz) can WORSEN symptoms (facilitating instead of inhibiting pathological circuits); (3) adaptive stimulation (closed-loop DBS) can vary parameters in response to beta-band LFP activity; (4) axonal excitation at the target can drive downstream circuits in complex ways. The reversibility of DBS is its primary safety advantage over ablative procedures (pallidotomy, thalamotomy)."
+        }
+      ]
+    },
+    {
+      "id": "D2-S2",
+      "title": "DBS for Parkinson's Disease: STN vs GPi",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "DBS is the gold-standard surgical treatment for **motor complications** of Parkinson's disease — specifically drug-induced dyskinesia and motor fluctuations (off periods) in patients with good levodopa response who are no longer adequately controlled on optimised medication. The landmark evidence comes from two major trials.\n\n**VA/NINDS Randomised Trial (Weaver et al. JAMA 2009)**: 255 PD patients randomised to DBS (STN or GPi, surgeon's choice) vs best medical management. At 6 months: **DBS group gained 4.6 hours/day more 'good control' time (ON without troublesome dyskinesia)** vs 0 hours in medical group (P<0.001). Motor scores (UPDRS III off medication) improved 27% with DBS vs no improvement with medical management.\n\n**EARLYSTIM Trial (Schuepbach et al. NEJM 2013)**: 251 younger PD patients (age <60, early motor complications, mean disease duration 7.3 years) randomised to STN-DBS vs best medical therapy. Primary outcome: PDQ-39 quality of life score. **STN-DBS superior at 24 months: PDQ-39 improved 7.8 points vs worsened 0.2 points in medical group (P<0.001)**. This trial extended DBS candidacy to younger patients with early (but significant) motor complications, challenging the 'save DBS for late-stage disease' paradigm.\n\n**STN vs GPi comparison** (COMPARE trial and VA trial subanalyses): Both targets achieve equivalent motor outcomes in PD. Key differences: **STN-DBS** allows greater reduction in dopaminergic medications (mean 50-60% reduction in levodopa equivalent dose), which reduces dyskinesia and medication costs; **GPi-DBS** provides better direct dyskinesia suppression, better mood outcomes (less depression), and is preferred in patients with pre-existing cognitive impairment or depression, as STN stimulation is associated with neuropsychiatric side effects (anxiety, hypomania, depression). **Cognitive safety**: both STN and GPi DBS are associated with small declines in verbal fluency (~10% decline), but STN carries greater risk of neuropsychiatric complications. For elderly patients (>70) or those with pre-existing cognitive impairment, **GPi is preferred**.\n\n**DBS candidacy criteria for PD**: (1) clear PD diagnosis (not atypical parkinsonism — MSA, PSP, DLB); (2) significant motor complications (>2 hours/day off time, or disabling dyskinesia) despite optimised medical management; (3) good levodopa response (>30% improvement in UPDRS motor score with levodopa challenge — predicts response to STN-DBS); (4) no significant cognitive impairment (MoCA ≥24, neuropsychological assessment); (5) no untreated psychiatric illness (depression, psychosis, suicidality); (6) no significant structural brain pathology; (7) patient understanding of device management requirements."
+        },
+        {
+          "type": "table",
+          "title": "STN-DBS vs GPi-DBS for Parkinson's Disease",
+          "headers": ["Feature", "STN-DBS", "GPi-DBS"],
+          "rows": [
+            ["Motor improvement", "Equivalent", "Equivalent"],
+            ["Medication reduction", "50-60% reduction in LED", "Minimal reduction required"],
+            ["Dyskinesia management", "Indirect (via dose reduction)", "Direct suppression"],
+            ["Neuropsychiatric risk", "Higher (depression, anxiety, hypomania)", "Lower — preferred with psychiatric history"],
+            ["Cognitive safety", "Small verbal fluency decline", "Similar verbal fluency decline; generally safer in mild CI"],
+            ["Preferred patient", "Younger, cognitively intact, high medication burden", "Elderly, mild cognitive impairment, depression, dyskinesia dominant"],
+            ["Battery life", "Longer (lower energy requirements in some patients)", "May require higher stimulation amplitude"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Absolute Contraindications to DBS in PD",
+          "content": "DBS should NOT be performed in: (1) atypical parkinsonism (MSA — multi-system atrophy; PSP — progressive supranuclear palsy; CBD — corticobasal degeneration; DLB — dementia with Lewy bodies) — these do not respond to levodopa and will not respond to STN/GPi DBS; (2) significant dementia (MoCA <24, formal neuropsychological impairment); (3) untreated depression or psychosis; (4) poor levodopa response (<30% UPDRS improvement) — this is the single most reliable predictor of DBS failure. The Levodopa Challenge Test is mandatory: pre-op UPDRS motor score in off state vs post-levodopa on state — the response to DBS mirrors the response to levodopa."
+        }
+      ]
+    },
+    {
+      "id": "D2-S3",
+      "title": "DBS Surgical Technique and Lead Placement",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "DBS implantation is typically performed in two stages. **Stage 1**: bilateral (or unilateral) lead implantation via stereotactic frame-based (Leksell, Cosman-Roberts-Wells frames) or frameless (Nexframe, robot-assisted) approaches under local anaesthesia with light sedation (awake surgery) or general anaesthesia. Awake surgery enables **microelectrode recording (MER)** and **macrostimulation testing**: MER identifies the target nucleus by its characteristic neuronal firing pattern (STN: high-frequency 'irregular' discharges at 20-50 Hz, typical 'cicada' sound; GPi: high-frequency ~90 Hz; thalamic VIM: burst firing); macrostimulation through the electrode at progressively higher voltages tests for therapeutic effect and side effects (internal capsule stimulation: capsular contraction — 'spread to pyramidal tract'; sensory thalamus: paraesthesiae). **Stage 2** (typically 1-3 weeks later): subcutaneous implantable pulse generator (IPG) placement, usually infraclavicular, with subcutaneous extension cable tunnelled to the lead connectors in the scalp.\n\nFor **MRI-guided focused ultrasound (MRgFUS) thalamotomy**, an alternative to VIM DBS for essential tremor, no implant is placed — focused ultrasound energy is delivered through the intact skull (1024-element phased array transducer) using the ExAblate Neuro system, creating a small thermal lesion (55-60°C for 10-20 seconds) at the VIM. MRI thermometry provides real-time temperature monitoring. This is a single-session outpatient procedure with immediate tremor control in ~70-80% of patients, but the effect is UNILATERAL (bilateral MRgFUS risks ataxia and speech disturbances) and PERMANENT (unlike DBS). FDA approved in 2016 for essential tremor.\n\nPost-operative MRI or CT confirms lead placement. **Programming** begins 2-4 weeks post-implantation after tissue oedema resolution. Programming parameters: contact selection (which of the 4 DBS contacts to activate), polarity (monopolar vs bipolar), amplitude (V), frequency (Hz), pulse width (μs). Programming is iterative — initial settings are conservative with progressive adjustment over 3-12 months. Key complications: **haemorrhage** (1-3% symptomatic intracranial haemorrhage from lead placement), **infection** (3-5% hardware infection, often requiring device explantation), **lead migration/fracture** (1-3%), **IPG malfunction**, and stimulation-induced side effects (phosphenes, dysarthria, paraesthesiae, psychiatric effects)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Microelectrode Recording in Awake DBS",
+          "content": "During awake STN DBS surgery, the neurosurgeon and neurophysiologist listen to the characteristic firing patterns through a loudspeaker to identify target nuclei. The STN produces a dense, irregular high-frequency discharge (20-50 Hz) resembling popcorn or cicadas — distinct from the lower firing rates of the zona incerta above and the substantia nigra below. The patient performs limb movements and counting tasks during recording to identify the motor-related STN sub-territory (dorsolateral STN = motor; ventromedial = limbic/associative — target the motor territory). Real-time UPDRS tremor assessment during macrostimulation confirms therapeutic efficacy at the planned implant depth."
+        }
+      ]
+    },
+    {
+      "id": "D2-S4",
+      "title": "DBS for Essential Tremor and Dystonia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Essential tremor (ET)** is the most common movement disorder, characterised by bilateral upper extremity postural and kinetic tremor (head and voice in some patients). The **VIM (ventral intermediate nucleus of thalamus)** is the primary DBS target for ET — the VIM is the thalamic relay nucleus for cerebellar input (dentato-thalamo-cortical pathway), and its stimulation interrupts the oscillatory tremor circuit. VIM-DBS achieves **tremor suppression in 65-90% of patients**, with hand tremor reduction of ~60-90% on the contralateral side. Bilateral VIM DBS provides more complete suppression but carries higher risk of dysarthria (speech difficulty from bilateral thalamic stimulation). An important limitation: VIM-DBS does NOT improve bradykinesia or rigidity (unlike STN/GPi DBS) and therefore does not benefit patients with parkinsonian tremor in isolation of other PD features unless the tremor is the sole manifestation. **Habituation** (gradual reduction in tremor suppression over time despite continued stimulation) occurs in approximately 50% of patients at 5 years, requiring reprogramming or lead repositioning.\n\n**MRgFUS thalamotomy** is now the preferred minimally invasive alternative for unilateral ET in eligible patients (adequate skull density ratio >0.45, no brain atrophy precluding ultrasound focusing). Tremor suppression equivalent to DBS at 1 year, with the advantage of no implanted hardware. FDA-approved since 2016.\n\n**Primary generalised dystonia (PGD)** is treated with **GPi-DBS**, which has become the standard of care for DYT1-positive dystonia (TORIA gene, previously DYT1, autosomal dominant, early-onset generalised dystonia) and other primary generalised dystonias. The landmark trial is **Vidailhet et al. (NEJM 2005)**: 22 patients with primary generalised dystonia randomised (crossover) to GPi-DBS vs sham stimulation — active stimulation achieved **mean 51% reduction in Burke-Fahn-Marsden Dystonia Rating Scale (BFMDRS) motor score** vs 10% with sham (P=0.009) at 3 months. Long-term follow-up at 5 years (Vidailhet 2007): 60% BFMDRS improvement maintained. Key difference from PD: dystonia responds more slowly to GPi-DBS (weeks to months vs hours to days for PD) — patients must be counselled not to judge outcomes at 1-2 weeks post-programming."
+        },
+        {
+          "type": "table",
+          "title": "DBS Outcomes for Movement Disorders",
+          "headers": ["Condition", "Target", "Outcome Measure", "Typical Improvement", "Key Trial"],
+          "rows": [
+            ["Parkinson's disease", "STN or GPi", "UPDRS motor (off state), dyskinesia, OFF time", "50-80% UPDRS motor improvement, 4h more ON time/day", "EARLYSTIM (NEJM 2013); VA/NINDS (JAMA 2009)"],
+            ["Essential tremor", "VIM", "Tremor rating scale (TRS)", "60-90% tremor reduction contralateral", "Koller WC et al. NEJM 1997; Benabid AL 1987 (original)"],
+            ["Primary generalised dystonia (DYT1)", "GPi", "BFMDRS motor score", "51-60% at 3-60 months (response slow)", "Vidailhet M et al. NEJM 2005"],
+            ["Cervical dystonia", "GPi", "TWSTRS (Toronto Western Spasmodic Torticollis Rating Scale)", "50-70% improvement", "Ostrem JL et al. 2011 — Level II evidence"],
+            ["Tourette syndrome", "CM-PF thalamus or GPi or ALIC", "YGTSS (Yale Global Tic Severity Scale)", "50-70% tic reduction", "Multiple case series (Level IV evidence)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Dystonia DBS Latency — Counsel for Slow Response",
+          "content": "PD responds to DBS within hours to days (dopaminergic circuit modulation). Dystonia responds over WEEKS to MONTHS. This latency is characteristic and clinically important — patients with primary generalised dystonia who do not see immediate benefit after DBS programming must be counselled to wait 3-6 months before assessing efficacy. Early dissatisfaction and premature requests for explantation are preventable with pre-operative education. The Vidailhet trial (NEJM 2005) showed continuing improvement from 3 to 12 months with continued stimulation."
+        }
+      ]
+    },
+    {
+      "id": "D2-S5",
+      "title": "DBS for Neuropsychiatric Disorders: OCD, Depression, and Tourette",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Obsessive-Compulsive Disorder (OCD)**: DBS targeting the **ventral capsule/ventral striatum (VC/VS)** or **anterior limb of the internal capsule (ALIC)** received FDA Humanitarian Device Exemption (HDE) approval in 2009 for treatment-resistant OCD (defined as failure of ≥3 medication trials including ≥1 SSRI + CBT + ≥1 augmentation strategy). The FDA approval is based on the multicenter trial showing >35% reduction in Y-BOCS (Yale-Brown Obsessive Compulsive Scale) in 47% of patients at 3-year follow-up — an Investigational Device Exemption study of 26 patients with severe OCD (mean Y-BOCS 34/40). DBS of VC/VS modulates the cortico-striato-thalamo-cortical (CSTC) loop, reducing hyperactivity in the anterior cingulate cortex and orbitofrontal cortex. Stimulation side effects: hypomania, anxiety — these are typically managed by parameter adjustments.\n\n**Treatment-Resistant Depression (TRD)**: DBS targeting the **subgenual cingulate cortex (SCC, Brodmann Area 25)** was pioneered by Mayberg et al. (2005, Neuron) showing 60% response rate in 6/6 patients at 6 months — a striking initial finding. However, the **BROADEN trial** (large sham-controlled RCT, n=90) failed to meet its primary endpoint at 6 months (response: 20% active vs 17% sham, P=NS), leading to early termination of industry-sponsored trials. Current evidence: open-label case series show 40-60% response rates (>50% Hamilton Depression score reduction) at 2 years with SCC-DBS, but the negative RCT means SCC-DBS remains experimental, not approved. Other targets under investigation: **VCVS** (same target as OCD, antidepressant effect observed), **medial forebrain bundle (MFB)** — rapid-onset antidepressant effect in small series.\n\n**Tourette Syndrome (TS)**: DBS for severe, treatment-refractory Tourette syndrome (motor and phonic tics causing significant impairment, failed ≥3 medication trials, failure of CBIT behavioural therapy) targets **CM-PF thalamic complex** (most studied) or **GPi** (internal segment). A small but growing body of evidence (ESSTS registry, multiple centres) shows 50-70% reduction in Yale Global Tic Severity Scale (YGTSS) in selected patients. There is no FDA/CE approved DBS indication for TS — it remains investigational and compassionate use. Patient selection requires multidisciplinary team with psychiatry, neurology, and neurosurgery involvement, with minimum age typically 25 years (given the natural history of tics improving with age in many patients)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "DBS for Depression — Failed RCT",
+          "content": "The BROADEN trial (Holtzheimer PE et al. Lancet Psychiatry 2017): double-blind RCT of SCC-DBS for TRD (n=90) — primary endpoint not met (20% vs 17% response at 6 months, P=NS). This failure led to termination of industry sponsorship for SCC-DBS research. Despite multiple promising open-label series (Mayberg 2005: 6/6 responded; Kennedy 2011: 41% at 6 years), the RCT does not support SCC-DBS as standard of care. DBS for TRD remains EXPERIMENTAL — it is only offered in research protocols at specialised centres."
+        }
+      ]
+    },
+    {
+      "id": "D2-S6",
+      "title": "Complications, Programming, and Long-Term Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "DBS complications can be classified as surgical, hardware-related, and stimulation-related. **Surgical complications**: intracranial haemorrhage (symptomatic in 1-3%, most commonly along the electrode trajectory through the putamen); seizures (1-2%, usually self-limiting); infection at lead entry, burr hole, or IPG site (3-5%); pneumocephalus (common, usually asymptomatic); incorrect target placement (requires revision in ~5-10%).\n\n**Hardware complications**: lead migration (1-3% — confirmed by fluoroscopy, may require revision); lead fracture or connector failure (3-5%); IPG battery depletion (rechargeable IPGs: every 15-25 years; non-rechargeable: every 2-5 years depending on stimulation parameters — patient must understand battery monitoring); skin erosion over IPG or leads (1-2%).\n\n**Stimulation-induced side effects** depend on electrode location and spread to adjacent structures: STN stimulation → paraesthesiae (medial spread to sensory thalamus/internal capsule), eye deviation (spread to CN III fascicles), dysarthria, stimulation-induced dyskinesia; GPi stimulation → corticospinal tract effects (capsular spread: sustained muscle contraction), phosphenes (optic tract stimulation); VIM stimulation → paraesthesiae, ataxia, dysarthria (bilateral). **Neuropsychiatric side effects** of STN-DBS: impulsivity (reduced dopaminergic medication can trigger impulse control disorders), hypomania, anxiety, depression. Suicide risk: meta-analysis shows 0.45% suicide completion rate post-DBS (higher than background PD population) — screening for depression and suicidality is mandatory pre-operatively.\n\n**Adaptive (closed-loop) DBS** represents the next generation: sensing of local field potentials (LFPs) at the DBS electrode detects beta-band oscillations (13-30 Hz, pathological in PD), then modulates stimulation delivery in response. **Percept PC** (Medtronic) and **Summit RC+S** (Medtronic research device) enable LFP sensing. Early clinical trials show adaptive DBS reduces cumulative stimulation time by 40-60% while maintaining equivalent motor outcomes, potentially reducing side effects and extending battery life. This is an emerging technology not yet standard clinical practice."
+        },
+        {
+          "type": "table",
+          "title": "DBS Complications — Summary",
+          "headers": ["Category", "Complication", "Incidence", "Management"],
+          "rows": [
+            ["Surgical", "Symptomatic intracranial haemorrhage", "1-3%", "CT immediately; supportive; may require evacuation"],
+            ["Surgical", "Infection (IPG/leads)", "3-5%", "IV antibiotics; often requires hardware explantation"],
+            ["Surgical", "Lead misplacement", "5-10%", "Revision surgery under stereotactic guidance"],
+            ["Hardware", "Battery depletion (non-rechargeable IPG)", "Per schedule", "IPG replacement (outpatient, local anaesthesia)"],
+            ["Hardware", "Lead fracture/migration", "1-5%", "Plain radiograph; revision if symptomatic"],
+            ["Stimulation", "Capsular/pyramidal stimulation (tonic contraction)", "Common (adjustable)", "Reduce amplitude, adjust contact selection"],
+            ["Stimulation", "STN psychiatric effects (hypomania, impulsivity)", "5-15%", "Reduce stimulation; adjust medications; psychiatric support"],
+            ["Stimulation", "VIM-bilateral ataxia/dysarthria", "10-20%", "Reduce amplitude; interleaving stimulation"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "MRI Safety with DBS — Important Restrictions",
+          "content": "MRI in DBS patients requires careful safety protocols. Risks: radiofrequency heating of DBS leads causing brain tissue injury or electrode damage. Current recommendations: 1.5T MRI only in most DBS systems (newer systems approved for 3T MRI under specific conditions); transmit RF coils must be limited (head coil for brain, local coil for extremities if leads do not extend to that area); SAR (specific absorption rate) must be kept below manufacturer thresholds. DBS must typically be turned OFF before MRI, then reprogrammed post-MRI. This is a critical patient safety issue — all DBS patients should carry an identification card listing their implanted device."
+        }
+      ]
+    },
+    {
+      "id": "D2-S7",
+      "title": "Focussed Ultrasound Thalamotomy and Emerging DBS Targets",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**MRI-guided focused ultrasound (MRgFUS) thalamotomy** for essential tremor represents a significant paradigm shift in functional neurosurgery — it achieves the equivalent of a surgical thalamic lesion (VIM thalamotomy) without craniotomy or implanted device. The ExAblate Neuro system (InSightec) delivers focused acoustic energy through the intact skull via 1024 ultrasound transducers, converging at the VIM under continuous MRI thermometry guidance. A thermal lesion (3-5 mm diameter) is created at 55-60°C. The FDA approval (2016) was based on the pivotal trial (Elias WJ et al. NEJM 2016, n=76): **unilateral VIM-MRgFUS thalamotomy improved tremor rating score by 47% vs placebo (P<0.001) at 3 months**; 62% were tremor-free on the treated side at 3 months. Effect is permanent (unlike DBS which can be adjusted) — this is both an advantage (no device management) and a disadvantage (side effects cannot be reversed). Side effects: paraesthesiae/numbness (38%), gait disturbance (36%), usually transient; permanent neurological deficits in ~5-10%.\n\nLimitations of MRgFUS: (1) **Unilateral only** — bilateral VIM thalamotomy causes ataxia and dysarthria; patients with severe bilateral tremor have limited benefit; (2) **Skull density ratio (SDR) ≥0.45 required** — poor bone density/porosity (common in elderly) prevents adequate focusing; approximately 25-30% of ET patients are ineligible on skull density basis; (3) **Not applicable to PD** — does not improve bradykinesia; STN DBS remains standard for PD motor complications.\n\n**Emerging DBS targets**: (1) **Fornix DBS** for Alzheimer's disease — Phase II trial (ADvance trial, Lozano 2016): at 12 months, 40% of patients with higher baseline metabolic activity showed slower cognitive decline vs placebo in post-hoc analysis; inconclusive results; further trials ongoing; (2) **Lateral hypothalamus (LH)** for refractory obesity — preclinical evidence; early Phase I trials; (3) **Nucleus accumbens** for addiction; (4) **Pedunculopontine nucleus (PPN)** for PD gait/freezing of gait — limited efficacy in controlled trials; (5) **Centromedian thalamus (CM)** for epilepsy — SANTE trial (AAN 2010): CM-DBS reduced seizure frequency by 40.4% vs 14.5% sham at 3 months in refractory focal epilepsy."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "MRgFUS Pivotal Trial — Elias 2016 NEJM",
+          "content": "Elias WJ et al. (NEJM 2016): 76 essential tremor patients randomised to unilateral VIM MRgFUS thalamotomy vs sham procedure. Primary endpoint: tremor rating score at 3 months. Active treatment: 47% improvement vs 0.1% placebo (P<0.001). 62% tremor-free on treated side. Key: PERMANENT lesion, UNILATERAL only. Common side effects: sensory disturbances 38%, gait disturbance 36% (mostly transient). Contraindication: skull density ratio <0.45."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of deep brain stimulation with 20 board-style questions covering DBS targets, circuit physiology, surgical technique, outcomes, and key trials.",
+    "questions": [
+      {
+        "id": "D2-Q1",
+        "stem": "A 58-year-old man with Parkinson's disease has been well controlled on levodopa/carbidopa for 10 years but now has 4-5 hours daily of OFF time and medication-induced dyskinesias. UPDRS motor score is 52 in OFF state and 18 in ON state (65% improvement). He has no cognitive impairment (MoCA 28/30). He is referred for DBS evaluation. What is the MOST important predictor of a good STN-DBS outcome?",
+        "options": {
+          "A": "Age less than 60 years at the time of DBS implantation",
+          "B": "Duration of PD less than 5 years before DBS surgery",
+          "C": "Good levodopa response (>30% UPDRS improvement with levodopa challenge)",
+          "D": "Absence of dyskinesias before surgery"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The levodopa challenge (UPDRS motor score in off state vs post-levodopa on state) is the single most reliable predictor of STN-DBS outcome. DBS of the STN produces its motor benefit through the same downstream pathway as levodopa — reducing excessive GPi inhibition of the thalamus. Therefore, symptoms that respond to levodopa will respond to STN-DBS; symptoms that don't respond to levodopa (axial symptoms, freezing of gait, falls, speech) will also not respond to DBS. This patient's 65% UPDRS improvement with levodopa far exceeds the 30% threshold for DBS candidacy — indicating excellent prognosis. EARLYSTIM trial showed best DBS outcomes with good levodopa response regardless of age.",
+          "wrong": {
+            "A": "Age <60 is a selection criterion that identified the EARLYSTIM population, but it is not the most important predictor. Older patients (>65-70) can still achieve excellent DBS outcomes if they have good levodopa response and no cognitive impairment. Age alone is not the primary predictor.",
+            "B": "PD duration <5 years is not a DBS criterion — the EARLYSTIM trial enrolled patients with mean 7.3 years of disease who had early motor complications. Duration is less important than levodopa responsiveness and cognitive status.",
+            "D": "The presence or absence of pre-existing dyskinesias does not predict DBS outcome. In fact, dyskinesia is one of the primary INDICATIONS for DBS, not a contraindication. Patients WITH significant dyskinesias are among the best candidates."
+          },
+          "guideline": "AAN DBS Guidelines for PD (2018) and MDS Guidelines (2020): levodopa challenge test is mandatory for DBS candidacy assessment; ≥30% UPDRS motor improvement = positive challenge = DBS candidate. Response to levodopa is the best predictor of DBS outcome.",
+          "trial": "Welter ML et al. Clinical predictive factors of subthalamic stimulation in Parkinson's disease. Brain 2002;125:575-583: multivariate analysis of DBS outcome predictors — levodopa response (% UPDRS improvement) was the strongest independent predictor of motor outcome at 12 months (r=0.7, P<0.001).",
+          "pearl": "Most important DBS predictor: LEVODOPA RESPONSE (>30% UPDRS motor improvement = good candidate). 'DBS is the surgical equivalent of your best levodopa day, every day.' Symptoms not helped by levodopa (gait freezing, falls, dysarthria, dementia) will not be helped by DBS. Perform levodopa challenge pre-op as mandatory assessment.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D2-Q2",
+        "stem": "The EARLYSTIM trial (Schuepbach et al. NEJM 2013) challenged the traditional 'last resort' approach to DBS in PD by demonstrating benefit in younger patients with early motor complications. What was the primary outcome of this trial?",
+        "options": {
+          "A": "UPDRS motor score improvement at 24 months — DBS achieved 70% improvement vs 20% medical",
+          "B": "PDQ-39 quality of life score — STN-DBS improved QoL by 7.8 points vs medical group which worsened by 0.2 points at 24 months",
+          "C": "OFF time reduction — DBS reduced daily OFF time by 4.6 hours vs no change in medical group",
+          "D": "Cognitive outcomes — DBS patients had significantly better MoCA scores at 24 months"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EARLYSTIM (Schuepbach et al. NEJM 2013) primary outcome was the PDQ-39 (Parkinson's Disease Questionnaire-39) quality of life score. At 24 months: STN-DBS group improved PDQ-39 by 7.8 points (PDQ-39 range 0-100, higher = worse QoL); medical group worsened by 0.2 points. Between-group difference: 8 points (P<0.001). This finding demonstrated that QoL benefit of STN-DBS extended to younger patients (mean age 52, mean disease duration 7.3 years) with early but significant motor complications, challenging the 'reserve DBS for end-stage disease' approach.",
+          "wrong": {
+            "A": "The 70% vs 20% UPDRS improvement data are not from EARLYSTIM. The primary outcome of EARLYSTIM was PDQ-39 (QoL), not UPDRS. UPDRS motor improvements were secondary outcomes.",
+            "C": "The 4.6 hours OFF time reduction is from the VA/NINDS trial (Weaver et al. JAMA 2009), not EARLYSTIM. EARLYSTIM's primary outcome was PDQ-39 QoL.",
+            "D": "EARLYSTIM did not show cognitive benefit — cognitive outcomes were secondary and showed non-significant differences. Cognitive safety (no significant decline) was demonstrated, but this was not the primary outcome. The PDQ-39 QoL was the primary endpoint."
+          },
+          "guideline": "AAN DBS Guidelines (2018): EARLYSTIM cited as Level I evidence supporting DBS in younger PD patients (<60 years) with early motor complications; QoL is the primary measure — DBS improves QoL significantly vs best medical therapy.",
+          "trial": "Schuepbach WMM et al. Neurostimulation for Parkinson's Disease with Early Motor Complications (EARLYSTIM). NEJM 2013;368:610-622: PDQ-39 primary outcome; STN-DBS -7.8 vs medical -0.2 at 24 months (P<0.001). Motor complications: DBS 59% response vs medical 19%.",
+          "pearl": "EARLYSTIM (NEJM 2013): primary outcome = PDQ-39 QoL; STN-DBS +7.8 improvement vs medical -0.2 (P<0.001). Key message: DBS improves QoL in YOUNGER patients with early motor complications — not just end-stage disease. Mean age 52, mean disease 7.3 years. Extended DBS candidacy to earlier-stage patients.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q3",
+        "stem": "A 70-year-old patient with Parkinson's disease and mild cognitive impairment (MoCA 22/30) requires surgery for disabling dyskinesias and 5 hours/day OFF time. He has a history of depression (currently stable on sertraline). Both STN and GPi targets are being considered. Which target is PREFERRED in this patient, and why?",
+        "options": {
+          "A": "STN — allows greater medication reduction, simplifying management",
+          "B": "GPi — safer cognitive profile and direct dyskinesia suppression, preferred in patients with cognitive impairment and depression",
+          "C": "VIM — best target for elderly patients with tremor-predominant PD",
+          "D": "STN — elderly patients require higher stimulation amplitude, making GPi less effective"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "GPi-DBS is preferred over STN-DBS in patients with: (1) pre-existing cognitive impairment (mild to moderate — MoCA <24 indicates relative caution with STN which has greater neuropsychiatric risk); (2) history of depression (STN stimulation is associated with depression risk; GPi is safer); (3) prominent dyskinesias (GPi provides direct dyskinesia suppression, not just indirect via medication reduction); (4) elderly patients (>70) — older patients tolerate the neuropsychiatric effects of STN worse and benefit less from the medication reduction advantage. Motor outcomes are equivalent between STN and GPi.",
+          "wrong": {
+            "A": "STN does allow greater medication reduction, which is beneficial in cognitively intact younger patients. However, the medication reduction in STN patients can trigger impulsivity and neuropsychiatric complications in cognitively vulnerable patients. For THIS patient (MoCA 22, depression history), GPi is the safer choice.",
+            "C": "VIM targets TREMOR only — it does not improve bradykinesia, rigidity, or OFF time, and does not address dyskinesia. This patient's primary problems are OFF time and dyskinesias — VIM would not help these.",
+            "D": "GPi efficacy is not reduced in elderly patients. Stimulation amplitude may be higher for GPi, but this is a manageable technical consideration, not a contraindication. The cognitive/psychiatric safety profile, not the stimulation amplitude, determines the target choice."
+          },
+          "guideline": "AAN DBS Guidelines for PD (2018): GPi preferred over STN in patients with depression, neuropsychiatric history, mild cognitive impairment, or prominent dyskinesias. STN preferred in cognitively intact younger patients with high medication burden.",
+          "trial": "Follett KA et al. Pallidal versus Subthalamic Deep-Brain Stimulation for Parkinson's Disease (VA COMPARE). NEJM 2010;362:2077-2091: STN vs GPi equivalence for motor outcomes; GPi group had significantly better cognitive outcomes and fewer neuropsychiatric adverse events at 24 months.",
+          "pearl": "STN vs GPi DBS selection rule: young + cognitively intact + high medication burden → STN. Elderly + cognitive impairment + depression + dyskinesia-predominant → GPi. Motor outcomes equivalent. Key differences: STN = medication reduction + neuropsychiatric risk; GPi = direct dyskinesia suppression + safer cognitive/psychiatric profile.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q4",
+        "stem": "DBS is absolutely CONTRAINDICATED in which of the following Parkinson's disease presentations?",
+        "options": {
+          "A": "Age 68 years with moderate PD, motor fluctuations, and mild dyskinesias — MoCA 26",
+          "B": "Age 52 years with early motor complications, 3 hours daily OFF time, UPDRS motor 50% levodopa response",
+          "C": "Age 60 years with PD, progressive postural instability, falls, dysarthria, and poor levodopa response (only 15% UPDRS improvement)",
+          "D": "Age 55 years with PD tremor-predominant, excellent levodopa response, intact cognition, and depressive episode currently treated with SSRI"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Poor levodopa response (15% UPDRS improvement, well below the 30% threshold) combined with prominent axial symptoms (postural instability, falls, dysarthria) that don't respond to levodopa suggests either atypical parkinsonism (MSA, PSP) or advanced PD with features that will not respond to DBS. DBS produces its benefit through the same dopaminergic pathway as levodopa — symptoms that don't respond to levodopa will not respond to DBS. Proceeding with DBS in this patient would likely result in no motor benefit and expose the patient to surgical risks. The levodopa challenge <30% improvement is a contraindication.",
+          "wrong": {
+            "A": "Age 68 with moderate PD and mild cognitive impairment (MoCA 26, above the threshold) is a reasonable candidate. Age >65 is a relative consideration, not absolute contraindication. With MoCA 26 and good levodopa response (not stated to be poor), GPi-DBS would be considered.",
+            "B": "Age 52 with early motor complications and 50% levodopa response is precisely the EARLYSTIM population — this patient is an EXCELLENT candidate for STN-DBS. This is the paradigmatic indication.",
+            "D": "A depressive episode currently treated with SSRI is a relative consideration requiring psychiatric clearance before surgery. However, STABLE treated depression is not an absolute contraindication — it would be addressed during pre-surgical workup. Active untreated depression is a contraindication; stable medicated depression requires careful evaluation."
+          },
+          "guideline": "AAN DBS Guidelines (2018): absolute contraindications to DBS in PD — (1) poor levodopa response (<30% UPDRS improvement); (2) atypical parkinsonism (MSA, PSP, DLB, CBD); (3) significant dementia. Relative contraindications: age >75, MoCA <24, untreated psychiatric illness.",
+          "trial": "Weaver FM et al. VA/NINDS DBS Trial (JAMA 2009): patients with poor levodopa response were excluded from randomisation — retrospective analysis showed minimal DBS benefit in patients with <30% levodopa challenge response, confirming the contraindication.",
+          "pearl": "DBS contraindications in PD: (1) POOR LEVODOPA RESPONSE (<30% UPDRS improvement) = strongest contraindication; (2) ATYPICAL PARKINSONISM (MSA, PSP, DLB, CBD — do not respond to levodopa or DBS); (3) SIGNIFICANT DEMENTIA. DBS = surgical equivalent of levodopa — if levodopa doesn't work, DBS won't work.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q5",
+        "stem": "The Vidailhet NEJM 2005 trial established GPi-DBS as standard of care for primary generalised dystonia. What was the primary outcome measure and the magnitude of improvement at 3 months?",
+        "options": {
+          "A": "UPDRS Part III motor score — 50% improvement with active stimulation",
+          "B": "Burke-Fahn-Marsden Dystonia Rating Scale (BFMDRS) motor subscale — 51% improvement vs 10% sham at 3 months",
+          "C": "Toronto Western Spasmodic Torticollis Rating Scale — 60% improvement in cervical dystonia",
+          "D": "Yale Global Tic Severity Scale — 70% reduction in Tourette syndrome tics"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Vidailhet et al. (NEJM 2005) was a crossover RCT of GPi-DBS vs sham stimulation for primary generalised dystonia. Primary outcome: Burke-Fahn-Marsden Dystonia Rating Scale (BFMDRS) motor subscale (0-120 scale, higher = worse). At 3 months: active stimulation = 51% reduction in BFMDRS motor score vs 10% with sham stimulation (P=0.009). This double-blind crossover design (patients received both active and sham in random order) provided Level I evidence for GPi-DBS in primary generalised dystonia, particularly DYT1/TOR1A-positive cases.",
+          "wrong": {
+            "A": "UPDRS Part III is for Parkinson's disease — it was not used in the dystonia trial. The BFMDRS is the standard outcome for generalised dystonia.",
+            "C": "TWSTRS (Toronto Western) is for CERVICAL dystonia specifically — not generalised dystonia. The Vidailhet trial used BFMDRS for generalised dystonia.",
+            "D": "Yale Global Tic Severity Scale (YGTSS) is for Tourette syndrome — not dystonia. This answer confuses the disorder and measurement scale."
+          },
+          "guideline": "AAN DBS Guidelines and MDS Dystonia Task Force (2017): GPi-DBS is established treatment for primary generalised dystonia with Level I evidence (Vidailhet 2005). BFMDRS is the standard outcome measure. DYT1-positive dystonia shows best outcomes.",
+          "trial": "Vidailhet M et al. Bilateral Deep-Brain Stimulation of the Globus Pallidus in Primary Generalized Dystonia. NEJM 2005;352:459-467: crossover RCT n=22; BFMDRS improvement 51% active vs 10% sham at 3 months (P=0.009). Long-term 5-year follow-up (Vidailhet 2007): 60% BFMDRS improvement sustained.",
+          "pearl": "GPi-DBS for primary generalised dystonia: BFMDRS 51% improvement vs 10% sham (Vidailhet NEJM 2005). KEY difference from PD: dystonia response is SLOW (weeks-months vs hours-days for PD). Counsel patients to wait 3-6 months before judging outcome. DYT1-positive (TOR1A gene) = best outcomes (~65% improvement at 1 year).",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q6",
+        "stem": "A patient with essential tremor has bilateral 8-Hz postural and kinetic hand tremors causing severe disability. VIM DBS is planned. What is the anatomical basis for VIM DBS efficacy in essential tremor?",
+        "options": {
+          "A": "VIM inhibits the striatum, reducing dopamine-mediated tremor oscillations",
+          "B": "VIM is the thalamic relay of cerebellar (dentato-thalamo-cortical) input; its stimulation interrupts tremor oscillations propagating to the motor cortex",
+          "C": "VIM stimulation blocks the thalamo-cortical relay of basal ganglia output, stopping dopamine deficiency-related tremor",
+          "D": "VIM is adjacent to the ventral posterior lateral (VPL) nucleus and stimulation of sensory thalamus produces proprioceptive feedback that suppresses tremor"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Essential tremor arises from abnormal oscillatory activity in the cerebellar-thalamo-cortical loop. The cerebellum generates oscillatory discharge (via the dentate nucleus → inferior olivary nucleus → cerebellum positive feedback loop) that is transmitted via the superior cerebellar peduncle → decussation → contralateral VIM thalamus → motor cortex → tremor expression. VIM is the specific thalamic nucleus that relays cerebellar input to the motor cortex. High-frequency VIM DBS (130-185 Hz) disrupts these oscillations at the thalamic relay, preventing transmission to the motor cortex and interrupting the tremor circuit. This is distinct from PD tremor, which involves abnormal basal ganglia oscillations in the beta band.",
+          "wrong": {
+            "A": "VIM does not inhibit the striatum. The striatum receives input from the cerebral cortex and projects to GPi/GPe — it is not a relay target of VIM stimulation. Dopamine-mediated tremor is parkinsonian tremor, not essential tremor.",
+            "C": "VIM is NOT the thalamic relay for basal ganglia output — that is the role of the ventral anterior (VA) nucleus (GPi → VA → premotor cortex) and ventral lateral (VL) nucleus. VIM specifically relays cerebellar input. Essential tremor is not related to dopamine deficiency.",
+            "D": "VPL is the sensory thalamic relay (somatosensory cortex input). While VPL is anatomically adjacent to VIM, DBS is targeted to VIM specifically for tremor suppression via the cerebellar relay — not through VPL-mediated proprioceptive feedback."
+          },
+          "guideline": "AAN DBS Guidelines (2018): VIM DBS for medication-refractory essential tremor — Level A evidence. VIM is the thalamic relay for cerebellar dentato-thalamic input; stimulation interrupts cerebellar tremor oscillation propagation.",
+          "trial": "Benabid AL et al. Long-term suppression of tremor by chronic stimulation of the ventral intermediate thalamic nucleus. Lancet 1991;337:403-406 — original description of VIM DBS for ET; tremor suppression in 90% acutely, 74% at mean 22 months. Foundation of modern DBS therapy.",
+          "pearl": "VIM DBS mechanism: essential tremor = cerebellar-thalamo-cortical loop oscillations (NOT basal ganglia). VIM = cerebellar (dentate nucleus) thalamic relay → motor cortex. VIM DBS interrupts this relay. Important: VIM DBS helps TREMOR ONLY — does NOT improve bradykinesia or rigidity (unlike STN/GPi). Bilateral VIM = dysarthria risk.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q7",
+        "stem": "During awake STN DBS implantation with microelectrode recording, what is the characteristic firing pattern of the subthalamic nucleus (STN), and how does it differ from the substantia nigra pars reticulata (SNr) below it?",
+        "options": {
+          "A": "STN = low-frequency burst firing (5-10 Hz); SNr = high-frequency tonic firing (~90 Hz)",
+          "B": "STN = high-frequency irregular discharge (20-50 Hz, 'cicada' pattern); SNr = high-frequency regular tonic firing (~70-90 Hz)",
+          "C": "STN = complete electrical silence; SNr = irregular discharge at 30-40 Hz",
+          "D": "STN = identical firing to GPi (~90 Hz); SNr = silent zone representing the entry into midbrain"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The STN produces a characteristic high-frequency, irregular discharge at 20-50 Hz with high amplitude (approximately 200-400 μV spikes) — described as 'irregular' or 'noisy' with a quality resembling the sound of cicadas or frying eggs. This dense, irregular activity contrasts with the area above the STN (zona incerta: lower frequency, less dense) and below it. The SNr (substantia nigra pars reticulata) below the STN produces a distinctive REGULAR, high-frequency tonic firing at approximately 70-90 Hz — more regular and less 'noisy' than STN. Entering the SNr from the STN is identified by the transition to this more regular high-frequency pattern. This MER 'sound map' guides electrode placement.",
+          "wrong": {
+            "A": "Low-frequency burst firing (5-10 Hz) is characteristic of the ventrolateral thalamus or zona incerta above the STN — not the STN itself. STN fires at 20-50 Hz, not 5-10 Hz.",
+            "C": "The STN is not electrically silent — it is one of the most active nuclei in the brain. Electrical silence during electrode descent indicates entry into an electrically inactive white matter tract (internal capsule, ansa lenticularis), not STN.",
+            "D": "GPi and STN have different firing patterns — GPi fires at ~90 Hz (similar to SNr) while STN fires at 20-50 Hz with a characteristic irregular noisy pattern. Confusing these would lead to incorrect electrode placement."
+          },
+          "guideline": "AAN DBS Guidelines (2018): microelectrode recording is used to confirm STN placement by its characteristic neuronal firing pattern; macrostimulation confirms therapeutic window (tremor/rigidity improvement) and side effect profile (capsular spread, eye deviation).",
+          "trial": "Benazzouz A et al. Responses of substantia nigra pars reticulata and globus pallidus complex to high frequency stimulation of the subthalamic nucleus in rats: electrophysiological data. Neurosci Lett 1995;189:77-80 — foundational electrophysiological mapping of basal ganglia firing patterns in primate/rodent models used for MER protocol development.",
+          "pearl": "MER sound map for STN DBS: Zona incerta (above STN) = lower frequency, irregular; STN = high-frequency IRREGULAR 'cicada' sound (20-50 Hz, 200-400 μV); SNr (below STN) = high-frequency REGULAR tonic firing (70-90 Hz). The transition from STN irregular to SNr regular firing marks the inferior STN boundary. Target: dorsal STN (motor territory).",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D2-Q8",
+        "stem": "MRI-guided focused ultrasound (MRgFUS) thalamotomy was FDA-approved for essential tremor based on the Elias NEJM 2016 trial. What is the MAIN LIMITATION of MRgFUS compared with VIM DBS?",
+        "options": {
+          "A": "Lower tremor suppression rate — DBS achieves 90% vs MRgFUS achieves only 40%",
+          "B": "MRgFUS creates a permanent, irreversible unilateral lesion — it cannot be adjusted or performed bilaterally safely",
+          "C": "MRgFUS requires general anaesthesia while DBS is performed awake",
+          "D": "MRgFUS has a higher rate of intracranial haemorrhage than DBS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The main limitation of MRgFUS thalamotomy compared with VIM DBS is that the lesion is PERMANENT and IRREVERSIBLE — it cannot be adjusted if side effects occur, cannot be turned off, and cannot be changed if symptoms progress. Furthermore, bilateral MRgFUS thalamotomy is not performed due to the high risk of bilateral ataxia and dysarthria from bilateral VIM lesioning. Therefore, patients with BILATERAL disabling tremor can only treat one side with MRgFUS, while bilateral VIM DBS (with careful programming) is feasible (albeit with increased dysarthria risk). Additionally, approximately 25-30% of patients are ineligible due to insufficient skull density ratio for adequate ultrasound focusing.",
+          "wrong": {
+            "A": "Both VIM DBS and MRgFUS achieve equivalent tremor suppression rates (~60-75% complete tremor suppression, ~85-90% significant improvement). The tremor outcomes are comparable — the key differences are invasiveness, reversibility, and bilateral applicability.",
+            "C": "DBS is performed awake with local anaesthesia; MRgFUS is performed awake (the patient is alert to report symptoms during targeting — this is actually a key feature of MRgFUS). Neither requires general anaesthesia in standard practice.",
+            "D": "MRgFUS carries NO risk of intracranial haemorrhage — it is completely non-invasive (no needles, no incisions, no hardware). DBS has a 1-3% haemorrhage risk from electrode placement. If anything, MRgFUS has LESS haemorrhage risk than DBS."
+          },
+          "guideline": "AAN DBS Guidelines (2018): VIM DBS preferred for bilateral tremor, for patients who may need stimulation adjustment, or for patients wishing to preserve future revision options. MRgFUS preferred for unilateral tremor, patients declining implanted hardware, or inadequate surgical candidates.",
+          "trial": "Elias WJ et al. A Randomized Trial of Focused Ultrasound Thalamotomy for Essential Tremor. NEJM 2016;375:730-739: 47% tremor improvement vs placebo (P<0.001); 62% tremor-free at 3 months; permanent lesion with 36% gait disturbance (mostly transient).",
+          "pearl": "MRgFUS vs VIM DBS: equivalent tremor suppression; MRgFUS = permanent irreversible, unilateral only, no hardware; VIM DBS = adjustable, reversible, bilateral possible (risk of dysarthria). Key MRgFUS limitations: permanent lesion (cannot adjust), unilateral (bilateral risk), skull density ratio ≥0.45 required (25-30% ineligible). MRgFUS preferred for unilateral tremor + surgery-averse patients.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q9",
+        "stem": "DBS for OCD received FDA Humanitarian Device Exemption (HDE) approval in 2009. Which target is FDA-approved, and what pre-requisites define treatment-resistant OCD for DBS candidacy?",
+        "options": {
+          "A": "Nucleus accumbens (NAc) — failure of 2 SSRI trials",
+          "B": "Ventral capsule/ventral striatum (VC/VS) — failure of 3+ medication trials including ≥1 SSRI + CBT + augmentation strategy",
+          "C": "Subgenual cingulate cortex (SCC) — failure of 3 SSRI trials without augmentation",
+          "D": "Anterior thalamic nucleus — failure of surgical lesioning (cingulotomy) only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The FDA Humanitarian Device Exemption (HDE) for OCD DBS (2009) approved the VC/VS (ventral capsule/ventral striatum) target, which encompasses the anterior limb of the internal capsule (ALIC) and ventral striatum (anterior caudate, nucleus accumbens). OCD DBS candidacy requires: (1) severe treatment-resistant OCD (Y-BOCS ≥28 indicating severe disease); (2) failure of ≥3 medication trials including ≥1 SSRI AND ≥1 augmentation strategy (antipsychotic, clomipramine, or another SSRI/SNRI); (3) failure of adequate CBT (specifically ERP — Exposure and Response Prevention); and (4) multidisciplinary evaluation by psychiatry, psychology, and neurosurgery.",
+          "wrong": {
+            "A": "Nucleus accumbens is within the VC/VS target region — it is partially stimulated with VC/VS electrodes. However, the FDA-approved target is designated as VC/VS, not NAc specifically. Also, 2 SSRI trials alone is insufficient — ≥3 trials + CBT + augmentation are required.",
+            "C": "SCC (Area 25) is the target for treatment-resistant DEPRESSION, not OCD. The BROADEN trial failed to show SCC-DBS efficacy for depression. VC/VS is the FDA-approved target for OCD.",
+            "D": "Anterior thalamic nucleus (ATN) is the SANTE trial target for EPILEPSY — not OCD. Prior surgical lesioning is not a prerequisite for DBS candidacy for OCD."
+          },
+          "guideline": "FDA HDE approval 2009 for OCD DBS (VC/VS target): indications — severe chronic OCD (Y-BOCS ≥28) + failure of ≥3 medications + CBT + multidisciplinary evaluation. NICE UK: not yet recommended routinely — clinical research protocols only.",
+          "trial": "Greenberg BD et al. Three-year outcomes in deep brain stimulation for highly resistant obsessive-compulsive disorder. Neuropsychopharmacology 2010;35:880-888: FDA HDE study — 26 patients, VC/VS DBS; 47% achieved clinical response (>35% Y-BOCS reduction) at 3 years; mean Y-BOCS reduction 34%.",
+          "pearl": "OCD DBS: target = VC/VS (ventral capsule/ventral striatum = ALIC + ventral striatum); FDA HDE approved 2009. Candidacy: severe OCD (Y-BOCS ≥28) + ≥3 failed medications (including ≥1 SSRI) + failed CBT/ERP + augmentation failure. Response: 47% at 3 years. Stimulation-induced hypomania is a known side effect requiring parameter adjustment.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q10",
+        "stem": "A PD patient with bilateral STN DBS requires a brain MRI for evaluation of a new neurological complaint. What is the key safety consideration and protocol?",
+        "options": {
+          "A": "MRI is absolutely contraindicated — all DBS patients must have CT only",
+          "B": "1.5T MRI with specific SAR limits and device turned OFF is appropriate if the DBS system is MRI-conditional at 1.5T",
+          "C": "3T MRI is preferred for DBS patients due to better resolution with lower RF energy",
+          "D": "The DBS must be explanted before any MRI scan can be performed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MRI in DBS patients is possible but requires strict protocol adherence. Current evidence: most DBS systems are labelled MRI-conditional (not MRI-safe) — they can be scanned under specific conditions. Standard protocol: (1) turn DBS OFF before MRI entry; (2) confirm specific MRI system requirements (transmit coil type, SAR limits); (3) 1.5T MRI is approved for most DBS systems — 3T requires specific approved systems (newer Medtronic, Abbott, Boston Scientific systems may allow 3T); (4) use head transmit-receive RF coil only for brain imaging; (5) physiological monitoring during scan; (6) reprogram DBS after MRI. The specific MRI conditions are manufacturer-specific — always consult the device's MRI guidelines.",
+          "wrong": {
+            "A": "MRI is NOT absolutely contraindicated — most modern DBS systems are MRI-conditional (not contraindicated) at 1.5T. Older DBS systems (pre-2015) may have more restrictive labelling. CT does not provide the soft tissue resolution often needed for neurological evaluation.",
+            "C": "3T MRI is NOT preferred for DBS patients — higher field strength increases RF energy deposition and heating risk around leads. 1.5T is the standard approved field strength for most DBS systems. Some newer systems allow 3T under strict conditions.",
+            "D": "Explantation before MRI is not required for MRI-conditional systems. Explantation would be an extreme measure reserved for situations where MRI is urgently needed and the specific DBS system is labelled as contraindicated (some older systems). Explantation has significant risks and is not justified when appropriate 1.5T MRI protocol can be used."
+          },
+          "guideline": "Medtronic DBS MRI Guidelines (2020): 1.5T MRI approved under specific conditions (SAR limits, coil restrictions, device OFF, monitoring). NICE NG71 (2017): DBS patients should carry MRI safety information card. AAN DBS Guidelines (2018): MRI-conditional protocols required for all DBS imaging.",
+          "trial": "Bhidayasiri R et al. MRI Safety in DBS patients: A systematic review. Parkinsonism Relat Disord 2015;21:1093-1108: analysis of reported adverse events with MRI in DBS patients — heating events reported with non-compliant protocols; no serious events with 1.5T protocol-compliant imaging.",
+          "pearl": "DBS + MRI protocol: (1) turn device OFF; (2) 1.5T MRI only (most systems); (3) SAR within limits; (4) transmit RF head coil; (5) monitoring during scan; (6) reprogram after. 3T MRI: only for specific newer approved systems. Patient must carry DBS identification card with MRI safety information. Non-compliant MRI = risk of lead heating, brain injury, and device damage.",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D2-Q11",
+        "stem": "The BROADEN trial tested SCC-DBS (subgenual cingulate cortex, Area 25) for treatment-resistant depression. What was the result, and what is the current status of SCC-DBS?",
+        "options": {
+          "A": "BROADEN was positive — SCC-DBS is FDA-approved for TRD",
+          "B": "BROADEN failed to meet its primary endpoint — SCC-DBS remains experimental",
+          "C": "BROADEN showed delayed benefit — SCC-DBS FDA-approved with a 12-month trial period",
+          "D": "BROADEN showed cognitive harm — SCC-DBS is absolutely contraindicated"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The BROADEN trial (St. Jude Medical/Abbott) was a double-blind sham-controlled RCT of SCC-DBS for TRD (n=90). Primary endpoint: 50% reduction in Hamilton Depression Rating Scale (HDRS) at 6 months (response rate). Result: Active DBS = 20% response vs sham = 17% response (P=NS). The trial was stopped early for futility. Consequently, SCC-DBS does NOT have FDA approval and remains strictly experimental, only offered within IRB-approved research protocols. This negative RCT occurred despite multiple compelling open-label series (Mayberg 2005: 6/6 responded; Kennedy 2011: 57% at 6 years) — highlighting the risk of publication bias in open-label surgical trials.",
+          "wrong": {
+            "A": "SCC-DBS is NOT FDA-approved. The BROADEN trial failed, preventing approval. Only VNS (vagus nerve stimulation) has FDA approval for treatment-resistant depression (adjunctive therapy).",
+            "C": "BROADEN did not show 'delayed benefit' — it showed non-significant results at 6 months and was stopped for futility. There is no 12-month approval or delayed benefit pathway.",
+            "D": "BROADEN did not show cognitive harm — it showed no significant benefit vs sham, not harm. SCC-DBS is not 'absolutely contraindicated'; it is experimental and only offered in research protocols."
+          },
+          "guideline": "AAN Neuromodulation Guidelines (2019): SCC-DBS for TRD — insufficient evidence for routine use; remains experimental. FDA: not approved. Research use only in registered clinical trials.",
+          "trial": "Holtzheimer PE et al. Subcallosal cingulate deep brain stimulation for treatment-resistant depression (BROADEN). Lancet Psychiatry 2017;4:91-101: n=90, double-blind, sham-controlled; response at 6 months: 20% active vs 17% sham (P=NS); trial stopped early for futility. Contrast with open-label: Mayberg (2005) 6/6 responded; Kennedy (2011) 57% at 6 years.",
+          "pearl": "BROADEN trial: SCC-DBS for TRD = NEGATIVE RCT (20% vs 17% response, P=NS). Despite promising open-label data (Mayberg 2005), the blinded trial failed. SCC-DBS remains EXPERIMENTAL. This case illustrates the problem with unblinded surgical trials — open-label series dramatically overestimate benefit vs controlled trials.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q12",
+        "stem": "A PD patient who underwent bilateral STN DBS 2 years ago presents with recurrence of right-sided tremor and rigidity. The DBS device is functioning (confirmed by telemetry), stimulation parameters are unchanged, and levodopa dose is unchanged. The most likely explanation is:",
+        "options": {
+          "A": "Lead fracture causing device failure",
+          "B": "PD disease progression — increased dopaminergic deficit overwhelming the therapeutic effect",
+          "C": "IPG battery depletion causing inadequate stimulation delivery",
+          "D": "Lead migration moving the electrode away from the optimal STN target"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PD is a progressive neurodegenerative disease. STN DBS provides sustained benefit for motor fluctuations and dyskinesias but does NOT halt disease progression. Over years, progressive dopamine depletion, spread of Lewy body pathology to other systems, and development of non-dopaminergic features (falls, gait freezing, dysarthria, autonomic dysfunction, cognitive decline) erode DBS benefit. At 5-10 years post-DBS, the majority of patients require medication adjustments and progressive stimulation reprogramming to maintain benefit. This clinical scenario — confirmed functioning device, unchanged parameters, gradually returning symptoms — is consistent with disease progression rather than hardware failure.",
+          "wrong": {
+            "A": "Lead fracture would cause an acute complete loss of benefit (not gradual return) and would be detectable on device telemetry (impedance changes) or plain radiography. The question states device is functioning on telemetry — fracture is less likely.",
+            "C": "IPG battery depletion would cause the device to turn off completely, producing an abrupt return of all PD symptoms (not just right-sided). Modern DBS devices alert via programmer before complete depletion. Telemetry confirms functioning device.",
+            "D": "Lead migration is an acute event causing sudden change in benefit or new stimulation-induced side effects. It occurs in the first weeks to months post-implantation, not 2 years later when tissue has stabilised around the electrode. Gradual symptom return over 2 years in a functioning device is disease progression."
+          },
+          "guideline": "AAN DBS Guidelines (2018): long-term DBS follow-up — disease progression is expected; regular reprogramming, medication adjustment, and management of non-motor features required. 10-year outcomes: Deuschl G et al. 2013 — STN-DBS benefits sustained for motor features but disease continues to progress; axial symptoms (gait, balance, speech) worsen with disease, not addressable by DBS.",
+          "trial": "Deuschl G et al. A randomized trial of deep-brain stimulation for Parkinson's disease. NEJM 2006;355:896-908 (DBS PD study): long-term 5-year data (Weaver 2012): motor improvements sustained but additional symptom progression expected as disease advances. Annualized motor decline ~1% per year despite optimal DBS.",
+          "pearl": "DBS does NOT stop PD progression — it manages motor complications. Long-term issues: disease progression (especially axial symptoms — freezing, dysarthria, falls) override DBS benefit; non-motor features (dementia, psychosis, autonomic) emerge over time; regular reprogramming required. Gradual symptom return in functioning device = disease progression, not hardware failure.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q13",
+        "stem": "During STN DBS programming in a PD patient, increasing stimulation amplitude from 1.5V to 3.5V causes right-sided eye deviation (gaze to the right) and right-sided lip twitching. What structure is being stimulated by spread of the electrical field?",
+        "options": {
+          "A": "Right optic tract — visual hallucinations from direct optic pathway stimulation",
+          "B": "Third cranial nerve (CN III) fascicles or corticobulbar fibres in the adjacent internal capsule",
+          "C": "Left STN — current spreading to the contralateral subthalamic nucleus",
+          "D": "Caudate nucleus — spread of stimulation to adjacent striatocortical fibres"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Eye deviation and lip twitching with increasing STN stimulation amplitude indicates spread of the electrical field to the nearby posterior limb of the internal capsule (specifically corticobulbar and corticospinal fibres) or, for eye deviation, stimulation of the adjacent mesial temporal lobe structures or oculomotor pathways including CN III fascicles (oculomotor nerve courses near the STN-substantia nigra region). The STN sits medial to the internal capsule — at higher amplitudes, current spreads medially and posteriorly to recruit capsular fibres, producing contralateral tonic deviation of gaze and facial twitching. This side effect defines the upper limit of the therapeutic window — the amplitude must be reduced to below the threshold for these capsular effects.",
+          "wrong": {
+            "A": "The optic tract runs inferior to the STN but at some distance. Direct optic tract stimulation typically produces phosphenes (visual flashes), not conjugate eye deviation. Eye DEVIATION suggests motor pathway activation, not optic tract stimulation.",
+            "C": "The contralateral STN is separated by the third ventricle — current spread to the contralateral STN at clinical stimulation amplitudes is not plausible. Contralateral STN effects would produce ipsilateral (to the DBS electrode) motor effects, not contralateral.",
+            "D": "The caudate is anterior and superior to the STN — spread to the caudate at moderate amplitudes is unlikely given the anatomical distance. Caudate/striatal stimulation does not typically produce eye deviation or lip twitching at clinical amplitudes."
+          },
+          "guideline": "AAN DBS Programming Guidelines (2018): stimulation-induced side effects define the therapeutic window boundaries; internal capsule spread (eye deviation, tonic muscle contraction, paraesthesiae) occurs at amplitude above the therapeutic range — reduce amplitude or change contact selection.",
+          "trial": "Maks CB et al. Deep brain stimulation activation volumes and their association with neurophysiological mapping and therapeutic outcomes. J Neurol Neurosurg Psychiatry 2009;80:659-666: STN stimulation volume modelling — capsular side effects begin when activation volume reaches internal capsule posterior limb, typically at 2-4 mm from STN border.",
+          "pearl": "STN DBS stimulation-induced side effects by spread direction: Medial/posterior → internal capsule → tonic muscle contraction, eye deviation, face twitching (corticobulbar/corticospinal). Lateral → sensory thalamus → paraesthesiae. Anterior → limbic STN → hypomania, impulsivity. Define therapeutic window: minimum amplitude for benefit, maximum below side effects.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D2-Q14",
+        "stem": "The SANTE trial (Stimulation of the Anterior Nucleus of the Thalamus for Epilepsy, AAN 2010) tested DBS for refractory focal epilepsy. Which thalamic nucleus was the target, and what was the primary seizure reduction outcome?",
+        "options": {
+          "A": "VIM — 45% seizure reduction in temporal lobe epilepsy at 3 months",
+          "B": "Anterior thalamic nucleus (ATN) — 40.4% seizure reduction vs 14.5% sham at 3 months",
+          "C": "Centromedian thalamus (CM) — 60% seizure reduction in Lennox-Gastaut syndrome",
+          "D": "Pulvinar nucleus — 50% reduction in occipital lobe epilepsy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The SANTE trial (Fisher RS et al. Epilepsia 2010) randomised 110 patients with refractory partial epilepsy to ATN (anterior thalamic nucleus) DBS vs sham stimulation. Primary outcome at 3 months (blinded phase): ATN-DBS = 40.4% seizure reduction vs sham = 14.5% (P=0.002). The ATN modulates the Papez circuit (limbic loop: ATN → cingulate cortex → hippocampus → mammillary bodies → ATN) and is particularly effective for frontal and temporal lobe seizures. The ATN was chosen based on its central role in seizure propagation through limbic networks. FDA approved ATN DBS for epilepsy in 2018.",
+          "wrong": {
+            "A": "VIM is the tremor target — it is used for essential tremor and PD tremor, not epilepsy. VIM DBS has no significant anti-epileptic effect.",
+            "C": "CM (centromedian thalamus) was investigated for epilepsy separately (small trials in LGS) — it is not the SANTE trial target. The CM trial results are less robust than SANTE.",
+            "D": "Pulvinar nucleus for occipital epilepsy is an emerging experimental target, not the SANTE trial target. The pulvinar is under investigation for posterior cortex epilepsies."
+          },
+          "guideline": "FDA approved ATN DBS for epilepsy in 2018 (based on SANTE trial). AAN DBS Guidelines (2018): ATN-DBS as adjunctive treatment for refractory focal epilepsy in patients not candidates for resective surgery.",
+          "trial": "Fisher RS et al. Electrical stimulation of the anterior nucleus of thalamus for treatment of refractory epilepsy (SANTE). Epilepsia 2010;51:899-908: n=110, ATN-DBS vs sham; 40.4% vs 14.5% seizure reduction at 3 months (P=0.002). 5-year open-label: 69% median reduction, 16% seizure-free.",
+          "pearl": "SANTE trial: ATN-DBS for focal epilepsy; 40.4% seizure reduction vs 14.5% sham (P=0.002) at 3 months. ATN connects to Papez circuit → limbic-frontal-temporal seizure networks. FDA approved 2018. Compare with RNS (closed-loop, 60% at 6 years) — ATN-DBS is open-loop; RNS is preferred for bilateral MTLE or eloquent onset.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q15",
+        "stem": "Which statement about the direct and indirect pathways in the basal ganglia is CORRECT in the context of Parkinson's disease?",
+        "options": {
+          "A": "In PD, dopamine loss increases D1-mediated direct pathway activity, causing tremor",
+          "B": "In PD, reduced dopamine decreases D2 indirect pathway inhibition, leading to overactivity of the STN, excessive GPi inhibition of the thalamus, and bradykinesia/rigidity",
+          "C": "In PD, the direct pathway is overactive and the indirect pathway is underactive, causing hyperdopaminergic symptoms",
+          "D": "The direct pathway's net effect is suppression of thalamo-cortical activity, while the indirect pathway facilitates it"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In Parkinson's disease: dopamine loss in the striatum reduces (1) D1 striatal neuron excitation (less direct pathway activation → less thalamic disinhibition) AND (2) D2 striatal neuron inhibition by dopamine is removed → D2 neurons are disinhibited → increased activity through indirect pathway → increased STN activity (STN disinhibited by GPe) → excessive GPi excitation → excessive GPi inhibition of thalamus → REDUCED thalamo-cortical activation → bradykinesia and rigidity. The net effect is REDUCED thalamo-cortical drive, manifesting as the hypokinetic symptoms of PD.",
+          "wrong": {
+            "A": "PD reduces D1 pathway activity (fewer dopamine molecules to activate D1 receptors) — the direct pathway is DECREASED, not increased. Tremor is a separate mechanism (abnormal basal ganglia-cerebellar oscillations) not simply from increased direct pathway.",
+            "C": "PD causes HYPO-dopaminergic symptoms (bradykinesia, rigidity) — the 'hyperdopaminergic symptoms' (dyskinesia, psychosis) are caused by EXCESSIVE dopamine replacement therapy, not by PD pathology itself.",
+            "D": "This is the REVERSE of the correct pathway effects. The DIRECT pathway FACILITATES thalamo-cortical activity (disinhibits thalamus); the INDIRECT pathway SUPPRESSES thalamo-cortical activity (increases GPi inhibition of thalamus). The description in option D inverts these effects."
+          },
+          "guideline": "MDS Parkinson's Disease Guidelines (2020): pathophysiology review — D1/D2 pathway differential effects of dopamine depletion underlie hypokinetic symptoms. STN overactivity → GPi overactivity → thalamic suppression = central mechanism driving bradykinesia/rigidity in PD.",
+          "trial": "Bergman H et al. Reversal of experimental parkinsonism by lesions of the subthalamic nucleus. Science 1990;249:1436-1438 — landmark experiment demonstrating STN overactivity in MPTP primate PD model; STN lesioning (or later DBS) reverses parkinsonian motor deficit. Established STN as the primary DBS target.",
+          "pearl": "PD basal ganglia circuit: dopamine depletion → ↓D1 direct pathway (less thalamic disinhibition) + ↓D2 inhibition of indirect pathway → ↑STN → ↑GPi → ↑thalamic inhibition → ↓thalamo-cortical drive → BRADYKINESIA + RIGIDITY. STN-DBS reduces STN overactivity, restoring balance. GPi-DBS directly reduces GPi inhibition.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q16",
+        "stem": "What is the UNIQUE feature of closed-loop (adaptive) DBS compared with conventional open-loop DBS?",
+        "options": {
+          "A": "Adaptive DBS uses higher stimulation frequencies (>500 Hz) than conventional DBS",
+          "B": "Adaptive DBS continuously senses local field potentials (LFPs) at the electrode and adjusts stimulation parameters in real-time based on beta-band pathological activity",
+          "C": "Adaptive DBS stimulates multiple brain targets simultaneously rather than a single nucleus",
+          "D": "Adaptive DBS requires transcranial magnetic stimulation (TMS) as the stimulation modality"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Adaptive (closed-loop) DBS adds a sensing capability to conventional open-loop DBS. The system continuously records local field potentials (LFPs) from the implanted DBS electrode — in PD, pathological beta-band synchrony (13-30 Hz) is the biomarker of motor symptom severity. When beta power exceeds a threshold, stimulation is delivered; when beta power decreases (as during movement, with levodopa, or spontaneously), stimulation is reduced or stopped. This feedback loop — sense LFP → detect biomarker → deliver stimulation → reduce stimulation as symptom improves → sense again — can reduce cumulative stimulation time by 40-60% while maintaining equivalent motor outcomes and potentially reducing side effects.",
+          "wrong": {
+            "A": "Adaptive DBS does not use fundamentally different stimulation frequencies. The stimulation parameters when 'ON' are similar to conventional DBS (130-185 Hz). The key difference is the sensing and feedback mechanism, not the frequency.",
+            "C": "Most adaptive DBS systems stimulate a single target (STN or GPi) — the closed-loop feature refers to sensing and adjusting stimulation at the same target, not stimulating multiple targets simultaneously.",
+            "D": "Adaptive DBS uses the same implanted electrode for both sensing and stimulation — it does not use TMS. TMS is an entirely different technology (transcranial, non-invasive, temporary)."
+          },
+          "guideline": "AAN Emerging Technologies in DBS (2020): closed-loop/adaptive DBS represents the next generation of therapy; Percept PC (Medtronic) is FDA-approved for LFP sensing; clinical adaptive DBS algorithms under investigation.",
+          "trial": "Little S et al. Adaptive deep brain stimulation in advanced Parkinson disease. Ann Neurol 2013;74:449-457: proof-of-concept adaptive DBS — 50% stimulation time reduction with equivalent motor outcomes vs continuous DBS; beta suppression used as the biomarker. Rosa M et al. 2017: adaptive DBS reduces dyskinesia by limiting stimulation during high-beta periods.",
+          "pearl": "Adaptive/closed-loop DBS: senses LFP beta-band power (13-30 Hz in PD) → stimulates when above threshold → reduces stimulation as beta decreases. Advantages: 40-60% less cumulative stimulation, potentially fewer side effects, longer battery life. Current status: Percept PC allows sensing; full adaptive algorithm still under investigation. The future of DBS.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D2-Q17",
+        "stem": "A 45-year-old woman with DYT1-positive primary generalised dystonia undergoes bilateral GPi DBS. At 1-week post-DBS programming, her family calls concerned that the dystonia has not improved at all. How should this be managed?",
+        "options": {
+          "A": "Immediately increase stimulation to maximum amplitude — 1 week of standard stimulation is inadequate",
+          "B": "Explant the DBS system and consider pallidotomy as an alternative",
+          "C": "Counsel the patient and family that dystonia responds slowly over weeks to months — reassess at 3-6 months",
+          "D": "Confirm lead placement accuracy with MRI and perform urgent reprogramming to a different contact"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The cardinal feature of GPi-DBS for dystonia is its SLOW response time compared with PD. While PD improves within hours to days, dystonia requires weeks to months for full response. Pre-operative counselling about this latency is essential. The mechanism of this delayed response involves plastic changes in cortical motor maps, adaptation of the basal ganglia circuit, and possibly changes in muscle tone through slow neuromodulatory mechanisms. At 1 week, no meaningful improvement is expected — the family should be reassured and reassessment planned at 3-6 months. The Vidailhet trial showed continuing improvement from 3 to 12 months.",
+          "wrong": {
+            "A": "Immediately maximising amplitude at 1 week is premature and risks stimulation-induced side effects (capsular stimulation, dysarthria, dystonic worsening at extreme amplitudes). Parameters should be adjusted gradually and conservatively — no escalation is needed at this early stage.",
+            "B": "Explantation at 1 week for lack of immediate response is completely unjustified. One week is far too early to judge DBS efficacy for dystonia. Pallidotomy has equivalent outcomes to GPi-DBS but is irreversible — a premature decision at 1 week.",
+            "D": "MRI and urgent reprogramming at 1 week are not indicated unless there are specific concerns about lead placement (e.g., new neurological symptoms, stimulation-induced side effects suggesting incorrect target). Absence of benefit at 1 week is EXPECTED for dystonia and does not indicate lead misplacement."
+          },
+          "guideline": "MDS Dystonia Task Force (2017): GPi-DBS response in primary generalised dystonia — onset 4-12 weeks; full response at 6-12 months; patients must be counselled that immediate improvement is NOT expected. Response latency is diagnostic — absence of improvement at 1-2 weeks does not indicate treatment failure.",
+          "trial": "Vidailhet M et al. NEJM 2005 follow-up (Vidailhet 2007, JAMA Neurology): improvement continues from 3 months to 12 months to 5 years with ongoing stimulation. The time course of improvement is a distinguishing feature of dystonia vs PD DBS response.",
+          "pearl": "Dystonia DBS latency: response WEEKS to MONTHS (NOT hours-days like PD). Pre-operative counselling is CRITICAL to prevent premature explantation. Reassess at 3-6 months, not 1 week. Continue standard programming — no emergency escalation needed for lack of 1-week response. DYT1-positive: best outcomes; cervical dystonia: faster response (~weeks); generalised: slowest response (~months).",
+          "difficulty": 1
+        }
+      },
+      {
+        "id": "D2-Q18",
+        "stem": "STN-DBS in a PD patient is associated with which of the following NEUROPSYCHIATRIC risks compared with GPi-DBS?",
+        "options": {
+          "A": "Lower risk of depression and anxiety — STN reduces medication burden, improving mood",
+          "B": "Higher risk of depression, hypomania, impulsivity, and emotional lability — caution in patients with pre-existing psychiatric conditions",
+          "C": "Equivalent neuropsychiatric risk — no difference between STN and GPi",
+          "D": "STN specifically causes dementia — avoid in patients over 65"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "STN-DBS carries greater neuropsychiatric risk than GPi-DBS, likely because: (1) the STN has limbic sub-territories (ventromedial STN) adjacent to the motor dorsolateral target — stimulation of limbic STN mediates emotional effects; (2) the large reduction in dopaminergic medications after STN-DBS (50-60% levodopa reduction) can precipitate depression, anxiety, and apathy (dopaminergic medications contribute to positive mood effects via mesolimbic pathways); (3) inadvertent limbic STN stimulation causes hypomania, impulsivity (impulse control disorders), and emotional lability. The VA COMPARE trial (NEJM 2010) showed significantly higher rates of neuropsychiatric adverse events in the STN group vs GPi group.",
+          "wrong": {
+            "A": "This is incorrect — STN-DBS is associated with HIGHER risk of depression and psychiatric complications, not lower. While some patients improve in mood with seizure reduction in other conditions, PD patients on STN-DBS frequently develop apathy and depression as dopaminergic medications are reduced.",
+            "C": "The VA COMPARE trial specifically showed UNEQUAL neuropsychiatric risk — GPi had significantly fewer psychiatric adverse events. STN and GPi do NOT have equivalent neuropsychiatric profiles.",
+            "D": "STN-DBS does NOT specifically cause dementia. Both STN and GPi are associated with a small decline in verbal fluency (~10%) but this is not dementia. Dementia in DBS patients reflects underlying PD progression (Lewy body spread), not the DBS itself."
+          },
+          "guideline": "AAN DBS Guidelines (2018): STN-DBS — screen for pre-existing depression, anxiety, and impulse control disorders; GPi preferred in patients with psychiatric comorbidities. VA COMPARE trial evidence for differential neuropsychiatric profiles.",
+          "trial": "Follett KA et al. VA COMPARE Trial. NEJM 2010;362:2077-2091: STN-DBS vs GPi-DBS — motor outcomes equivalent; GPi patients had significantly fewer neuropsychiatric adverse events; STN patients required more psychiatric support visits.",
+          "pearl": "STN vs GPi neuropsychiatric risk: STN = HIGHER risk of depression, hypomania, impulsivity (due to limbic STN sub-territory and medication reduction). GPi = safer psychiatric profile. VA COMPARE confirms: equivalent motor outcomes but GPi safer neuropsychiatrically. Apply this to patient selection: psychiatric history → prefer GPi.",
+          "difficulty": 2
+        }
+      },
+      {
+        "id": "D2-Q19",
+        "stem": "A patient with advanced Parkinson's disease post-bilateral STN DBS develops frequent falls, severe hypophonic speech, and freezing of gait. He has been functioning well with DBS for 5 years — these new symptoms began gradually over the past 18 months. DBS device is functioning normally. Stimulation parameters and medications are optimised. What is the most likely explanation for these specific symptoms?",
+        "options": {
+          "A": "Lead migration causing the electrode to leave the therapeutic STN target",
+          "B": "Disease progression affecting non-dopaminergic systems (pedunculopontine nucleus, noradrenergic brainstem) — these symptoms are poorly responsive to DBS or dopaminergic therapy",
+          "C": "Inadequate stimulation — increase amplitude significantly",
+          "D": "Medication over-dose causing gait instability — reduce levodopa by 50%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Freezing of gait, severe hypophonia, and falls in advanced PD represent disease progression into non-dopaminergic territory — specifically degeneration of the pedunculopontine nucleus (PPN) complex (cholinergic and glutamatergic neurons critical for gait initiation), locus coeruleus (noradrenergic), and other brainstem nuclei. These 'axial' symptoms are characteristically resistant to both dopaminergic medications and STN/GPi DBS, because they reflect neuronal loss in pathways OUTSIDE the dopaminergic basal ganglia circuit. This is the main limitation of long-term DBS — it cannot address the progressive non-dopaminergic degeneration. Gait rehabilitation, physiotherapy, and PPN-DBS (experimental) are explored for these refractory axial symptoms.",
+          "wrong": {
+            "A": "Lead migration is typically acute (first weeks to months) and would affect ALL dopaminergic symptoms, not just axial features. A gradually worsening axial syndrome over 18 months in a patient with functioning DBS and good limb response is disease progression, not lead migration.",
+            "C": "Increasing stimulation is not the answer for non-dopaminergic axial symptoms — higher amplitude would worsen side effects (capsular spread) without treating non-dopaminergic gait freezing. The axial symptoms are DBS-unresponsive.",
+            "D": "Reducing levodopa by 50% would worsen all PD symptoms including levodopa-responsive features. Levodopa over-dosage typically causes dyskinesia and peak-dose effects — not falls, hypophonia, and freezing."
+          },
+          "guideline": "MDS Parkinson's Disease Guidelines (2020): long-term DBS — axial symptoms (gait freezing, falls, speech) progress with disease and are poorly responsive to DBS or dopaminergic therapy; represent non-dopaminergic systems (PPN, LC) affected by later-stage PD.",
+          "trial": "Maier F et al. Subthalamic nucleus deep brain stimulation: a meta-analysis of antidepressant and anxiolytic effects. J Neurol Neurosurg Psychiatry 2013: long-term DBS data — motor complications (dyskinesia, fluctuations) remain well-controlled; axial symptoms (gait, speech, swallowing) progressively worsen and correlate with disease stage, not DBS parameters.",
+          "pearl": "DBS limitations in advanced PD: responds well to motor fluctuations + dyskinesias + non-axial tremor/rigidity. Does NOT respond: freezing of gait, falls, hypophonia, dysphagia, cognitive decline — these are NON-DOPAMINERGIC features of disease progression. When these dominate, disease has spread beyond the dopaminergic system. No DBS adjustment will help — focus on rehab and non-dopaminergic management.",
+          "difficulty": 3
+        }
+      },
+      {
+        "id": "D2-Q20",
+        "stem": "The ADvance trial investigated DBS of the FORNIX for Alzheimer's disease. What was the theoretical rationale, and what was the primary finding?",
+        "options": {
+          "A": "Fornix DBS enhances hippocampal neurogenesis — the trial showed 80% cognitive improvement at 12 months",
+          "B": "Fornix DBS drives activity through the Papez memory circuit — Phase II trial showed inconsistent results with possible benefit in a metabolically preserved subgroup; further trials needed",
+          "C": "Fornix DBS destroys amyloid plaques through electrical stimulation — confirmed by PET amyloid reduction",
+          "D": "Fornix DBS replaces lost cholinergic neurons — the trial showed equivalent benefit to donepezil"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ADvance trial (Lozano AM et al. JCI 2016) rationale: the fornix is the major output tract of the hippocampus, connecting it to the mammillary bodies and anterior thalamic nucleus within the Papez circuit. DBS of the fornix was hypothesised to 'drive' activity through this memory circuit, potentially enhancing hippocampal metabolism and slowing cognitive decline. Phase II results (n=42): the primary outcome (ADAS-Cog change at 12 months) was NOT significantly different from sham. However, a POST-HOC analysis found that patients with higher baseline FDG-PET cortical metabolism (a marker of less advanced neurodegeneration) showed SLOWER cognitive decline with active stimulation vs sham — raising the hypothesis that earlier-stage patients might benefit. The results were exploratory and INCONCLUSIVE — further trials are ongoing.",
+          "wrong": {
+            "A": "No clinical trial has shown 80% cognitive improvement in AD. This magnitude of effect does not exist in any current AD intervention. The ADvance trial showed largely inconclusive primary results.",
+            "C": "Fornix DBS does not destroy amyloid plaques. Electrical stimulation has no established mechanism for clearing amyloid pathology. PET amyloid reduction is not an established outcome in the ADvance trial.",
+            "D": "Fornix DBS does not replace cholinergic neurons (that would be cell transplantation) and was not compared with donepezil in the ADvance trial. Cholinergic basal forebrain (nucleus basalis of Meynert) is a separate experimental DBS target for AD."
+          },
+          "guideline": "AAN Emerging DBS Targets (2020): fornix DBS for AD — Phase II inconclusive; further larger trials required. Investigational only. Not standard clinical practice.",
+          "trial": "Lozano AM et al. A Phase II Study of Fornix Deep Brain Stimulation in Mild Alzheimer's Disease (ADvance). J Alzheimers Dis 2016;54:777-787: n=42 randomised; primary outcome ADAS-Cog NS. Post-hoc: higher baseline metabolism subgroup showed possible benefit at 12 months. Inconclusive — further Phase III trials required.",
+          "pearl": "ADvance trial: fornix DBS for Alzheimer's disease. Rationale: drive Papez circuit (hippocampus → fornix → mammillary bodies → ATN → cingulate → hippocampus). Result: primary outcome non-significant. Post-hoc: benefit possible in metabolically preserved (less advanced) patients. Status: EXPERIMENTAL, inconclusive. Metabolic baseline PET may guide future patient selection.",
+          "difficulty": 3
+        }
+      }
+    ]
+  }
+}
